@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.sqlite
+*.sqlite-*
+*.db
+.basic-memory/
+.obsidian/workspace*.json
+.env
+*.env
+*.pem
+*.key
+.backup-local/
