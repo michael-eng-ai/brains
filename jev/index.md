@@ -20,3 +20,4 @@ atualizado: 2026-09-24
 - [[environment]]: configuracao.
 - [[2026-09-24-laboratorio]]: sessao.
 - [[historico]]: continuidade.
+- [[2026-09-24-cerebro-compartilhado]]: segundo cerebro compartilhado.

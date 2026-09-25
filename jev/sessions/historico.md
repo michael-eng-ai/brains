@@ -13,3 +13,4 @@ atualizado: 2026-09-24
 ## Conexoes
 - [[index]]: mapa.
 - [[2026-09-24-laboratorio]]: sessao.
+- [[2026-09-24-cerebro-compartilhado]]: segundo cerebro compartilhado.

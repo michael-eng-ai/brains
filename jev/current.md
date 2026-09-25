@@ -8,14 +8,15 @@ atualizado: 2026-09-24
 
 # Estado atual
 
-Ultimo handoff: [[2026-09-24-laboratorio]].
+Ultimo handoff: [[2026-09-24-cerebro-compartilhado]].
 
-Laboratorio local implementado; 11 testes passaram apos ajustes. Navegador integrado validou demonstracao, erro sem chave, exportacao copiavel e layout desktop/celular. Qwen local gerou resposta de atendente em cerca de 4,2 segundos apos ajuste das instrucoes. Sem TYPESAFE_API_KEY, chamada Jev real pendente. Sem repositorio Git na pasta do projeto.
+Segundo cerebro local implementado e testado. Detalhes em [[jev-lab]]. Vinte testes passaram; duas LLMs locais foram chamadas com sucesso. Jev real ainda depende de chave. Projeto sem Git.
 
-Proximo passo: testar triagem real apos usuario configurar .env e reunir amostra independente em portugues para avaliar qualidade.
+Proximo passo: configurar Jev e avaliar sua contribuicao; importacao Markdown e MCP externo ainda sao possibilidades futuras.
 
 ## Conexoes
 - [[index]]: mapa.
 - [[jev-lab]]: arquitetura.
 - [[environment]]: configuracao.
-- [[2026-09-24-laboratorio]]: handoff.
+- [[2026-09-24-laboratorio]]: origem.
+- [[2026-09-24-cerebro-compartilhado]]: handoff atual.
