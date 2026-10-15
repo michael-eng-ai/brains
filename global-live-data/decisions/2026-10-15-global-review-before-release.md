@@ -24,3 +24,5 @@ Atualizacao posterior: futebol e cambio diario foram escolhidos para teste real 
 - [[current]] - Contexto e evidencia da revisao local.
 - [[project]] - Estado relacionado e evidencia de verificacao.
 - [[2026-10-15-football-fx-first]] - Contexto e evidencia do piloto real.
+
+- [[2026-10-15-publish-portal]] - Autorizacao e revisao de navegacao solicitadas antes do merge.

@@ -1,28 +1,26 @@
 ---
 tipo: "estado"
 projeto: "global-live-data"
-resumo: "Futebol e cambio reais prontos na previa local; publicacao da expansao pendente."
+resumo: "Portal com futebol/cambio publicado e verificado; main e CI sincronizados."
 tags: ["global-live-data", "estado"]
 atualizado: "2026-10-15"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-15-football-fx-pilot]].
+Ultimo handoff: [[2026-10-15-portal-release]].
 
-- Producao existente: https://global-live-data.vercel.app, ultima entrega registrada b6bbd5f em [[release-status]]. Esta etapa nao publicou alteracoes; main dispara Production.
-- Branch local codex/mobile-category-lab, commit b16718c8dfc1f09204707f133103347c1ed3007e, arvore limpa, sem push/PR/deploy.
-- O proprietario aprovou futebol e cambio diario primeiro, com teste real na previa antes de publicar: [[2026-10-15-football-fx-first]].
-- Previa http://127.0.0.1:3101/pt/lab, servidor iniciado em loopback. OpenLigaDB para Bundesliga/Champions League 2026/27 e Frankfurter para cinco moedas, EN/PT/ES. Dados comunitarios e referencias diarias, sem garantia de live. Detalhes em [[football-fx-pilot]].
-- Passaram lint/tipos/43 unidades/build/smoke, quatro e2e, gates pagina/API, probes reais e UI desktop/mobile. Correcao de arredondamento decimal confirmada. Sem falhas finais pendentes dos checks executados.
-- Proximo passo: avaliacao do proprietario sobre dados/apresentacao e escopo de eventual publicacao. Sem compra, nova chave, conta, assinatura ou autorizacao para publicar implicita.
-- Nao testados: dispositivos fisicos, Safari, partidas em andamento, carga/cache distribuido. Pendencias anteriores de identidade legal/retencao e auditoria dev-only permanecem; auditoria nao repetida.
+- Site: https://global-live-data.vercel.app/pt. Main remoto/local 84aab6e02c244818e76e0f3622af354855a37c0d; arvore limpa. PR #4 integrada; ambos os jobs da main CI 38825941909 passaram. Deployment Production Ready e probes em [[release-status]].
+- Home em cards com dados reais; futebol, cambio e natureza tem paginas internas. Links brutos retirados de resultados futebol/FX; creditos/metodologia preservados. Pedido de design e publicacao em [[2026-10-15-publish-portal]].
+- Futebol: duas competicoes europeias 2026/27. Cambio: cinco moedas, referencias diarias. Escopo global de audiencia, cobertura explicita. Cache compartilhado, datas e estados em [[football-fx-pilot]].
+- Validacao final local: 45 unidades, 18 rotas HTTP, sete e2e; QA desktop/mobile e dados reais hospedados passaram. Sem falha final pendente nos checks executados.
+- Nao testados: Safari, aparelhos fisicos, carga/request rate distribuido. Proximo passo proposto: medir cache/custos e recolher avaliacao do portal antes de ampliar categorias. Nenhum monitor agendado.
+- Outras categorias e Trends automatico continuam locais/planejados; nao ativar novas fontes, contas ou gastos sem escopo apropriado. Pendencias anteriores de identidade legal/retencao e auditoria dev-only continuam registradas; nao foram objeto desta entrega.
 
 ## Conexoes
-- [[index]] - Mapa do projeto.
-- [[release-status]] - Evidencia da producao existente.
-- [[2026-10-15-football-fx-pilot]] - Handoff mais recente.
-- [[football-fx-pilot]] - Dados, cobertura e limites.
-- [[2026-10-15-football-fx-first]] - Escolha aprovada para teste.
-- [[2026-10-15-global-review-before-release]] - Revisao antes de publicar.
-- [[validation-workflow]] - Checks e limites.
+- [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
+- [[index]] - Estado para retomada.
+- [[release-status]] - Estado para retomada.
+- [[football-fx-pilot]] - Estado para retomada.
+- [[validation-workflow]] - Estado para retomada.
+- [[2026-10-15-publish-portal]] - Estado para retomada.

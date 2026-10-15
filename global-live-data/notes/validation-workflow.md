@@ -34,6 +34,14 @@ Commit b16718c: npm run check passou lint sem warning, tipos, 43 unidades, build
 
 QA interativo 1280px desktop e 390/320px mobile, EN/PT/ES: filtro/competicao, resultados mais recentes, expandir 36 e recolher, bases USD/EUR/BRL, alvos USD/JPY, zero/campo vazio, conversao decimal e consulta manual. Sem erro de aplicacao, overlay ou overflow final. Arredondamento observado 279.92 foi corrigido e verificado como 279.93. Evidencias temporarias /tmp/global-live-data-review/pilot-fx-desktop.jpg e pilot-football-mobile.jpg. Nao houve teste de partida em andamento, dispositivo fisico, Safari ou carga.
 
+## Portal publicado (2026-10-15)
+
+Revisao final b51dda9, integrada como 84aab6e02c244818e76e0f3622af354855a37c0d: lint/tipos, 45 unidades, build, smoke com 18 paginas e sete e2e Chromium passaram. Os testes cobrem cards de dados, ativacao por teclado, paginas internas, fontes sem links externos nos resultados novos, lingua, cidade antiga redirecionada, zero/ausencia/falha e conversor decimal. Ajustes de locators e contagem de paineis apos a separacao foram corrigidos; nenhum check final falhou.
+
+CI da PR 38825723767 e main 38825941909 passaram ambos os jobs. Probes reais locais e hospedados sao separados dos fixtures; resultados em [[release-status]]. Screenshot inicial portal-before.jpg e evidencias publicadas portal-published-desktop.jpg / portal-published-fx-mobile.jpg em /tmp/global-live-data-review, fora do Git. Nenhum screenshot de conta/contato ou corpo bruto de fornecedor foi incluido aqui.
+
+Limites: Safari, dispositivos fisicos, partidas em andamento e carga distribuida nao testados; auditoria de dependencias nao repetida. Logs do navegador da aplicacao nao mostraram erro relevante. Conector Vercel retornou 403 no escopo correto; sem CLI instalada, dashboard autenticado confirmou o deploy. Nao repetir o mesmo conector sem mudanca de acesso.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -46,3 +54,4 @@ QA interativo 1280px desktop e 390/320px mobile, EN/PT/ES: filtro/competicao, re
 - [[release-status]] - Estado relacionado e evidencia de verificacao.
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.
+- [[2026-10-15-portal-release]] - Handoff da publicacao do portal.

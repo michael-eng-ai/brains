@@ -16,9 +16,14 @@ Pontos de entrada: app/api/data/route.ts, lib/providers/index.ts, lib/providers/
 
 A aplicacao exige servidor Node. Exportacao puramente estatica nao suporta a API. vercel.json apenas descreve framework/install/build, sem comprovar criacao de projeto ou deploy.
 
+## Navegacao do portal
+
+components/portal.tsx fornece o panorama com requests paralelos e cards internos. Natureza saiu da raiz para /[lang]/nature; futebol e cambio tem paginas proprias. Fonte dos novos dados usa lib/public-feeds.ts sobre o servico testavel em lib/lab. detalhes em [[football-fx-pilot]]; UI e contrato no repositorio da PR #4.
+
 ## Conexoes
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[provider-cache]] - Cache do framework, cache por processo e timestamps diferentes.
 - [[public-contact]] - Contato publico separado do identificador MET e lacunas de privacidade.
 - [[repo-architecture-original]] - Copia da fonte docs/ARCHITECTURE.md.
+- [[football-fx-pilot]] - Direcao e implementacao atualizadas.

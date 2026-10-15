@@ -8,11 +8,23 @@ atualizado: "2026-10-15"
 
 # Estado da entrega
 
+## Entrega atual: portal com futebol e cambio
+
+PR #4 integrada com autorizacao em 2026-10-15T23:50:13Z: https://github.com/michael-eng-ai/global-live-data/pull/4. Main remoto e local: 84aab6e02c244818e76e0f3622af354855a37c0d, arvore limpa. A arvore corresponde exatamente ao head revisado b51dda988d2118171f592d8f04ae4a643ff2c70c. CI da PR 38825723767 e CI main 38825941909 passaram ambos os jobs. CI main: https://github.com/michael-eng-ai/global-live-data/actions/runs/38825941909.
+
+Vercel Production Ready observado no deployment dpl_EKrcT2YiZy8qJEKpgzMVUg8L8TM1, fonte main 84aab6e02c244818e76e0f3622af354855a37c0d, duracao exibida 32s, projeto global-live-data/time existente michael-eng-ais-projects. Dashboard: https://vercel.com/michael-eng-ais-projects/global-live-data/EKrcT2YiZy8qJEKpgzMVUg8L8TM1. URL unica: https://global-live-data-mbspqojmp-michael-eng-ais-projects.vercel.app. Publico: https://global-live-data.vercel.app/pt. Nenhuma mudanca de conta, permissao, custo contratado ou variavel.
+
+HTTP anonimo em 2026-10-15T23:51:45Z: 18 paginas EN/PT/ES passaram; data-dpl-id do alias corresponde ao deployment acima; CSP, no-store, entradas invalidas e 404 do lab passaram. Futebol ready: 27 partidas Bundesliga e 54 Champions League. Cinco bases FX ready, quatro taxas por base, referencias 2026-10-15. Repeticao e troca de base mantiveram o timestamp do futebol; USD manteve timestamp FX. Valores privados ausentes do JSON. Natureza: USGS ready com 191 registros e MET stale com 90 pontos, sinalizado como dado anterior. Sao snapshots observados, sem garantia continua.
+
+QA hospedado no navegador do aplicativo: portal -> futebol -> Champions League/encerrados -> portal -> cambio; EUR 250 para USD 279.93; troca PT/ES preservou pagina de cambio. Nenhum link externo no conteudo das paginas novas; metodologia interna conserva creditos. Desktop e mobile 390px sem overflow/overlay/erros de aplicacao. 320px local tambem aprovado. Nao foram feitos teste fisico/Safari/carga ou medicao global de requests. Detalhes do cache em [[football-fx-pilot]].
+
+## Historico da publicacao inicial
+
 Repositorio: https://github.com/michael-eng-ai/global-live-data
 
 PRs #1/#2 integradas previamente (fff8ff8 e 897f3f3). PR #3: https://github.com/michael-eng-ai/global-live-data/pull/3, merge autorizado em 2026-10-15T21:38:45Z, SHA 1bb5c669bcb612784c5960b85d28e4eb38c1dfa7. CI do merge: https://github.com/michael-eng-ai/global-live-data/actions/runs/38811443939, ambos os jobs success.
 
-Aplicacao permanece no ancestral funcional 97df008347f97873d7574b070c827cb4fbe45ec6. Recibo documental enviado a main como b6bbd5fb756cb44e896b53d6fc45f4c755a98b91; CI/deploy final registrados na sessao.
+Na entrega inicial, a aplicacao permanecia no ancestral funcional 97df008347f97873d7574b070c827cb4fbe45ec6. Recibo documental enviado a main como b6bbd5fb756cb44e896b53d6fc45f4c755a98b91; CI/deploy final registrados na sessao.
 
 CI 38812450760 passou ambos os jobs no SHA b6bbd5fb756cb44e896b53d6fc45f4c755a98b91; Vercel Production Ready no deployment dpl_3wnNHy7oBrGJEUMpEtRZgRr6nnef, confirmado no dashboard. URL unica: https://global-live-data-h38593lfs-michael-eng-ais-projects.vercel.app; alias publico continua https://global-live-data.vercel.app. CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38812450760. Deployment: https://vercel.com/michael-eng-ais-projects/global-live-data/3wnNHy7oBrGJEUMpEtRZgRr6nnef.
 
@@ -32,7 +44,7 @@ Verificacao final anonima em 2026-10-15T21:49:11Z: pagina PT HTTP 200 com data-d
 
 ## Verificacao mobile posterior
 
-Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430px foram confirmadas. Fluxos e resultados em [[validation-workflow]]. Isto supera somente a limitacao mobile acima; a sessao de lancamento permanece evidencia historica. O novo experimento de categorias esta local, sem alterar o deployment.
+Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430px foram confirmadas. Fluxos e resultados em [[validation-workflow]]. Isto supera somente a limitacao mobile acima; a sessao de lancamento permanece evidencia historica. Naquela etapa, o experimento de categorias permaneceu local. A entrega atual acima supera esse estado.
 
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
@@ -53,3 +65,7 @@ Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430
 
 - [[repo-handoff-original]] - Contexto relacionado e evidencia de retomada.
 - [[validation-workflow]] - Estado relacionado e evidencia de verificacao.
+
+- [[2026-10-15-publish-portal]] - Autorizacao e revisao de navegacao solicitadas antes do merge.
+- [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
+- [[project]] - Direcao e implementacao atualizadas.
