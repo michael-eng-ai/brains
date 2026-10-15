@@ -1,0 +1,97 @@
+---
+tipo: "moc"
+projeto: "global-live-data"
+resumo: "Mapa de conhecimento e entrada do projeto."
+tags: ["global-live-data", "moc"]
+atualizado: "2026-10-15"
+---
+
+# Global Live Data
+
+Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas notas; evidencias completas ficam nas fontes. O catalogo e gerado por graph.sh.
+
+## Fundamentos
+- [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
+- [[project]] - Objetivo de produto e limites das fases.
+- [[architecture]] - Mapa dos componentes e fronteiras do servidor.
+- [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
+- [[current]] - PRs #1/#2 integradas, PR #3 documental aberta e hospedagem nao verificada.
+
+## Conceitos
+- [[nature-portal]] - Produto implementado, idiomas e limites de informacao.
+- [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
+- [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
+- [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
+- [[provider-cache]] - Cache do framework, cache por processo e timestamps diferentes.
+- [[public-contact]] - Contato publico separado do identificador MET e lacunas de privacidade.
+- [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
+- [[validation-workflow]] - Checks locais e CI sem confundir fixtures com dados reais.
+- [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
+
+## Decisoes
+- [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
+- [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
+
+## Armadilhas
+- [[trap-runtime-selection]] - Diretorio node@24 nao prova que o executavel roda Node 24.
+- [[trap-env-preservation]] - Copia de exemplo pode apagar configuracao local ja autorizada.
+- [[trap-browser-production]] - Origin do HMR e restricoes antigas nao devem alterar CSP de producao.
+- [[trap-vercel-access]] - Conector, browser, formulario e deploy sao estados independentes.
+- [[trap-concurrent-github-changes]] - Estado remoto pode mudar enquanto testes e memoria estao em andamento.
+
+## Procedimentos
+- [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
+- [[resume-publication]] - Retomar hospedagem somente com nova instrucao e alvo confirmado.
+
+## Fontes
+- [[repo-agents-original]] - Copia da fonte AGENTS.md.
+- [[repo-readme-original]] - Copia da fonte README.md.
+- [[repo-handoff-original]] - Copia da fonte docs/HANDOFF.md.
+- [[repo-architecture-original]] - Copia da fonte docs/ARCHITECTURE.md.
+- [[repo-roadmap-original]] - Copia da fonte docs/ROADMAP.md.
+- [[repo-data-sources-original]] - Copia da fonte docs/DATA-SOURCES.md.
+- [[repo-deployment-original]] - Copia da fonte docs/DEPLOYMENT.md.
+- [[repo-dependencies-original]] - Copia da fonte docs/DEPENDENCIES.md.
+- [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
+
+## Sessoes
+- [[historico]] - Linha do tempo com evidencias e limites das sessoes.
+- [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
+
+Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
+
+## Conexoes
+- [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
+- [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
+- [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
+- [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
+- [[architecture]] - Mapa dos componentes e fronteiras do servidor.
+- [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
+- [[current]] - PRs #1/#2 integradas, PR #3 documental aberta e hospedagem nao verificada.
+- [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
+- [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
+- [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
+- [[historico]] - Linha do tempo com evidencias e limites das sessoes.
+- [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
+- [[nature-portal]] - Produto implementado, idiomas e limites de informacao.
+- [[project]] - Objetivo de produto e limites das fases.
+- [[provider-cache]] - Cache do framework, cache por processo e timestamps diferentes.
+- [[public-contact]] - Contato publico separado do identificador MET e lacunas de privacidade.
+- [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
+- [[repo-agents-original]] - Copia da fonte AGENTS.md.
+- [[repo-architecture-original]] - Copia da fonte docs/ARCHITECTURE.md.
+- [[repo-data-sources-original]] - Copia da fonte docs/DATA-SOURCES.md.
+- [[repo-dependencies-original]] - Copia da fonte docs/DEPENDENCIES.md.
+- [[repo-deployment-original]] - Copia da fonte docs/DEPLOYMENT.md.
+- [[repo-handoff-original]] - Copia da fonte docs/HANDOFF.md.
+- [[repo-readme-original]] - Copia da fonte README.md.
+- [[repo-roadmap-original]] - Copia da fonte docs/ROADMAP.md.
+- [[resume-publication]] - Retomar hospedagem somente com nova instrucao e alvo confirmado.
+- [[trap-browser-production]] - Origin do HMR e restricoes antigas nao devem alterar CSP de producao.
+- [[trap-concurrent-github-changes]] - Estado remoto pode mudar enquanto testes e memoria estao em andamento.
+- [[trap-env-preservation]] - Copia de exemplo pode apagar configuracao local ja autorizada.
+- [[trap-runtime-selection]] - Diretorio node@24 nao prova que o executavel roda Node 24.
+- [[trap-vercel-access]] - Conector, browser, formulario e deploy sao estados independentes.
+- [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
+- [[validation-workflow]] - Checks locais e CI sem confundir fixtures com dados reais.
+- [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
