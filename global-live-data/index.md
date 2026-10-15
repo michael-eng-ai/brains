@@ -15,9 +15,10 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - PR #3 integrada; site publicado na Vercel e validado com fontes reais.
+- [[current]] - Mobile publicado validado; previa global local aguardando avaliacao.
 
 ## Conceitos
+- [[category-research]] - Previa global, amostras reais e fontes candidatas.
 - [[nature-portal]] - Produto implementado, idiomas e limites de informacao.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
@@ -29,6 +30,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-15-global-review-before-release]] - Publico global e avaliacao antes de publicar expansao.
 - [[2026-10-15-authorize-publication]] - Autorizacao explicita de merge e publicacao.
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
 - [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
@@ -56,6 +58,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-15-mobile-category-lab]] - Mobile hospedado validado e previa local pronta.
 - [[2026-10-15-production-launch]] - Resultado verificado da publicacao.
 - [[historico]] - Linha do tempo com evidencias e limites das sessoes.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -69,7 +72,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - PR #3 integrada; site publicado na Vercel e validado com fontes reais.
+- [[current]] - Mobile publicado validado; previa global local aguardando avaliacao.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -97,3 +100,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
 - [[validation-workflow]] - Checks locais e CI sem confundir fixtures com dados reais.
 - [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
+- [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.
+- [[category-research]] - Contexto e evidencia da revisao local.
+- [[2026-10-15-global-review-before-release]] - Contexto e evidencia da revisao local.

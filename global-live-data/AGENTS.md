@@ -21,6 +21,8 @@ Leia index, current e a sessao mais recente; depois confira AGENTS.md e docs/HAN
 - Nao incluir novas integracoes, banco, IA, anuncios, contas ou custos sem escopo e autorizacao apropriados.
 - Documentacao do GitHub continua sendo o handoff portavel. Sincronizar este cerebro com commit/push apos salvar; declarar qualquer falha.
 
+Expansao atual: categorias globais autorizadas para pesquisa e previa local; avaliacao do proprietario antes de publicar. Nao reutilizar a autorizacao antiga da PR #3 para enviar a branch codex/mobile-category-lab.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[project]] - Objetivo de produto e limites das fases.

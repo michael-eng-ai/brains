@@ -30,6 +30,10 @@ Vercel overview mostrou Ready e 0% function error rate no momento inspecionado. 
 
 Verificacao final anonima em 2026-10-15T21:49:11Z: pagina PT HTTP 200 com data-dpl-id dpl_3wnNHy7oBrGJEUMpEtRZgRr6nnef; API 200, MET ready/90 pontos, USGS stale/190 eventos. Source/retrieval USGS avancou para 21:46:46Z; retrieval MET permaneceu 21:41:05Z. Confirma alias atualizado e dados evoluindo, nao disponibilidade continua.
 
+## Verificacao mobile posterior
+
+Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430px foram confirmadas. Fluxos e resultados em [[validation-workflow]]. Isto supera somente a limitacao mobile acima; a sessao de lancamento permanece evidencia historica. O novo experimento de categorias esta local, sem alterar o deployment.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -48,3 +52,4 @@ Verificacao final anonima em 2026-10-15T21:49:11Z: pagina PT HTTP 200 com data-d
 - [[2026-10-15-defer-publication]] - Contexto relacionado e evidencia de retomada.
 
 - [[repo-handoff-original]] - Contexto relacionado e evidencia de retomada.
+- [[validation-workflow]] - Estado relacionado e evidencia de verificacao.

@@ -16,6 +16,9 @@ atualizado: "2026-10-15"
 
 - 2026-10-15, 18:38:45 America/Fortaleza: PR #3 integrada por autorizacao direta; Production publicada e validada. Recibo documental b6bbd5f enviado a main; ver [[2026-10-15-production-launch]].
 
+- 2026-10-15: mobile publicado validado; previa global local no commit 5726aad, com 33 unidades/4 e2e aprovados e pesquisa de fontes. Sem nova publicacao; [[2026-10-15-mobile-category-lab]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
+- [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.

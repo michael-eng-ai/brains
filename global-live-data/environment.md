@@ -30,6 +30,15 @@ Para conectar outra maquina apos clonar brains: `~/brains/link.sh global-live-da
 
 Vercel: projeto global-live-data no time Pro existente michael-eng-ais-projects; ambas as variaveis de operador foram submetidas em Production/Preview. MET_USER_AGENT marcado sensivel. URL publica em [[release-status]].
 
+## Previa local de categorias
+
+| Variavel | Uso | Tipo/origem | Obrigatoria |
+| --- | --- | --- | --- |
+| GLD_ENABLE_LAB | app/[lang]/lab/page.tsx, lib/lab/schema.ts | Opt-in escolhido pelo mantenedor para revisao local; exemplo vazio | Apenas para a previa |
+| VERCEL | Mesma rota/gate | Indicador fornecido pelo host; sua presenca bloqueia a previa | Gerenciada pelo host |
+
+Sampler opcional em Python 3 standard library; snapshot no diretorio temporario do SO, fora do repositorio. TLS verificado com CA do sistema quando disponivel. Preview verificado com build/start, Node 24.22.0 e porta loopback 3101. Parar preview antes de rebuild/test:e2e para nao misturar outputs .next.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
@@ -39,3 +48,4 @@ Vercel: projeto global-live-data no time Pro existente michael-eng-ais-projects;
 - [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
 
 - [[release-status]] - Publicacao e configuracao hospedada verificadas.
+- [[category-research]] - Contexto e evidencia da revisao local.

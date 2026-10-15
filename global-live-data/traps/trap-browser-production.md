@@ -12,6 +12,8 @@ Historico documentado: host/origin do HMR em desenvolvimento causou HTTP 403 e a
 
 Nao enfraquecer CSP para o teste nem remover texto de leitor de tela para simplificar locators. Usar locators semanticos/escopados. Esta sessao executou quatro testes Chromium localmente com sucesso; nao perpetuar o bloqueio antigo como atual.
 
+Mobile: a tentativa de override na sessao de publicacao nao alterou a largura, mas a revisao posterior confirmou 320/390/430px no DOM. Medir viewport real e scrollWidth; nao inferir cobertura pelo pedido de dimensao. Resetar override temporario ao terminar.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[validation-workflow]] - Checks locais e CI sem confundir fixtures com dados reais.
