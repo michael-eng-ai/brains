@@ -20,6 +20,10 @@ Proposta de prioridade: avaliar futebol e cambio diario; depois cultura e eleico
 
 Previa local: http://127.0.0.1:3101/pt/lab enquanto o servidor estiver ativo. Opt-in por GLD_ENABLE_LAB; sempre 404 na Vercel; noindex; sem link na navegacao publica. scripts/sample-lab.py faz sete requests sequenciais com timeout e limite de resposta, sem polling; grava no diretorio temporario do SO, global-live-data-review/sample.json. lib/lab/load.ts le esse arquivo e normaliza no servidor. Nao colocar as amostras no Git nem usar fixtures como dados reais.
 
+## Evolucao posterior
+
+O proprietario escolheu futebol/cambio para teste real. A previa foi ampliada em b16718c com OpenLigaDB e Frankfurter; [[football-fx-pilot]] substitui as amostras antigas de FX/F1 como paineis ativos. A pesquisa acima continua historica. Publicacao pendente.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-global-review-before-release]] - Autorizacao e limite de publicacao.
@@ -29,3 +33,4 @@ Previa local: http://127.0.0.1:3101/pt/lab enquanto o servidor estiver ativo. Op
 - [[2026-10-15-mobile-category-lab]] - Handoff do experimento.
 - [[current]] - Contexto e evidencia da revisao local.
 - [[project]] - Estado relacionado e evidencia de verificacao.
+- [[football-fx-pilot]] - Contexto e evidencia do piloto real.

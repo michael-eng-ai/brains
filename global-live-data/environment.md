@@ -39,6 +39,8 @@ Vercel: projeto global-live-data no time Pro existente michael-eng-ais-projects;
 
 Sampler opcional em Python 3 standard library; snapshot no diretorio temporario do SO, fora do repositorio. TLS verificado com CA do sistema quando disponivel. Preview verificado com build/start, Node 24.22.0 e porta loopback 3101. Parar preview antes de rebuild/test:e2e para nao misturar outputs .next.
 
+O mesmo GLD_ENABLE_LAB agora protege app/api/lab/data/route.ts, alem da pagina. VERCEL bloqueia ambos. OpenLigaDB e Frankfurter nao exigem novas variaveis/chaves neste piloto. Nenhum valor novo foi escrito em .env.local. O servidor da previa foi reiniciado com Node 24 em loopback 3101, e os providers de natureza permaneceram fora dos probes do piloto.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
@@ -49,3 +51,4 @@ Sampler opcional em Python 3 standard library; snapshot no diretorio temporario 
 
 - [[release-status]] - Publicacao e configuracao hospedada verificadas.
 - [[category-research]] - Contexto e evidencia da revisao local.
+- [[football-fx-pilot]] - Contexto e evidencia do piloto real.

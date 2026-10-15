@@ -1,28 +1,28 @@
 ---
 tipo: "estado"
 projeto: "global-live-data"
-resumo: "Mobile publicado validado; previa global local pronta, aguardando avaliacao antes de publicar."
+resumo: "Futebol e cambio reais prontos na previa local; publicacao da expansao pendente."
 tags: ["global-live-data", "estado"]
 atualizado: "2026-10-15"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-15-mobile-category-lab]].
+Ultimo handoff: [[2026-10-15-football-fx-pilot]].
 
-- Producao: https://global-live-data.vercel.app, entrega b6bbd5f. PR #3/publicacao inicial concluidas; evidencias em [[release-status]]. Main publica automaticamente.
-- Trabalho novo local: codex/mobile-category-lab, commit 5726aadfa21f46528471068d317a184ee8a3673f; arvore limpa, sem push/PR/deploy.
-- Mobile hospedado passou em emulacao 320/390/430px e EN/PT/ES. Nenhuma correcao de producao foi necessaria nos fluxos exercitados; limitacoes em [[validation-workflow]].
-- Previa local: http://127.0.0.1:3101/pt/lab (servidor iniciado; verificar continuidade). Categorias, tendencias por pais, cambio diario e F1 historica. Nao ha novos feeds ao vivo em producao.
-- Lint/tipos/33 unidades/build/HTTP e quatro e2e passaram; gates 404 e falta de amostra tambem. Dados capturados ficam fora do repositorio, em arquivo temporario.
-- Proximo passo: avaliacao do proprietario, que escolheu publico global desde o inicio e exigiu revisao antes de publicar. Futebol/cambio sao propostas de prioridade, ainda nao aprovadas.
-- Pendencias anteriores de identidade legal/retencao, trafego/cache/custos e cinco achados altos dev-only nao foram resolvidas por este experimento. Auditoria de dependencias nao repetida nesta etapa.
-- Nenhuma conta, assinatura, chave ou contato novo criado ou copiado; memoria contem somente nomes de variaveis e caminhos.
+- Producao existente: https://global-live-data.vercel.app, ultima entrega registrada b6bbd5f em [[release-status]]. Esta etapa nao publicou alteracoes; main dispara Production.
+- Branch local codex/mobile-category-lab, commit b16718c8dfc1f09204707f133103347c1ed3007e, arvore limpa, sem push/PR/deploy.
+- O proprietario aprovou futebol e cambio diario primeiro, com teste real na previa antes de publicar: [[2026-10-15-football-fx-first]].
+- Previa http://127.0.0.1:3101/pt/lab, servidor iniciado em loopback. OpenLigaDB para Bundesliga/Champions League 2026/27 e Frankfurter para cinco moedas, EN/PT/ES. Dados comunitarios e referencias diarias, sem garantia de live. Detalhes em [[football-fx-pilot]].
+- Passaram lint/tipos/43 unidades/build/smoke, quatro e2e, gates pagina/API, probes reais e UI desktop/mobile. Correcao de arredondamento decimal confirmada. Sem falhas finais pendentes dos checks executados.
+- Proximo passo: avaliacao do proprietario sobre dados/apresentacao e escopo de eventual publicacao. Sem compra, nova chave, conta, assinatura ou autorizacao para publicar implicita.
+- Nao testados: dispositivos fisicos, Safari, partidas em andamento, carga/cache distribuido. Pendencias anteriores de identidade legal/retencao e auditoria dev-only permanecem; auditoria nao repetida.
 
 ## Conexoes
-- [[index]] - Mapa de conhecimento.
-- [[release-status]] - Evidencias da producao existente.
-- [[2026-10-15-mobile-category-lab]] - Handoff mais recente.
-- [[category-research]] - Previa e criterios de escolha.
-- [[2026-10-15-global-review-before-release]] - Limite de publicacao.
+- [[index]] - Mapa do projeto.
+- [[release-status]] - Evidencia da producao existente.
+- [[2026-10-15-football-fx-pilot]] - Handoff mais recente.
+- [[football-fx-pilot]] - Dados, cobertura e limites.
+- [[2026-10-15-football-fx-first]] - Escolha aprovada para teste.
+- [[2026-10-15-global-review-before-release]] - Revisao antes de publicar.
 - [[validation-workflow]] - Checks e limites.

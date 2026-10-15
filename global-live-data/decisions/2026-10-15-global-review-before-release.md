@@ -14,6 +14,8 @@ A expansao deve ser avaliada pelo proprietario antes da publicacao. A autorizaca
 
 A escolha de futebol e cambio diario como primeiros candidatos e uma proposta, ainda nao uma prioridade aprovada. O teto de planejamento existente nao autoriza compras. Google Trends e um sinal de interesse, nao prova de fatos, votos ou previsao de audiencia.
 
+Atualizacao posterior: futebol e cambio diario foram escolhidos para teste real pelo proprietario em [[2026-10-15-football-fx-first]]. A exigencia de avaliacao antes de publicar permanece.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[project]] - Direcao global e restricoes de custo.
@@ -21,3 +23,4 @@ A escolha de futebol e cambio diario como primeiros candidatos e uma proposta, a
 - [[2026-10-15-mobile-category-lab]] - Sessao que materializou o pedido.
 - [[current]] - Contexto e evidencia da revisao local.
 - [[project]] - Estado relacionado e evidencia de verificacao.
+- [[2026-10-15-football-fx-first]] - Contexto e evidencia do piloto real.

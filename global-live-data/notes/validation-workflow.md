@@ -28,6 +28,12 @@ Previa: categorias, pais JP preservado ao alternar categorias, idiomas, disclosu
 
 Screenshots temporarios fora do Git: /tmp/global-live-data-review/mobile-production-430.jpg, preview-mobile-390.jpg e preview-desktop.jpg. Emulacao nao comprova dispositivos fisicos, Safari, teclado virtual ou rede lenta; estes nao foram testados.
 
+## Piloto real de futebol e cambio (2026-10-15)
+
+Commit b16718c: npm run check passou lint sem warning, tipos, 43 unidades, build e smoke; quatro e2e Chromium passaram. Probes reais separados verificaram ambas as competicoes e taxas diarias. Gates pagina/API retornam 404 por padrao e na Vercel; cinco queries invalidas retornaram 400; respostas habilitadas noindex/no-store. Cache preservou timestamps em repeticao.
+
+QA interativo 1280px desktop e 390/320px mobile, EN/PT/ES: filtro/competicao, resultados mais recentes, expandir 36 e recolher, bases USD/EUR/BRL, alvos USD/JPY, zero/campo vazio, conversao decimal e consulta manual. Sem erro de aplicacao, overlay ou overflow final. Arredondamento observado 279.92 foi corrigido e verificado como 279.93. Evidencias temporarias /tmp/global-live-data-review/pilot-fx-desktop.jpg e pilot-football-mobile.jpg. Nao houve teste de partida em andamento, dispositivo fisico, Safari ou carga.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -38,3 +44,5 @@ Screenshots temporarios fora do Git: /tmp/global-live-data-review/mobile-product
 - [[category-research]] - Contexto e evidencia da revisao local.
 - [[current]] - Contexto e evidencia da revisao local.
 - [[release-status]] - Estado relacionado e evidencia de verificacao.
+- [[football-fx-pilot]] - Contexto e evidencia do piloto real.
+- [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.

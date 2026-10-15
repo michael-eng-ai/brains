@@ -18,7 +18,10 @@ atualizado: "2026-10-15"
 
 - 2026-10-15: mobile publicado validado; previa global local no commit 5726aad, com 33 unidades/4 e2e aprovados e pesquisa de fontes. Sem nova publicacao; [[2026-10-15-mobile-category-lab]].
 
+- 2026-10-15: proprietario escolheu futebol/cambio; integracao real local em b16718c validada com 43 unidades, quatro e2e, HTTP e browser EN/PT/ES; sem publicacao. Ver [[2026-10-15-football-fx-pilot]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.
+- [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.

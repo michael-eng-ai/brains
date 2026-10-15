@@ -18,6 +18,8 @@ A estrategia e utilidade original e transparencia das fontes. Nao inventar CPC, 
 
 O proprietario confirmou publico global desde o inicio e revisao previa a qualquer publicacao das novas categorias. A proposta de prioridade ainda aguarda escolha; ver [[2026-10-15-global-review-before-release]].
 
+Prioridade subsequente confirmada: futebol e cambio diario para teste real local; [[2026-10-15-football-fx-first]]. Cobertura inicial de futebol e europeia e limitada, embora o publico-alvo siga global. Publicacao da expansao continua pendente.
+
 ## Conexoes
 - [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
@@ -28,3 +30,4 @@ O proprietario confirmou publico global desde o inicio e revisao previa a qualqu
 - [[2026-10-15-global-review-before-release]] - Contexto e evidencia da revisao local.
 - [[category-research]] - Estado relacionado e evidencia de verificacao.
 - [[2026-10-15-global-review-before-release]] - Estado relacionado e evidencia de verificacao.
+- [[2026-10-15-football-fx-first]] - Contexto e evidencia do piloto real.

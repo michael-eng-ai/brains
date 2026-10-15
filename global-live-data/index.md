@@ -15,9 +15,10 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - Mobile publicado validado; previa global local aguardando avaliacao.
+- [[current]] - Futebol/cambio reais na previa local; publicacao pendente.
 
 ## Conceitos
+- [[football-fx-pilot]] - Futebol e cambio com fontes reais na previa.
 - [[category-research]] - Previa global, amostras reais e fontes candidatas.
 - [[nature-portal]] - Produto implementado, idiomas e limites de informacao.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
@@ -30,6 +31,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-15-football-fx-first]] - Prioridade aprovada para teste real local.
 - [[2026-10-15-global-review-before-release]] - Publico global e avaliacao antes de publicar expansao.
 - [[2026-10-15-authorize-publication]] - Autorizacao explicita de merge e publicacao.
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
@@ -58,6 +60,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-15-football-fx-pilot]] - Dados reais, QA e nenhuma nova publicacao.
 - [[2026-10-15-mobile-category-lab]] - Mobile hospedado validado e previa local pronta.
 - [[2026-10-15-production-launch]] - Resultado verificado da publicacao.
 - [[historico]] - Linha do tempo com evidencias e limites das sessoes.
@@ -72,7 +75,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - Mobile publicado validado; previa global local aguardando avaliacao.
+- [[current]] - Futebol/cambio reais na previa local; publicacao pendente.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -103,3 +106,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.
 - [[category-research]] - Contexto e evidencia da revisao local.
 - [[2026-10-15-global-review-before-release]] - Contexto e evidencia da revisao local.
+- [[football-fx-pilot]] - Contexto e evidencia do piloto real.
+- [[2026-10-15-football-fx-first]] - Contexto e evidencia do piloto real.
+- [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.
