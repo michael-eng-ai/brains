@@ -10,7 +10,7 @@ atualizado: "2026-10-15"
 
 Leia index, current e a sessao mais recente; depois confira AGENTS.md e docs/HANDOFF.md no repositorio. Memoria e contexto, nao prova atual de merge, teste ou deploy.
 
-- PRs #1 e #2 ja foram integradas; PR #3 e o follow-up documental em rascunho. Nao inferir autorizacao de deploy a partir de um merge observado em outro contexto.
+- PRs #1/#2/#3 integradas e publicacao inicial concluida por instrucao explicita. Pushes a main agora publicam Production; conferir escopo de futuras alteracoes.
 - Conferir origin e branch antes de editar. A pasta correta e o clone global-live-data; nao alterar o projeto distinto site-busca-eventos.
 - Node.js 24 e npm com package-lock.json. Verificar a versao real do executavel.
 - Ler guias instalados em node_modules/next/dist/docs antes de escrever codigo Next.js.
@@ -25,3 +25,5 @@ Leia index, current e a sessao mais recente; depois confira AGENTS.md e docs/HAN
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[project]] - Objetivo de produto e limites das fases.
 - [[repo-agents-original]] - Copia da fonte AGENTS.md.
+
+- [[release-status]] - Publicacao e configuracao hospedada verificadas.

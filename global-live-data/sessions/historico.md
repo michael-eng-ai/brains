@@ -14,6 +14,8 @@ atualizado: "2026-10-15"
 - 2026-10-15: continuacao verificou GitHub, check local, quatro testes Chromium e auditorias; corrigiu setup nao destrutivo e descricao de env hospedado; inicializou memoria autorizada. Ver sessao de inicializacao.
 - 2026-10-15, 18:25:17 America/Fortaleza: PR #2 integrada fora desta sessao como 897f3f3; main CI passou. Follow-up documental levado a PR #3 em rascunho; nenhum deploy executado.
 
+- 2026-10-15, 18:38:45 America/Fortaleza: PR #3 integrada por autorizacao direta; Production publicada e validada. Recibo documental b6bbd5f enviado a main; ver [[2026-10-15-production-launch]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.

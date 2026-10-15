@@ -8,10 +8,10 @@ atualizado: "2026-10-15"
 
 # Retomar publicacao
 
-Pendente; nenhum passo de publicacao foi executado nesta continuacao.
+Publicacao inicial concluida em [[2026-10-15-production-launch]] por [[2026-10-15-authorize-publication]]. Este procedimento orienta futuras entregas, nao um pedido para repetir o deploy.
 
-1. Exigir nova instrucao explicita que revogue a espera, pois o proprietario ja escolheu nao publicar. Nao repetir a pergunta sem razao nova.
-2. Revalidar main (PR #2 ja integrada), SHA remoto, CI, time Vercel e repositorio/branch; revisar separadamente o follow-up documental PR #3. Conferir identidade legal e informacoes de privacidade pendentes.
+1. Verificar o escopo da instrucao atual. A espera historica foi revogada para a entrega inicial; nao solicitar novamente autorizacao para acoes ja concluidas. Futuras mudancas precisam estar no escopo autorizado.
+2. Revalidar main (PRs #1/#2/#3 integradas), SHA remoto, CI, time Vercel e repositorio/branch; push a main agora publica Production. Conferir identidade legal e informacoes de privacidade pendentes.
 3. Reinspecionar formulario no browser autorizado ou conector com acesso. Valores reais apenas via configuracao ignorada/host; nao imprimir nem pedir credenciais em texto.
 4. Verificar ambiente efetivo da primeira publicacao e documentacao atual do provedor. Integrar/publicar somente no escopo autorizado.
 5. Registrar status READY e URL observada; validar EN/PT/ES desktop/mobile, APIs, horarios, estados de falha, atribuições e volume/cache sem sobrecarregar fontes.
@@ -22,3 +22,6 @@ Pendente; nenhum passo de publicacao foi executado nesta continuacao.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
 - [[repo-deployment-original]] - Copia da fonte docs/DEPLOYMENT.md.
+
+- [[2026-10-15-authorize-publication]] - Escopo da autorizacao inicial.
+- [[2026-10-15-production-launch]] - Resultado verificado.

@@ -28,6 +28,8 @@ npm ci --ignore-scripts esta documentado e passou na sessao anterior, mas nao fo
 
 Para conectar outra maquina apos clonar brains: `~/brains/link.sh global-live-data /caminho/do/clone/global-live-data`.
 
+Vercel: projeto global-live-data no time Pro existente michael-eng-ais-projects; ambas as variaveis de operador foram submetidas em Production/Preview. MET_USER_AGENT marcado sensivel. URL publica em [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
@@ -35,3 +37,5 @@ Para conectar outra maquina apos clonar brains: `~/brains/link.sh global-live-da
 - [[trap-env-preservation]] - Copia de exemplo pode apagar configuracao local ja autorizada.
 - [[trap-runtime-selection]] - Diretorio node@24 nao prova que o executavel roda Node 24.
 - [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
+
+- [[release-status]] - Publicacao e configuracao hospedada verificadas.
