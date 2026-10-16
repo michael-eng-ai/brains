@@ -1,22 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Consolidacao publicada: janela24h, docs, privacidade e diagnostico de feeds."
-tags: [global-live-data, estado, operacao]
+resumo: "Auditoria concluida: aprofundar dados atuais antes de ampliar categorias."
+tags: [global-live-data, estado, dados]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-consolidation-release]].
+Ultimo handoff: [[2026-10-16-api-data-audit]].
 
-- Main publicada e verificada, PR12; commit/CI/Ready em [[release-status]]. Arvore limpa.
-- Correcao 24h e documentacao entregues; [[consolidation-audit]] registra o diagnostico historico e sua resolucao. Autorizacao especifica em [[2026-10-16-publish-consolidation]].
-- Operador e hospedagem divulgados conforme [[public-contact]]; sem armazenamento externo de logs, sem alegar retencao integral auditada.
-- Primeiro heartbeat editorial ja publicou PR11; duas rotinas existentes seguem sem alteracao. TSE autonomo com mudanca publicada ainda nao observado.
-- RO/turno2 aguardam fonte consistente/disponivel; nenhuma alteracao historica nesta entrega.
-- Proxima prioridade: medir carga util da jornada de cidade existente com rede limitada; nao reabrir o contador/docs/primeiro artigo como pendentes. Telefones fisicos e picos distribuidos ainda sem evidencia.
-- Nao ativar analytics/ads, novas categorias, contas/chaves ou infraestrutura paga a partir desta consolidacao. Metricas propostas nao sao resultados.
+- Main local/remota limpa e publicada permanece 5c7c890 (PR12); evidencia de publicacao em [[release-status]]. Nenhum codigo/deploy alterado nesta auditoria.
+- Usuario questionou utilidade e sufiencia dos dados; avaliacao real e propostas em [[api-data-adequacy]]. Relatorio/notebook locais, consultas limitadas e comparacao com fonte concluidos.
+- Proxima prioridade proposta: aprofundar futebol/hoquei (calendario/time, classificacao Bundesliga), serie FX e previsao7dias. Implementacao ainda nao feita; recomendacao nao e aprovacao de novas contas/custos/fontes/publicacao.
+- Consolidacao24h/docs/privacidade concluida anteriormente. Nao reabrir como pendencia. Medicao de cidade com rede limitada segue proposta secundaria, sem evidencia nova.
+- Duas automacoes existentes seguem inalteradas. RO e turno2 dependem de dados consistentes/disponiveis; auditoria nao fez nova coleta TSE.
+- Telefones fisicos, picos distribuidos, demanda/retencao e SLO longitudinal seguem nao medidos. Sem analytics/ads adicionados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -48,3 +47,5 @@ Ultimo handoff: [[2026-10-16-consolidation-release]].
 - [[2026-10-16-consolidation-audit]] - Handoff da auditoria.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
+- [[api-data-adequacy]] - Adequacao e profundidade dos dados.
+- [[2026-10-16-api-data-audit]] - Ultima auditoria.

@@ -20,3 +20,4 @@ Consulta real anterior documentada em docs/HANDOFF.md; o resultado nao garante d
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[nature-portal]] - Produto implementado, idiomas e limites de informacao.
 - [[provider-cache]] - Cache do framework, cache por processo e timestamps diferentes.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.

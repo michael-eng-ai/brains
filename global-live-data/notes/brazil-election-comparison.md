@@ -34,3 +34,4 @@ A PR #10 acrescenta atualizacao automatizada e cobertura derivada do SQLite. Rec
 - [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.

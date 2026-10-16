@@ -49,3 +49,4 @@ As edicoes 2025/26 das duas ligas foram arquivadas independentemente dos feeds a
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[architecture]] - Direcao e implementacao atualizadas.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.

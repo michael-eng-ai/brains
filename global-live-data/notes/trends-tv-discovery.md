@@ -38,3 +38,4 @@ A exibicao publica de Trends foi substituida por [[editorial-publishing]]. O pro
 - [[current]] - Estado de retomada.
 - [[2026-10-15-discovery-release]] - Handoff.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.

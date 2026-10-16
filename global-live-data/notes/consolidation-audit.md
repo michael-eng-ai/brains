@@ -74,3 +74,4 @@ QA agora inclui Safari nativo macOS basico e resposta atrasada em Chromium; nao 
 - [[2026-10-16-consolidation-audit]] - Handoff desta auditoria.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.

@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[api-data-adequacy]] - Utilidade, cobertura e prioridades de dados.
 - [[consolidation-audit]] - Diagnostico historico e consolidacao entregue, com limites operacionais.
 - [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
 - [[brazil-election-comparison]] - Brasil 2026/2022, denominadores e dados pendentes.
@@ -75,6 +76,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-api-data-audit]] - Auditoria real das APIs e propostas.
 - [[2026-10-16-consolidation-release]] - Consolidacao publicada e verificada.
 - [[2026-10-16-consolidation-audit]] - Auditoria do produto, custos e atualizacao.
 

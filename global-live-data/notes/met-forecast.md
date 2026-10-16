@@ -23,3 +23,4 @@ Confirmado por historico direto do proprietario: contato autorizado em 2026-10-1
 - [[provider-cache]] - Cache do framework, cache por processo e timestamps diferentes.
 - [[public-contact]] - Contato publico separado do identificador MET e lacunas de privacidade.
 - [[repo-data-sources-original]] - Copia da fonte docs/DATA-SOURCES.md.
+- [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
