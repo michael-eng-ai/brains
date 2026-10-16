@@ -80,6 +80,12 @@ PR #10: 74 testes Node, 11 Python, 17 Chromium, lint/tipos/build e 60 rotas HTTP
 
 CA Python macOS ausente foi resolvido usando bundle do sistema, mantendo TLS verificado. Caminho Prettier .ts para componente .tsx corrigido antes dos checks. Nenhuma falha final pendente. Probes reais e recibos em [[release-status]].
 
+## Primeiro heartbeat editorial
+
+PR #11: Node 24/npm 11, lint/tipos, 74 unidades, build e 63 paginas HTTP passaram; 18 casos Chromium passaram. Novo caso exercita filtro Ciclismo, teclado, PT/ES/EN, referencias/disclosure e 320/390/1280px. Testes existentes de leitura sem JavaScript, ausencia de chamadas Trends e metadados preservados. Python sem alteracao nao foi rerodado localmente; ambos os jobs CI PR/main, incluindo Python, passaram. Nenhuma falha final de aplicacao.
+
+Fontes atuais lidas separadamente; conversoes do instante anunciado conferidas com Intl/zonas IANA. IAB local e hospedado mostrou leitura e anchors sem overflow/console errors. Probes anonimos e revisoes exatas em [[release-status]]. Safari/aparelhos fisicos, carga, indexacao e crescimento de audiencia nao testados. Scan inicial do cerebro sinalizou pontuacao apos hashes/IDs e nomes ZIP/transcricoes; classificacao revisada confirmou falsos positivos, nenhum segredo encontrado.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -105,3 +111,4 @@ CA Python macOS ausente foi resolvido usando bundle do sistema, mantendo TLS ver
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.

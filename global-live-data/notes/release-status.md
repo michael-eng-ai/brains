@@ -111,6 +111,18 @@ Execucoes reais: 18:59:24 UTC (staging) e 19:02:16 UTC (--apply), ambas changed=
 
 Heartbeat ACTIVE verificado em [[refresh-tse-elections]]. Futuro disparo autonomo e segundo turno real nao observados; Safari, aparelhos fisicos, carga e auditoria completa de runtime logs nao executados.
 
+## Primeira rodada editorial autonoma (16/10/2026)
+
+PR #11 https://github.com/michael-eng-ai/global-live-data/pull/11 integrada em 2026-10-16T20:06:33Z. Head 7c8e0576a8b46b70f8580d136ab8adf43b41f100; merge/main 8b6c43893fd2db9b038cca25abc32b8d21f3b66c, arvore identica e clone limpo/local=remoto.
+
+- CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38959564838 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38959831619: ambos os jobs success nas revisoes exatas. Python offline permaneceu no job agregado.
+- Preview Ready: dpl_CdT43kCaE78hrUtnivHtzoikMqXP, head 7c8e057, 28s. https://global-live-data-o8xpz3ny5-michael-eng-ais-projects.vercel.app; artigo espanhol conferido no browser autenticado.
+- Production Ready: dpl_5XJagKFShJwE4ytKg9phGxeCWsPm, main 8b6c438, 28s. https://vercel.com/michael-eng-ais-projects/global-live-data/5XJagKFShJwE4ytKg9phGxeCWsPm. URL unica https://global-live-data-jb5eu7isy-michael-eng-ais-projects.vercel.app.
+- Publico https://global-live-data.vercel.app/pt/trending/tour-de-france-2027-route-reveal. Probe anonimo 2026-10-16T20:07:56.097Z: nove paginas home/indice/artigo EN/PT/ES HTTP 200 com deployment ID exato, CSP, canonical/hreflang, Article JSON-LD, quatro referencias, timestamps originais, nove URLs de artigos no sitemap, robots e slug inexistente 404.
+- IAB publicado 390px/1280px: leitura, indice, idiomas e retorno PT, sem overflow ou erros de aplicacao. Screenshots /tmp/global-live-data-editorial-heartbeat/published-desktop.png e published-mobile.png. Override restaurado; artigo PT mantido aberto. Servidor local proprio encerrado.
+
+Uma pauta nova, nenhuma mudanca em fontes historicas/TSE, APIs, contas, chaves, dependencias, gastos ou automacoes. Pesquisa real: dez pautas em cada US/BR/GB/ES/JP/IN, todas ready. Checks locais e limites em [[validation-workflow]]; criterio editorial em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -147,3 +159,4 @@ Heartbeat ACTIVE verificado em [[refresh-tse-elections]]. Futuro disparo autonom
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.

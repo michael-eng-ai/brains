@@ -73,6 +73,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 
 ## Sessoes
 
+- [[2026-10-16-tour-editorial-release]] - Primeira rodada editorial autonoma, guia Tour 2027 publicado.
+
 - [[2026-10-16-tse-refresh-release]] - PR #10 publicada e heartbeat TSE verificado.
 
 - [[2026-10-16-brazil-comparison-release]] - PR #9 publicada com dados 2026/2022 e lacunas explicitas.
@@ -150,3 +152,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
