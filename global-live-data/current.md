@@ -1,29 +1,34 @@
 ---
 tipo: "estado"
 projeto: "global-live-data"
-resumo: "Trends e TV publicados; cinco categorias, CI e probes hospedados verificados."
+resumo: "Oito categorias publicadas; hoquei, xadrez e eleicoes com fontes comerciais gratuitas."
 tags: ["global-live-data", "estado"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-15-discovery-release]].
+Ultimo handoff: [[2026-10-16-sports-election-release]].
 
-- Site: https://global-live-data.vercel.app/pt. Main remoto/local 95613fb35377257816d57f0670e341a492acac70; PR #5 integrada, arvore limpa. CI PR/main passou; Production Ready e probes em [[release-status]].
-- Cinco categorias com cards atuais e paginas internas EN/PT/ES: futebol, cambio diario, buscas em alta, TV/streaming e natureza. Nova autorizacao para publicar e avaliar depois em [[2026-10-15-publish-discovery]].
-- Escopo e direitos das novas fontes em [[trends-tv-discovery]]; cobertura global nao implica todos os paises/eventos. API publica sem chave, nenhuma nova conta/cobranca, anuncios ou analytics.
-- Validacao: 53 unidades, nove e2e Chromium, 24 rotas HTTP; seis paises Trends e seis combinacoes TV ready em probe hospedado. Mobile 390px com filtros/detalhes/pais e sem overflow/erro. Detalhes em [[validation-workflow]].
-- Nao testados: Safari, aparelhos fisicos, carga e quota distribuida. Proximo passo: recolher avaliacao do portal e medir reuso/custo das fontes antes de ampliar alcance. Nenhum monitor agendado.
-- F1 comercial, eleicoes, ligas adicionais, ticketing e financas intradiarias dependem de acesso/licenca. Pendencias anteriores de identidade legal/retencao e auditoria dev-only continuam registradas e nao foram objeto desta entrega.
+- Site: https://global-live-data.vercel.app/pt. PR #6 integrada; main local/remota 8b40a43719265fb4fea763c19ebde97640e59b0b, arvore limpa. CI da PR/main passou; Vercel Production Ready, alias e APIs verificados em [[release-status]].
+- Oito categorias EN/PT/ES com cards e paginas internas: futebol, cambio, Trends, TV, hoquei, xadrez, eleicoes e natureza. Escopo/licencas/cadencias dos tres novos feeds em [[sports-election-feeds]]; autorizacao em [[2026-10-16-publish-sports-elections]].
+- Hoquei DEL/CHL mostra tres rodadas e placares finais com cache seis horas; xadrez mostra agenda/estado na ultima consulta; eleicoes cobrem quatro distritos britanicos com resultado publicado e data explicita. Nao sao placares ou apuracao eleitoral instantaneos.
+- Validacao final: 61 unidades, 12 casos Chromium, 33 paginas locais/hospedadas; sete conjuntos novos ready em probes anonimos. Navegacao/filtros mobile hospedados 390px sem overflow ou erros; 320px real local tambem passou. Evidencias em [[validation-workflow]].
+- Nenhuma conta, chave, assinatura paga, anuncio, analytics ou variavel nova. Cerebro armazena somente ponteiros e resultados agregados, sem dados pessoais/credenciais.
+- Proximo passo: colher avaliacao do portal e verificar trafego agregado/custo antes de ampliar. Brasil/TSE exige pipeline de arquivos em lote; demais esportes/regioes dependem de direitos/cobertura. Nao ha monitor agendado.
+- Nao testados Safari/aparelhos fisicos/carga/rate limit distribuido. Pendencias anteriores de identidade legal/retencao e dependencias dev-only continuam registradas.
 
 ## Conexoes
-- [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
-- [[index]] - Estado para retomada.
-- [[release-status]] - Estado para retomada.
-- [[football-fx-pilot]] - Estado para retomada.
-- [[validation-workflow]] - Estado para retomada.
-- [[2026-10-15-publish-portal]] - Estado para retomada.
-- [[2026-10-15-discovery-release]] - Estado da expansao publicada.
-- [[2026-10-15-publish-discovery]] - Estado da expansao publicada.
-- [[trends-tv-discovery]] - Estado da expansao publicada.
+- [[index]] - Entrada do projeto.
+- [[2026-10-16-sports-election-release]] - Handoff atual.
+- [[2026-10-16-publish-sports-elections]] - Autorizacao desta entrega.
+- [[sports-election-feeds]] - Contratos e fontes.
+- [[release-status]] - Evidencias remotas.
+- [[validation-workflow]] - Testes e limites.
+- [[2026-10-15-portal-release]] - Handoff anterior do portal.
+- [[2026-10-15-discovery-release]] - Handoff anterior da descoberta.
+- [[football-fx-pilot]] - Integracoes anteriores.
+- [[2026-10-15-publish-portal]] - Autorizacao anterior.
+- [[2026-10-15-publish-discovery]] - Autorizacao anterior.
+- [[trends-tv-discovery]] - Descoberta anterior.
+- [[category-research]] - Pesquisa de categorias.

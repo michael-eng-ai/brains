@@ -3,12 +3,22 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Estado da entrega
 
-## Entrega atual: Trends e TV
+## Entrega atual: hoquei, xadrez e resultados eleitorais
+
+PR #6 integrada em 2026-10-16T13:32:09Z: https://github.com/michael-eng-ai/global-live-data/pull/6. Main local/remota 8b40a43719265fb4fea763c19ebde97640e59b0b; arvore limpa e identica ao head validado 503c54e22d91f2a616190bcc720e621fcb6ceb1d. CI PR 38908358359 e main 38908594194 passaram ambos os jobs. Main CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38908594194.
+
+Vercel Production Ready observado no commit exato, build 32s, deployment dpl_Boy7rTWbc3SdpqqqN3w3GJqJH1VF. Dashboard: https://vercel.com/michael-eng-ais-projects/global-live-data/Boy7rTWbc3SdpqqqN3w3GJqJH1VF. URL unica: https://global-live-data-gy3obhw80-michael-eng-ais-projects.vercel.app. Alias https://global-live-data.vercel.app/pt conferido por data-dpl-id. Nenhuma mudanca de conta, plano, permissao ou variavel.
+
+Probe anonimo concluido em 2026-10-16T13:34 UTC: 33 paginas EN/PT/ES, CSP, licenca parlamentar na metodologia, inputs invalidos 400, lab 404 e no-store passaram. Sete conjuntos novos ready: DEL 21 jogos, CHL 40, xadrez 77 rodadas; quatro distritos eleitorais com 15/7/7/6 grupos de partidos e datas 2026-10-08 ou 2024-07-04. Repeticao de DEL preservou checkedAt. Contagens sao snapshots, nao garantias nem certificacao independente dos resultados.
+
+QA hospedado: cartao eleitoral ativado por teclado; selecao de outro distrito exibiu corretamente uma data de 2024. Filtro de xadrez em andamento retornou sete rodadas; CHL encerrados retornou 24 jogos, com expansao de 12 para 24. Viewport real 390px sem overflow ou erro de aplicacao. Capturas fora do Git: /tmp/global-live-data-review/elections-published-desktop.png e hockey-published-mobile.png. Desktop 1280 e mobile 320/390 tambem revisados localmente. Sem teste de aparelho fisico/Safari/carga, nem auditoria de logs runtime/custo/distribuicao de requests. Pesquisa/limites em [[sports-election-feeds]].
+
+## Historico: Trends e TV
 
 PR #5 integrada em 2026-10-16T01:16:04Z (15 de outubro local): https://github.com/michael-eng-ai/global-live-data/pull/5. Main remoto/local 95613fb35377257816d57f0670e341a492acac70; arvore identica ao head revisado 1c1e13448dff4d2df1827c3c1a8689b9825969fb. CI PR 38833787757 e main 38834190160 passaram ambos os jobs. Main CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38834190160.
 
@@ -81,3 +91,5 @@ Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430
 - [[project]] - Direcao e implementacao atualizadas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
+- [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+- [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.

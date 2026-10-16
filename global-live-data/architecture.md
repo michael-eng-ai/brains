@@ -3,7 +3,7 @@ tipo: "arquitetura"
 projeto: "global-live-data"
 resumo: "Mapa dos componentes e fronteiras do servidor."
 tags: ["global-live-data", "arquitetura"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Arquitetura
@@ -24,6 +24,10 @@ components/portal.tsx fornece o panorama com requests paralelos e cards internos
 
 PR #5 acrescenta lib/discovery/{schema,service,index}.ts, GET /api/discover, components/use-discovery.ts e components/discovery.tsx. Rotas /[lang]/trending e /[lang]/screen compartilham contratos, copy EN/PT/ES e navegacao do portal. Servico mockavel, cache compartilhado e age guards ficam separados da UI; [[trends-tv-discovery]] concentra os limites.
 
+## Esportes e resultados eleitorais
+
+PR #6 acrescenta lib/events/{catalog,schema,service,index}.ts e /api/events. Tres paginas internas e componentes events/use-events usam sete chaves de cache, normalizadores puros, transporte testavel e age guard externo. Navegacao responsiva acomoda oito categorias. Detalhes e invariantes em [[sports-election-feeds]].
+
 ## Conexoes
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -32,3 +36,4 @@ PR #5 acrescenta lib/discovery/{schema,service,index}.ts, GET /api/discover, com
 - [[repo-architecture-original]] - Copia da fonte docs/ARCHITECTURE.md.
 - [[football-fx-pilot]] - Direcao e implementacao atualizadas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
+- [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.

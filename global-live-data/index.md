@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Global Live Data
@@ -15,9 +15,10 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - Portal com cinco categorias publicado e verificado.
+- [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[sports-election-feeds]] - Hoquei, xadrez e resultados britanicos com limites de reutilizacao.
 - [[trends-tv-discovery]] - Buscas regionais e programacao TV publicadas com limites explicitos.
 - [[football-fx-pilot]] - Futebol e cambio com fontes reais e cache compartilhado.
 - [[category-research]] - Previa global, amostras reais e fontes candidatas.
@@ -32,6 +33,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-publish-sports-elections]] - Fontes gratuitas comerciais autorizadas para publicacao.
 - [[2026-10-15-publish-discovery]] - Expansao autorizada para publicar e avaliar depois.
 - [[2026-10-15-publish-portal]] - Publicacao autorizada e direcao do portal.
 - [[2026-10-15-football-fx-first]] - Prioridade aprovada para teste real local.
@@ -63,6 +65,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-sports-election-release]] - PR #6 publicada e fontes reais verificadas.
 - [[2026-10-15-discovery-release]] - Trends/TV publicados; CI e probes verificados.
 - [[2026-10-15-portal-release]] - Portal publicado, navegacao interna e CI verificados.
 - [[2026-10-15-football-fx-pilot]] - Dados reais, QA e nenhuma nova publicacao.
@@ -80,7 +83,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - Portal com cinco categorias publicado e verificado.
+- [[current]] - Portal com oito categorias publicado e verificado.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -120,3 +123,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[trends-tv-discovery]] - Nova descoberta com fontes reais.
 - [[2026-10-15-publish-discovery]] - Autorizacao desta entrega.
 - [[2026-10-15-discovery-release]] - Handoff da entrega.
+- [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+- [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
+- [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.

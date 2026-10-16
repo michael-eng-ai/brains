@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Validacao
@@ -50,6 +50,14 @@ Probes reais locais e hospedados verificaram seis paises Trends e seis combinaco
 
 Browser real confirmou filtros de canal, expansao de episodio, proximo dia e navegação interna em desktop/mobile. Nenhum erro final pendente nos checks executados. Nao testados Safari/aparelho fisico/carga/quota distribuida; auditoria de dependencias nao repetida, sem dependencias alteradas.
 
+## Esportes e eleicoes (2026-10-16)
+
+Head 503c54e, merge 8b40a43: npm run check e npm run test:e2e finais passaram com Node 24.22.0/npm 11.21.1: lint, tipos, 61 unidades offline, build, 33 rotas HTTP e 12 casos Chromium. CI PR/main passou; provas remotas em [[release-status]]. Nenhuma dependencia mudou.
+
+Probes reais locais e hospedados verificaram os sete seletores, dados e cache. Primeiro probe revelou URL de last-change sem rodada (404), corrigida e coberta por regressao; fixture nao comprova contrato remoto. Labels de select ficaram explicitos e expectativa de data do teste passou a usar a localizacao inglesa real. Script temporario hospedado inicialmente assumiu ordem de atributos html; corrigido para aceitar data-dpl-id antes de lang, sem mudanca no app. Nenhuma falha final pendente.
+
+Browser real: 1280/390/320px local, 390px hospedado; cards, teclado, ligas/estado/busca, selecao eleitoral e expansao de jogos. Zero overflow/erros de aplicacao observados. Captura publicada em [[release-status]]. Nao testados aparelhos fisicos, Safari, carga, quota distribuida nem custos reais; nenhum monitor foi criado.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -65,3 +73,5 @@ Browser real confirmou filtros de canal, expansao de episodio, proximo dia e nav
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
+- [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+- [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.

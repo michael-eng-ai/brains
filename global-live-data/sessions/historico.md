@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Historico
@@ -24,6 +24,8 @@ atualizado: "2026-10-15"
 
 - 2026-10-15: PR #5 integrada como 95613fb; Trends/TV publicados, CI main 38834190160 e probes reais aprovados; [[2026-10-15-discovery-release]].
 
+2026-10-16: [[2026-10-16-sports-election-release]] - PR #6 integrada, main 8b40a43, CI/Production Ready, sete seletores reais e oito categorias; sem novos custos contratados.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -31,3 +33,4 @@ atualizado: "2026-10-15"
 - [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
+- [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.

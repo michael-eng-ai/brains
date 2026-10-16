@@ -3,12 +3,12 @@ tipo: "fundamentos"
 projeto: "global-live-data"
 resumo: "Objetivo de produto e limites das fases."
 tags: ["global-live-data", "fundamentos"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Projeto
 
-Confirmado pelo pedido do proprietario e pela documentacao: portal internacional de dados uteis em ingles, portugues e espanhol, com natureza/clima como base permanente. Futebol, cambio diario, buscas em alta e programacao TV/streaming complementam a natureza em cinco categorias com paginas internas. Outras fontes e monetizacao continuam planejadas; ver [[trends-tv-discovery]].
+Confirmado pelo pedido do proprietario e pela documentacao: portal internacional de dados uteis em ingles, portugues e espanhol, com natureza/clima como base permanente. Futebol, cambio diario, buscas em alta, TV/streaming, hoquei, xadrez e resultados eleitorais britanicos complementam a natureza em oito categorias com paginas internas. Outras fontes e monetizacao continuam planejadas; ver [[sports-election-feeds]] e [[trends-tv-discovery]].
 
 Repositorio privado: https://github.com/michael-eng-ai/global-live-data
 
@@ -35,3 +35,5 @@ Prioridade subsequente confirmada: futebol e cambio diario para teste real local
 - [[release-status]] - Direcao e implementacao atualizadas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[2026-10-15-publish-discovery]] - Autorizacao posterior de publicacao.
+- [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+- [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
