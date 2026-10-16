@@ -26,6 +26,8 @@ atualizado: "2026-10-16"
 
 2026-10-16: [[2026-10-16-sports-election-release]] - PR #6 integrada, main 8b40a43, CI/Production Ready, sete seletores reais e oito categorias; sem novos custos contratados.
 
+- 2026-10-16: [[2026-10-16-editorial-release]] - PR #7 publicada em dba29fd, CI/Production/QA verificados; heartbeat editorial seis horas ativo.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -34,3 +36,4 @@ atualizado: "2026-10-16"
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
+- [[2026-10-16-editorial-release]] - Handoff editorial.

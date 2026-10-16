@@ -1,22 +1,21 @@
 ---
-tipo: "estado"
-projeto: "global-live-data"
-resumo: "Oito categorias publicadas; hoquei, xadrez e eleicoes com fontes comerciais gratuitas."
-tags: ["global-live-data", "estado"]
+tipo: estado
+projeto: global-live-data
+resumo: "Artigos publicados e rotina editorial automatica seis horas ativa."
+tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-sports-election-release]].
+Ultimo handoff: [[2026-10-16-editorial-release]].
 
-- Site: https://global-live-data.vercel.app/pt. PR #6 integrada; main local/remota 8b40a43719265fb4fea763c19ebde97640e59b0b, arvore limpa. CI da PR/main passou; Vercel Production Ready, alias e APIs verificados em [[release-status]].
-- Oito categorias EN/PT/ES com cards e paginas internas: futebol, cambio, Trends, TV, hoquei, xadrez, eleicoes e natureza. Escopo/licencas/cadencias dos tres novos feeds em [[sports-election-feeds]]; autorizacao em [[2026-10-16-publish-sports-elections]].
-- Hoquei DEL/CHL mostra tres rodadas e placares finais com cache seis horas; xadrez mostra agenda/estado na ultima consulta; eleicoes cobrem quatro distritos britanicos com resultado publicado e data explicita. Nao sao placares ou apuracao eleitoral instantaneos.
-- Validacao final: 61 unidades, 12 casos Chromium, 33 paginas locais/hospedadas; sete conjuntos novos ready em probes anonimos. Navegacao/filtros mobile hospedados 390px sem overflow ou erros; 320px real local tambem passou. Evidencias em [[validation-workflow]].
-- Nenhuma conta, chave, assinatura paga, anuncio, analytics ou variavel nova. Cerebro armazena somente ponteiros e resultados agregados, sem dados pessoais/credenciais.
-- Proximo passo: colher avaliacao do portal e verificar trafego agregado/custo antes de ampliar. Brasil/TSE exige pipeline de arquivos em lote; demais esportes/regioes dependem de direitos/cobertura. Nao ha monitor agendado.
-- Nao testados Safari/aparelhos fisicos/carga/rate limit distribuido. Pendencias anteriores de identidade legal/retencao e dependencias dev-only continuam registradas.
+- Site https://global-live-data.vercel.app/pt/trending. PR #7 integrada; main dba29fdd2ff944c5934116b6c6dd42cc898e5fc8, limpa/local=remota. CI PR/main e Production Ready observados em [[release-status]].
+- Em foco substitui o feed Trends por artigos originais EN/PT/ES, com paginas internas e fontes. Duas leituras iniciais e rotina descritas em [[editorial-publishing]]. Demais sete categorias preservadas.
+- Proprietario escolheu publicacao automatica frequente. Heartbeat `publicar-artigos-do-global-live-data` ACTIVE a cada seis horas, ate uma pauta por rodada; nao e um servico autonomo hospedado. Nenhuma rodada agendada observada ainda.
+- 63 unidades, 13 browser testes, 39 paginas HTTP, metadata e leitura sem JavaScript passaram; QA mobile/desktop publicado. Fontes reais foram pesquisadas separadamente das fixtures.
+- Sem conta, chave, dependencia, API paga, anuncio ou analytics novos. Cerebro contem referencias e recibos, sem credenciais/dados pessoais.
+- Proximo passo: executar a rodada editorial autorizada ou corrigir conforme avaliacao. Nao prometer indexacao/views; preservar qualidade e revisao de fontes. Safari/aparelhos fisicos/carga continuam nao testados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -32,3 +31,6 @@ Ultimo handoff: [[2026-10-16-sports-election-release]].
 - [[2026-10-15-publish-discovery]] - Autorizacao anterior.
 - [[trends-tv-discovery]] - Descoberta anterior.
 - [[category-research]] - Pesquisa de categorias.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.
+- [[2026-10-16-editorial-release]] - Handoff editorial.

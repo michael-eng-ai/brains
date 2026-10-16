@@ -25,6 +25,10 @@ Futebol e cambio publicados por autorizacao posterior explicita; o proprietario 
 
 A expansao de esportes/eleicoes de 2026-10-16 foi autorizada e publicada; [[2026-10-16-publish-sports-elections]]. Preservar cadencias e limites de [[sports-election-feeds]], sem interpretar dados de arquivo como apuracao ao vivo.
 
+## Editorial recorrente autorizado
+
+A escolha explicita [[2026-10-16-auto-editorial]] autoriza artigos recorrentes e publicacao no site existente. Seguir [[editorial-publishing]] e docs/EDITORIAL.md; nao pedir nova aprovacao para cada artigo apurado dentro do escopo. Nao confundir essa escolha com autorizacao para contratar APIs, criar contas, gastar, publicar rumores ou ignorar CI. PR #7 integra a primeira edicao; Trends publico foi substituido por artigos.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[project]] - Objetivo de produto e limites das fases.
@@ -34,3 +38,5 @@ A expansao de esportes/eleicoes de 2026-10-16 foi autorizada e publicada; [[2026
 - [[2026-10-15-publish-portal]] - Direcao e implementacao atualizadas.
 - [[2026-10-15-publish-discovery]] - Autorizacao posterior de publicacao.
 - [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.

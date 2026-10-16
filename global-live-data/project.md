@@ -20,6 +20,10 @@ O proprietario confirmou publico global desde o inicio. A pausa inicial de revis
 
 Prioridade subsequente confirmada: futebol e cambio diario para teste real local; [[2026-10-15-football-fx-first]]. Cobertura inicial de futebol e europeia e limitada, embora o publico-alvo siga global. A publicacao do futebol/cambio foi posteriormente autorizada em [[2026-10-15-publish-portal]] e verificada em [[release-status]].
 
+## Direcao editorial
+
+O proprietario solicitou artigos sobre assuntos do Trends para atrair leitores e escolheu publicacao automatica frequente. A primeira edicao foi publicada e o heartbeat configurado; detalhes, limites e fontes em [[editorial-publishing]]. Nenhuma garantia de audiencia/indexacao.
+
 ## Conexoes
 - [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
@@ -37,3 +41,4 @@ Prioridade subsequente confirmada: futebol e cambio diario para teste real local
 - [[2026-10-15-publish-discovery]] - Autorizacao posterior de publicacao.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.

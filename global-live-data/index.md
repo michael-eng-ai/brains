@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[editorial-publishing]] - Artigos, apuracao e rotina de seis horas.
 - [[sports-election-feeds]] - Hoquei, xadrez e resultados britanicos com limites de reutilizacao.
 - [[trends-tv-discovery]] - Buscas regionais e programacao TV publicadas com limites explicitos.
 - [[football-fx-pilot]] - Futebol e cambio com fontes reais e cache compartilhado.
@@ -33,6 +34,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-auto-editorial]] - Publicacao automatica frequente escolhida.
 - [[2026-10-16-publish-sports-elections]] - Fontes gratuitas comerciais autorizadas para publicacao.
 - [[2026-10-15-publish-discovery]] - Expansao autorizada para publicar e avaliar depois.
 - [[2026-10-15-publish-portal]] - Publicacao autorizada e direcao do portal.
@@ -65,6 +67,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-editorial-release]] - PR #7 publicada e heartbeat ativo.
 - [[2026-10-16-sports-election-release]] - PR #6 publicada e fontes reais verificadas.
 - [[2026-10-15-discovery-release]] - Trends/TV publicados; CI e probes verificados.
 - [[2026-10-15-portal-release]] - Portal publicado, navegacao interna e CI verificados.
@@ -126,3 +129,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.
+- [[2026-10-16-editorial-release]] - Handoff editorial.

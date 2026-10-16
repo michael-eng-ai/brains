@@ -22,6 +22,10 @@ Estimativa ideal com todas as chaves ativas: 864 consultas Trends e 144 TV/dia p
 
 NFL/MLB e mais futebol: interesse observado, mas nenhum novo feed com direitos de redistribuicao confirmados foi escolhido. Jolpica F1 exige tratamento comercial separado em https://github.com/jolpica/jolpica-f1/blob/main/TERMS.md. Eleicoes exigem fonte por jurisdicao, estado dos resultados e acesso adequado; AP continua sem chave. Ticketmaster e financas intradiarias continuam com acesso/licenciamento pendentes. Nao houve compra, conta, assinatura, anuncios ou analytics.
 
+## Escopo editorial posterior (2026-10-16)
+
+A exibicao publica de Trends foi substituida por [[editorial-publishing]]. O proprietario autorizou artigos originais e publicacao automatica frequente com apuracao. A regra anterior de nao criar noticias automaticamente passa a significar que o texto de uma busca nunca basta como evidencia; o workflow editorial agora e autorizado. RSS segue como pesquisa limitada, TV permanece igual. A estimativa anterior de polling de visitantes nao descreve mais a home atual.
+
 ## Conexoes
 - [[index]] - Entrada do conceito.
 - [[category-research]] - Pesquisa inicial e candidatos remanescentes.
@@ -33,3 +37,4 @@ NFL/MLB e mais futebol: interesse observado, mas nenhum novo feed com direitos d
 - [[validation-workflow]] - Testes separados dos probes reais.
 - [[current]] - Estado de retomada.
 - [[2026-10-15-discovery-release]] - Handoff.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.

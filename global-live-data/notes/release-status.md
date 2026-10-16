@@ -66,6 +66,14 @@ Verificacao final anonima em 2026-10-15T21:49:11Z: pagina PT HTTP 200 com data-d
 
 Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430px foram confirmadas. Fluxos e resultados em [[validation-workflow]]. Isto supera somente a limitacao mobile acima; a sessao de lancamento permanece evidencia historica. Naquela etapa, o experimento de categorias permaneceu local. A entrega atual acima supera esse estado.
 
+## Entrega editorial atual
+
+PR #7 https://github.com/michael-eng-ai/global-live-data/pull/7 integrada em 2026-10-16T14:04:44Z. Head 9a2ad62f6e09f900f10565eb4a5e22b5198b4cb6; main dba29fdd2ff944c5934116b6c6dd42cc898e5fc8; arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38912597274 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38912871587 passaram ambos os jobs.
+
+Production Ready dpl_ERkThavNiqMiouSRrAQ4Ux2zS36X, commit main exato. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/ERkThavNiqMiouSRrAQ4Ux2zS36X; URL unica https://global-live-data-q7ydhlfzx-michael-eng-ais-projects.vercel.app. Alias https://global-live-data.vercel.app/pt/trending respondeu com a revisao do deploy. Conferidas 39 rotas EN/PT/ES, sitemap/robots, metadata/artigos e 404 desconhecido. QA publicado desktop/mobile sem erro de aplicacao; imagens fora do Git: /tmp/global-live-data-editorial/editorial-published-desktop.png e editorial-published-mobile.png.
+
+Heartbeat editorial ACTIVE confirmado em app/arquivo; nenhuma execucao futura ainda confirmada. Sem novos servicos pagos ou chaves. Ver [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -93,3 +101,5 @@ Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[2026-10-16-editorial-release]] - Handoff editorial.

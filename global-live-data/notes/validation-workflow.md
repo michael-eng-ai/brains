@@ -58,6 +58,12 @@ Probes reais locais e hospedados verificaram os sete seletores, dados e cache. P
 
 Browser real: 1280/390/320px local, 390px hospedado; cards, teclado, ligas/estado/busca, selecao eleitoral e expansao de jogos. Zero overflow/erros de aplicacao observados. Captura publicada em [[release-status]]. Nao testados aparelhos fisicos, Safari, carga, quota distribuida nem custos reais; nenhum monitor foi criado.
 
+## Artigos editoriais (2026-10-16)
+
+Node 24/npm 11: check final passou lint/tipos/63 unidades/build/39 rotas e sitemap/robots/404. Treze e2e Chromium passaram, incluindo busca/filtro/reset/teclado/fontes/idioma, canonical/JSON-LD, sem JS e larguras 320/820/1280. Portal deixou de requisitar Trends. Pesquisa real separada retornou dez pautas por US/BR/GB com status ready. QA IAB 1280/390px, navegacao interna, mobile e troca de idioma passaram. Recibos hospedados em [[release-status]].
+
+Sem falha final de teste. Python urllib local teve erro de CA; Node fetch com TLS normal resolveu. Locator Playwright do IAB falhou para select visivel; AX setValue funcionou e fixtures Chromium passaram. Nao testados Safari/aparelhos fisicos/carga, indexacao, views ou execucao futura do heartbeat.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -75,3 +81,5 @@ Browser real: 1280/390/320px local, 390px hospedado; cards, teclado, ligas/estad
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[2026-10-16-editorial-release]] - Handoff editorial.

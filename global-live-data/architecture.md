@@ -28,6 +28,10 @@ PR #5 acrescenta lib/discovery/{schema,service,index}.ts, GET /api/discover, com
 
 PR #6 acrescenta lib/events/{catalog,schema,service,index}.ts e /api/events. Tres paginas internas e componentes events/use-events usam sete chaves de cache, normalizadores puros, transporte testavel e age guard externo. Navegacao responsiva acomoda oito categorias. Detalhes e invariantes em [[sports-election-feeds]].
 
+## Artigos
+
+Catalogo tipado + copy EN/PT/ES, paginas estaticas de leitura, slot SSR no portal e pequeno filtro cliente. Sem runtime LLM; heartbeat Codex faz pesquisa/edicao/teste/release a cada seis horas. Detalhes em [[editorial-publishing]].
+
 ## Conexoes
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -37,3 +41,4 @@ PR #6 acrescenta lib/events/{catalog,schema,service,index}.ts e /api/events. Tre
 - [[football-fx-pilot]] - Direcao e implementacao atualizadas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+- [[editorial-publishing]] - Protocolo editorial e recorrencia.
