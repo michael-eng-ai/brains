@@ -30,3 +30,4 @@ Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno 
 - [[release-status]] - Atualizacao TSE autorizada e verificavel.
 - [[current]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.

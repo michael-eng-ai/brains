@@ -45,3 +45,4 @@ No proximo disparo, executar docs/EDITORIAL.md e pesquisar outra pauta util. Se 
 - [[release-status]] - Recibos de publicacao.
 - [[validation-workflow]] - Checks e limites.
 - [[2026-10-16-auto-editorial]] - Autorizacao recorrente.
+- [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.

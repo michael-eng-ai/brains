@@ -1,22 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Primeiro heartbeat editorial publicou guia Tour 2027; atualizacao TSE preservada."
-tags: [global-live-data, estado, editorial, automacao]
+resumo: "Auditoria de consolidacao concluida; correcao da janela24h e docs proposta, sem publicar."
+tags: [global-live-data, estado, auditoria]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-tour-editorial-release]].
+Ultimo handoff: [[2026-10-16-consolidation-audit]].
 
-- PR #11 integrada; main 8b6c43893fd2db9b038cca25abc32b8d21f3b66c limpa/local=remota. CI PR/main e Production Ready em [[release-status]].
-- Terceiro artigo EN/PT/ES publicado: Tour de France 2027, anuncio do percurso e etapas britanicas confirmadas; [[editorial-publishing]]. Filtro Ciclismo e apenas editorial.
-- Primeiro heartbeat editorial concluido com pesquisa nos seis mercados suportados e uma pauta original verificada. Cadencia seis horas preservada; [[2026-10-16-auto-editorial]].
-- Checks e QA publicados passaram; limites em [[validation-workflow]]. Nao prometer indexacao, views ou revisao humana.
-- Heartbeat TSE independente continua conforme [[refresh-tse-elections]]. Dados da PR #10 preservados; nenhuma consulta TSE nesta rodada. RO/turno2 pendentes no snapshot existente; [[brazil-election-comparison]].
-- Arquivos historicos anteriores preservados, runtime somente leitura; [[historical-editions]]. Sem nova conta/chave/gasto/servico.
-- Proximo passo editorial: nova pesquisa no proximo disparo, sem duplicar a pauta. Para revisar o Tour apos o anuncio, reapurar fontes e preservar primeira publicacao; nao antecipar o percurso completo.
+- Direcao vigente: consolidar antes de expandir; [[2026-10-16-consolidate-first]]. Avaliacao nao autoriza alteracoes irrestritas em producao.
+- Main publicada e limpa, PR11; recibos conferidos em [[release-status]]. Nenhuma alteracao no app/deploy nesta auditoria.
+- Cinco prioridades, evidencias do contador24h, custos/latencia Vercel e plano4-6h em [[consolidation-audit]]. Implementacao da correcao ainda proposta.
+- Primeiro heartbeat editorial publicou Tour2027; [[editorial-publishing]]. As duas rotinas seguem ACTIVE/6h, sem mudanca; primeiro disparo autonomoTSE nao observado.
+- RO/turno2 e preservacao historica continuam conforme [[brazil-election-comparison]], [[historical-editions]] e [[refresh-tse-elections]].
+- Nao ampliar categorias, habilitar medicao/ads, contratar banco/cache ou supor audiencia por requests. Sem conta/chave/gasto novo.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -43,3 +42,6 @@ Ultimo handoff: [[2026-10-16-tour-editorial-release]].
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
+- [[consolidation-audit]] - Evidencias e prioridades.
+- [[2026-10-16-consolidate-first]] - Direcao de consolidacao.
+- [[2026-10-16-consolidation-audit]] - Handoff da auditoria.

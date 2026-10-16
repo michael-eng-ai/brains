@@ -31,3 +31,4 @@ Historicos nao usam TTL do cache. Fonte duravel e artefato somente leitura descr
 - [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.

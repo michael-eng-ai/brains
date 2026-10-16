@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[consolidation-audit]] - Cinco prioridades, evidencias de operacao e proposta pequena.
 - [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
 - [[brazil-election-comparison]] - Brasil 2026/2022, denominadores e dados pendentes.
 - [[editorial-publishing]] - Artigos, apuracao e rotina de seis horas.
@@ -36,6 +37,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-consolidate-first]] - Consolidar antes de expandir; avaliacao sem deploy irrestrito.
 - [[2026-10-16-auto-tse]] - Atualizar dados TSE e publicar resultados consistentes.
 - [[2026-10-16-retain-editions]] - Reter historico e importar todos os cargos de 2022.
 - [[2026-10-16-auto-editorial]] - Publicacao automatica frequente escolhida.
@@ -72,6 +74,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-consolidation-audit]] - Auditoria do produto, custos e atualizacao.
 
 - [[2026-10-16-tour-editorial-release]] - Primeira rodada editorial autonoma, guia Tour 2027 publicado.
 
@@ -153,3 +156,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
+- [[consolidation-audit]] - Auditoria e direcao atual.
+- [[2026-10-16-consolidate-first]] - Auditoria e direcao atual.
+- [[2026-10-16-consolidation-audit]] - Auditoria e direcao atual.

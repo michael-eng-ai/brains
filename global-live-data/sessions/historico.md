@@ -36,6 +36,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: primeiro heartbeat editorial publicou guia Tour 2027 EN/PT/ES pela PR #11, CI/Production/QA verificados; [[2026-10-16-tour-editorial-release]].
 
+- 2026-10-16: [[2026-10-16-consolidation-audit]] - Auditoria em main publicada; defeito24h e US$0,32 de infraestrutura observados, sem mudar producao.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -49,3 +51,4 @@ atualizado: "2026-10-16"
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
+- [[2026-10-16-consolidation-audit]] - Handoff da auditoria.

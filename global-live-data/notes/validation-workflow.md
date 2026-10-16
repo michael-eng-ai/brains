@@ -112,3 +112,4 @@ Fontes atuais lidas separadamente; conversoes do instante anunciado conferidas c
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
+- [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
