@@ -42,7 +42,7 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: auditoria de APIs concluida; propostas sem alteracao do app/publicacao. [[2026-10-16-api-data-audit]].
 
-- 2026-10-16 | codex | PR13 esportes/FX, check87+Python11+Chromium25, publicacao pendente; [[2026-10-16-sports-fx-depth-release]].
+- 2026-10-16 | codex | PR13 esportes/FX publicada em main2d0c69c, CI duplo e Production Ready, check87/Python11/Chromium25; [[2026-10-16-sports-fx-depth-release]].
 
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.

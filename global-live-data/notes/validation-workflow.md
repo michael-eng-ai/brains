@@ -94,6 +94,10 @@ Manual IAB 390/1280px: layout, navegacao, privacidade PT/ES, retorno e console s
 
 Publico: Nove paginas home/privacy/nature EN/PT/ES responderam HTTP200 com CSP e deployment ID exato em 2026-10-16T21:10:19Z. As tres paginas de privacidade identificam operador/host e removem o aviso de pre-lancamento. ops:check as 21:10:06Z retornou exit0: oito feeds representativos ready naquele instante. Navegacao mobile portal-natureza-retorno e desktop publicos sem overflow/erro de aplicacao; USGS posteriormente stale permaneceu sinalizado, sem novo timestamp. Capturas /tmp/gld-consolidation/published-mobile.png e published-desktop.png. Servidor local de QA encerrado; viewport restaurado.. Sem reproduzir contatos publicos, tokens ou logs de visitantes em artefatos.
 
+## Validacao de esportes e FX, 16 outubro
+
+PR13: check87 unit + lint/types/build/HTTP, Python11 e Chromium25 passaram. Cinco novos fluxos browser incluem temporadas/rodadas, time/idioma, falha isolada da tabela, lacunas FX e respostas tardias; seletor de moeda segue funcional sem taxa recente. QA real local/publico390/1280 confirmou conteudo, identidade, ausencia de overlay/overflow/erros e interacoes. Mobile320 coberto em Chromium. O plugin Browser separado nao estava listado; CUA nativo fez UI manual e a suite existente Playwright foi executada conforme contrato do repo. Nao usou automacaoUI por shell. Evidencia de producao e ops stale em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.

@@ -1,7 +1,7 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Esportes e FX implementados; PR13 e publicacao em verificacao."
+resumo: "PR13 publicada: temporadas/time, Bundesliga e cambio30/90dias."
 tags: [global-live-data, estado, dados]
 atualizado: "2026-10-16"
 ---
@@ -10,12 +10,13 @@ atualizado: "2026-10-16"
 
 Ultimo handoff: [[2026-10-16-sports-fx-depth-release]].
 
-- Prioridade futebol/hoquei/FX aprovada e implementada; contratos em [[sports-fx-depth]]. PR13 head b706547, CI em andamento. Main ainda5c7c890; nova publicacao nao confirmada.
-- Check87unit+build/HTTP, Python11, Chromium25 e QAreal390/1280 passaram.
-- Proximo passo: CI PR13, mergeSHA, CI main, ProductionReady e verificacao publica, salvar recibos.
-- Seis arquivos historicos preservados. FonteFX90dias fica em cache, sem warehouse novo. Previsao7dias fora desta entrega.
-- Duas automacoes inalteradas; RO/turno2 dependem da fonte. Sem nova coleta TSE nesta sessao.
-- Sem analytics/ads/contas/chaves/custos novos. Telefonesfisicos/Safari mobile/carga distribuida nao verificados.
+- PR13 integrada; main local/remota limpa 2d0c69c7e6f1e0e6f64852b239556fc83ea82add. CI PR/main com dois jobs aprovados; Vercel Production Ready no SHA exato. Recibos em [[release-status]].
+- [[sports-fx-depth]]: calendarios cadastrados2026/27, filtros/rodadas/time/forma, classificacao Bundesliga e FX30/90dias com tabela diaria. Mesmas fontes aprovadas; portal e seis arquivos historicos preservados.
+- Check87 testes unitarios, Python11, Chromium25, QA real390/1280 e12paginaspublicas passaram. Novos feeds de producao ready. Ops geral encontrou USGS/MET stale; demais representativos ready, sem alegar recuperacao longitudinal.
+- Proximo passo: avaliar a versao publicada com o usuario e priorizar feedback sobre utilidade dos dados. Investigar clima/USGS apenas com diagnostico limitado sob demanda, respeitando TTL; nao promover carga nem trocar fornecedores por um unico snapshot.
+- Nao ampliar automaticamente para novas categorias ou previsao7dias. FX historico e cache de fonte, nao warehouse permanente. Medir trafego agregado antes de expandir (inventario frio OpenLiga51 chamadas, sem quota distribuida).
+- Duas automacoes seguem inalteradas; RO/turno2 dependem de fonte consistente/disponivel. Nao houve nova coleta TSE. Sem contas, chaves, custos, analytics ou ads novos.
+- Telefones fisicos, Safari mobile e carga distribuida permanecem nao testados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.

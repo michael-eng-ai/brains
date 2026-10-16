@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[sports-fx-depth]] - Temporadas/time/Bundesliga e FX30/90dias publicados, com limites.
 - [[api-data-adequacy]] - Utilidade, cobertura e prioridades de dados.
 - [[consolidation-audit]] - Diagnostico historico e consolidacao entregue, com limites operacionais.
 - [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
@@ -38,6 +39,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-publish-sports-fx-depth]] - Prioridade de dados existentes, merge e publicacao autorizados.
 - [[2026-10-16-publish-consolidation]] - Correcao24h, operacao e publicacao autorizadas.
 - [[2026-10-16-consolidate-first]] - Consolidar antes de expandir; avaliacao sem deploy irrestrito.
 - [[2026-10-16-auto-tse]] - Atualizar dados TSE e publicar resultados consistentes.
@@ -76,6 +78,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-sports-fx-depth-release]] - PR13 publicada e verificada; proximo passo e feedback.
 - [[2026-10-16-api-data-audit]] - Auditoria real das APIs e propostas.
 - [[2026-10-16-consolidation-release]] - Consolidacao publicada e verificada.
 - [[2026-10-16-consolidation-audit]] - Auditoria do produto, custos e atualizacao.
@@ -165,6 +168,3 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-consolidation-audit]] - Auditoria e direcao atual.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
-- [[sports-fx-depth]] - Entrega de esportes e FX.
-- [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
-- [[2026-10-16-sports-fx-depth-release]] - Entrega de esportes e FX.

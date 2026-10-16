@@ -8,6 +8,17 @@ atualizado: "2026-10-16"
 
 # Estado da entrega
 
+## Entrega: esportes e historico cambial
+
+PR13 https://github.com/michael-eng-ai/global-live-data/pull/13 integrada em 2026-10-16T21:51:36Z. Head b706547e95e68a0088421fd76f2adf11f8b07f6e; main local/remota 2d0c69c7e6f1e0e6f64852b239556fc83ea82add, arvore limpa e identica ao head aprovado. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38971897534 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38972157645: ambos os jobs aprovados.
+
+Vercel Production Ready observado no SHA exato, branch main, build29s; deployment dpl_HzwTBZLztApekGi1qcYp4kruFPCs. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/HzwTBZLztApekGi1qcYp4kruFPCs ; URL unica https://global-live-data-9frnvhsm2-michael-eng-ais-projects.vercel.app . Integracao Git publicou automaticamente; sem deploy duplicado ou mudanca de configuracao. Connector list_projects funcionou, list_deployments403; CLI nao instalada. Painel autenticado existente forneceu evidencia, sem ampliar acesso.
+
+Verificacao anonima 21:53:30–21:53:32 UTC: 12 paginas EN/PT/ES (futebol, hoquei, cambio, time), idioma, deployment id, CSP, noindex de time e limites400/404 passaram. Novos feeds ready: Bundesliga306, DEL364, tabela18, FXUSD360rows/quatroquotes/90datas19jul–16out. Ops:check21:53:13 encontrou os feeds representativos football/FX/hockey/chess/UK/TV ready; USGS e MET stale (checagens21:51:08 e21:09:50 UTC). Nao esconder ou chamar de recuperacao permanente; estes dois nao foram alterados nesta entrega.
+
+QA local: check87 testes unitarios, lint/types/build/HTTP; Python11; Chromium25. Manual real390/1280 e publico: tabela18times, SC Freiburg + idioma ES preservado, DEL rodada1 com7jogos, FX90dias; sem overflow ou console erro. Capturas /tmp/gld-sports-fx/published-football-desktop.png e published-fx-mobile.png. Registros locais de validacao em /tmp/gld-sports-fx; podem expirar. Contratos essenciais persistem em [[sports-fx-depth]]. Sem telefone fisico/mobileSafari/carga distribuida ou novo warehouseFX.
+
+
 ## Historico: hoquei, xadrez e resultados eleitorais
 
 PR #6 integrada em 2026-10-16T13:32:09Z: https://github.com/michael-eng-ai/global-live-data/pull/6. Main local/remota 8b40a43719265fb4fea763c19ebde97640e59b0b; arvore limpa e identica ao head validado 503c54e22d91f2a616190bcc720e621fcb6ceb1d. CI PR 38908358359 e main 38908594194 passaram ambos os jobs. Main CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38908594194.

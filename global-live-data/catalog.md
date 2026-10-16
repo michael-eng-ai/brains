@@ -14,7 +14,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
 | [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
-| [[current]] (current.md) | estado | "Esportes e FX implementados; PR13 e publicacao em verificacao." | [global-live-data, estado, dados] | 41 | 34 |
+| [[current]] (current.md) | estado | "PR13 publicada: temporadas/time, Bundesliga e cambio30/90dias." | [global-live-data, estado, dados] | 41 | 34 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 5 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 6 | 7 |
@@ -67,7 +67,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-16-editorial-release]] (sessions/2026-10-16-editorial-release.md) | sessao | "Artigos publicados, rotina seis horas ativa e evidencias verificadas." | [global-live-data, sessao, editorial] | 7 | 7 |
 | [[2026-10-16-history-release]] (sessions/2026-10-16-history-release.md) | sessao | "PR 8 publicada com arquivo historico eleitoral e esportivo, checks e dados hospedados verificados." | [global-live-data, sessao, historico] | 7 | 7 |
 | [[2026-10-16-sports-election-release]] (sessions/2026-10-16-sports-election-release.md) | "sessao" | "PR 6 publicada com hoquei, xadrez e resultados eleitorais; CI e dados reais verificados." | ["global-live-data", "sessao", "publicacao"] | 7 | 7 |
-| [[2026-10-16-sports-fx-depth-release]] (sessions/2026-10-16-sports-fx-depth-release.md) | sessao | "PR13 pronta com esportes aprofundados e historico FX; publicacao em verificacao." | [global-live-data, dados, entrega] | 7 | 7 |
+| [[2026-10-16-sports-fx-depth-release]] (sessions/2026-10-16-sports-fx-depth-release.md) | sessao | "PR13 publicada com esportes aprofundados e historico FX; CI e Ready verificados." | [global-live-data, dados, entrega] | 7 | 7 |
 | [[2026-10-16-tour-editorial-release]] (sessions/2026-10-16-tour-editorial-release.md) | sessao | "Primeiro heartbeat editorial publicou guia Tour 2027 com fontes e release verificados." | [global-live-data, sessao, editorial, automacao] | 8 | 8 |
 | [[2026-10-16-tse-refresh-release]] (sessions/2026-10-16-tse-refresh-release.md) | sessao | "PR 10 publicada e heartbeat TSE ativo; dados atuais preservados com RO pendente." | [global-live-data, sessao, eleicoes, automacao] | 9 | 9 |
 | [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 17 | 17 |

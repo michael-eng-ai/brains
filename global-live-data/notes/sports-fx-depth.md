@@ -8,7 +8,7 @@ atualizado: "2026-10-16"
 
 # Profundidade de esportes e cambio
 
-Implementacao em PR13 https://github.com/michael-eng-ai/global-live-data/pull/13, head b706547e95e68a0088421fd76f2adf11f8b07f6e. Contrato canonico no repo: docs/SPORTS-FX-DEPTH.md; codigo lib/depth, components/sports-explorer.tsx, components/fx-history.tsx e /api/depth.
+Publicada pela PR13; main 2d0c69c, Production Ready e verificacao anonima confirmados em [[release-status]]. Implementacao em PR13 https://github.com/michael-eng-ai/global-live-data/pull/13, head b706547e95e68a0088421fd76f2adf11f8b07f6e. Contrato canonico no repo: docs/SPORTS-FX-DEPTH.md; codigo lib/depth, components/sports-explorer.tsx, components/fx-history.tsx e /api/depth.
 
 - Football bl1/ucl e hockey del/CHL: todas as partidas cadastradas2026/27, filtros rodada/nome/status, calendario progressivo, paginas internas por time e forma5finais. Fonte comunitaria; sem resultado inventado por horario, sem placar ao vivo. Hoquei usa placar final cumulativo de prorrogacao/desempate, nao soma parciais nem aplica pontuacao futebol.
 - Bundesliga getbltable separado: exige18times unicos ou vazio, valida jogos e saldo; preserva ordenacao/deducoes do fornecedor. Falha nao elimina calendario.
