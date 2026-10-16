@@ -37,3 +37,4 @@ A entrega [[2026-10-16-consolidation-release]] aplica earthquakesInWindow tambem
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
+- [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.

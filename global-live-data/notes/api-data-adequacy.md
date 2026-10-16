@@ -23,7 +23,9 @@ Auditoria solicitada pelo proprietario em 16/10/2026: site visualmente bom, mas 
 - UK: quatro distritos, votos partidarios reconciliados 4/4, datas 08/10/2026 e 04/07/2024 (tres). Nao representa total nacional. Brasil analisado apenas pelos arquivos existentes: 176 recortes2022, 134 validos2026, dois RO em quarentena; sem nova coleta TSE.
 - USGS primeira amostra194 eventos; stale nas duas leituras, mas sourceUpdatedAt avancou 21:17:08 para21:22:08 UTC. Frescor1min vencido; nao demonstrou pane permanente. Xadrez stale tornou-se ready na segunda leitura.
 
-## Prioridades propostas, ainda nao implementadas
+## Prioridades propostas na auditoria
+
+Atualizacao posterior: itens1/2 autorizados e implementados em PR13; ver [[sports-fx-depth]]. Previsao7dias e demais propostas permanecem fora da entrega.
 
 1. Futebol/hoquei: temporadas e rodadas navegaveis, paginas de time, ultimos cinco resultados/proximo jogo; classificacao primeiro Bundesliga. Separar blocos futuros/finais. Validar regras/fases antes de outras tabelas.
 2. FX: grafico30/90dias, variacao, extremos e conversor; politica de fonte constante e lacunas visiveis, sem intradiario.
@@ -51,3 +53,5 @@ Nenhuma suite/build reexecutada pois codigo do app nao mudou. Nao afirmar teste 
 - [[usgs-earthquakes]] - Contratos e contexto da categoria.
 - [[brazil-election-comparison]] - Contratos e contexto da categoria.
 - [[consolidation-audit]] - Contratos e contexto da categoria.
+- [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
+- [[2026-10-16-publish-sports-fx-depth]] - Prioridade selecionada autorizada.

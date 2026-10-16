@@ -165,3 +165,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-consolidation-audit]] - Auditoria e direcao atual.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
+- [[sports-fx-depth]] - Entrega de esportes e FX.
+- [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
+- [[2026-10-16-sports-fx-depth-release]] - Entrega de esportes e FX.

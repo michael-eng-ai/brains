@@ -122,3 +122,5 @@ Publico: Nove paginas home/privacy/nature EN/PT/ES responderam HTTP200 com CSP e
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
+- [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
+- [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.

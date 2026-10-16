@@ -33,3 +33,4 @@ TSE 2026: catalogo oficial declara cc-by (versao nao inferida), mas recursos sao
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
+- [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.

@@ -50,3 +50,4 @@ As edicoes 2025/26 das duas ligas foram arquivadas independentemente dos feeds a
 - [[architecture]] - Direcao e implementacao atualizadas.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
+- [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.

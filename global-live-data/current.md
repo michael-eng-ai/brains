@@ -1,21 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Auditoria concluida: aprofundar dados atuais antes de ampliar categorias."
+resumo: "Esportes e FX implementados; PR13 e publicacao em verificacao."
 tags: [global-live-data, estado, dados]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-api-data-audit]].
+Ultimo handoff: [[2026-10-16-sports-fx-depth-release]].
 
-- Main local/remota limpa e publicada permanece 5c7c890 (PR12); evidencia de publicacao em [[release-status]]. Nenhum codigo/deploy alterado nesta auditoria.
-- Usuario questionou utilidade e sufiencia dos dados; avaliacao real e propostas em [[api-data-adequacy]]. Relatorio/notebook locais, consultas limitadas e comparacao com fonte concluidos.
-- Proxima prioridade proposta: aprofundar futebol/hoquei (calendario/time, classificacao Bundesliga), serie FX e previsao7dias. Implementacao ainda nao feita; recomendacao nao e aprovacao de novas contas/custos/fontes/publicacao.
-- Consolidacao24h/docs/privacidade concluida anteriormente. Nao reabrir como pendencia. Medicao de cidade com rede limitada segue proposta secundaria, sem evidencia nova.
-- Duas automacoes existentes seguem inalteradas. RO e turno2 dependem de dados consistentes/disponiveis; auditoria nao fez nova coleta TSE.
-- Telefones fisicos, picos distribuidos, demanda/retencao e SLO longitudinal seguem nao medidos. Sem analytics/ads adicionados.
+- Prioridade futebol/hoquei/FX aprovada e implementada; contratos em [[sports-fx-depth]]. PR13 head b706547, CI em andamento. Main ainda5c7c890; nova publicacao nao confirmada.
+- Check87unit+build/HTTP, Python11, Chromium25 e QAreal390/1280 passaram.
+- Proximo passo: CI PR13, mergeSHA, CI main, ProductionReady e verificacao publica, salvar recibos.
+- Seis arquivos historicos preservados. FonteFX90dias fica em cache, sem warehouse novo. Previsao7dias fora desta entrega.
+- Duas automacoes inalteradas; RO/turno2 dependem da fonte. Sem nova coleta TSE nesta sessao.
+- Sem analytics/ads/contas/chaves/custos novos. Telefonesfisicos/Safari mobile/carga distribuida nao verificados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -49,3 +49,4 @@ Ultimo handoff: [[2026-10-16-api-data-audit]].
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
 - [[api-data-adequacy]] - Adequacao e profundidade dos dados.
 - [[2026-10-16-api-data-audit]] - Ultima auditoria.
+- [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
