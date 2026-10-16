@@ -1,21 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Artigos publicados e rotina editorial automatica seis horas ativa."
-tags: [global-live-data, estado, editorial]
+resumo: "Arquivo historico publicado: Brasil 2022 e quatro temporadas 2025/26."
+tags: [global-live-data, estado, historico]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-editorial-release]].
+Ultimo handoff: [[2026-10-16-history-release]].
 
-- Site https://global-live-data.vercel.app/pt/trending. PR #7 integrada; main dba29fdd2ff944c5934116b6c6dd42cc898e5fc8, limpa/local=remota. CI PR/main e Production Ready observados em [[release-status]].
-- Em foco substitui o feed Trends por artigos originais EN/PT/ES, com paginas internas e fontes. Duas leituras iniciais e rotina descritas em [[editorial-publishing]]. Demais sete categorias preservadas.
-- Proprietario escolheu publicacao automatica frequente. Heartbeat `publicar-artigos-do-global-live-data` ACTIVE a cada seis horas, ate uma pauta por rodada; nao e um servico autonomo hospedado. Nenhuma rodada agendada observada ainda.
-- 63 unidades, 13 browser testes, 39 paginas HTTP, metadata e leitura sem JavaScript passaram; QA mobile/desktop publicado. Fontes reais foram pesquisadas separadamente das fixtures.
-- Sem conta, chave, dependencia, API paga, anuncio ou analytics novos. Cerebro contem referencias e recibos, sem credenciais/dados pessoais.
-- Proximo passo: executar a rodada editorial autorizada ou corrigir conforme avaliacao. Nao prometer indexacao/views; preservar qualidade e revisao de fontes. Safari/aparelhos fisicos/carga continuam nao testados.
+- PR #8 integrada; main 56d255d6880ce1b727a3586cd06eac57fdbe2332 limpa/local=remota. CI PR/main e Vercel Production Ready observados em [[release-status]].
+- Historico https://global-live-data.vercel.app/pt/history/br-2022. Seis cargos brasileiros agregados por partido/estado/turno e quatro temporadas esportivas anteriores; detalhes em [[historical-editions]].
+- Persistencia: JSON versionado + SQLite read-only indexado, aproximadamente 360 KiB. Gate impede trocar temporada esportiva sem arquivar a anterior. Sem novo banco cloud, conta, chave ou despesa contratada.
+- 69 unidades, 3 testes Python separados, 15 casos Chromium, 54 rotas HTTP passaram. Cinco exports publicados iguais aos arquivos locais; QA desktop/mobile publicado sem erros/overflow.
+- Apuracao Brasil 2026 e ingestao futura automatica nao implementadas. Carga/Safari/aparelhos fisicos nao testados; arquivo nao implica cobertura completa de eleicoes/esportes globais.
+- Heartbeat publicar-artigos-do-global-live-data segue ACTIVE a cada seis horas e independente; nenhuma execucao agendada confirmada nesta sessao. [[editorial-publishing]].
+- Proximo passo: avaliacao do historico ou rodada editorial autorizada. Para nova edicao, seguir docs/HISTORY.md; nunca substituir arquivo anterior pelo evento atual.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -34,3 +35,5 @@ Ultimo handoff: [[2026-10-16-editorial-release]].
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[2026-10-16-history-release]] - Handoff do historico publicado.

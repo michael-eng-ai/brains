@@ -3,7 +3,7 @@ tipo: "ambiente"
 projeto: "global-live-data"
 resumo: "Configuracao por nomes e comandos verificados, sem valores privados."
 tags: ["global-live-data", "ambiente"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Ambiente
@@ -41,6 +41,10 @@ Sampler opcional em Python 3 standard library; snapshot no diretorio temporario 
 
 O mesmo GLD_ENABLE_LAB agora protege app/api/lab/data/route.ts, alem da pagina. VERCEL bloqueia ambos. OpenLigaDB e Frankfurter nao exigem novas variaveis/chaves neste piloto. Nenhum valor novo foi escrito em .env.local. O servidor da previa foi reiniciado com Node 24 em loopback 3101, e os providers de natureza permaneceram fora dos probes do piloto.
 
+## Historico
+
+Nenhuma variavel nova. npm run history:build roda com Node 24 antes de dev/build; node:sqlite integrado. Python 3.11+ apenas para importador TSE offline e seus tres testes; CI/app nao dependem de Python. Procedimentos em docs/HISTORY.md do repo.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
@@ -52,3 +56,4 @@ O mesmo GLD_ENABLE_LAB agora protege app/api/lab/data/route.ts, alem da pagina. 
 - [[release-status]] - Publicacao e configuracao hospedada verificadas.
 - [[category-research]] - Contexto e evidencia da revisao local.
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.

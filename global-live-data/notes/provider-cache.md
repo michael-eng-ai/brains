@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Cache do framework, cache por processo e timestamps diferentes."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Cache e timestamps
@@ -20,9 +20,14 @@ providerUpdatedAt e a publicacao; fetchedAt e consulta original preservada em ca
 
 Os limites de Trends/TV e a estimativa de trafego da PR #5 ficam em [[trends-tv-discovery]]. Reuso observado de timestamps nao substitui medicao distribuida de upstream/custo.
 
+## Persistencia separada
+
+Historicos nao usam TTL do cache. Fonte duravel e artefato somente leitura descritos em [[historical-editions]]; trocar temporada nao apaga uma edicao arquivada.
+
 ## Conexoes
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
 - [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.

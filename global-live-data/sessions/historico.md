@@ -28,6 +28,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: [[2026-10-16-editorial-release]] - PR #7 publicada em dba29fd, CI/Production/QA verificados; heartbeat editorial seis horas ativo.
 
+- 2026-10-16: PR #8 publicou arquivo historico Brasil 2022/todos os cargos e quatro temporadas 2025/26; CI, Production e dados hospedados verificados. [[2026-10-16-history-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -37,3 +39,4 @@ atualizado: "2026-10-16"
 - [[2026-10-15-discovery-release]] - Handoff desta publicacao.
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
+- [[2026-10-16-history-release]] - Handoff do historico publicado.

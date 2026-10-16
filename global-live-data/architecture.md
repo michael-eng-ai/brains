@@ -8,7 +8,7 @@ atualizado: "2026-10-16"
 
 # Arquitetura
 
-Confirmado no codigo: Next.js App Router 16.4.1, React 19.3.1 e TypeScript. Sem banco, login de visitantes, IA, anuncios ou analytics.
+Confirmado no codigo: Next.js App Router 16.4.1, React 19.3.1 e TypeScript. SQLite historico somente leitura, sem banco cloud gravavel, login de visitantes, API IA em runtime, anuncios ou analytics.
 
 GET /api/data aceita somente uma cidade curada. A rota chama a instancia compartilhada do servico server-only; adapters normalizam respostas; UI consome contratos de lib/types.ts. Cabecalho do envelope: Cache-Control: no-store. Fontes usam uma camada separada de cache.
 
@@ -32,6 +32,10 @@ PR #6 acrescenta lib/events/{catalog,schema,service,index}.ts e /api/events. Tre
 
 Catalogo tipado + copy EN/PT/ES, paginas estaticas de leitura, slot SSR no portal e pequeno filtro cliente. Sem runtime LLM; heartbeat Codex faz pesquisa/edicao/teste/release a cada seis horas. Detalhes em [[editorial-publishing]].
 
+## Arquivo historico
+
+Persistencia versionada e consultas SQLite independentes do cache: [[historical-editions]]. Source tracing inclui .data/history.sqlite; runtime nunca escreve no filesystem efemero.
+
 ## Conexoes
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -42,3 +46,4 @@ Catalogo tipado + copy EN/PT/ES, paginas estaticas de leitura, slot SSR no porta
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.

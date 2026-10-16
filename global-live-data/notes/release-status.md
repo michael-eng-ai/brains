@@ -8,7 +8,7 @@ atualizado: "2026-10-16"
 
 # Estado da entrega
 
-## Entrega atual: hoquei, xadrez e resultados eleitorais
+## Historico: hoquei, xadrez e resultados eleitorais
 
 PR #6 integrada em 2026-10-16T13:32:09Z: https://github.com/michael-eng-ai/global-live-data/pull/6. Main local/remota 8b40a43719265fb4fea763c19ebde97640e59b0b; arvore limpa e identica ao head validado 503c54e22d91f2a616190bcc720e621fcb6ceb1d. CI PR 38908358359 e main 38908594194 passaram ambos os jobs. Main CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38908594194.
 
@@ -66,13 +66,23 @@ Verificacao final anonima em 2026-10-15T21:49:11Z: pagina PT HTTP 200 com data-d
 
 Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430px foram confirmadas. Fluxos e resultados em [[validation-workflow]]. Isto supera somente a limitacao mobile acima; a sessao de lancamento permanece evidencia historica. Naquela etapa, o experimento de categorias permaneceu local. A entrega atual acima supera esse estado.
 
-## Entrega editorial atual
+## Historico: entrega editorial
 
 PR #7 https://github.com/michael-eng-ai/global-live-data/pull/7 integrada em 2026-10-16T14:04:44Z. Head 9a2ad62f6e09f900f10565eb4a5e22b5198b4cb6; main dba29fdd2ff944c5934116b6c6dd42cc898e5fc8; arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38912597274 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38912871587 passaram ambos os jobs.
 
 Production Ready dpl_ERkThavNiqMiouSRrAQ4Ux2zS36X, commit main exato. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/ERkThavNiqMiouSRrAQ4Ux2zS36X; URL unica https://global-live-data-q7ydhlfzx-michael-eng-ais-projects.vercel.app. Alias https://global-live-data.vercel.app/pt/trending respondeu com a revisao do deploy. Conferidas 39 rotas EN/PT/ES, sitemap/robots, metadata/artigos e 404 desconhecido. QA publicado desktop/mobile sem erro de aplicacao; imagens fora do Git: /tmp/global-live-data-editorial/editorial-published-desktop.png e editorial-published-mobile.png.
 
 Heartbeat editorial ACTIVE confirmado em app/arquivo; nenhuma execucao futura ainda confirmada. Sem novos servicos pagos ou chaves. Ver [[editorial-publishing]].
+
+## Entrega atual: edicoes historicas
+
+PR #8 https://github.com/michael-eng-ai/global-live-data/pull/8 integrada em 2026-10-16T14:38:08Z. Main 56d255d6880ce1b727a3586cd06eac57fdbe2332; head f5b1aac1e81eaf8d04d1ef15e8102c46b0592d7d com arvore identica. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38917077081 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38917361071 passaram ambos os jobs.
+
+Vercel Production Ready observado no SHA exato, 29s, dpl_DtJKczY9hNpyJDH2Vxwn1MNmffiQ. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/DtJKczY9hNpyJDH2Vxwn1MNmffiQ; URL unica https://global-live-data-1is85za1y-michael-eng-ais-projects.vercel.app. A previa Ready tambem leu SQLite no runtime antes do merge.
+
+Probe anonimo em 2026-10-16T14:39:48.820Z conferiu 54 paginas localizadas com deployment id, seis cargos, cinco exports integralmente iguais aos fatos/hashes locais, limites de entrada, sitemap e lab 404. Publico https://global-live-data.vercel.app/pt/history/br-2022.
+
+IAB publicado 1280/390: troca para ZZ/segundo turno exibiu 298.169 votos validos; largura 390 sem overflow e logs de aplicacao vazios. Capturas /tmp/global-live-data-history/history-published-desktop.png e history-published-mobile.png fora do Git. Sem auditoria completa de runtime logs, carga, Safari ou dispositivos fisicos. Limites e fonte persistente em [[historical-editions]].
 
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
@@ -103,3 +113,6 @@ Heartbeat editorial ACTIVE confirmado em app/arquivo; nenhuma execucao futura ai
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[2026-10-16-retain-editions]] - Direcao confirmada de retencao por edicao.
+- [[2026-10-16-history-release]] - Handoff do historico publicado.

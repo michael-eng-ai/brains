@@ -13,8 +13,8 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | Nota | Tipo | Resumo | Tags | In | Out |
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
-| [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 9 | 9 |
-| [[current]] (current.md) | estado | "Artigos publicados e rotina editorial automatica seis horas ativa." | [global-live-data, estado, editorial] | 23 | 16 |
+| [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
+| [[current]] (current.md) | estado | "Arquivo historico publicado: Brasil 2022 e quatro temporadas 2025/26." | [global-live-data, estado, historico] | 25 | 18 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 5 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 6 | 7 |
@@ -24,23 +24,25 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-15-scope-budget]] (decisions/2026-10-15-scope-budget.md) | "decisao" | "Natureza como primeira fase e limite de custo como planejamento." | ["global-live-data", "decisao"] | 3 | 3 |
 | [[2026-10-16-auto-editorial]] (decisions/2026-10-16-auto-editorial.md) | decisao | "Proprietario escolheu artigos e publicacao automatica frequente." | [global-live-data, decisao, editorial] | 5 | 5 |
 | [[2026-10-16-publish-sports-elections]] (decisions/2026-10-16-publish-sports-elections.md) | "decisao" | "Autorizacao de fontes gratuitas comerciais, implementacao e publicacao." | ["global-live-data", "decisao", "escopo"] | 6 | 6 |
-| [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 9 | 9 |
-| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 53 | 54 |
+| [[2026-10-16-retain-editions]] (decisions/2026-10-16-retain-editions.md) | decisao | "Guardar a edicao anterior e incluir todos os cargos brasileiros de 2022." | [global-live-data, decisao, historico] | 5 | 5 |
+| [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 10 | 10 |
+| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 56 | 57 |
 | [[category-research]] (notes/category-research.md) | "conceito" | "Pesquisa inicial de categorias e ponte para os feeds posteriormente publicados." | ["global-live-data", "conceito"] | 10 | 10 |
 | [[curated-geography]] (notes/curated-geography.md) | "conceito" | "Catalogo limitado de 42 cidades e geometria do mapa." | ["global-live-data", "conceito"] | 2 | 2 |
 | [[development-dependencies]] (notes/development-dependencies.md) | "conceito" | "Auditoria de dependencias e restricao de compatibilidade do lint." | ["global-live-data", "conceito"] | 3 | 3 |
 | [[editorial-publishing]] (notes/editorial-publishing.md) | conceito | "Artigos originais por tendencias e rotina editorial a cada seis horas." | [global-live-data, conceito, editorial] | 10 | 10 |
-| [[football-fx-pilot]] (notes/football-fx-pilot.md) | "conceito" | "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas." | ["global-live-data", "conceito"] | 11 | 11 |
+| [[football-fx-pilot]] (notes/football-fx-pilot.md) | "conceito" | "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas." | ["global-live-data", "conceito"] | 12 | 12 |
+| [[historical-editions]] (notes/historical-editions.md) | conceito | "Edicoes historicas persistentes com SQLite somente leitura e importacao verificavel." | [global-live-data, historico, dados] | 12 | 12 |
 | [[met-forecast]] (notes/met-forecast.md) | "conceito" | "Previsao MET condicionada a identificacao publica autorizada." | ["global-live-data", "conceito"] | 6 | 6 |
 | [[nature-portal]] (notes/nature-portal.md) | "conceito" | "Produto implementado, idiomas e limites de informacao." | ["global-live-data", "conceito"] | 4 | 4 |
-| [[provider-cache]] (notes/provider-cache.md) | "conceito" | "Cache do framework, cache por processo e timestamps diferentes." | ["global-live-data", "conceito"] | 5 | 5 |
+| [[provider-cache]] (notes/provider-cache.md) | "conceito" | "Cache do framework, cache por processo e timestamps diferentes." | ["global-live-data", "conceito"] | 6 | 6 |
 | [[public-contact]] (notes/public-contact.md) | "conceito" | "Contato publico separado do identificador MET e lacunas de privacidade." | ["global-live-data", "conceito"] | 4 | 4 |
-| [[release-status]] (notes/release-status.md) | "conceito" | "Evidencias de merge, CI e publicacao Vercel." | ["global-live-data", "conceito"] | 23 | 23 |
-| [[sports-election-feeds]] (notes/sports-election-feeds.md) | "conceito" | "Hoquei, xadrez e resultados eleitorais publicados: fontes e limites." | ["global-live-data", "conceito", "esportes", "eleicoes"] | 10 | 9 |
+| [[release-status]] (notes/release-status.md) | "conceito" | "Evidencias de merge, CI e publicacao Vercel." | ["global-live-data", "conceito"] | 26 | 26 |
+| [[sports-election-feeds]] (notes/sports-election-feeds.md) | "conceito" | "Hoquei, xadrez e resultados eleitorais publicados: fontes e limites." | ["global-live-data", "conceito", "esportes", "eleicoes"] | 11 | 10 |
 | [[trends-tv-discovery]] (notes/trends-tv-discovery.md) | conceito | "Buscas regionais e programacao de TV com fontes reais, cobertura e direitos explicitos." | [global-live-data, conceito, discovery] | 11 | 11 |
 | [[usgs-earthquakes]] (notes/usgs-earthquakes.md) | "conceito" | "Fonte USGS limitada a janela movel de 24 horas." | ["global-live-data", "conceito"] | 3 | 3 |
-| [[validation-workflow]] (notes/validation-workflow.md) | "conceito" | "Checks locais e CI sem confundir fixtures com dados reais." | ["global-live-data", "conceito"] | 18 | 18 |
-| [[project]] (project.md) | "fundamentos" | "Objetivo de produto e limites das fases." | ["global-live-data", "fundamentos"] | 15 | 15 |
+| [[validation-workflow]] (notes/validation-workflow.md) | "conceito" | "Checks locais e CI sem confundir fixtures com dados reais." | ["global-live-data", "conceito"] | 20 | 20 |
+| [[project]] (project.md) | "fundamentos" | "Objetivo de produto e limites das fases." | ["global-live-data", "fundamentos"] | 17 | 17 |
 | [[resume-publication]] (runbooks/resume-publication.md) | "procedimento" | "Retomar hospedagem somente com nova instrucao e alvo confirmado." | ["global-live-data", "procedimento"] | 6 | 6 |
 | [[verify-release]] (runbooks/verify-release.md) | "procedimento" | "Procedimento local e remoto para validar a revisao exata." | ["global-live-data", "procedimento"] | 3 | 3 |
 | [[2026-10-15-discovery-release]] (sessions/2026-10-15-discovery-release.md) | sessao | "Pesquisa Trends, categoria TV e descoberta publicadas e verificadas em producao." | [global-live-data, sessao, discovery] | 7 | 7 |
@@ -50,8 +52,9 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-15-portal-release]] (sessions/2026-10-15-portal-release.md) | "sessao" | "Portal, paginas internas e fontes reais integrados a main e publicados." | ["global-live-data", "sessao"] | 7 | 7 |
 | [[2026-10-15-production-launch]] (sessions/2026-10-15-production-launch.md) | "sessao" | "Merge autorizado da PR #3 e publicacao verificada em Production." | ["global-live-data", "sessao"] | 6 | 7 |
 | [[2026-10-16-editorial-release]] (sessions/2026-10-16-editorial-release.md) | sessao | "Artigos publicados, rotina seis horas ativa e evidencias verificadas." | [global-live-data, sessao, editorial] | 7 | 7 |
+| [[2026-10-16-history-release]] (sessions/2026-10-16-history-release.md) | sessao | "PR 8 publicada com arquivo historico eleitoral e esportivo, checks e dados hospedados verificados." | [global-live-data, sessao, historico] | 7 | 7 |
 | [[2026-10-16-sports-election-release]] (sessions/2026-10-16-sports-election-release.md) | "sessao" | "PR 6 publicada com hoquei, xadrez e resultados eleitorais; CI e dados reais verificados." | ["global-live-data", "sessao", "publicacao"] | 7 | 7 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 9 | 9 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 10 | 10 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |

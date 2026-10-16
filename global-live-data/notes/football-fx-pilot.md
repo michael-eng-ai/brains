@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-16"
 ---
 
 # Futebol e cambio
@@ -32,6 +32,10 @@ Home /[lang] com cards de dados abre /football, /exchange e /nature. /live redir
 
 Estimativa com cache quente em uma regiao: ate 14 calls futebol/5min, 8 quando rodadas inalteradas, e 5 calls FX/h. Regioes, eviccoes e corrida fria podem multiplicar; nao e garantia de quota global. Nenhum servico pago ou chave nova. Medir agregado antes de promocao ampla. Uso observado e resultado de producao em [[release-status]].
 
+## Temporadas preservadas
+
+As edicoes 2025/26 das duas ligas foram arquivadas independentemente dos feeds atuais; guardas de troca de temporada e detalhes em [[historical-editions]]. FX diario nao ganhou serie historica nesta entrega.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -44,3 +48,4 @@ Estimativa com cache quente em uma regiao: ate 14 calls futebol/5min, 8 quando r
 - [[2026-10-15-publish-portal]] - Autorizacao e revisao de navegacao solicitadas antes do merge.
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[architecture]] - Direcao e implementacao atualizadas.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.

@@ -24,6 +24,10 @@ Prioridade subsequente confirmada: futebol e cambio diario para teste real local
 
 O proprietario solicitou artigos sobre assuntos do Trends para atrair leitores e escolheu publicacao automatica frequente. A primeira edicao foi publicada e o heartbeat configurado; detalhes, limites e fontes em [[editorial-publishing]]. Nenhuma garantia de audiencia/indexacao.
 
+## Memoria de eventos
+
+O proprietario pediu preservar a edicao anterior e todos os cargos brasileiros de 2022. Cinco edicoes historicas foram publicadas; escopo e regra de retencao em [[historical-editions]].
+
 ## Conexoes
 - [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
@@ -42,3 +46,5 @@ O proprietario solicitou artigos sobre assuntos do Trends para atrair leitores e
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
 - [[2026-10-16-publish-sports-elections]] - Autorizacao explicita desta expansao.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[2026-10-16-retain-editions]] - Direcao confirmada de retencao por edicao.

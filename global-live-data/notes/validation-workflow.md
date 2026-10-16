@@ -64,6 +64,10 @@ Node 24/npm 11: check final passou lint/tipos/63 unidades/build/39 rotas e sitem
 
 Sem falha final de teste. Python urllib local teve erro de CA; Node fetch com TLS normal resolveu. Locator Playwright do IAB falhou para select visivel; AX setValue funcionou e fixtures Chromium passaram. Nao testados Safari/aparelhos fisicos/carga, indexacao, views ou execucao futura do heartbeat.
 
+## Arquivo historico validado
+
+69 unidades Node + 3 testes Python separados; 15 Chromium; 54 rotas HTTP. TSE real reconciliado separadamente, SQLite reaberto somente leitura, rollback/duplicatas/SQL bound/retencao testados. E2E cobre seis cargos, ZZ, idioma/filtros, paginacao, vazio e sem JS. IAB local 1280/390 e hosted 1280/390 sem overflow/erro. Planos reais usam indices; fixtures minimas podem escolher scan. Recibo em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -83,3 +87,5 @@ Sem falha final de teste. Python urllib local teve erro de CA; Node fetch com TL
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[2026-10-16-history-release]] - Handoff do historico publicado.

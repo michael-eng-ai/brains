@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
 - [[editorial-publishing]] - Artigos, apuracao e rotina de seis horas.
 - [[sports-election-feeds]] - Hoquei, xadrez e resultados britanicos com limites de reutilizacao.
 - [[trends-tv-discovery]] - Buscas regionais e programacao TV publicadas com limites explicitos.
@@ -34,6 +35,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-retain-editions]] - Reter historico e importar todos os cargos de 2022.
 - [[2026-10-16-auto-editorial]] - Publicacao automatica frequente escolhida.
 - [[2026-10-16-publish-sports-elections]] - Fontes gratuitas comerciais autorizadas para publicacao.
 - [[2026-10-15-publish-discovery]] - Expansao autorizada para publicar e avaliar depois.
@@ -67,6 +69,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-history-release]] - PR #8 publicada e dados historicos conferidos.
 - [[2026-10-16-editorial-release]] - PR #7 publicada e heartbeat ativo.
 - [[2026-10-16-sports-election-release]] - PR #6 publicada e fontes reais verificadas.
 - [[2026-10-15-discovery-release]] - Trends/TV publicados; CI e probes verificados.
@@ -132,3 +135,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
+- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[2026-10-16-retain-editions]] - Direcao confirmada de retencao por edicao.
+- [[2026-10-16-history-release]] - Handoff do historico publicado.
