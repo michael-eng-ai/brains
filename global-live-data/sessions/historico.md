@@ -30,6 +30,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: PR #8 publicou arquivo historico Brasil 2022/todos os cargos e quatro temporadas 2025/26; CI, Production e dados hospedados verificados. [[2026-10-16-history-release]].
 
+- 2026-10-16: comparacao Brasil 2026/2022 publicada pela PR #9, com reconciliacao/quarentena explicitas, CI e host verificados; [[2026-10-16-brazil-comparison-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -40,3 +42,4 @@ atualizado: "2026-10-16"
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
 - [[2026-10-16-editorial-release]] - Handoff editorial.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.

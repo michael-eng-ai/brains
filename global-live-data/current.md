@@ -1,22 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Arquivo historico publicado: Brasil 2022 e quatro temporadas 2025/26."
-tags: [global-live-data, estado, historico]
+resumo: "Comparacao Brasil 2026/2022 publicada, com cobertura verificada e quarentena RO."
+tags: [global-live-data, estado, eleicoes]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-history-release]].
+Ultimo handoff: [[2026-10-16-brazil-comparison-release]].
 
-- PR #8 integrada; main 56d255d6880ce1b727a3586cd06eac57fdbe2332 limpa/local=remota. CI PR/main e Vercel Production Ready observados em [[release-status]].
-- Historico https://global-live-data.vercel.app/pt/history/br-2022. Seis cargos brasileiros agregados por partido/estado/turno e quatro temporadas esportivas anteriores; detalhes em [[historical-editions]].
-- Persistencia: JSON versionado + SQLite read-only indexado, aproximadamente 360 KiB. Gate impede trocar temporada esportiva sem arquivar a anterior. Sem novo banco cloud, conta, chave ou despesa contratada.
-- 69 unidades, 3 testes Python separados, 15 casos Chromium, 54 rotas HTTP passaram. Cinco exports publicados iguais aos arquivos locais; QA desktop/mobile publicado sem erros/overflow.
-- Apuracao Brasil 2026 e ingestao futura automatica nao implementadas. Carga/Safari/aparelhos fisicos nao testados; arquivo nao implica cobertura completa de eleicoes/esportes globais.
-- Heartbeat publicar-artigos-do-global-live-data segue ACTIVE a cada seis horas e independente; nenhuma execucao agendada confirmada nesta sessao. [[editorial-publishing]].
-- Proximo passo: avaliacao do historico ou rodada editorial autorizada. Para nova edicao, seguir docs/HISTORY.md; nunca substituir arquivo anterior pelo evento atual.
+- PR #9 integrada; main dcac132e4bdb495322797aa7fc6c964f504244f0 limpa/local=remota. CI PR/main e Production Ready em [[release-status]].
+- Publico: https://global-live-data.vercel.app/pt/elections/brazil. Seis cargos, filtros por estado/turno, EN/PT/ES. Contratos e limites em [[brazil-election-comparison]].
+- Duas selecoes de deputados RO aguardam fonte consistente; segundo turno 2026 ainda nao importado. Interface distingue ausencia de zero e conserva 2022. Nao e apuracao continua.
+- JSON duravel + SQLite read-only, sem conta/chave/custo novo; edicoes esportivas e 2022 preservadas em [[historical-editions]].
+- Validacao local/remota e todos os exports hospedados passaram; [[validation-workflow]] e [[release-status]]. Carga/Safari/dispositivos fisicos e refresh futuro automatico nao testados.
+- Heartbeat editorial existente segue independente; nenhuma execucao agendada confirmada nesta sessao. [[editorial-publishing]].
+- Proximo passo: nova captura TSE para resolver RO ou incluir segundo turno quando houver dados oficiais, seguindo docs/BRAZIL-COMPARISON.md. Sem nova automacao de ingestao.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -37,3 +37,5 @@ Ultimo handoff: [[2026-10-16-history-release]].
 - [[2026-10-16-editorial-release]] - Handoff editorial.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.

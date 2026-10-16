@@ -18,7 +18,7 @@ Implementacao na PR #6, commit 503c54e22d91f2a616190bcc720e621fcb6ceb1d. Evidenc
 
 Armadilha verificada: getlastchangedate exige rodada. A URL apenas com liga/temporada retornou 404 no probe real, embora fixture inicial passasse. Correcao valida grupo atual contra catalogo da temporada, consulta tokens de tres rodadas e filtra uma resposta de temporada para essas rodadas. Nao somar os placares parciais de hoquei; os valores ja sao acumulados. Nao converter timezone ausente em UTC. Lichess usa past.currentPageResults, nao past.results.
 
-TSE 2026: catalogo oficial declara cc-by (versao nao inferida), mas recursos sao ZIP em lote, datastore inativo. Nao confundir API CKAN de metadados com apuracao em JSON. Proximo passo para Brasil exige desenho de ingestao limitada/cache e revisao dos campos; na entrega original nenhum total brasileiro havia sido importado. A posterior carga de todos os cargos de 2022 esta em [[historical-editions]]; apuracao 2026 continua pendente. Outros esportes e eleicoes globais continuam sujeitos a fonte/direitos, sem assinatura paga. Demanda nao comprovada.
+TSE 2026: catalogo oficial declara cc-by (versao nao inferida), mas recursos sao ZIP em lote, datastore inativo. Nao confundir API CKAN de metadados com apuracao em JSON. Proximo passo para Brasil exige desenho de ingestao limitada/cache e revisao dos campos; na entrega original nenhum total brasileiro havia sido importado. A posterior carga de todos os cargos de 2022 esta em [[historical-editions]]; a posterior captura oficial de 2026 e comparacao estao em [[brazil-election-comparison]], com limitacoes explicitas e sem apuracao continua. Outros esportes e eleicoes globais continuam sujeitos a fonte/direitos, sem assinatura paga. Demanda nao comprovada.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -31,3 +31,4 @@ TSE 2026: catalogo oficial declara cc-by (versao nao inferida), mas recursos sao
 - [[2026-10-16-sports-election-release]] - Handoff da expansao publicada.
 - [[current]] - Estado atual do produto.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.

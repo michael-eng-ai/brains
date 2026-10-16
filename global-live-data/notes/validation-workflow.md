@@ -68,6 +68,12 @@ Sem falha final de teste. Python urllib local teve erro de CA; Node fetch com TL
 
 69 unidades Node + 3 testes Python separados; 15 Chromium; 54 rotas HTTP. TSE real reconciliado separadamente, SQLite reaberto somente leitura, rollback/duplicatas/SQL bound/retencao testados. E2E cobre seis cargos, ZZ, idioma/filtros, paginacao, vazio e sem JS. IAB local 1280/390 e hosted 1280/390 sem overflow/erro. Planos reais usam indices; fixtures minimas podem escolher scan. Recibo em [[release-status]].
 
+## Comparacao eleitoral 2026/2022
+
+Node 24.22.0/npm 11.21.1: check final passou lint/tipos/71 unidades/build/60 paginas HTTP; 5 testes Python separados e 17 Chromium passaram. Casos novos verificam duas escolhas Senado versus pessoas, ausencia versus zero, sigla/numero sem fusoes, quarentena/reconciliacao, cobertura presidencial completa, exportacao v1/v2, todos os cargos, idiomas, turno2 ausente, 320/390/820/1280 e leitura sem JavaScript. Traces de comparison/elections/history/API incluem SQLite. Captura oficial separada dos testes offline. Datas de captura visiveis no topo. Evidencias remotas em [[release-status]].
+
+A primeira importacao falhou por divergencia real nos recortes RO e levou a quarentena explicita, nao ao relaxamento geral da reconciliacao. Chamadas npx dentro de npx --call deram EUSAGE antes de executar checks; usar node node_modules/prettier/bin/prettier.cjs no ambiente Node24 selecionado. Checks finais completos passaram. Parar servidor proprio antes de rebuild para nao misturar chunks.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -89,3 +95,5 @@ Sem falha final de teste. Python urllib local teve erro de CA; Node fetch com TL
 - [[2026-10-16-editorial-release]] - Handoff editorial.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.

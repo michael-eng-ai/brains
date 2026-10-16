@@ -11,7 +11,7 @@ atualizado: "2026-10-16"
 Implementacao: PR #8; contratos e comandos em docs/HISTORY.md do repositorio. Recibo remoto em [[release-status]]. O pedido inicial foi guardar pelo menos a edicao anterior; o proprietario escolheu todos os cargos de 2022.
 
 - Fonte duravel: data/history/<edition>.json, versionada em Git e no remoto; manifest SHA-256 verifica integridade. Cada ano/temporada tem identificacao propria. Sem TTL ou substituicao automatica da edicao anterior.
-- Banco derivado .data/history.sqlite: aproximadamente 360 KiB, Node 24 node:sqlite somente leitura no runtime. history:build reconcilia/valida arquivos, cria banco temporario com transacao/PK/FK/STRICT, checa integridade e renomeia atomicamente. Nao e banco hospedado gravavel nem persistencia em /tmp da Vercel.
+- Banco derivado .data/history.sqlite: aproximadamente 360 KiB na primeira entrega (tamanho atual em [[brazil-election-comparison]]), Node 24 node:sqlite somente leitura no runtime. history:build reconcilia/valida arquivos, cria banco temporario com transacao/PK/FK/STRICT, checa integridade e renomeia atomicamente. Nao e banco hospedado gravavel nem persistencia em /tmp da Vercel.
 - Tabelas editions/matches/contests/votes separam os graos. Votos: edicao + cargo + estado + turno + partido; jogos: edicao + ID da partida. Indices de consultas por recorte e data confirmados em planos reais; placares esportivos paginados em 24.
 - TSE 2022: 176 recortes e 2.217 agregados por partido; presidente, governador, senador, deputado federal, estadual e distrital. Presidencia tem 27 UFs (incluindo DF) + ZZ, dois turnos. Total nacional calculado, nao duplicado. Votos nominais/legenda validos conferem com arquivo independente de totais. Sao dados revisados obtidos em 2026, nao snapshot da noite eleitoral, dados de candidatos/cadeiras ou apuracao 2026.
 - Armadilhas TSE: excluir BRASIL.csv quando usa arquivos regionais; ANO_ELEICAO=2022 inclui suplementar de 2026, por isso filtrar IDs/datas/turnos da eleicao geral. Grao bruto inclui coligacao. QT_TOTAL_VOTOS_LEG_VALIDOS ja inclui votos nominais convertidos. Python 3.11+ importa ZIP em streaming com limite, sem extrair caminhos nem reter dados pessoais.
@@ -22,6 +22,10 @@ Implementacao: PR #8; contratos e comandos em docs/HISTORY.md do repositorio. Re
 - Para correcoes: gerar arquivo em staging fora do repo, conferir proveniencia/diff/reconciliacao, atualizar arquivo/manifest em commit novo. Git guarda a versao anterior. Para recuperar, restaurar catalogo+JSON+manifest e reconstruir; nao restaurar um SQLite avulso.
 
 Escala futura: banco duravel hospedado e ingestao continua exigem desenho de quota, backup, migracao e autorizacao de conta/custo. Historico britanico e de outras categorias nao foi importado nesta entrega. O heartbeat editorial continua independente.
+
+## Extensao posterior
+
+A comparacao 2026/2022 e a migracao do SQLite derivado para schema 2 estao em [[brazil-election-comparison]]. Isso supera os limites anteriores de cinco edicoes/schema 1, preservando todos os arquivos de fonte existentes.
 
 ## Conexoes
 - [[index]] - Persistencia historica, contratos e evidencia de retomada.
@@ -36,3 +40,5 @@ Escala futura: banco duravel hospedado e ingestao continua exigem desenho de quo
 - [[release-status]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-retain-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-history-release]] - Persistencia historica, contratos e evidencia de retomada.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.

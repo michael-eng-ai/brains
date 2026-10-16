@@ -84,6 +84,19 @@ Probe anonimo em 2026-10-16T14:39:48.820Z conferiu 54 paginas localizadas com de
 
 IAB publicado 1280/390: troca para ZZ/segundo turno exibiu 298.169 votos validos; largura 390 sem overflow e logs de aplicacao vazios. Capturas /tmp/global-live-data-history/history-published-desktop.png e history-published-mobile.png fora do Git. Sem auditoria completa de runtime logs, carga, Safari ou dispositivos fisicos. Limites e fonte persistente em [[historical-editions]].
 
+## Comparacao Brasil 2026/2022 (16/10/2026)
+
+PR #9 https://github.com/michael-eng-ai/global-live-data/pull/9 integrada em 2026-10-16T15:31:30Z. Head revisada 8c5a3c8b9003afe0ae278df6db04f7643e5fdee7; merge/main dcac132e4bdb495322797aa7fc6c964f504244f0, mesma arvore. Main local/remota limpa e 0/0 apos merge.
+
+- CI PR: https://github.com/michael-eng-ai/global-live-data/actions/runs/38924209050, ambos os jobs success na head exata.
+- CI main: https://github.com/michael-eng-ai/global-live-data/actions/runs/38924646108, ambos success no merge exato.
+- Vercel Preview Ready: dpl_2Ur4DBb2sCL1RtjHNpDp1hknVQ9v, head 8c5a3c8, 30s. URL global-live-data-ir0afnk0x-michael-eng-ais-projects.vercel.app; leitura real do SQLite/DF verificada antes do merge.
+- Vercel Production Ready: dpl_EPXUDSjnt8N6BPuG8b7MZWwrKKzu, main dcac132, 30s, observado no dashboard autenticado. URL unica https://global-live-data-9xmhdv171-michael-eng-ais-projects.vercel.app; dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EPXUDSjnt8N6BPuG8b7MZWwrKKzu.
+- Publico: https://global-live-data.vercel.app/pt/elections/brazil. Probe anonimo 2026-10-16T15:32:13.373Z: 60 paginas EN/PT/ES com deployment ID correto, seis exports completos iguais ao JSON canonico, todos os seis cargos, duas quarentenas RO, ZZ/turno2 sem valores 2026, oito limites/404 do lab e sitemap passaram.
+- QA IAB publicado: desktop 1280 e mobile 390, selecao federal/RO mostrou aviso e preservou 2022; scrollWidth 375 <= innerWidth 390, console sem erros. Capturas /tmp/global-live-data-2026/published-comparison-desktop.png e published-comparison-mobile.png, fora do Git. Override restaurado e comparacao PT deixada aberta.
+
+Nao executados: auditoria completa de logs runtime, carga, Safari/aparelhos fisicos e refresh automatico. Estado/licencas/limites da captura em [[brazil-election-comparison]], protocolo de testes em [[validation-workflow]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -116,3 +129,5 @@ IAB publicado 1280/390: troca para ZZ/segundo turno exibiu 298.169 votos validos
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-retain-editions]] - Direcao confirmada de retencao por edicao.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.

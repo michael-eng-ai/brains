@@ -19,6 +19,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 
 ## Conceitos
 - [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
+- [[brazil-election-comparison]] - Brasil 2026/2022, denominadores e dados pendentes.
 - [[editorial-publishing]] - Artigos, apuracao e rotina de seis horas.
 - [[sports-election-feeds]] - Hoquei, xadrez e resultados britanicos com limites de reutilizacao.
 - [[trends-tv-discovery]] - Buscas regionais e programacao TV publicadas com limites explicitos.
@@ -69,6 +70,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+
+- [[2026-10-16-brazil-comparison-release]] - PR #9 publicada com dados 2026/2022 e lacunas explicitas.
 - [[2026-10-16-history-release]] - PR #8 publicada e dados historicos conferidos.
 - [[2026-10-16-editorial-release]] - PR #7 publicada e heartbeat ativo.
 - [[2026-10-16-sports-election-release]] - PR #6 publicada e fontes reais verificadas.
@@ -138,3 +141,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[2026-10-16-retain-editions]] - Direcao confirmada de retencao por edicao.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
+- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
+- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
