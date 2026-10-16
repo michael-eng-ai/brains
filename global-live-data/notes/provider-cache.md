@@ -16,8 +16,13 @@ MET inicia no maximo quatro consultas por segundo por processo. Escala multiplic
 
 providerUpdatedAt e a publicacao; fetchedAt e consulta original preservada em cache; expiresAt delimita frescor; generatedAt monta o envelope. ready/stale/error/not_configured devem continuar explicitos. Falha sem dado anterior retorna null, nao lista vazia.
 
+## Feeds de descoberta
+
+Os limites de Trends/TV e a estimativa de trafego da PR #5 ficam em [[trends-tv-discovery]]. Reuso observado de timestamps nao substitui medicao distribuida de upstream/custo.
+
 ## Conexoes
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
 - [[usgs-earthquakes]] - Fonte USGS limitada a janela movel de 24 horas.
+- [[trends-tv-discovery]] - Escopo e limites da nova descoberta.

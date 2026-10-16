@@ -8,7 +8,17 @@ atualizado: "2026-10-15"
 
 # Estado da entrega
 
-## Entrega atual: portal com futebol e cambio
+## Entrega atual: Trends e TV
+
+PR #5 integrada em 2026-10-16T01:16:04Z (15 de outubro local): https://github.com/michael-eng-ai/global-live-data/pull/5. Main remoto/local 95613fb35377257816d57f0670e341a492acac70; arvore identica ao head revisado 1c1e13448dff4d2df1827c3c1a8689b9825969fb. CI PR 38833787757 e main 38834190160 passaram ambos os jobs. Main CI: https://github.com/michael-eng-ai/global-live-data/actions/runs/38834190160.
+
+Vercel Production Ready observado para main 95613fb, build 29s, deployment dpl_3u9wM5DPsQAYqYpAECs18bv555gr. Dashboard: https://vercel.com/michael-eng-ais-projects/global-live-data/3u9wM5DPsQAYqYpAECs18bv555gr. URL unica: https://global-live-data-2jemv0ytn-michael-eng-ais-projects.vercel.app. Alias https://global-live-data.vercel.app/pt retornou HTTP 200 com data-dpl-id correspondente. Nenhuma mudanca de conta, permissao, plano ou variavel.
+
+Probe HTTP anonimo completo em 2026-10-16T01:17:21Z: 24 paginas EN/PT/ES, cabecalhos e limites de entrada passaram; Trends ready nos seis paises com dez entradas cada. TV ready nas seis combinacoes; hoje/amanha GLOBAL 63/18, US 116/40, GB 28/13, datas 2026-10-16/17. Consulta repetida Trends preservou checkedAt. Contagens sao snapshots, nao garantias. Futebol/FX e natureza tambem renderizaram na home; USGS sinalizado stale, sem ocultar idade.
+
+QA hospedado: portal -> TV, Apple TV reduziu 63 para dois episodios; detalhes mostraram temporada/episodio/duracao; troca para amanha limpou o filtro e retornou 18 episodios. Navegacao TV -> Trends e troca Brasil -> Japao retornaram dez entradas com texto original. Mobile 390px sem overflow ou erro de aplicacao. Capturas temporarias discovery-published-portal.jpg e discovery-published-tv-mobile.jpg em /tmp/global-live-data-review, fora do Git. Safari, dispositivos fisicos, carga e medicao distribuida nao executados. Escopo e provedores: [[trends-tv-discovery]].
+
+## Historico: portal com futebol e cambio
 
 PR #4 integrada com autorizacao em 2026-10-15T23:50:13Z: https://github.com/michael-eng-ai/global-live-data/pull/4. Main remoto e local: 84aab6e02c244818e76e0f3622af354855a37c0d, arvore limpa. A arvore corresponde exatamente ao head revisado b51dda988d2118171f592d8f04ae4a643ff2c70c. CI da PR 38825723767 e CI main 38825941909 passaram ambos os jobs. CI main: https://github.com/michael-eng-ai/global-live-data/actions/runs/38825941909.
 
@@ -69,3 +79,5 @@ Em 2026-10-15, a emulacao hospedada foi aplicada e as larguras reais 320/390/430
 - [[2026-10-15-publish-portal]] - Autorizacao e revisao de navegacao solicitadas antes do merge.
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
 - [[project]] - Direcao e implementacao atualizadas.
+- [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
+- [[2026-10-15-discovery-release]] - Handoff desta publicacao.

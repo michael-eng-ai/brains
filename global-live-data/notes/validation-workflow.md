@@ -42,6 +42,14 @@ CI da PR 38825723767 e main 38825941909 passaram ambos os jobs. Probes reais loc
 
 Limites: Safari, dispositivos fisicos, partidas em andamento e carga distribuida nao testados; auditoria de dependencias nao repetida. Logs do navegador da aplicacao nao mostraram erro relevante. Conector Vercel retornou 403 no escopo correto; sem CLI instalada, dashboard autenticado confirmou o deploy. Nao repetir o mesmo conector sem mudanca de acesso.
 
+## Trends e TV publicados (2026-10-15 local)
+
+Revisao 1c1e134 integrada como 95613fb: Node 24.22.0/npm 11.21.1; npm run check passou lint/tipos, 53 unidades, build e smoke de 24 paginas. Nove testes Chromium passaram, com keyboard/cards, filtros, expansao, zero/ausencia/erro e viewports 320/390/820/1280px. Fixtures permanecem offline; nenhum fornecedor consultado pela CI. Ambos os jobs PR/main passaram; recibos em [[release-status]].
+
+Probes reais locais e hospedados verificaram seis paises Trends e seis combinacoes TV, timestamps e entradas invalidas. Primeiro e2e precisou nomes acessiveis explicitos nos selects; corrigido, suite final passou. Ajuste de normalizacao de cabecalho no script temporario de probe nao foi falha do app. Primeiro start via npm exec aninhado falhou; comando direto node node_modules/next/dist/bin/next start funcionou. Navegacao IAB pode retornar snapshot antes do commit da rota; esperar estado atual antes de reutilizar indice AX.
+
+Browser real confirmou filtros de canal, expansao de episodio, proximo dia e navegação interna em desktop/mobile. Nenhum erro final pendente nos checks executados. Nao testados Safari/aparelho fisico/carga/quota distribuida; auditoria de dependencias nao repetida, sem dependencias alteradas.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -55,3 +63,5 @@ Limites: Safari, dispositivos fisicos, partidas em andamento e carga distribuida
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
+- [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
+- [[2026-10-15-discovery-release]] - Handoff desta publicacao.

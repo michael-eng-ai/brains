@@ -1,21 +1,21 @@
 ---
 tipo: "estado"
 projeto: "global-live-data"
-resumo: "Portal com futebol/cambio publicado e verificado; main e CI sincronizados."
+resumo: "Trends e TV publicados; cinco categorias, CI e probes hospedados verificados."
 tags: ["global-live-data", "estado"]
 atualizado: "2026-10-15"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-15-portal-release]].
+Ultimo handoff: [[2026-10-15-discovery-release]].
 
-- Site: https://global-live-data.vercel.app/pt. Main remoto/local 84aab6e02c244818e76e0f3622af354855a37c0d; arvore limpa. PR #4 integrada; ambos os jobs da main CI 38825941909 passaram. Deployment Production Ready e probes em [[release-status]].
-- Home em cards com dados reais; futebol, cambio e natureza tem paginas internas. Links brutos retirados de resultados futebol/FX; creditos/metodologia preservados. Pedido de design e publicacao em [[2026-10-15-publish-portal]].
-- Futebol: duas competicoes europeias 2026/27. Cambio: cinco moedas, referencias diarias. Escopo global de audiencia, cobertura explicita. Cache compartilhado, datas e estados em [[football-fx-pilot]].
-- Validacao final local: 45 unidades, 18 rotas HTTP, sete e2e; QA desktop/mobile e dados reais hospedados passaram. Sem falha final pendente nos checks executados.
-- Nao testados: Safari, aparelhos fisicos, carga/request rate distribuido. Proximo passo proposto: medir cache/custos e recolher avaliacao do portal antes de ampliar categorias. Nenhum monitor agendado.
-- Outras categorias e Trends automatico continuam locais/planejados; nao ativar novas fontes, contas ou gastos sem escopo apropriado. Pendencias anteriores de identidade legal/retencao e auditoria dev-only continuam registradas; nao foram objeto desta entrega.
+- Site: https://global-live-data.vercel.app/pt. Main remoto/local 95613fb35377257816d57f0670e341a492acac70; PR #5 integrada, arvore limpa. CI PR/main passou; Production Ready e probes em [[release-status]].
+- Cinco categorias com cards atuais e paginas internas EN/PT/ES: futebol, cambio diario, buscas em alta, TV/streaming e natureza. Nova autorizacao para publicar e avaliar depois em [[2026-10-15-publish-discovery]].
+- Escopo e direitos das novas fontes em [[trends-tv-discovery]]; cobertura global nao implica todos os paises/eventos. API publica sem chave, nenhuma nova conta/cobranca, anuncios ou analytics.
+- Validacao: 53 unidades, nove e2e Chromium, 24 rotas HTTP; seis paises Trends e seis combinacoes TV ready em probe hospedado. Mobile 390px com filtros/detalhes/pais e sem overflow/erro. Detalhes em [[validation-workflow]].
+- Nao testados: Safari, aparelhos fisicos, carga e quota distribuida. Proximo passo: recolher avaliacao do portal e medir reuso/custo das fontes antes de ampliar alcance. Nenhum monitor agendado.
+- F1 comercial, eleicoes, ligas adicionais, ticketing e financas intradiarias dependem de acesso/licenca. Pendencias anteriores de identidade legal/retencao e auditoria dev-only continuam registradas e nao foram objeto desta entrega.
 
 ## Conexoes
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
@@ -24,3 +24,6 @@ Ultimo handoff: [[2026-10-15-portal-release]].
 - [[football-fx-pilot]] - Estado para retomada.
 - [[validation-workflow]] - Estado para retomada.
 - [[2026-10-15-publish-portal]] - Estado para retomada.
+- [[2026-10-15-discovery-release]] - Estado da expansao publicada.
+- [[2026-10-15-publish-discovery]] - Estado da expansao publicada.
+- [[trends-tv-discovery]] - Estado da expansao publicada.

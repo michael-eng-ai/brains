@@ -16,6 +16,10 @@ A implementacao conserva credito/licenca e direciona a pagina interna de metodol
 
 A autorizacao nao abrange compra, assinatura, nova conta, anuncios, rastreadores ou publicacao de outras categorias. Tendencias, eleicoes e cultura continuam em pesquisa com avaliacao antes de ativar.
 
+## Atualizacao posterior
+
+A restricao previa de publicacao e historica: [[2026-10-15-publish-discovery]] registra a instrucao direta de seguir e publicar a expansao viavel Trends/TV, com avaliacao posterior. Nao autoriza gastos, novas contas ou todas as integracoes futuras.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Prioridade de teste que precede a publicacao.
@@ -26,3 +30,4 @@ A autorizacao nao abrange compra, assinatura, nova conta, anuncios, rastreadores
 - [[current]] - Estado atual do projeto.
 - [[AGENTS]] - Direcao e implementacao atualizadas.
 - [[project]] - Direcao e implementacao atualizadas.
+- [[2026-10-15-publish-discovery]] - Autorizacao posterior de publicacao.

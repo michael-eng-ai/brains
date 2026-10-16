@@ -1,7 +1,7 @@
 ---
 tipo: "conceito"
 projeto: "global-live-data"
-resumo: "Previa local de categorias globais com amostras reais e limites de publicacao explicitos."
+resumo: "Pesquisa inicial de categorias e ponte para os feeds posteriormente publicados."
 tags: ["global-live-data", "conceito"]
 atualizado: "2026-10-15"
 ---
@@ -22,7 +22,7 @@ Previa local: http://127.0.0.1:3101/pt/lab enquanto o servidor estiver ativo. Op
 
 ## Evolucao posterior
 
-O proprietario escolheu futebol/cambio para teste real. A previa foi ampliada em b16718c com OpenLigaDB e Frankfurter; [[football-fx-pilot]] substitui as amostras antigas de FX/F1 como paineis ativos. A pesquisa acima continua historica. Publicacao pendente.
+O proprietario escolheu futebol/cambio para teste real. A previa foi ampliada em b16718c com OpenLigaDB e Frankfurter; [[football-fx-pilot]] substitui as amostras antigas de FX/F1 como paineis ativos. A pesquisa acima continua historica. Futebol/cambio foram publicados na PR #4. A expansao Trends/TV da PR #5 foi autorizada e publicada posteriormente; [[trends-tv-discovery]] concentra a pesquisa e os limites atuais.
 
 ## Conexoes
 - [[index]] - Mapa do projeto.
@@ -34,3 +34,4 @@ O proprietario escolheu futebol/cambio para teste real. A previa foi ampliada em
 - [[current]] - Contexto e evidencia da revisao local.
 - [[project]] - Estado relacionado e evidencia de verificacao.
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
+- [[trends-tv-discovery]] - Escopo e limites da nova descoberta.

@@ -20,6 +20,10 @@ A aplicacao exige servidor Node. Exportacao puramente estatica nao suporta a API
 
 components/portal.tsx fornece o panorama com requests paralelos e cards internos. Natureza saiu da raiz para /[lang]/nature; futebol e cambio tem paginas proprias. Fonte dos novos dados usa lib/public-feeds.ts sobre o servico testavel em lib/lab. detalhes em [[football-fx-pilot]]; UI e contrato no repositorio da PR #4.
 
+## Descoberta por tendencias e programacao
+
+PR #5 acrescenta lib/discovery/{schema,service,index}.ts, GET /api/discover, components/use-discovery.ts e components/discovery.tsx. Rotas /[lang]/trending e /[lang]/screen compartilham contratos, copy EN/PT/ES e navegacao do portal. Servico mockavel, cache compartilhado e age guards ficam separados da UI; [[trends-tv-discovery]] concentra os limites.
+
 ## Conexoes
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -27,3 +31,4 @@ components/portal.tsx fornece o panorama com requests paralelos e cards internos
 - [[public-contact]] - Contato publico separado do identificador MET e lacunas de privacidade.
 - [[repo-architecture-original]] - Copia da fonte docs/ARCHITECTURE.md.
 - [[football-fx-pilot]] - Direcao e implementacao atualizadas.
+- [[trends-tv-discovery]] - Escopo e limites da nova descoberta.

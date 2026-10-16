@@ -16,6 +16,10 @@ A escolha de futebol e cambio diario como primeiros candidatos e uma proposta, a
 
 Atualizacao posterior: futebol e cambio diario foram escolhidos para teste real pelo proprietario em [[2026-10-15-football-fx-first]]. A exigencia de avaliacao antes de publicar permanece.
 
+## Atualizacao posterior
+
+A restricao previa de publicacao e historica: [[2026-10-15-publish-discovery]] registra a instrucao direta de seguir e publicar a expansao viavel Trends/TV, com avaliacao posterior. Nao autoriza gastos, novas contas ou todas as integracoes futuras.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[project]] - Direcao global e restricoes de custo.
@@ -26,3 +30,4 @@ Atualizacao posterior: futebol e cambio diario foram escolhidos para teste real 
 - [[2026-10-15-football-fx-first]] - Contexto e evidencia do piloto real.
 
 - [[2026-10-15-publish-portal]] - Autorizacao e revisao de navegacao solicitadas antes do merge.
+- [[2026-10-15-publish-discovery]] - Autorizacao posterior de publicacao.

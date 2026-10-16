@@ -22,9 +22,12 @@ atualizado: "2026-10-15"
 
 - 2026-10-15: PR #4 integrada como 84aab6e; portal com paginas internas publicado, CI main 38825941909 e probes reais aprovados; [[2026-10-15-portal-release]].
 
+- 2026-10-15: PR #5 integrada como 95613fb; Trends/TV publicados, CI main 38834190160 e probes reais aprovados; [[2026-10-15-discovery-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.
 - [[2026-10-15-football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[2026-10-15-portal-release]] - Handoff da publicacao do portal.
+- [[2026-10-15-discovery-release]] - Handoff desta publicacao.
