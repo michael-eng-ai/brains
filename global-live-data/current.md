@@ -1,22 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Comparacao Brasil 2026/2022 publicada, com cobertura verificada e quarentena RO."
-tags: [global-live-data, estado, eleicoes]
+resumo: "Atualizacao TSE publicada, heartbeat ativo e dados anteriores preservados."
+tags: [global-live-data, estado, eleicoes, automacao]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-brazil-comparison-release]].
+Ultimo handoff: [[2026-10-16-tse-refresh-release]].
 
-- PR #9 integrada; main dcac132e4bdb495322797aa7fc6c964f504244f0 limpa/local=remota. CI PR/main e Production Ready em [[release-status]].
-- Publico: https://global-live-data.vercel.app/pt/elections/brazil. Seis cargos, filtros por estado/turno, EN/PT/ES. Contratos e limites em [[brazil-election-comparison]].
-- Duas selecoes de deputados RO aguardam fonte consistente; segundo turno 2026 ainda nao importado. Interface distingue ausencia de zero e conserva 2022. Nao e apuracao continua.
-- JSON duravel + SQLite read-only, sem conta/chave/custo novo; edicoes esportivas e 2022 preservadas em [[historical-editions]].
-- Validacao local/remota e todos os exports hospedados passaram; [[validation-workflow]] e [[release-status]]. Carga/Safari/dispositivos fisicos e refresh futuro automatico nao testados.
-- Heartbeat editorial existente segue independente; nenhuma execucao agendada confirmada nesta sessao. [[editorial-publishing]].
-- Proximo passo: nova captura TSE para resolver RO ou incluir segundo turno quando houver dados oficiais, seguindo docs/BRAZIL-COMPARISON.md. Sem nova automacao de ingestao.
+- PR #10 integrada; main 2935a247684a3a9d9bc0bf716a0968b035502c69 limpa/local=remota. CI PR/main e Production Ready em [[release-status]].
+- Publico https://global-live-data.vercel.app/pt/elections/brazil. Cobertura e pendencias derivadas do SQLite; EN/PT/ES; [[brazil-election-comparison]].
+- Heartbeat TSE ACTIVE a cada seis horas no Codex local, conforme [[refresh-tse-elections]]. Autorizacao em [[2026-10-16-auto-tse]].
+- Execucoes reais confirmaram fatos inalterados: duas selecoes RO pendentes, turno 2 ausente. Datas de captura nao renovadas artificialmente. Recibos em [[release-status]].
+- Os seis JSONs canonicos preservados, SQLite runtime somente leitura; sem conta/chave/gasto novo. [[historical-editions]].
+- Validacao local/remota passou; [[validation-workflow]]. Futuro disparo autonomo, turno 2 real, Safari/aparelhos fisicos/carga nao verificados.
+- Editorial independente; [[editorial-publishing]]. Proximo passo: primeira atualizacao material pelo runbook, sem redeploy se fatos iguais.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -39,3 +39,6 @@ Ultimo handoff: [[2026-10-16-brazil-comparison-release]].
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

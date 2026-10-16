@@ -32,6 +32,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: comparacao Brasil 2026/2022 publicada pela PR #9, com reconciliacao/quarentena explicitas, CI e host verificados; [[2026-10-16-brazil-comparison-release]].
 
+- 2026-10-16: PR #10 publicou atualizacao TSE e cobertura dinamica; heartbeat seis horas ativo, capturas sem mudanca preservaram dados. [[2026-10-16-tse-refresh-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -43,3 +45,4 @@ atualizado: "2026-10-16"
 - [[2026-10-16-editorial-release]] - Handoff editorial.
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

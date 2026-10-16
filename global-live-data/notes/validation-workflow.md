@@ -74,6 +74,12 @@ Node 24.22.0/npm 11.21.1: check final passou lint/tipos/71 unidades/build/60 pag
 
 A primeira importacao falhou por divergencia real nos recortes RO e levou a quarentena explicita, nao ao relaxamento geral da reconciliacao. Chamadas npx dentro de npx --call deram EUSAGE antes de executar checks; usar node node_modules/prettier/bin/prettier.cjs no ambiente Node24 selecionado. Checks finais completos passaram. Parar servidor proprio antes de rebuild para nao misturar chunks.
 
+## Atualizacao TSE automatizada
+
+PR #10: 74 testes Node, 11 Python, 17 Chromium, lint/tipos/build e 60 rotas HTTP passaram. CI inclui Python offline, sem download TSE ou permissoes de escrita. Gates sinteticos cobrem perda de cobertura, RO resolvido, ID/data/tipo, turno 2 parcial, transporte e integridade do par arquivo/manifest. Exportacao hospedada comparada integralmente ao canonico; testes UI aceitam futuras atualizacoes validas.
+
+CA Python macOS ausente foi resolvido usando bundle do sistema, mantendo TLS verificado. Caminho Prettier .ts para componente .tsx corrigido antes dos checks. Nenhuma falha final pendente. Probes reais e recibos em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -97,3 +103,5 @@ A primeira importacao falhou por divergencia real nos recortes RO e levou a quar
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

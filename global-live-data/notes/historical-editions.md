@@ -27,6 +27,10 @@ Escala futura: banco duravel hospedado e ingestao continua exigem desenho de quo
 
 A comparacao 2026/2022 e a migracao do SQLite derivado para schema 2 estao em [[brazil-election-comparison]]. Isso supera os limites anteriores de cinco edicoes/schema 1, preservando todos os arquivos de fonte existentes.
 
+## Atualizacao TSE autorizada
+
+O fluxo atual de 2026 esta em [[refresh-tse-elections]], superando a limitacao inicial de importacao manual. Sem migracao adicional de schema; os seis JSONs canonicos permaneceram inalterados nesta entrega de codigo.
+
 ## Conexoes
 - [[index]] - Persistencia historica, contratos e evidencia de retomada.
 - [[current]] - Persistencia historica, contratos e evidencia de retomada.
@@ -42,3 +46,5 @@ A comparacao 2026/2022 e a migracao do SQLite derivado para schema 2 estao em [[
 - [[2026-10-16-history-release]] - Persistencia historica, contratos e evidencia de retomada.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

@@ -15,13 +15,13 @@ O proprietario autorizou dados oficiais de 2026, comparacao por cargo/estado/tur
 - Somente IDs observados 6257/6259, data 04/10/2026, turno 1. Calendario oficial preve segundo turno em 25/10, mas nenhum dado/ID de segundo turno e registrado. Noticia/calendario e link do Senado em docs/BRAZIL-COMPARISON.md. Captura preservada nao e apuracao continua nem declaracao de vencedores.
 - 136 recortes esperados; 134 reconciliados com 1.892 agregados por partido. Todos os seis cargos tem dados. Presidencia inclui 28 regioes disjuntas (UFs/DF+ZZ), 119.300.788 votos validos nacionais; nunca somar BRASIL.csv aos regionais.
 - Quarentena observada: deputado federal RO/1 tem soma partidaria 28.921 contra total independente 932.939; deputado estadual RO/1 tem 45.420 contra 942.021. Causa da divergencia nao comprovada. Ambos os recortes de 2026 foram omitidos integralmente e registrados em unavailable/source_mismatch; 2022 continua visivel. Nao transformar ausencia em zero, ajustar totais ou alegar cobertura completa.
-- Importador falha sem exclusao explicita: --year 2026 --exclude-mismatch 6/RO/1 --exclude-mismatch 7/RO/1. Exclusao que nao corresponde mais a divergencia tambem falha. Atualizacao exige novos arquivos limitados, conferencia e remocao das exclusoes resolvidas; divergencia nova nao e aceita silenciosamente.
-- Build confere os 136 recortes como validos ou em quarentena, sem duplicatas; todas as 28 regioes presidenciais devem ser validas para haver total nacional. Segundo turno futuro requer identidades/datas/cobertura revisadas no importador/catalogo/gate/testes, nao apenas mudar uma data.
+- Importador falha sem exclusao explicita: --year 2026 --exclude-mismatch 6/RO/1 --exclude-mismatch 7/RO/1. Exclusao que nao corresponde mais a divergencia tambem falha. Esse e o modo manual. O wrapper autorizado resolve as duas exclusoes RO quando conferidas; [[refresh-tse-elections]].
+- Build confere os 136 recortes como validos ou em quarentena, sem duplicatas; todas as 28 regioes presidenciais devem ser validas para haver total nacional. O wrapper descobre turno 2 nos dois arquivos: ano 2026, data 25/10, tipo ordinario 2, escopo/descricao federal ou estadual, presidente/governador. Data nao pode ser futura. Identidades por escopo/turno devem coincidir; nenhum ID adivinhado. Nacional exige 28 regioes reconciliadas. Governadores entram por estado, com quarentena explicita; ausencia nao prova que houve ou nao disputa.
 - Arquivo de fonte v2 guarda votesCast de QT_VOTOS; SQLite derivado v2 reconcilia valid+blank+nullVotes+other com votesCast. Comparecimento QT_COMPARECIMENTO conta pessoas. Senado 2026 tem duas escolhas por pessoa, 2022 uma; mudancas de votos/percentuais partidarios ficam suprimidas, eleitorado/comparecimento continuam comparaveis. Cinco arquivos de fonte anteriores e formatos de exportacao v1 preservados byte a byte. SQLite seis edicoes: 499.712 bytes.
 - Taxa de comparecimento = pessoas/aptos; diferenca em pontos percentuais. Partidos associados somente por numero E sigla identicos, sem inferir fusoes/renomeacoes; registro ausente e traco, nao zero. Diferencas nao medem transferencia de eleitores. Sem nomes/perfis pessoais, cadeiras, pesquisas ou previsoes.
-- Sem dependencia, segredo, conta, gasto contratado, variavel de ambiente, permissao CI ou agendador de ingestao novos. Heartbeat editorial permanece independente.
+- Sem dependencia, segredo, conta, gasto contratado, variavel de ambiente ou permissao CI de escrita nova. Heartbeat TSE em [[refresh-tse-elections]]; editorial independente.
 
-Proximo passo de dados: nova captura oficial para resolver RO, ou segundo turno apos disponibilidade real. Gerar staging fora do repo, revisar diff/metadados, atualizar JSON+manifest+textos de cobertura, validar check/e2e, observar CI/Production antes de afirmar publicacao. Preservar o baseline 2022. Fallback nunca deve preencher dados eleitorais ausentes.
+A PR #10 acrescenta atualizacao automatizada e cobertura derivada do SQLite. Recortes publicados nao podem desaparecer ou tornar-se divergentes: regressao bloqueia o lote e preserva a proveniencia anterior. Regeneracao de ZIP sem mudanca nos agregados nao atualiza o site. Nao misturar dados antigos/novos sob uma captura falsa. 2022 permanece intacto. Avisos e links de pendencias acompanham o banco. Contagens atuais e verificacoes reais em [[release-status]].
 
 ## Conexoes
 - [[index]] - Entrada e catalogo.
@@ -31,3 +31,6 @@ Proximo passo de dados: nova captura oficial para resolver RO, ou segundo turno 
 - [[validation-workflow]] - Checks offline e probes separados.
 - [[release-status]] - Evidencias de publicacao.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

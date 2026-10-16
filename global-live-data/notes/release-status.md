@@ -97,6 +97,20 @@ PR #9 https://github.com/michael-eng-ai/global-live-data/pull/9 integrada em 202
 
 Nao executados: auditoria completa de logs runtime, carga, Safari/aparelhos fisicos e refresh automatico. Estado/licencas/limites da captura em [[brazil-election-comparison]], protocolo de testes em [[validation-workflow]].
 
+## Atualizacao TSE automatizada (16/10/2026)
+
+PR #10 https://github.com/michael-eng-ai/global-live-data/pull/10 integrada em 2026-10-16T19:08:25Z. Head revisada 6adc096f5bb7c8481a78a2e6ef74453dcf3b5961; merge/main 2935a247684a3a9d9bc0bf716a0968b035502c69, mesma arvore. Main local/remota limpa e 0/0 apos merge.
+
+- CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38952180378 e CI main https://github.com/michael-eng-ai/global-live-data/actions/runs/38952692539: ambos os jobs success em cada revisao exata.
+- Preview Ready: dpl_AhXirCYdZSVSQSPLx6i3o24eoArp, head 6adc096, 34s; https://global-live-data-j9vs0edyp-michael-eng-ais-projects.vercel.app. Comparacao ZZ/turno2, captura anterior e cobertura SQLite conferidas.
+- Production Ready: dpl_EB14J34Wz8EQnxMfAuRE5z7v8YoY, main 2935a24, 35s. https://vercel.com/michael-eng-ais-projects/global-live-data/EB14J34Wz8EQnxMfAuRE5z7v8YoY. URL unica https://global-live-data-q3btfkxwr-michael-eng-ais-projects.vercel.app.
+- Publico https://global-live-data.vercel.app/pt/elections/brazil. Probe anonimo 2026-10-16T19:09:39.715Z: 60 paginas EN/PT/ES com deployment ID correto, seis exports integrais iguais ao canonico, seis cargos, duas quarentenas RO, ZZ/turno2 ausente com 2022 preservado, oito limites/404 do lab e sitemap passaram.
+- IAB publicado 390px/1280px: cobertura por turno, link interno RO e aviso, preservacao de 2022, ausencia do segundo turno, sem overflow ou erros de aplicacao. Capturas /tmp/global-live-data-tse-refresh/published-coverage.png e published-mobile.png fora do Git. Override restaurado, comparacao PT mantida aberta; servidor local proprio encerrado.
+
+Execucoes reais: 18:59:24 UTC (staging) e 19:02:16 UTC (--apply), ambas changed=false: 134 recortes, duas quarentenas RO, somente turno 1, nenhum arquivo canonico alterado. Hash ZIP partidos 3008ceb12aeea1646b2bf42a1bfe24bdf5e1732714d6bc2aeef6a1d162014461; totais e084964a7e0240f9c4fe824cae4300cb2945df9fd254505350bbecc94689a146. Capturas publicadas continuam 15:11 UTC porque fatos nao mudaram.
+
+Heartbeat ACTIVE verificado em [[refresh-tse-elections]]. Futuro disparo autonomo e segundo turno real nao observados; Safari, aparelhos fisicos, carga e auditoria completa de runtime logs nao executados.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -131,3 +145,5 @@ Nao executados: auditoria completa de logs runtime, carga, Safari/aparelhos fisi
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.

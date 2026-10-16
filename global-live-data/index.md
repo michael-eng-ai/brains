@@ -36,6 +36,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-auto-tse]] - Atualizar dados TSE e publicar resultados consistentes.
 - [[2026-10-16-retain-editions]] - Reter historico e importar todos os cargos de 2022.
 - [[2026-10-16-auto-editorial]] - Publicacao automatica frequente escolhida.
 - [[2026-10-16-publish-sports-elections]] - Fontes gratuitas comerciais autorizadas para publicacao.
@@ -55,6 +56,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[trap-concurrent-github-changes]] - Estado remoto pode mudar enquanto testes e memoria estao em andamento.
 
 ## Procedimentos
+- [[refresh-tse-elections]] - Conferencia, no-op e publicacao pelo heartbeat.
 - [[verify-release]] - Procedimento local e remoto para validar a revisao exata.
 - [[resume-publication]] - Retomar hospedagem somente com nova instrucao e alvo confirmado.
 
@@ -70,6 +72,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+
+- [[2026-10-16-tse-refresh-release]] - PR #10 publicada e heartbeat TSE verificado.
 
 - [[2026-10-16-brazil-comparison-release]] - PR #9 publicada com dados 2026/2022 e lacunas explicitas.
 - [[2026-10-16-history-release]] - PR #8 publicada e dados historicos conferidos.
@@ -143,3 +147,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-history-release]] - Handoff do historico publicado.
 - [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
+- [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
+- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
+- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
