@@ -38,6 +38,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16: [[2026-10-16-consolidation-audit]] - Auditoria em main publicada; defeito24h e US$0,32 de infraestrutura observados, sem mudar producao.
 
+- 2026-10-16: [[2026-10-16-consolidation-release]] - PR12, janela24h, docs/privacidade/diagnostico, CI e publicacao verificados.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -52,3 +54,4 @@ atualizado: "2026-10-16"
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[2026-10-16-consolidation-audit]] - Handoff da auditoria.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.

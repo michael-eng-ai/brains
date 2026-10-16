@@ -1,26 +1,27 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Auditoria de consolidacao concluida; correcao da janela24h e docs proposta, sem publicar."
-tags: [global-live-data, estado, auditoria]
+resumo: "Consolidacao publicada: janela24h, docs, privacidade e diagnostico de feeds."
+tags: [global-live-data, estado, operacao]
 atualizado: "2026-10-16"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-16-consolidation-audit]].
+Ultimo handoff: [[2026-10-16-consolidation-release]].
 
-- Direcao vigente: consolidar antes de expandir; [[2026-10-16-consolidate-first]]. Avaliacao nao autoriza alteracoes irrestritas em producao.
-- Main publicada e limpa, PR11; recibos conferidos em [[release-status]]. Nenhuma alteracao no app/deploy nesta auditoria.
-- Cinco prioridades, evidencias do contador24h, custos/latencia Vercel e plano4-6h em [[consolidation-audit]]. Implementacao da correcao ainda proposta.
-- Primeiro heartbeat editorial publicou Tour2027; [[editorial-publishing]]. As duas rotinas seguem ACTIVE/6h, sem mudanca; primeiro disparo autonomoTSE nao observado.
-- RO/turno2 e preservacao historica continuam conforme [[brazil-election-comparison]], [[historical-editions]] e [[refresh-tse-elections]].
-- Nao ampliar categorias, habilitar medicao/ads, contratar banco/cache ou supor audiencia por requests. Sem conta/chave/gasto novo.
+- Main publicada e verificada, PR12; commit/CI/Ready em [[release-status]]. Arvore limpa.
+- Correcao 24h e documentacao entregues; [[consolidation-audit]] registra o diagnostico historico e sua resolucao. Autorizacao especifica em [[2026-10-16-publish-consolidation]].
+- Operador e hospedagem divulgados conforme [[public-contact]]; sem armazenamento externo de logs, sem alegar retencao integral auditada.
+- Primeiro heartbeat editorial ja publicou PR11; duas rotinas existentes seguem sem alteracao. TSE autonomo com mudanca publicada ainda nao observado.
+- RO/turno2 aguardam fonte consistente/disponivel; nenhuma alteracao historica nesta entrega.
+- Proxima prioridade: medir carga util da jornada de cidade existente com rede limitada; nao reabrir o contador/docs/primeiro artigo como pendentes. Telefones fisicos e picos distribuidos ainda sem evidencia.
+- Nao ativar analytics/ads, novas categorias, contas/chaves ou infraestrutura paga a partir desta consolidacao. Metricas propostas nao sao resultados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
-- [[2026-10-16-sports-election-release]] - Handoff atual.
-- [[2026-10-16-publish-sports-elections]] - Autorizacao desta entrega.
+- [[2026-10-16-sports-election-release]] - Handoff historico da expansao.
+- [[2026-10-16-publish-sports-elections]] - Autorizacao historica de esportes/eleicoes.
 - [[sports-election-feeds]] - Contratos e fontes.
 - [[release-status]] - Evidencias remotas.
 - [[validation-workflow]] - Testes e limites.
@@ -45,3 +46,5 @@ Ultimo handoff: [[2026-10-16-consolidation-audit]].
 - [[consolidation-audit]] - Evidencias e prioridades.
 - [[2026-10-16-consolidate-first]] - Direcao de consolidacao.
 - [[2026-10-16-consolidation-audit]] - Handoff da auditoria.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
+- [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.

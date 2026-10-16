@@ -24,6 +24,10 @@ Os limites de Trends/TV e a estimativa de trafego da PR #5 ficam em [[trends-tv-
 
 Historicos nao usam TTL do cache. Fonte duravel e artefato somente leitura descritos em [[historical-editions]]; trocar temporada nao apaga uma edicao arquivada.
 
+## Janela local e auditoria de feeds
+
+A entrega [[2026-10-16-consolidation-release]] aplica earthquakesInWindow tambem ao portal, e um relogio local atualiza as fronteiras no dashboard/portal sem refetch. Pausa em aba oculta e recomputa ao retornar. Precisao depende do relogio do dispositivo; timestamps da fonte nao sao renovados artificialmente. npm run ops:check avalia os envelopes existentes e datas, sem logar dados de visitantes ou corpos de fornecedores. HTTP 200 nao prova ready. Contrato e budgets atuais: docs/OPERATIONS.md.
+
 ## Conexoes
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -32,3 +36,4 @@ Historicos nao usam TTL do cache. Fonte duravel e artefato somente leitura descr
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.

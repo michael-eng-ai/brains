@@ -123,6 +123,14 @@ PR #11 https://github.com/michael-eng-ai/global-live-data/pull/11 integrada em 2
 
 Uma pauta nova, nenhuma mudanca em fontes historicas/TSE, APIs, contas, chaves, dependencias, gastos ou automacoes. Pesquisa real: dez pautas em cada US/BR/GB/ES/JP/IN, todas ready. Checks locais e limites em [[validation-workflow]]; criterio editorial em [[editorial-publishing]].
 
+## Consolidacao publicada - PR 12
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/12 integrada; head ee85956439d502f810531fa7dbd86822d7c5cbc7; main 5c7c8907c518947bc8ae5c05105016887d1dce8c. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/38967056411 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/38967352691 passaram ambos os jobs. Arvore local/main remota limpa e equivalente verificada.
+
+Production Ready no commit exato: dpl_JARN9ttjnkBk23tPLkTS5W84HssU, https://vercel.com/michael-eng-ais-projects/global-live-data/JARN9ttjnkBk23tPLkTS5W84HssU; dominio unico https://global-live-data-o9tyrrgyu-michael-eng-ais-projects.vercel.app. Nove paginas home/privacy/nature EN/PT/ES responderam HTTP200 com CSP e deployment ID exato em 2026-10-16T21:10:19Z. As tres paginas de privacidade identificam operador/host e removem o aviso de pre-lancamento. ops:check as 21:10:06Z retornou exit0: oito feeds representativos ready naquele instante. Navegacao mobile portal-natureza-retorno e desktop publicos sem overflow/erro de aplicacao; USGS posteriormente stale permaneceu sinalizado, sem novo timestamp. Capturas /tmp/gld-consolidation/published-mobile.png e published-desktop.png. Servidor local de QA encerrado; viewport restaurado.
+
+Correcao 24h, documentos consolidados/arquivo historico, identidade publica/hosting e ops:check. Escopo e limites em [[consolidation-audit]], [[public-contact]] e [[validation-workflow]]. Nenhuma dependencia, conta, chave, permissao, gasto, automacao, ads ou analytics alterado.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -161,3 +169,4 @@ Uma pauta nova, nenhuma mudanca em fontes historicas/TSE, APIs, contas, chaves, 
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.

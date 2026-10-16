@@ -53,6 +53,14 @@ Janela24h correta + documentos vigentes da atualizacao; estimativa4-6h mais espe
 
 Verificacao desta auditoria: 40 testes offline relevantes passaram; auditprod0, auditcompleto5high na cadeia dev braces/ESLint; nenhuma dependencia alterada. Build/lint/typecheck/Python/e2e completos nao rerodados (sem codigo alterado); CI da main conferido. Carga/multirregiao/dispositivos/Safari/rede lenta/indiceGoogle/receita/retencao integral nao validados.
 
+## Resolucao autorizada da entrega pequena
+
+O diagnostico acima e historico, anterior a implementacao. A entrega de [[2026-10-16-consolidation-release]] corrigiu contador/ultimo evento e envelhecimento local do dashboard com earthquakesInWindow/useEarthquakeClock, mantendo timestamps e cadencias. Eventos futuros/invalidos saem do recorte; fronteira inferior inclusiva e null/vazio continuam distintos. Documentos vigentes foram consolidados; recibos antigos vivem em docs/archive/HANDOFF-2026-10-16.md.
+
+A recomendacao operacional gerou npm run ops:check: seis leituras limitadas, oito feeds representativos, somente metadados, exit 1 para stale/desativado e 2 para erro. docs/OPERATIONS.md concentra orcamento conjunto OpenLiga, metricas ainda nao instrumentadas, custo observado, correcao/rollback e decisao de manter carregamento independente. Nenhuma nova infraestrutura, rotina ou analytics. Identidade/hosting corrigidos em [[public-contact]].
+
+QA agora inclui Safari nativo macOS basico e resposta atrasada em Chromium; nao confundir com telefone fisico, Safari mobile, banda/CPU limitadas ou teste multirregiao. Limites restantes ficam em [[validation-workflow]]. Producao e CI em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Foco vigente.
@@ -64,3 +72,5 @@ Verificacao desta auditoria: 40 testes offline relevantes passaram; auditprod0, 
 - [[2026-10-16-tour-editorial-release]] - Primeiro disparo editorial concluido.
 - [[2026-10-16-consolidate-first]] - Direcao de consolidacao antes de expandir.
 - [[2026-10-16-consolidation-audit]] - Handoff desta auditoria.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
+- [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.

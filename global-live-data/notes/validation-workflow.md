@@ -86,6 +86,14 @@ PR #11: Node 24/npm 11, lint/tipos, 74 unidades, build e 63 paginas HTTP passara
 
 Fontes atuais lidas separadamente; conversoes do instante anunciado conferidas com Intl/zonas IANA. IAB local e hospedado mostrou leitura e anchors sem overflow/console errors. Probes anonimos e revisoes exatas em [[release-status]]. Safari/aparelhos fisicos, carga, indexacao e crescimento de audiencia nao testados. Scan inicial do cerebro sinalizou pontuacao apos hashes/IDs e nomes ZIP/transcricoes; classificacao revisada confirmou falsos positivos, nenhum segredo encontrado.
 
+## Consolidacao 16 outubro
+
+PR #12, head ee85956439d502f810531fa7dbd86822d7c5cbc7. Check local passou lint/tipos/unidades/build/60 rotas HTTP; rerun final de lint/tipos/unidades passou 79 testes. Python 11 e Chromium 20 passaram. A correcao do comando CLI foi coberta por execucao real e regressao offline; os dois jobs CI finais da PR e da main passaram, conforme [[release-status]]. Nenhum fixture virou dado publicado.
+
+Manual IAB 390/1280px: layout, navegacao, privacidade PT/ES, retorno e console sem erro. Safari nativo macOS: portal-natureza, filtro 6h, idioma PT/EN, renderizacao visual. Dados locais velhos exibiram stale/indisponivel corretamente; consulta limitada posterior confirmou recuperacao MET, sem ocultar USGS stale. Chromium cobre leitura EN/PT/ES com resposta de dados atrasada, nao banda/CPU completa. Telefone fisico/Safari mobile, carga/multirregiao, indice Google e audiencia continuam nao verificados.
+
+Publico: Nove paginas home/privacy/nature EN/PT/ES responderam HTTP200 com CSP e deployment ID exato em 2026-10-16T21:10:19Z. As tres paginas de privacidade identificam operador/host e removem o aviso de pre-lancamento. ops:check as 21:10:06Z retornou exit0: oito feeds representativos ready naquele instante. Navegacao mobile portal-natureza-retorno e desktop publicos sem overflow/erro de aplicacao; USGS posteriormente stale permaneceu sinalizado, sem novo timestamp. Capturas /tmp/gld-consolidation/published-mobile.png e published-desktop.png. Servidor local de QA encerrado; viewport restaurado.. Sem reproduzir contatos publicos, tokens ou logs de visitantes em artefatos.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -113,3 +121,4 @@ Fontes atuais lidas separadamente; conversoes do instante anunciado conferidas c
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.

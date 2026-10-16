@@ -18,7 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
-- [[consolidation-audit]] - Cinco prioridades, evidencias de operacao e proposta pequena.
+- [[consolidation-audit]] - Diagnostico historico e consolidacao entregue, com limites operacionais.
 - [[historical-editions]] - Arquivo versionado, SQLite e regra da edicao anterior.
 - [[brazil-election-comparison]] - Brasil 2026/2022, denominadores e dados pendentes.
 - [[editorial-publishing]] - Artigos, apuracao e rotina de seis horas.
@@ -37,6 +37,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-16-publish-consolidation]] - Correcao24h, operacao e publicacao autorizadas.
 - [[2026-10-16-consolidate-first]] - Consolidar antes de expandir; avaliacao sem deploy irrestrito.
 - [[2026-10-16-auto-tse]] - Atualizar dados TSE e publicar resultados consistentes.
 - [[2026-10-16-retain-editions]] - Reter historico e importar todos os cargos de 2022.
@@ -74,6 +75,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-16-consolidation-release]] - Consolidacao publicada e verificada.
 - [[2026-10-16-consolidation-audit]] - Auditoria do produto, custos e atualizacao.
 
 - [[2026-10-16-tour-editorial-release]] - Primeira rodada editorial autonoma, guia Tour 2027 publicado.
@@ -159,3 +161,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[consolidation-audit]] - Auditoria e direcao atual.
 - [[2026-10-16-consolidate-first]] - Auditoria e direcao atual.
 - [[2026-10-16-consolidation-audit]] - Auditoria e direcao atual.
+- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
+- [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
