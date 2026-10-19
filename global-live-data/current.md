@@ -1,23 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Previa local de previsao mexicana pronta; sem merge/deploy; PR15 segue como ultima producao."
+resumo: "Previsao mexicana publicada pela PR16; main e Production verificadas; proximo passo e feedback."
 tags: [global-live-data, estado, previsao]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-mexico-weather-preview]].
+Ultimo handoff: [[2026-10-19-mexico-weather-release]].
 
-- Trabalho atual: branch limpa codex/mexico-weather-preview, commit local 3ad3bf7c06093d0e3b5ff2539d01102b308e3ea1; sem push do projeto. Previa da Cidade do Mexico EN/PT/ES com sete datas e chuva 1/6/12h; [[met-forecast]].
-- Proprietario escolheu Mexico primeiro e somente previa; [[2026-10-19-mexico-weather-first]]. Monclova nao adicionada; FIRMS nao implementado. Nao transferir a autorizacao de releases passados.
-- Servidor de revisao em 127.0.0.1:3101, pagina /es/lab/weather/mexico-city. Parar antes de rebuild no mesmo .next; preservar a branch durante avaliacao e nao sobrescrever a previa com trabalho automatico concorrente.
-- Check final90unidades/lint/types/build/HTTP e 25 Chromium passaram. Inspecao 390/1280, EN/PT/ES, teclado/refresh, datas, noindex e gates; detalhes em docs/WEATHER-MEXICO-PREVIEW.md. Python, telefones fisicos/mobileSafari, carga, CI/deploy nao executados nesta entrega.
-- Main/origin-main e ultima producao verificada permanecem 02be71dcf881212ca4bcc29d1641179a9c0196f4, PR15; recibos em [[release-status]]. Quatro artigos; [[editorial-publishing]].
-- TSE PR14: 136 recortes validos de 2026, RO reconciliado, nenhuma quarentena; 2022 e temporadas preservados; turno2 ainda pendente. [[brazil-election-comparison]] e [[refresh-tse-elections]].
-- Ultima checagem operacional publicada 19/10 12:46UTC teve USGS stale e outros sete feeds ready; nao houve novo check geral nesta previa. Esportes/FX conforme [[sports-fx-depth]].
-- Proximo passo: usuario avaliar a previa. Sem conta/chave/gasto/analytics/ads ou mudanca de automacoes. Nao alegar audiencia, receita ou saude continua a partir destas observacoes.
+- Main local/origin limpas em 046169fe42f4f0cb4a7b48d9836adf7cda7578c3; PR16 integrada com CI PR/main aprovados e Vercel Production Ready exata. Recibos: [[release-status]].
+- Previsao publica em https://global-live-data.vercel.app/pt/weather/mexico-city, tambem EN/ES, com links internos no portal/natureza. Sete datas locais, fonte MET real, SSR inicial e intervalos de chuva preservados; [[met-forecast]].
+- Proprietario autorizou merge/publicacao apos a previa: [[2026-10-19-publish-mexico-weather]]. Catalogo permanece 42 cidades; Monclova/FIRMS nao implementados. Labs privados preservados.
+- Gates finais: 90 unidades/check, 11 Python, 27 Chromium; UI real mobile/desktop e HTTP publico. Nao testados telefone fisico/Safari mobile/carga. [[validation-workflow]].
+- Fonte mexicana ready observada em producao; ops:check unico 19/10 13:34UTC encontrou USGS stale e outros sete feeds ready. Nao inferir saude continua.
+- Quatro artigos existentes e seis arquivos historicos preservados. TSE PR14: 136 recortes validos de 2026, RO reconciliado, nenhuma quarentena, turno 2 pendente. [[editorial-publishing]] e [[brazil-election-comparison]].
+- Servidor QA proprio encerrado e viewport restaurado. Proximo passo: feedback do usuario e medicao de utilidade/custo antes de novas cidades. Sem novas contas/chaves/gastos/analytics/ads ou mudanca das duas automacoes.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -56,3 +55,6 @@ Ultimo handoff: [[2026-10-19-mexico-weather-preview]].
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-mexico-weather-first]] - Escopo local selecionado pelo proprietario.
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
+- [[2026-10-19-publish-mexico-weather]] - Autorizacao atual de publicacao.
+- [[2026-10-19-mexico-weather-release]] - Ultimo handoff.
+- [[met-forecast]] - Previsao publicada.

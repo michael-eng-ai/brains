@@ -16,15 +16,17 @@ Codigo honra Expires, Last-Modified/If-Modified-Since, Retry-After, timeout e li
 
 Confirmado por historico direto do proprietario: contato autorizado em 2026-10-15. Valor somente em .env.local. Presenca verificada sem revelar valor. Sondagem local anterior foi ready; naquela data, a fonte ainda nao havia sido validada em hospedagem.
 
-## Previa mexicana 19/10/2026
+## Cidade do Mexico publicada em 19/10/2026
 
-[[2026-10-19-mexico-weather-first]] autoriza somente previa. Commit local 3ad3bf7c06093d0e3b5ff2539d01102b308e3ea1; implementacao e fontes em docs/WEATHER-MEXICO-PREVIEW.md. Rota /[lang]/lab/weather/mexico-city requer GLD_ENABLE_LAB=1 e sempre 404 na Vercel; noindex, sem sitemap/link publico. Reaproveita o mesmo servico MET/cache no servidor e nao consulta USGS. Nenhuma cidade/API ou identidade nova.
+A previa local inicial 3ad3bf7 foi autorizada para publicacao por [[2026-10-19-publish-mexico-weather]]; PR16/main e Production verificadas em [[release-status]]. Contrato atual em docs/WEATHER-MEXICO.md; o antigo WEATHER-MEXICO-PREVIEW.md pertence apenas ao commit historico. Publico /[lang]/weather/mexico-city EN/PT/ES; canonical/hreflang/sitemap e links portal/natureza. A rota lab continua exigindo opt-in local, rejeita Vercel e redireciona para a pagina publica apenas localmente.
 
-Sete datas no fuso da cidade com selecao de dia/tabela, unidades, ausencias, chuva 1/6/12h sem somas. Faixa de temperaturas representa pontos exibidos, nao extremos do dia inteiro. SSR inicial; relogio local envelhece estado e descarta apos 24h de idade de fonte. Mudanca de dia nao consulta rede; refresh manual e idiomas preservaram datas em verificacao local. Nao e rate limiter global nem arquivo historico.
+Sete datas no fuso America/Mexico_City, com pontos recebidos e tabela de temperatura/chuva/vento/umidade. Faixa de temperatura representa pontos exibidos, nao extremos diarios. Chuva 1/6/12h permanece no intervalo recebido, sem somar sobreposicoes ou inventar probabilidades. Zero distinto de ausencia. Relogio local envelhece estado e descarta dados apos 24h de idade de fonte.
 
-Observado ready com fonte 2026-10-19T11:26:28Z, consulta 12:58:02Z, validade 13:27:34Z; sete datas 19-25/10. Prova unica, nao monitoramento. Finais: 90 unidades/check e 25 Chromium; UI 390/1280 EN/PT/ES, teclado, refresh, tabela com rolagem e datas 12px sem erro/overflow. HTTP200/noindex/SSR nas tres linguas; outras cidades/idioma 404 e VERCEL=1 bloqueou mesmo com opt-in. Testes offline nao substituem esta observacao real. Sem telefone fisico/mobileSafari/carga/CI/publicacao.
+Request-time SSR via connection/getWeatherSnapshot compartilha o servico MET/cache existente, sem consulta USGS na pagina. Selecao de dia local; refresh manual reexecuta renderizacao pelo mesmo servico. Links de entrada/idioma com prefetch desativado. Nenhuma nova cidade/chave de cache geograficamente distinta, auto-polling ou coleta persistente; nao equivale a rate limiter global ou economia medida. Avaliar bursts/instancias antes de ampliar/promover.
 
-Revisao primaria confirmou modelo/intervalos e termos/atribuicao existentes. Docs MET divergem nove dias no endpoint e dez no modelo; exibir somente pontos recebidos evita garantia falsa. Monclova e candidata; a unica cidade mexicana registrada segue Ciudad de Mexico. FIRMS area API exige MAP_KEY; nenhuma chave/prova autenticada. Demanda do relatorio nao foi medida novamente.
+Observacao publicada: fonte 2026-10-19T13:20:47.000Z, consulta 13:34:00.000Z e validade 13:58:39.000Z, estado ready, sete datas 19-25/10. Refresh manteve dia selecionado e timestamps; linguas preservaram cidade. Observacao local anterior stale apos validade foi explicitamente marcada, nao escondida. Checks/provas em [[validation-workflow]] e [[release-status]], sem promessa de disponibilidade continua.
+
+Revisao primaria anterior confirmou modelo/intervalos e termos/atribuicao existentes. Docs MET divergem nove dias no endpoint e dez no modelo; exibir apenas pontos recebidos evita garantia falsa. Monclova permanece candidata; unica cidade mexicana registrada e Ciudad de Mexico. FIRMS exige revisao propria, nenhuma chave/coleta implementada. Demanda do relatorio nao foi medida novamente.
 
 ## Conexoes
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
@@ -36,3 +38,8 @@ Revisao primaria confirmou modelo/intervalos e termos/atribuicao existentes. Doc
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[2026-10-19-mexico-weather-first]] - Escopo local selecionado pelo proprietario.
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
+- [[current]] - Estado atual.
+- [[2026-10-19-publish-mexico-weather]] - Autorizacao publica.
+- [[2026-10-19-mexico-weather-release]] - Handoff da entrega.
+- [[release-status]] - Recibos de publicacao.
+- [[validation-workflow]] - Gates e verificacao.

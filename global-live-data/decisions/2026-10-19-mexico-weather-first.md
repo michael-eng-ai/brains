@@ -14,8 +14,13 @@ Aplicacao limitada a Ciudad de Mexico, unica cidade mexicana do catalogo atual. 
 
 Proxima decisao depende da avaliacao da previa: release e novas cidades exigem instrucao correspondente. Automacoes editorial/TSE mantiveram frequencia e escopo.
 
+## Evolucao posterior
+
+O limite de previa desta decisao e historico: a instrucao explicita posterior em [[2026-10-19-publish-mexico-weather]] autorizou integrar/publicar esta versao. Expansao de cidades e FIRMS continuam fora do escopo.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[current]] - Estado de execucao.
 - [[met-forecast]] - Contrato e prova local.
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa.
+- [[2026-10-19-publish-mexico-weather]] - Autorizacao posterior, restrita a publicacao da cidade existente.

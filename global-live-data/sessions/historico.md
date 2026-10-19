@@ -50,6 +50,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: [[2026-10-19-mexico-weather-preview]] - Previa mexicana local 3ad3bf7, check90/Chromium25 e MET real; sem push/merge/deploy do projeto.
 
+- 2026-10-19: [[2026-10-19-mexico-weather-release]] - PR16/main046169f, CI PR/main e Production Ready exatas; forecast EN/PT/ES real, check90/Python11/Chromium27; USGS stale separado de deploy.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -70,3 +72,4 @@ atualizado: "2026-10-19"
 - [[2026-10-19-tse-ro-release]] - Atualizacao oficial verificada.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
+- [[2026-10-19-mexico-weather-release]] - Previsao mexicana publicada.

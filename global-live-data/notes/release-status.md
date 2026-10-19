@@ -162,6 +162,18 @@ Probe anonimo em 2026-10-19T12:46:14.910Z: nove paginas EN/PT/ES (portal, indice
 
 Nenhuma alteracao nos dados TSE, esportes ou cambio; as seis edicoes anteriores foram preservadas pelo build/check. Servidor QA encerrado. Detalhes de conteudo em [[editorial-publishing]], checks em [[validation-workflow]].
 
+## Previsao mexicana publicada - PR16
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/16 integrada em 2026-10-19T13:32:56Z. Head ca879178f73ba95ddff8ec4a288c58552cc54449; main local/origin 046169fe42f4f0cb4a7b48d9836adf7cda7578c3, limpa e arvore identica a revisao aprovada. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39260854017 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39261105385 passaram ambos os jobs em suas revisoes exatas.
+
+Vercel Production Ready confirmado no dashboard Chrome autenticado: dpl_5DEMHEMKfYpxsV61bW1Lddkmbfvt, source main com SHA integral exato, conclusao 2026-10-19T13:33:30Z. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/5DEMHEMKfYpxsV61bW1Lddkmbfvt; URL unica https://global-live-data-aissv0yt9-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy duplicado.
+
+Probe anonimo concluido 2026-10-19T13:34:04.988629Z: tres previsoes EN/PT/ES HTTP200 com deployment ID, CSP, canonical/hreflang, dados no HTML e sitemap corretos; links dos tres portais, labs404 e Monclova404 passaram. Publico https://global-live-data.vercel.app/pt/weather/mexico-city. Fonte real ready e intervalos em [[met-forecast]].
+
+UI publicada mobile/desktop: entrada por teclado do portal, sete datas, escolha de dia/Enter, rolagem horizontal por teclado da tabela, refresh mantendo selecao/timestamps, EN/PT/ES e retorno natureza/cidade passaram; sem overflow raiz nem erros/warnings no console. Captura publica /tmp/global-live-data-mexico-weather-published.png, fora do Git. Overrides restaurados e servidor QA proprio encerrado; pagina PT publica mantida aberta.
+
+ops:check unico 2026-10-19T13:34:02.051Z: exit1, USGS stale com fonte 13:32:34Z/validade13:33:34Z; sete outros feeds representativos ready. Nao confundir frescor pontual com falha de deploy/garantia longitudinal. Relatorios /tmp/gld-weather-public-verification.json e /tmp/gld-weather-ops.log. Nenhuma conta/chave/gasto/dependencia/automacao ou nova cidade foi alterada.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -205,3 +217,5 @@ Nenhuma alteracao nos dados TSE, esportes ou cambio; as seis edicoes anteriores 
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-mexico-weather-release]] - Handoff da previsao publicada.
+- [[met-forecast]] - Dados e contrato da nova pagina.

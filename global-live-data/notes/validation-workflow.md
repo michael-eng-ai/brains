@@ -110,6 +110,12 @@ PR15: check passou 87 testes Node, lint/tipos/build/HTTP; importacao offline pas
 
 Inspecao manual local 390px PT: filtro Paradesporto, leitura, indice e ancora de fonte; desktop1280 ES e troca para EN preservaram artigo/retorno interno. Sem overflow ou console erro. A interrupcao do turno encerrou servidor/abas temporarios; reiniciados para concluir QA, sem falha de produto. Seletores CUA devem usar papel/nome; getByRole nao suporta level nessa ponte, embora Playwright do repositorio suporte. Provas publicas/CI em [[release-status]]. Nao realizados: telefone fisico, Safari mobile, carga distribuida, indexacao/trafego e revisao editorial humana.
 
+## Previsao mexicana publicada, 19 outubro
+
+PR16: Node 24.22.0/npm 11.21.1; check passou 90 unidades/lint/tipos/build/HTTP, importacao offline 11 Python e suite Chromium 27 casos. Novos casos cobrem portal por teclado, EN/PT/ES, refresh/ausencia de fixture em producao, retorno natureza/cidade, 320/1280px, SSR sem JavaScript, metadata/sitemap e rejeicao de labs/cidades nao aprovadas. CI PR/main passou ambos os jobs; [[release-status]].
+
+UI local e publica com dados reais separada dos fixtures: mobile/desktop, selecao de dia/Enter, tabela com rolagem por teclado, refresh mantendo selecao/timestamps, idiomas e retorno. Sem overflow/console warnings/errors. Stale local apos expiry foi preservado; producao recebeu forecast atualizado ready, sem falsificar datas. Nao testados telefone fisico/mobileSafari, carga, quota distribuida ou indexacao. ops:check teve USGS stale; demais sete feeds ready, registrado separadamente do deploy. Artefatos temporarios publicos, sem contatos ou logs de visitantes.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -142,3 +148,5 @@ Inspecao manual local 390px PT: filtro Paradesporto, leitura, indice e ancora de
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-mexico-weather-release]] - Handoff verificado.
+- [[met-forecast]] - Contrato da previsao.
