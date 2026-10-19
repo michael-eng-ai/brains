@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Publicacao editorial
@@ -18,6 +18,12 @@ Cada rodada retoma o cerebro e o Git, evita trabalho sujo/em andamento, identifi
 
 Riscos: verificacao por agente nao substitui revisao editorial humana; Google recomenda revisao manual. Nao prometer views, indexacao, ranking ou cobertura universal. Artigo datado nao prova que o termo continua em alta. Aumentar volume nao e o objetivo se faltar valor/apuracao. Evoluir testes de catalogo/fixtures ao incluir novos artigos; nao enfraquecer checks.
 
+## Edicao de 19 outubro
+
+Quarta leitura: asian-para-games-2026-schedule-guide, EN/PT/ES, escolhida da consulta indiana ao Trends as 12:34 UTC. Guia de datas, referencia para programacao oficial e conversao de JST com virada de dia; tres fontes primarias (Comite Paralimpico Japones, cidade de Nagoya e NICT). Evidencia factual em docs/editorial/2026-10-19-asian-para-games.md, com snapshot exato no catalogo. Paradesporto e apenas filtro editorial, sem API/painel de resultados. Fontes/apoio de IA/ausencia de revisao humana e navegacao interna preservados.
+
+O site do organizador respondeu 403 ao leitor de pesquisa; snippets e calendario antigo de fevereiro nao fundamentaram a publicacao. As fontes publicadas foram lidas diretamente. Nao incluir placares, medalhas ou direitos de transmissao sem apuracao nova. Proxima rodada compara as quatro leituras, pesquisa no maximo seis mercados e seleciona ate uma pauta; pode pular se faltar valor ou verificacao. Sem alteracao de frequencia, contas, custos, ads ou analytics. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -30,3 +36,4 @@ Riscos: verificacao por agente nao substitui revisao editorial humana; Google re
 - [[AGENTS]] - Regras duraveis.
 - [[2026-10-16-editorial-release]] - Handoff.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.

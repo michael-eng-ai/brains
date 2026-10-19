@@ -104,6 +104,12 @@ PR14: Node 24.22.0/npm 11.21.1, Python 3.12.4. test:history-import (11 testes), 
 
 O plugin Browser separado nao esta listado; suite Playwright existente conforme AGENTS e CUA para UI manual. Fluxo local/publico: selecionar cargo e RO, ler 2026/2022, alternar idioma mantendo a query. Mudar cargo reinicia estado para SP; QA precisa escolher RO novamente (comportamento existente, sem mudanca nesta entrega). Local 390/1280 PT/ES e publico 390/1280 PT/EN sem overlay/overflow/erros no console; screenshots inspecionados no navegador. Dispositivos fisicos/Safari mobile/carga nao testados. Fonte real adquirida uma vez, separada dos fixtures offline. Probes publicos/CI em [[release-status]].
 
+## Edicao editorial de 19 outubro
+
+PR15: check passou 87 testes Node, lint/tipos/build/HTTP; importacao offline passou 11 testes Python; suite final passou 25 testes Chromium. Expectativas existentes atualizadas para a quarta leitura e destaque do portal. Nenhuma falha final pendente; verificacao factual corrigiu a referencia a 10 outubro para data de atualizacao, conforme Nagoya. Os gates foram repetidos apos essa edicao. Nao foi adicionada suite redundante para o texto.
+
+Inspecao manual local 390px PT: filtro Paradesporto, leitura, indice e ancora de fonte; desktop1280 ES e troca para EN preservaram artigo/retorno interno. Sem overflow ou console erro. A interrupcao do turno encerrou servidor/abas temporarios; reiniciados para concluir QA, sem falha de produto. Seletores CUA devem usar papel/nome; getByRole nao suporta level nessa ponte, embora Playwright do repositorio suporte. Provas publicas/CI em [[release-status]]. Nao realizados: telefone fisico, Safari mobile, carga distribuida, indexacao/trafego e revisao editorial humana.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -135,3 +141,4 @@ O plugin Browser separado nao esta listado; suite Playwright existente conforme 
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.

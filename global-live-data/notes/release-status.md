@@ -152,6 +152,16 @@ Probe anonimo iniciado 2026-10-19T12:27:25.325Z passou 15 paginas EN/PT/ES: dois
 
 Dados e limites em [[brazil-election-comparison]]; verificacao em [[validation-workflow]]. Servidor local de QA encerrado. Nenhuma automacao, conta, credencial, dependencia, permissao CI ou custo alterado.
 
+## Entrega editorial de 19 outubro
+
+PR15 https://github.com/michael-eng-ai/global-live-data/pull/15 integrada em 2026-10-19T12:44:33Z. Head 4ed003543af26eceadcf399da64c51d0b6a3e2a3; main local/remota 02be71dcf881212ca4bcc29d1641179a9c0196f4, limpa. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39254116249 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39254430500: dois jobs SUCCESS na revisao exata.
+
+Vercel Production Ready observado em main, SHA integral correspondente: dpl_6Ubj7AYyDVAu3iP4EUxJLq1suWQB; painel https://vercel.com/michael-eng-ais-projects/global-live-data/6Ubj7AYyDVAu3iP4EUxJLq1suWQB; URL unica https://global-live-data-ky7d6x4o0-michael-eng-ais-projects.vercel.app. Publicacao automatica pela integracao Git existente, sem deploy duplicado. Dashboard autenticado do Chrome utilizado conforme acesso existente; IAB redirecionou para login. Em futuras verificacoes, preferir a sessao Chrome ja autorizada quando o conector continuar sem acesso; nenhuma credencial ou permissao ampliada.
+
+Probe anonimo em 2026-10-19T12:46:14.910Z: nove paginas EN/PT/ES (portal, indice e artigo), deployment ID, CSP, titulos, canonical/hreflang, Article JSON-LD com tres referencias, divulgacao editorial e sitemap passaram. UI publicada 390/1280 com leitura/idioma/fontes, sem overflow ou erros observados. ops:check unico em 2026-10-19T12:46:14.167Z: exit1; USGS stale (fonte12:44:34UTC, validade12:45:34UTC), outros sete feeds ready; observacao pontual, nao garantia de disponibilidade continua. Artefatos temporarios em /tmp/gld-editorial-2026-10-19/.
+
+Nenhuma alteracao nos dados TSE, esportes ou cambio; as seis edicoes anteriores foram preservadas pelo build/check. Servidor QA encerrado. Detalhes de conteudo em [[editorial-publishing]], checks em [[validation-workflow]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -194,3 +204,4 @@ Dados e limites em [[brazil-election-comparison]]; verificacao em [[validation-w
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.

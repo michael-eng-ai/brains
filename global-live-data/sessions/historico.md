@@ -46,6 +46,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: heartbeat TSE libera os doisrecortes RO via PR14, main 967371f e Production Ready verificados; [[2026-10-19-tse-ro-release]].
 
+- 2026-10-19: PR15 publicou guia dos Jogos Para-Asiaticos em EN/PT/ES; CI, Production Ready e nove paginas anonimas verificados. [[2026-10-19-asian-para-editorial-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -64,3 +66,4 @@ atualizado: "2026-10-19"
 - [[2026-10-16-api-data-audit]] - Auditoria e recomendacoes.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Atualizacao oficial verificada.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.

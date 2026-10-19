@@ -78,6 +78,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-tse-ro-release]] - Primeiro heartbeat TSE material: RO liberado e PR14 publicada.
 - [[2026-10-16-sports-fx-depth-release]] - PR13 publicada e verificada; proximo passo e feedback.
 - [[2026-10-16-api-data-audit]] - Auditoria real das APIs e propostas.
@@ -170,3 +171,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
 - [[2026-10-19-tse-ro-release]] - Handoff da atualizacao oficial TSE.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.

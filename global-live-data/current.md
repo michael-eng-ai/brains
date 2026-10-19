@@ -1,21 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR14 publicada: dois recortes RO reconciliados, 2022 preservado; turno 2 pendente."
-tags: [global-live-data, estado, eleicoes]
+resumo: "PR15 publicada: quarto artigo EN/PT/ES; TSE RO segue valido e turno 2 pendente."
+tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-tse-ro-release]].
+Ultimo handoff: [[2026-10-19-asian-para-editorial-release]].
 
-- PR14 integrada e publicada; main limpa 967371fbba09bca2e6cdd2119bdd285975bebf2b. Dois jobs CI PR/main aprovados e Vercel Production Ready no SHA exato; recibos em [[release-status]].
-- [[brazil-election-comparison]]: 136 recortes validos 2026, sem quarentena; ambos deputados RO agora comparaveis com 2022. Todos os 134 recortes anteriores e cinco outras edicoes intactos. Turno 2 ainda ausente; nao antecipar IDs/dados antes de 25/10 e dos gates oficiais.
-- Testes: 11 Python, 87 Node, 25 Chromium, build/HTTP; UI 390/1280; 15 paginas publicas EN/PT/ES e seis JSONs integrais conferidos. ops:check oito feeds ready em 19/10 12:27 UTC; observacao pontual, sem garantia longitudinal.
-- Proximo heartbeat TSE: seguir [[refresh-tse-elections]], main atualizada/arvore livre/uma chamada --apply; no-op sem alterar captura, commit ou deploy. Regressoes agora tambem preservam RO liberado. Nenhuma frequencia/automacao alterada.
-- Produto anterior de temporadas/time/Bundesliga e FX 30/90 permanece; [[sports-fx-depth]]. Priorizar feedback do usuario, sem ampliar automaticamente categorias/previsao/infraestrutura. O cache FX nao e um warehouse permanente; avaliar trafego antes de escalar.
-- Telefones fisicos, Safari mobile e carga distribuida continuam nao testados. Nenhuma conta, chave, custo, analytics ou ads novo. Servidor QA encerrado.
+- PR15 integrada/publicada; main limpa 02be71dcf881212ca4bcc29d1641179a9c0196f4. Dois jobs CI PR/main aprovados e Production Ready no SHA exato; recibos em [[release-status]].
+- Quatro artigos originais; nova leitura de Jogos Para-Asiaticos, tres fontes oficiais e conversoes de data/fuso. [[editorial-publishing]] e docs/EDITORIAL.md definem contrato. Paradesporto e filtro editorial, sem novo feed.
+- Testes finais: 87 Node, 11 Python, 25 Chromium, build/HTTP; leitura local/publica 390/1280, nove paginas EN/PT/ES e sitemap verificados. [[validation-workflow]].
+- Checagem operacional 19/10 12:46UTC: USGS stale, demais sete feeds representativos ready; exit1 registrado em [[release-status]]. Sem alterar politica de cache ou alegar recuperacao nao observada.
+- Proxima rodada editorial: main atualizada/arvore livre, editorial:research ate seis mercados, evitar quatro temas existentes, no maximo uma pauta confirmada; pular se insuficiente. Frequencia e escopo mantidos.
+- TSE PR14 permanece: 136 recortes validos2026, ambos deputados RO reconciliados, sem quarentena; 2022 e quatro temporadas intactos. Turno2 ainda indisponivel. [[brazil-election-comparison]] e [[refresh-tse-elections]] governam a proxima atualizacao, sem antecipar IDs/resultados.
+- Esportes/FX: temporadas/time/Bundesliga e historico30/90 continuam conforme [[sports-fx-depth]]. Cache FX nao e warehouse; avaliar trafego antes de escalar.
+- Sem telefone fisico/mobileSafari/carga distribuida ou revisao editorial humana. Nenhuma conta, chave, custo, analytics ou ads novo. Servidor QA encerrado.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -51,3 +53,4 @@ Ultimo handoff: [[2026-10-19-tse-ro-release]].
 - [[2026-10-16-api-data-audit]] - Ultima auditoria.
 - [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
 - [[2026-10-19-tse-ro-release]] - Ultimo handoff TSE.
+- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
