@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[launch-readiness]] - Dominio cotado e passos verificaveis para Google.
 - [[sports-fx-depth]] - Temporadas/time/Bundesliga e FX30/90dias publicados, com limites.
 - [[api-data-adequacy]] - Utilidade, cobertura e prioridades de dados.
 - [[consolidation-audit]] - Diagnostico historico e consolidacao entregue, com limites operacionais.
@@ -39,6 +40,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-19-mobile-load-and-domain-research]] - Testes/correcao e pesquisa de dominio autorizados.
 
 - [[2026-10-19-repair-usgs-refresh]] - Correcao/publicacao USGS autorizadas.
 
@@ -84,6 +86,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-mobile-load-launch]] - WebKit/carga corrigidos; preparo de dominio.
 
 - [[2026-10-19-usgs-refresh-release]] - PR17 corrigiu e verificou atualizacao USGS.
 
@@ -114,6 +117,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
+
+
 
 ## Conexoes
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
@@ -190,3 +195,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-19-mexico-weather-release]] - Handoff da previsao publicada.
 - [[2026-10-19-repair-usgs-refresh]] - Correcao autorizada.
 - [[2026-10-19-usgs-refresh-release]] - Handoff USGS.
+- [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
+- [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
+- [[launch-readiness]] - Dominio e Google.

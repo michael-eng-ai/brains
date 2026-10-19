@@ -1,21 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "USGS corrigido e publicado pela PR17; main/Production verificadas; dados avancando."
-tags: [global-live-data, estado, usgs, cache]
+resumo: "WebKit corrigido/publicado; carga local passou; dominio e Google em preparacao."
+tags: [global-live-data, estado, validacao, lancamento]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-usgs-refresh-release]].
+Ultimo handoff: [[2026-10-19-mobile-load-launch]].
 
-- Main local/origin limpas em 5f482f533492f9064e7af5240dd19401f3ea3908; PR17 integrada, CI PR/main e Production Ready exatas verificadas. [[release-status]].
-- Correcao USGS: consulta atual aguardada ao expirar cache de processo, fonte, validade e backoff preservados; natureza atualiza a cada minuto visivel. Futebol/FX a cada cinco minutos. [[provider-cache]] e [[usgs-earthquakes]].
-- Check 92 unidades/lint/tipos/build/HTTP, Python11 e Chromium29 passaram. UI mobile/desktop e duas publicacoes reais sucessivas verificadas. [[validation-workflow]].
-- Resultado operacional pontual: 2026-10-19T14:05:58.211Z, npm run ops:check exit0, oito feeds representativos ready (USGS, MET, futebol, FX, hoquei, xadrez, eleicoes e TV); nao representa todos os seletores/regioes. Nao inferir disponibilidade continua.
-- Previsao da Cidade do Mexico EN/PT/ES da PR16 preservada, catalogo42; [[met-forecast]]. Quatro artigos e seis edicoes historicas mantidos; TSE2026 com136 recortes reconciliados e turno2 ainda pendente.
-- Servidor QA encerrado; proximo passo e feedback e medicao antes de promocao/escala. Nao testados telefones fisicos/Safari mobile/carga. Nenhuma nova cidade/API/conta/chave/gasto/analytics/ads ou automacao.
+- Main/origin limpos em dfcd79568a296b804fa04053db52916a93335ae9; PR18, ambos CIjobs PR/main e Production Ready exatas verificadas. [[release-status]].
+- Header/footer e acessos historicos sem prefetch automatico; WebKit29/Chromium29/Python11/check92 passaram. Carga3164 req/15clientes sem erro, p95<48ms local. [[validation-workflow]].
+- Safari no iPhone/iOS nao testado: Xcode/simctl indisponiveis. Nao prometer capacidade Vercel/multirregiao com benchmark local.
+- Usuario escolheu dominio proprio/Google, ainda sem compra; recomendacao globallivedata.com, consulta USD11.25/1ano/renovacao11.25. Sem autorizacao de compra/renovacao/DNS. [[launch-readiness]].
+- Publico HTTPS/robots/sitemap69URLs funcionais. Proximo: escolher dominio, confirmar transacao, configurar DNS/SSL/origin/metadata e Search Console; indexacao nao verificada.
+- USGS/Mexico/esportes/historicos preservados. Nenhuma fonte/cidade/conta/chave/analytics/anuncio/automacao adicionada. Servidores QA encerrados.
+
+
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -57,7 +59,10 @@ Ultimo handoff: [[2026-10-19-usgs-refresh-release]].
 - [[2026-10-19-publish-mexico-weather]] - Autorizacao da previsao publicada.
 - [[2026-10-19-mexico-weather-release]] - Handoff anterior da previsao.
 - [[met-forecast]] - Previsao publicada.
-- [[2026-10-19-usgs-refresh-release]] - Handoff atual.
+- [[2026-10-19-usgs-refresh-release]] - Handoff anterior USGS.
 - [[2026-10-19-repair-usgs-refresh]] - Autorizacao desta correcao.
 - [[provider-cache]] - Cache corrigido.
 - [[usgs-earthquakes]] - Fonte atual.
+- [[2026-10-19-mobile-load-launch]] - Handoff atual.
+- [[2026-10-19-mobile-load-and-domain-research]] - Autorizacao de testes/pesquisa.
+- [[launch-readiness]] - Proximo passo de dominio/Google.

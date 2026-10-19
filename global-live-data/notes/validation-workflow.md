@@ -122,6 +122,18 @@ PR17: check completo92 testes Node/lint/tipos/build/HTTP, Python11 e Chromium29 
 
 Primeira suite browser28/29: seletor de texto exato nao incluia sufixo acessivel do evento. Nome semantico na regiao de terremotos corrigiu teste, sem remover conteudo para leitor de tela. Check/Python/browser completos repetidos apos ultimo ajuste de cache e passaram. Dados reais separados dos fixtures; duas observacoes locais65s apartadas e duas publicas registraram fontes mais novas. UI mobile/desktop PT/EN/ES sem overflow/console errors, filtros/refresh e navegacao conferidos. Nao testados aparelho fisico/Safari mobile/carga distribuida ou disponibilidade sustentada.
 
+## WebKit/carga, 19 outubro
+
+PR18 adiciona npm run test:e2e:webkit com descriptor iPhone13; Chromium continua padrao/CI. Node24.22.0/npm11.21.1, Next16.4.1, Playwright1.64.1/WebKit27.2 revision2370, macOS27.0.1/M3Pro/18GiB. Xcode ausente e list_sims falhou por simctl indisponivel; NAO e Safari iOS nativo/aparelho fisico. Plugin Browser separado ausente; Playwright do repositorio para suite, CUA para UI manual. Binario WebKit correspondente foi obtido do provedor oficial; nenhuma dependencia/lockfile mudou.
+
+Inicial27/29: dois cenarios geraram erros de access-control ao cancelar prefetch RSC durante navegacao. Todos os destinos esperados renderizaram, mas guards de erro falharam. Historico reproduziu o erro sem interceptacao de rede do browser. Correcao: prefetch=false em header/footer, BrazilElectionAccess e HistoryAccess. Navegacao continua NextLink; reduz requisicoes especulativas, com possivel espera ao abrir destino antes aquecido. Nao mudou CSP/headers/dependencias nem ignorou erros. Contexto primario: https://github.com/microsoft/playwright/issues/42823 e https://playwright.dev/docs/browsers ; nao atribuir todo access-control a CORS nem dizer que WebKit e Safari nativo.
+
+Final: check92 unidades/lint/tipos/build/HTTP, Python11, Chromium29 e WebKit29 passaram; mais3 controles temporarios sem interceptacao passaram. Dois erros temporarios do controlador eram formato localizado de1000 (virgula/ponto/sem separador); ajustado seletor numerico, sem alterar produto. UI manual390/1280, governadorSP, PT/EN e navegacao interna sem overflow/warn/error; captura real de WebKit /tmp/global-live-data-webkit-mobile.png inspecionada.
+
+Carga final local: 3.164 requests em~76s, etapas1/5/15/1 clientes, think100ms, limite2000/etapa. P95 respectivamente46.56/42.59/39.52/47.94ms, pico127.47req/s na etapa15, zero erro; cold144.90ms. Dez URLs: HTML localizado, comparacao SQL, exportbr2022 e APIdata. USGS fixture1000eventos/transporte100ms, MET desativado; fetch externo bloqueado. Durante carga, apenas2 fetches simulados USGS, espacados60.297s; nenhum externo. Havia o mesmo host para cliente/servidor, um processo; NAO mede capacidade Vercel/CDN, usuarios reais, multirregiao, coldstarts em escala, banda/CPU limitada ou vazao real das APIs. Baseline anterior1591requests tambem passou. Scripts/relatorios temporarios /tmp/gld-load-final*; nao incorporar fixtures ao runtime publicado.
+
+Producao/CI remotas: [[release-status]]. Cotacao e migracao de dominio/Google: [[launch-readiness]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -158,3 +170,6 @@ Primeira suite browser28/29: seletor de texto exato nao incluia sufixo acessivel
 - [[met-forecast]] - Contrato da previsao.
 - [[2026-10-19-usgs-refresh-release]] - Handoff verificado.
 - [[provider-cache]] - Politica testada.
+- [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
+- [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
+- [[launch-readiness]] - Limites antes da promocao.

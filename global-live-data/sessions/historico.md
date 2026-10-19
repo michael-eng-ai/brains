@@ -54,6 +54,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: [[2026-10-19-usgs-refresh-release]] - PR17/main5f482f5, CI/Production Ready exatas; USGS fonte avancou, check92/Python11/Chromium29 passaram.
 
+- 2026-10-19: [[2026-10-19-mobile-load-launch]] - PR18 publicada, WebKit29 e carga3164req passaram; .com cotado, compra/Google pendentes.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -76,3 +78,4 @@ atualizado: "2026-10-19"
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
 - [[2026-10-19-mexico-weather-release]] - Previsao mexicana publicada.
 - [[2026-10-19-usgs-refresh-release]] - USGS publicado.
+- [[2026-10-19-mobile-load-launch]] - Testes e lancamento.

@@ -184,6 +184,14 @@ Publico https://global-live-data.vercel.app/pt/nature; HTTP anonimo home/nature 
 
 UI publicada mobile/desktop, filtros/refresh, idiomas e retorno internos passaram; sem overflow/erros de console. Captura publica /tmp/global-live-data-usgs-published.png. Servidor proprio encerrado e viewport restaurado; aba publica PT entregue. Nenhuma automacao, conta, dependencia ou chave alterada. Receipts e metadados temporarios em /tmp/gld-usgs-*.
 
+## Correcao WebKit publicada - PR18
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/18; head 1dec4beb9364e0e2c36a4ca88fbdf29df32a9e96. Integrada 2026-10-19T15:06:58Z, main dfcd79568a296b804fa04053db52916a93335ae9; checkout/origin limpos. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39274624790 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39275096642 com ambos jobs success no SHA exato.
+
+Production Ready: dpl_Gdg2Fan7Qsv161VabbHMF7QA8WmD, https://vercel.com/michael-eng-ais-projects/global-live-data/Gdg2Fan7Qsv161VabbHMF7QA8WmD, URL unica https://global-live-data-3lbkex982-michael-eng-ais-projects.vercel.app; fonte main integral conferida no painel. HTTP anonimo em 2026-10-19T15:10:27.913Z: 15 paginas (home, nature, Mexico, historico BR2022 e comparacao Brasil em EN/PT/ES) retornaram 200 com CSP e data-dpl-id exato; lab de previsao permaneceu 404. UI publica conferiu governador SP, preservacao dos filtros na troca PT para EN e retorno ao portal; sem warn/error nem overflow na largura observada de 1265px. Uma execucao limitada de npm run ops:check em 2026-10-19T15:10:24.929Z terminou exit 0: oito feeds amostrados ready; USGS indicou atualizacao em 15:09:34Z. Escopo representativo, nao todos os recortes ou disponibilidade continua. Nao confundir disponibilidade pontual com garantia continua. Sem dominio comprado, DNS/analytics ou conta nova.
+
+Validacao local/carga em [[validation-workflow]]. Preparo comercial/Google em [[launch-readiness]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -232,3 +240,5 @@ UI publicada mobile/desktop, filtros/refresh, idiomas e retorno internos passara
 - [[2026-10-19-usgs-refresh-release]] - Handoff da correcao.
 - [[provider-cache]] - Tradeoff de cache.
 - [[usgs-earthquakes]] - Fonte e limites.
+- [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
+- [[launch-readiness]] - Etapa de lancamento.
