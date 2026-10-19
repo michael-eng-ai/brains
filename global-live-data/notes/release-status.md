@@ -174,6 +174,16 @@ UI publicada mobile/desktop: entrada por teclado do portal, sete datas, escolha 
 
 ops:check unico 2026-10-19T13:34:02.051Z: exit1, USGS stale com fonte 13:32:34Z/validade13:33:34Z; sete outros feeds representativos ready. Nao confundir frescor pontual com falha de deploy/garantia longitudinal. Relatorios /tmp/gld-weather-public-verification.json e /tmp/gld-weather-ops.log. Nenhuma conta/chave/gasto/dependencia/automacao ou nova cidade foi alterada.
 
+## Atualizacao USGS publicada - PR17
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/17 integrada em 2026-10-19T14:02:34Z; head 9b2c319a2b700a139845aad817d778e3ef81898c, main 5f482f533492f9064e7af5240dd19401f3ea3908, arvores iguais e checkout local/origin limpo. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39264985471 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39265387854 passaram ambos os jobs no SHA correspondente.
+
+Production Ready no commit integral exato, branch main: dpl_4vDfVZApqePngTrUq7pJ3zYeApdT, painel https://vercel.com/michael-eng-ais-projects/global-live-data/4vDfVZApqePngTrUq7pJ3zYeApdT; URL unica https://global-live-data-nt6bfjov9-michael-eng-ais-projects.vercel.app. Verificacao no Chrome autenticado existente, sem credenciais/permissoes novas e sem deploy duplicado.
+
+Publico https://global-live-data.vercel.app/pt/nature; HTTP anonimo home/nature EN/PT/ES, deploymentID/CSP, previsao mexicana e labs privados verificados. USGS: Leituras em 2026-10-19T14:03:31.856Z e 14:06:09.880Z, HTTP200/ready em ambas: publicacao 14:02:34Z (202 eventos, Expires14:03:34Z) avancou para 14:05:34Z (203 eventos, Expires14:06:34Z). Refresh da UI confirmou depois publicacao14:06:34Z, ready. Durante a troca de idiomas houve stale transitorio ao ultrapassar Expires antes da proxima tentativa permitida; o aviso permaneceu visivel e a fonte avancou na atualizacao seguinte. ops:check unico: 2026-10-19T14:05:58.211Z, npm run ops:check exit0, oito feeds representativos ready (USGS, MET, futebol, FX, hoquei, xadrez, eleicoes e TV); nao representa todos os seletores/regioes. Evidencia e observacao pontual, nao promessa de saude continua.
+
+UI publicada mobile/desktop, filtros/refresh, idiomas e retorno internos passaram; sem overflow/erros de console. Captura publica /tmp/global-live-data-usgs-published.png. Servidor proprio encerrado e viewport restaurado; aba publica PT entregue. Nenhuma automacao, conta, dependencia ou chave alterada. Receipts e metadados temporarios em /tmp/gld-usgs-*.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -219,3 +229,6 @@ ops:check unico 2026-10-19T13:34:02.051Z: exit1, USGS stale com fonte 13:32:34Z/
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-mexico-weather-release]] - Handoff da previsao publicada.
 - [[met-forecast]] - Dados e contrato da nova pagina.
+- [[2026-10-19-usgs-refresh-release]] - Handoff da correcao.
+- [[provider-cache]] - Tradeoff de cache.
+- [[usgs-earthquakes]] - Fonte e limites.

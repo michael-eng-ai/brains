@@ -40,6 +40,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 
 ## Decisoes
 
+- [[2026-10-19-repair-usgs-refresh]] - Correcao/publicacao USGS autorizadas.
+
 - [[2026-10-19-publish-mexico-weather]] - Publicacao da previa mexicana autorizada.
 
 - [[2026-10-19-mexico-weather-first]] - Mexico primeiro, apenas previa local.
@@ -82,6 +84,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+
+- [[2026-10-19-usgs-refresh-release]] - PR17 corrigiu e verificou atualizacao USGS.
 
 - [[2026-10-19-mexico-weather-release]] - PR16 publicada, CI/Production/UI verificadas.
 
@@ -184,3 +188,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
 - [[2026-10-19-publish-mexico-weather]] - Autorizacao de publicacao da Cidade do Mexico.
 - [[2026-10-19-mexico-weather-release]] - Handoff da previsao publicada.
+- [[2026-10-19-repair-usgs-refresh]] - Correcao autorizada.
+- [[2026-10-19-usgs-refresh-release]] - Handoff USGS.

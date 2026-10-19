@@ -116,6 +116,12 @@ PR16: Node 24.22.0/npm 11.21.1; check passou 90 unidades/lint/tipos/build/HTTP, 
 
 UI local e publica com dados reais separada dos fixtures: mobile/desktop, selecao de dia/Enter, tabela com rolagem por teclado, refresh mantendo selecao/timestamps, idiomas e retorno. Sem overflow/console warnings/errors. Stale local apos expiry foi preservado; producao recebeu forecast atualizado ready, sem falsificar datas. Nao testados telefone fisico/mobileSafari, carga, quota distribuida ou indexacao. ops:check teve USGS stale; demais sete feeds ready, registrado separadamente do deploy. Artefatos temporarios publicos, sem contatos ou logs de visitantes.
 
+## Correcao USGS, 19 outubro
+
+PR17: check completo92 testes Node/lint/tipos/build/HTTP, Python11 e Chromium29 passaram. Dois novos cenarios de servidor falharam antes da correcao: SWR apos18min/20visitantes e latencia adiando a proxima rodada. Fixtures tambem preservam corpo realmente expirado/stale, falha/retencao, Retry-After e MET condicional/zero request sem identidade. Novos fluxos Chromium provam minuto portal/natureza, cinco minutos futebol/FX e pausa/resume em aba oculta.
+
+Primeira suite browser28/29: seletor de texto exato nao incluia sufixo acessivel do evento. Nome semantico na regiao de terremotos corrigiu teste, sem remover conteudo para leitor de tela. Check/Python/browser completos repetidos apos ultimo ajuste de cache e passaram. Dados reais separados dos fixtures; duas observacoes locais65s apartadas e duas publicas registraram fontes mais novas. UI mobile/desktop PT/EN/ES sem overflow/console errors, filtros/refresh e navegacao conferidos. Nao testados aparelho fisico/Safari mobile/carga distribuida ou disponibilidade sustentada.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -150,3 +156,5 @@ UI local e publica com dados reais separada dos fixtures: mobile/desktop, seleca
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-mexico-weather-release]] - Handoff verificado.
 - [[met-forecast]] - Contrato da previsao.
+- [[2026-10-19-usgs-refresh-release]] - Handoff verificado.
+- [[provider-cache]] - Politica testada.
