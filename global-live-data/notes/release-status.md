@@ -192,6 +192,14 @@ Production Ready: dpl_Gdg2Fan7Qsv161VabbHMF7QA8WmD, https://vercel.com/michael-e
 
 Validacao local/carga em [[validation-workflow]]. Preparo comercial/Google em [[launch-readiness]].
 
+## Quinta leitura publicada: PR19
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/19; head 65fd9511de4b9102e2027df0ef41bdac51ced78d. Merge em 2026-10-19T18:46:43Z, main 683aeb76be07a9d7ab5f3c0d765b423f1c772240; checkout/origin limpos. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39305102839 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39305385659: ambos jobs success nos SHAs exatos.
+
+Vercel Production Ready dpl_95PE9zBhoUP1tNJoxauLCzE65i3S: https://vercel.com/michael-eng-ais-projects/global-live-data/95PE9zBhoUP1tNJoxauLCzE65i3S. URL unica https://global-live-data-7r9vgbcz3-michael-eng-ais-projects.vercel.app; source main integral conferida. Verificacao anonima em 18:47:50.696Z: home, indice e artigo EN/PT/ES (nove paginas) HTTP 200 com CSP e deployment exato; canonicals/fontes presentes; sitemap com 72 URLs incluindo tres novas. Navegacao publica PT/EN e leitura mobile 390px conferidas sem overflow ou console warn/error. Sondagem unica ops:check em 18:47:49.828Z saiu 2: sete feeds representativos ready, FX USD error com checkedAt/retrievedAt nulos e nextRefreshAt 19:47:21.441Z. Sem nova consulta antes desse prazo. A revisao de lib/lab/pilot-service.ts confirma que error indica ausencia de valor utilizavel e que o backoff e preservado; o envelope nao identifica a causa upstream, que continua nao confirmada. Nenhum codigo FX foi alterado nesta PR; recuperacao nao verificada.
+
+Leitura PT: https://global-live-data.vercel.app/pt/trending/getafe-rayo-2026-october-match-guide . Apuracao/limites em [[editorial-publishing]], QA em [[validation-workflow]]. Sem compra de dominio, configuracao de conta, analytics, API ou alteracao de cadencia.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -242,3 +250,4 @@ Validacao local/carga em [[validation-workflow]]. Preparo comercial/Google em [[
 - [[usgs-earthquakes]] - Fonte e limites.
 - [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
 - [[launch-readiness]] - Etapa de lancamento.
+- [[2026-10-19-getafe-editorial-release]] - Handoff editorial.

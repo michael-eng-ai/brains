@@ -56,6 +56,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: [[2026-10-19-mobile-load-launch]] - PR18 publicada, WebKit29 e carga3164req passaram; .com cotado, compra/Google pendentes.
 
+- 2026-10-19 18:37 UTC: [[2026-10-19-getafe-editorial-release]] - Quinta leitura Getafe-Rayo em EN/PT/ES, PR19/CI/Production verificadas.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -79,3 +81,4 @@ atualizado: "2026-10-19"
 - [[2026-10-19-mexico-weather-release]] - Previsao mexicana publicada.
 - [[2026-10-19-usgs-refresh-release]] - USGS publicado.
 - [[2026-10-19-mobile-load-launch]] - Testes e lancamento.
+- [[2026-10-19-getafe-editorial-release]] - Edicao editorial.

@@ -134,6 +134,14 @@ Carga final local: 3.164 requests em~76s, etapas1/5/15/1 clientes, think100ms, l
 
 Producao/CI remotas: [[release-status]]. Cotacao e migracao de dominio/Google: [[launch-readiness]].
 
+## Edicao Getafe-Rayo, 19 outubro
+
+Node 24.22.0/npm 11.21.1: check com lint/tipos, 92 testes unitarios, build e smoke HTTP; 11 testes Python; suite final Chromium 30/30. Lint/tipos repetidos depois do ajuste do teste passaram. Primeira suite 29/30: seletor novo omitiu prefixo acessivel Keep exploring; corrigido para nome completo, sem relaxar produto, CSP ou guards. Chamadas live/depth do novo fluxo sao interceptadas com erro sintetico, sem depender de APIs no CI.
+
+CUA manual: indice PT -> filtro Futebol -> leitura -> indice/fontes internas -> ES -> leitura relacionada; larguras 390/1280, sem overflow/overlay/warn/error e paginas legiveis. Seletor manual com exact=true nao correspondia ao texto do label que inclui options; usar label sem exact, como no teste. Browser plugin ausente; Playwright do repositorio + CUA. Safari iOS nativo e carga nao foram repetidos nesta mudanca editorial. Nao inferir indexacao, views, revisao humana ou saude das APIs desses checks.
+
+Python urllib inicial nao encontrou CA confiavel; leitura HTTPS posterior usou /etc/ssl/cert.pem com verificacao TLS preservada. Conteudo/fuso ancorados nas fontes atuais, nao no snippet isolado. Resultados remotos desta edicao em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -173,3 +181,4 @@ Producao/CI remotas: [[release-status]]. Cotacao e migracao de dominio/Google: [
 - [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
 - [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
 - [[launch-readiness]] - Limites antes da promocao.
+- [[2026-10-19-getafe-editorial-release]] - Verificacao editorial.

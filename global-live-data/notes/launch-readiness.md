@@ -45,3 +45,4 @@ Referencias primarias consultadas19/10: https://vercel.com/docs/domains/registra
 - [[2026-10-19-mobile-load-and-domain-research]] - Escolha e autorizacao.
 - [[validation-workflow]] - Evidencias e limites.
 - [[release-status]] - Correcao publicada.
+- [[2026-10-19-getafe-editorial-release]] - Editorial publicado sem alterar pendencia de dominio.

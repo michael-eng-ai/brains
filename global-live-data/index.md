@@ -86,6 +86,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-getafe-editorial-release]] - Quinta leitura publicada e verificada.
 - [[2026-10-19-mobile-load-launch]] - WebKit/carga corrigidos; preparo de dominio.
 
 - [[2026-10-19-usgs-refresh-release]] - PR17 corrigiu e verificou atualizacao USGS.
@@ -117,8 +118,6 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
-
-
 
 ## Conexoes
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
@@ -198,3 +197,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
 - [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
 - [[launch-readiness]] - Dominio e Google.
+- [[2026-10-19-getafe-editorial-release]] - Handoff editorial.

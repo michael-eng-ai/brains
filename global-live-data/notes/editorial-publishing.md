@@ -24,6 +24,12 @@ Quarta leitura: asian-para-games-2026-schedule-guide, EN/PT/ES, escolhida da con
 
 O site do organizador respondeu 403 ao leitor de pesquisa; snippets e calendario antigo de fevereiro nao fundamentaram a publicacao. As fontes publicadas foram lidas diretamente. Nao incluir placares, medalhas ou direitos de transmissao sem apuracao nova. Proxima rodada compara as quatro leituras, pesquisa no maximo seis mercados e seleciona ate uma pauta; pode pular se faltar valor ou verificacao. Sem alteracao de frequencia, contas, custos, ads ou analytics. Recibos em [[release-status]].
 
+## Edicao de 19 outubro, 18:37 UTC
+
+Quinta leitura: getafe-rayo-2026-october-match-guide, EN/PT/ES. Uma pesquisa de seis mercados saiu com todos ready; consulta selecionada `getafe - rayo vallecano`, ES, observada 18:37:25.743Z. O guia confirma rodada/temporada/data e converte o inicio programado, sem alegar placar ou jogo encerrado. Duas fontes primarias lidas: ficha LALIGA e PDF de designacao RFEF. SportsEvent publico da LALIGA registra 2026-10-19T19:00:00+00:00; conversoes IANA verificadas, incluindo dia 20 na India/Japao. Livro de fatos: docs/editorial/2026-10-19-getafe-rayo.md.
+
+Novo filtro de leitura Futebol e CTA para a pagina existente; cobertura limitada a Bundesliga/Champions League permanece explicita, sem feed LaLiga. Nota de apoio de IA e ausencia de revisao humana preservada. Nenhum resultado, transmissao, jogador, causa da tendencia, foto copiada ou autor ficticio. Rayo agenda sem evento na pagina aberta e estatisticas inconsistentes da previa nao fundamentam o artigo. A cadencia/escopo das duas automacoes nao mudou. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -37,3 +43,4 @@ O site do organizador respondeu 403 ao leitor de pesquisa; snippets e calendario
 - [[2026-10-16-editorial-release]] - Handoff.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-getafe-editorial-release]] - Handoff da quinta leitura.

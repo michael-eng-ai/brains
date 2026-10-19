@@ -1,23 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "WebKit corrigido/publicado; carga local passou; dominio e Google em preparacao."
-tags: [global-live-data, estado, validacao, lancamento]
+resumo: "Quinta leitura publicada; dominio/Google e Safari nativo seguem pendentes."
+tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-mobile-load-launch]].
+Ultimo handoff: [[2026-10-19-getafe-editorial-release]].
 
-- Main/origin limpos em dfcd79568a296b804fa04053db52916a93335ae9; PR18, ambos CIjobs PR/main e Production Ready exatas verificadas. [[release-status]].
-- Header/footer e acessos historicos sem prefetch automatico; WebKit29/Chromium29/Python11/check92 passaram. Carga3164 req/15clientes sem erro, p95<48ms local. [[validation-workflow]].
-- Safari no iPhone/iOS nao testado: Xcode/simctl indisponiveis. Nao prometer capacidade Vercel/multirregiao com benchmark local.
-- Usuario escolheu dominio proprio/Google, ainda sem compra; recomendacao globallivedata.com, consulta USD11.25/1ano/renovacao11.25. Sem autorizacao de compra/renovacao/DNS. [[launch-readiness]].
-- Publico HTTPS/robots/sitemap69URLs funcionais. Proximo: escolher dominio, confirmar transacao, configurar DNS/SSL/origin/metadata e Search Console; indexacao nao verificada.
-- USGS/Mexico/esportes/historicos preservados. Nenhuma fonte/cidade/conta/chave/analytics/anuncio/automacao adicionada. Servidores QA encerrados.
-
-
+- Main/origin limpos em 683aeb76be07a9d7ab5f3c0d765b423f1c772240; PR19, ambos jobs CI PR/main e Production Ready exatos verificados. [[release-status]].
+- Cinco artigos EN/PT/ES; nova leitura Getafe-Rayo com duas fontes oficiais, horario programado e conversoes datadas. Filtro Futebol leva as competicoes ja suportadas; nenhum placar LaLiga. [[editorial-publishing]].
+- Check 92/Python 11/Chromium 30 passaram; QA manual 390/1280 sem erros. Safari iOS nativo/carga nao repetidos. Evidencia anterior WebKit/carga e limites em [[validation-workflow]].
+- FX USD indisponivel na sondagem 18:47:49 UTC; respeitado nextRefreshAt 19:47:21 UTC sem nova tentativa. Causa e recuperacao pendentes; detalhes em [[release-status]].
+- Dominio proprio/Google ainda em preparacao: proprietario nao comprou/escolheu; globallivedata.com foi recomendado/cotado. Cotacao deve ser renovada antes de compra autorizada. [[launch-readiness]].
+- USGS/Mexico/esportes/historico preservados; TSE continua com 136 recortes de primeiro turno e nenhuma quarentena. Nao fabricar turno 2. Rotinas TSE/editorial mantem frequencia/escopo existentes.
+- Sem novas contas, chaves, fontes de dados, custos, analytics ou anuncios. Servidor e abas temporarias QA encerrados.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -63,6 +62,7 @@ Ultimo handoff: [[2026-10-19-mobile-load-launch]].
 - [[2026-10-19-repair-usgs-refresh]] - Autorizacao desta correcao.
 - [[provider-cache]] - Cache corrigido.
 - [[usgs-earthquakes]] - Fonte atual.
-- [[2026-10-19-mobile-load-launch]] - Handoff atual.
+- [[2026-10-19-mobile-load-launch]] - Handoff anterior mobile/carga.
 - [[2026-10-19-mobile-load-and-domain-research]] - Autorizacao de testes/pesquisa.
 - [[launch-readiness]] - Proximo passo de dominio/Google.
+- [[2026-10-19-getafe-editorial-release]] - Handoff atual.
