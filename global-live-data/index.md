@@ -39,6 +39,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+
+- [[2026-10-19-mexico-weather-first]] - Mexico primeiro, apenas previa local.
 - [[2026-10-16-publish-sports-fx-depth]] - Prioridade de dados existentes, merge e publicacao autorizados.
 - [[2026-10-16-publish-consolidation]] - Correcao24h, operacao e publicacao autorizadas.
 - [[2026-10-16-consolidate-first]] - Consolidar antes de expandir; avaliacao sem deploy irrestrito.
@@ -78,6 +80,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+
+- [[2026-10-19-mexico-weather-preview]] - Previa mexicana e evidencias de dados/QA.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-tse-ro-release]] - Primeiro heartbeat TSE material: RO liberado e PR14 publicada.
 - [[2026-10-16-sports-fx-depth-release]] - PR13 publicada e verificada; proximo passo e feedback.
@@ -172,3 +176,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
 - [[2026-10-19-tse-ro-release]] - Handoff da atualizacao oficial TSE.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-mexico-weather-first]] - Escopo local selecionado pelo proprietario.
+- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.

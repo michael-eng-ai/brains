@@ -48,6 +48,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: PR15 publicou guia dos Jogos Para-Asiaticos em EN/PT/ES; CI, Production Ready e nove paginas anonimas verificados. [[2026-10-19-asian-para-editorial-release]].
 
+- 2026-10-19: [[2026-10-19-mexico-weather-preview]] - Previa mexicana local 3ad3bf7, check90/Chromium25 e MET real; sem push/merge/deploy do projeto.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -67,3 +69,4 @@ atualizado: "2026-10-19"
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
 - [[2026-10-19-tse-ro-release]] - Atualizacao oficial verificada.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.

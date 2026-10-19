@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR15 publicada: quarto artigo EN/PT/ES; TSE RO segue valido e turno 2 pendente."
-tags: [global-live-data, estado, editorial]
+resumo: "Previa local de previsao mexicana pronta; sem merge/deploy; PR15 segue como ultima producao."
+tags: [global-live-data, estado, previsao]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-asian-para-editorial-release]].
+Ultimo handoff: [[2026-10-19-mexico-weather-preview]].
 
-- PR15 integrada/publicada; main limpa 02be71dcf881212ca4bcc29d1641179a9c0196f4. Dois jobs CI PR/main aprovados e Production Ready no SHA exato; recibos em [[release-status]].
-- Quatro artigos originais; nova leitura de Jogos Para-Asiaticos, tres fontes oficiais e conversoes de data/fuso. [[editorial-publishing]] e docs/EDITORIAL.md definem contrato. Paradesporto e filtro editorial, sem novo feed.
-- Testes finais: 87 Node, 11 Python, 25 Chromium, build/HTTP; leitura local/publica 390/1280, nove paginas EN/PT/ES e sitemap verificados. [[validation-workflow]].
-- Checagem operacional 19/10 12:46UTC: USGS stale, demais sete feeds representativos ready; exit1 registrado em [[release-status]]. Sem alterar politica de cache ou alegar recuperacao nao observada.
-- Proxima rodada editorial: main atualizada/arvore livre, editorial:research ate seis mercados, evitar quatro temas existentes, no maximo uma pauta confirmada; pular se insuficiente. Frequencia e escopo mantidos.
-- TSE PR14 permanece: 136 recortes validos2026, ambos deputados RO reconciliados, sem quarentena; 2022 e quatro temporadas intactos. Turno2 ainda indisponivel. [[brazil-election-comparison]] e [[refresh-tse-elections]] governam a proxima atualizacao, sem antecipar IDs/resultados.
-- Esportes/FX: temporadas/time/Bundesliga e historico30/90 continuam conforme [[sports-fx-depth]]. Cache FX nao e warehouse; avaliar trafego antes de escalar.
-- Sem telefone fisico/mobileSafari/carga distribuida ou revisao editorial humana. Nenhuma conta, chave, custo, analytics ou ads novo. Servidor QA encerrado.
+- Trabalho atual: branch limpa codex/mexico-weather-preview, commit local 3ad3bf7c06093d0e3b5ff2539d01102b308e3ea1; sem push do projeto. Previa da Cidade do Mexico EN/PT/ES com sete datas e chuva 1/6/12h; [[met-forecast]].
+- Proprietario escolheu Mexico primeiro e somente previa; [[2026-10-19-mexico-weather-first]]. Monclova nao adicionada; FIRMS nao implementado. Nao transferir a autorizacao de releases passados.
+- Servidor de revisao em 127.0.0.1:3101, pagina /es/lab/weather/mexico-city. Parar antes de rebuild no mesmo .next; preservar a branch durante avaliacao e nao sobrescrever a previa com trabalho automatico concorrente.
+- Check final90unidades/lint/types/build/HTTP e 25 Chromium passaram. Inspecao 390/1280, EN/PT/ES, teclado/refresh, datas, noindex e gates; detalhes em docs/WEATHER-MEXICO-PREVIEW.md. Python, telefones fisicos/mobileSafari, carga, CI/deploy nao executados nesta entrega.
+- Main/origin-main e ultima producao verificada permanecem 02be71dcf881212ca4bcc29d1641179a9c0196f4, PR15; recibos em [[release-status]]. Quatro artigos; [[editorial-publishing]].
+- TSE PR14: 136 recortes validos de 2026, RO reconciliado, nenhuma quarentena; 2022 e temporadas preservados; turno2 ainda pendente. [[brazil-election-comparison]] e [[refresh-tse-elections]].
+- Ultima checagem operacional publicada 19/10 12:46UTC teve USGS stale e outros sete feeds ready; nao houve novo check geral nesta previa. Esportes/FX conforme [[sports-fx-depth]].
+- Proximo passo: usuario avaliar a previa. Sem conta/chave/gasto/analytics/ads ou mudanca de automacoes. Nao alegar audiencia, receita ou saude continua a partir destas observacoes.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -54,3 +54,5 @@ Ultimo handoff: [[2026-10-19-asian-para-editorial-release]].
 - [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
 - [[2026-10-19-tse-ro-release]] - Ultimo handoff TSE.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
+- [[2026-10-19-mexico-weather-first]] - Escopo local selecionado pelo proprietario.
+- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.

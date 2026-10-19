@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Catalogo limitado de 42 cidades e geometria do mapa."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-15"
+atualizado: "2026-10-19"
 ---
 
 # Geografia curada
@@ -14,6 +14,11 @@ Distancia e raio usam o centro selecionado. Mapa local: Natural Earth via world-
 
 Atribuicoes/licencas de dados e ferramentas constam em docs/DATA-SOURCES.md; revisar quando regenerar.
 
+## Revisao mexicana 19/10
+
+Catalogo conferido: Ciudad de Mexico e a unica entrada mexicana; Monclova nao consta. [[2026-10-19-mexico-weather-preview]] usa apenas a entrada existente na previa local. Nenhuma coordenada, fuso ou quantidade de cidades foi alterada. Validar geografia e escopo antes de ampliar.
+
 ## Conexoes
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
+- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.

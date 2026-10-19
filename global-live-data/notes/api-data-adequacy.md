@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas."
 tags: [global-live-data, dados, qualidade, produto]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Adequacao e profundidade dos dados
@@ -42,6 +42,10 @@ Fontes primarias: https://github.com/OpenLigaDB/OpenLigaDB-Samples ; https://fra
 
 Nenhuma suite/build reexecutada pois codigo do app nao mudou. Nao afirmar teste das propostas, carga longitudinal, certificacao de resultados, nova captura TSE ou publicacao. UI publicada de hoquei foi inspecionada em leitura.
 
+## Evolucao em 19/10
+
+A proposta de aprofundar previsao recebeu prioridade apenas para a previa mexicana. [[2026-10-19-mexico-weather-preview]] e [[met-forecast]] registram sete datas, intervalos corretos e QA com MET real, sem nova fonte, cidade, merge ou deploy. Demanda e beneficio comercial continuam hipoteses.
+
 ## Conexoes
 - [[index]] - Entrada do projeto.
 - [[current]] - Prioridade atual.
@@ -55,3 +59,4 @@ Nenhuma suite/build reexecutada pois codigo do app nao mudou. Nao afirmar teste 
 - [[consolidation-audit]] - Contratos e contexto da categoria.
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-16-publish-sports-fx-depth]] - Prioridade selecionada autorizada.
+- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
