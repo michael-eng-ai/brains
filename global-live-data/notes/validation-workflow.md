@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Validacao
@@ -98,6 +98,12 @@ Publico: Nove paginas home/privacy/nature EN/PT/ES responderam HTTP200 com CSP e
 
 PR13: check87 unit + lint/types/build/HTTP, Python11 e Chromium25 passaram. Cinco novos fluxos browser incluem temporadas/rodadas, time/idioma, falha isolada da tabela, lacunas FX e respostas tardias; seletor de moeda segue funcional sem taxa recente. QA real local/publico390/1280 confirmou conteudo, identidade, ausencia de overlay/overflow/erros e interacoes. Mobile320 coberto em Chromium. O plugin Browser separado nao estava listado; CUA nativo fez UI manual e a suite existente Playwright foi executada conforme contrato do repo. Nao usou automacaoUI por shell. Evidencia de producao e ops stale em [[release-status]].
 
+## Heartbeat TSE de 19 outubro
+
+PR14: Node 24.22.0/npm 11.21.1, Python 3.12.4. test:history-import (11 testes), check (87 unidades)/lint/tipos/build/smoke e 25 testes Chromium passaram. Regressao browser agora confere ambos os cargos de RO com totais retidos e estados pendentes separados. Primeiro e2e falhou por seletor novo apontar apenas h2; corrigido para a regiao de resultados, lint e suite completa repetidos com sucesso. Nenhuma falha final pendente.
+
+O plugin Browser separado nao esta listado; suite Playwright existente conforme AGENTS e CUA para UI manual. Fluxo local/publico: selecionar cargo e RO, ler 2026/2022, alternar idioma mantendo a query. Mudar cargo reinicia estado para SP; QA precisa escolher RO novamente (comportamento existente, sem mudanca nesta entrega). Local 390/1280 PT/ES e publico 390/1280 PT/EN sem overlay/overflow/erros no console; screenshots inspecionados no navegador. Dispositivos fisicos/Safari mobile/carga nao testados. Fonte real adquirida uma vez, separada dos fixtures offline. Probes publicos/CI em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -128,3 +134,4 @@ PR13: check87 unit + lint/types/build/HTTP, Python11 e Chromium25 passaram. Cinc
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
+- [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.

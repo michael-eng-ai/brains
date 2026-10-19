@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Estado da entrega
@@ -142,6 +142,16 @@ Production Ready no commit exato: dpl_JARN9ttjnkBk23tPLkTS5W84HssU, https://verc
 
 Correcao 24h, documentos consolidados/arquivo historico, identidade publica/hosting e ops:check. Escopo e limites em [[consolidation-audit]], [[public-contact]] e [[validation-workflow]]. Nenhuma dependencia, conta, chave, permissao, gasto, automacao, ads ou analytics alterado.
 
+## Rondonia publicada - PR 14 (19 outubro 2026)
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/14 integrada em 2026-10-19T12:26:31Z; head 07f130d4a6b16a93f650ae2d4c6dadfb40a2e393; main 967371fbba09bca2e6cdd2119bdd285975bebf2b, arvore equivalente e checkout limpo. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39251794996 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39252086526 passaram os dois jobs no SHA correspondente.
+
+Vercel Production Ready observado no SHA exato: dpl_3THpcVjKT73zP9CvfXyegXszkCRX, build de 33s, https://vercel.com/michael-eng-ais-projects/global-live-data/3THpcVjKT73zP9CvfXyegXszkCRX; dominio unico https://global-live-data-98elfhaif-michael-eng-ais-projects.vercel.app. Git integration publicou a main, sem deploy manual duplicado. Painel autenticado confirmou status/ambiente/commit.
+
+Probe anonimo iniciado 2026-10-19T12:27:25.325Z passou 15 paginas EN/PT/ES: dois cargos RO em comparison/history, mesmo deployment ID e CSP; turno 2 ausente com 2022 legivel. Seis JSONs completos hospedados iguais aos canonicos, normalizando apenas ordem de partidos/recortes. UI local/publica em 390/1280px legivel, filtros/idiomas e ausencia de overflow/erros confirmados. ops:check unico as 12:27:28.565Z retornou 0, oito feeds representativos ready naquele instante; nao e garantia longitudinal. Relatorios temporarios em /tmp/gld-tse-release-2026-10-19/, sem segredos ou dados pessoais.
+
+Dados e limites em [[brazil-election-comparison]]; verificacao em [[validation-workflow]]. Servidor local de QA encerrado. Nenhuma automacao, conta, credencial, dependencia, permissao CI ou custo alterado.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -183,3 +193,4 @@ Correcao 24h, documentos consolidados/arquivo historico, identidade publica/host
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
+- [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.

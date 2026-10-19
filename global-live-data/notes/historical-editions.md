@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Edicoes historicas persistentes com SQLite somente leitura e importacao verificavel."
 tags: [global-live-data, historico, dados]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Edicoes historicas
@@ -29,7 +29,11 @@ A comparacao 2026/2022 e a migracao do SQLite derivado para schema 2 estao em [[
 
 ## Atualizacao TSE autorizada
 
-O fluxo atual de 2026 esta em [[refresh-tse-elections]], superando a limitacao inicial de importacao manual. Sem migracao adicional de schema; os seis JSONs canonicos permaneceram inalterados nesta entrega de codigo.
+O fluxo atual de 2026 esta em [[refresh-tse-elections]], superando a limitacao inicial de importacao manual. Sem migracao adicional de schema; os seis JSONs canonicos permaneceram inalterados na entrega de codigo PR10; a revisao material posterior esta abaixo.
+
+## Revisao preservada de 19 outubro
+
+A PR14 atualiza somente a fonte 2026 e seu checksum apos reconciliacao de RO; todas as edicoes anteriores e os 134 recortes 2026 ja validos ficaram identicos. Contrato e valores em [[brazil-election-comparison]], publicacao em [[release-status]]. Nao houve migracao, alteracao do importador ou servico novo.
 
 ## Conexoes
 - [[index]] - Persistencia historica, contratos e evidencia de retomada.
@@ -48,3 +52,4 @@ O fluxo atual de 2026 esta em [[refresh-tse-elections]], superando a limitacao i
 - [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
+- [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.

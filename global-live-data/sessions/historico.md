@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Historico
@@ -44,6 +44,8 @@ atualizado: "2026-10-16"
 
 - 2026-10-16 | codex | PR13 esportes/FX publicada em main2d0c69c, CI duplo e Production Ready, check87/Python11/Chromium25; [[2026-10-16-sports-fx-depth-release]].
 
+- 2026-10-19: heartbeat TSE libera os doisrecortes RO via PR14, main 967371f e Production Ready verificados; [[2026-10-19-tse-ro-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -61,3 +63,4 @@ atualizado: "2026-10-16"
 - [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
 - [[2026-10-16-api-data-audit]] - Auditoria e recomendacoes.
 - [[2026-10-16-sports-fx-depth-release]] - Handoff da entrega.
+- [[2026-10-19-tse-ro-release]] - Atualizacao oficial verificada.

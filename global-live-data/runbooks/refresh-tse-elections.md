@@ -3,14 +3,14 @@ tipo: procedimento
 projeto: global-live-data
 resumo: "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE."
 tags: [global-live-data, eleicoes, automacao, dados]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Atualizar dados TSE
 
 Contrato completo: docs/TSE-REFRESH.md no repositorio. Comando verificado: npm run history:refresh:tse -- --apply, Node 24 e Python 3.11+. Sem flag, somente staging.
 
-- Automacao atualizar-elei-es-tse-do-global-live-data, nome Atualizar eleicoes TSE do Global Live Data, ACTIVE, heartbeat a cada seis horas, thread 01a14170-736d-7c82-8551-f3834ff8787c. Configuracao em ~/.codex/automations/atualizar-elei-es-tse-do-global-live-data/automation.toml. Criada e conferida; nenhuma futura execucao autonoma observada. Depende do ambiente local disponivel; nao e cron da Vercel.
+- Automacao atualizar-elei-es-tse-do-global-live-data, nome Atualizar eleicoes TSE do Global Live Data, ACTIVE, heartbeat a cada seis horas, thread 01a14170-736d-7c82-8551-f3834ff8787c. Configuracao em ~/.codex/automations/atualizar-elei-es-tse-do-global-live-data/automation.toml. Criada e conferida; primeiro heartbeat material observado em 19/10/2026, recibos abaixo. Depende do ambiente local disponivel; nao e cron da Vercel.
 - Editorial permanece outra automacao. Nao duplicar nem alterar sua frequencia. Manutencao de agenda usa automation_update, nunca edicao manual do TOML.
 - Retomar cerebro/Git, respeitar arvore ocupada, main atualizada, branch codex/. Uma captura por ciclo com --apply. changed=false nao gera commit, PR, deploy nem novo timestamp de captura no site. Silencio quando sem mudanca acionavel.
 - Falha de identidade/cobertura/reconciliacao/retencao bloqueia o lote e conserva a versao publicada. Verificar exit code e relatorio atual; erro nao e dataset vazio. Investigar sem relaxar gates; avisar falha relevante ou decisao necessaria.
@@ -19,7 +19,11 @@ Contrato completo: docs/TSE-REFRESH.md no repositorio. Comando verificado: npm r
 - Dois URLs TSE fixos, TLS verificado, sem redirects, limites de tempo/tamanho, sem retries dentro da rodada. Python macOS sem CA propria usa /etc/ssl/cert.pem; nunca desabilitar TLS.
 - .data/tse-refresh.lock impede concorrencia local. Se processo morrer, conferir PID antes de remover lock. Nao e lock distribuido. Arquivo/manifest renomeados separadamente; crash entre passos pode deixar mismatch que bloqueia build. Comparar Git e restaurar/reaplicar o par antes de publicar.
 
-Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno real ou futuro disparo autonomo verificado.
+Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno real verificado; primeiro heartbeat material documentado abaixo.
+
+## Primeiro heartbeat com mudanca material
+
+Em 19/10/2026, a execucao autonoma capturou e liberou os dois recortes RO e concluiu o fluxo de testes/PR14/CI/Production. Evidencia em [[release-status]] e dados em [[brazil-election-comparison]]. Turno 2 segue ausente; somente publicar quando fontes/identidades/data/cobertura passarem pelos mesmos gates. Proxima rodada: main atualizada, arvore livre e uma unica chamada --apply. Se changed=false, nao gerar commit/PR/deploy nem modificar datas publicadas.
 
 ## Conexoes
 - [[index]] - Atualizacao TSE autorizada e verificavel.
@@ -31,3 +35,4 @@ Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno 
 - [[current]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
+- [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
