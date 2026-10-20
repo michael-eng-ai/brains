@@ -252,6 +252,16 @@ GitHub deployment 7204773051, associado ao SHA exato, registrou environment Prod
 Check com 101 testes unitarios, 11 testes Python de historico, 35 Chromium e 35 WebKit passaram. QA real local e publica em 390/1280 px: tabela, clube, resultados e idioma, sem overflow ou erros de console. Capturas fora do Git: /tmp/gld-brasileirao-published-mobile.png e /tmp/gld-brasileirao-published-desktop.png. Um ops:check em 20 outubro, 16:07:36 UTC, passou com nove feeds representativos ready em sete leituras, incluindo Brasileirao e USD. Observacao pontual, nao garantia continua. NBA continua desativada, sem teste autenticado. Gremio bloqueado por colisao de identidade; 19 clubes passaram no probe local. Contrato e lacunas em [[brasileirao-nba-feeds]].
 
 
+## Nona leitura servida ao publico: PR25, Ready direto pendente
+
+PR25 https://github.com/michael-eng-ai/global-live-data/pull/25 integrada em 2026-10-20T19:21:34Z. Head aprovado 2a921a2dff9cd489762df0646a24c81071bbbbf4; main/origin 45ed274ff0fb77a18d443e4caa13d7f8ae5040f2, arvore identica ao head e checkout limpo. Ambos os jobs success nos SHAs exatos: CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39482405385 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39482784320.
+
+GitHub deployment 7208944484 associa o SHA exato a Production e state success, descricao Deployment has completed, em 19:22:16 UTC. Status Vercel do commit tambem success. Deployment dpl_2kX2U2pkr7PN2cqecHsv9xwheXy3; dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/2kX2U2pkr7PN2cqecHsv9xwheXy3; URL unica https://global-live-data-gc9lef4c7-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem redeploy manual.
+
+HTTP anonimo em 2026-10-20T19:22:57.389Z: nove paginas EN/PT/ES home/indice/artigo com 200 e data-dpl-id correspondente; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap passaram. Artigo https://global-live-data.vercel.app/pt/trending/nba-league-pass-availability-guide . QA publico mobile confirmou leitura, idioma e retorno/filtro. Um ops:check em 19:22:56.076Z, sete leituras, retornou nove feeds representativos ready; amostra pontual, nao garantia continua.
+
+Campo Ready da API/painel nao observado diretamente. A nova chamada get_deployment no scope existente retornou 403; o painel nativo permaneceu na configuracao inacabada de autenticador. CLI com limitacao conhecida nao repetida; sem alterar autenticacao/permissoes, copiar credenciais ou criar deploy duplicado. A disponibilidade publica e o sucesso GitHub estao verificados, mas a verificacao completa do host permanece pendente para PR24/PR25. Quando o acesso voltar, inspecionar os deployments existentes e atualizar recibos, sem nova publicacao. [[trap-vercel-access]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -311,3 +321,4 @@ Check com 101 testes unitarios, 11 testes Python de historico, 35 Chromium e 35 
 - [[brasileirao-nba-feeds]] - Contrato da integracao.
 
 - [[2026-10-20-brasileirao-release]] - Handoff.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.

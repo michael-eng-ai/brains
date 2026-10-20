@@ -70,6 +70,8 @@ atualizado: "2026-10-20"
 
 - 2026-10-20 | PR24 Brasileirao publicada; NBA preparada sem chave; CI e paginas publicas verificados. [[2026-10-20-brasileirao-release]].
 
+- 2026-10-20 19:09 UTC: [[2026-10-20-league-pass-editorial-release]] - PR25 integrada, nona leitura EN/PT/ES visivel; CI e publico aprovados; Ready direto pendente.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -102,3 +104,4 @@ atualizado: "2026-10-20"
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
 
 - [[2026-10-20-brasileirao-release]] - Handoff Brasileirao.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura.

@@ -48,6 +48,12 @@ Oitava leitura: india-zimbabwe-women-october-2026-guide, EN/PT/ES. Pesquisa unic
 
 Guia distingue terceiro T20I de 20 outubro/Raipur e ODIs de 23/25/28 outubro/Vadodara, com conversoes IANA por data e ajuste europeu entre partidas. Sem placares, resultados, jogadores, direitos de transmissao, imagens copiadas ou causa inventada da tendencia. `cricket` e apenas filtro de leitura; nao foi adicionado provider de criquete. Referencias, nota IA/sem revisao humana e retorno interno preservados. Catalogo agora tem oito artigos. Cadencia/escopo das automacoes e infraestrutura inalterados. Recibos em [[release-status]].
 
+## Edicao de 20 outubro, 19:09 UTC
+
+Nona leitura: nba-league-pass-availability-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready. Consulta escolhida US `nba league pass`, observada 19:10:19.993Z; fontes conferidas 19:11:20Z. Tres referencias primarias NBA sobre disponibilidade global, bloqueios e Tap to Watch. Ledger: docs/editorial/2026-10-20-nba-league-pass.md. O RSS e uma pauta datada, nao prova causa ou demanda futura.
+
+Guia separa territorio, acesso ao vivo e reprise; exemplo de viagem e checklist sao orientacoes originais, sem prometer direitos de assinatura. Sem precos, placares, imagens copiadas, canais inventados ou contorno de bloqueios. Basketball permanece filtro existente; o adapter NBA nao foi ativado, conforme escolha do proprietario. Apoio de IA, ausencia de revisao humana, fontes e retorno interno preservados. Catalogo com nove artigos. Nenhuma alteracao em contas, chaves, custos, dependencias, providers ou automacoes. Recibos e limite de leitura direta Ready em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -65,3 +71,4 @@ Guia distingue terceiro T20I de 20 outubro/Raipur e ODIs de 23/25/28 outubro/Vad
 - [[2026-10-19-wnba-editorial-release]] - Handoff da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.

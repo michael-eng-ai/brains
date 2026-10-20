@@ -30,6 +30,10 @@ O conector get_deployment voltou a retornar 403 para o deployment dpl_BmV1UgWagc
 
 A integração GitHub registrou deployment 7204773051 com SHA exato, environment Production e success; o alias público serviu o mesmo deployment ID e passou nos testes. Isso comprova a publicação, mas o campo Ready ainda não foi lido diretamente nesta rodada. Completar essa conferência quando houver acesso e acrescentar o recibo, sem nova publicação. [[2026-10-20-brasileirao-release]].
 
+## PR25 - mesma limitacao direta em 20 outubro, 19:09 UTC
+
+Painel existente ainda em configuracao de autenticador; nenhuma interacao com a seguranca da conta. Uma consulta ao novo deployment dpl_2kX2U2pkr7PN2cqecHsv9xwheXy3 retornou 403 no scope existente. CLI anteriormente sem acesso nao foi repetida. GitHub Production/success, SHA e paginas anonimas foram conferidos separadamente. Nao marcar Ready como observado nem repetir pedido ja pendente ao proprietario. Apos acesso restabelecido, acrescentar recibos dos deployments existentes PR24/PR25. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -37,3 +41,4 @@ A integração GitHub registrou deployment 7204773051 com SHA exato, environment
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
 
 - [[2026-10-20-brasileirao-release]] - Conferência direta pendente da PR24.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.

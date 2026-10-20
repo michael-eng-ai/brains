@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Brasileirao publicado via PR24; NBA preparada e desativada conforme escolha."
-tags: [global-live-data, estado, esportes]
+resumo: "Nona leitura League Pass visivel; verificacao direta Ready PR24/25 pendente."
+tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-20"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-20-brasileirao-release]].
+Ultimo handoff: [[2026-10-20-league-pass-editorial-release]].
 
-- Main/origin limpos e705e1ebc74787465c5b446a6e8698879c65081c; PR24 integrada, CI PR/main aprovado. Publicacao confirmada pelo deployment GitHub Production/success e pelo alias publico; verificacao direta do campo Ready no painel ainda pendente. [[release-status]].
-- Brasileirao publicado: tabela de 20 clubes, jogos parciais por clube. Probe validou 19 clubes; Grêmio bloqueado por identidade inconsistente. Credito SportScore obrigatorio. [[brasileirao-nba-feeds]].
-- NBA preparada e desativada sem chave, conforme escolha explicita. Nenhuma conta ou servico novo. [[2026-10-20-publish-brasileirao-prepare-nba]].
-- Check 101, Python 11, Chromium 35 e WebKit 35 aprovados. QA real mobile/desktop sem overflow ou erros de console. Sem Safari iOS fisico, carga ou NBA autenticada nesta entrega. [[validation-workflow]].
-- Um ops:check em 20 outubro, 16:07:36 UTC, passou com nove feeds representativos ready em sete leituras, incluindo Brasileirao e USD. Observacao pontual, nao garantia continua.
-- Oito artigos EN/PT/ES e seis arquivos historicos preservados. Brasil 2026 tem 136 recortes validos do primeiro turno; segundo turno ainda nao publicado. Rotinas TSE/editorial inalteradas.
-- Dominio e Google pendentes; nenhuma compra, DNS, Search Console, analytics ou anuncio novo. [[launch-readiness]].
+- Main/origin limpos 45ed274ff0fb77a18d443e4caa13d7f8ae5040f2; PR25 integrada, CI PR/main com ambos jobs aprovados. GitHub Production/success e nove paginas anonimas confirmam o novo artigo servido. Campo Ready direto ainda pendente por 403/painel em autenticador, tambem para PR24. [[release-status]].
+- Nove artigos EN/PT/ES, incluindo guia League Pass com tres fontes oficiais, exemplo e checklist originais. Sem placares NBA; adapter preparado continua desativado conforme escolha. [[editorial-publishing]] e [[brasileirao-nba-feeds]].
+- Validacao desta edicao: check 101, Python 11, Chromium 35 e QA 390/1280 aprovados. WebKit, Safari iOS nativo e carga nao repetidos para esta mudanca editorial. [[validation-workflow]].
+- Um ops:check em 20 outubro, 19:22:56 UTC encontrou nove feeds representativos ready em sete leituras; amostra pontual.
+- Brasileirao continua com tabela 20 e jogos parciais por clube; Grêmio bloqueado por identidade inconsistente. Credito SportScore preservado. [[brasileirao-nba-feeds]].
+- Seis arquivos historicos preservados; Brasil 2026 com 136 recortes do primeiro turno. Segundo turno ainda nao publicado. Rotinas TSE/editorial e frequencias inalteradas. [[historical-editions]].
+- Dominio/Google e NBA com dados reais continuam pendentes das decisoes/configuracoes do proprietario. Nenhuma compra, DNS, Search Console, conta, chave, anuncio ou analytics novo. [[launch-readiness]].
 
 ## Conexoes
+- [[2026-10-20-league-pass-editorial-release]] - Handoff atual.
 - [[index]] - Entrada.
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-publish-brasileirao-prepare-nba]] - Autorizacao.

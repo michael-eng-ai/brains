@@ -174,6 +174,12 @@ Node 24.22.0: check com 101 testes unitarios, lint, tipos, build e HTTP smoke; P
 
 QA real local e publica em 390/1280 px confirmou tabela com 20 clubes, filtro de resultados, idioma preservando clube e aviso de indisponibilidade do Gremio, sem overflow ou erros de console. CUA representou botoes aria-pressed como checkbox na arvore nativa; no locator Playwright usar role=button. WebKit emula iPhone 13; nao e teste em aparelho iOS. Nesta entrega nao houve teste de carga, Safari nativo ou probe autenticado NBA. Uma verificacao HTTP em Python falhou por CA local; repetida com Node e TLS validado, passou. Evidencias remotas em [[release-status]].
 
+## Edicao League Pass, 20 outubro 2026
+
+Node 24.22.0/npm 11.21.1: check com lint/tipos, 101 unitarios,history/Next build e smoke HTTP ; 11 Python; 35 Chromium passaram na primeira execucao completa. Contagem de catalogo mudou de 8 para 9 e locator da home segue o novo artigo no recorte latest-two. Nenhuma assercao enfraquecida. Log temporario /tmp/gld-editorial-nba-validation.log.
+
+CUA local 390x844/1280x900: leitura PT/EN/ES, filtro Basquete, indice/fontes, idioma e retorno interno, sem overflow ou warn/error. Publico 390px: leitura PT, idioma EN, retorno ao indice e filtro Basketball com duas leituras, sem overflow/warn/error. Uma tentativa de inspecao usou capability viewport no tab e outra usou opcao level nao suportada no locator CUA; corrigidas usando capability do browser e heading por nome, sem alterar o produto. Nove paginas anonimas, deployment correto, CSP, JSON-LD/tres fontes, canonical/hreflang/disclosure e inclusao no sitemap passaram. WebKit, Safari iOS nativo e carga nao repetidos nesta mudanca editorial. Servidor QA e abas proprias encerrados; viewport restaurado. Capturas temporarias /tmp/gld-league-pass-published-mobile.png e /tmp/gld-league-pass-desktop.png. CI e amostra ops em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -222,3 +228,4 @@ QA real local e publica em 390/1280 px confirmou tabela com 20 clubes, filtro de
 - [[brasileirao-nba-feeds]] - Contratos testados.
 
 - [[2026-10-20-brasileirao-release]] - Handoff.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
