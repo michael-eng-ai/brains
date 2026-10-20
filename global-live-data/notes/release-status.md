@@ -16,7 +16,7 @@ Vercel Production Ready observado no SHA exato, branch main, build29s; deploymen
 
 Verificacao anonima 21:53:30–21:53:32 UTC: 12 paginas EN/PT/ES (futebol, hoquei, cambio, time), idioma, deployment id, CSP, noindex de time e limites400/404 passaram. Novos feeds ready: Bundesliga306, DEL364, tabela18, FXUSD360rows/quatroquotes/90datas19jul–16out. Ops:check21:53:13 encontrou os feeds representativos football/FX/hockey/chess/UK/TV ready; USGS e MET stale (checagens21:51:08 e21:09:50 UTC). Nao esconder ou chamar de recuperacao permanente; estes dois nao foram alterados nesta entrega.
 
-QA local: check87 testes unitarios, lint/types/build/HTTP; Python11; Chromium25. Manual real390/1280 e publico: tabela18times, SC Freiburg + idioma ES preservado, DEL rodada1 com7jogos, FX90dias; sem overflow ou console erro. Capturas /tmp/gld-sports-fx/published-football-desktop.png e published-fx-mobile.png. Registros locais de validacao em /tmp/gld-sports-fx; podem expirar. Contratos essenciais persistem em [[sports-fx-depth]]. Sem telefone fisico/mobileSafari/carga distribuida ou novo warehouseFX.
+QA local: check87 testes unitarios, lint/types/build/HTTP; Python11; Chromium25. Manual real 390/1280 e publico: tabela18times, SC Freiburg + idioma ES preservado, DEL rodada1 com7jogos, FX90dias; sem overflow ou console erro. Capturas /tmp/gld-sports-fx/published-football-desktop.png e published-fx-mobile.png. Registros locais de validacao em /tmp/gld-sports-fx; podem expirar. Contratos essenciais persistem em [[sports-fx-depth]]. Sem telefone fisico/mobileSafari/carga distribuida ou novo warehouseFX.
 
 
 ## Historico: hoquei, xadrez e resultados eleitorais
@@ -200,6 +200,14 @@ Vercel Production Ready dpl_95PE9zBhoUP1tNJoxauLCzE65i3S: https://vercel.com/mic
 
 Leitura PT: https://global-live-data.vercel.app/pt/trending/getafe-rayo-2026-october-match-guide . Apuracao/limites em [[editorial-publishing]], QA em [[validation-workflow]]. Sem compra de dominio, configuracao de conta, analytics, API ou alteracao de cadencia.
 
+## PR20: atualizacao automatica do cambio USD
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/20; head c3384d3458ed6166c5f417fd55692ab8b9889042. Merge 2026-10-20T00:42:19Z; main 3c6a9fef83b1962f0d2b85b4fe676b3622eb1647, checkout/origin limpos. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39348995416 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39349218369: dois jobs success nos SHAs exatos.
+
+Production Ready dpl_EthEVzduhgGzbv36z8D9EZevjQRf, source main integral conferida: https://vercel.com/michael-eng-ais-projects/global-live-data/EthEVzduhgGzbv36z8D9EZevjQRf; URL unica https://global-live-data-6m9walfks-michael-eng-ais-projects.vercel.app. Verificacao anonima 00:44:04 UTC: exchange EN/PT/ES HTTP 200, CSP, idioma e deployment exato; latest USD ready com quatro taxas identicas a leitura direta anterior, checkedAt 00:32:21.746 UTC; historico ready com 359 observacoes, checkedAt 00:32:23.655 UTC. UI publica mobile 390: conversao e recheck preservaram valor/timestamps, sem overflow, overlay ou console warn/error. Uma sondagem ops:check em 00:44:07.943 UTC saiu 0, com oito feeds representativos ready e nenhum erro. E observacao pontual, nao SLA nem auditoria exaustiva de todas bases/regioes.
+
+Fonte ja tinha recuperado antes da correcao; a entrega corrige retencao indefinida do erro no navegador, nao prova causa/remocao de falha upstream. [[football-fx-pilot]] / docs/FX-REFRESH.md. Sem contas/custos/credenciais/analytics/anuncios ou frequencia de automacao alterados.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -251,3 +259,4 @@ Leitura PT: https://global-live-data.vercel.app/pt/trending/getafe-rayo-2026-oct
 - [[2026-10-19-mobile-load-launch]] - Handoff mobile/carga.
 - [[launch-readiness]] - Etapa de lancamento.
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial.
+- [[2026-10-19-usd-fx-refresh-release]] - Recibos da entrega.

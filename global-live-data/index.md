@@ -40,6 +40,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 
 ## Decisoes
+- [[2026-10-19-repair-usd-fx-refresh]] - Correcao e publicacao USD autorizadas.
 - [[2026-10-19-mobile-load-and-domain-research]] - Testes/correcao e pesquisa de dominio autorizados.
 
 - [[2026-10-19-repair-usgs-refresh]] - Correcao/publicacao USGS autorizadas.
@@ -86,6 +87,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-usd-fx-refresh-release]] - Correcao do refresh USD publicada.
 - [[2026-10-19-getafe-editorial-release]] - Quinta leitura publicada e verificada.
 - [[2026-10-19-mobile-load-launch]] - WebKit/carga corrigidos; preparo de dominio.
 
@@ -198,3 +200,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
 - [[launch-readiness]] - Dominio e Google.
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial.
+- [[2026-10-19-usd-fx-refresh-release]] - Handoff cambio.
+- [[2026-10-19-repair-usd-fx-refresh]] - Autorizacao USD.

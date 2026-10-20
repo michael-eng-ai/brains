@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Futebol e cambio
@@ -36,6 +36,14 @@ Estimativa com cache quente em uma regiao: ate 14 calls futebol/5min, 8 quando r
 
 As edicoes 2025/26 das duas ligas foram arquivadas independentemente dos feeds atuais; guardas de troca de temporada e detalhes em [[historical-editions]]. FX diario nao ganhou serie historica nesta entrega.
 
+## Recuperacao USD e atualizacao da pagina, 19 outubro local
+
+O incidente USD de 18:47 UTC nao identifica causa upstream; nao afirmar HTTP 403, bloqueio ou mudanca de schema. Na investigacao autorizada, antes de editar, fonte direta/publico latest/history estavam ready em 20/10 00:32 UTC (19/10 local). Quatro taxas USD, datas 19/20 por par, historico com 359 observacoes. Vercel Production na janela de 12h exibiu linha com 13 chamadas Frankfurter/0% erros HTTP; agregado nao prova ausencia de timeout ou falha de validacao no incidente. Nenhum relaxamento de datas futuras/idade/valores.
+
+Defeito reproduzido: DataPilot consultava somente ao montar, trocar a selecao ou clicar; podia manter erro indefinidamente apos servidor recuperar. Agora agenda leitura pelo nextRefreshAt do feed relevante, minimo de 60s para snapshot expirado/ausencia de prazo/erro HTTP, prazo de 20s no cliente, pausa por visibilidade, retomada vencida sem duplicacao e descarte de respostas de selecao antiga. Conversor preserva valor e selecao no refresh automatico. Prazo futuro do servidor nao e encurtado. Temporizadores longos acordam para reavaliar, sem overflow. Contrato/evidencias: docs/FX-REFRESH.md.
+
+Cache da fonte de 1h, Next compartilhado/SWR, backoff/condicionais e historico ficam intactos. Aba saudavel consulta latest normalmente uma vez por hora; resposta SWR antiga pode exigir leitura 1min depois. Erro persistente sem prazo: maximo de 60 leituras HTTP/h/aba visivel, nao 60 chamadas Frankfurter. /api/live inclui envelope de futebol em cache; cache/regioes/cold starts nao sao quota distribuida. O historico mantem a cadencia de 1h. Sem API/chave/infra/automacao nova. [[validation-workflow]] e [[release-status]] distinguem fixtures, dados reais e publicacao.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -51,3 +59,5 @@ As edicoes 2025/26 das duas ligas foram arquivadas independentemente dos feeds a
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
+- [[2026-10-19-usd-fx-refresh-release]] - Handoff da correcao.
+- [[2026-10-19-repair-usd-fx-refresh]] - Autorizacao da correcao.

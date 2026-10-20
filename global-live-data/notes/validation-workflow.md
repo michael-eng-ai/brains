@@ -142,6 +142,12 @@ CUA manual: indice PT -> filtro Futebol -> leitura -> indice/fontes internas -> 
 
 Python urllib inicial nao encontrou CA confiavel; leitura HTTPS posterior usou /etc/ssl/cert.pem com verificacao TLS preservada. Conteudo/fuso ancorados nas fontes atuais, nao no snippet isolado. Resultados remotos desta edicao em [[release-status]].
 
+## Correcao do refresh USD, 19 outubro local
+
+Node 24.22.0: check com 92 testes unitarios/lint/tipos/build/smoke HTTP, Python 11, Chromium 33/33 e WebKit 33/33 passaram. Regressoes: error->ready apos prazo incluindo uma resposta SWR antiga, sem tentativa antecipada, pausa em aba oculta/retomada, valor preservado, timeout de 20s e isolamento de resposta atrasada. Teste de recuperacao falhou contra o codigo original (uma requisicao em vez de duas) e passou com correcao. Primeira suite focada 2/3: fixture de visibilidade tentava preencher conversor que nao existe sem taxa; corrigida para iniciar com dado valido. Nao enfraquecidos guards.
+
+CUA real em 390x844/1280x900: cache local antigo mostrou erro e passou automaticamente a quatro taxas USD, consultadas 00:38 UTC; conversao de 250 USD para JPY, consulta manual, 90 dias e PT/EN/ES funcionaram. Reuso preservou checkedAt/retrievedAt. Sem blank/overlay/overflow/warn/error. Browser plugin ausente; Playwright do repositorio e CUA. Safari iOS nativo e carga nao executados nesta correcao. Nao repetir equivalencia entre WebKit e iPhone fisico. Consulta do conector Vercel 403 sem acesso ao escopo; CLI ausente, dashboard autenticado confirmou Production, sem alterar acesso. Recibos remotos em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -182,3 +188,4 @@ Python urllib inicial nao encontrou CA confiavel; leitura HTTPS posterior usou /
 - [[2026-10-19-mobile-load-and-domain-research]] - Escopo autorizado.
 - [[launch-readiness]] - Limites antes da promocao.
 - [[2026-10-19-getafe-editorial-release]] - Verificacao editorial.
+- [[2026-10-19-usd-fx-refresh-release]] - QA do refresh USD.

@@ -46,3 +46,4 @@ Referencias primarias consultadas19/10: https://vercel.com/docs/domains/registra
 - [[validation-workflow]] - Evidencias e limites.
 - [[release-status]] - Correcao publicada.
 - [[2026-10-19-getafe-editorial-release]] - Editorial publicado sem alterar pendencia de dominio.
+- [[2026-10-19-usd-fx-refresh-release]] - Correcao USD sem alterar pendencia de dominio.
