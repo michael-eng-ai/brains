@@ -42,6 +42,12 @@ Setima leitura: spain-clock-change-october-2026, EN/PT/ES. Pesquisa unica US/BR/
 
 Guia pratico explica atraso dos relogios em 25 outubro, diferenca das Canarias, exemplos hipoteticos Madri/Brasilia/Cidade do Mexico e hora repetida com offset UTC. Calculos datetime/zoneinfo verificados; sem inventar eventos nem alegar fim da mudanca em 2026. `time` e somente filtro editorial. Tres idiomas, fontes, apoio de IA, ausencia de revisao humana e retorno interno preservados. Nenhuma conta, chave, custo, dependencia, provider ou automacao alterada. Recibos e limite de verificacao Vercel em [[release-status]].
 
+## Edicao de 20 outubro, 13:06 UTC
+
+Oitava leitura: india-zimbabwe-women-october-2026-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta IN `india vs zimbabwe`, observada 13:07:24.319Z. Quatro referencias primarias BCCI/ICC lidas e concordantes; checagem efetiva 13:08:21Z. Ledger no repositorio: docs/editorial/2026-10-20-india-zimbabwe-women.md. O termo de busca nao prova que as pessoas buscavam essa serie; o titulo identifica explicitamente as selecoes femininas.
+
+Guia distingue terceiro T20I de 20 outubro/Raipur e ODIs de 23/25/28 outubro/Vadodara, com conversoes IANA por data e ajuste europeu entre partidas. Sem placares, resultados, jogadores, direitos de transmissao, imagens copiadas ou causa inventada da tendencia. `cricket` e apenas filtro de leitura; nao foi adicionado provider de criquete. Referencias, nota IA/sem revisao humana e retorno interno preservados. Catalogo agora tem oito artigos. Cadencia/escopo das automacoes e infraestrutura inalterados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -58,3 +64,4 @@ Guia pratico explica atraso dos relogios em 25 outubro, diferenca das Canarias, 
 - [[2026-10-19-getafe-editorial-release]] - Handoff da quinta leitura.
 - [[2026-10-19-wnba-editorial-release]] - Handoff da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.

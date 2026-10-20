@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR22 integrada; guia Espanha acessivel e CI aprovado; Ready direto depende de acesso Vercel."
+resumo: "PR23 publicada e verificada; oito artigos e cerebro atualizado, Ready PR22 resolvido."
 tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-20"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-20-spain-clock-editorial-release]].
+Ultimo handoff: [[2026-10-20-cricket-editorial-release]].
 
-- Main/origin limpos 85edcf78edde33561642bc6ca2710d8560384739; PR22 e ambos os jobs CI PR/main aprovados. [[release-status]].
-- Sete artigos EN/PT/ES. Novo guia Espanha: mudanca de 25 outubro, conversoes por data e hora repetida, tres fontes primarias e nota de IA/sem revisao humana. [[editorial-publishing]].
-- Integracao Vercel reportou Production/success no SHA exato; nove paginas publicas mostram o deployment correspondente. Inspecao direta do campo Ready pendente: conector/CLI sem acesso ao time e dashboard em login. Nao declarar esse gate concluido nem criar deploy duplicado. [[trap-vercel-access]].
-- Check 92/Python 11/Chromium 33 e QA local 390/1280/publica mobile passaram. Primeiro Chromium teve timeout em beforeEach; suite completa sem alteracoes passou. WebKit/Safari iOS nativo/carga nao repetidos. [[validation-workflow]].
-- Um ops:check 07:59 UTC passou com oito feeds ready, incluindo USD. Observacao pontual; nenhuma correcao adicional de provider nesta rodada.
-- TSE/editorial mantem frequencias/escopo. Brasil 2026 preserva 136 recortes validos do primeiro turno, sem quarentena; 2022 e demais edicoes preservados.
-- Pesquisa em [[sports-demand-priorities]]: proposta Brasileirao/NBA/Premier, LaLiga depois; acesso/licenca/retencao ainda precisam validacao. Nenhuma nova liga de dados implementada nesta rodada.
-- Dominio/Google pendentes em [[launch-readiness]]; sem compra/DNS/Search Console. Nenhuma conta/chave/custo/analytics/anuncio novo. Servidor QA e abas proprias encerrados, viewport restaurado.
+- Main/origin limpos 56bcde21f4352039f31ef1b1c1106141f0b65bac; PR23 e ambos CI PR/main aprovados. Vercel Production Ready/SHA integral e nove paginas publicas verificados. [[release-status]].
+- Oito artigos EN/PT/ES. Novo guia India-Zimbabue feminino: agenda T20I/ODI e horarios por cidade/data, quatro referencias primarias e nota IA/sem revisao humana. Criquete e filtro editorial, sem placar/feed. [[editorial-publishing]].
+- A pendencia Ready direta da PR22 foi resolvida pelo dashboard Chrome autenticado; nenhuma nova credencial ou ampliacao de acesso. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
+- Check92/Python11/Chromium33 passaram na primeira execucao; QA local390/1280/publica mobile sem overflow/console. WebKit/Safari iOS nativo/carga nao repetidos. [[validation-workflow]].
+- Um ops:check13:19UTC passou com oito feeds representativos ready, incluindo USD; observacao pontual.
+- TSE/editorial mantem frequencias/escopo. Brasil2026 preserva136 recortes validos do primeiro turno, sem quarentena; segundo turno ainda nao publicado. 2022 e demais edicoes preservados.
+- Brasileirao/NBA/Premier seguem propostas em [[sports-demand-priorities]], com acesso/licenca/retencao a validar; nenhuma liga nova de dados nesta rodada.
+- Dominio/Google pendentes em [[launch-readiness]]. Sem compra/DNS/Search Console/conta/chave/custo/analytics/anuncio novo. ServidorQA/abas proprias encerrados e viewport restaurado.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -73,4 +73,5 @@ Ultimo handoff: [[2026-10-20-spain-clock-editorial-release]].
 - [[sports-demand-priorities]] - Nova pesquisa.
 - [[2026-10-19-sports-demand-research]] - Handoff atual da pesquisa.
 - [[2026-10-19-wnba-editorial-release]] - Handoff editorial atual.
-- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-spain-clock-editorial-release]] - Handoff anterior; pendencia Ready resolvida.
+- [[2026-10-20-cricket-editorial-release]] - Handoff atual.

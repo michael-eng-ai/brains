@@ -160,6 +160,14 @@ Node 24.22.0: check passou com lint/types, 92 testes unitarios, build e HTTP smo
 
 CUA local 390x844/1280x900: leitura EN/PT/ES, filtro Fusos horarios, indice/fontes, idioma e retorno interno, sem overflow ou warn/error. Publico 390px: leitura PT, idioma ES e retorno/filtro mostraram uma leitura, sem overflow ou warn/error. Nove paginas anonimas passaram com deployment correto, CSP, Article JSON-LD/tres fontes, canonical/hreflang/disclosure; sitemap 78 URLs. Um ops:check em 07:59:48Z retornou oito feeds representativos ready; amostra pontual, nao garantia continua. WebKit, Safari iOS nativo e carga nao repetidos. Servidor e abas proprias encerrados; viewport restaurado. CI/recibos e verificacao direta Ready pendente em [[release-status]].
 
+## Edicao India-Zimbabue feminino, 20 outubro 2026
+
+Node24.22.0/npm11.21.1: check com lint/tipos,92 unitarios,build/smoke HTTP;11 Python;33 Chromium passaram na primeira execucao completa, sem falhas de teste. Contagem de catalogo atualizada para8 e locator da home para artigo Espanha ainda presente no recorte latest-two. Nenhuma assercao/timeout/error-check enfraquecida. Log temporario /tmp/gld-cricket-checks.log.
+
+CUA local390x844/1280x900: filtro Criquete, leituraPT/EN/ES, indice/fontes, idioma e retorno interno, sem overflow ou warn/error. Publico390px: leituraPT, idiomaEN e retorno ao indice confirmados sem overflow/warn/error. Nove paginas anonimas, JSON-LD/quatro fontes, canonical/hreflang/disclosure e sitemap81 passaram. WebKit/Safari iOS nativo/carga nao repetidos para esta mudanca editorial. Servidor QA e abas proprias encerrados, viewport restaurado. Um ops:check com oito feeds prontos e ambos CI PR/main em [[release-status]].
+
+A pendencia direta Ready da PR22 foi resolvida nesta rodada pelo dashboard Chrome autenticado; o novo deployment PR23 tambem foi inspecionado nesse canal, sem copiar credenciais ou alterar acesso.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -203,3 +211,4 @@ CUA local 390x844/1280x900: leitura EN/PT/ES, filtro Fusos horarios, indice/font
 - [[2026-10-19-usd-fx-refresh-release]] - QA do refresh USD.
 - [[2026-10-19-wnba-editorial-release]] - QA da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.

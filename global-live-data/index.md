@@ -88,7 +88,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
-- [[2026-10-20-spain-clock-editorial-release]] - Guia Espanha, CI e paginas verificadas; Ready direto pendente.
+- [[2026-10-20-cricket-editorial-release]] - Oitava leitura publicada; CI/Ready/publico verificados.
+- [[2026-10-20-spain-clock-editorial-release]] - Guia Espanha; pendencia Ready resolvida na sessao seguinte.
 - [[2026-10-19-wnba-editorial-release]] - Sexta leitura WNBA e release verificado.
 - [[2026-10-19-sports-demand-research]] - Pesquisa de Brasileirao/NBA/Premier e limites.
 - [[2026-10-19-usd-fx-refresh-release]] - Correcao do refresh USD publicada.
@@ -209,4 +210,5 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 
 - [[sports-demand-priorities]] - Pesquisa de demanda.
 - [[2026-10-19-sports-demand-research]] - Handoff da pesquisa.
-- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-spain-clock-editorial-release]] - Handoff anterior; pendencia Ready resolvida.
+- [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura.

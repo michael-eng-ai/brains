@@ -20,7 +20,12 @@ Conector get_deployment com scope michael-eng-ais-projects retornou 403. Fallbac
 
 A API GitHub autenticada continua acessivel e fornece o SHA exato, status Vercel e registro deployment/Production/success. O HTML publico fornece data-dpl-id e confirma a versao servida. Registrar essa evidencia separadamente: o campo Ready da API/painel nao foi observado diretamente nesta rodada. O recibo da PR22 e a pendencia ficam em [[release-status]]. Evitar tentativas repetidas identicas, copiar credenciais entre ferramentas ou redesplegar para sanar uma lacuna de acesso.
 
+## Resolucao em 20 outubro, rodada de 13:06 UTC
+
+Chrome autenticado ficou novamente disponivel via CUA. O dashboard do deployment existente da PR22 mostrou diretamente Ready/Production/main e o SHA integral esperado; recibo complementar registrado na PR. A publicacao posterior PR23 foi verificada pelo mesmo canal. A pendencia Ready da PR22 esta encerrada. Conector/CLI nao foram reexecutados nem declarados recuperados. Usar a sessao autorizada existente, sem copiar credenciais entre ferramentas, criar contas, ampliar permissoes ou redesplegar para resolver uma lacuna de inspecao. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.

@@ -29,7 +29,10 @@ Concluir inspecao direta Ready no deployment dpl_7u4jk9auzJoPebEcpjtCxYgwcSgv qu
 ## O que evitar
 Nao redesplegar para tentar resolver acesso ao painel. Nao repetir script temporario de insercao do artigo. Um beforeEach existente expirou no primeiro Chromium; suite completa passou sem alteracoes, causa nao estabelecida. WebKit/Safari iOS nativo/carga nao repetidos. Pesquisa de ligas e dominio/Google continuam pendentes em [[current]].
 
-## Prompt para retomar
+## Resolucao posterior
+Na rodada de 13:06 UTC, o dashboard Chrome autenticado confirmou Ready/Production/main e SHA integral. Pendencia encerrada; recibo em [[release-status]] e continuidade em [[2026-10-20-cricket-editorial-release]].
+
+## Prompt historico para retomar
 1. Sincronize o cerebro e confirme main/Git livre. 2. Resolva a verificacao direta Ready pendente no deployment existente, sem novo deploy ou credenciais. 3. Registre apenas evidencias observadas; nao declare o gate concluido sem acesso. 4. A proxima rodada editorial segue docs/EDITORIAL.md, compara sete artigos e pode pular sem pauta nova apurada.
 
 ## Conexoes
@@ -40,3 +43,4 @@ Nao redesplegar para tentar resolver acesso ao painel. Nao repetir script tempor
 - [[validation-workflow]] - QA e limites.
 - [[release-status]] - Recibos.
 - [[trap-vercel-access]] - Acesso e verificacao pendente.
+- [[2026-10-20-cricket-editorial-release]] - Resolucao do acesso e proxima edicao.

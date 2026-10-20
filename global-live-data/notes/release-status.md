@@ -229,6 +229,20 @@ PR22 https://github.com/michael-eng-ai/global-live-data/pull/22 integrada em 202
 
 Limite explicito: o campo Ready nao foi inspecionado diretamente na API/painel Vercel. Conector retornou 403 para o time; CLI 64.7.0, com scope explicito, retornou scope-not-accessible; IAB levou a login e nao havia browser extension autenticado disponivel. Os recibos GitHub/publicos confirmam conclusao e conteudo servido, mas nao substituiram silenciosamente o gate documental Ready. Nao mudar credenciais/permissoes nem criar outro deploy. Concluir essa inspecao quando o acesso autorizado ao time estiver disponivel; [[trap-vercel-access]].
 
+## PR22: pendencia Ready resolvida na rodada de 13:06 UTC
+
+O Chrome autenticado voltou a estar acessivel via CUA em 20 outubro. A inspecao direta do mesmo dashboard dpl_7u4jk9auzJoPebEcpjtCxYgwcSgv mostrou Ready, Production, main e link ao SHA integral 85edcf78edde33561642bc6ca2710d8560384739. A PR22 recebeu o recibo complementar. Isso encerra a pendencia anterior; nao houve redeploy, nova credencial nem alteracao de conta/permissao. Nao implica recuperacao do conector/CLI. [[trap-vercel-access]].
+
+## Oitava leitura publicada: PR23
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/23; head ecfdb245fe9b71ed01ac2ec30287d3df6a499edd. Merge em 2026-10-20T13:18:30Z; main/origin 56bcde21f4352039f31ef1b1c1106141f0b65bac, arvore identica ao head revisado e checkout limpo. Ambos os jobs success no CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39428903202 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39429280216, SHAs exatos.
+
+Vercel Production Ready dpl_4kkyZFXTvG7bgeL1vJSKAgdJaTfk confirmado diretamente no dashboard autenticado, source main integral e conclusao 13:19:07 UTC. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/4kkyZFXTvG7bgeL1vJSKAgdJaTfk; URL unica https://global-live-data-1lfnskbeo-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy duplicado.
+
+Verificacao anonima em 13:19:49.757Z: nove paginas home/indice/artigo EN/PT/ES HTTP200 com deployment exato e CSP; Article JSON-LD/quatro referencias, canonical/hreflang e disclosure corretos. Sitemap81URLs inclui as tres traducoes. QA publico 390px PT->EN/retorno interno sem overflow ou console warn/error. Leitura PT: https://global-live-data.vercel.app/pt/trending/india-zimbabwe-women-october-2026-guide .
+
+Uma sondagem ops:check em13:19:48.391Z saiu0 com oito feeds representativos ready, incluindo USD. Amostra pontual, nao garantia de saude continua/todos seletores. Artefatos temporarios /tmp/gld-cricket-public-pages.json e /tmp/gld-cricket-ops.log podem expirar. Apuracao em [[editorial-publishing]], QA em [[validation-workflow]]. Sem nova conta/chave/custo/provider/analytics/anuncio ou alteracao de frequencia.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -283,3 +297,4 @@ Limite explicito: o campo Ready nao foi inspecionado diretamente na API/painel V
 - [[2026-10-19-usd-fx-refresh-release]] - Recibos da entrega.
 - [[2026-10-19-wnba-editorial-release]] - Recibos da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
+- [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
