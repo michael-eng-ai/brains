@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Estado da entrega
@@ -218,6 +218,17 @@ Verificacao anonima 2026-10-20T01:06:47.992Z: nove paginas home/indice/artigo EN
 
 Conteudo em [[editorial-publishing]], QA em [[validation-workflow]]. Artefatos temporarios /tmp/gld-wnba-public-pages.json, /tmp/gld-wnba-ops.log e /tmp/gld-wnba-checks-final.log. Nenhuma API/conta/chave/custo/ads/analytics ou automacao alterada. A pesquisa de ampliacao esportiva permanece proposta em [[sports-demand-priorities]].
 
+## Edicao Espanha, 20 outubro 2026: publico verificado, Ready direto pendente
+
+PR22 https://github.com/michael-eng-ai/global-live-data/pull/22 integrada em 2026-10-20T07:57:55Z. Head 818dc047be82119a356fcd19e4f58c3450d5867d; main/origin 85edcf78edde33561642bc6ca2710d8560384739, arvore identica e limpa.
+
+- CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39389683252 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39390043113: ambos os jobs success nas revisoes exatas.
+- A integracao Vercel informou `success` / `Deployment has completed` no status do commit main. Registro GitHub deployment 7194575951: environment Production, SHA exato e status success em 07:58:34Z. Recibo: https://api.github.com/repos/michael-eng-ai/global-live-data/deployments/7194575951/statuses.
+- Deployment identificado pelo status Vercel: dpl_7u4jk9auzJoPebEcpjtCxYgwcSgv. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/7u4jk9auzJoPebEcpjtCxYgwcSgv; URL unica https://global-live-data-efc3tpfpk-michael-eng-ais-projects.vercel.app.
+- Alias publico verificado em 07:59:46Z: nove paginas EN/PT/ES com esse data-dpl-id, HTTP200/CSP, metadata e sitemap78. Artigo PT https://global-live-data.vercel.app/pt/trending/spain-clock-change-october-2026. QA local/publico e um ops:check com oito feeds ready em [[validation-workflow]].
+
+Limite explicito: o campo Ready nao foi inspecionado diretamente na API/painel Vercel. Conector retornou 403 para o time; CLI 64.7.0, com scope explicito, retornou scope-not-accessible; IAB levou a login e nao havia browser extension autenticado disponivel. Os recibos GitHub/publicos confirmam conclusao e conteudo servido, mas nao substituiram silenciosamente o gate documental Ready. Nao mudar credenciais/permissoes nem criar outro deploy. Concluir essa inspecao quando o acesso autorizado ao time estiver disponivel; [[trap-vercel-access]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -271,3 +282,4 @@ Conteudo em [[editorial-publishing]], QA em [[validation-workflow]]. Artefatos t
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - Recibos da entrega.
 - [[2026-10-19-wnba-editorial-release]] - Recibos da sexta leitura.
+- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.

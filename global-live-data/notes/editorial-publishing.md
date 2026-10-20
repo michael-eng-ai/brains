@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Publicacao editorial
@@ -36,6 +36,12 @@ Sexta leitura: wnba-finals-2026-games-3-4-guide, EN/PT/ES. Pesquisa unica US/BR/
 
 Conversoes IANA por data para Brasil/Mexico/Londres/Madri incluem virada de dia no jogo3. Sem placar, resultado, direitos de transmissao, rumor, imagens ou autoria ficticia. Basketball/Basquete/Baloncesto e filtro editorial, sem API/painel NBA/WNBA. CTA permanece no indice interno, apoio de IA e ausencia de revisao humana visiveis. O artigo usa data local19out e checagem efetiva20out00:56:08Z; nao mudar timestamps por simples refresh. Nenhuma mudanca de cadencia/escopo das automacoes. Proxima rodada compara as seis leituras; recibos em [[release-status]].
 
+## Edicao de 20 outubro, 07:04 UTC
+
+Setima leitura: spain-clock-change-october-2026, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta ES `cambio de hora españa`, observada 07:05:00.987Z. Tres referencias primarias lidas: ordem BOE de 2022, pagina da Comissao Europeia e calendario 2027-2031 publicado em 18 marco 2026. Ledger: docs/editorial/2026-10-20-spain-clock-change.md. Checagem efetiva 07:05:41Z; publicacao datada 20 outubro.
+
+Guia pratico explica atraso dos relogios em 25 outubro, diferenca das Canarias, exemplos hipoteticos Madri/Brasilia/Cidade do Mexico e hora repetida com offset UTC. Calculos datetime/zoneinfo verificados; sem inventar eventos nem alegar fim da mudanca em 2026. `time` e somente filtro editorial. Tres idiomas, fontes, apoio de IA, ausencia de revisao humana e retorno interno preservados. Nenhuma conta, chave, custo, dependencia, provider ou automacao alterada. Recibos e limite de verificacao Vercel em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -51,3 +57,4 @@ Conversoes IANA por data para Brasil/Mexico/Londres/Madri incluem virada de dia 
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-getafe-editorial-release]] - Handoff da quinta leitura.
 - [[2026-10-19-wnba-editorial-release]] - Handoff da sexta leitura.
+- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.

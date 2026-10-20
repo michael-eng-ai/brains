@@ -1,22 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR21 publica guia WNBA; seis artigos e testes/CI/Production verificados."
+resumo: "PR22 integrada; guia Espanha acessivel e CI aprovado; Ready direto depende de acesso Vercel."
 tags: [global-live-data, estado, editorial]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-wnba-editorial-release]].
+Ultimo handoff: [[2026-10-20-spain-clock-editorial-release]].
 
-- Main/origin limpos cd4d7e5328de572603e6eef20bc621f77d4cde2e; PR21, dois jobs CI PR/main e Production Ready exatos. [[release-status]].
-- Seis artigos EN/PT/ES. Novo guia WNBA usa calendario revisado e conversoes por data, quatro referencias e nota de IA/sem revisao humana. Basquete e somente filtro editorial. [[editorial-publishing]].
-- Check92/Python11/Chromium33 passaram; QA390/1280 local e mobile publico. WebKit/Safari iOS nativo/carga nao repetidos para este artigo; evidencias anteriores separadas em [[validation-workflow]].
-- Um ops:check01:06UTC passou com oito feeds prontos, incluindoUSD. FX preserva correcao de refresh; causa upstream anterior nao confirmada. [[football-fx-pilot]].
-- TSE/editorial mantem frequencias/escopo; Brasil2026 tem136 recortes validos do primeiro turno, nenhum em quarentena. Brasil2022 e demais edicoes preservados.
-- Pesquisa em [[sports-demand-priorities]]: proposta Brasileirao/NBA/Premier, LaLiga depois; indices Trends relativos, acesso/licenca/retencao ainda precisam validacao. Nenhuma nova liga de dados implementada/publicada nesta rodada.
-- Dominio/Google pendentes em [[launch-readiness]]; .com cotado anteriormente, sem compra/DNS/Search Console. Nenhuma conta/chave/custo/analytics/anuncio novo. ServidorQA e abas temporarias encerrados, viewport restaurado.
+- Main/origin limpos 85edcf78edde33561642bc6ca2710d8560384739; PR22 e ambos os jobs CI PR/main aprovados. [[release-status]].
+- Sete artigos EN/PT/ES. Novo guia Espanha: mudanca de 25 outubro, conversoes por data e hora repetida, tres fontes primarias e nota de IA/sem revisao humana. [[editorial-publishing]].
+- Integracao Vercel reportou Production/success no SHA exato; nove paginas publicas mostram o deployment correspondente. Inspecao direta do campo Ready pendente: conector/CLI sem acesso ao time e dashboard em login. Nao declarar esse gate concluido nem criar deploy duplicado. [[trap-vercel-access]].
+- Check 92/Python 11/Chromium 33 e QA local 390/1280/publica mobile passaram. Primeiro Chromium teve timeout em beforeEach; suite completa sem alteracoes passou. WebKit/Safari iOS nativo/carga nao repetidos. [[validation-workflow]].
+- Um ops:check 07:59 UTC passou com oito feeds ready, incluindo USD. Observacao pontual; nenhuma correcao adicional de provider nesta rodada.
+- TSE/editorial mantem frequencias/escopo. Brasil 2026 preserva 136 recortes validos do primeiro turno, sem quarentena; 2022 e demais edicoes preservados.
+- Pesquisa em [[sports-demand-priorities]]: proposta Brasileirao/NBA/Premier, LaLiga depois; acesso/licenca/retencao ainda precisam validacao. Nenhuma nova liga de dados implementada nesta rodada.
+- Dominio/Google pendentes em [[launch-readiness]]; sem compra/DNS/Search Console. Nenhuma conta/chave/custo/analytics/anuncio novo. Servidor QA e abas proprias encerrados, viewport restaurado.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -72,3 +73,4 @@ Ultimo handoff: [[2026-10-19-wnba-editorial-release]].
 - [[sports-demand-priorities]] - Nova pesquisa.
 - [[2026-10-19-sports-demand-research]] - Handoff atual da pesquisa.
 - [[2026-10-19-wnba-editorial-release]] - Handoff editorial atual.
+- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.

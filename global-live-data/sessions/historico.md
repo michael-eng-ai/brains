@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Historico
@@ -64,6 +64,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19 local / 20UTC: [[2026-10-19-wnba-editorial-release]] - PR21 publicou guia WNBA, CI/Production e oito feeds amostrados prontos.
 
+- 2026-10-20: [[2026-10-20-spain-clock-editorial-release]] - PR22 integrada, sete artigos, CI e paginas publicas aprovadas; Ready direto pendente por acesso Vercel.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -92,3 +94,4 @@ atualizado: "2026-10-19"
 
 - [[2026-10-19-sports-demand-research]] - Pesquisa de demanda.
 - [[2026-10-19-wnba-editorial-release]] - Edicao WNBA.
+- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.

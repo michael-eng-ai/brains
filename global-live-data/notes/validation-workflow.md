@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Validacao
@@ -154,6 +154,12 @@ Node24.22.0/npm11.21.1: check com lint/tipos,92 testes unitarios,build/smoke HTT
 
 CUA local390x844/1280x900: filtro Basquete, leituraPT/EN/ES, indice/fontes, idioma e retorno interno, sem overflow/warn/error. Publico mobile390: leitura, PT->EN e retorno ao indice confirmados sem overflow/warn/error. Nove paginas HTTP, Article JSON-LD/quatro fontes, canonical/hreflang/disclosure e sitemap75 passaram. WebKit, Safari iOS nativo e carga nao repetidos para este artigo. ServidorQA proprio e abas temporarias encerrados; viewport restaurado. Sem fixtures publicadas ou dependencias novas. Recibos e ops pontual em [[release-status]].
 
+## Edicao Espanha, 20 outubro 2026
+
+Node 24.22.0: check passou com lint/types, 92 testes unitarios, build e HTTP smoke; Python ingestion 11/11. Primeiro Chromium 32/33: timeout no beforeEach de depth.spec.ts:86, antes de assercao de produto. Causa nao estabelecida. Suite completa repetida sem alterar codigo, assercoes ou timeouts: 33/33 em 26,3s. Logs temporarios: /tmp/gld-clock-checks.log e /tmp/gld-clock-e2e-rerun.log; podem expirar.
+
+CUA local 390x844/1280x900: leitura EN/PT/ES, filtro Fusos horarios, indice/fontes, idioma e retorno interno, sem overflow ou warn/error. Publico 390px: leitura PT, idioma ES e retorno/filtro mostraram uma leitura, sem overflow ou warn/error. Nove paginas anonimas passaram com deployment correto, CSP, Article JSON-LD/tres fontes, canonical/hreflang/disclosure; sitemap 78 URLs. Um ops:check em 07:59:48Z retornou oito feeds representativos ready; amostra pontual, nao garantia continua. WebKit, Safari iOS nativo e carga nao repetidos. Servidor e abas proprias encerrados; viewport restaurado. CI/recibos e verificacao direta Ready pendente em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -196,3 +202,4 @@ CUA local390x844/1280x900: filtro Basquete, leituraPT/EN/ES, indice/fontes, idio
 - [[2026-10-19-getafe-editorial-release]] - Verificacao editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - QA do refresh USD.
 - [[2026-10-19-wnba-editorial-release]] - QA da sexta leitura.
+- [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
