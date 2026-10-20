@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Pesquisa inicial de categorias e ponte para os feeds posteriormente publicados."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-19"
 ---
 
 # Experimento de categorias globais
@@ -26,6 +26,10 @@ O proprietario escolheu futebol/cambio para teste real. A previa foi ampliada em
 
 A PR #6 implementou fontes gratuitas comerciais para hoquei, xadrez e resultados britanicos; [[sports-election-feeds]] substitui o estado de pesquisa desses escopos. Brasil/TSE permanece ingestao futura em lote.
 
+## Pesquisa esportiva posterior
+
+A pesquisa especifica de Brasileirao/NBA/outras ligas, com comparacao global de assuntos e APIs candidatas, esta em [[sports-demand-priorities]]. Priorizacao proposta, sem integrar ou publicar novas ligas.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-global-review-before-release]] - Autorizacao e limite de publicacao.
@@ -38,3 +42,5 @@ A PR #6 implementou fontes gratuitas comerciais para hoquei, xadrez e resultados
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[trends-tv-discovery]] - Escopo e limites da nova descoberta.
 - [[sports-election-feeds]] - Fontes de esportes e resultados eleitorais.
+
+- [[sports-demand-priorities]] - Demanda medida e criterios de selecao.

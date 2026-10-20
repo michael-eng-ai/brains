@@ -1,14 +1,14 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Atualizacao USD corrigida/publicada; fonte recuperada, dominio/Google pendentes."
+resumo: "Demanda esportiva pesquisada; Brasileirao/NBA/Premier propostos, app inalterado."
 tags: [global-live-data, estado, cambio, atualizacao]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-usd-fx-refresh-release]].
+Ultimo handoff: [[2026-10-19-sports-demand-research]].
 
 - Main/origin limpos 3c6a9fef83b1962f0d2b85b4fe676b3622eb1647; PR20, dois jobs CI PR/main e Production Ready exatos. [[release-status]].
 - USD latest/history disponiveis. Fonte recuperou antes do patch; pagina agora acompanha prazo do servidor, pausa em aba oculta/retomada, timeout de 20s e descarte de respostas antigas. Causa upstream anterior segue nao confirmada. [[football-fx-pilot]].
@@ -16,6 +16,8 @@ Ultimo handoff: [[2026-10-19-usd-fx-refresh-release]].
 - Cinco artigos EN/PT/ES; editorial e TSE mantem cadencias/escopo. Brasil 2026 preserva 136 recortes, nenhum quarentenado e primeiro turno; 2022 e demais arquivos inalterados.
 - Dominio/Google pendentes de escolha/autorizacao: globallivedata.com foi cotado/recomendado, sem compra/DNS/Search Console; renovar cotacao antes da transacao. [[launch-readiness]].
 - Nenhuma API, conta, chave, infraestrutura, analytics, anuncios ou automacao nova. Servidores de QA e abas temporarias encerrados.
+
+- Pesquisa atual em [[sports-demand-priorities]]: cinco assuntos no Trends global e seis RSS; indices nao sao volumes/visitas. Proposta Brasileirao/NBA/Premier, LaLiga depois; acesso/licenca/retencao ainda precisam de validacao. Nenhuma nova liga implementada/publicada nesta rodada.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -67,3 +69,6 @@ Ultimo handoff: [[2026-10-19-usd-fx-refresh-release]].
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial anterior.
 - [[2026-10-19-usd-fx-refresh-release]] - Handoff atual.
 - [[2026-10-19-repair-usd-fx-refresh]] - Correcao autorizada.
+
+- [[sports-demand-priorities]] - Nova pesquisa.
+- [[2026-10-19-sports-demand-research]] - Handoff atual da pesquisa.

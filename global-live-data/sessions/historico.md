@@ -60,6 +60,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19 local / 20 UTC: [[2026-10-19-usd-fx-refresh-release]] - PR20 corrige reconsulta automatica USD, suites completas e publicacao verificadas.
 
+- 2026-10-19: pesquisa de demanda esportiva; cinco assuntos Google Trends, seis RSS e APIs candidatas; app inalterado. [[2026-10-19-sports-demand-research]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -85,3 +87,5 @@ atualizado: "2026-10-19"
 - [[2026-10-19-mobile-load-launch]] - Testes e lancamento.
 - [[2026-10-19-getafe-editorial-release]] - Edicao editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - Entrega USD.
+
+- [[2026-10-19-sports-demand-research]] - Pesquisa de demanda.

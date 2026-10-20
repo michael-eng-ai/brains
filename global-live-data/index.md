@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Portal com oito categorias publicado e verificado.
 
 ## Conceitos
+- [[sports-demand-priorities]] - Demanda comparativa de ligas e pendencias de API.
 - [[launch-readiness]] - Dominio cotado e passos verificaveis para Google.
 - [[sports-fx-depth]] - Temporadas/time/Bundesliga e FX30/90dias publicados, com limites.
 - [[api-data-adequacy]] - Utilidade, cobertura e prioridades de dados.
@@ -87,6 +88,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-sports-demand-research]] - Pesquisa de Brasileirao/NBA/Premier e limites.
 - [[2026-10-19-usd-fx-refresh-release]] - Correcao do refresh USD publicada.
 - [[2026-10-19-getafe-editorial-release]] - Quinta leitura publicada e verificada.
 - [[2026-10-19-mobile-load-launch]] - WebKit/carga corrigidos; preparo de dominio.
@@ -202,3 +204,6 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - Handoff cambio.
 - [[2026-10-19-repair-usd-fx-refresh]] - Autorizacao USD.
+
+- [[sports-demand-priorities]] - Pesquisa de demanda.
+- [[2026-10-19-sports-demand-research]] - Handoff da pesquisa.
