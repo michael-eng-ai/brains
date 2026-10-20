@@ -62,6 +62,8 @@ atualizado: "2026-10-19"
 
 - 2026-10-19: pesquisa de demanda esportiva; cinco assuntos Google Trends, seis RSS e APIs candidatas; app inalterado. [[2026-10-19-sports-demand-research]].
 
+- 2026-10-19 local / 20UTC: [[2026-10-19-wnba-editorial-release]] - PR21 publicou guia WNBA, CI/Production e oito feeds amostrados prontos.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -89,3 +91,4 @@ atualizado: "2026-10-19"
 - [[2026-10-19-usd-fx-refresh-release]] - Entrega USD.
 
 - [[2026-10-19-sports-demand-research]] - Pesquisa de demanda.
+- [[2026-10-19-wnba-editorial-release]] - Edicao WNBA.

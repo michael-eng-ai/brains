@@ -20,3 +20,4 @@ Escolha de implementacao comunicada: heartbeat Codex de seis horas, no maximo um
 - [[2026-10-16-editorial-release]] - Handoff.
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[2026-10-19-getafe-editorial-release]] - Execucao autorizada da quinta leitura.
+- [[2026-10-19-wnba-editorial-release]] - Rodada editorial autorizada.

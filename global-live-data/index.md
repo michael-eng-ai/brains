@@ -88,6 +88,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-19-wnba-editorial-release]] - Sexta leitura WNBA e release verificado.
 - [[2026-10-19-sports-demand-research]] - Pesquisa de Brasileirao/NBA/Premier e limites.
 - [[2026-10-19-usd-fx-refresh-release]] - Correcao do refresh USD publicada.
 - [[2026-10-19-getafe-editorial-release]] - Quinta leitura publicada e verificada.

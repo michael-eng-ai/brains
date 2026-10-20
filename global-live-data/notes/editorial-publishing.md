@@ -30,6 +30,12 @@ Quinta leitura: getafe-rayo-2026-october-match-guide, EN/PT/ES. Uma pesquisa de 
 
 Novo filtro de leitura Futebol e CTA para a pagina existente; cobertura limitada a Bundesliga/Champions League permanece explicita, sem feed LaLiga. Nota de apoio de IA e ausencia de revisao humana preservada. Nenhum resultado, transmissao, jogador, causa da tendencia, foto copiada ou autor ficticio. Rayo agenda sem evento na pagina aberta e estatisticas inconsistentes da previa nao fundamentam o artigo. A cadencia/escopo das duas automacoes nao mudou. Recibos em [[release-status]].
 
+## Edicao de 19 outubro local, 20 outubro 00:54 UTC
+
+Sexta leitura: wnba-finals-2026-games-3-4-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta escolhida `valkyries game`, US, observada 2026-10-20T00:54:54.694Z. Guia usa revisao da WNBA de 13 outubro, corroborada pela arena: jogo3 em21 outubro20hET e jogo4 em24 outubro13hET. O FAQ ainda exibia calendario antigo; apenas seu formato melhor-de-sete/2-2-1-1-1 foi utilizado. Quarta referencia do time confirma mandos e jogos condicionais. Ledger no repositorio: docs/editorial/2026-10-19-wnba-finals.md.
+
+Conversoes IANA por data para Brasil/Mexico/Londres/Madri incluem virada de dia no jogo3. Sem placar, resultado, direitos de transmissao, rumor, imagens ou autoria ficticia. Basketball/Basquete/Baloncesto e filtro editorial, sem API/painel NBA/WNBA. CTA permanece no indice interno, apoio de IA e ausencia de revisao humana visiveis. O artigo usa data local19out e checagem efetiva20out00:56:08Z; nao mudar timestamps por simples refresh. Nenhuma mudanca de cadencia/escopo das automacoes. Proxima rodada compara as seis leituras; recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -44,3 +50,4 @@ Novo filtro de leitura Futebol e CTA para a pagina existente; cobertura limitada
 - [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
 - [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
 - [[2026-10-19-getafe-editorial-release]] - Handoff da quinta leitura.
+- [[2026-10-19-wnba-editorial-release]] - Handoff da sexta leitura.

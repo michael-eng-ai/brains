@@ -27,3 +27,4 @@ Proximo piloto deve validar atual/anterior, cobertura, horario/status, cache/quo
 - [[current]] - Foco atual.
 - [[category-research]] - Pesquisa anterior e evolucao de prioridades.
 - [[2026-10-19-sports-demand-research]] - Handoff e limites desta rodada.
+- [[release-status]] - Recibos editoriais nao equivalem a novas ligas de dados.

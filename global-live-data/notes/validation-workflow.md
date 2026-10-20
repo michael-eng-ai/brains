@@ -148,6 +148,12 @@ Node 24.22.0: check com 92 testes unitarios/lint/tipos/build/smoke HTTP, Python 
 
 CUA real em 390x844/1280x900: cache local antigo mostrou erro e passou automaticamente a quatro taxas USD, consultadas 00:38 UTC; conversao de 250 USD para JPY, consulta manual, 90 dias e PT/EN/ES funcionaram. Reuso preservou checkedAt/retrievedAt. Sem blank/overlay/overflow/warn/error. Browser plugin ausente; Playwright do repositorio e CUA. Safari iOS nativo e carga nao executados nesta correcao. Nao repetir equivalencia entre WebKit e iPhone fisico. Consulta do conector Vercel 403 sem acesso ao escopo; CLI ausente, dashboard autenticado confirmou Production, sem alterar acesso. Recibos remotos em [[release-status]].
 
+## Edicao WNBA, 19 outubro local
+
+Node24.22.0/npm11.21.1: check com lint/tipos,92 testes unitarios,build/smoke HTTP;11 Python; Chromium final33/33 passaram. Primeiro check detectou icone ausente para novo topico; CircleDot foi adicionado ao mapa tipado. Primeira suite32/33 esperava na home um artigo que saiu do recorte das duas leituras mais recentes; locator atualizado para WNBA, mantendo assercoes de navegacao/overflow/console. Suite completa repetida passou; nenhum gate relaxado.
+
+CUA local390x844/1280x900: filtro Basquete, leituraPT/EN/ES, indice/fontes, idioma e retorno interno, sem overflow/warn/error. Publico mobile390: leitura, PT->EN e retorno ao indice confirmados sem overflow/warn/error. Nove paginas HTTP, Article JSON-LD/quatro fontes, canonical/hreflang/disclosure e sitemap75 passaram. WebKit, Safari iOS nativo e carga nao repetidos para este artigo. ServidorQA proprio e abas temporarias encerrados; viewport restaurado. Sem fixtures publicadas ou dependencias novas. Recibos e ops pontual em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -189,3 +195,4 @@ CUA real em 390x844/1280x900: cache local antigo mostrou erro e passou automatic
 - [[launch-readiness]] - Limites antes da promocao.
 - [[2026-10-19-getafe-editorial-release]] - Verificacao editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - QA do refresh USD.
+- [[2026-10-19-wnba-editorial-release]] - QA da sexta leitura.

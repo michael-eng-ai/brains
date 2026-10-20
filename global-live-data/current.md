@@ -1,23 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Demanda esportiva pesquisada; Brasileirao/NBA/Premier propostos, app inalterado."
-tags: [global-live-data, estado, cambio, atualizacao]
+resumo: "PR21 publica guia WNBA; seis artigos e testes/CI/Production verificados."
+tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-19"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-19-sports-demand-research]].
+Ultimo handoff: [[2026-10-19-wnba-editorial-release]].
 
-- Main/origin limpos 3c6a9fef83b1962f0d2b85b4fe676b3622eb1647; PR20, dois jobs CI PR/main e Production Ready exatos. [[release-status]].
-- USD latest/history disponiveis. Fonte recuperou antes do patch; pagina agora acompanha prazo do servidor, pausa em aba oculta/retomada, timeout de 20s e descarte de respostas antigas. Causa upstream anterior segue nao confirmada. [[football-fx-pilot]].
-- Check 92/Python 11/Chromium 33/WebKit 33 passaram; QA real 390/1280 e EN/PT/ES. Safari nativo iOS/carga nao executados nesta correcao; evidencia anterior de carga em [[validation-workflow]].
-- Cinco artigos EN/PT/ES; editorial e TSE mantem cadencias/escopo. Brasil 2026 preserva 136 recortes, nenhum quarentenado e primeiro turno; 2022 e demais arquivos inalterados.
-- Dominio/Google pendentes de escolha/autorizacao: globallivedata.com foi cotado/recomendado, sem compra/DNS/Search Console; renovar cotacao antes da transacao. [[launch-readiness]].
-- Nenhuma API, conta, chave, infraestrutura, analytics, anuncios ou automacao nova. Servidores de QA e abas temporarias encerrados.
-
-- Pesquisa atual em [[sports-demand-priorities]]: cinco assuntos no Trends global e seis RSS; indices nao sao volumes/visitas. Proposta Brasileirao/NBA/Premier, LaLiga depois; acesso/licenca/retencao ainda precisam de validacao. Nenhuma nova liga implementada/publicada nesta rodada.
+- Main/origin limpos cd4d7e5328de572603e6eef20bc621f77d4cde2e; PR21, dois jobs CI PR/main e Production Ready exatos. [[release-status]].
+- Seis artigos EN/PT/ES. Novo guia WNBA usa calendario revisado e conversoes por data, quatro referencias e nota de IA/sem revisao humana. Basquete e somente filtro editorial. [[editorial-publishing]].
+- Check92/Python11/Chromium33 passaram; QA390/1280 local e mobile publico. WebKit/Safari iOS nativo/carga nao repetidos para este artigo; evidencias anteriores separadas em [[validation-workflow]].
+- Um ops:check01:06UTC passou com oito feeds prontos, incluindoUSD. FX preserva correcao de refresh; causa upstream anterior nao confirmada. [[football-fx-pilot]].
+- TSE/editorial mantem frequencias/escopo; Brasil2026 tem136 recortes validos do primeiro turno, nenhum em quarentena. Brasil2022 e demais edicoes preservados.
+- Pesquisa em [[sports-demand-priorities]]: proposta Brasileirao/NBA/Premier, LaLiga depois; indices Trends relativos, acesso/licenca/retencao ainda precisam validacao. Nenhuma nova liga de dados implementada/publicada nesta rodada.
+- Dominio/Google pendentes em [[launch-readiness]]; .com cotado anteriormente, sem compra/DNS/Search Console. Nenhuma conta/chave/custo/analytics/anuncio novo. ServidorQA e abas temporarias encerrados, viewport restaurado.
 
 ## Conexoes
 - [[index]] - Entrada do projeto.
@@ -72,3 +71,4 @@ Ultimo handoff: [[2026-10-19-sports-demand-research]].
 
 - [[sports-demand-priorities]] - Nova pesquisa.
 - [[2026-10-19-sports-demand-research]] - Handoff atual da pesquisa.
+- [[2026-10-19-wnba-editorial-release]] - Handoff editorial atual.

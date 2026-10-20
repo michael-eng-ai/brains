@@ -208,6 +208,16 @@ Production Ready dpl_EthEVzduhgGzbv36z8D9EZevjQRf, source main integral conferid
 
 Fonte ja tinha recuperado antes da correcao; a entrega corrige retencao indefinida do erro no navegador, nao prova causa/remocao de falha upstream. [[football-fx-pilot]] / docs/FX-REFRESH.md. Sem contas/custos/credenciais/analytics/anuncios ou frequencia de automacao alterados.
 
+## Sexta leitura publicada: PR21
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/21; head af3e1556b0653b7bb0bd904ccea8964194582664. Merge2026-10-20T01:05:55Z, main cd4d7e5328de572603e6eef20bc621f77d4cde2e; arvore identica ao head aprovado, checkout/origin limpos. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39351317297 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39351519761: ambos jobs success nos SHAs exatos.
+
+Vercel Production Ready dpl_EnJYnv8RHdF6MEeuhVXUX1H97BHP; source main integral conferida no dashboard autenticado, conclusao01:06:34UTC. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/EnJYnv8RHdF6MEeuhVXUX1H97BHP; URL unica https://global-live-data-ma9kv0tx4-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy duplicado ou alteracao de acesso.
+
+Verificacao anonima 2026-10-20T01:06:47.992Z: nove paginas home/indice/artigo EN/PT/ES HTTP200 com deployment exato/CSP. Canonical/hreflang, Article JSON-LD com quatro fontes e disclosure passaram; sitemap75 URLs inclui as tres novas. UI publicada mobile/leitura/idioma/retorno sem overflow ou console warn/error. Leitura PT https://global-live-data.vercel.app/pt/trending/wnba-finals-2026-games-3-4-guide . Um ops:check as01:06:46.793Z saiu0, oito feeds representativos ready (incluindoUSD); observacao pontual, nao SLA/todos seletores.
+
+Conteudo em [[editorial-publishing]], QA em [[validation-workflow]]. Artefatos temporarios /tmp/gld-wnba-public-pages.json, /tmp/gld-wnba-ops.log e /tmp/gld-wnba-checks-final.log. Nenhuma API/conta/chave/custo/ads/analytics ou automacao alterada. A pesquisa de ampliacao esportiva permanece proposta em [[sports-demand-priorities]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -260,3 +270,4 @@ Fonte ja tinha recuperado antes da correcao; a entrega corrige retencao indefini
 - [[launch-readiness]] - Etapa de lancamento.
 - [[2026-10-19-getafe-editorial-release]] - Handoff editorial.
 - [[2026-10-19-usd-fx-refresh-release]] - Recibos da entrega.
+- [[2026-10-19-wnba-editorial-release]] - Recibos da sexta leitura.
