@@ -68,6 +68,8 @@ atualizado: "2026-10-20"
 
 - 2026-10-20 13:06 UTC: [[2026-10-20-cricket-editorial-release]] - PR23 publicou oitava leitura EN/PT/ES, CI/Production Ready/publico verificados; pendencia direta Ready da PR22 resolvida.
 
+- 2026-10-20 | PR24 Brasileirao publicada; NBA preparada sem chave; CI e paginas publicas verificados. [[2026-10-20-brasileirao-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -98,3 +100,5 @@ atualizado: "2026-10-20"
 - [[2026-10-19-wnba-editorial-release]] - Edicao WNBA.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
+
+- [[2026-10-20-brasileirao-release]] - Handoff Brasileirao.

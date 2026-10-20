@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Demanda medida para cinco ligas e candidatos de API ainda sujeitos a validacao."
 tags: [global-live-data, produto, esportes, demanda]
-atualizado: "2026-10-19"
+atualizado: "2026-10-20"
 ---
 
 # Demanda esportiva
@@ -22,9 +22,17 @@ Relatorio local completo e evidencia: /Users/michaelsantos/Documents/GitHub/glob
 
 Proximo piloto deve validar atual/anterior, cobertura, horario/status, cache/quota agregada e navegacao EN/PT/ES por liga/time/jogos/tabela. SearchConsole futuro pode medir impressões/cliques/CTR por liga/pais em28dias; nenhuma metrica propria existe e nenhuma automacao/analytics foi criada. Codigo/main/publicacao inalterados; suites nao executadas porque apenas pesquisa.
 
+## Atualizacao de 20 outubro 2026
+
+O proprietario autorizou Brasileirao/NBA e escolheu publicar Brasileirao, deixando NBA preparada. SportScore passou a atender o recorte parcial do Brasileirao com uso comercial inicial e credito obrigatorio; detalhes em [[brasileirao-nba-feeds]]. BALLDONTLIE continua sem chave. A medicao Trends de 19 outubro nao foi atualizada: comparacao de 20 outubro com erro. RSS US/BR pronto as 15:29 UTC, sem as ligas nos dez itens retornados, nao prova ausencia de demanda. Edicao historica anterior ainda nao importada. O probe validou 19 clubes; Gremio foi bloqueado por identidade inconsistente.
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Foco atual.
 - [[category-research]] - Pesquisa anterior e evolucao de prioridades.
 - [[2026-10-19-sports-demand-research]] - Handoff e limites desta rodada.
 - [[release-status]] - Recibos editoriais nao equivalem a novas ligas de dados.
+
+- [[brasileirao-nba-feeds]] - Integracao publicada.
+
+- [[2026-10-20-brasileirao-release]] - Handoff.

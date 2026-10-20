@@ -1,77 +1,88 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR23 publicada e verificada; oito artigos e cerebro atualizado, Ready PR22 resolvido."
-tags: [global-live-data, estado, editorial]
+resumo: "Brasileirao publicado via PR24; NBA preparada e desativada conforme escolha."
+tags: [global-live-data, estado, esportes]
 atualizado: "2026-10-20"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-20-cricket-editorial-release]].
+Ultimo handoff: [[2026-10-20-brasileirao-release]].
 
-- Main/origin limpos 56bcde21f4352039f31ef1b1c1106141f0b65bac; PR23 e ambos CI PR/main aprovados. Vercel Production Ready/SHA integral e nove paginas publicas verificados. [[release-status]].
-- Oito artigos EN/PT/ES. Novo guia India-Zimbabue feminino: agenda T20I/ODI e horarios por cidade/data, quatro referencias primarias e nota IA/sem revisao humana. Criquete e filtro editorial, sem placar/feed. [[editorial-publishing]].
-- A pendencia Ready direta da PR22 foi resolvida pelo dashboard Chrome autenticado; nenhuma nova credencial ou ampliacao de acesso. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
-- Check92/Python11/Chromium33 passaram na primeira execucao; QA local390/1280/publica mobile sem overflow/console. WebKit/Safari iOS nativo/carga nao repetidos. [[validation-workflow]].
-- Um ops:check13:19UTC passou com oito feeds representativos ready, incluindo USD; observacao pontual.
-- TSE/editorial mantem frequencias/escopo. Brasil2026 preserva136 recortes validos do primeiro turno, sem quarentena; segundo turno ainda nao publicado. 2022 e demais edicoes preservados.
-- Brasileirao/NBA/Premier seguem propostas em [[sports-demand-priorities]], com acesso/licenca/retencao a validar; nenhuma liga nova de dados nesta rodada.
-- Dominio/Google pendentes em [[launch-readiness]]. Sem compra/DNS/Search Console/conta/chave/custo/analytics/anuncio novo. ServidorQA/abas proprias encerrados e viewport restaurado.
+- Main/origin limpos e705e1ebc74787465c5b446a6e8698879c65081c; PR24 integrada, CI PR/main aprovado. Publicacao confirmada pelo deployment GitHub Production/success e pelo alias publico; verificacao direta do campo Ready no painel ainda pendente. [[release-status]].
+- Brasileirao publicado: tabela de 20 clubes, jogos parciais por clube. Probe validou 19 clubes; Grêmio bloqueado por identidade inconsistente. Credito SportScore obrigatorio. [[brasileirao-nba-feeds]].
+- NBA preparada e desativada sem chave, conforme escolha explicita. Nenhuma conta ou servico novo. [[2026-10-20-publish-brasileirao-prepare-nba]].
+- Check 101, Python 11, Chromium 35 e WebKit 35 aprovados. QA real mobile/desktop sem overflow ou erros de console. Sem Safari iOS fisico, carga ou NBA autenticada nesta entrega. [[validation-workflow]].
+- Um ops:check em 20 outubro, 16:07:36 UTC, passou com nove feeds representativos ready em sete leituras, incluindo Brasileirao e USD. Observacao pontual, nao garantia continua.
+- Oito artigos EN/PT/ES e seis arquivos historicos preservados. Brasil 2026 tem 136 recortes validos do primeiro turno; segundo turno ainda nao publicado. Rotinas TSE/editorial inalteradas.
+- Dominio e Google pendentes; nenhuma compra, DNS, Search Console, analytics ou anuncio novo. [[launch-readiness]].
 
 ## Conexoes
-- [[index]] - Entrada do projeto.
-- [[2026-10-16-sports-election-release]] - Handoff historico da expansao.
-- [[2026-10-16-publish-sports-elections]] - Autorizacao historica de esportes/eleicoes.
-- [[sports-election-feeds]] - Contratos e fontes.
-- [[release-status]] - Evidencias remotas.
-- [[validation-workflow]] - Testes e limites.
-- [[2026-10-15-portal-release]] - Handoff anterior do portal.
-- [[2026-10-15-discovery-release]] - Handoff anterior da descoberta.
-- [[football-fx-pilot]] - Integracoes anteriores.
-- [[2026-10-15-publish-portal]] - Autorizacao anterior.
-- [[2026-10-15-publish-discovery]] - Autorizacao anterior.
-- [[trends-tv-discovery]] - Descoberta anterior.
-- [[category-research]] - Pesquisa de categorias.
-- [[editorial-publishing]] - Protocolo editorial e recorrencia.
-- [[2026-10-16-auto-editorial]] - Escolha explicita de publicacao automatica.
-- [[2026-10-16-editorial-release]] - Handoff editorial.
-- [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
-- [[2026-10-16-history-release]] - Handoff do historico publicado.
-- [[brazil-election-comparison]] - Comparacao oficial 2026/2022 e divergencias da fonte.
-- [[2026-10-16-brazil-comparison-release]] - Handoff da comparacao publicada.
-- [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
-- [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
-- [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
-- [[2026-10-16-tour-editorial-release]] - Evidencia e handoff da primeira rodada editorial.
-- [[consolidation-audit]] - Evidencias e prioridades.
-- [[2026-10-16-consolidate-first]] - Direcao de consolidacao.
-- [[2026-10-16-consolidation-audit]] - Handoff da auditoria.
-- [[2026-10-16-consolidation-release]] - Handoff da consolidacao publicada.
-- [[2026-10-16-publish-consolidation]] - Autorizacao especifica de consolidacao e publicacao.
-- [[api-data-adequacy]] - Adequacao e profundidade dos dados.
-- [[2026-10-16-api-data-audit]] - Ultima auditoria.
-- [[2026-10-16-publish-sports-fx-depth]] - Entrega de esportes e FX.
-- [[2026-10-19-tse-ro-release]] - Ultimo handoff TSE.
-- [[2026-10-19-asian-para-editorial-release]] - Handoff da edicao editorial dos Jogos Para-Asiaticos.
-- [[2026-10-19-mexico-weather-first]] - Escopo local selecionado pelo proprietario.
-- [[2026-10-19-mexico-weather-preview]] - Handoff da previa mexicana.
-- [[2026-10-19-publish-mexico-weather]] - Autorizacao da previsao publicada.
-- [[2026-10-19-mexico-weather-release]] - Handoff anterior da previsao.
-- [[met-forecast]] - Previsao publicada.
-- [[2026-10-19-usgs-refresh-release]] - Handoff anterior USGS.
-- [[2026-10-19-repair-usgs-refresh]] - Autorizacao desta correcao.
-- [[provider-cache]] - Cache corrigido.
-- [[usgs-earthquakes]] - Fonte atual.
-- [[2026-10-19-mobile-load-launch]] - Handoff anterior mobile/carga.
-- [[2026-10-19-mobile-load-and-domain-research]] - Autorizacao de testes/pesquisa.
-- [[launch-readiness]] - Proximo passo de dominio/Google.
-- [[2026-10-19-getafe-editorial-release]] - Handoff editorial anterior.
-- [[2026-10-19-usd-fx-refresh-release]] - Handoff atual.
-- [[2026-10-19-repair-usd-fx-refresh]] - Correcao autorizada.
-
-- [[sports-demand-priorities]] - Nova pesquisa.
-- [[2026-10-19-sports-demand-research]] - Handoff atual da pesquisa.
-- [[2026-10-19-wnba-editorial-release]] - Handoff editorial atual.
-- [[2026-10-20-spain-clock-editorial-release]] - Handoff anterior; pendencia Ready resolvida.
-- [[2026-10-20-cricket-editorial-release]] - Handoff atual.
+- [[index]] - Entrada.
+- [[2026-10-20-brasileirao-release]] - Handoff.
+- [[2026-10-20-publish-brasileirao-prepare-nba]] - Autorizacao.
+- [[brasileirao-nba-feeds]] - Contrato.
+- [[release-status]] - Recibos.
+- [[validation-workflow]] - Gates.
+- [[environment]] - Nomes de configuracao.
+- [[sports-demand-priorities]] - Demanda datada.
+- [[historical-editions]] - Retencao.
+- [[editorial-publishing]] - Rotina editorial.
+- [[refresh-tse-elections]] - Rotina TSE.
+- [[launch-readiness]] - Dominio e Google.
+- [[2026-10-16-publish-sports-fx-depth]] - Contexto relacionado.
+- [[2026-10-16-publish-consolidation]] - Contexto relacionado.
+- [[2026-10-15-publish-portal]] - Contexto relacionado.
+- [[2026-10-15-football-fx-first]] - Contexto relacionado.
+- [[2026-10-15-authorize-publication]] - Contexto relacionado.
+- [[2026-10-16-consolidate-first]] - Contexto relacionado.
+- [[2026-10-15-global-review-before-release]] - Contexto relacionado.
+- [[2026-10-19-mobile-load-and-domain-research]] - Contexto relacionado.
+- [[2026-10-19-publish-mexico-weather]] - Contexto relacionado.
+- [[2026-10-19-repair-usgs-refresh]] - Contexto relacionado.
+- [[2026-10-19-mexico-weather-first]] - Contexto relacionado.
+- [[2026-10-16-auto-tse]] - Contexto relacionado.
+- [[2026-10-15-publish-discovery]] - Contexto relacionado.
+- [[2026-10-16-publish-sports-elections]] - Contexto relacionado.
+- [[2026-10-19-repair-usd-fx-refresh]] - Contexto relacionado.
+- [[2026-10-16-auto-editorial]] - Contexto relacionado.
+- [[2026-10-19-sports-demand-research]] - Contexto relacionado.
+- [[2026-10-15-discovery-release]] - Contexto relacionado.
+- [[2026-10-15-init]] - Contexto relacionado.
+- [[2026-10-16-sports-fx-depth-release]] - Contexto relacionado.
+- [[2026-10-15-production-launch]] - Contexto relacionado.
+- [[2026-10-16-consolidation-audit]] - Contexto relacionado.
+- [[2026-10-19-getafe-editorial-release]] - Contexto relacionado.
+- [[2026-10-16-sports-election-release]] - Contexto relacionado.
+- [[2026-10-16-history-release]] - Contexto relacionado.
+- [[2026-10-19-mobile-load-launch]] - Contexto relacionado.
+- [[2026-10-19-wnba-editorial-release]] - Contexto relacionado.
+- [[2026-10-16-consolidation-release]] - Contexto relacionado.
+- [[2026-10-19-usgs-refresh-release]] - Contexto relacionado.
+- [[2026-10-19-mexico-weather-release]] - Contexto relacionado.
+- [[2026-10-16-tse-refresh-release]] - Contexto relacionado.
+- [[2026-10-19-mexico-weather-preview]] - Contexto relacionado.
+- [[2026-10-19-asian-para-editorial-release]] - Contexto relacionado.
+- [[2026-10-19-tse-ro-release]] - Contexto relacionado.
+- [[2026-10-20-spain-clock-editorial-release]] - Contexto relacionado.
+- [[2026-10-16-api-data-audit]] - Contexto relacionado.
+- [[2026-10-16-editorial-release]] - Contexto relacionado.
+- [[2026-10-15-mobile-category-lab]] - Contexto relacionado.
+- [[2026-10-19-usd-fx-refresh-release]] - Contexto relacionado.
+- [[2026-10-15-football-fx-pilot]] - Contexto relacionado.
+- [[2026-10-15-portal-release]] - Contexto relacionado.
+- [[2026-10-20-cricket-editorial-release]] - Contexto relacionado.
+- [[2026-10-16-brazil-comparison-release]] - Contexto relacionado.
+- [[2026-10-16-tour-editorial-release]] - Contexto relacionado.
+- [[usgs-earthquakes]] - Contexto relacionado.
+- [[api-data-adequacy]] - Contexto relacionado.
+- [[category-research]] - Contexto relacionado.
+- [[sports-fx-depth]] - Contexto relacionado.
+- [[provider-cache]] - Contexto relacionado.
+- [[met-forecast]] - Contexto relacionado.
+- [[brazil-election-comparison]] - Contexto relacionado.
+- [[football-fx-pilot]] - Contexto relacionado.
+- [[consolidation-audit]] - Contexto relacionado.
+- [[trends-tv-discovery]] - Contexto relacionado.
+- [[sports-election-feeds]] - Contexto relacionado.

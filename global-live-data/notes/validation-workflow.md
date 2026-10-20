@@ -168,6 +168,12 @@ CUA local390x844/1280x900: filtro Criquete, leituraPT/EN/ES, indice/fontes, idio
 
 A pendencia direta Ready da PR22 foi resolvida nesta rodada pelo dashboard Chrome autenticado; o novo deployment PR23 tambem foi inspecionado nesse canal, sem copiar credenciais ou alterar acesso.
 
+## Brasileirao e NBA preparada - 20 outubro
+
+Node 24.22.0: check com 101 testes unitarios, lint, tipos, build e HTTP smoke; Python 11; Chromium 35; WebKit 35. Todos passaram apos o ajuste final de sincronizacao do clube na URL. O primeiro browser falhou em uma assercao antiga de zero links externos; ela foi corrigida para verificar exatamente o credito SportScore exigido pela licenca. Todas as jornadas interceptam /api/americas para manter CI sem consultas externas.
+
+QA real local e publica em 390/1280 px confirmou tabela com 20 clubes, filtro de resultados, idioma preservando clube e aviso de indisponibilidade do Gremio, sem overflow ou erros de console. CUA representou botoes aria-pressed como checkbox na arvore nativa; no locator Playwright usar role=button. WebKit emula iPhone 13; nao e teste em aparelho iOS. Nesta entrega nao houve teste de carga, Safari nativo ou probe autenticado NBA. Uma verificacao HTTP em Python falhou por CA local; repetida com Node e TLS validado, passou. Evidencias remotas em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -212,3 +218,7 @@ A pendencia direta Ready da PR22 foi resolvida nesta rodada pelo dashboard Chrom
 - [[2026-10-19-wnba-editorial-release]] - QA da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
+
+- [[brasileirao-nba-feeds]] - Contratos testados.
+
+- [[2026-10-20-brasileirao-release]] - Handoff.

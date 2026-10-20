@@ -24,8 +24,16 @@ A API GitHub autenticada continua acessivel e fornece o SHA exato, status Vercel
 
 Chrome autenticado ficou novamente disponivel via CUA. O dashboard do deployment existente da PR22 mostrou diretamente Ready/Production/main e o SHA integral esperado; recibo complementar registrado na PR. A publicacao posterior PR23 foi verificada pelo mesmo canal. A pendencia Ready da PR22 esta encerrada. Conector/CLI nao foram reexecutados nem declarados recuperados. Usar a sessao autorizada existente, sem copiar credenciais entre ferramentas, criar contas, ampliar permissoes ou redesplegar para resolver uma lacuna de inspecao. [[release-status]].
 
+## PR24 - 20 outubro, conferência direta pendente
+
+O conector get_deployment voltou a retornar 403 para o deployment dpl_BmV1UgWagcktwAAhT7RYdUKNdHKj no scope existente. A extensão Chrome não estava disponível; o painel nativo ficou em uma etapa de configuração de autenticação. Nenhuma configuração de segurança foi alterada. Foi solicitado ao proprietário que avise quando o painel estiver disponível. Não repetir a mesma chamada nem copiar credenciais ou redesplegar.
+
+A integração GitHub registrou deployment 7204773051 com SHA exato, environment Production e success; o alias público serviu o mesmo deployment ID e passou nos testes. Isso comprova a publicação, mas o campo Ready ainda não foi lido diretamente nesta rodada. Completar essa conferência quando houver acesso e acrescentar o recibo, sem nova publicação. [[2026-10-20-brasileirao-release]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
+
+- [[2026-10-20-brasileirao-release]] - Conferência direta pendente da PR24.

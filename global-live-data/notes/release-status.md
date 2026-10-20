@@ -243,6 +243,15 @@ Verificacao anonima em 13:19:49.757Z: nove paginas home/indice/artigo EN/PT/ES H
 
 Uma sondagem ops:check em13:19:48.391Z saiu0 com oito feeds representativos ready, incluindo USD. Amostra pontual, nao garantia de saude continua/todos seletores. Artefatos temporarios /tmp/gld-cricket-public-pages.json e /tmp/gld-cricket-ops.log podem expirar. Apuracao em [[editorial-publishing]], QA em [[validation-workflow]]. Sem nova conta/chave/custo/provider/analytics/anuncio ou alteracao de frequencia.
 
+## Brasileirao publicado; NBA preparada - 20 outubro
+
+PR24 https://github.com/michael-eng-ai/global-live-data/pull/24 integrada em 2026-10-20T16:05:11Z. Head aprovado 466c9c2d3077604e58b640556cb5667dfb6986eb; main local/remota e705e1ebc74787465c5b446a6e8698879c65081c, arvore limpa e conteudo identico ao head aprovado. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39453331004 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39454312026: ambos os jobs aprovados nos respectivos SHAs.
+
+GitHub deployment 7204773051, associado ao SHA exato, registrou environment Production e state success (Deployment has completed) em 16:05:52 UTC. O status Vercel no commit tambem foi success. O campo Ready do painel/API ainda nao foi observado diretamente: conector Vercel retornou 403; a sessao do navegador ficou em configuracao de autenticacao, sem intervencao nesta tarefa. Conferencia direta pendente; nao redesplegar nem ampliar acesso para resolver essa lacuna. Dashboard: https://vercel.com/michael-eng-ais-projects/global-live-data/BmV1UgWagcktwAAhT7RYdUKNdHKj. Deployment: dpl_BmV1UgWagcktwAAhT7RYdUKNdHKj. URL unica: https://global-live-data-ltblfohcg-michael-eng-ais-projects.vercel.app. Alias publico e HTML data-dpl-id conferidos em 2026-10-20T16:08:14.880Z. Pagina: https://global-live-data.vercel.app/pt/football/brasileirao . As nove paginas do portal, futebol e Brasileirao em EN/PT/ES responderam 200 e exibiram credito SSR e o mesmo deployment ID. NBA respondeu 404 nos tres idiomas e API com dados nulos. Flamengo retornou 21 jogos filtrados de 30; Gremio retornou erro sem dados, preservando o bloqueio.
+
+Check com 101 testes unitarios, 11 testes Python de historico, 35 Chromium e 35 WebKit passaram. QA real local e publica em 390/1280 px: tabela, clube, resultados e idioma, sem overflow ou erros de console. Capturas fora do Git: /tmp/gld-brasileirao-published-mobile.png e /tmp/gld-brasileirao-published-desktop.png. Um ops:check em 20 outubro, 16:07:36 UTC, passou com nove feeds representativos ready em sete leituras, incluindo Brasileirao e USD. Observacao pontual, nao garantia continua. NBA continua desativada, sem teste autenticado. Gremio bloqueado por colisao de identidade; 19 clubes passaram no probe local. Contrato e lacunas em [[brasileirao-nba-feeds]].
+
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -298,3 +307,7 @@ Uma sondagem ops:check em13:19:48.391Z saiu0 com oito feeds representativos read
 - [[2026-10-19-wnba-editorial-release]] - Recibos da sexta leitura.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
+
+- [[brasileirao-nba-feeds]] - Contrato da integracao.
+
+- [[2026-10-20-brasileirao-release]] - Handoff.

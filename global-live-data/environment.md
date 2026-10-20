@@ -3,7 +3,7 @@ tipo: "ambiente"
 projeto: "global-live-data"
 resumo: "Configuracao por nomes e comandos verificados, sem valores privados."
 tags: ["global-live-data", "ambiente"]
-atualizado: "2026-10-16"
+atualizado: "2026-10-20"
 ---
 
 # Ambiente
@@ -45,6 +45,14 @@ O mesmo GLD_ENABLE_LAB agora protege app/api/lab/data/route.ts, alem da pagina. 
 
 Nenhuma variavel nova. npm run history:build roda com Node 24 antes de dev/build; node:sqlite integrado. Python 3.11+ apenas para importador TSE offline e seus tres testes; CI/app nao dependem de Python. Procedimentos em docs/HISTORY.md do repo.
 
+## NBA preparada - 20 outubro 2026
+
+| Variavel | Uso | Tipo e origem | Obrigatoria |
+| --- | --- | --- | --- |
+| BALLDONTLIE_API_KEY | lib/americas/index.ts e rota basketball | Chave privada da conta gratuita do proprietario; obter em app.balldontlie.io; guardar apenas em .env.local ignorado ou hosting autorizado | Apenas para ativar NBA; nao configurada |
+
+Exemplo vazio adicionado. Nenhuma alteracao de valores, .env.local ou configuracao Vercel. Sem chave: pagina 404 e zero consultas. Smoke e Playwright esvaziam a variavel para impedir I/O; opt-in de laboratorio exclusivamente local.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[met-forecast]] - Previsao MET condicionada a identificacao publica autorizada.
@@ -57,3 +65,7 @@ Nenhuma variavel nova. npm run history:build roda com Node 24 antes de dev/build
 - [[category-research]] - Contexto e evidencia da revisao local.
 - [[football-fx-pilot]] - Contexto e evidencia do piloto real.
 - [[historical-editions]] - Persistencia historica, contratos e evidencia de retomada.
+
+- [[brasileirao-nba-feeds]] - Integracao preparada.
+
+- [[2026-10-20-brasileirao-release]] - Handoff.
