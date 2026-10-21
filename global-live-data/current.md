@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Nona leitura League Pass visivel; verificacao direta Ready PR24/25 pendente."
+resumo: "Decima leitura Orionids servida; Ready direto PR24/25/26 pendente."
 tags: [global-live-data, estado, editorial]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-20-league-pass-editorial-release]].
+Ultimo handoff: [[2026-10-21-orionids-editorial-release]].
 
-- Main/origin limpos 45ed274ff0fb77a18d443e4caa13d7f8ae5040f2; PR25 integrada, CI PR/main com ambos jobs aprovados. GitHub Production/success e nove paginas anonimas confirmam o novo artigo servido. Campo Ready direto ainda pendente por 403/painel em autenticador, tambem para PR24. [[release-status]].
-- Nove artigos EN/PT/ES, incluindo guia League Pass com tres fontes oficiais, exemplo e checklist originais. Sem placares NBA; adapter preparado continua desativado conforme escolha. [[editorial-publishing]] e [[brasileirao-nba-feeds]].
-- Validacao desta edicao: check 101, Python 11, Chromium 35 e QA 390/1280 aprovados. WebKit, Safari iOS nativo e carga nao repetidos para esta mudanca editorial. [[validation-workflow]].
-- Um ops:check em 20 outubro, 19:22:56 UTC encontrou nove feeds representativos ready em sete leituras; amostra pontual.
-- Brasileirao continua com tabela 20 e jogos parciais por clube; Grêmio bloqueado por identidade inconsistente. Credito SportScore preservado. [[brasileirao-nba-feeds]].
-- Seis arquivos historicos preservados; Brasil 2026 com 136 recortes do primeiro turno. Segundo turno ainda nao publicado. Rotinas TSE/editorial e frequencias inalteradas. [[historical-editions]].
-- Dominio/Google e NBA com dados reais continuam pendentes das decisoes/configuracoes do proprietario. Nenhuma compra, DNS, Search Console, conta, chave, anuncio ou analytics novo. [[launch-readiness]].
+- Main/origin limpos a4674678af28ea27b4169e2c2bbb4195f7521249; PR26 integrada e ambos os jobs CI PR/main aprovados. GitHub Production/success e nove paginas anonimas confirmam o guia servido; Ready direto continua pendente para PR24/25/26. [[release-status]].
+- Dez artigos EN/PT/ES; novo guia Orionids com tres fontes primarias e filtro Ceu noturno. Nao ha novo feed astronomico ou promessa de visibilidade. [[editorial-publishing]].
+- Check 101, Python 11, Chromium 35 e QA mobile/desktop aprovados. WebKit, iOS Safari nativo e carga nao repetidos. [[validation-workflow]].
+- Ops pontual: nove feeds representativos ready em sete leituras em 2026-10-21T01:20:49.206Z; nao e garantia continua.
+- Brasileirao preserva tabela de 20 clubes e jogos parciais, com Gremio bloqueado por identidade inconsistente. NBA preparada/desativada sem chave, conforme escolha. [[brasileirao-nba-feeds]].
+- Seis arquivos historicos preservados; Brasil 2026 com 136 recortes do primeiro turno; segundo turno ainda nao publicado. Rotinas TSE/editorial e frequencias inalteradas. [[historical-editions]].
+- Dominio/Google e NBA com dados reais aguardam decisoes/configuracoes do proprietario; sem novas compras, contas, chaves, DNS, anuncios ou analytics. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-20-league-pass-editorial-release]] - Handoff atual.
+- [[2026-10-21-orionids-editorial-release]] - Handoff atual.
+- [[2026-10-20-league-pass-editorial-release]] - Handoff anterior.
 - [[index]] - Entrada.
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-publish-brasileirao-prepare-nba]] - Autorizacao.

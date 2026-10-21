@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Validacao
@@ -180,6 +180,12 @@ Node 24.22.0/npm 11.21.1: check com lint/tipos, 101 unitarios,history/Next build
 
 CUA local 390x844/1280x900: leitura PT/EN/ES, filtro Basquete, indice/fontes, idioma e retorno interno, sem overflow ou warn/error. Publico 390px: leitura PT, idioma EN, retorno ao indice e filtro Basketball com duas leituras, sem overflow/warn/error. Uma tentativa de inspecao usou capability viewport no tab e outra usou opcao level nao suportada no locator CUA; corrigidas usando capability do browser e heading por nome, sem alterar o produto. Nove paginas anonimas, deployment correto, CSP, JSON-LD/tres fontes, canonical/hreflang/disclosure e inclusao no sitemap passaram. WebKit, Safari iOS nativo e carga nao repetidos nesta mudanca editorial. Servidor QA e abas proprias encerrados; viewport restaurado. Capturas temporarias /tmp/gld-league-pass-published-mobile.png e /tmp/gld-league-pass-desktop.png. CI e amostra ops em [[release-status]].
 
+## Edicao Orionids, 21 outubro 2026
+
+Node 24.22.0/npm 11.21.1: check com lint/tipos, 101 unitarios, history/Next build e smoke HTTP; 11 Python; 35 Chromium aprovados. Apos ajuste final de clareza em tres frases, check e Chromium completos repetidos com sucesso. Nenhum teste falhou; catalogo ajustado de nove para dez. Logs temporarios /tmp/gld-orionids-validation.log e /tmp/gld-orionids-final-validation.log.
+
+CUA local 390x844/1280x900: leitura PT/EN/ES, idiomas, filtro Ceu noturno com um resultado, indice/fontes, CTA Natureza e retorno, sem overflow ou warn/error. Um locator CUA por label exato e selecao por texto nao localizaram o controle; selecao pelo valor sky e leitura do DOM confirmaram o comportamento sem alterar o produto. AX nativo ficou atrasado em relacao ao filtro; o DOM confirmou um resultado. Capturas temporarias /tmp/gld-orionids-local-mobile.png e /tmp/gld-orionids-local-desktop.png. QA publico e nove paginas anonimas verificadas conforme [[release-status]]. WebKit, iOS Safari nativo e carga nao repetidos para esta mudanca editorial. Servidor local/abas proprias encerrados e viewport restaurado.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -229,3 +235,4 @@ CUA local 390x844/1280x900: leitura PT/EN/ES, filtro Basquete, indice/fontes, id
 
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
+- [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.

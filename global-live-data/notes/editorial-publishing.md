@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Publicacao editorial
@@ -54,6 +54,12 @@ Nona leitura: nba-league-pass-availability-guide, EN/PT/ES. Pesquisa unica US/BR
 
 Guia separa territorio, acesso ao vivo e reprise; exemplo de viagem e checklist sao orientacoes originais, sem prometer direitos de assinatura. Sem precos, placares, imagens copiadas, canais inventados ou contorno de bloqueios. Basketball permanece filtro existente; o adapter NBA nao foi ativado, conforme escolha do proprietario. Apoio de IA, ausencia de revisao humana, fontes e retorno interno preservados. Catalogo com nove artigos. Nenhuma alteracao em contas, chaves, custos, dependencias, providers ou automacoes. Recibos e limite de leitura direta Ready em [[release-status]].
 
+## Edicao de 21 outubro, 01:07 UTC
+
+Decima leitura: orionids-2026-observation-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta IN orionids meteor shower observada 01:08:19.628Z e fontes conferidas 01:09:00Z. Tres referencias primarias NASA/AMS e limites em docs/editorial/2026-10-21-orionids.md. RSS e pauta datada, sem promessa de demanda futura.
+
+O guia distingue noite, virada de data, Lua e condicoes locais. Exemplo de calendario e checklist originais; nao calcula horario astronomico, visibilidade ou contagem de meteoros. Sky e apenas filtro editorial; CTA Natureza preserva catalogo de 42 cidades e data dos dados. Fontes, apoio de IA e ausencia de revisao humana mantidos; nenhuma imagem copiada. Sem novo provider, conta, chave, custo, dependencia, anuncio, analytics ou alteracao de automacao. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -72,3 +78,4 @@ Guia separa territorio, acesso ao vivo e reprise; exemplo de viagem e checklist 
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
+- [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.

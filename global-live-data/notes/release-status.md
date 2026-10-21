@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Estado da entrega
@@ -262,6 +262,16 @@ HTTP anonimo em 2026-10-20T19:22:57.389Z: nove paginas EN/PT/ES home/indice/arti
 
 Campo Ready da API/painel nao observado diretamente. A nova chamada get_deployment no scope existente retornou 403; o painel nativo permaneceu na configuracao inacabada de autenticador. CLI com limitacao conhecida nao repetida; sem alterar autenticacao/permissoes, copiar credenciais ou criar deploy duplicado. A disponibilidade publica e o sucesso GitHub estao verificados, mas a verificacao completa do host permanece pendente para PR24/PR25. Quando o acesso voltar, inspecionar os deployments existentes e atualizar recibos, sem nova publicacao. [[trap-vercel-access]].
 
+## Decima leitura servida ao publico: PR26, Ready direto pendente
+
+PR26 https://github.com/michael-eng-ai/global-live-data/pull/26 integrada em 2026-10-21T01:19:53Z. Head aprovado 38f14fc351c32f4ef31f78891d9db5996b21326f; main/origin a4674678af28ea27b4169e2c2bbb4195f7521249, arvore identica ao head e checkout limpo. Ambos os jobs success nos SHAs exatos: CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39526490628 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39526681240.
+
+GitHub deployment 7215180833 associa o SHA exato a Production/success, Deployment has completed, em 2026-10-21T01:20:27Z. Deployment dpl_BdvTeSUhv5sDMxqLkndGxg3FstiU; painel https://vercel.com/michael-eng-ais-projects/global-live-data/BdvTeSUhv5sDMxqLkndGxg3FstiU; URL unica https://global-live-data-2hqtqd8wp-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem redeploy manual.
+
+HTTP anonimo em 2026-10-21T01:20:50.334Z: nove paginas EN/PT/ES home/indice/artigo com 200 e data-dpl-id correspondente; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/orionids-2026-observation-guide . QA publico mobile confirmou leitura, idioma, retorno e filtro, sem overflow/console warn ou error. Um ops:check em 2026-10-21T01:20:49.206Z encontrou nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua.
+
+Campo Ready direto nao observado: Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A inspecao limitada do Chrome nao encontrou o painel esperado no estado ativo; a sessao anterior tinha configuracao de autenticador pendente. CLI com falha de acesso conhecida nao repetida. GitHub success e conteudo servido foram conferidos separadamente. Sem mudar autenticacao/permissoes, copiar credenciais ou criar deploy duplicado. Completar recibos diretos dos deployments existentes PR24/25/26 quando o acesso voltar. [[trap-vercel-access]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -322,3 +332,4 @@ Campo Ready da API/painel nao observado diretamente. A nova chamada get_deployme
 
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
+- [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.

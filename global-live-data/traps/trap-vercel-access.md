@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Acesso e publicacao Vercel
@@ -34,6 +34,10 @@ A integração GitHub registrou deployment 7204773051 com SHA exato, environment
 
 Painel existente ainda em configuracao de autenticador; nenhuma interacao com a seguranca da conta. Uma consulta ao novo deployment dpl_2kX2U2pkr7PN2cqecHsv9xwheXy3 retornou 403 no scope existente. CLI anteriormente sem acesso nao foi repetida. GitHub Production/success, SHA e paginas anonimas foram conferidos separadamente. Nao marcar Ready como observado nem repetir pedido ja pendente ao proprietario. Apos acesso restabelecido, acrescentar recibos dos deployments existentes PR24/PR25. [[release-status]].
 
+## PR26 - limite de acesso em 21 outubro, 01:07 UTC
+
+Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A inspecao limitada do Chrome nao encontrou o painel esperado no estado ativo; a sessao anterior tinha configuracao de autenticador pendente. CLI com falha de acesso conhecida nao repetida. GitHub Production/success, SHA e paginas anonimas confirmados separadamente, sem alegar leitura direta Ready. Nao repetir pedido anterior ao proprietario, CLI sem acesso ou configuracao de autenticacao. Completar recibos existentes PR24/25/26 quando o acesso autorizado voltar. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -42,3 +46,4 @@ Painel existente ainda em configuracao de autenticador; nenhuma interacao com a 
 
 - [[2026-10-20-brasileirao-release]] - Conferência direta pendente da PR24.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
+- [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.

@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Global Live Data
@@ -15,7 +15,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - Estado atual, nove leituras e verificacao direta Ready pendente.
+- [[current]] - Estado atual, dez leituras e verificacao direta Ready pendente.
 
 ## Conceitos
 - [[brasileirao-nba-feeds]] - Brasileirao publicado; NBA preparada, cobertura e licenca.
@@ -90,6 +90,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-21-orionids-editorial-release]] - Decima leitura e verificacao remota.
 - [[2026-10-20-league-pass-editorial-release]] - Nona leitura, CI/publico verificados e limite Ready.
 - [[2026-10-20-brasileirao-release]] - PR24, testes e publicacao.
 - [[2026-10-20-cricket-editorial-release]] - Oitava leitura publicada; CI/Ready/publico verificados.
@@ -137,7 +138,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - Estado atual, nove leituras e verificacao direta Ready pendente.
+- [[current]] - Estado atual, dez leituras e verificacao direta Ready pendente.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -223,3 +224,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 
 - [[2026-10-20-brasileirao-release]] - Entrega Brasileirao e NBA preparada.
 - [[2026-10-20-league-pass-editorial-release]] - Nona leitura e verificacao remota.
+- [[2026-10-21-orionids-editorial-release]] - Decima leitura e recibos.

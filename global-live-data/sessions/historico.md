@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-20"
+atualizado: "2026-10-21"
 ---
 
 # Historico
@@ -72,6 +72,8 @@ atualizado: "2026-10-20"
 
 - 2026-10-20 19:09 UTC: [[2026-10-20-league-pass-editorial-release]] - PR25 integrada, nona leitura EN/PT/ES visivel; CI e publico aprovados; Ready direto pendente.
 
+- 2026-10-21 01:07 UTC: [[2026-10-21-orionids-editorial-release]] - PR26, decima leitura EN/PT/ES, CI/publico aprovados; Ready direto pendente.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -105,3 +107,4 @@ atualizado: "2026-10-20"
 
 - [[2026-10-20-brasileirao-release]] - Handoff Brasileirao.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura.
+- [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura.
