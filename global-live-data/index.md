@@ -15,7 +15,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - Estado atual, doze leituras e verificacao Ready completa.
+- [[current]] - Estado atual, treze leituras e verificacao Ready pendente.
 
 ## Conceitos
 - [[brand-name-testing]] - Teste de nomes PT/EN/ES e custos.
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-21-champions-editorial-release]] - Guia Champions e pendencia Ready.
 - [[2026-10-21-brand-name-test-preparation]] - Teste preparado e verificacao.
 - [[2026-10-21-wawrinka-editorial-release]] - Guia Wawrinka publicado com recibos completos.
 - [[2026-10-21-uk-cpi-editorial-release]] - CPI publicado e pendencias Ready encerradas.
@@ -144,7 +145,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - Estado atual, doze leituras e verificacao Ready completa.
+- [[current]] - Estado atual, treze leituras e verificacao Ready pendente.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -233,3 +234,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-21-orionids-editorial-release]] - Decima leitura e recibos.
 - [[2026-10-21-uk-cpi-editorial-release]] - Decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Decima segunda leitura e recibos.
+- [[2026-10-21-champions-editorial-release]] - Decima terceira leitura.

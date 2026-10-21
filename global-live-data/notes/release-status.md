@@ -292,6 +292,14 @@ Vercel Production Ready dpl_EFzvmoddNtVXUrvf55pQXQZSMHaN confirmado diretamente 
 
 HTTP anonimo em 2026-10-21T13:26:52.765Z: nove paginas EN/PT/ES home/indice/artigo com200 e data-dpl-id correto; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/wawrinka-basel-2026-schedule-guide . QA publico mobile confirmou leitura, idioma e retorno/filtro sem overflow ou console warn/error. Ops em 2026-10-21T13:26:52.084Z: nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua. Recibos temporarios /tmp/gld-wawrinka-release-receipt.json e /tmp/gld-wawrinka-public-verification.json podem expirar; dados essenciais nesta nota e na PR.
 
+## Decima terceira leitura servida: PR29
+
+PR29 https://github.com/michael-eng-ai/global-live-data/pull/29 integrada em 2026-10-21T19:24:42Z. Head aprovado d8a4de427300f3939263bf00e0332a063b42f493; main/origin 77b578053ee05974b1ad006658566e61af53c175. Ambos jobs success nos SHAs exatos: CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39660902490 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39661397563.
+
+GitHub deployment 7235228531: Production/success em 2026-10-21T19:25:23Z, SHA exato, Vercel ID dpl_A9QG5Z3FfCBxF4vvnni4sw2vXyPv. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/A9QG5Z3FfCBxF4vvnni4sw2vXyPv; URL unica https://global-live-data-5muwnn0o9-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy manual duplicado. Campo Ready nao observado diretamente: MCP403 e Mac bloqueado impedem painel autenticado. Pedido de desbloqueio enviado; nao declarar verificacao completa ou redeploy para sanar acesso.
+
+HTTP anonimo em 2026-10-21T19:26:01.736Z: nove paginas home/indice/artigo EN/PT/ES com200 e data-dpl-id correto, CSP/canonical/hreflang/Article JSON-LD/quatro fontes/disclosure/sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/champions-league-2026-27-table-guide . QA publico390/1280px, tres idiomas, filtros/ancoras/CTA/retorno aprovados sem overflow/console. Ops em 2026-10-21T19:26:05.604Z: nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua. Recibos /tmp/gld-ucl-release-receipt.json e /tmp/gld-ucl-public-verification.json podem expirar; fatos essenciais nesta nota e na PR.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -355,3 +363,4 @@ HTTP anonimo em 2026-10-21T13:26:52.765Z: nove paginas EN/PT/ES home/indice/arti
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
+- [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.

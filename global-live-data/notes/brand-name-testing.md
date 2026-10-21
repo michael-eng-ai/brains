@@ -35,3 +35,4 @@ Proprietario pode aplicar pilotos acompanhados com voluntarios e salvar JSONs em
 - [[current]] - Estado.
 - [[launch-readiness]] - Dominio depende da escolha.
 - [[2026-10-21-brand-name-test-preparation]] - Handoff e evidencias.
+- [[2026-10-21-champions-editorial-release]] - Rodada editorial posterior preserva teste e decisoes pendentes.

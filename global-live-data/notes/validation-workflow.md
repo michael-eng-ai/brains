@@ -198,6 +198,12 @@ Node24.22.0/npm11.21.1: 11 Python, check com lint/tipos/101 unitarios/history e 
 
 Browser plugin ausente; Playwright do repositorio e CUA usados. QA local390x844/1280x900: leitura PT/EN/ES, Tennis com um resultado, sumario/fonteFAQ, idioma preservando slug e CTA retornando ao indice. Sem overflow/console warn/error. Locator CUA por label nao encontrou controle; combobox semantico observado funcionou sem alteracao do produto. Capturas /tmp/gld-wawrinka-local-mobile.png e /tmp/gld-wawrinka-local-desktop.png. WebKit, Safari iOS nativo e carga nao repetidos. QA publico/recibos em [[release-status]]. Servidor e abas proprias encerrados; viewport restaurado.
 
+## Edicao Champions League, 21 outubro 2026
+
+Node24.22.0/npm11.21.1: check com101 unitarios/lint/tipos/history e Next build/smoke HTTP,11 Python e35 Chromium aprovados. Logs /tmp/gld-ucl-final.log e /tmp/gld-ucl-python.log. Primeira suite34/35: locator CPI saiu dos dois artigos recentes. Agora teste verifica articles[0].id preservando prova de navegacao com provider atrasado. Import ausente no ajuste foi capturado pelo build intermediario e corrigido antes da suite completa. Formatter npx aninhado falhou; executado binario instalado, sem novas dependencias.
+
+Browser plugin ausente; Playwright do repositorio usado. QA390x844/1280x900 emPT/EN/ES: identidade, leitura, duas opcoes Futebol, entrada via teclado, idioma mantendo slug, sumario/fontes, CTA Futebol e retorno indice. Sem overflow, overlay ou console warn/error. Script temporario inicialmente esperava barra antes do hash; assercao corrigida, produto intacto e percurso final aprovado. Capturas /tmp/gld-ucl-local-mobile.png e desktop.png; recibo /tmp/gld-ucl-local-qa.json. WebKit, iOS Safari nativo e carga nao repetidos. QA publico e limite Ready em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -250,3 +256,4 @@ Browser plugin ausente; Playwright do repositorio e CUA usados. QA local390x844/
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
+- [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.

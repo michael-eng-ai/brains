@@ -72,6 +72,12 @@ Decima segunda leitura: wawrinka-basel-2026-schedule-guide, EN/PT/ES. Uma pesqui
 
 Guia separa homenagem/estreia e explica por que slots genericos nao confirmam horario individual. Datas/dias da semana conferidos; nenhum horario convertido, resultado ou aposentadoria noticiados. Grade inglesa tinha inconsistencia no domingo, cujos horarios foram excluidos. Checklist de lembrete e original. Tennis e somente filtro editorial; CTA volta ao indice. Doze artigos, fontes e disclosure IA/sem revisao humana preservados. Nenhum feed, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
 
+## Edicao de 21 outubro, 19:12 UTC
+
+Decima terceira leitura: champions-league-2026-27-table-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta GB champions league fixtures observada 19:13:14.192Z. Fontes conferidas ate19:16:31Z: calendario UEFA2026/27, artigos17/18 do regulamento e destino da tabela oficial. Quatro paginas do mesmo organizador; tabela dinamica nao extraida, sem publicar rankings/pontos. Ledger docs/editorial/2026-10-21-champions-league.md.
+
+Guia de proximas rodadas, faixas de classificacao e primeiros desempates; exemplo de saldo e hipotetico, aritmetica verificada. Nenhum resultado atual, horario convertido, promessa de classificacao, imagem ou texto copiado. Football/futebol e filtro existente; CTA para pagina de jogos, cuja falta de tabela Champions fica explicita. Treze artigos; disclosure IA/sem revisao humana. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -93,3 +99,4 @@ Guia separa homenagem/estreia e explica por que slots genericos nao confirmam ho
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
+- [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.

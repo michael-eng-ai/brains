@@ -80,6 +80,8 @@ atualizado: "2026-10-21"
 
 - 2026-10-21: Teste de nomes PT/EN/ES preparado em pacote local; QA sintetico aprovado, custos documentados e nenhuma contratacao/resposta real. [[2026-10-21-brand-name-test-preparation]].
 
+- 2026-10-21: guia Champions EN/PT/ES servido, PR29 e CI/publico verificados; Ready direto pendente por Mac bloqueado. [[2026-10-21-champions-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -117,3 +119,4 @@ atualizado: "2026-10-21"
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da publicacao.
+- [[2026-10-21-champions-editorial-release]] - Handoff.

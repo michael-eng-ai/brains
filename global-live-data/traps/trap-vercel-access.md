@@ -46,6 +46,10 @@ Chrome nativo tinha uma aba Vercel inativa; ao ativa-la, o painel voltou a carre
 
 Consulta MCP ao novo deployment Preview retornou403 no scope existente; CLI com falha conhecida nao repetida. Chrome abriu inicialmente no seletor de perfil e depois mostrou a janela existente com aba Vercel. A aba apresentou temporariamente convite de autenticador, mas depois carregou o painel sem nenhuma acao de seguranca. Nao clicar em configurar/pular autenticacao para QA. Navegacao direta ao novo deployment confirmou Preview Ready/SHA; Production foi conferida apos o merge. Nenhuma credencial copiada, permissao ou conta alterada. Conector continua sem acesso; painel e o canal verificado. [[release-status]].
 
+## Rodada de 21 outubro, 19:12 UTC
+
+Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao alias no scope existente retornou403. Nao tentar desbloquear, copiar credenciais ou ampliar acesso; proprietario recebeu pedido de desbloqueio. CLI com falha conhecida nao repetida. Estado Ready direto e evidencias GitHub/publicas registrados separadamente em [[release-status]]. Quando painel estiver acessivel, conferir deployment existente/SHA/Production/Ready e complementar recibo, sem novo deploy.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -57,3 +61,4 @@ Consulta MCP ao novo deployment Preview retornou403 no scope existente; CLI com 
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
+- [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
