@@ -18,6 +18,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[current]] - Estado atual, doze leituras e verificacao Ready completa.
 
 ## Conceitos
+- [[brand-name-testing]] - Teste de nomes PT/EN/ES e custos.
 - [[brasileirao-nba-feeds]] - Brasileirao publicado; NBA preparada, cobertura e licenca.
 - [[sports-demand-priorities]] - Demanda comparativa de ligas e pendencias de API.
 - [[launch-readiness]] - Dominio cotado e passos verificaveis para Google.
@@ -90,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-21-brand-name-test-preparation]] - Teste preparado e verificacao.
 - [[2026-10-21-wawrinka-editorial-release]] - Guia Wawrinka publicado com recibos completos.
 - [[2026-10-21-uk-cpi-editorial-release]] - CPI publicado e pendencias Ready encerradas.
 - [[2026-10-21-orionids-editorial-release]] - Decima leitura e verificacao remota.
@@ -134,6 +136,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[brand-name-testing]] - Teste de nomes.
+- [[2026-10-21-brand-name-test-preparation]] - Handoff de pesquisa.
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[2026-10-15-scope-budget]] - Natureza como primeira fase e limite de custo como planejamento.

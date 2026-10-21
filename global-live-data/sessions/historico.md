@@ -78,7 +78,10 @@ atualizado: "2026-10-21"
 
 - 2026-10-21: guia Wawrinka/Basileia em tres idiomas publicado, PR28, CI/Ready/publico e cerebro verificados. [[2026-10-21-wawrinka-editorial-release]].
 
+- 2026-10-21: Teste de nomes PT/EN/ES preparado em pacote local; QA sintetico aprovado, custos documentados e nenhuma contratacao/resposta real. [[2026-10-21-brand-name-test-preparation]].
+
 ## Conexoes
+- [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[2026-10-15-mobile-category-lab]] - Contexto e evidencia da revisao local.

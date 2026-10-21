@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Dominio proprio e Google: .com cotado, registros ainda nao adquiridos."
 tags: [global-live-data, conceito, validacao, lancamento]
-atualizado: "2026-10-19"
+atualizado: "2026-10-21"
 ---
 
 # Preparacao do lancamento
@@ -28,6 +28,10 @@ liveworlddata.com, globaldatanow.com e globallivedata.com.br retornaram availabl
 
 HTTP anonimo em /robots.txt, /sitemap.xml, /en, /pt, /es, /pt/weather/mexico-city e /pt/elections/brazil: 200/HTTPS. Sitemap69 URLs/207 alternates, somente origin publicado, sem labs. Pages publicas amostradas sem noindex. Previsao/comparacao tem canonical correto; home EN/PT/ES nao tem canonical explicito. Fonte de origin: lib/editorial/catalog.ts#siteOrigin. Nao foi acessado Search Console e nenhuma indexacao foi demonstrada.
 
+## Pesquisa de nome antes do registro
+
+Em21/10, o proprietario pediu preparar teste Global Live Data versus Datasanti World PT/EN/ES, com aprovacao antes de contratar. Instrumento local gratuito pronto, sem participantes ou escolha final: [[brand-name-testing]]. A recomendacao de .com acima continua provisoria.
+
 ## Proximo passo concreto
 
 1. Obter escolha do dominio, termo, preco maximo/encargos e preferencia de renovacao; conferir cotacao atual antes de qualquer compra. Dados de registrante devem vir do proprietario e nunca ir ao cerebro/Git.
@@ -39,6 +43,8 @@ HTTP anonimo em /robots.txt, /sitemap.xml, /en, /pt, /es, /pt/weather/mexico-cit
 Referencias primarias consultadas19/10: https://vercel.com/docs/domains/registrar-api ; https://vercel.com/docs/domains/set-up-custom-domain ; https://support.google.com/webmasters/answer/9008080 ; https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap .
 
 ## Conexoes
+- [[brand-name-testing]] - Preparacao antes da escolha.
+- [[2026-10-21-brand-name-test-preparation]] - Handoff de pesquisa.
 - [[index]] - Mapa.
 - [[current]] - Proximo passo.
 - [[2026-10-19-mobile-load-launch]] - Handoff verificado.

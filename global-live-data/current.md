@@ -1,14 +1,17 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Doze leituras; Wawrinka publicado e verificacao de producao completa."
+resumo: "Teste de nomes preparado; produto publicado preservado e nenhum custo contratado."
 tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-21"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-21-wawrinka-editorial-release]].
+Ultimo handoff: [[2026-10-21-brand-name-test-preparation]].
+
+- Teste Global Live Data versus Datasanti World PT/EN/ES pronto para piloto local gratuito, com custos alternativos documentados. Zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
+- Produto e producao preservados; evidencias abaixo pertencem a ultima publicacao, nao a esta preparacao.
 
 - Main/origin limpos 5715d388e0fba161426c586995593af54310303d; PR28 integrada, ambos os jobs CI PR/main aprovados, Vercel Production Ready/SHA exato e paginas anonimas verificados. [[release-status]].
 - Painel autenticado confirmou Ready/SHA atual. MCP segue403; nenhuma mudanca de seguranca. Pendencias anteriores PR24/25/26 permanecem encerradas. [[trap-vercel-access]].
@@ -20,6 +23,8 @@ Ultimo handoff: [[2026-10-21-wawrinka-editorial-release]].
 - Dominio/Google e NBA real dependem de decisoes/configuracoes do proprietario. Sem compras, contas, chaves, DNS, anuncios ou analytics novos. [[launch-readiness]].
 
 ## Conexoes
+- [[2026-10-21-brand-name-test-preparation]] - Handoff atual.
+- [[brand-name-testing]] - Pesquisa preparada.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff atual.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff anterior.
 - [[2026-10-21-orionids-editorial-release]] - Handoff anterior.
