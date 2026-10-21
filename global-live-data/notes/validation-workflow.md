@@ -186,6 +186,12 @@ Node 24.22.0/npm 11.21.1: check com lint/tipos, 101 unitarios, history/Next buil
 
 CUA local 390x844/1280x900: leitura PT/EN/ES, idiomas, filtro Ceu noturno com um resultado, indice/fontes, CTA Natureza e retorno, sem overflow ou warn/error. Um locator CUA por label exato e selecao por texto nao localizaram o controle; selecao pelo valor sky e leitura do DOM confirmaram o comportamento sem alterar o produto. AX nativo ficou atrasado em relacao ao filtro; o DOM confirmou um resultado. Capturas temporarias /tmp/gld-orionids-local-mobile.png e /tmp/gld-orionids-local-desktop.png. QA publico e nove paginas anonimas verificadas conforme [[release-status]]. WebKit, iOS Safari nativo e carga nao repetidos para esta mudanca editorial. Servidor local/abas proprias encerrados e viewport restaurado.
 
+## Edicao CPI britanico, 21 outubro 2026
+
+Node 24.22.0/npm 11.21.1: 11 testes Python; check com lint/tipos, 101 unitarios, history/Next build e smoke HTTP; 35 Chromium aprovados na primeira execucao completa. Catalogo 10 para 11 e locator da home ajustado ao artigo atual do latest-two, sem enfraquecer assertions. Log /tmp/gld-uk-cpi-validation.log. Aritmetica Decimal: 240 vezes 1.05 = 252; 252 vezes 1.02 = 257.04; (5 menos 4)/4 = 0.25.
+
+CUA local 390x844/1280x900 confirmou leitura PT/EN/ES, idiomas, Economy com um resultado, indice/fontes, CTA FX e retorno ao indice, sem overflow ou warn/error. Uma tentativa rapida de voltar/trocar idioma permaneceu na pagina de cambio; a retomada pela URL observada restaurou o guia antes de testar idiomas. Nao foi identificado defeito de produto. Capturas /tmp/gld-uk-cpi-local-mobile.png e /tmp/gld-uk-cpi-local-desktop.png. QA publico mobile e nove paginas anonimas conforme [[release-status]]. WebKit, iOS Safari nativo e carga nao repetidos para esta edicao. Servidor QA/abas proprias encerrados e viewport restaurado.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -236,3 +242,4 @@ CUA local 390x844/1280x900: leitura PT/EN/ES, idiomas, filtro Ceu noturno com um
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
+- [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.

@@ -38,6 +38,10 @@ Painel existente ainda em configuracao de autenticador; nenhuma interacao com a 
 
 Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A inspecao limitada do Chrome nao encontrou o painel esperado no estado ativo; a sessao anterior tinha configuracao de autenticador pendente. CLI com falha de acesso conhecida nao repetida. GitHub Production/success, SHA e paginas anonimas confirmados separadamente, sem alegar leitura direta Ready. Nao repetir pedido anterior ao proprietario, CLI sem acesso ou configuracao de autenticacao. Completar recibos existentes PR24/25/26 quando o acesso autorizado voltar. [[release-status]].
 
+## Resolucao em 21 outubro, rodada de 07:13 UTC
+
+Chrome nativo tinha uma aba Vercel inativa; ao ativa-la, o painel voltou a carregar sem mudanca de autenticacao. Confirmados Ready/Production/main/SHA completos dos deployments PR24/25/26 e, apos merge, PR27. Recibos em [[release-status]], com atualizacao dos corpos das PRs anteriores. Pendencia encerrada; nenhuma nova credencial, permissao ou redeploy. Conector/CLI com falhas anteriores nao foram reexecutados nem declarados recuperados. Usar o painel autorizado existente enquanto disponivel.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -47,3 +51,4 @@ Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A ins
 - [[2026-10-20-brasileirao-release]] - Conferência direta pendente da PR24.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
+- [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.

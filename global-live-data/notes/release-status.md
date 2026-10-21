@@ -272,6 +272,18 @@ HTTP anonimo em 2026-10-21T01:20:50.334Z: nove paginas EN/PT/ES home/indice/arti
 
 Campo Ready direto nao observado: Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A inspecao limitada do Chrome nao encontrou o painel esperado no estado ativo; a sessao anterior tinha configuracao de autenticador pendente. CLI com falha de acesso conhecida nao repetida. GitHub success e conteudo servido foram conferidos separadamente. Sem mudar autenticacao/permissoes, copiar credenciais ou criar deploy duplicado. Completar recibos diretos dos deployments existentes PR24/25/26 quando o acesso voltar. [[trap-vercel-access]].
 
+## PR24, PR25 e PR26: verificacao Ready concluida em 21 outubro
+
+Em 21 outubro, ate 07:20:09 UTC, o Chrome autenticado voltou a exibir o painel existente. A leitura direta confirmou Ready, Production, main e link ao SHA integral de cada deployment: PR24 dpl_BmV1UgWagcktwAAhT7RYdUKNdHKj / e705e1ebc74787465c5b446a6e8698879c65081c; PR25 dpl_2kX2U2pkr7PN2cqecHsv9xwheXy3 / 45ed274ff0fb77a18d443e4caa13d7f8ae5040f2; PR26 dpl_BdvTeSUhv5sDMxqLkndGxg3FstiU / a4674678af28ea27b4169e2c2bbb4195f7521249. Cada PR recebeu recibo complementar no corpo. Pendencias anteriores encerradas sem redeploy, novas credenciais ou alteracao de autenticacao. Nao implica recuperacao do conector/CLI. [[trap-vercel-access]].
+
+## Decima primeira leitura publicada: PR27
+
+PR27 https://github.com/michael-eng-ai/global-live-data/pull/27 integrada em 2026-10-21T07:24:58Z. Head aprovado d0a5c65447e0f76c80e444f8aaa9ff6d17e9c420; main/origin 05fab67a998a9712ab22bbff3964c73929914881, arvore identica e checkout limpo. Ambos jobs success nos SHAs exatos: CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39561492836 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39561809886.
+
+Vercel Production Ready dpl_Akw4q6PmJQqNBmQrTV7RX3axQ52V confirmado diretamente no dashboard autenticado, source main e SHA integral esperado, em 2026-10-21T07:26:11Z. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/Akw4q6PmJQqNBmQrTV7RX3axQ52V; URL unica https://global-live-data-ax1w0tg16-michael-eng-ais-projects.vercel.app. GitHub deployment 7220314198 registra Production/success em 2026-10-21T07:25:37Z. Integracao Git existente, sem redeploy manual.
+
+HTTP anonimo em 2026-10-21T07:26:16.727Z: nove paginas EN/PT/ES home/indice/artigo com 200 e data-dpl-id correspondente; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/uk-cpi-september-2026-reading-guide . QA publico mobile confirmou leitura, idioma, indice/filtro e CTA FX sem overflow ou console warn/error. Um ops:check em 2026-10-21T07:26:15.068Z encontrou nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua. Recibos temporarios /tmp/gld-uk-cpi-release-receipt.json e /tmp/gld-uk-cpi-public-verification.json podem expirar; os dados essenciais estao nesta nota e na PR.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -333,3 +345,4 @@ Campo Ready direto nao observado: Uma chamada get_deployment para o novo ID reto
 - [[2026-10-20-brasileirao-release]] - Handoff.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
+- [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.

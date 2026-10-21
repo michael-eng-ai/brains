@@ -60,6 +60,12 @@ Decima leitura: orionids-2026-observation-guide, EN/PT/ES. Pesquisa unica US/BR/
 
 O guia distingue noite, virada de data, Lua e condicoes locais. Exemplo de calendario e checklist originais; nao calcula horario astronomico, visibilidade ou contagem de meteoros. Sky e apenas filtro editorial; CTA Natureza preserva catalogo de 42 cidades e data dos dados. Fontes, apoio de IA e ausencia de revisao humana mantidos; nenhuma imagem copiada. Sem novo provider, conta, chave, custo, dependencia, anuncio, analytics ou alteracao de automacao. Recibos em [[release-status]].
 
+## Edicao de 21 outubro, 07:13 UTC
+
+Decima primeira leitura: uk-cpi-september-2026-reading-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta GB cpi september 2026 observada 07:14:18.081Z, verificacao encerrada 07:15:23Z. Fontes: boletim datado ONS e duas paginas ECB sobre conceito de inflacao e cambio de referencia. Ledger docs/editorial/2026-10-21-uk-cpi.md. Resultado /latest do ONS ainda mostrava agosto; nao utilizado para setembro. Pagina Bank of England expirou duas vezes e foi excluida da apuracao.
+
+Guia distingue periodo anual/mensal, data de publicacao, percentual/ponto percentual e data propria do FX. Exemplos aritmeticos sao originais, explicitamente hipoteticos e validados com Decimal; sem recomendacao financeira, previsao, causalidade cambial ou imagem copiada. Economy e filtro editorial, exchange e destino interno para pagina ja existente; sem feed de inflacao. Onze artigos, fontes e apoio de IA/ausencia de revisao humana mantidos. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -79,3 +85,4 @@ O guia distingue noite, virada de data, Lua e condicoes locais. Exemplo de calen
 - [[2026-10-20-cricket-editorial-release]] - Handoff da oitava leitura e verificacao completa.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
+- [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
