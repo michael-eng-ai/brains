@@ -42,6 +42,10 @@ Uma chamada get_deployment para o novo ID retornou 403 no scope existente. A ins
 
 Chrome nativo tinha uma aba Vercel inativa; ao ativa-la, o painel voltou a carregar sem mudanca de autenticacao. Confirmados Ready/Production/main/SHA completos dos deployments PR24/25/26 e, apos merge, PR27. Recibos em [[release-status]], com atualizacao dos corpos das PRs anteriores. Pendencia encerrada; nenhuma nova credencial, permissao ou redeploy. Conector/CLI com falhas anteriores nao foram reexecutados nem declarados recuperados. Usar o painel autorizado existente enquanto disponivel.
 
+## Rodada de 21 outubro, 13:17 UTC
+
+Consulta MCP ao novo deployment Preview retornou403 no scope existente; CLI com falha conhecida nao repetida. Chrome abriu inicialmente no seletor de perfil e depois mostrou a janela existente com aba Vercel. A aba apresentou temporariamente convite de autenticador, mas depois carregou o painel sem nenhuma acao de seguranca. Nao clicar em configurar/pular autenticacao para QA. Navegacao direta ao novo deployment confirmou Preview Ready/SHA; Production foi conferida apos o merge. Nenhuma credencial copiada, permissao ou conta alterada. Conector continua sem acesso; painel e o canal verificado. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -52,3 +56,4 @@ Chrome nativo tinha uma aba Vercel inativa; ao ativa-la, o painel voltou a carre
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.

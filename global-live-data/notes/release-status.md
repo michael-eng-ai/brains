@@ -284,6 +284,14 @@ Vercel Production Ready dpl_Akw4q6PmJQqNBmQrTV7RX3axQ52V confirmado diretamente 
 
 HTTP anonimo em 2026-10-21T07:26:16.727Z: nove paginas EN/PT/ES home/indice/artigo com 200 e data-dpl-id correspondente; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/uk-cpi-september-2026-reading-guide . QA publico mobile confirmou leitura, idioma, indice/filtro e CTA FX sem overflow ou console warn/error. Um ops:check em 2026-10-21T07:26:15.068Z encontrou nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua. Recibos temporarios /tmp/gld-uk-cpi-release-receipt.json e /tmp/gld-uk-cpi-public-verification.json podem expirar; os dados essenciais estao nesta nota e na PR.
 
+## Decima segunda leitura publicada: PR28
+
+PR28 https://github.com/michael-eng-ai/global-live-data/pull/28 integrada em 2026-10-21T13:25:00Z. Head aprovado cc229400e5e177e22577281ab9f3aa5a4a3e21b4; main/origin 5715d388e0fba161426c586995593af54310303d, arvore identica e checkout limpo. Ambos jobs success nos SHAs exatos: CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39607456958 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39607849730.
+
+Vercel Production Ready dpl_EFzvmoddNtVXUrvf55pQXQZSMHaN confirmado diretamente no painel autenticado em 2026-10-21T13:26:48Z, branch main e link ao SHA integral esperado. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/EFzvmoddNtVXUrvf55pQXQZSMHaN; URL unica https://global-live-data-7p2ldl00u-michael-eng-ais-projects.vercel.app. GitHub deployment 7227278190 registra Production/success em 2026-10-21T13:26:03Z. Integracao Git existente, sem publicacao manual duplicada.
+
+HTTP anonimo em 2026-10-21T13:26:52.765Z: nove paginas EN/PT/ES home/indice/artigo com200 e data-dpl-id correto; CSP, canonical/hreflang, Article JSON-LD/tres fontes, disclosure e sitemap aprovados. Artigo https://global-live-data.vercel.app/pt/trending/wawrinka-basel-2026-schedule-guide . QA publico mobile confirmou leitura, idioma e retorno/filtro sem overflow ou console warn/error. Ops em 2026-10-21T13:26:52.084Z: nove feeds representativos ready em sete leituras; amostra pontual, nao garantia continua. Recibos temporarios /tmp/gld-wawrinka-release-receipt.json e /tmp/gld-wawrinka-public-verification.json podem expirar; dados essenciais nesta nota e na PR.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -346,3 +354,4 @@ HTTP anonimo em 2026-10-21T07:26:16.727Z: nove paginas EN/PT/ES home/indice/arti
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.

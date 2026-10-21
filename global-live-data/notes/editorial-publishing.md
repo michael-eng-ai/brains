@@ -66,6 +66,12 @@ Decima primeira leitura: uk-cpi-september-2026-reading-guide, EN/PT/ES. Pesquisa
 
 Guia distingue periodo anual/mensal, data de publicacao, percentual/ponto percentual e data propria do FX. Exemplos aritmeticos sao originais, explicitamente hipoteticos e validados com Decimal; sem recomendacao financeira, previsao, causalidade cambial ou imagem copiada. Economy e filtro editorial, exchange e destino interno para pagina ja existente; sem feed de inflacao. Onze artigos, fontes e apoio de IA/ausencia de revisao humana mantidos. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
 
+## Edicao de 21 outubro, 13:17 UTC
+
+Decima segunda leitura: wawrinka-basel-2026-schedule-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready; consulta US stan wawrinka observada 13:17:30.609Z. Fontes conferidas ate 13:18:09Z: comunicado datado, grade e FAQ do Swiss Indoors. Sao tres paginas do mesmo organizador, nao corroboracao independente. ATP overview retornou403 e foi excluido. Ledger docs/editorial/2026-10-21-wawrinka-basel.md.
+
+Guia separa homenagem/estreia e explica por que slots genericos nao confirmam horario individual. Datas/dias da semana conferidos; nenhum horario convertido, resultado ou aposentadoria noticiados. Grade inglesa tinha inconsistencia no domingo, cujos horarios foram excluidos. Checklist de lembrete e original. Tennis e somente filtro editorial; CTA volta ao indice. Doze artigos, fontes e disclosure IA/sem revisao humana preservados. Nenhum feed, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -86,3 +92,4 @@ Guia distingue periodo anual/mensal, data de publicacao, percentual/ponto percen
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.

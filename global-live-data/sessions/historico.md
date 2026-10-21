@@ -76,6 +76,8 @@ atualizado: "2026-10-21"
 
 - 2026-10-21 07:13 UTC: [[2026-10-21-uk-cpi-editorial-release]] - PR27, guia CPI EN/PT/ES, CI/Ready/publico; Ready anterior PR24/25/26 resolvido.
 
+- 2026-10-21: guia Wawrinka/Basileia em tres idiomas publicado, PR28, CI/Ready/publico e cerebro verificados. [[2026-10-21-wawrinka-editorial-release]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
@@ -111,3 +113,4 @@ atualizado: "2026-10-21"
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff da publicacao.

@@ -192,6 +192,12 @@ Node 24.22.0/npm 11.21.1: 11 testes Python; check com lint/tipos, 101 unitarios,
 
 CUA local 390x844/1280x900 confirmou leitura PT/EN/ES, idiomas, Economy com um resultado, indice/fontes, CTA FX e retorno ao indice, sem overflow ou warn/error. Uma tentativa rapida de voltar/trocar idioma permaneceu na pagina de cambio; a retomada pela URL observada restaurou o guia antes de testar idiomas. Nao foi identificado defeito de produto. Capturas /tmp/gld-uk-cpi-local-mobile.png e /tmp/gld-uk-cpi-local-desktop.png. QA publico mobile e nove paginas anonimas conforme [[release-status]]. WebKit, iOS Safari nativo e carga nao repetidos para esta edicao. Servidor QA/abas proprias encerrados e viewport restaurado.
 
+## Edicao Wawrinka, 21 outubro 2026
+
+Node24.22.0/npm11.21.1: 11 Python, check com lint/tipos/101 unitarios/history e Next build/smoke HTTP, 35 Chromium aprovados. Log /tmp/gld-wawrinka-validation.log. Expectativa do catalogo mudou de11 para12; nenhuma assercao enfraquecida. Dias26/27 confirmados segunda/terca por datetime.
+
+Browser plugin ausente; Playwright do repositorio e CUA usados. QA local390x844/1280x900: leitura PT/EN/ES, Tennis com um resultado, sumario/fonteFAQ, idioma preservando slug e CTA retornando ao indice. Sem overflow/console warn/error. Locator CUA por label nao encontrou controle; combobox semantico observado funcionou sem alteracao do produto. Capturas /tmp/gld-wawrinka-local-mobile.png e /tmp/gld-wawrinka-local-desktop.png. WebKit, Safari iOS nativo e carga nao repetidos. QA publico/recibos em [[release-status]]. Servidor e abas proprias encerrados; viewport restaurado.
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -243,3 +249,4 @@ CUA local 390x844/1280x900 confirmou leitura PT/EN/ES, idiomas, Economy com um r
 - [[2026-10-20-league-pass-editorial-release]] - Handoff da nona leitura e limite de verificacao.
 - [[2026-10-21-orionids-editorial-release]] - Handoff da decima leitura e verificacao.
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.

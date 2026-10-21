@@ -1,26 +1,27 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Onze leituras; CPI publicado e verificacao Vercel completa, pendencias anteriores encerradas."
+resumo: "Doze leituras; Wawrinka publicado e verificacao de producao completa."
 tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-21"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-21-uk-cpi-editorial-release]].
+Ultimo handoff: [[2026-10-21-wawrinka-editorial-release]].
 
-- Main/origin limpos 05fab67a998a9712ab22bbff3964c73929914881; PR27 integrada, ambos os jobs CI PR/main aprovados, Vercel Production Ready/SHA exato e paginas anonimas verificados. [[release-status]].
-- Painel autenticado voltou: Ready direto das PR24/25/26 conferido, corpos atualizados e pendencias encerradas sem redeploy ou mudanca de acesso. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
-- Onze artigos EN/PT/ES; novo guia CPI britanico com tres fontes primarias, exemplos hipoteticos verificados, filtro Economia e CTA interno FX. Sem feed de inflacao ou recomendacao de investimento. [[editorial-publishing]].
+- Main/origin limpos 5715d388e0fba161426c586995593af54310303d; PR28 integrada, ambos os jobs CI PR/main aprovados, Vercel Production Ready/SHA exato e paginas anonimas verificados. [[release-status]].
+- Painel autenticado confirmou Ready/SHA atual. MCP segue403; nenhuma mudanca de seguranca. Pendencias anteriores PR24/25/26 permanecem encerradas. [[trap-vercel-access]].
+- Doze artigos EN/PT/ES; novo guia Wawrinka/Basileia com tres referencias do organizador, filtro Tenis e CTA indice. Nao atribui horario sem partida identificada; sem feed ou streaming. [[editorial-publishing]].
 - Check 101, Python 11, Chromium 35 e QA mobile/desktop aprovados. WebKit, iOS Safari nativo e carga nao repetidos. [[validation-workflow]].
-- Ops pontual: nove feeds representativos ready em sete leituras em 2026-10-21T07:26:15.068Z; nao e garantia continua.
+- Ops pontual: nove feeds representativos ready em sete leituras em 2026-10-21T13:26:52.084Z; nao e garantia continua.
 - Brasileirao preserva tabela de 20 clubes e jogos parciais; Gremio bloqueado por identidade inconsistente. NBA preparada/desativada sem chave conforme escolha. [[brasileirao-nba-feeds]].
 - Seis arquivos historicos preservados; Brasil 2026 com 136 recortes do primeiro turno. Segundo turno ainda nao publicado; rotinas/frequencias inalteradas. [[historical-editions]].
 - Dominio/Google e NBA real dependem de decisoes/configuracoes do proprietario. Sem compras, contas, chaves, DNS, anuncios ou analytics novos. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-21-uk-cpi-editorial-release]] - Handoff atual.
+- [[2026-10-21-wawrinka-editorial-release]] - Handoff atual.
+- [[2026-10-21-uk-cpi-editorial-release]] - Handoff anterior.
 - [[2026-10-21-orionids-editorial-release]] - Handoff anterior.
 - [[2026-10-20-league-pass-editorial-release]] - Handoff anterior.
 - [[index]] - Entrada.
