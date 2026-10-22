@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-19"
+atualizado: "2026-10-22"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -29,6 +29,16 @@ O heartbeat executou uma unica vez history:refresh:tse -- --apply, exit 0, check
 
 Todos os 134 recortes ja validos ficaram identicos; 2022 e os quatro arquivos esportivos permanecem byte-identicos. Novo SHA normalizado da edicao 2026: da84408e7d442e85251ea600a031689cc2c2d6579735aee4d4d773387ec6f227, conferido no manifest. Proveniencia completa em data/history/br-2026.json; o Git preserva captura/quarentena anteriores. SQLite derivado de 503.808 bytes nesta revisao. Recibos da publicacao em [[release-status]]. Agora tambem a perda/regressao de qualquer recorte RO anteriormente liberado bloqueia o lote; nunca voltar a quarentena silenciosamente.
 
+## Atualizacao bloqueada: 22 outubro 2026, 00:21 UTC
+
+Uma unica chamada history:refresh:tse -- --apply em Node 24.22.0/Python 3.12.4, a partir de main 77b578053ee05974b1ad006658566e61af53c175, terminou com exit 1. Relatorio atual .data/tse-refresh-last.json: status blocked, checkedAt 2026-10-22T00:21:27.693Z, Previously published selections lost or inconsistent: [(3, 'PB', 1), (5, 'PB', 1)]. Sao governador e senador da Paraiba no primeiro turno. guard_candidate rejeitou a perda dos recortes antes de construir/gravar candidato; a comparacao de identidades das duas fontes precede esse gate.
+
+A evidencia nao distingue recortes ausentes de somas partidarias divergentes nem informa a diferenca numerica. Os ZIPs dessa chamada foram removidos pelo TemporaryDirectory; o relatorio de falha do wrapper nao conserva hashes/totais novos. Sem segunda captura nesta rodada, sem diagnostico inventado, sem mudar os gates ou acrescentar PB a quarentena. O candidato ignorado existente e anterior (mtime 2026-10-21T18:24:31.877302Z), portanto nao descreve esta falha.
+
+SHA256 dos seis arquivos canonicos e manifest identicos antes/depois; timestamps de fonte/captura preservados, Brasil 2022 intacto e 2026 mantem 136 recortes validos do primeiro turno, incluindo RO, sem quarentena. Nenhum dado novo de segundo turno foi aplicado; falha nao e no-op changed=false. As duas fontes retidas seguem a aquisicao de 19 outubro e o hash2026 documentado acima.
+
+Validacao offline:11 testes de importacao aprovados e history:build reconstruiu seis edicoes com checksums/retencao. Sem alteracao de produto, commit, PR ou deploy; check completo/e2e/UI/Production nao repetidos. Branch temporaria vazia removida, main/origin limpos. Logs locais /tmp/gld-tse-20261022-0020.log, /tmp/gld-tse-20261022-0020-offline.log e baseline de hashes /tmp/gld-tse-20261022-0020-before.json. Proxima execucao agendada faz nova captura unica; manter versao publicada enquanto persistir a regressao. [[refresh-tse-elections]].
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -42,3 +52,4 @@ Todos os 134 recortes ja validos ficaram identicos; 2022 e os quatro arquivos es
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
+- [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.

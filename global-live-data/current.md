@@ -1,15 +1,16 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Treze leituras; Champions servido ao publico, verificacao Ready direta pendente."
+resumo: "Refresh TSE bloqueado em PB; versao publicada preservada e Ready editorial ainda pendente."
 tags: [global-live-data, estado, editorial]
-atualizado: "2026-10-21"
+atualizado: "2026-10-22"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-21-champions-editorial-release]].
+Ultimo handoff: [[2026-10-22-tse-pb-refresh-blocked]].
 
+- Rodada TSE 00:20 UTC bloqueada no gate de retencao; diagnostico, limites e validacao em [[brazil-election-comparison]]. Nenhum novo commit/PR/deploy. Proxima tentativa na cadencia existente.
 - Teste Global Live Data versus Datasanti World PT/EN/ES pronto para piloto local gratuito, com custos alternativos documentados. Zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
 - Preparacao do teste de nomes preservada; nova rodada editorial abaixo nao escolhe marca ou dominio.
 
@@ -23,7 +24,8 @@ Ultimo handoff: [[2026-10-21-champions-editorial-release]].
 - Dominio/Google e NBA real dependem de decisoes/configuracoes do proprietario. Sem compras, contas, chaves, DNS, anuncios ou analytics novos. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-21-champions-editorial-release]] - Handoff atual.
+- [[2026-10-22-tse-pb-refresh-blocked]] - Handoff atual.
+- [[2026-10-21-champions-editorial-release]] - Handoff anterior.
 - [[2026-10-21-brand-name-test-preparation]] - Handoff anterior.
 - [[brand-name-testing]] - Pesquisa preparada.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff anterior.

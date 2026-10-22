@@ -3,7 +3,7 @@ tipo: procedimento
 projeto: global-live-data
 resumo: "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE."
 tags: [global-live-data, eleicoes, automacao, dados]
-atualizado: "2026-10-19"
+atualizado: "2026-10-22"
 ---
 
 # Atualizar dados TSE
@@ -25,6 +25,10 @@ Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno 
 
 Em 19/10/2026, a execucao autonoma capturou e liberou os dois recortes RO e concluiu o fluxo de testes/PR14/CI/Production. Evidencia em [[release-status]] e dados em [[brazil-election-comparison]]. Turno 2 segue ausente; somente publicar quando fontes/identidades/data/cobertura passarem pelos mesmos gates. Proxima rodada: main atualizada, arvore livre e uma unica chamada --apply. Se changed=false, nao gerar commit/PR/deploy nem modificar datas publicadas.
 
+## Diagnostico de falha e candidato anterior
+
+Uma falha em build_candidate pode ocorrer antes de gravar report/candidate do Python. O wrapper grava novo .data/tse-refresh-last.json com status blocked e motivo, mas .data/tse-refresh-candidate.json pode continuar sendo o candidato de uma rodada anterior. Conferir checkedAt/exit code e mtime; nunca apresentar o candidato antigo como dados da captura que falhou. O contexto temporario remove ZIPs mesmo na excecao, e os hashes de aquisicao novos nao ficam no relatorio de erro atual. Nao deduzir totais ou causa detalhada apenas da lista de chaves ausentes na retencao. Primeiro caso observado de PB em [[brazil-election-comparison]]. Uma nova aquisicao fica para a proxima rodada, sem repetir download ou afrouxar gates.
+
 ## Conexoes
 - [[index]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
@@ -36,3 +40,4 @@ Em 19/10/2026, a execucao autonoma capturou e liberou os dois recortes RO e conc
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
+- [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.

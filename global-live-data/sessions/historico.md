@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-21"
+atualizado: "2026-10-22"
 ---
 
 # Historico
@@ -82,6 +82,8 @@ atualizado: "2026-10-21"
 
 - 2026-10-21: guia Champions EN/PT/ES servido, PR29 e CI/publico verificados; Ready direto pendente por Mac bloqueado. [[2026-10-21-champions-editorial-release]].
 
+- 2026-10-22: refresh TSE bloqueado por retencao PB; arquivos preservados, testes offline aprovados, sem publicacao. [[2026-10-22-tse-pb-refresh-blocked]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -120,3 +122,4 @@ atualizado: "2026-10-21"
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da publicacao.
 - [[2026-10-21-champions-editorial-release]] - Handoff.
+- [[2026-10-22-tse-pb-refresh-blocked]] - Handoff da falha TSE.
