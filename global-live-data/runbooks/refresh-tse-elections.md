@@ -41,3 +41,4 @@ Uma falha em build_candidate pode ocorrer antes de gravar report/candidate do Py
 - [[consolidation-audit]] - Auditoria atual, evidencia e limites de consolidacao.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.
+- [[2026-10-22-tse-pb-retention-recheck]] - Confirmacao do gate na rodada seguinte.

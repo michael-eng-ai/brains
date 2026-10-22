@@ -39,6 +39,14 @@ SHA256 dos seis arquivos canonicos e manifest identicos antes/depois; timestamps
 
 Validacao offline:11 testes de importacao aprovados e history:build reconstruiu seis edicoes com checksums/retencao. Sem alteracao de produto, commit, PR ou deploy; check completo/e2e/UI/Production nao repetidos. Branch temporaria vazia removida, main/origin limpos. Logs locais /tmp/gld-tse-20261022-0020.log, /tmp/gld-tse-20261022-0020-offline.log e baseline de hashes /tmp/gld-tse-20261022-0020-before.json. Proxima execucao agendada faz nova captura unica; manter versao publicada enquanto persistir a regressao. [[refresh-tse-elections]].
 
+## Rechecagem agendada: 22 outubro 2026, 06:26 UTC
+
+Uma unica chamada --apply na branch temporaria codex/tse-refresh-20261022-0625, Node24.22.0/Python3.12.4 e main atualizada, retornou novamente exit1. O relatorio atual registra status blocked em 2026-10-22T06:26:03.525Z e as mesmas chaves [(3, 'PB', 1), (5, 'PB', 1)] no gate de retencao. O impedimento e identico ao ja comunicado; nao houve nova notificacao. A analise do codigo confirma que a excecao precede a escrita do candidato e que o relatorio nao distingue ausencia de linhas de divergencia partidaria. Nao foram inventados totais novos, nem alterados gates, exclusoes ou frequencias.
+
+Comparacao SHA256 dos sete JSON canonicos (seis edicoes e manifest) antes/depois: nenhuma mudanca. Edicao2026 continua com136 recortes, turno1 e nenhuma quarentena; aquisicoes19out preservadas, incluindo RO ja reconciliado e baseline2022. Candidato ignorado ainda e o de21out18:24:31.877302Z, nao evidencia desta rodada. Lock removido pelo fluxo normal; branch vazia removida e main/origin limpos em77b5780. Nao foi aplicada revisao nem segundo turno.
+
+Evidencias locais: /tmp/gld-tse-20261022-0625.log, /tmp/gld-tse-20261022-0625-before.json e /tmp/gld-tse-20261022-0625-after.json. Sem segundo download, commit/PR/deploy do projeto. Suites offline/check/e2e/UI nao repetidas: mesmo codigo, mesmos arquivos e mesma falha, com hashes conferidos; os11 testes da rodada anterior continuam apenas evidencia daquela execucao. Seguir a cadencia existente e preservar o snapshot enquanto o gate falhar. A pendencia editorial Ready e o teste de nomes nao foram alterados.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -53,3 +61,4 @@ Validacao offline:11 testes de importacao aprovados e history:build reconstruiu 
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.
+- [[2026-10-22-tse-pb-retention-recheck]] - Repeticao do mesmo bloqueio, sem alterar dados.
