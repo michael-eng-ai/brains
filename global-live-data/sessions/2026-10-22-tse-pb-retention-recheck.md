@@ -12,11 +12,11 @@ maquina: macos
 # Sessao: rechecagem de retencao TSE
 
 ## Objetivo da sessao
-Conferir uma vez os arquivos oficiais2026 na rodada06:25UTC, sem regredir selecoes publicadas.
+Conferir os arquivos oficiais de 2026 nas rodadas 06:25 e 12:25 UTC, com uma unica execucao por rodada e sem regredir selecoes publicadas.
 
 ## Estado
 - Main/origin limpos em 77b578053ee05974b1ad006658566e61af53c175; branch temporaria vazia removida.
-- Execucao exit1/status blocked: mesmo impedimento PB. Evidencia completa e limites em [[brazil-election-comparison]].
+- Ambas as execucoes terminaram com exit 1/status blocked: mesmo impedimento PB. Ultimo relatorio em 2026-10-22T12:26:43.176Z. Evidencias completas e limites em [[brazil-election-comparison]].
 - Nenhum dado, timestamp de captura, commit/PR/deploy do projeto modificado.
 - Pendencias editorial Ready/teste de nomes preservadas em current.
 

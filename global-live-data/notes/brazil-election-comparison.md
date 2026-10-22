@@ -47,6 +47,14 @@ Comparacao SHA256 dos sete JSON canonicos (seis edicoes e manifest) antes/depois
 
 Evidencias locais: /tmp/gld-tse-20261022-0625.log, /tmp/gld-tse-20261022-0625-before.json e /tmp/gld-tse-20261022-0625-after.json. Sem segundo download, commit/PR/deploy do projeto. Suites offline/check/e2e/UI nao repetidas: mesmo codigo, mesmos arquivos e mesma falha, com hashes conferidos; os11 testes da rodada anterior continuam apenas evidencia daquela execucao. Seguir a cadencia existente e preservar o snapshot enquanto o gate falhar. A pendencia editorial Ready e o teste de nomes nao foram alterados.
 
+## Rechecagem agendada: 22 outubro 2026, 12:26 UTC
+
+Uma unica chamada --apply em Node 24.22.0/Python 3.12.4, branch codex/tse-refresh-20261022-1225 criada de main atualizada, terminou com exit 1. Relatorio atual: status blocked, checkedAt 2026-10-22T12:26:43.176Z, mesmas chaves [(3, 'PB', 1), (5, 'PB', 1)]. A falha de retencao de governador/senador PB permanece identica a ja comunicada. Nao ha evidencia nova que permita distinguir ausencia de linhas e divergencia numerica; nenhum gate foi alterado.
+
+Os sete JSON canonicos permaneceram byte-identicos ao baseline, preservando capturas, 2022 e todos os recortes publicados, inclusive RO. Candidato ignorado ainda tem mtime 2026-10-21T18:24:31.877302Z, portanto nao pertence a esta captura. Lock ausente ao final; branch vazia removida e main/origin limpos em 77b578053ee05974b1ad006658566e61af53c175. Nenhuma revisao ou segundo turno aplicado. Sem segundo download, commit/PR/deploy do projeto ou repeticao de suites e UI, pois codigo/dados e bloqueio nao mudaram. A falha nao equivale a changed=false.
+
+Evidencias locais: /tmp/gld-tse-20261022-1225.log, /tmp/gld-tse-20261022-1225-before.json e /tmp/gld-tse-20261022-1225-after.json. Mesma cadencia existente; nenhuma nova acao do proprietario necessaria. Pendencias editorial Ready e teste de nomes preservadas.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.

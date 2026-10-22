@@ -90,6 +90,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22 07:21 UTC: seis mercados pesquisados; criquete investigado sem pauta aprovada, sem nova publicacao. [[2026-10-22-editorial-cricket-triage]].
 
+- 2026-10-22, 12:26 UTC: captura unica TSE repetiu bloqueio PB; sete JSON canonicos preservados, sem mudanca do app/publicacao. [[2026-10-22-tse-pb-retention-recheck]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
