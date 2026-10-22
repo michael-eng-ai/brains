@@ -310,6 +310,18 @@ HTTP anonimo em2026-10-22T13:38:16.644Z: nove paginas home/indice/artigo EN/PT/E
 
 Validacao local Node24.22.0: check101unidades+lint/types/historybuild/Nextbuild/HTTPsmoke, Python11, Chromium35 aprovados. Primeira suite34/35: expectativa de13artigos ajustada para14 e suite completa passou. QA local/publico verificou todos os idiomas em390/1280px; primeira assercao ad hoc do CTA usava rotulo Nature em vez do heading existente e foi corrigida sem mudanca de produto. Primeiro verificador HTTP nao escapava & no hrefUSNO; escape HTML corrigido no script de verificacao, todas paginas passaram, site inalterado. Sem WebKit/iOSnativo/carga repetidos. Evidencias locais /tmp/gld-hunter-checks.log, -e2e-final.log, -local-qa.json, -public-qa.json, -public-verification.json, -ops.json e -release-receipt.json; fatos essenciais nesta nota e na PR.
 
+## Guia de registros sismicos: 22 outubro 2026
+
+PR31 https://github.com/michael-eng-ai/global-live-data/pull/31 anexada e integrada em2026-10-22T19:30:51Z. Head revisado 7a9bc1818cd790808e7831833cc44aa4b014ee30; main 843294bc37895b86f165b8e21c8b19c783f45137, arvore identica ao head e limpa/sincronizada. Ambos jobs PR aprovados no SHA exato: https://github.com/michael-eng-ai/global-live-data/actions/runs/39840376772. CI main https://github.com/michael-eng-ai/global-live-data/actions/runs/39840761870: as19:39:42UTC, agregado aprovado e Chromium ainda in_progress em Install Chromium and system dependencies (iniciada19:31:31UTC). Sem falha conclusiva nem causa comprovada; nao cancelar, reexecutar ou alterar workflow apenas por demora. Publicacao exata e gates PR estao verificados; conclusao do job main permanece pendente para a proxima rodada.
+
+Vercel dpl_5VcAMwzgs733LdA1voh6h428NtgM: painel autenticado observado ate19:31:55UTC mostrou Ready, Production/Current, main e link do SHA exato. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5VcAMwzgs733LdA1voh6h428NtgM; dominio unico https://global-live-data-1x6xditsq-michael-eng-ais-projects.vercel.app. GitHub deployment7261631914 registra Production/success19:31:20Z no mesmo SHA. Banner geral sobre possivel atraso GitHub nao impediu esta publicacao; nenhum redeploy/credencial/permissao alterados.
+
+Verificacao anonima19:31:58.848Z: nove paginas home/indice/artigo EN/PT/ES HTTP200 com data-dpl-id exato; CSP, canonical, hreflang, Article JSON-LD/tres referencias/disclosure e sitemap conferidos. Artigo PT https://global-live-data.vercel.app/pt/trending/earthquake-magnitude-intensity-guide. QA publica19:32:04.953Z em390x844/1280x900: tres idiomas, filtro com uma leitura, entrada por teclado, ancoras de sumario/fontes, CTA Natureza e retorno ao indice, sem overflow/overlay/console. Screenshots inspecionados.
+
+Check101unit/lint/types/historybuild/build/HTTP, Python11 e Chromium35 passaram na primeira execucao local com Node24.22.0. QA local19:27:39.447Z cobriu o mesmo fluxo. Expectativa14->15 atualizada antes dos testes. Browser plugin indisponivel; Playwright do projeto fez QA responsiva e CUA conferiu filtro/teclado. WebKit/iOSnativo/carga nao repetidos para texto/filtro. Nenhuma falha dos checks executados.
+
+Ops uma vez19:31:57.347Z: nove feeds representativos ready em sete leituras (USGS, clima, futebol, USD, hoquei, xadrez, eleicaoUK, TV, Brasileirao); observacao pontual, nao saude global/continua. Logs e recibos /tmp/gld-quake-{checks.log,local-qa.json,public-qa.json,public-verification.json,ops.log,pr-ci.json,main-ci.json,merge.json,release-receipt.json}; pesquisa /tmp/gld-editorial-20261022-1922-research.log. TSE, NBA desativada e teste de nomes preservados; sem custos ou automacoes novas.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -375,3 +387,4 @@ Validacao local Node24.22.0: check101unidades+lint/types/historybuild/Nextbuild/
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da decima quarta leitura.
+- [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.

@@ -1,20 +1,20 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia Lua do Cacador publicado; retencao TSE PB preserva snapshot anterior."
+resumo: "Guia sismico publicado; retencao TSE PB preserva snapshot anterior."
 tags: [global-live-data, estado, editorial]
 atualizado: "2026-10-22"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
+Ultimo handoff: [[2026-10-22-earthquake-editorial-release]].
 
-- PR30 integrada em main/origin limpos 489382828b3b08ef30ae5367d85d46064331ce68. Ambos jobs CI da PR aprovados; ambos jobs CI main aprovados. Production Ready e nove paginas anonimas verificados. [[release-status]].
-- Quatorze artigos EN/PT/ES; guia Lua do Cacador usa quatro fontes primarias, sete conversoes locais e CTA Natureza. Nenhum feed astronomico ou promessa de visibilidade. [[editorial-publishing]].
-- Validacao local check101/Python11/Chromium35 e QA390/1280px aprovados. WebKit/iOSnativo/carga nao repetidos. Falhas iniciais de expectativa/escape corrigidas nos verificadores; detalhes no recibo.
+- PR31 integrada em main/origin limpos 843294bc37895b86f165b8e21c8b19c783f45137. Ambos jobs CI da PR aprovados; CI main: agregado aprovado; Chromium pendente na instalacao de dependencias as19:39:42UTC. Production Ready e nove paginas anonimas verificados. [[release-status]].
+- Quinze artigos EN/PT/ES; novo guia de magnitude/intensidade/revisoes usa tres fontes primarias e CTA Natureza. Nenhum feed JMA, alerta ou previsao sismica. [[editorial-publishing]].
+- Validacao local check101/Python11/Chromium35 e QA390/1280px aprovados. WebKit/iOSnativo/carga nao repetidos. Checks locais e da PR passaram na primeira execucao; CI main pendente e separado no recibo.
 - Pendencia Ready PR29 encerrada; painel autenticado acessivel e recibo complementado. Nenhuma credencial/permissao/redeploy alterados. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
-- Ops pontual em2026-10-22T13:38:25.325Z: nove feeds representativos ready em sete leituras, sem garantia continua.
+- Ops pontual em2026-10-22T19:31:57.347Z: nove feeds representativos ready em sete leituras, sem garantia continua.
 - Rodada TSE18:28UTC repetiu bloqueio PB (relatorio18:29:07Z); sete arquivos canonicos e capturas preservados. Sem nova revisao/PR/deploy TSE, mesma cadencia. [[brazil-election-comparison]].
 - Brasil2026 mantem136 recortes do primeiro turno incluindo RO; segundo turno nao publicado,2022 e demais edicoes preservados. [[historical-editions]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES preparado para piloto local gratuito; zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
@@ -22,9 +22,9 @@ Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
 - Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, compra, chave, DNS, anuncio, analytics ou automacao alterada. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-22-hunters-moon-editorial-release]] - Ultima publicacao editorial.
+- [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
 - [[2026-10-22-editorial-cricket-triage]] - Handoff anterior editorial.
-- [[2026-10-22-tse-pb-retention-recheck]] - Handoff atual TSE.
+- [[2026-10-22-tse-pb-retention-recheck]] - Ultima rodada TSE.
 - [[2026-10-22-editorial-research-deferred]] - Handoff anterior editorial.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Handoff anterior TSE.
 - [[2026-10-21-champions-editorial-release]] - Handoff anterior.
@@ -101,3 +101,4 @@ Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
 - [[consolidation-audit]] - Contexto relacionado.
 - [[trends-tv-discovery]] - Contexto relacionado.
 - [[sports-election-feeds]] - Contexto relacionado.
+- [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.

@@ -96,6 +96,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22, 18:29 UTC: captura unica TSE repetiu bloqueio PB; sete JSON canonicos intactos, sem revisao/PR/deploy TSE. [[2026-10-22-tse-pb-retention-recheck]].
 
+- 2026-10-22, 19:30 UTC: PR31 integrada; guia sismico EN/PT/ES, Production Ready e publico verificados. [[2026-10-22-earthquake-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -139,3 +141,4 @@ atualizado: "2026-10-22"
 - [[2026-10-22-tse-pb-retention-recheck]] - Rechecagem TSE.
 - [[2026-10-22-editorial-cricket-triage]] - Triagem editorial.
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial.
+- [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.

@@ -104,6 +104,12 @@ Pauta: hunters-moon-2026-local-times, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN r
 
 Guia separa instante da fase cheia de nascimento/ocaso e condicoes locais. Sete horarios calculados por Python zoneinfo; Cidade do Mexico ainda no dia25, demais exemplos dia26. Checklist e exemplo de lembrete originais; nenhuma imagem/passagem copiada, avistamento, previsao astronomica, superlua ou garantia de visibilidade. Fonte SKYCAL arquivada sem calendario renderizado excluida; divergencia de um minuto em fontes secundarias nao usada. Reutiliza filtro sky e CTA Natureza com limite42cidades. Catalogo14artigos, disclosure IA/sem revisao humana preservado. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos de entrega em [[release-status]].
 
+## Edicao de 22 outubro, 19:22 UTC
+
+Pauta earthquake-magnitude-intensity-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES/JP/IN retornou seis mercados ready entre19:23:07.376Z e19:23:10.756Z. Consulta JP マグニチュード (magnitude), observada19:23:09.981Z, faixa RSS1000+; nao e volume mensal, causa da busca ou prova de um terremoto. Quatorze artigos comparados, sem duplicata. Ledger docs/editorial/2026-10-22-earthquake-magnitude.md registra tres fontes primarias lidas ate19:24:10Z: USGS magnitude/intensidade, JMA intensidade e BGS medicao/revisoes. FAQ USGS expirou e foi excluida; documento GeoJSON explorado nao integra o texto final.
+
+Guia distingue tamanho do evento, tremor local e revisao de estimativas; preserva dez categorias JMA nas tres traducoes. Exemplo de duas cidades e checklist de capturas sao orientacoes originais, sem valores/eventos inventados. Nao relata terremoto atual, dano, tsunami, causa da tendencia ou previsao. Earthquakes/Terremotos e somente filtro editorial; CTA Natureza usa catalogo42cidades e filtros/avisos existentes, sem intensidade por rua ou feed JMA. Quinze artigos; fontes e disclosure IA/sem revisao humana preservados. Nenhuma imagem/passagem copiada, provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterados. Recibos de entrega em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -129,3 +135,4 @@ Guia separa instante da fase cheia de nascimento/ocaso e condicoes locais. Sete 
 - [[2026-10-22-editorial-research-deferred]] - Pesquisa sem nova release; retomar verificacao anterior.
 - [[2026-10-22-editorial-cricket-triage]] - Apuracao sem pauta pronta nesta rodada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da Lua do Cacador.
+- [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.

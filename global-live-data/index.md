@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-22-earthquake-editorial-release]] - Magnitude, intensidade e publicacao verificada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Lua do Cacador e verificacao Ready.
 - [[2026-10-22-editorial-cricket-triage]] - Pesquisa de criquete sem pauta pronta.
 - [[2026-10-22-tse-pb-retention-recheck]] - Mesmo bloqueio TSE; snapshot preservado.
@@ -245,3 +246,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-22-tse-pb-retention-recheck]] - Rechecagem TSE sem mudanca acionavel.
 - [[2026-10-22-editorial-cricket-triage]] - Pesquisa editorial desta rodada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff editorial.
+- [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
