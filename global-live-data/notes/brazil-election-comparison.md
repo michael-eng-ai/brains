@@ -55,6 +55,14 @@ Os sete JSON canonicos permaneceram byte-identicos ao baseline, preservando capt
 
 Evidencias locais: /tmp/gld-tse-20261022-1225.log, /tmp/gld-tse-20261022-1225-before.json e /tmp/gld-tse-20261022-1225-after.json. Mesma cadencia existente; nenhuma nova acao do proprietario necessaria. Pendencias editorial Ready e teste de nomes preservadas.
 
+## Rechecagem agendada: 22 outubro 2026, 18:29 UTC
+
+Uma unica chamada --apply na branch codex/tse-refresh-20261022-1828, criada de main atualizada 489382828b3b08ef30ae5367d85d46064331ce68, Node 24.22.0/Python 3.12.4, retornou exit 1. Relatorio atual .data/tse-refresh-last.json: status blocked, checkedAt 2026-10-22T18:29:07.353Z, mesmas chaves [(3, 'PB', 1), (5, 'PB', 1)]. Permanece o bloqueio de retencao de governador/senador PB no primeiro turno, ja comunicado. Nenhuma evidencia nova da diferenca numerica, nenhuma alteracao de gates e nenhum segundo download nesta rodada.
+
+Sete JSON canonicos byte-identicos antes/depois; preservadas todas as capturas, 2022, esportes e os136 recortes de2026, incluindo RO. Candidato ignorado ainda tem mtime2026-10-21T18:24:31.877302Z, nao e resultado desta captura. Lock ausente, branch temporaria vazia removida e main/origin limpos. Nenhuma revisao nem turno2 aplicado; falha nao equivale a changed=false.
+
+Diff dos scripts TSE/importacao, lib/history/refresh.ts e data/history entre77b5780 e4893828 vazio: a publicacao editorial intermediaria nao alterou esse fluxo. Suites de testes/UI nao repetidas para codigo/dados/bloqueio identicos; testes anteriores nao apresentados como novos. Nenhum commit/PR/deploy TSE. Evidencias locais: /tmp/gld-tse-20261022-1828.log, /tmp/gld-tse-20261022-1828-before.json e /tmp/gld-tse-20261022-1828-after.json. PR30/Ready editorial concluido e piloto de nomes permanecem conforme current. Sem nova acao necessaria do proprietario; proxima captura na cadencia existente.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.

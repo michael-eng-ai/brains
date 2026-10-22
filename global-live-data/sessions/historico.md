@@ -94,6 +94,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22, 13:36 UTC: PR30 integrada, guia Lua do Cacador EN/PT/ES; Production Ready e publico verificados, ambos jobs CI main aprovados. [[2026-10-22-hunters-moon-editorial-release]].
 
+- 2026-10-22, 18:29 UTC: captura unica TSE repetiu bloqueio PB; sete JSON canonicos intactos, sem revisao/PR/deploy TSE. [[2026-10-22-tse-pb-retention-recheck]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.

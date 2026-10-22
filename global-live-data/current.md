@@ -8,23 +8,23 @@ atualizado: "2026-10-22"
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-22-hunters-moon-editorial-release]].
+Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
 
 - PR30 integrada em main/origin limpos 489382828b3b08ef30ae5367d85d46064331ce68. Ambos jobs CI da PR aprovados; ambos jobs CI main aprovados. Production Ready e nove paginas anonimas verificados. [[release-status]].
 - Quatorze artigos EN/PT/ES; guia Lua do Cacador usa quatro fontes primarias, sete conversoes locais e CTA Natureza. Nenhum feed astronomico ou promessa de visibilidade. [[editorial-publishing]].
 - Validacao local check101/Python11/Chromium35 e QA390/1280px aprovados. WebKit/iOSnativo/carga nao repetidos. Falhas iniciais de expectativa/escape corrigidas nos verificadores; detalhes no recibo.
 - Pendencia Ready PR29 encerrada; painel autenticado acessivel e recibo complementado. Nenhuma credencial/permissao/redeploy alterados. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
 - Ops pontual em2026-10-22T13:38:25.325Z: nove feeds representativos ready em sete leituras, sem garantia continua.
-- Rodada TSE12:25UTC repetiu bloqueio PB; sete arquivos canonicos e capturas preservados. Sem nova revisao/PR/deploy TSE, mesma cadencia. [[brazil-election-comparison]].
+- Rodada TSE18:28UTC repetiu bloqueio PB (relatorio18:29:07Z); sete arquivos canonicos e capturas preservados. Sem nova revisao/PR/deploy TSE, mesma cadencia. [[brazil-election-comparison]].
 - Brasil2026 mantem136 recortes do primeiro turno incluindo RO; segundo turno nao publicado,2022 e demais edicoes preservados. [[historical-editions]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES preparado para piloto local gratuito; zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade inconsistente. NBA preparada/desativada sem chave conforme escolha. [[brasileirao-nba-feeds]].
 - Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, compra, chave, DNS, anuncio, analytics ou automacao alterada. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-22-hunters-moon-editorial-release]] - Handoff atual.
+- [[2026-10-22-hunters-moon-editorial-release]] - Ultima publicacao editorial.
 - [[2026-10-22-editorial-cricket-triage]] - Handoff anterior editorial.
-- [[2026-10-22-tse-pb-retention-recheck]] - Handoff anterior TSE.
+- [[2026-10-22-tse-pb-retention-recheck]] - Handoff atual TSE.
 - [[2026-10-22-editorial-research-deferred]] - Handoff anterior editorial.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Handoff anterior TSE.
 - [[2026-10-21-champions-editorial-release]] - Handoff anterior.

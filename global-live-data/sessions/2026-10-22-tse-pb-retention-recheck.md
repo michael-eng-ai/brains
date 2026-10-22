@@ -12,13 +12,13 @@ maquina: macos
 # Sessao: rechecagem de retencao TSE
 
 ## Objetivo da sessao
-Conferir os arquivos oficiais de 2026 nas rodadas 06:25 e 12:25 UTC, com uma unica execucao por rodada e sem regredir selecoes publicadas.
+Conferir os arquivos oficiais de 2026 nas rodadas 06:25, 12:25 e 18:28 UTC, com uma unica execucao por rodada e sem regredir selecoes publicadas.
 
 ## Estado
-- Main/origin limpos em 77b578053ee05974b1ad006658566e61af53c175; branch temporaria vazia removida.
-- Ambas as execucoes terminaram com exit 1/status blocked: mesmo impedimento PB. Ultimo relatorio em 2026-10-22T12:26:43.176Z. Evidencias completas e limites em [[brazil-election-comparison]].
-- Nenhum dado, timestamp de captura, commit/PR/deploy do projeto modificado.
-- Pendencias editorial Ready/teste de nomes preservadas em current.
+- Ultima rodada em main/origin limpos 489382828b3b08ef30ae5367d85d46064331ce68; branch temporaria vazia removida.
+- As tres execucoes terminaram com exit 1/status blocked: mesmo impedimento PB. Ultimo relatorio em 2026-10-22T18:29:07.353Z. Evidencias completas e limites em [[brazil-election-comparison]].
+- Nenhum dado ou timestamp de captura modificado pelas rodadas TSE; nenhum commit/PR/deploy TSE.
+- PR30 editorial publicada entre as rodadas; pendencia Ready PR29 encerrada. Teste de nomes preservado em current, ainda sem respostas reais.
 
 ## Decisoes tomadas e motivos
 - Preservar snapshot reconciliado; nao enfraquecer retencao, transformar ausencias em zero ou rebaixar PB para quarentena.
