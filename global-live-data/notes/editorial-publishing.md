@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-21"
+atualizado: "2026-10-22"
 ---
 
 # Publicacao editorial
@@ -78,6 +78,16 @@ Decima terceira leitura: champions-league-2026-27-table-guide, EN/PT/ES. Uma pes
 
 Guia de proximas rodadas, faixas de classificacao e primeiros desempates; exemplo de saldo e hipotetico, aritmetica verificada. Nenhum resultado atual, horario convertido, promessa de classificacao, imagem ou texto copiado. Football/futebol e filtro existente; CTA para pagina de jogos, cuja falta de tabela Champions fica explicita. Treze artigos; disclosure IA/sem revisao humana. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos em [[release-status]].
 
+## Rodada de 22 outubro, 01:18 UTC - pesquisa sem nova publicacao
+
+Uma execucao Node24 de `npm run editorial:research -- US BR GB ES JP IN` terminou com exit0. Os seis mercados responderam ready; observacoes entre 01:22:54.476Z e 01:22:57.369Z. Evidencia local: /tmp/gld-editorial-20261022-0118-research.log. Destaques da amostra: US `warriors vs lakers` (20000+), BR `lakers x warriors` (1000+), IN `lakers vs warriors` (200+) e ES `nba` (500+). Estes valores sao faixas do RSS e nao volume mensal, audiencia do site ou prova da causa da busca.
+
+Triagem contra os treze artigos existentes: o guia League Pass ja cobre acesso/transmissoes; nao gerar outra variante equivalente. Uma explicacao de leitura do placar/box score e uma possibilidade distinta, ainda nao aprovada como artigo pronto. Consultadas como pontos de partida a [regra 5 da NBA](https://official.nba.com/rule-no-5-scoring-and-timing/), o [glossario NBA](https://www.nba.com/stats/help/glossary?hidenav=true) e o [FAQ NBA Stats](https://www.nba.com/stats/help/faq). Nenhum resultado, horario de partida ou estatistica atual foi validado/publicado nesta rodada. Saude, rumores e eleicoes encontrados no RSS nao foram convertidos em noticias automaticas.
+
+Decisao desta execucao: adiar nova entrega enquanto permanece aberta a verificacao final da PR29, respeitando o passo1 de docs/EDITORIAL.md sobre outra release em andamento. Uma leitura CUA confirmou que o Mac continua bloqueado; o pedido de desbloqueio anterior permanece pendente. Nao repetir MCP/CLI com acesso negado, alterar seguranca ou redesplegar para completar recibo. Isso nao muda a cadencia nem cria uma proibicao permanente de publicar. Na proxima rodada, primeiro tentar concluir o recibo existente e reapurar a demanda; este snapshot nao deve ser apresentado como tendencia atual futura.
+
+Main/origin permaneceram iguais e limpos em 77b578053ee05974b1ad006658566e61af53c175. Conferencia anonima em 2026-10-22T01:25:12.050219Z: artigo Champions PT HTTP200, titulo presente e deployment dpl_A9QG5Z3FfCBxF4vvnni4sw2vXyPv, igual ao recibo anterior. Isso nao substitui a observacao direta de Ready. O primeiro probe Python falhou pela cadeia CA local; curl com TLS padrao confirmou a pagina, sem desativar validacao. Evidencia /tmp/gld-editorial-20261022-0118-current.json. Sem edicao do app, branch, commit/PR/deploy do projeto ou novas datas de artigo. Check/e2e/QA completos nao repetidos porque o produto nao mudou. Teste de nomes e bloqueio TSE preservados; nenhuma automacao, conta ou custo alterado.
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -100,3 +110,4 @@ Guia de proximas rodadas, faixas de classificacao e primeiros desempates; exempl
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
+- [[2026-10-22-editorial-research-deferred]] - Pesquisa sem nova release; retomar verificacao anterior.

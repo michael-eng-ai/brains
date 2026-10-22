@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-21"
+atualizado: "2026-10-22"
 ---
 
 # Acesso e publicacao Vercel
@@ -62,3 +62,4 @@ Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
+- [[2026-10-22-editorial-research-deferred]] - Limitacao do Mac bloqueado reconfirmada sem nova tentativa de acesso.

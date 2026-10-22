@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-22-editorial-research-deferred]] - Pesquisa concluida; sem sobrepor verificacao pendente.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Retencao TSE bloqueou regressao PB.
 - [[2026-10-21-champions-editorial-release]] - Guia Champions e pendencia Ready.
 - [[2026-10-21-brand-name-test-preparation]] - Teste preparado e verificacao.
@@ -237,3 +238,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-21-wawrinka-editorial-release]] - Decima segunda leitura e recibos.
 - [[2026-10-21-champions-editorial-release]] - Decima terceira leitura.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha TSE com preservacao do historico.
+- [[2026-10-22-editorial-research-deferred]] - Pesquisa editorial sem nova publicacao.

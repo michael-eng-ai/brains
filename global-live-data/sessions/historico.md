@@ -84,6 +84,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22: refresh TSE bloqueado por retencao PB; arquivos preservados, testes offline aprovados, sem publicacao. [[2026-10-22-tse-pb-refresh-blocked]].
 
+- 2026-10-22 01:18 UTC: seis mercados pesquisados; pagina publicada preservada, Ready anterior ainda pendente, sem nova entrega. [[2026-10-22-editorial-research-deferred]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -123,3 +125,4 @@ atualizado: "2026-10-22"
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da publicacao.
 - [[2026-10-21-champions-editorial-release]] - Handoff.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Handoff da falha TSE.
+- [[2026-10-22-editorial-research-deferred]] - Handoff da pesquisa editorial.
