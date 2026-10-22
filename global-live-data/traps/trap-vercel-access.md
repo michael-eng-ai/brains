@@ -63,3 +63,4 @@ Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-editorial-research-deferred]] - Limitacao do Mac bloqueado reconfirmada sem nova tentativa de acesso.
+- [[2026-10-22-editorial-cricket-triage]] - Painel segue inacessivel; pesquisa independente realizada.

@@ -88,6 +88,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22 06:25 UTC: TSE repetiu bloqueio PB; hashes canonicos intactos, sem nova publicacao. [[2026-10-22-tse-pb-retention-recheck]].
 
+- 2026-10-22 07:21 UTC: seis mercados pesquisados; criquete investigado sem pauta aprovada, sem nova publicacao. [[2026-10-22-editorial-cricket-triage]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -129,3 +131,4 @@ atualizado: "2026-10-22"
 - [[2026-10-22-tse-pb-refresh-blocked]] - Handoff da falha TSE.
 - [[2026-10-22-editorial-research-deferred]] - Handoff da pesquisa editorial.
 - [[2026-10-22-tse-pb-retention-recheck]] - Rechecagem TSE.
+- [[2026-10-22-editorial-cricket-triage]] - Triagem editorial.

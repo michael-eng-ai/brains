@@ -14,7 +14,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
 | [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
-| [[current]] (current.md) | estado | "Refresh TSE bloqueado em PB; versao publicada preservada e Ready editorial ainda pendente." | [global-live-data, estado, editorial] | 75 | 78 |
+| [[current]] (current.md) | estado | "Refresh TSE bloqueado em PB; versao publicada preservada e Ready editorial ainda pendente." | [global-live-data, estado, editorial] | 76 | 79 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 6 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 7 | 7 |
@@ -36,7 +36,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-19-repair-usgs-refresh]] (decisions/2026-10-19-repair-usgs-refresh.md) | decisao | "Corrigir o frescor USGS, testar, integrar e publicar por autorizacao explicita." | [global-live-data, decisao, usgs, cache] | 5 | 5 |
 | [[2026-10-20-publish-brasileirao-prepare-nba]] (decisions/2026-10-20-publish-brasileirao-prepare-nba.md) | decisao | "Publicar Brasileirao e deixar NBA preparada sem chave, conforme escolha explicita." | [global-live-data, produto, autorizacao] | 4 | 3 |
 | [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 12 | 12 |
-| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 104 | 105 |
+| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 105 | 106 |
 | [[api-data-adequacy]] (notes/api-data-adequacy.md) | conceito | "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas." | [global-live-data, dados, qualidade, produto] | 13 | 13 |
 | [[brand-name-testing]] (notes/brand-name-testing.md) | conceito | "Teste local PT/EN/ES preparado para dois nomes; sem participantes ou contratacao." | [global-live-data, conceito, pesquisa, lancamento] | 5 | 5 |
 | [[brasileirao-nba-feeds]] (notes/brasileirao-nba-feeds.md) | conceito | "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave." | [global-live-data, esportes, fornecedores] | 8 | 8 |
@@ -45,7 +45,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[consolidation-audit]] (notes/consolidation-audit.md) | conceito | "Auditoria de consolidacao: contador 24h, documentacao, operacao e custos medidos." | [global-live-data, auditoria, operacao] | 13 | 13 |
 | [[curated-geography]] (notes/curated-geography.md) | "conceito" | "Catalogo limitado de 42 cidades e geometria do mapa." | ["global-live-data", "conceito"] | 3 | 3 |
 | [[development-dependencies]] (notes/development-dependencies.md) | "conceito" | "Auditoria de dependencias e restricao de compatibilidade do lint." | ["global-live-data", "conceito"] | 3 | 3 |
-| [[editorial-publishing]] (notes/editorial-publishing.md) | conceito | "Artigos originais por tendencias e rotina editorial a cada seis horas." | [global-live-data, conceito, editorial] | 22 | 22 |
+| [[editorial-publishing]] (notes/editorial-publishing.md) | conceito | "Artigos originais por tendencias e rotina editorial a cada seis horas." | [global-live-data, conceito, editorial] | 23 | 23 |
 | [[football-fx-pilot]] (notes/football-fx-pilot.md) | "conceito" | "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas." | ["global-live-data", "conceito"] | 16 | 16 |
 | [[historical-editions]] (notes/historical-editions.md) | conceito | "Edicoes historicas persistentes com SQLite somente leitura e importacao verificavel." | [global-live-data, historico, dados] | 17 | 17 |
 | [[launch-readiness]] (notes/launch-readiness.md) | conceito | "Dominio proprio e Google: .com cotado, registros ainda nao adquiridos." | [global-live-data, conceito, validacao, lancamento] | 11 | 10 |
@@ -99,10 +99,11 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-21-orionids-editorial-release]] (sessions/2026-10-21-orionids-editorial-release.md) | sessao | "Guia Orionids EN/PT/ES integrado e servido, Ready direto pendente." | [global-live-data, sessao, editorial] | 7 | 7 |
 | [[2026-10-21-uk-cpi-editorial-release]] (sessions/2026-10-21-uk-cpi-editorial-release.md) | sessao | "Guia CPI EN/PT/ES publicado; Ready atual e pendencias anteriores verificados." | [global-live-data, sessao, editorial] | 7 | 7 |
 | [[2026-10-21-wawrinka-editorial-release]] (sessions/2026-10-21-wawrinka-editorial-release.md) | sessao | "Guia Wawrinka EN/PT/ES publicado; CI e Production Ready verificados." | [global-live-data, sessao, editorial] | 7 | 7 |
+| [[2026-10-22-editorial-cricket-triage]] (sessions/2026-10-22-editorial-cricket-triage.md) | sessao | "Seis mercados pesquisados; pauta de criquete nao aprovada, sem nova publicacao." | [global-live-data, sessao, editorial] | 5 | 5 |
 | [[2026-10-22-editorial-research-deferred]] (sessions/2026-10-22-editorial-research-deferred.md) | sessao | "Pesquisa editorial em seis mercados; nova entrega adiada com recibo anterior pendente." | [global-live-data, sessao, editorial] | 5 | 5 |
 | [[2026-10-22-tse-pb-refresh-blocked]] (sessions/2026-10-22-tse-pb-refresh-blocked.md) | sessao | "Refresh TSE bloqueado em dois recortes PB; historico e producao preservados." | [global-live-data, sessao, eleicoes, qualidade] | 5 | 5 |
 | [[2026-10-22-tse-pb-retention-recheck]] (sessions/2026-10-22-tse-pb-retention-recheck.md) | sessao | "Rechecagem TSE repetiu bloqueio PB; sete arquivos canonicos preservados." | [global-live-data, sessao, eleicoes, dados] | 5 | 5 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 39 | 39 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 40 | 40 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |
@@ -116,7 +117,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[trap-concurrent-github-changes]] (traps/trap-concurrent-github-changes.md) | "armadilha" | "Estado remoto pode mudar enquanto testes e memoria estao em andamento." | ["global-live-data", "armadilha"] | 3 | 3 |
 | [[trap-env-preservation]] (traps/trap-env-preservation.md) | "armadilha" | "Copia de exemplo pode apagar configuracao local ja autorizada." | ["global-live-data", "armadilha"] | 2 | 2 |
 | [[trap-runtime-selection]] (traps/trap-runtime-selection.md) | "armadilha" | "Diretorio node@24 nao prova que o executavel roda Node 24." | ["global-live-data", "armadilha"] | 2 | 2 |
-| [[trap-vercel-access]] (traps/trap-vercel-access.md) | "armadilha" | "Conector, browser, formulario e deploy sao estados independentes." | ["global-live-data", "armadilha"] | 12 | 11 |
+| [[trap-vercel-access]] (traps/trap-vercel-access.md) | "armadilha" | "Conector, browser, formulario e deploy sao estados independentes." | ["global-live-data", "armadilha"] | 13 | 12 |
 
 ## Conexoes
 - [[index]]

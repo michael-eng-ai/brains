@@ -8,9 +8,9 @@ atualizado: "2026-10-22"
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
+Ultimo handoff: [[2026-10-22-editorial-cricket-triage]].
 
-- Rodada editorial 01:18 UTC pesquisou seis mercados; nova entrega adiada enquanto o recibo anterior segue pendente. Evidencias em [[editorial-publishing]].
+- Rodada editorial 07:21 UTC pesquisou seis mercados e investigou criquete; nenhuma pauta pronta, sem alteracao do app. Fontes e limites em [[editorial-publishing]].
 - Rodada TSE 06:25 UTC repetiu o bloqueio de retencao PB; sete arquivos canonicos e capturas preservados. Evidencias em [[brazil-election-comparison]]. Sem novo commit/PR/deploy; proxima tentativa na cadencia existente.
 - Teste Global Live Data versus Datasanti World PT/EN/ES pronto para piloto local gratuito, com custos alternativos documentados. Zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
 - Preparacao do teste de nomes preservada; nova rodada editorial abaixo nao escolhe marca ou dominio.
@@ -25,7 +25,8 @@ Ultimo handoff: [[2026-10-22-tse-pb-retention-recheck]].
 - Dominio/Google e NBA real dependem de decisoes/configuracoes do proprietario. Sem compras, contas, chaves, DNS, anuncios ou analytics novos. [[launch-readiness]].
 
 ## Conexoes
-- [[2026-10-22-tse-pb-retention-recheck]] - Handoff atual.
+- [[2026-10-22-editorial-cricket-triage]] - Handoff atual.
+- [[2026-10-22-tse-pb-retention-recheck]] - Handoff anterior TSE.
 - [[2026-10-22-editorial-research-deferred]] - Handoff anterior editorial.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Handoff anterior TSE.
 - [[2026-10-21-champions-editorial-release]] - Handoff anterior.

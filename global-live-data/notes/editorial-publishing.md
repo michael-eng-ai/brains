@@ -88,6 +88,16 @@ Decisao desta execucao: adiar nova entrega enquanto permanece aberta a verificac
 
 Main/origin permaneceram iguais e limpos em 77b578053ee05974b1ad006658566e61af53c175. Conferencia anonima em 2026-10-22T01:25:12.050219Z: artigo Champions PT HTTP200, titulo presente e deployment dpl_A9QG5Z3FfCBxF4vvnni4sw2vXyPv, igual ao recibo anterior. Isso nao substitui a observacao direta de Ready. O primeiro probe Python falhou pela cadeia CA local; curl com TLS padrao confirmou a pagina, sem desativar validacao. Evidencia /tmp/gld-editorial-20261022-0118-current.json. Sem edicao do app, branch, commit/PR/deploy do projeto ou novas datas de artigo. Check/e2e/QA completos nao repetidos porque o produto nao mudou. Teste de nomes e bloqueio TSE preservados; nenhuma automacao, conta ou custo alterado.
 
+## Rodada de 22 outubro, 07:21 UTC - triagem sem artigo aprovado
+
+Uma execucao de editorial:research com Node 24 e US/BR/GB/ES/JP/IN terminou com exit 0: seis mercados ready, observados de 07:21:46.623Z a 07:21:50.062Z. Log local: /tmp/gld-editorial-20261022-0721-research.log. Consulta ES `nz vs ind` apareceu com faixa 500+; a amostra indiana tambem trouxe consultas de scorecard Nova Zelandia/India. Sao pistas datadas, sem prova do evento, causa da busca, volume mensal ou audiencia do site. Os treze artigos existentes foram comparados; nenhuma duplicata adicionada.
+
+A pesquisa independente prosseguiu apesar da pendencia de Ready. Foi investigada uma explicacao de overs para quem procura scorecard, distinta do guia de calendario India-Zimbabwe ja publicado. Duas referencias primarias acessiveis: [MCC, Laws of Cricket, 4a edicao 2026, Lei17](https://www.lords.org/getmedia/a4ef9f77-2a25-4f5b-a286-4601f08e6334/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29_5.pdf) e [ECB Play-Cricket, Short And Long Overs](https://play-cricket.ecb.co.uk/hc/en-us/articles/360000425209-Short-And-Long-Overs-PCS-Pro). Elas apoiam regras gerais, nao resultados de uma partida atual. Nenhum placar, horario ou confronto especifico foi corroborado por duas fontes atuais. A pauta nao foi aprovada como artigo pronto; nao publicar um texto generico com titulo que sugira placar ao vivo.
+
+Limites da apuracao: tres antigas paginas HTML MCC retornaram404; o PDF oficial2026 abriu. O indice ICC lista condicoes de outubro2026, mas seu PDF ODI retornou timeout nas duas leituras limitadas. Um trecho de resultado de busca sobre conversao decimal nao foi encontrado no PDF Shropshire aberto; excluido como evidencia. Nao usar snippets, PDFs antigos ou fontes secundarias como substitutos de regra atual nao lida. Nenhum texto/imagem copiado, autor/resultado inventado ou novo feed de criquete criado.
+
+Uma leitura CUA voltou a indicar Mac bloqueado; pedido anterior de desbloqueio segue pendente, sem nova solicitacao, tentativa de credenciais, MCP/CLI repetidos ou mudanca de seguranca. Nao foi obtida nova prova Ready. Main/origin permanecem limpos e iguais em 77b578053ee05974b1ad006658566e61af53c175. Sem arquivo de artigo, branch, commit/PR/deploy do projeto ou alteracao de timestamps publicados. Check/e2e/UI nao repetidos porque o produto nao mudou. Nenhuma conta, custo, chave, anuncio, analytics ou automacao alterados; teste de nomes e bloqueio TSE preservados. Proxima rodada faz nova pesquisa; nenhum tema fica preaprovado por este registro.
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -111,3 +121,4 @@ Main/origin permaneceram iguais e limpos em 77b578053ee05974b1ad006658566e61af53
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-editorial-research-deferred]] - Pesquisa sem nova release; retomar verificacao anterior.
+- [[2026-10-22-editorial-cricket-triage]] - Apuracao sem pauta pronta nesta rodada.

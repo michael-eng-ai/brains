@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-22-editorial-cricket-triage]] - Pesquisa de criquete sem pauta pronta.
 - [[2026-10-22-tse-pb-retention-recheck]] - Mesmo bloqueio TSE; snapshot preservado.
 - [[2026-10-22-editorial-research-deferred]] - Pesquisa concluida; sem sobrepor verificacao pendente.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Retencao TSE bloqueou regressao PB.
@@ -241,3 +242,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha TSE com preservacao do historico.
 - [[2026-10-22-editorial-research-deferred]] - Pesquisa editorial sem nova publicacao.
 - [[2026-10-22-tse-pb-retention-recheck]] - Rechecagem TSE sem mudanca acionavel.
+- [[2026-10-22-editorial-cricket-triage]] - Pesquisa editorial desta rodada.
