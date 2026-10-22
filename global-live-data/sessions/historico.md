@@ -92,6 +92,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22, 12:26 UTC: captura unica TSE repetiu bloqueio PB; sete JSON canonicos preservados, sem mudanca do app/publicacao. [[2026-10-22-tse-pb-retention-recheck]].
 
+- 2026-10-22, 13:36 UTC: PR30 integrada, guia Lua do Cacador EN/PT/ES; Production Ready e publico verificados, ambos jobs CI main aprovados. [[2026-10-22-hunters-moon-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -134,3 +136,4 @@ atualizado: "2026-10-22"
 - [[2026-10-22-editorial-research-deferred]] - Handoff da pesquisa editorial.
 - [[2026-10-22-tse-pb-retention-recheck]] - Rechecagem TSE.
 - [[2026-10-22-editorial-cricket-triage]] - Triagem editorial.
+- [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial.

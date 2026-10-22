@@ -98,6 +98,12 @@ Limites da apuracao: tres antigas paginas HTML MCC retornaram404; o PDF oficial2
 
 Uma leitura CUA voltou a indicar Mac bloqueado; pedido anterior de desbloqueio segue pendente, sem nova solicitacao, tentativa de credenciais, MCP/CLI repetidos ou mudanca de seguranca. Nao foi obtida nova prova Ready. Main/origin permanecem limpos e iguais em 77b578053ee05974b1ad006658566e61af53c175. Sem arquivo de artigo, branch, commit/PR/deploy do projeto ou alteracao de timestamps publicados. Check/e2e/UI nao repetidos porque o produto nao mudou. Nenhuma conta, custo, chave, anuncio, analytics ou automacao alterados; teste de nomes e bloqueio TSE preservados. Proxima rodada faz nova pesquisa; nenhum tema fica preaprovado por este registro.
 
+## Edicao de 22 outubro, 13:22 UTC
+
+Pauta: hunters-moon-2026-local-times, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready entre 13:22:42.108Z e 13:22:45.473Z. Consulta GB best time to see hunters moon observada 13:22:42.996Z, faixa RSS200+, sem inferir volume mensal ou audiencia futura. Ledger docs/editorial/2026-10-22-hunters-moon.md registra quatro fontes primarias lidas ate13:24:56Z: USNO fases, NASA outubro, Royal Observatory Greenwich outubro e NASA fases.
+
+Guia separa instante da fase cheia de nascimento/ocaso e condicoes locais. Sete horarios calculados por Python zoneinfo; Cidade do Mexico ainda no dia25, demais exemplos dia26. Checklist e exemplo de lembrete originais; nenhuma imagem/passagem copiada, avistamento, previsao astronomica, superlua ou garantia de visibilidade. Fonte SKYCAL arquivada sem calendario renderizado excluida; divergencia de um minuto em fontes secundarias nao usada. Reutiliza filtro sky e CTA Natureza com limite42cidades. Catalogo14artigos, disclosure IA/sem revisao humana preservado. Nenhum provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterado. Recibos de entrega em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -122,3 +128,4 @@ Uma leitura CUA voltou a indicar Mac bloqueado; pedido anterior de desbloqueio s
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-editorial-research-deferred]] - Pesquisa sem nova release; retomar verificacao anterior.
 - [[2026-10-22-editorial-cricket-triage]] - Apuracao sem pauta pronta nesta rodada.
+- [[2026-10-22-hunters-moon-editorial-release]] - Handoff da Lua do Cacador.

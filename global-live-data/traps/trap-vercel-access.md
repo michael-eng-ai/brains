@@ -50,6 +50,10 @@ Consulta MCP ao novo deployment Preview retornou403 no scope existente; CLI com 
 
 Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao alias no scope existente retornou403. Nao tentar desbloquear, copiar credenciais ou ampliar acesso; proprietario recebeu pedido de desbloqueio. CLI com falha conhecida nao repetida. Estado Ready direto e evidencias GitHub/publicas registrados separadamente em [[release-status]]. Quando painel estiver acessivel, conferir deployment existente/SHA/Production/Ready e complementar recibo, sem novo deploy.
 
+## Resolucao em 22 outubro, rodada de 13:22 UTC
+
+Chrome autenticado novamente acessivel. O painel existente da PR29 confirmou Ready/Production Current/main e link ao SHA integral esperado. PR29 e [[release-status]] receberam recibo complementar, com nova verificacao publica. Pedido anterior de desbloqueio deixa de bloquear a verificacao; nenhuma credencial, configuracao de autenticacao, permissao ou redeploy alterado. Conector/CLI nao foram repetidos nem declarados recuperados.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -64,3 +68,4 @@ Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-editorial-research-deferred]] - Limitacao do Mac bloqueado reconfirmada sem nova tentativa de acesso.
 - [[2026-10-22-editorial-cricket-triage]] - Painel segue inacessivel; pesquisa independente realizada.
+- [[2026-10-22-hunters-moon-editorial-release]] - Handoff da verificacao PR29/PR30.
