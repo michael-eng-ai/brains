@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-23-nba-box-score-editorial-release]] - Sumula NBA, exemplo conferido e publicacao trilingue.
 - [[2026-10-23-tse-vote-classification-release]] - PB reconciliado e revisao MS publicada.
 - [[2026-10-22-earthquake-editorial-release]] - Magnitude, intensidade e publicacao verificada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Lua do Cacador e verificacao Ready.
@@ -249,3 +250,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff editorial.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao TSE.
+- [[2026-10-23-nba-box-score-editorial-release]] - Handoff do guia NBA.

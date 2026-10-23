@@ -100,6 +100,8 @@ atualizado: "2026-10-23"
 
 - 2026-10-23, 00:28-00:36 UTC: TSE PB reconciliado, revisao UNIÃO/MS preservando total; PR32/CI/Ready/publico/export conferidos. [[2026-10-23-tse-vote-classification-release]].
 
+- 2026-10-23, 01:26-01:40 UTC: PR33 integrada, guia NBA EN/PT/ES com fontes e exemplo hipotetico; CI/Ready/publico conferidos. [[2026-10-23-nba-box-score-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -145,3 +147,4 @@ atualizado: "2026-10-23"
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Revisao TSE publicada.
+- [[2026-10-23-nba-box-score-editorial-release]] - Publicacao trilingue.

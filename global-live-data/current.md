@@ -1,21 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Revisao TSE publicada; PB reconciliado, historico preservado e CI completo."
-tags: [global-live-data, estado, eleicoes, release]
+resumo: "Guia NBA EN/PT/ES publicado com CI e Ready verificados; cerebro atualizado."
+tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-23"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-23-tse-vote-classification-release]].
+Ultimo handoff: [[2026-10-23-nba-box-score-editorial-release]].
 
-- PR32 integrada; main/origin limpos em 43c9dd3d84b7fb8b9d5fec608b7cd0a084d8463e. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e seis exports anonimos verificados. [[release-status]].
-- Captura TSE23out00:28UTC resolveu bloqueio PB; unico ajuste material e o split nominal/legenda de UNIAO para deputado estadual MS, sem mudar total66713. Outros135 recortes e2022/esportes preservados. [[brazil-election-comparison]].
-- Brasil2026 mantem136 recortes/1931 agregados do primeiro turno, incluindo RO, sem quarentena. Segundo turno ainda nao publicado; gates e cadencia mantidos. [[historical-editions]], [[refresh-tse-elections]].
-- Checks locais11Python/check101/Chromium35 aprovados; QA PT/EN/ES390/1280px local/publico confirmou filtros, idioma, arquivo, PB/RO e ausencia de turno2. WebKit/iOSnativo/carga nao repetidos.
-- Quinze artigos EN/PT/ES preservados; guia sismico PR31 publicado. Pendencia do CI main39840761870 encerrada nesta leitura: ambos jobs success, Chromium terminou22out19:44:49Z. [[editorial-publishing]], [[release-status]].
-- Ops23out00:34:54.391Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
+- PR33 integrada; main/origin limpos em b01ec0bf5f03978c2a0685d172984392474e7ae7. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
+- Catalogo16artigos EN/PT/ES. Novo guia de sumula NBA usa duas fontes primarias e exemplo hipotetico conferido; filtro Basquete/indice interno, sem estatisticas individuais ao vivo. [[editorial-publishing]].
+- Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
+- Ops23out01:39:25.404Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
+- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO deputado estadual MS sem mudar total. Brasil2026 tem136 recortes/1931agregados primeiro turno, incluindo RO; sem quarentena ou turno2. 2022/esportes preservados. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- Proxima rodada editorial: nova pesquisa unica e no maximo uma pauta util, distinta e apurada; nao reaproveitar tendencia como prova de jogo/resultados. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; nenhuma credencial, permissao ou configuracao alterada. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
@@ -103,3 +103,4 @@ Ultimo handoff: [[2026-10-23-tse-vote-classification-release]].
 - [[sports-election-feeds]] - Contexto relacionado.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Handoff TSE atual.
+- [[2026-10-23-nba-box-score-editorial-release]] - Handoff editorial atual.

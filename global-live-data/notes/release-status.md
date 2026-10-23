@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-21"
+atualizado: "2026-10-23"
 ---
 
 # Estado da entrega
@@ -334,6 +334,18 @@ Ops uma vez00:34:54.391Z: nove feeds representativos ready em sete leituras; obs
 
 A consulta inicial desta sessao tambem encerrou a pendencia de CI main da PR31: run39840761870, SHA843294b, dois jobs success; Chromium concluiu em22out19:44:49Z. Somente recibo complementado, sem alterar a rotina editorial.
 
+## Guia de sumula NBA: PR33, 23 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/33 integrada 2026-10-23T01:38:03Z. Head revisado 1f22d3ec8d51056a83066d4616e64abdb19f81e8; main local/origin limpos em b01ec0bf5f03978c2a0685d172984392474e7ae7, arvore identica ao head. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39884862918 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39885104911 passaram os dois jobs no SHA exato; Chromium main terminou 01:40:10Z.
+
+Painel autenticado confirmou Production Ready/main/commit exato ate 01:39:23Z; deployment dpl_EY63VF2cuuWFWTYmpPVyQag8Xah4, build37s, alias atual. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EY63VF2cuuWFWTYmpPVyQag8Xah4 ; dominio unico https://global-live-data-4zoi80ray-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou configuracao alterada. Primeira acao CUA pediu estado atualizado; a leitura de estado resolveu, sem credenciais/permissoes. Uma variavel temporaria ausente exigiu nova leitura antes da navegacao confirmada; nenhum efeito no produto.
+
+Verificacao anonima 01:39:26.445Z: nove paginas EN/PT/ES (home, indice, novo artigo), data-dpl-id, CSP, canonical/hreflang, Article JSON-LD, data UTC23out, duas referencias visiveis, consulta datada, disclosure e sitemap aprovados. Publico https://global-live-data.vercel.app/pt/trending/nba-box-score-shooting-guide . QA publico terminou 01:39:29.640Z; leitura390/1280, filtro Basquete com3artigos, teclado, idiomas, sumario/fontes, CTAindice e descoberta LeaguePass, sem overflow/overlay/console; capturas inspecionadas.
+
+Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas; Python11; Chromium35 aprovados. Correcao final de texto orienta LeaguePass pelo filtro do indice, pois cards latest-two nao o garantem; check/Chromium completos repetidos e aprovados. Sem testes automatizados falhos. WebKit, Safari iOS nativo e carga nao repetidos para conteudo editorial. Nenhum provider/historico/infra/rotina mudou.
+
+Ops unico em 01:39:25.404Z: nove feeds representativos ready em sete leituras, incluindo USD/Brasileirao/natureza; nao e prova global ou continua. Evidencia temporaria /tmp/gld-nba-box-release-receipt.json e /tmp/gld-nba-box-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado, piloto3147 preservado. Escopo e apuracao em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -401,3 +413,4 @@ A consulta inicial desta sessao tambem encerrou a pendencia de CI main da PR31: 
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da decima quarta leitura.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Recibo TSE e retencao.
+- [[2026-10-23-nba-box-score-editorial-release]] - Recibo editorial NBA.

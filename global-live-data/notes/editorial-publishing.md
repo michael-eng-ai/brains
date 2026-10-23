@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-22"
+atualizado: "2026-10-23"
 ---
 
 # Publicacao editorial
@@ -110,6 +110,12 @@ Pauta earthquake-magnitude-intensity-guide, EN/PT/ES. Pesquisa unica US/BR/GB/ES
 
 Guia distingue tamanho do evento, tremor local e revisao de estimativas; preserva dez categorias JMA nas tres traducoes. Exemplo de duas cidades e checklist de capturas sao orientacoes originais, sem valores/eventos inventados. Nao relata terremoto atual, dano, tsunami, causa da tendencia ou previsao. Earthquakes/Terremotos e somente filtro editorial; CTA Natureza usa catalogo42cidades e filtros/avisos existentes, sem intensidade por rua ou feed JMA. Quinze artigos; fontes e disclosure IA/sem revisao humana preservados. Nenhuma imagem/passagem copiada, provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterados. Recibos de entrega em [[release-status]].
 
+## Edicao de 23 outubro, 01:26 UTC
+
+Pauta nba-box-score-shooting-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready entre 01:26:43.354Z e 01:26:46.319Z. Consulta GB 76ers vs cleveland cavaliers match player stats, observada 01:26:44.490Z, faixa RSS100+; nao prova partida, placar, causa da busca ou audiencia futura. Quinze artigos comparados; este guia de colunas e contas difere de League Pass e calendario WNBA. Ledger docs/editorial/2026-10-23-nba-box-score.md registra Jr.NBA How to Read a Box Score e NBA Official Rule5, lidos ate 01:28:21Z. Sao duas paginas primarias da mesma organizacao, nao corroboracao independente de jogo atual.
+
+FG/3P/FT, denominadores e exemplo inteiramente hipotetico de 13 pontos foram conferidos por Python e nas tres traducoes. Nao reporta atleta ou resultado real. Glossario/FAQ pesquisados mas nao lidos foram excluidos; sem passagens/imagens copiadas. Reutiliza Basketball e indice interno, que permite encontrar League Pass; os cards genericos mostram os dois artigos mais recentes, sem promessa de tema relacionado. Catalogo16artigos, fontes e disclosure IA/sem revisao humana preservados. NBA continua preparada/desativada sem chave. Nenhuma conta, custo, provider, dependencia, analytics, anuncio, automacao ou historico alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -136,3 +142,4 @@ Guia distingue tamanho do evento, tremor local e revisao de estimativas; preserv
 - [[2026-10-22-editorial-cricket-triage]] - Apuracao sem pauta pronta nesta rodada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da Lua do Cacador.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
+- [[2026-10-23-nba-box-score-editorial-release]] - Guia de leitura NBA.
