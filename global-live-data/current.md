@@ -1,25 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia sismico publicado; retencao TSE PB preserva snapshot anterior."
-tags: [global-live-data, estado, editorial]
-atualizado: "2026-10-22"
+resumo: "Revisao TSE publicada; PB reconciliado, historico preservado e CI completo."
+tags: [global-live-data, estado, eleicoes, release]
+atualizado: "2026-10-23"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-22-earthquake-editorial-release]].
+Ultimo handoff: [[2026-10-23-tse-vote-classification-release]].
 
-- PR31 integrada em main/origin limpos 843294bc37895b86f165b8e21c8b19c783f45137. Ambos jobs CI da PR aprovados; CI main: agregado aprovado; Chromium pendente na instalacao de dependencias as19:39:42UTC. Production Ready e nove paginas anonimas verificados. [[release-status]].
-- Quinze artigos EN/PT/ES; novo guia de magnitude/intensidade/revisoes usa tres fontes primarias e CTA Natureza. Nenhum feed JMA, alerta ou previsao sismica. [[editorial-publishing]].
-- Validacao local check101/Python11/Chromium35 e QA390/1280px aprovados. WebKit/iOSnativo/carga nao repetidos. Checks locais e da PR passaram na primeira execucao; CI main pendente e separado no recibo.
-- Pendencia Ready PR29 encerrada; painel autenticado acessivel e recibo complementado. Nenhuma credencial/permissao/redeploy alterados. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
-- Ops pontual em2026-10-22T19:31:57.347Z: nove feeds representativos ready em sete leituras, sem garantia continua.
-- Rodada TSE18:28UTC repetiu bloqueio PB (relatorio18:29:07Z); sete arquivos canonicos e capturas preservados. Sem nova revisao/PR/deploy TSE, mesma cadencia. [[brazil-election-comparison]].
-- Brasil2026 mantem136 recortes do primeiro turno incluindo RO; segundo turno nao publicado,2022 e demais edicoes preservados. [[historical-editions]].
-- Teste Global Live Data versus Datasanti World PT/EN/ES preparado para piloto local gratuito; zero respostas reais, sem escolha de marca/dominio ou contratacao. [[brand-name-testing]].
-- Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade inconsistente. NBA preparada/desativada sem chave conforme escolha. [[brasileirao-nba-feeds]].
-- Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, compra, chave, DNS, anuncio, analytics ou automacao alterada. [[launch-readiness]].
+- PR32 integrada; main/origin limpos em 43c9dd3d84b7fb8b9d5fec608b7cd0a084d8463e. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e seis exports anonimos verificados. [[release-status]].
+- Captura TSE23out00:28UTC resolveu bloqueio PB; unico ajuste material e o split nominal/legenda de UNIAO para deputado estadual MS, sem mudar total66713. Outros135 recortes e2022/esportes preservados. [[brazil-election-comparison]].
+- Brasil2026 mantem136 recortes/1931 agregados do primeiro turno, incluindo RO, sem quarentena. Segundo turno ainda nao publicado; gates e cadencia mantidos. [[historical-editions]], [[refresh-tse-elections]].
+- Checks locais11Python/check101/Chromium35 aprovados; QA PT/EN/ES390/1280px local/publico confirmou filtros, idioma, arquivo, PB/RO e ausencia de turno2. WebKit/iOSnativo/carga nao repetidos.
+- Quinze artigos EN/PT/ES preservados; guia sismico PR31 publicado. Pendencia do CI main39840761870 encerrada nesta leitura: ambos jobs success, Chromium terminou22out19:44:49Z. [[editorial-publishing]], [[release-status]].
+- Ops23out00:34:54.391Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
+- Painel Vercel autenticado acessivel; nenhuma credencial, permissao ou configuracao alterada. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
+- Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
+- Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
+- Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterados. [[launch-readiness]].
 
 ## Conexoes
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
@@ -102,3 +102,4 @@ Ultimo handoff: [[2026-10-22-earthquake-editorial-release]].
 - [[trends-tv-discovery]] - Contexto relacionado.
 - [[sports-election-feeds]] - Contexto relacionado.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
+- [[2026-10-23-tse-vote-classification-release]] - Handoff TSE atual.

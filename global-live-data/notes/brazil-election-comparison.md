@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-22"
+atualizado: "2026-10-23"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -23,7 +23,7 @@ O proprietario autorizou dados oficiais de 2026, comparacao por cargo/estado/tur
 
 A PR #10 acrescenta atualizacao automatizada e cobertura derivada do SQLite. Recortes publicados nao podem desaparecer ou tornar-se divergentes: regressao bloqueia o lote e preserva a proveniencia anterior. Regeneracao de ZIP sem mudanca nos agregados nao atualiza o site. Nao misturar dados antigos/novos sob uma captura falsa. 2022 permanece intacto. Avisos e links de pendencias acompanham o banco. Contagens atuais e verificacoes reais em [[release-status]].
 
-## Captura atual reconciliada: 19 outubro 2026
+## Captura reconciliada: 19 outubro 2026
 
 O heartbeat executou uma unica vez history:refresh:tse -- --apply, exit 0, checkedAt 12:20:04.872851 UTC, changed/applied true. As duas fontes oficiais adquiridas as 12:20:01 UTC mantem IDs 6257/6259, turno 1, data 04/10. Agora 136 recortes validos, 1.931 agregados partidarios e nenhuma quarentena. RO deputado federal: 932.939 votos validos, 21 partidos; deputado estadual: 942.021, 18 partidos. Soma nominal+legenda igual ao total independente nos dois casos. Comparecimento 990.313, eleitorado 1.265.008 em ambos. Nenhum turno 2 importado.
 
@@ -63,6 +63,18 @@ Sete JSON canonicos byte-identicos antes/depois; preservadas todas as capturas, 
 
 Diff dos scripts TSE/importacao, lib/history/refresh.ts e data/history entre77b5780 e4893828 vazio: a publicacao editorial intermediaria nao alterou esse fluxo. Suites de testes/UI nao repetidas para codigo/dados/bloqueio identicos; testes anteriores nao apresentados como novos. Nenhum commit/PR/deploy TSE. Evidencias locais: /tmp/gld-tse-20261022-1828.log, /tmp/gld-tse-20261022-1828-before.json e /tmp/gld-tse-20261022-1828-after.json. PR30/Ready editorial concluido e piloto de nomes permanecem conforme current. Sem nova acao necessaria do proprietario; proxima captura na cadencia existente.
 
+## Revisao reconciliada atual: 23 outubro 2026, 00:28 UTC
+
+Uma unica chamada history:refresh:tse -- --apply, branch codex/tse-refresh-20261023-0025 a partir de main atualizada 843294bc37895b86f165b8e21c8b19c783f45137, Node24.22.0/Python3.12.4, retornou exit0 changed/applied true. Relatorio checkedAt2026-10-23T00:28:20.585130+00:00. Identidades6257/6259, data04/10/2026, turno1, cobertura e retencao passaram sem alterar gates. PB governador/senador reconciliados novamente; seus agregados publicados sao identicos aos anteriores. O bloqueio observado em22out esta resolvido nesta captura, sem prova da causa anterior.
+
+Unico recorte alterado: deputado estadual MS/1, UNIAO44. Nominais64105 para47221; legenda2608 para19492; soma66713 preservada. Nenhuma causa juridica ou operacional inferida para a reclassificacao. Todos os totais de comparecimento/eleitorado/votos e os outros135 recortes permanecem identicos. Mantidos136 recortes e1931 agregados, incluindo RO, sem quarentena e sem turno2. Brasil2022 e quatro arquivos esportivos byte-identicos ao baseline. Aquisicoes atualizadas apenas porque houve mudanca material; revisoes anteriores ficam no Git.
+
+SHA normalizado2026: 53cc0037b3290f502190cf363957050f8e2e9892f73e12edfccb2b4ebdc06776, manifest correspondente. SHA ZIPpartidos 64e77b6c895549f48fdc5ca3e7250b0aadaaa916762c89cc1bfd949b0ecf50eb, adquirido2026-10-23T00:28:17.131537+00:00; SHA ZIPtotais 384d847c9ad033ce6787f68affc930d23876c45b6054326422fb601963c0e715, adquirido2026-10-23T00:28:17.617137+00:00. Lock removido normalmente e candidato desta rodada validado. Nenhum segundo download.
+
+Validacao local:11 testes Python, check101/lint/tipos/historybuild/Nextbuild/HTTPsmoke e35Chromium aprovados. QA PT/EN/ES390x844/1280x900 confirmou novo split, filtros, idioma, arquivo, PB/RO e turno2 indisponivel com2022 visivel; console e overflow limpos. Assercoes ad hoc de horario corrigidas para formatos locais/en-GB, sem mudar app. WebKit/iOSnativo/carga nao repetidos. Seis exports locais/publicos iguais aos canonicos (ordem partidaria normalizada); publicacao e CI em [[release-status]].
+
+Evidencias locais: /tmp/gld-tse-20261023-0025.log, -before.json e -review.json; /tmp/gld-tse-20261023-checks.log, -local-qa.json, -public-qa.json e -public-verification.json. PR32 inclui somentebr2026/manifest/docs. Mesma infraestrutura/cadencia; sem contas, chaves, gastos, analytics, anuncios ou permissaoCI nova.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -78,3 +90,4 @@ Diff dos scripts TSE/importacao, lib/history/refresh.ts e data/history entre77b5
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.
 - [[2026-10-22-tse-pb-retention-recheck]] - Repeticao do mesmo bloqueio, sem alterar dados.
+- [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao reconciliada.

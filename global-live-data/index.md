@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-22"
+atualizado: "2026-10-23"
 ---
 
 # Global Live Data
@@ -15,7 +15,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[project]] - Objetivo de produto e limites das fases.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
-- [[current]] - Estado atual, bloqueio TSE e publicacao editorial verificada.
+- [[current]] - Estado atual e revisoes TSE/editoriais verificadas.
 
 ## Conceitos
 - [[brand-name-testing]] - Teste de nomes PT/EN/ES e custos.
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-23-tse-vote-classification-release]] - PB reconciliado e revisao MS publicada.
 - [[2026-10-22-earthquake-editorial-release]] - Magnitude, intensidade e publicacao verificada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Lua do Cacador e verificacao Ready.
 - [[2026-10-22-editorial-cricket-triage]] - Pesquisa de criquete sem pauta pronta.
@@ -151,7 +152,7 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[AGENTS]] - Regras de retomada e limites que precisam sobreviver entre sessoes.
 - [[architecture]] - Mapa dos componentes e fronteiras do servidor.
 - [[curated-geography]] - Catalogo limitado de 42 cidades e geometria do mapa.
-- [[current]] - Estado atual, bloqueio TSE e publicacao editorial verificada.
+- [[current]] - Estado atual e revisoes TSE/editoriais verificadas.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[environment]] - Configuracao por nomes e comandos verificados, sem valores privados.
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
@@ -247,3 +248,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-22-editorial-cricket-triage]] - Pesquisa editorial desta rodada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff editorial.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
+- [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao TSE.

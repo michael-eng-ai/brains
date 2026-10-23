@@ -322,6 +322,18 @@ Check101unit/lint/types/historybuild/build/HTTP, Python11 e Chromium35 passaram 
 
 Ops uma vez19:31:57.347Z: nove feeds representativos ready em sete leituras (USGS, clima, futebol, USD, hoquei, xadrez, eleicaoUK, TV, Brasileirao); observacao pontual, nao saude global/continua. Logs e recibos /tmp/gld-quake-{checks.log,local-qa.json,public-qa.json,public-verification.json,ops.log,pr-ci.json,main-ci.json,merge.json,release-receipt.json}; pesquisa /tmp/gld-editorial-20261022-1922-research.log. TSE, NBA desativada e teste de nomes preservados; sem custos ou automacoes novas.
 
+## Revisao TSE publicada: PR32, 23 outubro 2026
+
+PR32 https://github.com/michael-eng-ai/global-live-data/pull/32 anexada e integrada em2026-10-23T00:33:59Z. Head revisado 6cfc4c4408b3f631c5457d358d8c0a23d3b55b20; main 43c9dd3d84b7fb8b9d5fec608b7cd0a084d8463e, mesma arvore e checkout limpo/sincronizado. Dois jobs CI aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39878653484 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/39878877304 (Chromium concluiu00:36:00Z, agregado00:35:03Z). Sem reexecucao ou mudanca de workflow.
+
+Production Ready/Current observado diretamente no painel autenticado ate2026-10-23T00:34:51.843476Z: deployment dpl_HowFUV5fWJvcpAyKpaZDZp1Qy4g1, main e SHA exato acima, build28s. Painel https://vercel.com/michael-eng-ais-projects/global-live-data/HowFUV5fWJvcpAyKpaZDZp1Qy4g1; dominio unico https://global-live-data-1oei2w97g-michael-eng-ais-projects.vercel.app. GitHub deployment7267144933 Production/success em00:34:32Z. Integracao Git existente; nenhum deploy duplicado, credencial ou configuracao alterados.
+
+Probes anonimos em00:34:56.722Z: nove paginas EN/PT/ES de comparacao e arquivos2026/2022, HTTP200/CSP/canonical/hreflang e mesmo data-dpl-id; seis exports publicos iguais aos arquivos canonicos apos ordenar partidos por ID. QA publico00:34:59.195Z em390x844/1280x900: novo split UNIÃO/MS, filtros, idioma, arquivo, PB/RO e ausencia de turno2 com2022 preservado; sem overflow/overlay/console. Screenshots inspecionados. Checks locais e dados em [[brazil-election-comparison]]. WebKit/iOSnativo/carga nao repetidos.
+
+Ops uma vez00:34:54.391Z: nove feeds representativos ready em sete leituras; observacao pontual, nao garantia continua. Recibos locais /tmp/gld-tse-20261023-release-receipt.json, -pr-ci.json, -main-ci.json, -merge.json, -deployment-statuses.json, -public-verification.json, -public-qa.json e -ops.log.
+
+A consulta inicial desta sessao tambem encerrou a pendencia de CI main da PR31: run39840761870, SHA843294b, dois jobs success; Chromium concluiu em22out19:44:49Z. Somente recibo complementado, sem alterar a rotina editorial.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -388,3 +400,4 @@ Ops uma vez19:31:57.347Z: nove feeds representativos ready em sete leituras (USG
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da decima quarta leitura.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
+- [[2026-10-23-tse-vote-classification-release]] - Recibo TSE e retencao.

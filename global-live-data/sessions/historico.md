@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-22"
+atualizado: "2026-10-23"
 ---
 
 # Historico
@@ -98,6 +98,8 @@ atualizado: "2026-10-22"
 
 - 2026-10-22, 19:30 UTC: PR31 integrada; guia sismico EN/PT/ES, Production Ready e publico verificados. [[2026-10-22-earthquake-editorial-release]].
 
+- 2026-10-23, 00:28-00:36 UTC: TSE PB reconciliado, revisao UNIÃO/MS preservando total; PR32/CI/Ready/publico/export conferidos. [[2026-10-23-tse-vote-classification-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -142,3 +144,4 @@ atualizado: "2026-10-22"
 - [[2026-10-22-editorial-cricket-triage]] - Triagem editorial.
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
+- [[2026-10-23-tse-vote-classification-release]] - Revisao TSE publicada.
