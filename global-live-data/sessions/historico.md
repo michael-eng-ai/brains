@@ -106,6 +106,8 @@ atualizado: "2026-10-23"
 
 - 2026-10-23, 13:26 UTC: PR35 integrada, guia Clasico EN/PT/ES com oito fusos e previa dos EUA; CI/Ready/publico conferidos. [[2026-10-23-clasico-editorial-release]].
 
+- 2026-10-23, 19:32 UTC: seis mercados pesquisados; pauta USD adiada por latest indisponivel. Rejeicao de datas futuras reproduzida,18 testes passaram, historico ready; sem publicacao. [[2026-10-23-editorial-usd-date-incident]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -154,3 +156,4 @@ atualizado: "2026-10-23"
 - [[2026-10-23-nba-box-score-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-ballon-dor-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-clasico-editorial-release]] - Publicacao trilingue.
+- [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.

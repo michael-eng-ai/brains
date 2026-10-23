@@ -14,7 +14,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
 | [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
-| [[current]] (current.md) | estado | "Guia Clasico EN/PT/ES publicado; CI, Ready e publico verificados." | [global-live-data, estado, editorial, release] | 82 | 85 |
+| [[current]] (current.md) | estado | "Pauta USD adiada por indisponibilidade; datas futuras reproduzem falha de validacao." | [global-live-data, estado, editorial, release] | 83 | 86 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 6 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 7 | 7 |
@@ -36,7 +36,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-19-repair-usgs-refresh]] (decisions/2026-10-19-repair-usgs-refresh.md) | decisao | "Corrigir o frescor USGS, testar, integrar e publicar por autorizacao explicita." | [global-live-data, decisao, usgs, cache] | 5 | 5 |
 | [[2026-10-20-publish-brasileirao-prepare-nba]] (decisions/2026-10-20-publish-brasileirao-prepare-nba.md) | decisao | "Publicar Brasileirao e deixar NBA preparada sem chave, conforme escolha explicita." | [global-live-data, produto, autorizacao] | 4 | 3 |
 | [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 12 | 12 |
-| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 111 | 112 |
+| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 112 | 113 |
 | [[api-data-adequacy]] (notes/api-data-adequacy.md) | conceito | "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas." | [global-live-data, dados, qualidade, produto] | 13 | 13 |
 | [[brand-name-testing]] (notes/brand-name-testing.md) | conceito | "Teste local PT/EN/ES preparado para dois nomes; sem participantes ou contratacao." | [global-live-data, conceito, pesquisa, lancamento] | 5 | 5 |
 | [[brasileirao-nba-feeds]] (notes/brasileirao-nba-feeds.md) | conceito | "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave." | [global-live-data, esportes, fornecedores] | 8 | 8 |
@@ -45,8 +45,8 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[consolidation-audit]] (notes/consolidation-audit.md) | conceito | "Auditoria de consolidacao: contador 24h, documentacao, operacao e custos medidos." | [global-live-data, auditoria, operacao] | 13 | 13 |
 | [[curated-geography]] (notes/curated-geography.md) | "conceito" | "Catalogo limitado de 42 cidades e geometria do mapa." | ["global-live-data", "conceito"] | 3 | 3 |
 | [[development-dependencies]] (notes/development-dependencies.md) | "conceito" | "Auditoria de dependencias e restricao de compatibilidade do lint." | ["global-live-data", "conceito"] | 3 | 3 |
-| [[editorial-publishing]] (notes/editorial-publishing.md) | conceito | "Artigos originais por tendencias e rotina editorial a cada seis horas." | [global-live-data, conceito, editorial] | 28 | 28 |
-| [[football-fx-pilot]] (notes/football-fx-pilot.md) | "conceito" | "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas." | ["global-live-data", "conceito"] | 16 | 16 |
+| [[editorial-publishing]] (notes/editorial-publishing.md) | conceito | "Artigos originais por tendencias e rotina editorial a cada seis horas." | [global-live-data, conceito, editorial] | 30 | 30 |
+| [[football-fx-pilot]] (notes/football-fx-pilot.md) | "conceito" | "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas." | ["global-live-data", "conceito"] | 18 | 18 |
 | [[historical-editions]] (notes/historical-editions.md) | conceito | "Edicoes historicas persistentes com SQLite somente leitura e importacao verificavel." | [global-live-data, historico, dados] | 17 | 17 |
 | [[launch-readiness]] (notes/launch-readiness.md) | conceito | "Dominio proprio e Google: .com cotado, registros ainda nao adquiridos." | [global-live-data, conceito, validacao, lancamento] | 11 | 10 |
 | [[met-forecast]] (notes/met-forecast.md) | "conceito" | "Previsao MET condicionada a identificacao publica autorizada." | ["global-live-data", "conceito"] | 14 | 14 |
@@ -107,9 +107,10 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-22-tse-pb-retention-recheck]] (sessions/2026-10-22-tse-pb-retention-recheck.md) | sessao | "Rechecagem TSE repetiu bloqueio PB; sete arquivos canonicos preservados." | [global-live-data, sessao, eleicoes, dados] | 5 | 5 |
 | [[2026-10-23-ballon-dor-editorial-release]] (sessions/2026-10-23-ballon-dor-editorial-release.md) | sessao | "PR34 publica agenda Bola de Ouro com fusos calculados e validacao trilingue." | [global-live-data, sessao, editorial, release] | 5 | 5 |
 | [[2026-10-23-clasico-editorial-release]] (sessions/2026-10-23-clasico-editorial-release.md) | sessao | "PR35 publica guia Clasico com fusos e previa dos EUA validados." | [global-live-data, sessao, editorial, release] | 5 | 5 |
+| [[2026-10-23-editorial-usd-date-incident]] (sessions/2026-10-23-editorial-usd-date-incident.md) | sessao | "Pauta USD adiada; latest indisponivel e rejeicao de datas futuras reproduzida." | [global-live-data, sessao, editorial, cambio, incidente] | 5 | 5 |
 | [[2026-10-23-nba-box-score-editorial-release]] (sessions/2026-10-23-nba-box-score-editorial-release.md) | sessao | "PR33 publica guia NBA com contas hipoteticas, fontes e validacao trilingue." | [global-live-data, sessao, editorial, release] | 5 | 5 |
 | [[2026-10-23-tse-vote-classification-release]] (sessions/2026-10-23-tse-vote-classification-release.md) | sessao | "PR32 publica revisao TSE reconciliada; PB recuperado e historia preservada." | [global-live-data, sessao, eleicoes, release] | 6 | 6 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 46 | 46 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 47 | 47 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |

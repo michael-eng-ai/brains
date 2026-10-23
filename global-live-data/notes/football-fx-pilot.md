@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-19"
+atualizado: "2026-10-23"
 ---
 
 # Futebol e cambio
@@ -44,6 +44,16 @@ Defeito reproduzido: DataPilot consultava somente ao montar, trocar a selecao ou
 
 Cache da fonte de 1h, Next compartilhado/SWR, backoff/condicionais e historico ficam intactos. Aba saudavel consulta latest normalmente uma vez por hora; resposta SWR antiga pode exigir leitura 1min depois. Erro persistente sem prazo: maximo de 60 leituras HTTP/h/aba visivel, nao 60 chamadas Frankfurter. /api/live inclui envelope de futebol em cache; cache/regioes/cold starts nao sao quota distribuida. O historico mantem a cadencia de 1h. Sem API/chave/infra/automacao nova. [[validation-workflow]] e [[release-status]] distinguem fixtures, dados reais e publicacao.
 
+## Incidente USD observado em 23 outubro, 19:36 UTC
+
+Durante a pesquisa editorial, /api/live?league=bl1&base=USD retornou HTTP200 com fx.status=error, data/checkedAt/retrievedAt nulos e nextRefreshAt: 2026-10-23T20:36:03.754Z. Em19:37:26Z, Chromium anonimo confirmou indisponibilidade de latest na pagina /exchange EN/PT/ES, enquanto o historico USD estava ready; sem overflow a390px ou pageerrors. Captura mobile inspecionada. Isso sucede a observacao saudavel das13:37UTC, sem provar quando o incidente comecou.
+
+Uma leitura direta ao endpoint v2/rates?base=USD&quotes=EUR,GBP,BRL,JPY retornou HTTP200 com Date=2026-10-23T19:36:23Z: BRL com referencia23out, mas EUR/GBP/JPY com24out. SHA256 do corpo: 58f8a2483e47c1714a972cad62da21aa7c1a9ec05530f37bdb324cbe93c14b50. normalizeRates inalterado rejeitou o conjunto e cada uma das tres linhas futuras, aceitando BRL isoladamente em19:37:03.256Z. Reproducao local confirma o mecanismo; o corpo upstream recebido pela Vercel nao foi observado, portanto a causa exata em producao permanece uma hipotese consistente, nao prova de erro HTTP ou outage completo da fonte.
+
+Uma segunda leitura diagnostica limitada, com date=2026-10-23, retornou quatro pares com essa data e passou no normalizador original em19:37:49.084Z. Isso aponta uma opcao para investigar fallback datado, sem aprovar/implementar um contrato novo nem garantir recuperacao. Nao alterar datas da fonte, aceitar futuro, trocar null por zero, apagar cache a forca ou atribuir valores atuais a exemplos. Manter limites de payload/timeout/backoff/condicionais e semantica diaria. Proximo passo tecnico: revalidar apos prazo compartilhado, conferir a politica de datas do provedor e, se necessario, desenhar fallback limitado por data com testes antes de alterar/publicar o adapter.
+
+Node24.22.0: 18 testes offline de tests/pilot.test.ts e tests/depth.test.ts passaram. Reproducao com payload real capturado e UI publica sao evidencias separadas. Check/build/e2e completos, WebKit/iOS/carga/CI nao repetidos porque nao houve mudanca no app. Main/origin limpos em 28d226858d57a5c548624794ddd20ea549cf1973; nenhum commit/PR/deploy do produto. Evidencias locais /tmp/gld-usd-20261023-{source.json,validation.json,dated-validation.json,ui.json,tests.log,mobile.png}. Uma primeira tentativa apontou a rota inexistente /api/pilot e recebeu404; foi corrigida para /api/live e nao e evidencia do incidente.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -61,3 +71,5 @@ Cache da fonte de 1h, Next compartilhado/SWR, backoff/condicionais e historico f
 - [[sports-fx-depth]] - Contrato aprofundado de esportes/FX.
 - [[2026-10-19-usd-fx-refresh-release]] - Handoff da correcao.
 - [[2026-10-19-repair-usd-fx-refresh]] - Autorizacao da correcao.
+- [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
+- [[editorial-publishing]] - Pesquisa que encontrou a indisponibilidade USD.

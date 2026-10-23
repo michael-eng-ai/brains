@@ -132,6 +132,14 @@ Ledger docs/editorial/2026-10-23-clasico.md: anuncios espanhóis de ambos clubes
 
 Reutiliza Football e destino interno. Catalogo18artigos, quatro Futebol; fontes e disclosure IA/sem revisao humana preservados. NBA desativada e historicos intactos. Nenhuma conta, custo, provider, dependencia, analytics, anuncio ou automacao alterados. Recibos em [[release-status]].
 
+## Rodada de 23 outubro, 19:32 UTC - pauta USD adiada
+
+Uma execucao Node24 de npm run editorial:research -- US BR GB ES JP IN terminou exit0 com seis mercados ready, observados19:32:43.499Z-19:32:46.503Z. Log /tmp/gld-editorial-20261023-1932-research.log. Consulta US `dólar estadounidense`, observada19:32:43.499Z, faixa RSS2000+, motivou apuracao de um guia sobre base/quote, conversao hipotetica e referencia diaria. Sao faixas datadas, nao buscas mensais, causa ou audiencia garantida. Dezoito artigos comparados; nao duplicar League Pass/box score NBA nem o Clasico ja publicado. Outros resultados sensiveis/saude/alegacoes nao foram aprovados.
+
+Foram lidas fontes primarias atuais: https://frankfurter.dev/ ; https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html ; https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/role_of_exchange_rates.en.html . Frankfurter v2 usa blend diario por padrao, nao somente ECB. Paginas ECB descrevem sua propria referencia informativa; nao transferir seu horario ou precos diretamente ao blend do portal. Nenhum valor do dia, aconselhamento financeiro ou causa de mercado foi redigido como artigo.
+
+A verificacao do destino interno encontrou latest USD indisponivel e resposta direta com datas futuras, enquanto o historico estava ready. Diagnostico e proximo passo em [[football-fx-pilot]]. Decisao editorial desta rodada: adiar o guia antes de enviar leitores ao destino indisponivel; nenhuma pauta/copia/catalogo/data de publicacao alterada, sem branch/PR/deploy. A rotina editorial permanece autorizada e com a mesma cadencia; isso nao cria bloqueio permanente de outros artigos. Futuras rodadas devem pesquisar novamente e decidir pelo valor/apuracao, sem tratar esta pauta como pronta. Nenhuma conta, custo, chave, provider, anuncio, analytics ou automacao alterados.
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -161,3 +169,5 @@ Reutiliza Football e destino interno. Catalogo18artigos, quatro Futebol; fontes 
 - [[2026-10-23-nba-box-score-editorial-release]] - Guia de leitura NBA.
 - [[2026-10-23-ballon-dor-editorial-release]] - Agenda e fusos da cerimonia.
 - [[2026-10-23-clasico-editorial-release]] - Agenda do Clasico e previa.
+- [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
+- [[football-fx-pilot]] - Diagnostico da fonte e limites de data.
