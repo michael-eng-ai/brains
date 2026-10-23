@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-23-clasico-editorial-release]] - Clasico, fusos e previa dos EUA publicados em tres idiomas.
 - [[2026-10-23-ballon-dor-editorial-release]] - Agenda Bola de Ouro, fusos e publicacao trilingue.
 - [[2026-10-23-nba-box-score-editorial-release]] - Sumula NBA, exemplo conferido e publicacao trilingue.
 - [[2026-10-23-tse-vote-classification-release]] - PB reconciliado e revisao MS publicada.
@@ -253,3 +254,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao TSE.
 - [[2026-10-23-nba-box-score-editorial-release]] - Handoff do guia NBA.
 - [[2026-10-23-ballon-dor-editorial-release]] - Handoff da Bola de Ouro.
+- [[2026-10-23-clasico-editorial-release]] - Handoff do Clasico.

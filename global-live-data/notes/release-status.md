@@ -358,6 +358,18 @@ Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas
 
 Ops unico em 07:42:16.839Z: nove feeds representativos ready em sete leituras, incluindo USD/Brasileirao/natureza; nao e prova global/continua. Recibo temporario /tmp/gld-ballon-release-receipt.json e /tmp/gld-ballon-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
 
+## Clasico: PR35, 23 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/35 integrada 2026-10-23T13:36:06Z. Head revisado f16c17dc3587ea692be3b32339f51943b33b139d; main local/origin limpos em 28d226858d57a5c548624794ddd20ea549cf1973, arvore identica ao head. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39962240886 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39962573161 passaram ambos jobs no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-23T13:37:13Z; deployment dpl_3qmUNxmT9bbng61GBunyQL4ZvLEL, duracao exibida 35s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/3qmUNxmT9bbng61GBunyQL4ZvLEL ; dominio unico https://global-live-data-ppoq0tdl0-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado/configuracao/permissoes. Ready anterior nao usado como recibo desta publicacao.
+
+Verificacao anonima 2026-10-23T13:37:16.850Z: nove paginas EN/PT/ES (home, indice, artigo), deployment ID exato, CSP, canonical/hreflang, Article JSON-LD, quatro fontes visiveis, consulta datada, disclosure e sitemap aprovados. Publico https://global-live-data.vercel.app/pt/trending/clasico-october-2026-kickoff-guide . QA publico 2026-10-23T13:37:23.921Z: leitura390/1280, filtro Futebol com4artigos, teclado, idiomas, sumario/fontes, CTAfutebol e volta ao indice, sem overflow/overlay/console; capturas inspecionadas.
+
+Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas; Python11; Chromium35 aprovados na primeira execucao. Contagens total18/futebol4 ajustadas antes da suite. Script temporario inicial de insercao interrompeu por assert de ancora ampla; corrigido antes dos testes. Nenhum teste automatizado falhou. Browser plugin indisponivel; Playwright do repo usado. WebKit, Safari iOS nativo e carga nao repetidos para conteudo editorial.
+
+Ops unico 2026-10-23T13:37:15.383Z: nove feeds representativos ready em sete leituras; nao e prova global/continua. Recibo temporario /tmp/gld-clasico-release-receipt.json e /tmp/gld-clasico-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -427,3 +439,4 @@ Ops unico em 07:42:16.839Z: nove feeds representativos ready em sete leituras, i
 - [[2026-10-23-tse-vote-classification-release]] - Recibo TSE e retencao.
 - [[2026-10-23-nba-box-score-editorial-release]] - Recibo editorial NBA.
 - [[2026-10-23-ballon-dor-editorial-release]] - Recibo editorial Bola de Ouro.
+- [[2026-10-23-clasico-editorial-release]] - Recibo editorial Clasico.

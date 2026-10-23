@@ -124,6 +124,14 @@ Ledger docs/editorial/2026-10-23-ballon-dor.md registra guia UEFA19out, atendime
 
 Reutiliza Football e destino interno de futebol. Catalogo17artigos, fontes e disclosure IA/sem revisao humana preservados. Nenhum provider, dados de premiacao, conta, custo, dependencia, historico, analytics, anuncio ou automacao alterado. Recibos de testes/publicacao em [[release-status]].
 
+## Edicao de 23 outubro, 13:26 UTC
+
+Pauta clasico-october-2026-kickoff-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready entre 13:27:12.403Z e 13:27:16.169Z. Consulta ES clasico, observada 13:27:14.777Z, faixa RSS500+; nao prova causa da busca, resultado ou audiencia futura. Dezessete artigos comparados. Guia deste confronto distingue inicio da partida, previa nos EUA e conversoes apos a mudanca de horario; nao duplica o calendario Getafe-Rayo nem o guia geral do relogio espanhol. Al Faisaly-Al Nassr foi explorado, sem segunda pauta ou resultado inferido.
+
+Ledger docs/editorial/2026-10-23-clasico.md: anuncios espanhóis de ambos clubes, BOE e comunicado ESPN21out lidos ate13:28:45Z. Rotulo CEST no resultado em ingles do Barcelona excluido por conflito com calendario. Anuncios locais21h e ESPN16hET reconciliam20hUTC. Pagina LALIGA sem trecho util de horario no corpo aberto nao fundamenta o texto; snippet excluido. Oito conversoes calculadas com Python zoneinfo; NovaDelhi/Toquio ja26out, demais25out. Programacao ABC/ESPN+/ESPNDeportes e dos EUA, sem promessa de acesso individual ou global. Nenhum placar, escalacao, previsao, foto ou passagem copiada.
+
+Reutiliza Football e destino interno. Catalogo18artigos, quatro Futebol; fontes e disclosure IA/sem revisao humana preservados. NBA desativada e historicos intactos. Nenhuma conta, custo, provider, dependencia, analytics, anuncio ou automacao alterados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -152,3 +160,4 @@ Reutiliza Football e destino interno de futebol. Catalogo17artigos, fontes e dis
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-nba-box-score-editorial-release]] - Guia de leitura NBA.
 - [[2026-10-23-ballon-dor-editorial-release]] - Agenda e fusos da cerimonia.
+- [[2026-10-23-clasico-editorial-release]] - Agenda do Clasico e previa.

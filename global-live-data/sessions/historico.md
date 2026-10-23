@@ -104,6 +104,8 @@ atualizado: "2026-10-23"
 
 - 2026-10-23, 07:29-07:42 UTC: PR34 integrada, guia Bola de Ouro EN/PT/ES com oito fusos calculados; CI/Ready/publico conferidos. [[2026-10-23-ballon-dor-editorial-release]].
 
+- 2026-10-23, 13:26 UTC: PR35 integrada, guia Clasico EN/PT/ES com oito fusos e previa dos EUA; CI/Ready/publico conferidos. [[2026-10-23-clasico-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -151,3 +153,4 @@ atualizado: "2026-10-23"
 - [[2026-10-23-tse-vote-classification-release]] - Revisao TSE publicada.
 - [[2026-10-23-nba-box-score-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-ballon-dor-editorial-release]] - Publicacao trilingue.
+- [[2026-10-23-clasico-editorial-release]] - Publicacao trilingue.

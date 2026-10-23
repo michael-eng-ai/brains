@@ -1,21 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia Bola de Ouro EN/PT/ES publicado; CI, Ready e publico verificados."
+resumo: "Guia Clasico EN/PT/ES publicado; CI, Ready e publico verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-23"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-23-ballon-dor-editorial-release]].
+Ultimo handoff: [[2026-10-23-clasico-editorial-release]].
 
-- PR34 integrada; main/origin limpos em 95315e345a4a5e9101efc96b4b0628534687b1af. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
-- Catalogo17artigos EN/PT/ES. Novo guia Bola de Ouro traz data/horario anunciados, oito conversoes e mudanca britanica; tres referencias primarias, sem resultados ou streaming. [[editorial-publishing]].
+- PR35 integrada; main/origin limpos em 28d226858d57a5c548624794ddd20ea549cf1973. Dois jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
+- Catalogo18artigos EN/PT/ES. Novo guia Clasico traz oito horarios e distingue previa dos EUA; quatro fontes primarias, sem placar/stream ou cobertura global. [[editorial-publishing]].
 - Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
-- Ops23out07:42:16.839Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
-- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO deputado estadual MS sem mudar total. Brasil2026 tem136 recortes/1931agregados primeiro turno, incluindo RO; sem quarentena ou turno2. 2022/esportes preservados. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Proxima rodada editorial exige nova pesquisa e no maximo uma pauta distinta/apurada; nao transformar horario de cerimônia em vencedor ou disponibilidade de transmissao. [[editorial-publishing]].
+- Ops 2026-10-23T13:37:15.383Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
+- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO deputado estadual MS sem mudar total. Brasil2026 tem136 recortes/1931agregados primeiro turno, incluindo RO; sem quarentena ou turno2. Ultima verificacao12:34:47UTC foi changed=false, todos arquivos/datas preservados. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; horario anunciado nao prova inicio ocorrido ou transmissao no pais do leitor. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; nenhuma credencial, permissao ou configuracao alterada. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
@@ -105,3 +105,4 @@ Ultimo handoff: [[2026-10-23-ballon-dor-editorial-release]].
 - [[2026-10-23-tse-vote-classification-release]] - Handoff TSE atual.
 - [[2026-10-23-nba-box-score-editorial-release]] - Handoff editorial atual.
 - [[2026-10-23-ballon-dor-editorial-release]] - Handoff editorial atual.
+- [[2026-10-23-clasico-editorial-release]] - Handoff editorial atual.
