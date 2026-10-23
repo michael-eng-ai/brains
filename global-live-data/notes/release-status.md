@@ -346,6 +346,18 @@ Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas
 
 Ops unico em 01:39:25.404Z: nove feeds representativos ready em sete leituras, incluindo USD/Brasileirao/natureza; nao e prova global ou continua. Evidencia temporaria /tmp/gld-nba-box-release-receipt.json e /tmp/gld-nba-box-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado, piloto3147 preservado. Escopo e apuracao em [[editorial-publishing]].
 
+## Bola de Ouro: PR34, 23 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/34 integrada 2026-10-23T07:39:52Z. Head revisado 1589a7c63d57b23b06051135bf8da2f3c933c75a; main local/origin limpos em 95315e345a4a5e9101efc96b4b0628534687b1af, arvore identica ao head. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/39918942552 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/39919272651 passaram ambos jobs no SHA exato; Chromium main terminou 07:41:59Z.
+
+Painel autenticado confirmou Production Ready/main/commit exato ate 07:42:15Z; deployment dpl_EfLMevKpRDi8jnc7346F4QDCjPo8, build36s, alias atual. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EfLMevKpRDi8jnc7346F4QDCjPo8 ; dominio unico https://global-live-data-6pn61jxud-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado/configuracao. Atalho nativo nao mudou a aba; leitura fresca e click/setValue na barra de endereco observada carregaram o alvo correto, sem credenciais/permissoes. Ready antigo nao foi usado como recibo desta publicacao.
+
+Verificacao anonima 07:42:18.001Z: nove paginas EN/PT/ES (home, indice, artigo), deployment ID exato, CSP, canonical/hreflang, Article JSON-LD, tres referencias visiveis, consulta datada, disclosure e sitemap aprovados. Publico https://global-live-data.vercel.app/pt/trending/ballon-dor-2026-local-times . QA publico terminou 07:42:21.327Z; leitura390/1280, filtro Futebol com3artigos, teclado, idiomas, sumario/fontes, CTAfutebol e volta ao indice, sem overflow/overlay/console; capturas inspecionadas.
+
+Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas; Python11; Chromium35 aprovados. Expectativas de total17/futebol3 ajustadas antes da suite. Script inicial de insercao interrompeu por assert de ancora ampla antes de gravar; foi limitado ao dicionario correto. Nenhum teste automatizado falhou. Browser plugin indisponivel; Playwright do repo usado. WebKit, Safari iOS nativo e carga nao repetidos para conteudo editorial.
+
+Ops unico em 07:42:16.839Z: nove feeds representativos ready em sete leituras, incluindo USD/Brasileirao/natureza; nao e prova global/continua. Recibo temporario /tmp/gld-ballon-release-receipt.json e /tmp/gld-ballon-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -414,3 +426,4 @@ Ops unico em 01:39:25.404Z: nove feeds representativos ready em sete leituras, i
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Recibo TSE e retencao.
 - [[2026-10-23-nba-box-score-editorial-release]] - Recibo editorial NBA.
+- [[2026-10-23-ballon-dor-editorial-release]] - Recibo editorial Bola de Ouro.

@@ -1,21 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia NBA EN/PT/ES publicado com CI e Ready verificados; cerebro atualizado."
+resumo: "Guia Bola de Ouro EN/PT/ES publicado; CI, Ready e publico verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-23"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-23-nba-box-score-editorial-release]].
+Ultimo handoff: [[2026-10-23-ballon-dor-editorial-release]].
 
-- PR33 integrada; main/origin limpos em b01ec0bf5f03978c2a0685d172984392474e7ae7. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
-- Catalogo16artigos EN/PT/ES. Novo guia de sumula NBA usa duas fontes primarias e exemplo hipotetico conferido; filtro Basquete/indice interno, sem estatisticas individuais ao vivo. [[editorial-publishing]].
+- PR34 integrada; main/origin limpos em 95315e345a4a5e9101efc96b4b0628534687b1af. Ambos jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
+- Catalogo17artigos EN/PT/ES. Novo guia Bola de Ouro traz data/horario anunciados, oito conversoes e mudanca britanica; tres referencias primarias, sem resultados ou streaming. [[editorial-publishing]].
 - Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
-- Ops23out01:39:25.404Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
+- Ops23out07:42:16.839Z: nove feeds representativos ready em sete leituras; nao e garantia global/continua.
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO deputado estadual MS sem mudar total. Brasil2026 tem136 recortes/1931agregados primeiro turno, incluindo RO; sem quarentena ou turno2. 2022/esportes preservados. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Proxima rodada editorial: nova pesquisa unica e no maximo uma pauta util, distinta e apurada; nao reaproveitar tendencia como prova de jogo/resultados. [[editorial-publishing]].
+- Proxima rodada editorial exige nova pesquisa e no maximo uma pauta distinta/apurada; nao transformar horario de cerimônia em vencedor ou disponibilidade de transmissao. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; nenhuma credencial, permissao ou configuracao alterada. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
@@ -104,3 +104,4 @@ Ultimo handoff: [[2026-10-23-nba-box-score-editorial-release]].
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-tse-vote-classification-release]] - Handoff TSE atual.
 - [[2026-10-23-nba-box-score-editorial-release]] - Handoff editorial atual.
+- [[2026-10-23-ballon-dor-editorial-release]] - Handoff editorial atual.

@@ -116,6 +116,14 @@ Pauta nba-box-score-shooting-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN ret
 
 FG/3P/FT, denominadores e exemplo inteiramente hipotetico de 13 pontos foram conferidos por Python e nas tres traducoes. Nao reporta atleta ou resultado real. Glossario/FAQ pesquisados mas nao lidos foram excluidos; sem passagens/imagens copiadas. Reutiliza Basketball e indice interno, que permite encontrar League Pass; os cards genericos mostram os dois artigos mais recentes, sem promessa de tema relacionado. Catalogo16artigos, fontes e disclosure IA/sem revisao humana preservados. NBA continua preparada/desativada sem chave. Nenhuma conta, custo, provider, dependencia, analytics, anuncio, automacao ou historico alterado. Recibos em [[release-status]].
 
+## Edicao de 23 outubro, 07:29 UTC
+
+Pauta ballon-dor-2026-local-times, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready entre 07:30:11.955Z e 07:30:14.970Z. Consulta GB when is the ballon d'or 2026, observada 07:30:12.853Z, faixa RSS100+; nao prova resultado, causa da busca ou audiencia futura. Dezesseis artigos comparados: guia desta cerimonia nao duplica calendario de partidas ou mudanca geral do relogio espanhol. Pesquisa MotoGP explorada, mas nenhuma segunda pauta foi selecionada.
+
+Ledger docs/editorial/2026-10-23-ballon-dor.md registra guia UEFA19out, atendimento oficial de ingressos e GOV.UK lidos ate 07:31:39Z. As duas paginas UEFA concordam em 26out20GMT/LondonPalladium, sem serem fontes independentes entre si. GOV.UK confirma mudanca britanica25out. FranceFootball retornou403 e foi excluida, sem usar snippet como evidencia ou contornar acesso. Python datetime/zoneinfo calculou oito horarios, preservados nas traducoes; NovaDelhi/Toquio ja27out. Horario anunciado nao e inicio ocorrido, transmissao local ou momento de cada premio. Sem vencedores, nomes de indicados, regras de votacao, recomendacao de assinatura ou imagem/passagem copiada.
+
+Reutiliza Football e destino interno de futebol. Catalogo17artigos, fontes e disclosure IA/sem revisao humana preservados. Nenhum provider, dados de premiacao, conta, custo, dependencia, historico, analytics, anuncio ou automacao alterado. Recibos de testes/publicacao em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -143,3 +151,4 @@ FG/3P/FT, denominadores e exemplo inteiramente hipotetico de 13 pontos foram con
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da Lua do Cacador.
 - [[2026-10-22-earthquake-editorial-release]] - Handoff do guia sismico.
 - [[2026-10-23-nba-box-score-editorial-release]] - Guia de leitura NBA.
+- [[2026-10-23-ballon-dor-editorial-release]] - Agenda e fusos da cerimonia.
