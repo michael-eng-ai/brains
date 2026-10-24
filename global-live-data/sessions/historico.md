@@ -114,6 +114,8 @@ atualizado: "2026-10-24"
 
 - 2026-10-24, 06:39 UTC: captura unica TSE bloqueada pelo mesmo motivo RO; sete arquivos/datas e exports publicos preservados, sem testes repetidos, deploy ou nova notificacao. [[2026-10-24-tse-ro-retention-recheck]].
 
+- 2026-10-24, 07:38 UTC: PR37 publicou guia de criquete EN/PT/ES, tres fontes e exemplos hipoteticos; testes/CI/Ready/publico verificados. [[2026-10-24-cricket-overs-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -166,3 +168,4 @@ atualizado: "2026-10-24"
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-24-rainfall-editorial-release]] - Publicacao trilingue.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
+- [[2026-10-24-cricket-overs-editorial-release]] - Publicacao.

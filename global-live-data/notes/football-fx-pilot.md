@@ -58,6 +58,10 @@ Node24.22.0: 18 testes offline de tests/pilot.test.ts e tests/depth.test.ts pass
 
 Durante a publicacao editorial PR36, uma execucao de ops:check fez sete leituras representativas e saiu2. Em 2026-10-24T01:49:23.892Z, /api/live?league=bl1&base=USD retornou fx error, sem checkedAt/retrievedAt; nextRefreshAt2026-10-24T02:48:45.719Z. Oito outros feeds estavam ready, incluindo Natureza. Incidente USD persiste apos a virada UTC; nao se reconsultou a fonte direta, historico ou cada moeda nesta rodada, portanto o corpo e a causa atuais nao foram estabelecidos. Diagnostico de23out continua evidencia historica, nao prova do payload atual. Sem reparo, afrouxamento de gates ou mudanca de provider/cache. Evidencia /tmp/gld-rainfall-ops.json; contexto em [[release-status]].
 
+## Probe durante a PR37, 24 outubro
+
+Ops em 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Sete leituras limitadas por ops:check, sem recaptura direta do provedor ou diagnostico novo. Estado de USD distinto da verificacao do artigo e sem reparo de codigo nesta entrega. Evidencia /tmp/gld-cricket-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -78,3 +82,4 @@ Durante a publicacao editorial PR36, uma execucao de ops:check fez sete leituras
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[editorial-publishing]] - Pesquisa que encontrou a indisponibilidade USD.
 - [[2026-10-24-rainfall-editorial-release]] - Probe USD durante a entrega editorial.
+- [[2026-10-24-cricket-overs-editorial-release]] - Probe durante a entrega.

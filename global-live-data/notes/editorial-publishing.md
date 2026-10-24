@@ -148,6 +148,16 @@ Ledger docs/editorial/2026-10-24-rainfall-period.md registra MET Norway, Bureau 
 
 Reutiliza Weather/Clima e destino Natureza; catalogo19artigos, dois de clima. Limite42cidades e ausencia de Bengaluru explicitos. Fontes e disclosure IA/sem revisao humana preservados. Nao cria previsao local, alerta, cidade, provider, conta, custo, dependencia, analytics, anuncio ou automacao. Recibos em [[release-status]].
 
+## Edicao de 24 outubro, 07:38 UTC
+
+Cricket-score-overs-guide publicado em EN/PT/ES. Uma pesquisa nos seis mercados retornou ready, exit 0, entre 07:42:19.735Z e 07:42:23.054Z. Consulta US exata: new zealand national cricket team vs india national cricket team match scorecard, faixa RSS 500+; tambem observada no JP. Interesse em cricket nos recortes ES/IN; nenhum placar ou causa inferidos. Dezenove artigos comparados; a pauta difere do guia de agenda India-Zimbabue. Clasico/Orionids duplicariam cobertura; politica/alegacoes/saude excluidas.
+
+Ledger duravel docs/editorial/2026-10-24-cricket-overs.md: MCC PDF quarta edicao 2026, ECB campos de pontuacao e guia basico, lidos ate 07:43:28Z. HTML MCC /the-over retornou 404; ICC formatos exibiu apenas navegacao, ambos excluidos. Lista antiga de eliminacoes do guia ECB nao usada. Nenhum texto/imagem ou resultado real copiado.
+
+Calculos hipoteticos conferidos em Python: 15*6+2=92; 124*6/92 arredonda 8.09, atalho incorreto 124/15.2 arredonda 8.16; 120-92=28; 119+5=124. Alocacao T20 sem reducao e entrada em andamento explicitas. Sem vencedor, alvo revisado ou regra geral para todos os formatos.
+
+Catalogo tem vinte artigos, dois de Cricket; destino interno e indice de artigos. Fontes/disclosure IA e ausencia de revisao humana preservados. Nenhum feed de cricket, provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -180,3 +190,4 @@ Reutiliza Weather/Clima e destino Natureza; catalogo19artigos, dois de clima. Li
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[football-fx-pilot]] - Diagnostico da fonte e limites de data.
 - [[2026-10-24-rainfall-editorial-release]] - Guia de quantidade e periodo.
+- [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs.

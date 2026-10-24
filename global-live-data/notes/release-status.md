@@ -382,6 +382,18 @@ Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas
 
 Ops unico 2026-10-24T01:49:23.892Z: oito feeds representativos ready e USD error em sete leituras; incidente cambial anterior persiste, sem reparo nesta entrega editorial; nao e prova global/continua. Recibo temporario /tmp/gld-rainfall-release-receipt.json e /tmp/gld-rainfall-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
 
+## Críquete: PR37, 24 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/37 integrada 2026-10-24T07:49:37Z. Head revisado 2f2b27aeac8e792f3dc7d12d9ed55aaed4df83e8; main/origin a4a5a5b1c3cf63e240a647184a72c7c3f8a0e0cc, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40075488895 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40075659561, ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-24T07:50:38.770305+00:00; dpl_3qaPcKZ3MFBf91jZvg2VVRszDAVd, build 28s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/3qaPcKZ3MFBf91jZvg2VVRszDAVd ; URL unica https://global-live-data-1mmkbkc6w-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou mudanca de configuracao/acesso.
+
+Verificacao anonima 2026-10-24T07:50:43.497Z: nove URLs EN/PT/ES (home/indice/artigo), deployment ID, CSP, canonical/hreflang, Article JSON-LD, fontes visiveis, consulta datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/cricket-score-overs-guide . QA publico 2026-10-24T07:50:50.202Z: leitura 390/1280 nos tres idiomas, filtro Cricket com dois artigos, teclado, idiomas, sumario/fontes, CTA/retorno ao indice; sem overflow, overlay ou console. Capturas inspecionadas.
+
+Local Node 24.22.0: 11 Python, check com 101 unitarios/lint/types/history build/Next build/HTTP smoke e 35 Chromium passaram na primeira execucao. QA local equivalente ao publico. Browser plugin ausente, Playwright do repositorio usado. WebKit/iOS nativo/carga nao repetidos para conteudo. Mudancas em sete arquivos, dados canonicos e providers intactos.
+
+Ops unico 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Probe pontual nao prova cobertura global ou continua. Recibos temporarios /tmp/gld-cricket-*; ledger e docs no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -453,3 +465,4 @@ Ops unico 2026-10-24T01:49:23.892Z: oito feeds representativos ready e USD error
 - [[2026-10-23-ballon-dor-editorial-release]] - Recibo editorial Bola de Ouro.
 - [[2026-10-23-clasico-editorial-release]] - Recibo editorial Clasico.
 - [[2026-10-24-rainfall-editorial-release]] - Recibo da publicacao do guia.
+- [[2026-10-24-cricket-overs-editorial-release]] - Recibo da PR37.
