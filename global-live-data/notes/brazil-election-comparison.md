@@ -95,6 +95,18 @@ Os sete SHA-256 e mtimes de data/history/*.json sao identicos antes/depois; font
 
 Probe publico em 2026-10-24T06:40:55.957Z: exports br-2026 e br-2022 HTTP 200, iguais aos canonicos com somente a ordem partidaria normalizada. Brasil 2022 conserva 176 recortes e ambos turnos. Nao repetir suites ou UI para o mesmo codigo/dados/bloqueio: testes Python/TypeScript, check/build/e2e, mobile/desktop, WebKit/iOS/carga e CI nao executados nesta rodada; validacoes de 00:35 e da PR36 continuam registros historicos, nao resultados novos. Evidencias locais /tmp/gld-tse-20261024-0639-before.json, -refresh.log, -receipt.json e -public.json. Manter a proxima captura na cadencia existente, sem segunda aquisicao ou gates relaxados. Mesmo impedimento ja comunicado, sem nova acao do proprietario; rodada silenciosa. Incidente USD, nome/dominio, editorial e NBA nao foram alterados nem rechecados.
 
+## Retencao recuperada, 24 outubro 12:43 UTC
+
+Uma unica chamada history:refresh:tse -- --apply em main atualizada (branch temporaria codex/tse-refresh-20261024-1243), Node 24.22.0/npm 11.21.1/Python 3.12.4, saiu 0. Relatorio 2026-10-24T12:43:39.546816+00:00: changed false, applied false, 136 recortes, nenhuma quarentena, released vazio e somente turno 1. Identidades federais/estaduais 6257/6259 em 04/10/2026 confirmadas nos dois arquivos. Desta vez os gates de identidade, cobertura, reconciliacao e retencao passaram, incluindo RO federal/estadual, apos o bloqueio das 06:40. Nao foi diagnosticada a causa da inconsistencia anterior.
+
+RO ja estava publicado desde 19 outubro e continuou acessivel; nao houve nova liberacao. Totais validos permanecem 932.939 federal e 942.021 estadual. As 136 selecoes e 1.931 agregados do candidato sao iguais aos canonicos; diferenca somente em source.files (hashes e aquisicao), sem qualquer fato novo ou turno 2 incorporado. A verificacao nao estabelece disponibilidade de todo o turno 2 a montante antes de sua data.
+
+Sete arquivos data/history, SHA-256 e mtimes intactos, incluindo 2022, esportes e manifest. Datas publicadas preservadas. Candidato ignorado agora e novo; lock ausente e temporarios removidos normalmente. Nenhum commit/PR/deploy do produto. Branch vazia removida e main/origin limpos em a4a5a5b1c3cf63e240a647184a72c7c3f8a0e0cc (PR37 editorial anterior).
+
+Validacao desta rodada: 11 testes Python de importacao e 3 TypeScript de refresh aprovados. Probes em 2026-10-24T12:44:44.993Z: exports br-2026/br-2022 HTTP 200, iguais aos canonicos, normalizando apenas a ordem de registros/partidos para comparacao. Brasil 2022 conserva 176 recortes e turnos 1/2. check, build, e2e, UI mobile e desktop, WebKit, iOS, carga e CI nao repetidos, pois nenhum codigo ou dado publicado mudou. Nao confundir os testes locais com certificacao eleitoral.
+
+Evidencia: /tmp/gld-tse-20261024-1243-before.json, -refresh.log, -receipt.json, -tests.log e -public.json. Hashes novos das fontes ficam no recibo ignorado; nao substituir proveniencia canonica por mera recaptura. Proxima rodada na cadencia existente, uma captura e os mesmos gates. Recuperacao e material, mas nao e nova publicacao. USD, editorial, NBA, dominios e piloto nao foram alterados nem rechecados.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -113,3 +125,4 @@ Probe publico em 2026-10-24T06:40:55.957Z: exports br-2026 e br-2022 HTTP 200, i
 - [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao reconciliada.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
+- [[2026-10-24-tse-reconciliation-recovered]] - Reconciliacao recuperada.

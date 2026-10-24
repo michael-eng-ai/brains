@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR37 publica guia de placares de criquete; CI, Ready e paginas verificadas."
+resumo: "TSE voltou a reconciliar RO; dados identicos, sem publicacao; PR37 preservada."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-24"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-24-cricket-overs-editorial-release]].
+Ultimo handoff: [[2026-10-24-tse-reconciliation-recovered]].
 
 - PR37 integrada; main/origin limpos em a4a5a5b1c3cf63e240a647184a72c7c3f8a0e0cc. Dois jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
 - Catalogo com vinte artigos EN/PT/ES; novo guia de placar/overs, tres referencias primarias e exemplos hipoteticos. Cricket tem dois artigos, sem feed ao vivo. [[editorial-publishing]].
 - Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
 - Ops 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Verificacao pontual, nao garantia continua.
 - Incidente USD e historico de datas futuras mantidos em [[football-fx-pilot]]; o probe desta entrega esta acima. Sem reparo de codigo, consulta direta do provedor ou prova do corpo atual recebido pela Vercel.
-- TSE 24out 06:40 UTC: captura unica bloqueada pelo mesmo motivo RO federal/estadual, turno 1. Sete arquivos/datas intactos; exports publicos 2026/2022 conferidos. Codigo TSE identico, sem repetir testes/UI ou notificacao; nenhuma publicacao. Detalhes e validacoes anteriores em [[brazil-election-comparison]].
+- TSE 24out 12:43 UTC: captura unica passou todos os gates, incluindo RO; changed false/applied false. Bloqueio das 06:40 nao se repetiu, causa nao estabelecida. Dados e datas canonicos intactos, 11 Python/3 TypeScript aprovados, exports 2026/2022 conferidos. Nenhuma publicacao. [[brazil-election-comparison]].
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
-- Proxima rodada exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
+- Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; conector/CLI nao declarados recuperados. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
@@ -113,3 +113,4 @@ Ultimo handoff: [[2026-10-24-cricket-overs-editorial-release]].
 - [[2026-10-24-rainfall-editorial-release]] - Handoff editorial atual.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
 - [[2026-10-24-cricket-overs-editorial-release]] - Handoff editorial atual.
+- [[2026-10-24-tse-reconciliation-recovered]] - Handoff TSE atual.

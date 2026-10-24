@@ -116,6 +116,8 @@ atualizado: "2026-10-24"
 
 - 2026-10-24, 07:38 UTC: PR37 publicou guia de criquete EN/PT/ES, tres fontes e exemplos hipoteticos; testes/CI/Ready/publico verificados. [[2026-10-24-cricket-overs-editorial-release]].
 
+- 2026-10-24, 12:43 UTC: captura TSE passou incluindo RO, changed false; dados/datas preservados, 11 Python/3 TypeScript e exports verificados, sem release. [[2026-10-24-tse-reconciliation-recovered]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -169,3 +171,4 @@ atualizado: "2026-10-24"
 - [[2026-10-24-rainfall-editorial-release]] - Publicacao trilingue.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
 - [[2026-10-24-cricket-overs-editorial-release]] - Publicacao.
+- [[2026-10-24-tse-reconciliation-recovered]] - Recuperacao sem mudanca dos dados.

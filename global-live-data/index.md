@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-24-tse-reconciliation-recovered]] - Gates TSE recuperados; dados iguais, sem publicacao.
 - [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs publicado em tres idiomas.
 - [[2026-10-24-tse-ro-retention-recheck]] - Mesmo bloqueio RO confirmado, sem alterar dados publicados.
 - [[2026-10-24-rainfall-editorial-release]] - Guia de chuva e periodos publicado em tres idiomas.
@@ -265,3 +266,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-24-rainfall-editorial-release]] - Handoff do guia de chuva.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
 - [[2026-10-24-cricket-overs-editorial-release]] - Sessao editorial.
+- [[2026-10-24-tse-reconciliation-recovered]] - Handoff da recuperacao TSE.
