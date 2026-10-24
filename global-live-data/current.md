@@ -1,21 +1,21 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia de chuva EN/PT/ES publicado; CI, Ready e publico verificados; bloqueio TSE preservado."
+resumo: "Mesmo bloqueio TSE RO confirmado as 06:40 UTC; PR36 e dados publicados preservados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-24"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-24-rainfall-editorial-release]].
+Ultimo handoff: [[2026-10-24-tse-ro-retention-recheck]].
 
 - PR36 integrada; main/origin limpos em 099028fb635992a74919df250b1033857e38bea7. Dois jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
 - Catalogo19artigos EN/PT/ES; guia de chuva separa quantidade/periodo/media com exemplos hipoteticos. Tres fontes; Natureza com limite42cidades e sem Bengaluru. [[editorial-publishing]].
 - Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
 - Ops 2026-10-24T01:49:23.892Z: oito feeds representativos ready e USD error em sete leituras; incidente cambial anterior persiste, sem reparo nesta entrega editorial; nao e garantia global/continua.
 - Incidente USD de23out19:36UTC: datas futuras reproduziram rejeicao local; historico ready. USD continua error no probe01:49UTC acima; fonte direta e historico nao rechecados nesta rodada. Sem correcao de codigo nem prova do corpo atual que a Vercel recebeu. [[football-fx-pilot]].
-- TSE24out00:36UTC: captura unica bloqueada por perda/inconsistencia RO federal/estadual turno1; sete arquivos/datas intactos. Publico2026/2022 e RO EN/PT/ES conferidos; 11Python+3TS aprovados. [[brazil-election-comparison]].
+- TSE 24out 06:40 UTC: captura unica bloqueada pelo mesmo motivo RO federal/estadual, turno 1. Sete arquivos/datas intactos; exports publicos 2026/2022 conferidos. Codigo TSE identico, sem repetir testes/UI ou notificacao; nenhuma publicacao. Detalhes e validacoes anteriores em [[brazil-election-comparison]].
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
 - Proxima rodada exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; conector/CLI nao declarados recuperados. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
@@ -111,3 +111,4 @@ Ultimo handoff: [[2026-10-24-rainfall-editorial-release]].
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-24-rainfall-editorial-release]] - Handoff editorial atual.
+- [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.

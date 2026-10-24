@@ -87,6 +87,14 @@ Verificacao publica concluida em 2026-10-24T00:38:20.762Z: exports br-2026 e br-
 
 Validacao offline: 11 testes Python de importacao/refresh e 3 testes TypeScript de atualizacao/retencao passaram. Incluem impedir regressao de RO ja liberado, preservar edicoes e nao aceitar cobertura presidencial parcial. Check/build/e2e completos, WebKit/iOS nativo/carga e CI nao repetidos, pois nenhum dado/codigo mudou. Evidencias locais /tmp/gld-tse-20261024-0035-before.json, -refresh.log, -receipt.json, -tests.log, -public.json e capturas -390.png/-1280.png. Proxima captura unica na rodada agendada; manter a versao publicada enquanto o gate nao passar. Nenhuma cadencia, exclusao, permissao, conta, chave ou custo alterado.
 
+## Rechecagem do mesmo bloqueio RO em 24 outubro, 06:39 UTC
+
+Main atualizada e limpa em 099028fb635992a74919df250b1033857e38bea7. Uma unica chamada history:refresh:tse -- --apply, na branch codex/tse-refresh-20261024-0639, Node 24.22.0/npm 11.21.1/Python 3.12.4, saiu 1. Relatorio atual: status blocked em 2026-10-24T06:40:18.989Z, mesmo motivo Previously published selections lost or inconsistent: [(6, 'RO', 1), (7, 'RO', 1)]. Nenhuma nova causa ou diferenca numerica foi estabelecida; guard_candidate falhou antes da gravacao do candidato. Nao e changed=false nem confirma ausencia de segundo turno em toda a fonte.
+
+Os sete SHA-256 e mtimes de data/history/*.json sao identicos antes/depois; fontes e datas de captura publicadas intactas. Conservados 136 recortes, 1.931 agregados, apenas primeiro turno e nenhuma quarentena, incluindo RO. Candidato ignorado continua com mtime 2026-10-23T18:29:54.902020Z, anterior a esta rodada; lock ausente e temporarios removidos normalmente. Diff dos scripts de refresh/importacao, lib/history/refresh.ts e data/history entre a primeira falha de 00:35 e main atual vazio; a PR36 editorial nao alterou o fluxo TSE. Branch vazia removida, main/origin limpos, sem commit/PR/deploy do produto.
+
+Probe publico em 2026-10-24T06:40:55.957Z: exports br-2026 e br-2022 HTTP 200, iguais aos canonicos com somente a ordem partidaria normalizada. Brasil 2022 conserva 176 recortes e ambos turnos. Nao repetir suites ou UI para o mesmo codigo/dados/bloqueio: testes Python/TypeScript, check/build/e2e, mobile/desktop, WebKit/iOS/carga e CI nao executados nesta rodada; validacoes de 00:35 e da PR36 continuam registros historicos, nao resultados novos. Evidencias locais /tmp/gld-tse-20261024-0639-before.json, -refresh.log, -receipt.json e -public.json. Manter a proxima captura na cadencia existente, sem segunda aquisicao ou gates relaxados. Mesmo impedimento ja comunicado, sem nova acao do proprietario; rodada silenciosa. Incidente USD, nome/dominio, editorial e NBA nao foram alterados nem rechecados.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -104,3 +112,4 @@ Validacao offline: 11 testes Python de importacao/refresh e 3 testes TypeScript 
 - [[2026-10-22-tse-pb-retention-recheck]] - Repeticao do mesmo bloqueio, sem alterar dados.
 - [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao reconciliada.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
+- [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
