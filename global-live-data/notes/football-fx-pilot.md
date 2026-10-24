@@ -62,6 +62,10 @@ Durante a publicacao editorial PR36, uma execucao de ops:check fez sete leituras
 
 Ops em 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Sete leituras limitadas por ops:check, sem recaptura direta do provedor ou diagnostico novo. Estado de USD distinto da verificacao do artigo e sem reparo de codigo nesta entrega. Evidencia /tmp/gld-cricket-ops.json; [[release-status]].
 
+## Probe durante a PR38, 24 outubro
+
+Ops em 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Sete leituras limitadas por ops:check; nenhuma recaptura direta do provedor ou reparo nesta entrega. Estado USD e verificacao do artigo sao independentes. Evidencia /tmp/gld-premier-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -83,3 +87,4 @@ Ops em 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em
 - [[editorial-publishing]] - Pesquisa que encontrou a indisponibilidade USD.
 - [[2026-10-24-rainfall-editorial-release]] - Probe USD durante a entrega editorial.
 - [[2026-10-24-cricket-overs-editorial-release]] - Probe durante a entrega.
+- [[2026-10-24-premier-games-in-hand-editorial-release]] - Probe durante entrega.

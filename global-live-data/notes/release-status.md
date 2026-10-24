@@ -394,6 +394,20 @@ Local Node 24.22.0: 11 Python, check com 101 unitarios/lint/types/history build/
 
 Ops unico 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Probe pontual nao prova cobertura global ou continua. Recibos temporarios /tmp/gld-cricket-*; ledger e docs no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Premier League: PR38, 24 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/38 integrada 2026-10-24T13:56:10Z. Head revisado ee3c92dd5f527902d2f28683f29d6822be5eca16; main/origin ca83b0879dc1c3d953f98ac3a96caafee72f4010, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40100096622 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40100276541, ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-24T13:57:17.414260+00:00; dpl_A5T62Dw9dDKkoLBows8Bc16pX9QV, build 27s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/A5T62Dw9dDKkoLBows8Bc16pX9QV ; URL unica https://global-live-data-rmpfu3j3k-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou alteracao de acesso/configuracao.
+
+Verificacao anonima 2026-10-24T13:57:23.545Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, fontes, consulta datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/premier-league-games-in-hand-guide . QA publico 2026-10-24T13:57:30.883Z: leitura em 390/1280 pixels nos tres idiomas, cinco artigos no filtro Futebol, teclado/idiomas/sumario/fontes/CTA e retorno; nenhum overflow, overlay ou erro de console. Capturas inspecionadas.
+
+Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history build, Next build e HTTP smoke; 35 Chromium aprovados. Primeira suite 34/35: contagem Futebol antiga de 4 ajustada para 5, depois suite completa passou. QA local equivalente ao publico. Browser plugin ausente, Playwright do repositorio usado. WebKit, iOS nativo e carga nao repetidos para conteudo. Sete arquivos; dados canonicos/providers intactos.
+
+CI main tentativa 1 passou 34/35 Chromium e falhou em fx-refresh.spec.ts:51 (conversao sintetica ausente). Trace mostrou so duas respostas mock e clockRunFor(59999) iniciado 0.321 ms apos o inicio do segundo fulfill; possivel corrida de sincronizacao do teste, nao diagnostico do provedor. Job foi repetido uma unica vez no mesmo SHA, sem alterar codigo/assertions; tentativa 2 passou. Agregado ja passara. Logs/trace em /tmp/gld-premier-main-attempt1 e main-ci-attempt1.json preservados.
+
+Ops unico 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-premier-*; ledger/docs duraveis no repositorio. Servidor proprio em 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -466,3 +480,4 @@ Ops unico 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error
 - [[2026-10-23-clasico-editorial-release]] - Recibo editorial Clasico.
 - [[2026-10-24-rainfall-editorial-release]] - Recibo da publicacao do guia.
 - [[2026-10-24-cricket-overs-editorial-release]] - Recibo da PR37.
+- [[2026-10-24-premier-games-in-hand-editorial-release]] - Recibo PR38.

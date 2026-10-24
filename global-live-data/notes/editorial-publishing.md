@@ -158,6 +158,16 @@ Calculos hipoteticos conferidos em Python: 15*6+2=92; 124*6/92 arredonda 8.09, a
 
 Catalogo tem vinte artigos, dois de Cricket; destino interno e indice de artigos. Fontes/disclosure IA e ausencia de revisao humana preservados. Nenhum feed de cricket, provider, conta, chave, custo, dependencia, anuncio, analytics ou automacao alterados. Recibos em [[release-status]].
 
+## Edicao de 24 outubro, 13:44 UTC
+
+Premier-league-games-in-hand-guide publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready, exit 0. Consulta US premier league standings observada 13:45:15.287Z, faixa RSS 20000+; mesma consulta IN 13:45:18.930Z, faixa 10000+. BR tinha campeonato ingles. Indicadores datados, sem promessa de audiencia ou causa inferida. Vinte artigos comparados; pauta distinta do calendario/zonas da Champions e sem repetir Clasico ou chuva.
+
+Ledger docs/editorial/2026-10-24-premier-games-in-hand.md: duas paginas primarias da Premier League lidas ate 13:48:55Z. Guia de pontos/desempates datado 24 maio 2026; analise de medias casa/fora de 13 nov 2025, data antiga explicita nas tres traducoes. Fontes do mesmo organizador, nao dois veiculos independentes. Tabela atual abriu apenas navegacao; snippet nao usado como evidencia de classificacao. Nenhum numero real de clube reproduzido.
+
+Calculos hipoteticos verificados em Python: A: 5V/2E/1D = 8 jogos e 17 pontos; B: 5V/1E/1D = 7 jogos e 16 pontos; proximo jogo B contra outro adversario produz 19/17/16 com A fixo em 17; medias 17/8=2.125 e 16/7 arredonda 2.286. Nenhuma probabilidade, resultado ou desempate sem gols inventado. PPG nao substitui classificacao.
+
+Catalogo com 21 artigos, cinco de Futebol. CTA Futebol interno, ausencia de tabela Premier League explicita. Fontes/disclosure de apoio IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao, anuncio, analytics ou automacao alterada. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -191,3 +201,4 @@ Catalogo tem vinte artigos, dois de Cricket; destino interno e indice de artigos
 - [[football-fx-pilot]] - Diagnostico da fonte e limites de data.
 - [[2026-10-24-rainfall-editorial-release]] - Guia de quantidade e periodo.
 - [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs.
+- [[2026-10-24-premier-games-in-hand-editorial-release]] - Jogos a menos e medias.
