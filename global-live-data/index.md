@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-24-tse-ro-retention-blocked]] - Regressoes RO bloqueadas; versao publicada conferida.
 - [[2026-10-23-editorial-usd-date-incident]] - Pesquisa USD adiada e datas futuras diagnosticadas.
 - [[2026-10-23-clasico-editorial-release]] - Clasico, fusos e previa dos EUA publicados em tres idiomas.
 - [[2026-10-23-ballon-dor-editorial-release]] - Agenda Bola de Ouro, fusos e publicacao trilingue.
@@ -257,3 +258,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-23-ballon-dor-editorial-release]] - Handoff da Bola de Ouro.
 - [[2026-10-23-clasico-editorial-release]] - Handoff do Clasico.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
+- [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.

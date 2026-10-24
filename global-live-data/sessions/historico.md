@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Historico
@@ -108,6 +108,8 @@ atualizado: "2026-10-23"
 
 - 2026-10-23, 19:32 UTC: seis mercados pesquisados; pauta USD adiada por latest indisponivel. Rejeicao de datas futuras reproduzida,18 testes passaram, historico ready; sem publicacao. [[2026-10-23-editorial-usd-date-incident]].
 
+- 2026-10-24, 00:35 UTC: captura unica TSE bloqueada por RO federal/estadual no primeiro turno. Sete JSON/datas preservados; exports/UI publicos e 14 testes relevantes aprovados, sem deploy. [[2026-10-24-tse-ro-retention-blocked]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -157,3 +159,4 @@ atualizado: "2026-10-23"
 - [[2026-10-23-ballon-dor-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-clasico-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
+- [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.

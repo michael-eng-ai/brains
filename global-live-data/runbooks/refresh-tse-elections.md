@@ -3,7 +3,7 @@ tipo: procedimento
 projeto: global-live-data
 resumo: "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE."
 tags: [global-live-data, eleicoes, automacao, dados]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Atualizar dados TSE
@@ -43,3 +43,4 @@ Uma falha em build_candidate pode ocorrer antes de gravar report/candidate do Py
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.
 - [[2026-10-22-tse-pb-retention-recheck]] - Confirmacao do gate na rodada seguinte.
 - [[2026-10-23-tse-vote-classification-release]] - Revisao material apos recuperacao da fonte.
+- [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.

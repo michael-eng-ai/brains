@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -75,6 +75,18 @@ Validacao local:11 testes Python, check101/lint/tipos/historybuild/Nextbuild/HTT
 
 Evidencias locais: /tmp/gld-tse-20261023-0025.log, -before.json e -review.json; /tmp/gld-tse-20261023-checks.log, -local-qa.json, -public-qa.json e -public-verification.json. PR32 inclui somentebr2026/manifest/docs. Mesma infraestrutura/cadencia; sem contas, chaves, gastos, analytics, anuncios ou permissaoCI nova.
 
+## Regressao RO bloqueada em 24 outubro, 00:35 UTC
+
+Uma unica execucao de history:refresh:tse -- --apply, em branch codex/tse-refresh-20261024-0035 a partir de main atualizada, usou Node 24.22.0/npm 11.21.1/Python 3.12.4 e terminou com exit 1. O relatorio atual marca status blocked, checkedAt 2026-10-24T00:36:40.851Z, com Previously published selections lost or inconsistent: [(6, 'RO', 1), (7, 'RO', 1)]. Sao os recortes de deputado federal e estadual de Rondonia no primeiro turno, ja liberados e publicados desde 19 outubro.
+
+O gate guard_candidate impediu a regressao antes de construir/gravar um novo candidato. A comparacao de identidades entre os dois arquivos precede esse gate; o erro nao traz novos IDs, hashes de aquisicao ou valores suficientes para distinguir ausencia de linhas de divergencia nas somas. Nao atribuir causa ao TSE, reproduzir os numeros da antiga quarentena de 16 outubro como se fossem desta captura, ou concluir que mudou o resultado eleitoral. ZIPs temporarios foram removidos normalmente, sem segunda aquisicao. O candidato ignorado tem mtime 2026-10-23T18:29:54.902020Z e pertence a rodada anterior, nao a esta falha. A trava local foi removida normalmente.
+
+SHA256 dos sete arquivos data/history/*.json identicos antes/depois, incluindo manifest, Brasil 2022 e quatro esportes. Fonte/datas publicadas permanecem intactas. Brasil 2026 conserva 136 recortes/1.931 agregados do primeiro turno, nenhuma quarentena e ambos RO; nenhuma segunda rodada foi validada/aplicada. Falha nao deve ser tratada como changed=false. Main/origin permanecem limpos em 28d226858d57a5c548624794ddd20ea549cf1973; branch vazia removida. Nenhum commit, PR, merge ou deploy do produto.
+
+Verificacao publica concluida em 2026-10-24T00:38:20.762Z: exports br-2026 e br-2022 HTTP 200 e iguais aos arquivos canonicos, normalizando somente ordem partidaria. Hashes canonicos respectivamente 53cc0037b3290f502190cf363957050f8e2e9892f73e12edfccb2b4ebdc06776 e 26bd50f06290895f6bc0b4643a654a6888504df2a29c204505ec847392e2f639. Chromium confirmou RO federal 932.939 e estadual 942.021 votos validos retidos, em PT/EN/ES e larguras 390/1280, sem overflow, overlay ou console errors/warnings. Filtro de cargo/estado e envio funcionaram; capturas mobile/desktop inspecionadas. Browser plugin not available; usado Playwright do repositorio. Primeiro roteiro ad hoc presumiu que mudar cargo preservaria RO, mas o formulario selecionou SP; roteiro passou ao reselecionar RO explicitamente, sem modificar o produto.
+
+Validacao offline: 11 testes Python de importacao/refresh e 3 testes TypeScript de atualizacao/retencao passaram. Incluem impedir regressao de RO ja liberado, preservar edicoes e nao aceitar cobertura presidencial parcial. Check/build/e2e completos, WebKit/iOS nativo/carga e CI nao repetidos, pois nenhum dado/codigo mudou. Evidencias locais /tmp/gld-tse-20261024-0035-before.json, -refresh.log, -receipt.json, -tests.log, -public.json e capturas -390.png/-1280.png. Proxima captura unica na rodada agendada; manter a versao publicada enquanto o gate nao passar. Nenhuma cadencia, exclusao, permissao, conta, chave ou custo alterado.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -91,3 +103,4 @@ Evidencias locais: /tmp/gld-tse-20261023-0025.log, -before.json e -review.json; 
 - [[2026-10-22-tse-pb-refresh-blocked]] - Falha de retencao investigada.
 - [[2026-10-22-tse-pb-retention-recheck]] - Repeticao do mesmo bloqueio, sem alterar dados.
 - [[2026-10-23-tse-vote-classification-release]] - Handoff da revisao reconciliada.
+- [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
