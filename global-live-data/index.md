@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-24-u17-women-editorial-release]] - Guia Mundial Sub-17 publicado nos tres idiomas.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Guia Premier League publicado nos tres idiomas.
 - [[2026-10-24-tse-reconciliation-recovered]] - Gates TSE recuperados; dados iguais, sem publicacao.
 - [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs publicado em tres idiomas.
@@ -269,3 +270,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-24-cricket-overs-editorial-release]] - Sessao editorial.
 - [[2026-10-24-tse-reconciliation-recovered]] - Handoff da recuperacao TSE.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Sessao editorial.
+- [[2026-10-24-u17-women-editorial-release]] - Sessao editorial.

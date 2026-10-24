@@ -66,6 +66,10 @@ Ops em 2026-10-24T07:50:42.859Z: oito feeds representativos ready e USD error em
 
 Ops em 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Sete leituras limitadas por ops:check; nenhuma recaptura direta do provedor ou reparo nesta entrega. Estado USD e verificacao do artigo sao independentes. Evidencia /tmp/gld-premier-ops.json; [[release-status]].
 
+## Probe durante PR39, 24 outubro
+
+Ops em 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streaming stale e USD error em sete leituras; nenhum reparo de provedor nesta entrega. Sete leituras limitadas por ops:check; nenhuma recaptura direta do provedor ou reparo nesta entrega. Estado USD e verificacao do artigo sao independentes. Evidencia /tmp/gld-u17-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -88,3 +92,4 @@ Ops em 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error em
 - [[2026-10-24-rainfall-editorial-release]] - Probe USD durante a entrega editorial.
 - [[2026-10-24-cricket-overs-editorial-release]] - Probe durante a entrega.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Probe durante entrega.
+- [[2026-10-24-u17-women-editorial-release]] - Probe durante entrega.

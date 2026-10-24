@@ -408,6 +408,18 @@ CI main tentativa 1 passou 34/35 Chromium e falhou em fx-refresh.spec.ts:51 (con
 
 Ops unico 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error em sete leituras; incidente anterior persiste, sem reparo nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-premier-*; ledger/docs duraveis no repositorio. Servidor proprio em 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Mundial Feminino Sub-17: PR39, 24 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/39 integrada 2026-10-24T19:55:20Z. Head revisado 6ec739cf7e4c20957dec45479aa54131add45cdf; main/origin 9d22a5a4079efa33414ae12a0e8c74375814b992, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40127315878 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40127474961: ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-24T19:56:07.552418+00:00; dpl_5Tt8ZVVfP9fb6FBKSMZBpaXRmZB5, build 31s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5Tt8ZVVfP9fb6FBKSMZBpaXRmZB5 ; URL unica https://global-live-data-2lfzfjdgm-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou mudanca de acesso/configuracao.
+
+Verificacao anonima 2026-10-24T19:56:11.906Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, tres fontes, consulta datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/u17-womens-world-cup-2026-knockout-guide . QA publico 2026-10-24T19:56:19.079Z: leitura em 390/1280 pixels nos tres idiomas, seis artigos no filtro Futebol, teclado/idiomas/sumario/fontes/CTA e retorno; sem overflow, overlay ou erro de console. Capturas inspecionadas.
+
+Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history build, Next build e HTTP smoke; 35 Chromium aprovados. QA local equivalente ao publico. Invocacao inicial npx dentro de npx saiu antes dos testes; formatter instalado chamado diretamente resolveu sem alterar dependencias. Browser plugin ausente, Playwright do repositorio usado. WebKit, iOS nativo e carga nao repetidos para conteudo. Sete arquivos; providers e dados canonicos intactos.
+
+Ops unico 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streaming stale e USD error em sete leituras; nenhum reparo de provedor nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-u17-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -481,3 +493,4 @@ Ops unico 2026-10-24T13:57:21.672Z: oito feeds representativos ready e USD error
 - [[2026-10-24-rainfall-editorial-release]] - Recibo da publicacao do guia.
 - [[2026-10-24-cricket-overs-editorial-release]] - Recibo da PR37.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Recibo PR38.
+- [[2026-10-24-u17-women-editorial-release]] - Recibo PR39.

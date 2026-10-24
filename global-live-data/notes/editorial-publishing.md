@@ -168,6 +168,16 @@ Calculos hipoteticos verificados em Python: A: 5V/2E/1D = 8 jogos e 17 pontos; B
 
 Catalogo com 21 artigos, cinco de Futebol. CTA Futebol interno, ausencia de tabela Premier League explicita. Fontes/disclosure de apoio IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao, anuncio, analytics ou automacao alterada. Recibos em [[release-status]].
 
+## Edicao de 24 outubro, 19:46 UTC
+
+Artigo u17-womens-world-cup-2026-knockout-guide publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready, exit 0. Consulta BR copa do mundo fifa de futebol feminino sub-17 observada 19:48:59.058Z, faixa RSS 200+. Indicador datado, nao audiencia medida ou prova de resultado. Vinte e um artigos comparados; pauta explica vagas e calendario de outra competicao, sem repetir os guias existentes.
+
+Ledger docs/editorial/2026-10-24-u17-women-knockout.md: FIFA 7 set 2026, Concacaf 13 out 2026 e U.S. Soccer 16 out 2026 abertas/lidas ate 19:49:59Z. Datas gerais, formato e fases corroborados. Pagina FIFA de jogos abriu sem corpo e foi excluida; snippets nao usados como prova. Contagens historicas divergentes de participacoes dos EUA ficaram fora. F1 foi pesquisada brevemente, mas duracao Q3 divergente exigiria regulamento atual e a pauta nao foi escolhida.
+
+Seis grupos, dois primeiros de cada mais quatro terceiros: 6 * 2 + 4 = 16, conferido por Python. Agenda publicada indica fim dos grupos em 25 out, oitavas em 28-29 out, quartas em 1 nov, semifinais em 4 nov, terceiro/final em 7 nov. Nao anuncia classificados, placares, criterios completos de desempate, horarios ou transmissao. Copy recomenda conferir a programacao especifica e separa tabela parcial de confirmacao oficial.
+
+Catalogo com 22 artigos, seis no filtro Futebol. CTA interno e ausencia de feed deste Mundial explicita. Fontes, apoio de IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao ou automacao alterada. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -202,3 +212,4 @@ Catalogo com 21 artigos, cinco de Futebol. CTA Futebol interno, ausencia de tabe
 - [[2026-10-24-rainfall-editorial-release]] - Guia de quantidade e periodo.
 - [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Jogos a menos e medias.
+- [[2026-10-24-u17-women-editorial-release]] - Formato e agenda do Mundial Sub-17.

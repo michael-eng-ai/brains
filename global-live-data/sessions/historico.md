@@ -120,6 +120,8 @@ atualizado: "2026-10-24"
 
 - 2026-10-24, 13:44 UTC: PR38 publicou guia Premier League EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-24-premier-games-in-hand-editorial-release]].
 
+- 2026-10-24, 19:46 UTC: PR39 publicou guia Mundial Sub-17 EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-24-u17-women-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -175,3 +177,4 @@ atualizado: "2026-10-24"
 - [[2026-10-24-cricket-overs-editorial-release]] - Publicacao.
 - [[2026-10-24-tse-reconciliation-recovered]] - Recuperacao sem mudanca dos dados.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Publicacao.
+- [[2026-10-24-u17-women-editorial-release]] - Publicacao.

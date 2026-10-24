@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Buscas regionais e programacao de TV com fontes reais, cobertura e direitos explicitos."
 tags: [global-live-data, conceito, discovery]
-atualizado: "2026-10-15"
+atualizado: "2026-10-24"
 ---
 
 # Trends e programacao de TV
@@ -26,6 +26,10 @@ NFL/MLB e mais futebol: interesse observado, mas nenhum novo feed com direitos d
 
 A exibicao publica de Trends foi substituida por [[editorial-publishing]]. O proprietario autorizou artigos originais e publicacao automatica frequente com apuracao. A regra anterior de nao criar noticias automaticamente passa a significar que o texto de uma busca nunca basta como evidencia; o workflow editorial agora e autorizado. RSS segue como pesquisa limitada, TV permanece igual. A estimativa anterior de polling de visitantes nao descreve mais a home atual.
 
+## Probe durante PR39, 24 outubro
+
+Ops de 2026-10-24T19:56:11.866Z observou /api/discover?kind=screen&market=GLOBAL&day=today com reportedStatus/status stale. Captura preservada de 18:05:46.571Z, idade 6625 segundos, proxima tentativa indicada para 20:05:46.292Z. Observacao pontual; causa nao investigada, nenhum payload direto TVmaze, reparo ou configuracao alterada. Nao chamar o feed de ready nem afirmar uma indisponibilidade total. Evidencia /tmp/gld-u17-ops.json; release em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada do conceito.
 - [[category-research]] - Pesquisa inicial e candidatos remanescentes.
@@ -39,3 +43,4 @@ A exibicao publica de Trends foi substituida por [[editorial-publishing]]. O pro
 - [[2026-10-15-discovery-release]] - Handoff.
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
+- [[2026-10-24-u17-women-editorial-release]] - Estado TV nesta entrega.
