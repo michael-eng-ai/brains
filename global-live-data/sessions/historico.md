@@ -110,6 +110,8 @@ atualizado: "2026-10-24"
 
 - 2026-10-24, 00:35 UTC: captura unica TSE bloqueada por RO federal/estadual no primeiro turno. Sete JSON/datas preservados; exports/UI publicos e 14 testes relevantes aprovados, sem deploy. [[2026-10-24-tse-ro-retention-blocked]].
 
+- 2026-10-24, 01:36 UTC: PR36 integrada; guia de chuva EN/PT/ES com fontes, exemplos hipoteticos e CTA Natureza; CI/Ready/publico conferidos. [[2026-10-24-rainfall-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -160,3 +162,4 @@ atualizado: "2026-10-24"
 - [[2026-10-23-clasico-editorial-release]] - Publicacao trilingue.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
+- [[2026-10-24-rainfall-editorial-release]] - Publicacao trilingue.

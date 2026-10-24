@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Estado da entrega
@@ -370,6 +370,18 @@ Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas
 
 Ops unico 2026-10-23T13:37:15.383Z: nove feeds representativos ready em sete leituras; nao e prova global/continua. Recibo temporario /tmp/gld-clasico-release-receipt.json e /tmp/gld-clasico-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
 
+## Chuva: PR36, 24 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/36 integrada 2026-10-24T01:48:11Z. Head revisado 4b29fbc5c6fd631f03f6042161932903f8c6ca70; main local/origin limpos em 099028fb635992a74919df250b1033857e38bea7, arvore identica ao head. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40051254157 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40051428963 passaram ambos jobs no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-24T01:49:19Z; deployment dpl_Bp11koy97tkUx46L4fWWL4ptonGn, build 29s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/Bp11koy97tkUx46L4fWWL4ptonGn ; dominio unico https://global-live-data-mak9jexys-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou configuracao/permissoes alteradas.
+
+Verificacao anonima 2026-10-24T01:49:24.682Z: nove paginas EN/PT/ES (home, indice, artigo), deployment ID exato, CSP, canonical/hreflang, Article JSON-LD, tres fontes visiveis, consulta datada, disclosure e sitemap aprovados. Publico https://global-live-data.vercel.app/pt/trending/rainfall-amount-period-guide . QA publico 2026-10-24T01:49:31.164Z: leitura390/1280, filtro Clima com2artigos, teclado, idiomas, sumario/fontes, CTA Natureza e volta ao indice, sem overflow/overlay/console; capturas inspecionadas.
+
+Local Node24.22.0: check101unit/lint/types/build/HTTP e seis edicoes preservadas; Python11; Chromium35 aprovados na primeira execucao. Contagem19 ajustada antes da suite. QA temporario inicialmente leu title antes de atualizacao da navegacao; assert exato com espera passou sem mudar produto. Browser plugin indisponivel; Playwright do repo usado. WebKit, Safari iOS nativo e carga nao repetidos para conteudo editorial.
+
+Ops unico 2026-10-24T01:49:23.892Z: oito feeds representativos ready e USD error em sete leituras; incidente cambial anterior persiste, sem reparo nesta entrega editorial; nao e prova global/continua. Recibo temporario /tmp/gld-rainfall-release-receipt.json e /tmp/gld-rainfall-*, fora do Git; ledger duravel no repo. Servidor temporario3102 encerrado; piloto3147 preservado. Conteudo e limites em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -440,3 +452,4 @@ Ops unico 2026-10-23T13:37:15.383Z: nove feeds representativos ready em sete lei
 - [[2026-10-23-nba-box-score-editorial-release]] - Recibo editorial NBA.
 - [[2026-10-23-ballon-dor-editorial-release]] - Recibo editorial Bola de Ouro.
 - [[2026-10-23-clasico-editorial-release]] - Recibo editorial Clasico.
+- [[2026-10-24-rainfall-editorial-release]] - Recibo da publicacao do guia.

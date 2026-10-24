@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Publicacao editorial
@@ -140,6 +140,14 @@ Foram lidas fontes primarias atuais: https://frankfurter.dev/ ; https://www.ecb.
 
 A verificacao do destino interno encontrou latest USD indisponivel e resposta direta com datas futuras, enquanto o historico estava ready. Diagnostico e proximo passo em [[football-fx-pilot]]. Decisao editorial desta rodada: adiar o guia antes de enviar leitores ao destino indisponivel; nenhuma pauta/copia/catalogo/data de publicacao alterada, sem branch/PR/deploy. A rotina editorial permanece autorizada e com a mesma cadencia; isso nao cria bloqueio permanente de outros artigos. Futuras rodadas devem pesquisar novamente e decidir pelo valor/apuracao, sem tratar esta pauta como pronta. Nenhuma conta, custo, chave, provider, anuncio, analytics ou automacao alterados.
 
+## Edicao de 24 outubro, 01:36 UTC
+
+Pauta rainfall-amount-period-guide, EN/PT/ES. Uma pesquisa US/BR/GB/ES/JP/IN retornou seis mercados ready entre 01:36:52.301Z e 01:36:55.806Z. Consulta IN ಹವಾಮಾನ (tempo em kannada), observada 01:36:55.806Z, faixa RSS2000+; amostra tambem tinha weather bengaluru500+. Nao prova evento, causa, demanda mensal ou audiencia futura. Dezoito artigos comparados; o guia anterior de clima trata watch/warning, distinto de quantidade/periodo.
+
+Ledger docs/editorial/2026-10-24-rainfall-period.md registra MET Norway, Bureau of Meteorology e Met Office lidos ate 01:42:21Z. Definicoes complementares, sem boletim atual. PDF antigo do Met Office abriu inicialmente e depois404; excluido da bibliografia. Baseball foi investigado, sem segunda pauta. Exemplos originais de duas sequencias de seis horas, totais6mm/media1mm/h e maximos1/6mm foram verificados com Python; periodo9h-15h explicita ausencia de mudanca de relogio. Sem texto/imagem/linha real copiados.
+
+Reutiliza Weather/Clima e destino Natureza; catalogo19artigos, dois de clima. Limite42cidades e ausencia de Bengaluru explicitos. Fontes e disclosure IA/sem revisao humana preservados. Nao cria previsao local, alerta, cidade, provider, conta, custo, dependencia, analytics, anuncio ou automacao. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -171,3 +179,4 @@ A verificacao do destino interno encontrou latest USD indisponivel e resposta di
 - [[2026-10-23-clasico-editorial-release]] - Agenda do Clasico e previa.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[football-fx-pilot]] - Diagnostico da fonte e limites de data.
+- [[2026-10-24-rainfall-editorial-release]] - Guia de quantidade e periodo.

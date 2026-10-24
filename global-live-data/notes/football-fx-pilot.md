@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-23"
+atualizado: "2026-10-24"
 ---
 
 # Futebol e cambio
@@ -54,6 +54,10 @@ Uma segunda leitura diagnostica limitada, com date=2026-10-23, retornou quatro p
 
 Node24.22.0: 18 testes offline de tests/pilot.test.ts e tests/depth.test.ts passaram. Reproducao com payload real capturado e UI publica sao evidencias separadas. Check/build/e2e completos, WebKit/iOS/carga/CI nao repetidos porque nao houve mudanca no app. Main/origin limpos em 28d226858d57a5c548624794ddd20ea549cf1973; nenhum commit/PR/deploy do produto. Evidencias locais /tmp/gld-usd-20261023-{source.json,validation.json,dated-validation.json,ui.json,tests.log,mobile.png}. Uma primeira tentativa apontou a rota inexistente /api/pilot e recebeu404; foi corrigida para /api/live e nao e evidencia do incidente.
 
+## Verificacao operacional de 24 outubro, 01:49 UTC
+
+Durante a publicacao editorial PR36, uma execucao de ops:check fez sete leituras representativas e saiu2. Em 2026-10-24T01:49:23.892Z, /api/live?league=bl1&base=USD retornou fx error, sem checkedAt/retrievedAt; nextRefreshAt2026-10-24T02:48:45.719Z. Oito outros feeds estavam ready, incluindo Natureza. Incidente USD persiste apos a virada UTC; nao se reconsultou a fonte direta, historico ou cada moeda nesta rodada, portanto o corpo e a causa atuais nao foram estabelecidos. Diagnostico de23out continua evidencia historica, nao prova do payload atual. Sem reparo, afrouxamento de gates ou mudanca de provider/cache. Evidencia /tmp/gld-rainfall-ops.json; contexto em [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -73,3 +77,4 @@ Node24.22.0: 18 testes offline de tests/pilot.test.ts e tests/depth.test.ts pass
 - [[2026-10-19-repair-usd-fx-refresh]] - Autorizacao da correcao.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[editorial-publishing]] - Pesquisa que encontrou a indisponibilidade USD.
+- [[2026-10-24-rainfall-editorial-release]] - Probe USD durante a entrega editorial.

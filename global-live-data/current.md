@@ -1,25 +1,24 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Atualizacao TSE bloqueada por regressao RO; versao publicada preservada e conferida."
+resumo: "Guia de chuva EN/PT/ES publicado; CI, Ready e publico verificados; bloqueio TSE preservado."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-24"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-24-tse-ro-retention-blocked]].
+Ultimo handoff: [[2026-10-24-rainfall-editorial-release]].
 
-- TSE 24out 00:36 UTC: captura unica bloqueada por perda/inconsistencia de RO federal e estadual, turno 1. Sete arquivos/datas intactos; exports publicos 2026/2022 e RO EN/PT/ES conferidos. 11 testes Python e 3 TypeScript passaram. [[brazil-election-comparison]].
-- Incidente USD de 23out 19:36UTC, nao rechecado nesta rodada: latest USD indisponivel; historico ready nos tres idiomas. Fonte direta trouxe tres datas24out; normalizador rejeitou, consulta datada23out passou. Diagnostico e limite causal em [[football-fx-pilot]].
-- Rodada editorial19:32 pesquisou seis mercados, mas adiou guia USD; nenhuma alteracao/publicacao do produto.18 testes relevantes passaram; [[editorial-publishing]].
-- PR35 integrada; main/origin limpos em 28d226858d57a5c548624794ddd20ea549cf1973. Dois jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
-- Catalogo18artigos EN/PT/ES. Novo guia Clasico traz oito horarios e distingue previa dos EUA; quatro fontes primarias, sem placar/stream ou cobertura global. [[editorial-publishing]].
+- PR36 integrada; main/origin limpos em 099028fb635992a74919df250b1033857e38bea7. Dois jobs PR/main aprovados, Production Ready exato, nove paginas e sitemap verificados. [[release-status]].
+- Catalogo19artigos EN/PT/ES; guia de chuva separa quantidade/periodo/media com exemplos hipoteticos. Tres fontes; Natureza com limite42cidades e sem Bengaluru. [[editorial-publishing]].
 - Checks101unit/11Python/35Chromium aprovados; QA local/publico390/1280 nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit/iOSnativo/carga nao repetidos. [[release-status]].
-- Ops13:37UTC foi saudavel, mas a observacao posterior USD acima a supera para esse feed; nao presumir saude continua.
-- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO deputado estadual MS sem mudar total. Brasil2026 tem136 recortes/1931agregados primeiro turno, incluindo RO; sem quarentena ou turno2. A captura de 24out 00:36 UTC foi blocked, preservando a versao valida; nao confundir com os no-ops anteriores. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; horario anunciado nao prova inicio ocorrido ou transmissao no pais do leitor. [[editorial-publishing]].
-- Painel Vercel autenticado acessivel; nenhuma credencial, permissao ou configuracao alterada. Conector/CLI nao declarados recuperados. [[trap-vercel-access]].
+- Ops 2026-10-24T01:49:23.892Z: oito feeds representativos ready e USD error em sete leituras; incidente cambial anterior persiste, sem reparo nesta entrega editorial; nao e garantia global/continua.
+- Incidente USD de23out19:36UTC: datas futuras reproduziram rejeicao local; historico ready. USD continua error no probe01:49UTC acima; fonte direta e historico nao rechecados nesta rodada. Sem correcao de codigo nem prova do corpo atual que a Vercel recebeu. [[football-fx-pilot]].
+- TSE24out00:36UTC: captura unica bloqueada por perda/inconsistencia RO federal/estadual turno1; sete arquivos/datas intactos. Publico2026/2022 e RO EN/PT/ES conferidos; 11Python+3TS aprovados. [[brazil-election-comparison]].
+- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
+- Proxima rodada exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
+- Painel Vercel autenticado acessivel; conector/CLI nao declarados recuperados. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
 - Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterados. [[launch-readiness]].
@@ -111,3 +110,4 @@ Ultimo handoff: [[2026-10-24-tse-ro-retention-blocked]].
 - [[2026-10-23-clasico-editorial-release]] - Handoff editorial atual.
 - [[2026-10-23-editorial-usd-date-incident]] - Handoff da pesquisa e incidente USD.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
+- [[2026-10-24-rainfall-editorial-release]] - Handoff editorial atual.
