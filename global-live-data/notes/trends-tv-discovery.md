@@ -34,6 +34,10 @@ Ops de 2026-10-24T19:56:11.866Z observou /api/discover?kind=screen&market=GLOBAL
 
 Ops em 2026-10-25T02:02:47.053Z: TV/streaming ready; captura 2026-10-25T01:05:46.690Z, idade 3420 segundos e proxima tentativa 2026-10-25T02:05:46.690Z. O stale anterior nao se repetiu nesta leitura. Observacao pontual, sem investigacao do corpo atual do provedor, reparo ou configuracao alterada. Evidencia /tmp/gld-nhl-ops.json; [[release-status]].
 
+## Cache observado durante PR41, 25 outubro
+
+Ops unico 2026-10-25T08:02:30.529Z: TV/streaming reportedStatus stale; captura 2026-10-25T06:05:46.680Z, idade 7003 segundos e proxima tentativa 2026-10-25T08:05:46.432Z. Os outros oito feeds representativos estavam ready, inclusive USD. O estado ready da leitura anterior nao se manteve para TV nesta leitura; causa nao estabelecida, sem reparo de codigo ou consulta direta ao provedor. O artigo e suas paginas passaram verificacao separada. Evidencia /tmp/gld-pakeng-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada do conceito.
 - [[category-research]] - Pesquisa inicial e candidatos remanescentes.
@@ -49,3 +53,4 @@ Ops em 2026-10-25T02:02:47.053Z: TV/streaming ready; captura 2026-10-25T01:05:46
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[2026-10-24-u17-women-editorial-release]] - Estado TV nesta entrega.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Estado TV nesta entrega.
+- [[2026-10-25-pakistan-england-editorial-release]] - Cache TV durante a entrega.

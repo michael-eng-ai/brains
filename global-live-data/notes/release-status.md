@@ -432,6 +432,18 @@ Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history bui
 
 Ops unico 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leituras, incluindo USD e TV/streaming; sem reparo de provedor nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-nhl-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Guia Paquistao-Inglaterra: PR41, 25 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/41 integrada 2026-10-25T08:00:58Z. Head revisado 98f1b9cfc4481bd4c52fbf79437c9c7172e574c4; main/origin e31f70bf35b5f69f6e3735b8af4e81844141f6e6, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40174808433 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40174968594: ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-25T08:02:26.155743+00:00; build 32s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5P7VR5Cge9Yce8hd8joUQpeUddhY ; URL unica https://global-live-data-94i4s0aby-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado, mudanca de acesso ou configuracao. ID publico no recibo local /tmp/gld-pakeng-deployment.json.
+
+Verificacao anonima 2026-10-25T08:02:31.489Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, duas fontes, consulta datada, divulgacao editorial e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/pakistan-england-october-2026-times . QA publico 2026-10-25T08:02:38.128Z: leitura em 390/1280 pixels nos tres idiomas, filtro Criquete com tres artigos, teclado/idiomas/sumario/fontes/CTA e retorno; sem overflow, overlay ou erros de console. Capturas inspecionadas.
+
+Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history build, Next build e HTTP smoke; 35 Chromium aprovados. Primeira rodada aprovada e suites check/e2e completas repetidas com sucesso apos ajuste terminologico PT. QA local equivalente ao publico. Playwright do repositorio usado. WebKit, iOS nativo e carga nao repetidos para conteudo. Sete arquivos; providers e dados canonicos intactos.
+
+Ops unico 2026-10-25T08:02:30.529Z: oito feeds representativos ready, inclusive USD; TV/streaming stale em sete leituras limitadas (ops exit 1). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-pakeng-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -507,3 +519,4 @@ Ops unico 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete lei
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Recibo PR38.
 - [[2026-10-24-u17-women-editorial-release]] - Recibo PR39.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Recibo PR40.
+- [[2026-10-25-pakistan-england-editorial-release]] - Recibo PR41.

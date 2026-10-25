@@ -186,6 +186,14 @@ Ledger docs/editorial/2026-10-25-nhl-shootout.md: regulamento NHL 2026-27 e pagi
 
 Copy curta com exemplo explicitamente hipotetico, leitura de cabecalhos, ficha de acompanhamento e limites de cobertura. Nao anuncia resultado, horario, classificacao ou transmissao de Oilers-Maple Leafs. Catalogo com 23 artigos; filtro editorial Hoquei com uma leitura, Futebol permanece seis. CTA abre a pagina DEL/CHL existente; NHL continua sem feed. Fontes, apoio de IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao ou automacao alterada. Recibos em [[release-status]].
 
+## Edicao de 25 outubro, 07:49 UTC
+
+Artigo pakistan-england-october-2026-times publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready, exit 0. Consulta IN england vs pakistan observada 07:50:30.055Z, faixa RSS 10000+; termos relacionados US/ES/JP. Indicador datado, nao audiencia ou evidencia de resultado. Vinte e tres artigos comparados; pauta de calendario distinta dos guias de overs e da serie feminina India-Zimbabue.
+
+Ledger docs/editorial/2026-10-25-pakistan-england.md: duas publicacoes primarias da ECB, de agosto e outubro, lidas ate 07:54:09Z. Ambas da mesma federacao participante, sem alegar apuracao independente. Frase introdutoria imprecisa da pagina mais antiga excluida; detalhes conferidos com a programacao mais recente. PCB retornou 403 e extracao ICC sem detalhes; nao usados como prova e nenhum controle contornado. Oito conversoes de fuso calculadas com Python/IANA para a data exata.
+
+Guia de horario previsto e proximas datas; sem contagem regressiva, placar, escalacao, finalistas confirmados ou promessa de transmissao. Catalogo com 24 artigos, tres no filtro Criquete, seis em Futebol, um em Hoquei. CTA retorna ao indice existente, sem feed de criquete. Fontes e divulgacao editorial preservadas. Nenhum provedor, conta, custo, configuracao ou automacao alterados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -222,3 +230,4 @@ Copy curta com exemplo explicitamente hipotetico, leitura de cabecalhos, ficha d
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Jogos a menos e medias.
 - [[2026-10-24-u17-women-editorial-release]] - Formato e agenda do Mundial Sub-17.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Guia NHL.
+- [[2026-10-25-pakistan-england-editorial-release]] - Guia de horarios.

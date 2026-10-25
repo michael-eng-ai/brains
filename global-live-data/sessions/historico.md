@@ -124,6 +124,8 @@ atualizado: "2026-10-25"
 
 - 2026-10-25, 01:50 UTC: PR40 publicou guia NHL EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-25-nhl-shootout-editorial-release]].
 
+- 2026-10-25, 07:49 UTC: PR41 publicou guia Paquistao-Inglaterra EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-25-pakistan-england-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -181,3 +183,4 @@ atualizado: "2026-10-25"
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Publicacao.
 - [[2026-10-24-u17-women-editorial-release]] - Publicacao.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Publicacao.
+- [[2026-10-25-pakistan-england-editorial-release]] - Publicacao.
