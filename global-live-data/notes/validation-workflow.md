@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-21"
+atualizado: "2026-10-25"
 ---
 
 # Validacao
@@ -204,6 +204,10 @@ Node24.22.0/npm11.21.1: check com101 unitarios/lint/tipos/history e Next build/s
 
 Browser plugin ausente; Playwright do repositorio usado. QA390x844/1280x900 emPT/EN/ES: identidade, leitura, duas opcoes Futebol, entrada via teclado, idioma mantendo slug, sumario/fontes, CTA Futebol e retorno indice. Sem overflow, overlay ou console warn/error. Script temporario inicialmente esperava barra antes do hash; assercao corrigida, produto intacto e percurso final aprovado. Capturas /tmp/gld-ucl-local-mobile.png e desktop.png; recibo /tmp/gld-ucl-local-qa.json. WebKit, iOS Safari nativo e carga nao repetidos. QA publico e limite Ready em [[release-status]].
 
+## Reincidencia do teste FX na PR42
+
+CI da PR42, run 40200350272, tentativa 1: agregado passou, Chromium34/35; falha fx-refresh.spec.ts:51, conversao sintetica 512.00 ausente. Trace tem apenas duas respostas mock e clockRunFor(59999) comeca 0.742 ms apos o segundo fulfill. Padrao semelhante ao PR38; suspeita de sincronizacao entre resposta e relogio simulado, nao causa estabelecida nem incidente real do provedor. Um unico rerun do job no mesmo SHA passou sem mudar codigo/assertions. Artefatos e analise em /tmp/gld-usgp-pr42-artifacts e /tmp/gld-usgp-ci-triage.json. Uma investigacao focada futura deve sincronizar a aplicacao da resposta antes de avancar o relogio, preservando as verificacoes de prazo, recuperacao e numero de chamadas; nao esconder a falha com retries ilimitados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -257,3 +261,4 @@ Browser plugin ausente; Playwright do repositorio usado. QA390x844/1280x900 emPT
 - [[2026-10-21-uk-cpi-editorial-release]] - Handoff da decima primeira leitura e recibos.
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
+- [[2026-10-25-us-gp-grid-editorial-release]] - Reincidencia FX na PR42.

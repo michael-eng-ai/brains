@@ -38,6 +38,10 @@ Ops em 2026-10-25T02:02:47.053Z: TV/streaming ready; captura 2026-10-25T01:05:46
 
 Ops unico 2026-10-25T08:02:30.529Z: TV/streaming reportedStatus stale; captura 2026-10-25T06:05:46.680Z, idade 7003 segundos e proxima tentativa 2026-10-25T08:05:46.432Z. Os outros oito feeds representativos estavam ready, inclusive USD. O estado ready da leitura anterior nao se manteve para TV nesta leitura; causa nao estabelecida, sem reparo de codigo ou consulta direta ao provedor. O artigo e suas paginas passaram verificacao separada. Evidencia /tmp/gld-pakeng-ops.json; [[release-status]].
 
+## Probe durante PR42, 25 outubro
+
+Ops unico 2026-10-25T14:08:17.022Z: TV/streaming ready; captura 2026-10-25T14:05:46.823Z, idade 149 segundos e proxima tentativa 2026-10-25T15:05:46.824Z. O stale da leitura anterior nao se repetiu. USD estava error e os outros sete feeds estavam ready. Observacao pontual; sem causa estabelecida, reparo ou consulta direta ao provedor. Artigo e paginas passaram verificacao separada. Evidencia /tmp/gld-usgp-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada do conceito.
 - [[category-research]] - Pesquisa inicial e candidatos remanescentes.
@@ -54,3 +58,4 @@ Ops unico 2026-10-25T08:02:30.529Z: TV/streaming reportedStatus stale; captura 2
 - [[2026-10-24-u17-women-editorial-release]] - Estado TV nesta entrega.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Estado TV nesta entrega.
 - [[2026-10-25-pakistan-england-editorial-release]] - Cache TV durante a entrega.
+- [[2026-10-25-us-gp-grid-editorial-release]] - Probe TV durante a entrega.

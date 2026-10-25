@@ -74,6 +74,10 @@ Ops em 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streaming 
 
 Ops em 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leituras, incluindo USD e TV/streaming; sem reparo de provedor nesta entrega. Sete leituras limitadas por ops:check; nenhuma recaptura direta do provedor ou reparo nesta entrega. Estado USD e verificacao do artigo sao independentes; nao inferir a causa a partir deste probe. Evidencia /tmp/gld-nhl-ops.json; [[release-status]].
 
+## Nova indisponibilidade USD durante PR42
+
+Ops unico 2026-10-25T14:08:17.022Z: USD reportedStatus/status error, checkedAt/retrievedAt nulos, proxima tentativa 2026-10-25T15:07:54.346Z. Oito outros feeds representativos ready, incluindo TV. A leitura saudavel anterior das08:02UTC nao se manteve; inicio e causa atual nao estabelecidos. Sem nova leitura direta Frankfurter, historico ou corpo recebido pela Vercel. Nao atribuir automaticamente a datas futuras nem a falha sintetica do CI. Nenhum reparo, afrouxamento de gates ou mudanca de provedor/cache nesta entrega. Evidencia /tmp/gld-usgp-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -98,3 +102,4 @@ Ops em 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leitur
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Probe durante entrega.
 - [[2026-10-24-u17-women-editorial-release]] - Probe durante entrega.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Probe durante entrega.
+- [[2026-10-25-us-gp-grid-editorial-release]] - USD na entrega PR42.

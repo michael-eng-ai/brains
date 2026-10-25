@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR41 publica guia Paquistao-Inglaterra; CI, Production e paginas verificados."
+resumo: "PR42 publica guia do grid GP EUA; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-25"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-25-pakistan-england-editorial-release]].
+Ultimo handoff: [[2026-10-25-us-gp-grid-editorial-release]].
 
-- PR41 integrada; main/origin limpos em e31f70bf35b5f69f6e3735b8af4e81844141f6e6. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 24 artigos EN/PT/ES; guia Paquistao-Inglaterra com duas fontes primarias e oito fusos calculados. Criquete tem tres leituras, Futebol seis e Hoquei uma; nenhum feed novo. [[editorial-publishing]].
+- PR42 integrada; main/origin limpos em 2cae649854052aca8cb059da182fe9b950798250. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 25 artigos EN/PT/ES; guia do grid GP EUA com duas tabelas oficiais e consulta datada. Automobilismo tem uma leitura, Criquete tres, Futebol seis e Hoquei uma; nenhum feed novo. [[editorial-publishing]].
 - Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 pixels nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit, iOS nativo e carga nao repetidos. [[release-status]].
-- Ops 2026-10-25T08:02:30.529Z: oito feeds representativos ready, inclusive USD; TV/streaming stale em sete leituras limitadas (ops exit 1). Verificacao pontual, nao garantia continua.
+- Ops 2026-10-25T14:08:17.022Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Verificacao pontual, nao garantia continua.
 - Incidente USD e historico de datas futuras mantidos em [[football-fx-pilot]]; o probe desta entrega esta acima. Sem reparo de codigo, consulta direta do provedor ou prova do corpo atual recebido pela Vercel.
 - TSE 24out 12:43 UTC: captura unica passou todos os gates, incluindo RO; changed false/applied false. Bloqueio das 06:40 nao se repetiu, causa nao estabelecida. Dados e datas canonicos intactos, 11 Python/3 TypeScript aprovados, exports 2026/2022 conferidos. Nenhuma publicacao. [[brazil-election-comparison]].
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
@@ -118,3 +118,4 @@ Ultimo handoff: [[2026-10-25-pakistan-england-editorial-release]].
 - [[2026-10-24-u17-women-editorial-release]] - Handoff editorial atual.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Handoff editorial atual.
 - [[2026-10-25-pakistan-england-editorial-release]] - Handoff editorial atual.
+- [[2026-10-25-us-gp-grid-editorial-release]] - Handoff editorial atual.

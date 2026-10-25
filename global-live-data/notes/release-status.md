@@ -444,6 +444,18 @@ Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history bui
 
 Ops unico 2026-10-25T08:02:30.529Z: oito feeds representativos ready, inclusive USD; TV/streaming stale em sete leituras limitadas (ops exit 1). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-pakeng-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Guia do grid GP EUA: PR42, 25 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/42 integrada 2026-10-25T14:07:17Z. Head revisado c1d4cc041b824999652e283cc84249c0d250b1df; main/origin 2cae649854052aca8cb059da182fe9b950798250, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40200350272 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40200748932: ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-25T14:08:13.433990+00:00; build 30s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/DoDj5RYPoWJFsZWARmEtoa27V5bF ; URL unica https://global-live-data-gv3j0o3r2-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado, mudanca de acesso ou configuracao. ID publico no recibo /tmp/gld-usgp-deployment.json.
+
+Verificacao anonima 2026-10-25T14:08:18.918Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, duas fontes, consulta datada, divulgacao editorial e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/us-grand-prix-2026-grid-guide . QA publico 2026-10-25T14:08:21.740Z: 390/1280 pixels nos tres idiomas, filtro Automobilismo com um artigo, teclado/idiomas/sumario/fontes/CTA e retorno; sem overflow, overlay ou erros de console. Quatro capturas publicas inspecionadas.
+
+Local Node 24.22.0/Python 3.12.4: 11 Python, check com 101 unitarios, lint, types, history build, Next build e HTTP smoke; 35 Chromium aprovados na primeira execucao. QA local equivalente e quatro capturas inspecionadas. Playwright do repositorio usado. WebKit, iOS nativo e carga nao repetidos para conteudo. Oito arquivos; providers e dados canonicos intactos. CI PR teve 34/35 na tentativa1 e passou em um rerun do job no mesmo SHA; trace e pendencia de sincronizacao em [[validation-workflow]].
+
+Ops unico 2026-10-25T14:08:17.022Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-usgp-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -520,3 +532,4 @@ Ops unico 2026-10-25T08:02:30.529Z: oito feeds representativos ready, inclusive 
 - [[2026-10-24-u17-women-editorial-release]] - Recibo PR39.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Recibo PR40.
 - [[2026-10-25-pakistan-england-editorial-release]] - Recibo PR41.
+- [[2026-10-25-us-gp-grid-editorial-release]] - Recibo PR42.

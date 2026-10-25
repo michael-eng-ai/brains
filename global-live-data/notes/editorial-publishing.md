@@ -194,6 +194,14 @@ Ledger docs/editorial/2026-10-25-pakistan-england.md: duas publicacoes primarias
 
 Guia de horario previsto e proximas datas; sem contagem regressiva, placar, escalacao, finalistas confirmados ou promessa de transmissao. Catalogo com 24 artigos, tres no filtro Criquete, seis em Futebol, um em Hoquei. CTA retorna ao indice existente, sem feed de criquete. Fontes e divulgacao editorial preservadas. Nenhum provedor, conta, custo, configuracao ou automacao alterados. Recibos em [[release-status]].
 
+## Edicao de 25 outubro, 13:53 UTC
+
+Artigo us-grand-prix-2026-grid-guide publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready, exit 0. Consulta US 2026 us grand prix starting grid observada 13:53:44.170Z, faixa RSS 10000+. Indicador datado, nao audiencia medida nem prova de resultado. Vinte e quatro artigos comparados; primeiro guia de automobilismo, sem repetir calendarios ou pautas sensiveis.
+
+Ledger docs/editorial/2026-10-25-us-gp-grid.md: duas tabelas oficiais Formula 1, classificacao e grid, lidas ate 13:55:07Z. Mesmo editor, sem alegar reportagem independente. Extracao direta inicial do grid falhou; link real na tabela de classificacao retornou o corpo completo. Extracao FIA permaneceu indisponivel e foi excluida, assim como fontes secundarias e edicoes antigas.
+
+Posicoes explicitamente datadas; exemplos Lindblad/Bortoleto e tempos Q3/Q2 conferidos nos corpos. Sem grid final FIA, horario de largada, vencedor, transmissao ou regra completa de alocacao de punicoes. Catalogo com 25 artigos; Automobilismo com um guia, Criquete tres, Futebol seis, Hoquei um. CTA retorna ao indice, sem feed F1. Fontes, apoio de IA e aviso de ausencia de revisao humana preservados. Nenhum provedor, conta, custo, configuracao ou automacao alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -231,3 +239,4 @@ Guia de horario previsto e proximas datas; sem contagem regressiva, placar, esca
 - [[2026-10-24-u17-women-editorial-release]] - Formato e agenda do Mundial Sub-17.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Guia NHL.
 - [[2026-10-25-pakistan-england-editorial-release]] - Guia de horarios.
+- [[2026-10-25-us-gp-grid-editorial-release]] - Guia do grid GP EUA.
