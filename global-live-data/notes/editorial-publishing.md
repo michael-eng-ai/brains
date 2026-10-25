@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-24"
+atualizado: "2026-10-25"
 ---
 
 # Publicacao editorial
@@ -178,6 +178,14 @@ Seis grupos, dois primeiros de cada mais quatro terceiros: 6 * 2 + 4 = 16, confe
 
 Catalogo com 22 artigos, seis no filtro Futebol. CTA interno e ausencia de feed deste Mundial explicita. Fontes, apoio de IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao ou automacao alterada. Recibos em [[release-status]].
 
+## Edicao de 25 outubro, 01:50 UTC
+
+Artigo nhl-shootout-score-guide publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready, exit 0. Consulta GB oilers vs maple leafs observada 01:51:07.821Z, faixa RSS 200+. Indicador datado, nao audiencia medida ou evidencia de resultado. Vinte e dois artigos comparados; primeiro guia de hoquei, sem repetir NBA ou mudanca de horario.
+
+Ledger docs/editorial/2026-10-25-nhl-shootout.md: regulamento NHL 2026-27 e pagina oficial de definicoes de colunas lidos ate 01:55:34Z. PDF atual encontrado pelo link da FAQ, baixado diretamente depois de limite de tamanho no extrator web; texto e paginas renderizadas inspecionados. A referencia estatistica antiga foi explorada e excluida. Regras de outras ligas e snippets nao fundamentaram a entrega. Sem copia de imagens, citacoes ou autor ficticio.
+
+Copy curta com exemplo explicitamente hipotetico, leitura de cabecalhos, ficha de acompanhamento e limites de cobertura. Nao anuncia resultado, horario, classificacao ou transmissao de Oilers-Maple Leafs. Catalogo com 23 artigos; filtro editorial Hoquei com uma leitura, Futebol permanece seis. CTA abre a pagina DEL/CHL existente; NHL continua sem feed. Fontes, apoio de IA e ausencia de revisao humana preservados; nenhuma API, conta, gasto, chave, configuracao ou automacao alterada. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -213,3 +221,4 @@ Catalogo com 22 artigos, seis no filtro Futebol. CTA interno e ausencia de feed 
 - [[2026-10-24-cricket-overs-editorial-release]] - Guia de placar e overs.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Jogos a menos e medias.
 - [[2026-10-24-u17-women-editorial-release]] - Formato e agenda do Mundial Sub-17.
+- [[2026-10-25-nhl-shootout-editorial-release]] - Guia NHL.

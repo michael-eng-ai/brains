@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR39 publica guia Mundial Sub-17; CI, Production e paginas verificados."
+resumo: "PR40 publica guia NHL; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
-atualizado: "2026-10-24"
+atualizado: "2026-10-25"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-24-u17-women-editorial-release]].
+Ultimo handoff: [[2026-10-25-nhl-shootout-editorial-release]].
 
-- PR39 integrada; main/origin limpos em 9d22a5a4079efa33414ae12a0e8c74375814b992. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 22 artigos EN/PT/ES; guia Mundial Feminino Sub-17 explica vagas e calendario, com tres fontes primarias. Futebol tem seis artigos; sem feed ou resultado deste torneio. [[editorial-publishing]].
+- PR40 integrada; main/origin limpos em a3231fd38b3096c83d1806d7007e4c8f97fed623. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 23 artigos EN/PT/ES; guia NHL de leitura, duas fontes primarias e exemplo hipotetico. Hoquei tem uma leitura, Futebol seis; sem feed NHL. [[editorial-publishing]].
 - Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 pixels nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit, iOS nativo e carga nao repetidos. [[release-status]].
-- Ops 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streaming stale e USD error em sete leituras; nenhum reparo de provedor nesta entrega. Verificacao pontual, nao garantia continua.
+- Ops 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leituras, incluindo USD e TV/streaming; sem reparo de provedor nesta entrega. Verificacao pontual, nao garantia continua.
 - Incidente USD e historico de datas futuras mantidos em [[football-fx-pilot]]; o probe desta entrega esta acima. Sem reparo de codigo, consulta direta do provedor ou prova do corpo atual recebido pela Vercel.
 - TSE 24out 12:43 UTC: captura unica passou todos os gates, incluindo RO; changed false/applied false. Bloqueio das 06:40 nao se repetiu, causa nao estabelecida. Dados e datas canonicos intactos, 11 Python/3 TypeScript aprovados, exports 2026/2022 conferidos. Nenhuma publicacao. [[brazil-election-comparison]].
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
@@ -116,3 +116,4 @@ Ultimo handoff: [[2026-10-24-u17-women-editorial-release]].
 - [[2026-10-24-tse-reconciliation-recovered]] - Handoff TSE atual.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Handoff editorial atual.
 - [[2026-10-24-u17-women-editorial-release]] - Handoff editorial atual.
+- [[2026-10-25-nhl-shootout-editorial-release]] - Handoff editorial atual.

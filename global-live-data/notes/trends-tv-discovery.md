@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Buscas regionais e programacao de TV com fontes reais, cobertura e direitos explicitos."
 tags: [global-live-data, conceito, discovery]
-atualizado: "2026-10-24"
+atualizado: "2026-10-25"
 ---
 
 # Trends e programacao de TV
@@ -30,6 +30,10 @@ A exibicao publica de Trends foi substituida por [[editorial-publishing]]. O pro
 
 Ops de 2026-10-24T19:56:11.866Z observou /api/discover?kind=screen&market=GLOBAL&day=today com reportedStatus/status stale. Captura preservada de 18:05:46.571Z, idade 6625 segundos, proxima tentativa indicada para 20:05:46.292Z. Observacao pontual; causa nao investigada, nenhum payload direto TVmaze, reparo ou configuracao alterada. Nao chamar o feed de ready nem afirmar uma indisponibilidade total. Evidencia /tmp/gld-u17-ops.json; release em [[release-status]].
 
+## Probe durante PR40, 25 outubro
+
+Ops em 2026-10-25T02:02:47.053Z: TV/streaming ready; captura 2026-10-25T01:05:46.690Z, idade 3420 segundos e proxima tentativa 2026-10-25T02:05:46.690Z. O stale anterior nao se repetiu nesta leitura. Observacao pontual, sem investigacao do corpo atual do provedor, reparo ou configuracao alterada. Evidencia /tmp/gld-nhl-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada do conceito.
 - [[category-research]] - Pesquisa inicial e candidatos remanescentes.
@@ -44,3 +48,4 @@ Ops de 2026-10-24T19:56:11.866Z observou /api/discover?kind=screen&market=GLOBAL
 - [[editorial-publishing]] - Protocolo editorial e recorrencia.
 - [[api-data-adequacy]] - Auditoria transversal de adequacao dos dados.
 - [[2026-10-24-u17-women-editorial-release]] - Estado TV nesta entrega.
+- [[2026-10-25-nhl-shootout-editorial-release]] - Estado TV nesta entrega.

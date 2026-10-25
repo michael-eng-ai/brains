@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-24"
+atualizado: "2026-10-25"
 ---
 
 # Estado da entrega
@@ -420,6 +420,18 @@ Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history bui
 
 Ops unico 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streaming stale e USD error em sete leituras; nenhum reparo de provedor nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-u17-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Guia NHL: PR40, 25 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/40 integrada 2026-10-25T02:01:42Z. Head revisado e130f7aed14596768dd79d59bc660a6503d1ca3b; main/origin a3231fd38b3096c83d1806d7007e4c8f97fed623, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40152718587 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40152884602: ambos jobs completed/success no SHA exato.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-25T02:02:42.593678+00:00; build 31s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/3HrjN1regHjdPQHjYYiqDay2R59o ; URL unica https://global-live-data-8xsh7onjf-michael-eng-ais-projects.vercel.app . Integracao Git existente, sem deploy duplicado ou mudanca de acesso/configuracao. ID publico registrado no recibo local /tmp/gld-nhl-deployment.json.
+
+Verificacao anonima 2026-10-25T02:02:48.572Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, duas fontes, consulta datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/nhl-shootout-score-guide . QA publico 2026-10-25T02:02:55.199Z: leitura em 390/1280 pixels nos tres idiomas, filtro Hoquei, teclado/idiomas/sumario/fontes/CTA e retorno; sem overflow, overlay ou erro de console. Capturas inspecionadas.
+
+Local Node 24.22.0: 11 Python, check com 101 unitarios, lint, types, history build, Next build e HTTP smoke; 35 Chromium aprovados. QA local equivalente ao publico. Typecheck inicial apontou icone Hoquei ausente; mapeamento corrigido e suites completas check/e2e passaram. Browser plugin ausente, Playwright do repositorio usado. WebKit, iOS nativo e carga nao repetidos para conteudo. Oito arquivos; providers e dados canonicos intactos.
+
+Ops unico 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leituras, incluindo USD e TV/streaming; sem reparo de provedor nesta entrega. Leitura pontual, nao garantia continua. Recibos /tmp/gld-nhl-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -494,3 +506,4 @@ Ops unico 2026-10-24T19:56:11.866Z: sete feeds representativos ready, TV/streami
 - [[2026-10-24-cricket-overs-editorial-release]] - Recibo da PR37.
 - [[2026-10-24-premier-games-in-hand-editorial-release]] - Recibo PR38.
 - [[2026-10-24-u17-women-editorial-release]] - Recibo PR39.
+- [[2026-10-25-nhl-shootout-editorial-release]] - Recibo PR40.
