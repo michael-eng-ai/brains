@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "TSE bloqueado por retencao RN; dados publicados preservados, PR42 intacta."
+resumo: "PR43 publica guia Apple TV; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-25"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-25-tse-rn-retention-blocked]].
+Ultimo handoff: [[2026-10-25-apple-tv-editorial-release]].
 
-- PR42 integrada; main/origin limpos em 2cae649854052aca8cb059da182fe9b950798250. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 25 artigos EN/PT/ES; guia do grid GP EUA com duas tabelas oficiais e consulta datada. Automobilismo tem uma leitura, Criquete tres, Futebol seis e Hoquei uma; nenhum feed novo. [[editorial-publishing]].
+- PR43 integrada; main/origin limpos em 8ac2f47bb25d22f57c8bf7cb6c23b4b08742b6b2. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 26 artigos EN/PT/ES; guia Apple TV com tres fontes oficiais e consulta datada. TV e streaming e filtro com uma leitura e CTA para agenda existente; nenhum feed novo. [[editorial-publishing]].
 - Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 pixels nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit, iOS nativo e carga nao repetidos. [[release-status]].
-- Ops 2026-10-25T14:08:17.022Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Verificacao pontual, nao garantia continua.
+- Ops 2026-10-25T19:59:04.334Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua.
 - Incidente USD e historico de datas futuras mantidos em [[football-fx-pilot]]; o probe desta entrega esta acima. Sem reparo de codigo, consulta direta do provedor ou prova do corpo atual recebido pela Vercel.
 - TSE 25out 18:49 UTC: exit 1/status blocked, RN deputado estadual turno 1 ausente ou inconsistente. Sete arquivos/datas intactos; 11 Python/3 TypeScript, exports 2026/2022 e UI RN PT/EN/ES verificados. Nenhuma publicacao ou turno 2 aplicado; candidato ignorado e anterior. [[brazil-election-comparison]].
 - TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
@@ -120,3 +120,4 @@ Ultimo handoff: [[2026-10-25-tse-rn-retention-blocked]].
 - [[2026-10-25-pakistan-england-editorial-release]] - Handoff editorial atual.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Handoff editorial atual.
 - [[2026-10-25-tse-rn-retention-blocked]] - Handoff TSE atual.
+- [[2026-10-25-apple-tv-editorial-release]] - Handoff editorial atual.

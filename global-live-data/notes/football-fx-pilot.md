@@ -78,6 +78,10 @@ Ops em 2026-10-25T02:02:47.053Z: nove feeds representativos ready em sete leitur
 
 Ops unico 2026-10-25T14:08:17.022Z: USD reportedStatus/status error, checkedAt/retrievedAt nulos, proxima tentativa 2026-10-25T15:07:54.346Z. Oito outros feeds representativos ready, incluindo TV. A leitura saudavel anterior das08:02UTC nao se manteve; inicio e causa atual nao estabelecidos. Sem nova leitura direta Frankfurter, historico ou corpo recebido pela Vercel. Nao atribuir automaticamente a datas futuras nem a falha sintetica do CI. Nenhum reparo, afrouxamento de gates ou mudanca de provedor/cache nesta entrega. Evidencia /tmp/gld-usgp-ops.json; [[release-status]].
 
+## Probe USD durante PR43
+
+Ops unico 2026-10-25T19:59:04.334Z: USD reportedStatus/status error, checkedAt/retrievedAt nulos, nextRefreshAt 2026-10-25T20:58:22.501Z; oito outros feeds ready. A indisponibilidade observada as14:08UTC persiste nesta leitura. Sem diagnostico adicional, reparo de codigo ou consulta direta ao upstream nesta rodada editorial. Nao inferir recuperacao permanente nem causa. Recibo /tmp/gld-appletv-ops.json; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -103,3 +107,4 @@ Ops unico 2026-10-25T14:08:17.022Z: USD reportedStatus/status error, checkedAt/r
 - [[2026-10-24-u17-women-editorial-release]] - Probe durante entrega.
 - [[2026-10-25-nhl-shootout-editorial-release]] - Probe durante entrega.
 - [[2026-10-25-us-gp-grid-editorial-release]] - USD na entrega PR42.
+- [[2026-10-25-apple-tv-editorial-release]] - Probe USD nesta entrega.

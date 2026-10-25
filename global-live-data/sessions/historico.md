@@ -130,6 +130,8 @@ atualizado: "2026-10-25"
 
 - 2026-10-25, 18:48 UTC: captura TSE bloqueada por RN estadual/turno1; dados/datas preservados, 11 Python/3 TypeScript e exports/UI verificados, sem release. [[2026-10-25-tse-rn-retention-blocked]].
 
+- 2026-10-25, 19:48 UTC: PR43 publicou guia Apple TV EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-25-apple-tv-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -190,3 +192,4 @@ atualizado: "2026-10-25"
 - [[2026-10-25-pakistan-england-editorial-release]] - Publicacao.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Publicacao.
 - [[2026-10-25-tse-rn-retention-blocked]] - Bloqueio sem alteracao dos dados.
+- [[2026-10-25-apple-tv-editorial-release]] - Publicacao.

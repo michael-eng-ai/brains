@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV publicado nos tres idiomas.
 - [[2026-10-25-tse-rn-retention-blocked]] - Captura TSE bloqueada em RN; dados publicados preservados.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Guia do grid GP EUA publicado nos tres idiomas.
 - [[2026-10-25-pakistan-england-editorial-release]] - Guia Paquistao-Inglaterra publicado nos tres idiomas.
@@ -279,3 +280,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-25-pakistan-england-editorial-release]] - Sessao editorial.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Sessao editorial.
 - [[2026-10-25-tse-rn-retention-blocked]] - Handoff do bloqueio RN.
+- [[2026-10-25-apple-tv-editorial-release]] - Sessao editorial.

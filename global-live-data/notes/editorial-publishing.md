@@ -202,6 +202,14 @@ Ledger docs/editorial/2026-10-25-us-gp-grid.md: duas tabelas oficiais Formula 1,
 
 Posicoes explicitamente datadas; exemplos Lindblad/Bortoleto e tempos Q3/Q2 conferidos nos corpos. Sem grid final FIA, horario de largada, vencedor, transmissao ou regra completa de alocacao de punicoes. Catalogo com 25 artigos; Automobilismo com um guia, Criquete tres, Futebol seis, Hoquei um. CTA retorna ao indice, sem feed F1. Fontes, apoio de IA e aviso de ausencia de revisao humana preservados. Nenhum provedor, conta, custo, configuracao ou automacao alterado. Recibos em [[release-status]].
 
+## Edicao de 25 outubro, 19:48 UTC
+
+Artigo apple-tv-app-subscription-guide publicado EN/PT/ES. Uma pesquisa nos seis mercados, todos ready/exit 0; consulta US appletv observada 19:49:07.923Z, faixa RSS 2000+. Indicador datado, nao audiencia medida ou explicacao da tendencia. Vinte e cinco artigos comparados. Distinto do guia NBA League Pass: aplicativo, assinatura e compras avulsas, com exemplo hipotetico de aluguel e limites por aparelho/pais.
+
+Ledger docs/editorial/2026-10-25-apple-tv-access.md: tres referencias primarias Apple, corpos lidos ate 19:52:20Z. Mesmo editor, sem alegar reportagem independente. Guia antigo redirecionou ao indice; link real de assinatura foi aberto. Avaliacoes de usuarios, precos, direitos esportivos, hardware e anuncios foram excluidos. Ficha de quatro campos e interpretacao original; sem reportagem inventada, imagem ou recomendacao de compra.
+
+Catalogo 26; filtro TV e streaming com uma leitura; CTA para /[lang]/screen existente, sem player/feed novo. Fontes, apoio de IA e ausencia de revisao humana preservados. Nenhuma conta, chave, gasto, analytics, frequencia ou escopo alterado. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -240,3 +248,4 @@ Posicoes explicitamente datadas; exemplos Lindblad/Bortoleto e tempos Q3/Q2 conf
 - [[2026-10-25-nhl-shootout-editorial-release]] - Guia NHL.
 - [[2026-10-25-pakistan-england-editorial-release]] - Guia de horarios.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Guia do grid GP EUA.
+- [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV.

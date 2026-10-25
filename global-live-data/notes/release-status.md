@@ -456,6 +456,18 @@ Local Node 24.22.0/Python 3.12.4: 11 Python, check com 101 unitarios, lint, type
 
 Ops unico 2026-10-25T14:08:17.022Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-usgp-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## Guia Apple TV: PR43, 25 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/43 integrada 2026-10-25T19:57:48Z. Head dd73e842db3d868423d4fa7c27aa4814b5a248e3; main/origin 8ac2f47bb25d22f57c8bf7cb6c23b4b08742b6b2, arvores identicas e limpas. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40228323176 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40228501658: ambos jobs completed/success no SHA exato, primeira tentativa.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-25T19:58:59.438466+00:00, build 28s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/2u4oocq8HeGgB4eKN3wKmAHicyHt ; URL unica https://global-live-data-4yss45pi0-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy duplicado ou mudanca de acesso. ID publico no recibo /tmp/gld-appletv-deployment.json.
+
+Publico 2026-10-25T19:59:04.353Z: nove URLs EN/PT/ES, ID do deploy, CSP, canonical/hreflang, Article JSON-LD, tres fontes, consulta datada, divulgacao editorial e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/apple-tv-app-subscription-guide . QA publico 2026-10-25T19:59:11.001Z: 390/1280 px nos tres idiomas, filtro 1, teclado/idiomas/sumario/fontes/agenda e retorno; sem overflow, overlay ou erro de console. Quatro capturas publicas inspecionadas.
+
+Local Node 24.22.0/Python 3.12.4: 11 Python, 101 unitarios, lint, types, history build,Next build,HTTP smoke e 35 Chromium passaram na primeira tentativa. QA local equivalente em 19:55:10.461Z e quatro capturas inspecionadas. WebKit/iOS nativo/carga nao repetidos para conteudo. Oito arquivos; providers e arquivos canonicos intactos. Nenhuma correcao de CI ou relaxamento de gates.
+
+Ops unico 2026-10-25T19:59:04.334Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-appletv-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -533,3 +545,4 @@ Ops unico 2026-10-25T14:08:17.022Z: oito feeds representativos ready, incluindo 
 - [[2026-10-25-nhl-shootout-editorial-release]] - Recibo PR40.
 - [[2026-10-25-pakistan-england-editorial-release]] - Recibo PR41.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Recibo PR42.
+- [[2026-10-25-apple-tv-editorial-release]] - Recibo PR43.
