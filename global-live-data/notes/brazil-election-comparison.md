@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-24"
+atualizado: "2026-10-25"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -107,6 +107,18 @@ Validacao desta rodada: 11 testes Python de importacao e 3 TypeScript de refresh
 
 Evidencia: /tmp/gld-tse-20261024-1243-before.json, -refresh.log, -receipt.json, -tests.log e -public.json. Hashes novos das fontes ficam no recibo ignorado; nao substituir proveniencia canonica por mera recaptura. Proxima rodada na cadencia existente, uma captura e os mesmos gates. Recuperacao e material, mas nao e nova publicacao. USD, editorial, NBA, dominios e piloto nao foram alterados nem rechecados.
 
+## Regressao RN bloqueada, 25 outubro 18:48 UTC
+
+Uma unica chamada history:refresh:tse -- --apply em branch codex/tse-refresh-20261025-1848, criada de main atualizada 2cae649854052aca8cb059da182fe9b950798250, Node 24.22.0/npm 11.21.1/Python 3.12.4, terminou exit 1. Relatorio atual 2026-10-25T18:49:01.210Z: status blocked, Previously published selections lost or inconsistent: [(7, 'RN', 1)]. O recorte e deputado estadual do Rio Grande do Norte, primeiro turno. E um novo bloqueio apos a captura sem mudancas das 12:43 UTC, distinto das anteriores chaves RO/PB.
+
+O gate guard_candidate interrompeu a construcao do candidato antes de qualquer aplicacao. O erro nao distingue ausencia de linhas de divergencia nas somas nem permite deduzir valores novos ou causa upstream. A comparacao de identidades ocorre antes desse gate, mas novos IDs e hashes de aquisicao nao foram preservados no relatorio bloqueado; nao inventa-los. ZIPs temporarios removidos normalmente, sem segundo download. Candidato ignorado com mtime 2026-10-25T12:43:59.835101+00:00 pertence a rodada anterior, nao a esta falha. Lock ausente.
+
+Sete arquivos data/history/*.json com SHA-256 e mtimes intactos: 2026, 2022, quatro esportes e manifest. Preservadas fontes e datas publicadas. Mantidos 136 recortes, 1.931 agregados, somente turno 1 e nenhuma quarentena; RN estadual conserva 1.938.309 votos validos e ambos RO continuam retidos. Nenhum turno 2 validado/aplicado; esta falha nao prova ausencia completa de dados do segundo turno nos arquivos oficiais. Nao tratar blocked como changed false.
+
+Verificacao publica em 2026-10-25T18:49:50.878Z: exports 2026 e 2022 HTTP 200 e iguais aos canonicos, normalizando apenas ordem partidaria. 2022 conserva 176 recortes e ambos turnos. Chromium do repositorio confirmou RN estadual em PT/EN/ES, 390/1280 pixels, filtros e total valido preservados, sem overflow/overlay/console errors. Duas capturas inspecionadas. 11 testes Python de importacao e 3 TypeScript de refresh/retencao aprovados. Check/build/e2e completos, WebKit/iOS/carga/CI nao repetidos: nenhum codigo ou dado mudou.
+
+Branch temporaria vazia removida; main/origin limpos no SHA acima. Nenhum commit/PR/deploy do produto, nenhum gate ou configuracao alterado. Evidencias /tmp/gld-tse-20261025-1848-before.json, -refresh.log, -receipt.json, -tests.log, -public.json e capturas 390/1280. Proxima captura unica na cadencia existente; preservar snapshot ate reconciliar. Editorial PR42, USD, NBA, dominio e piloto de nomes nao alterados nem rechecados.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -126,3 +138,4 @@ Evidencia: /tmp/gld-tse-20261024-1243-before.json, -refresh.log, -receipt.json, 
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
 - [[2026-10-24-tse-reconciliation-recovered]] - Reconciliacao recuperada.
+- [[2026-10-25-tse-rn-retention-blocked]] - Retencao RN bloqueada.
