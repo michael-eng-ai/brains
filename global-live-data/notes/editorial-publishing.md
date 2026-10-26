@@ -226,6 +226,14 @@ Ledger docs/editorial/2026-10-26-snow-probability.md registra tres referencias N
 
 WPC portal retornou 403; PDF NWS excedeu limite de leitura; OKX nao retornou o texto necessario. Esses caminhos nao viraram fontes. Nao converter outlook sazonal em previsao diaria ou oferecer garantia de seguranca. Evidencia de publicacao em [[release-status]].
 
+## Edicao de 26 outubro, 13:54 UTC
+
+Guia tennis-score-tiebreak-guide publicado EN/PT/ES. Pesquisa unica nos seis mercados, todos ready/exit 0; matteo berrettini nos EUA em 13:55:15.839Z, faixa RSS 2000+, e Espanha em 13:55:17.969Z, faixa 100+. Pista datada, nao audiencia ou causa da busca. Comparados os 28 artigos anteriores; foco em placar, distinto da agenda Wawrinka. Catalogo com 29 artigos, filtro Tenis com 2 artigos e CTA para indice interno; sem feed/resultado/agenda de jogador.
+
+Ledger docs/editorial/2026-10-26-tennis-tiebreak.md registra ITF 2026 regras 5-7/Appendix VI e USTA Officiating, conferidos ate 13:57:40Z. PDF de 47 paginas tinha cache da manha do mesmo dia; indice oficial e USTA HTTP 200 novos. Sem alegar revisao da fonte em tempo real. Exemplo hipotetico A 6-4/3-6/7-6, tie-break 8-6: 16 games para cada lado, sets 2-1. Aritmetica conferida separadamente. Diferencia match tie-break substituindo set decisivo do tie-break em 6-6; verificar formato anunciado. Texto original, fontes e disclosure IA/sem revisao humana preservados.
+
+Assuntos financeiros, medicos, pessoais e de conflito nao selecionados; Lua e streaming ja cobertos nao repetidos. Nenhuma alegacao sobre resultado/adversario de Berrettini. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -267,3 +275,4 @@ WPC portal retornou 403; PDF NWS excedeu limite de leitura; OKX nao retornou o t
 - [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Guia NFL e apuracao.
 - [[2026-10-26-snow-probability-editorial-release]] - Pauta de neve.
+- [[2026-10-26-tennis-tiebreak-editorial-release]] - Pauta de tenis.

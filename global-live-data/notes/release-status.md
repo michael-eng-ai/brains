@@ -500,6 +500,16 @@ Publico 2026-10-26T08:11:51.206Z: nove paginas EN/PT/ES HTTP200, marcador do dep
 
 Local Node24.22.0/Python3.12.4: 11 importacoes Python, 101 unitarios, lint/types/historybuild/Nextbuild/HTTPsmoke e 35 Chromium aprovados na primeira execucao. Script inicial de insercao parou numa assercao de marcador, resolvido antes de validar; nenhum teste/gate relaxado. Browser plugin indisponivel; Playwright do repo utilizado. WebKit/iOS nativo/carga nao repetidos. Ops unico: 2026-10-26T08:11:51.313Z, exit1: oito feeds ready; TV/streaming GLOBAL stale. UI confirmou dados retidos de 06:15:46.942Z e aviso em 08:13:44.962Z, proxima tentativa indicada 08:15:46.543Z. Causa nao determinada; nenhum reparo ou garantia alegado. Observacao pontual, nao garantia continua. Preview3102 encerrado, piloto3147 preservado. Recibos /tmp/gld-snow-*, pesquisa /tmp/gld-editorial-20261026-0754-research.log; ledger e docs duraveis no repo.
 
+## Guia de placar e tie-break: PR47, 26 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/47 integrada 2026-10-26T14:18:55Z. Head 9b958eaa68c9e9e132cb446eb00e6193cded4516; main/origin 08b7632d559b4ccd663dc199b4ef9a5a30f9f477, limpos. Ambos jobs CI PR/main aprovados: https://github.com/michael-eng-ai/global-live-data/actions/runs/40336324658 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40338502317.
+
+Painel autenticado no perfil Chrome Datasanti observou Production Ready/main/SHA exato em 2026-10-26T14:20:01.586291+00:00; build 27s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EAiA4etFWtojkbj6o6NCEATKazXt; URL unica https://global-live-data-mvdoz04kd-michael-eng-ais-projects.vercel.app. Conector get_project retornou 403 no scope existente; nenhuma permissao/conta/credencial alterada. Integracao Git existente, sem deploy duplicado. Preview tambem observado Ready no head revisado, separado de Production.
+
+Publico em 2026-10-26T14:20:05.927Z: nove paginas EN/PT/ES HTTP 200, marcador do deploy, CSP, canonical/hreflang, Article JSON-LD, duas fontes, pesquisa datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/tennis-score-tiebreak-guide . QA local/publico em 390/1280 px: filtro com 2 artigos, teclado, idiomas, sumario/fontes, CTA e retorno. Capturas de leitura/cabecalho inspecionadas; sem overflow/overlay/console. Nenhum mock de destino necessario; CTA vai para artigos.
+
+Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/historybuild/Nextbuild/HTTPsmoke e 35 Chromium aprovados apos edicoes finais. Titulo encurtado apos inspecao e fluxo completo repetido. Comando inicial de formatacao npm aninhado falhou; formatter instalado chamado diretamente, sucesso. Browser plugin indisponivel, Playwright do repo. WebKit/iOS/carga nao repetidos. Ops unico: 2026-10-26T14:20:05.325Z, exit 0; nove feeds ready nos seletores representativos. TV/streaming voltou a ready, checkedAt/retrievedAt 14:19:29.751Z, nextRefreshAt 15:19:29.751Z, apos stale no probe anterior. Sem intervencao nos adaptadores nem causa atribuida. Verificacao pontual, sem garantia continua. Servidor proprio na porta 3102 encerrado; piloto na porta 3147 preservado. Recibos /tmp/gld-tennis-*, pesquisa /tmp/gld-editorial-20261026-1354-research.log; ledger/docs duraveis no repo.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -581,3 +591,4 @@ Local Node24.22.0/Python3.12.4: 11 importacoes Python, 101 unitarios, lint/types
 - [[2026-10-26-tse-rn-pe-revision-release]] - Recibo PR44.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Recibo PR45.
 - [[2026-10-26-snow-probability-editorial-release]] - Recibo PR46.
+- [[2026-10-26-tennis-tiebreak-editorial-release]] - Recibo PR47.

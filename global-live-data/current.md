@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR46 publica guia de neve; CI, Production e paginas verificados."
+resumo: "PR47 publica guia de tenis; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-26"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-26-snow-probability-editorial-release]].
+Ultimo handoff: [[2026-10-26-tennis-tiebreak-editorial-release]].
 
-- PR46 integrada; main/origin limpos em 0a70fc609799870b57ccd2e60d9f37ddc4aa01de. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 28 artigos EN/PT/ES; guia de probabilidades de neve com tres fontes NOAA/NWS e exemplo hipotetico. Filtro Clima3, CTA Natureza existente; nenhum mapa/feed/alerta novo. [[editorial-publishing]].
-- Checks 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico 390/1280 nos tres idiomas, filtro/teclado/fontes/CTA sem overflow/erros de artigo. Natureza503 foi mock de navegacao. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-26T08:11:51.313Z, exit1: oito feeds ready; TV/streaming GLOBAL stale. UI confirmou dados retidos de 06:15:46.942Z e aviso em 08:13:44.962Z, proxima tentativa indicada 08:15:46.543Z. Causa nao determinada; nenhum reparo ou garantia alegado. Verificacao pontual. [[release-status]].
+- PR47 integrada; main/origin limpos em 08b7632d559b4ccd663dc199b4ef9a5a30f9f477. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 29 artigos EN/PT/ES; guia de placar e tie-break com ITF 2026/USTA e exemplo hipotetico. Filtro Tenis com 2 artigos, CTA indice existente; nenhum feed/resultado real novo. [[editorial-publishing]].
+- Checks: 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 px, filtros/teclado/idiomas/fontes/CTA sem overflow/erros. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 2026-10-26T14:20:05.325Z, exit 0; nove feeds ready nos seletores representativos. TV/streaming voltou a ready, checkedAt/retrievedAt 14:19:29.751Z, nextRefreshAt 15:19:29.751Z, apos stale no probe anterior. Sem intervencao nos adaptadores nem causa atribuida. Observacao pontual. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
@@ -124,3 +124,4 @@ Ultimo handoff: [[2026-10-26-snow-probability-editorial-release]].
 - [[2026-10-26-tse-rn-pe-revision-release]] - Estado da revisao TSE.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Estado editorial.
 - [[2026-10-26-snow-probability-editorial-release]] - Estado editorial.
+- [[2026-10-26-tennis-tiebreak-editorial-release]] - Estado editorial.
