@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR47 publica guia de tenis; CI, Production e paginas verificados."
+resumo: "PR48 publica prazo NFL; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-26"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-26-tennis-tiebreak-editorial-release]].
+Ultimo handoff: [[2026-10-26-nfl-deadline-editorial-release]].
 
-- PR47 integrada; main/origin limpos em 08b7632d559b4ccd663dc199b4ef9a5a30f9f477. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 29 artigos EN/PT/ES; guia de placar e tie-break com ITF 2026/USTA e exemplo hipotetico. Filtro Tenis com 2 artigos, CTA indice existente; nenhum feed/resultado real novo. [[editorial-publishing]].
-- Checks: 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 px, filtros/teclado/idiomas/fontes/CTA sem overflow/erros. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-26T14:20:05.325Z, exit 0; nove feeds ready nos seletores representativos. TV/streaming voltou a ready, checkedAt/retrievedAt 14:19:29.751Z, nextRefreshAt 15:19:29.751Z, apos stale no probe anterior. Sem intervencao nos adaptadores nem causa atribuida. Observacao pontual. [[release-status]].
+- PR48 integrada; main/origin limpos em 8567b54cc7738d5cd3d3300112e9b5382d27009f. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 30 artigos EN/PT/ES; prazo NFL 10 novembro, oito horarios conferidos. Futebol americano com 2 artigos, CTA indice existente; nenhum tracker ou rumor. [[editorial-publishing]].
+- Checks: 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 px nos tres idiomas sem overflow/erros. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 2026-10-26T20:05:06.775Z, exit 0; nove feeds ready nos seletores representativos. Nao cobre todas as chaves/regioes nem garante disponibilidade continua. Observacao pontual. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
@@ -125,3 +125,4 @@ Ultimo handoff: [[2026-10-26-tennis-tiebreak-editorial-release]].
 - [[2026-10-26-nfl-scoring-editorial-release]] - Estado editorial.
 - [[2026-10-26-snow-probability-editorial-release]] - Estado editorial.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Estado editorial.
+- [[2026-10-26-nfl-deadline-editorial-release]] - Estado editorial.

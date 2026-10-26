@@ -510,6 +510,16 @@ Publico em 2026-10-26T14:20:05.927Z: nove paginas EN/PT/ES HTTP 200, marcador do
 
 Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/historybuild/Nextbuild/HTTPsmoke e 35 Chromium aprovados apos edicoes finais. Titulo encurtado apos inspecao e fluxo completo repetido. Comando inicial de formatacao npm aninhado falhou; formatter instalado chamado diretamente, sucesso. Browser plugin indisponivel, Playwright do repo. WebKit/iOS/carga nao repetidos. Ops unico: 2026-10-26T14:20:05.325Z, exit 0; nove feeds ready nos seletores representativos. TV/streaming voltou a ready, checkedAt/retrievedAt 14:19:29.751Z, nextRefreshAt 15:19:29.751Z, apos stale no probe anterior. Sem intervencao nos adaptadores nem causa atribuida. Verificacao pontual, sem garantia continua. Servidor proprio na porta 3102 encerrado; piloto na porta 3147 preservado. Recibos /tmp/gld-tennis-*, pesquisa /tmp/gld-editorial-20261026-1354-research.log; ledger/docs duraveis no repo.
 
+## Prazo de trocas NFL: PR48, 26 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/48 integrada 2026-10-26T20:03:52Z. Head c3442f46967cefb92d0d24861341692a443983e8; main/origin 8567b54cc7738d5cd3d3300112e9b5382d27009f, limpos. Ambos jobs aprovados na PR e main: https://github.com/michael-eng-ai/global-live-data/actions/runs/40391709453 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40392301568.
+
+Production Ready, branch main e SHA exato observados em 2026-10-26T20:04:56.260796+00:00, build 22s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/148GbHP9bjN7faq5H8jAb5sx7D6Q; URL unica https://global-live-data-mcaahc3x0-michael-eng-ais-projects.vercel.app. Conector get_project 403 no scope existente; aba Vercel autenticada lida via extensao Chrome, sem alterar acesso. Integracao Git existente, sem deploy duplicado. Preview tambem verificado no head revisado.
+
+Publico em 2026-10-26T20:05:06.455Z: nove paginas EN/PT/ES HTTP 200, marcador de deploy, CSP, canonical/hreflang, Article JSON-LD, tres referencias, pesquisa datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/nfl-trade-deadline-2026-local-times . QA local/publico em 390/1280 px: filtro com 2 artigos, teclado, idiomas, sumario/fontes, CTA e retorno. Quatro capturas de cada ambiente inspecionadas; sem overflow, overlay ou erros de console.
+
+Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium aprovados na primeira execucao. Oito horarios conferidos em zoneinfo e Intl. Sem falhas de teste. WebKit/iOS nativo/carga nao repetidos nesta mudanca de conteudo. Ops unico: 2026-10-26T20:05:06.775Z, exit 0; nove feeds ready nos seletores representativos. Nao cobre todas as chaves/regioes nem garante disponibilidade continua. Verificacao pontual, sem garantia continua. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-deadline-*, pesquisa /tmp/gld-editorial-20261026-1954-research.log; ledger/docs duraveis no repositorio.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -592,3 +602,4 @@ Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/historyb
 - [[2026-10-26-nfl-scoring-editorial-release]] - Recibo PR45.
 - [[2026-10-26-snow-probability-editorial-release]] - Recibo PR46.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Recibo PR47.
+- [[2026-10-26-nfl-deadline-editorial-release]] - Recibo PR48.

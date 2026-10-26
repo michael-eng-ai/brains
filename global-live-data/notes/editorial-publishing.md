@@ -234,6 +234,14 @@ Ledger docs/editorial/2026-10-26-tennis-tiebreak.md registra ITF 2026 regras 5-7
 
 Assuntos financeiros, medicos, pessoais e de conflito nao selecionados; Lua e streaming ja cobertos nao repetidos. Nenhuma alegacao sobre resultado/adversario de Berrettini. Recibos em [[release-status]].
 
+## Edicao de 26 outubro, 19:54 UTC
+
+Guia nfl-trade-deadline-2026-local-times publicado EN/PT/ES. Uma pesquisa nos seis mercados, todos ready/exit 0; query nfl trade deadline nos EUA em 19:54:29.335Z, faixa RSS 1000+. Pista datada, sem inferir negociacao ou causa. Comparados os 29 artigos anteriores; tema distinto do guia NFL de pontuacao. Catalogo com 30 artigos, filtro Futebol americano com 2 e CTA para indice interno; nenhuma API ou acompanhamento de trocas.
+
+Ledger docs/editorial/2026-10-26-nfl-trade-deadline.md: calendario NFL, comunicado Seahawks de 7 julho e NIST lidos via requests maxAge 0/HTTP 200, conferidos ate 19:55:09Z. Prazo 10 novembro 2026, 16h Nova York, apos mudanca do relogio de 1 novembro. Python zoneinfo e Node Intl concordam em oito conversoes: 21h UTC; Nova York 16h, Seattle 13h, Mexico 15h, Sao Paulo 18h, Londres 21h, Madri 22h; Nova Delhi 02h30 e Toquio 06h ja em 11 novembro. Calendario sujeito a alteracao. NFL e clube corroboram agenda; nao sao apuracao independente de negociacoes.
+
+Texto original e checklist de conferencia de anuncios; nenhuma troca, alvo, lesao, condicao contratual ou rumor tratado como fato. Fontes e disclosure IA/sem revisao humana mantidos. Assuntos sensiveis e repeticoes nao selecionados. Evidencias de publicacao em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -276,3 +284,4 @@ Assuntos financeiros, medicos, pessoais e de conflito nao selecionados; Lua e st
 - [[2026-10-26-nfl-scoring-editorial-release]] - Guia NFL e apuracao.
 - [[2026-10-26-snow-probability-editorial-release]] - Pauta de neve.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Pauta de tenis.
+- [[2026-10-26-nfl-deadline-editorial-release]] - Pauta NFL.
