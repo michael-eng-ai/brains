@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR44 publica revisoes TSE RN/PE; testes, CI, Ready e exports verificados."
+resumo: "PR45 publica guia NFL; CI, Production, paginas e cerebro verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-26"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-26-tse-rn-pe-revision-release]].
+Ultimo handoff: [[2026-10-26-nfl-scoring-editorial-release]].
 
-- PR44 integrada; main/origin limpos em e5a4f8fb32d956a905e92f1a27ee638889153174. Ambos jobs CI PR/main, Production Ready exato, UI EN/PT/ES e exports verificados. [[release-status]].
-- Catalogo com 26 artigos EN/PT/ES; guia Apple TV com tres fontes oficiais e consulta datada. TV e streaming e filtro com uma leitura e CTA para agenda existente; nenhum feed novo. [[editorial-publishing]].
-- Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico dos tres recortes alterados e ambos RO em 390/1280 nos tres idiomas; breakdown/idioma/filtros sem overflow ou erros. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-26T00:51:48.820Z: nove feeds representativos ready, incluindo USD (ops exit 0). Verificacao pontual, nao garantia continua.
+- PR45 integrada; main/origin limpos em 8f6c0eef2971b19e4cd24b58ce5739b4029a91e7. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 27 artigos EN/PT/ES; guia NFL com duas fontes oficiais e consulta datada. Futebol americano e filtro com uma leitura, CTA para indice existente; nenhum feed NFL. [[editorial-publishing]].
+- Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico 390/1280 nos tres idiomas, filtro/teclado/fontes/CTA sem overflow ou erros. Contagem local 26 corrigida para 27; CI main teve falha sintetica FX e passou em uma reexecucao, sem alterar gates. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 2026-10-26T02:04:55.269Z: nove feeds representativos ready, incluindo USD (ops exit 0). Verificacao pontual, nao garantia continua.
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
@@ -122,3 +122,4 @@ Ultimo handoff: [[2026-10-26-tse-rn-pe-revision-release]].
 - [[2026-10-25-tse-rn-retention-blocked]] - Handoff TSE atual.
 - [[2026-10-25-apple-tv-editorial-release]] - Handoff editorial atual.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Estado da revisao TSE.
+- [[2026-10-26-nfl-scoring-editorial-release]] - Estado editorial.

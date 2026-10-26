@@ -478,6 +478,18 @@ Verificacao publica 2026-10-26T00:52:41.589Z: exports 2026 e 2022 HTTP 200 e igu
 
 Local: 11 testes Python, 101 unitarios, lint/types, history build, Next build, HTTP smoke e 35 Chromium passaram na primeira tentativa. QA equivalente em 00:47:43.398Z e quatro capturas inspecionadas. Seis arquivos alterados: arquivo 2026, manifest e quatro docs. WebKit/iOS nativo/carga nao repetidos para revisao de dados. Ops unico 2026-10-26T00:51:48.820Z: nove feeds representativos ready, incluindo USD (ops exit 0). Nao e garantia continua ou reparo de provedores. Servidor proprio 3102 encerrado, piloto 3147 preservado. Recibos /tmp/gld-tse-20261026-0044-* .
 
+## Guia NFL: PR45, 26 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/45 integrada 2026-10-26T02:04:00Z. Head c28fb14159777879c535c621ac1f13d07293442d; main/origin 8f6c0eef2971b19e4cd24b58ce5739b4029a91e7, arvores identicas e limpas. Ambos jobs passed nos SHAs exatos: PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40257045846 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40257250143.
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-26T02:05:07.722078+00:00, build 29s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/3rVJ3ScPWeG9KCEUkdkt6qfMDAbQ ; URL unica https://global-live-data-gx9hnk0rh-michael-eng-ais-projects.vercel.app. Integracao Git existente; nenhum deploy duplicado ou acesso/configuracao alterado.
+
+Publico 2026-10-26T02:04:56.216Z: nove URLs EN/PT/ES HTTP 200, ID do deploy no HTML original, CSP, canonical/hreflang, Article JSON-LD, duas fontes, consulta datada, disclosure editorial e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/nfl-field-goal-extra-point-guide . QA publico 2026-10-26T02:05:02.776Z: 390/1280 px nos tres idiomas, filtro 1, teclado/idiomas/sumario/fontes/CTA/retorno; sem overflow, overlay ou erros de console. Quatro capturas publicas inspecionadas.
+
+CI main primeira tentativa: agregado aprovado, Chromium 34/35, falha em fx-refresh.spec.ts:51 (conversao ausente). Trace sintetico mostra duas respostas mock HTTP 200 e estado de erro de transporte, sem terceira chamada. O teste avanca 60 s no relogio falso apos contar entrada da segunda rota, antes de garantir consumo da resposta; o cliente tem timeout 20 s. Evidencia compativel com corrida do teste, sem diagnosticar incidente de provedor. Uma reexecucao do job falho no mesmo SHA passou; falha original preservada em /tmp/gld-nfl-main-ci-attempt1.json, -main-failure.log e -ci-main-attempt1/. Nenhum gate, timeout ou teste FX modificado; corrigir sincronizacao do teste se reincidir, nao repetir indefinidamente.
+
+Local: Node 24.22.0/Python 3.12.4; 11 Python, 101 unitarios e check passaram. Primeiro Chromium: 34 passed/1 failed por contagem antiga 26; expectativa atualizada para 27. Check completo e 35 Chromium passaram depois. QA local 02:00:18.385Z equivalente e quatro capturas inspecionadas; Browser plugin indisponivel, Playwright do repo utilizado. WebKit/iOS nativo/carga nao repetidos. Formatacao inicialmente falhou por npx aninhado; invocacao direta do binario local Prettier com Node 24 resolveu, sem dependencia alterada. Ops unico 2026-10-26T02:04:55.269Z: nove feeds representativos ready, incluindo USD (ops exit 0). Observacao pontual, nao garantia continua. Servidor proprio 3102 encerrado, piloto 3147 preservado. Recibos /tmp/gld-nfl-* e /tmp/gld-editorial-20261026-0154-research.log; ledger/docs duraveis no repositorio. Conteudo em [[editorial-publishing]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -557,3 +569,4 @@ Local: 11 testes Python, 101 unitarios, lint/types, history build, Next build, H
 - [[2026-10-25-us-gp-grid-editorial-release]] - Recibo PR42.
 - [[2026-10-25-apple-tv-editorial-release]] - Recibo PR43.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Recibo PR44.
+- [[2026-10-26-nfl-scoring-editorial-release]] - Recibo PR45.

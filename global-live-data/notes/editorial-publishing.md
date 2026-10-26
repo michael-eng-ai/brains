@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Publicacao editorial
@@ -210,6 +210,14 @@ Ledger docs/editorial/2026-10-25-apple-tv-access.md: tres referencias primarias 
 
 Catalogo 26; filtro TV e streaming com uma leitura; CTA para /[lang]/screen existente, sem player/feed novo. Fontes, apoio de IA e ausencia de revisao humana preservados. Nenhuma conta, chave, gasto, analytics, frequencia ou escopo alterado. Recibos em [[release-status]].
 
+## Edicao de 26 outubro, 01:54 UTC
+
+Artigo nfl-field-goal-extra-point-guide publicado EN/PT/ES. Uma pesquisa nos seis mercados, todos ready/exit 0; consulta BR chiefs observada 01:55:12.293Z, faixa RSS 500+, com pista US harrison butker (2000+, 01:55:11.866Z). Sao pistas datadas, nao audiencia ou prova de partida/desempenho/causa da busca. Vinte e seis artigos comparados; primeiro guia de futebol americano, distinto dos guias NBA/hoquei/criquete existentes. Politica, alegacoes pessoais, apostas e eleicoes nao confirmadas excluidas.
+
+Ledger docs/editorial/2026-10-26-nfl-scoring.md: regulamento NFL 2026 (regra 11, pagina impressa 42/PDF 49) e Football Terms da NFL, consultados ate 01:56:48.421910 UTC. Ambas fontes da liga, sem alegar corroboracao independente. Regulamento 2024 e glossario escolar excluidos; o ultimo usa distancia diferente e nao serve como regra NFL. Caminhos indisponiveis de video nao citados. Nenhuma distancia, horario, resultado atual, relato de jogador ou causa de tendencia publicada.
+
+Exemplo original hipotetico: 14+6=20; alternativas 20+1=21 ou 20+2=22; cenario separado 14+3=17, aritmetica conferida. Resumo de opcoes ofensivas, sem esgotar excecoes de pontuacao. Catalogo 27; filtro Futebol americano com uma leitura, separado de futebol, CTA para indice existente. Nenhum placar/API NFL. Fontes, nota datada, apoio IA e ausencia de revisao humana preservados. Nenhuma conta, chave, gasto, analytics ou automacao alterada. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -249,3 +257,4 @@ Catalogo 26; filtro TV e streaming com uma leitura; CTA para /[lang]/screen exis
 - [[2026-10-25-pakistan-england-editorial-release]] - Guia de horarios.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Guia do grid GP EUA.
 - [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV.
+- [[2026-10-26-nfl-scoring-editorial-release]] - Guia NFL e apuracao.

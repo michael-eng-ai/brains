@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-26-nfl-scoring-editorial-release]] - Guia NFL publicado e verificado nos tres idiomas.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Revisoes TSE RN/PE publicadas e verificadas.
 - [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV publicado nos tres idiomas.
 - [[2026-10-25-tse-rn-retention-blocked]] - Captura TSE bloqueada em RN; dados publicados preservados.
@@ -283,3 +284,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-25-tse-rn-retention-blocked]] - Handoff do bloqueio RN.
 - [[2026-10-25-apple-tv-editorial-release]] - Sessao editorial.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Handoff TSE.
+- [[2026-10-26-nfl-scoring-editorial-release]] - Handoff NFL.
