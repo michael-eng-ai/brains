@@ -490,6 +490,16 @@ CI main primeira tentativa: agregado aprovado, Chromium 34/35, falha em fx-refre
 
 Local: Node 24.22.0/Python 3.12.4; 11 Python, 101 unitarios e check passaram. Primeiro Chromium: 34 passed/1 failed por contagem antiga 26; expectativa atualizada para 27. Check completo e 35 Chromium passaram depois. QA local 02:00:18.385Z equivalente e quatro capturas inspecionadas; Browser plugin indisponivel, Playwright do repo utilizado. WebKit/iOS nativo/carga nao repetidos. Formatacao inicialmente falhou por npx aninhado; invocacao direta do binario local Prettier com Node 24 resolveu, sem dependencia alterada. Ops unico 2026-10-26T02:04:55.269Z: nove feeds representativos ready, incluindo USD (ops exit 0). Observacao pontual, nao garantia continua. Servidor proprio 3102 encerrado, piloto 3147 preservado. Recibos /tmp/gld-nfl-* e /tmp/gld-editorial-20261026-0154-research.log; ledger/docs duraveis no repositorio. Conteudo em [[editorial-publishing]].
 
+## Guia de probabilidades de neve: PR46, 26 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/46 integrada 2026-10-26T08:10:43Z. Head d36e2947a89c724d3c729f920bd82dee165e5bee; main/origin 0a70fc609799870b57ccd2e60d9f37ddc4aa01de, arvores identicas e limpas. Ambos jobs CI PR/main aprovados: https://github.com/michael-eng-ai/global-live-data/actions/runs/40289594150 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40290467828. Tentativas registradas no recibo local.
+
+Painel autenticado observou Production Ready/main/SHA exato em 2026-10-26T08:11:46.571500+00:00; build 31s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/8gpt5zmXmRmTSJX2nNCoCHFQuTNr; URL unica https://global-live-data-ppxxrhemc-michael-eng-ais-projects.vercel.app. Integracao Git existente, nenhum deploy duplicado/configuracao alterada.
+
+Publico 2026-10-26T08:11:51.206Z: nove paginas EN/PT/ES HTTP200, marcador do deploy no HTML original, CSP, canonical/hreflang, Article JSON-LD, tres fontes, pesquisa datada, disclosure e sitemap. Artigo https://global-live-data.vercel.app/pt/trending/snow-forecast-probability-guide . QA local/publico em 390/1280: filtro3, teclado, idiomas, sumario/fontes, Natureza e retorno. Quatro capturas de cada ambiente inspecionadas; sem overflow/overlay/console de artigo. API Natureza simulada com 503 apenas na navegacao; esse erro esperado separado no recibo nao indica saude upstream.
+
+Local Node24.22.0/Python3.12.4: 11 importacoes Python, 101 unitarios, lint/types/historybuild/Nextbuild/HTTPsmoke e 35 Chromium aprovados na primeira execucao. Script inicial de insercao parou numa assercao de marcador, resolvido antes de validar; nenhum teste/gate relaxado. Browser plugin indisponivel; Playwright do repo utilizado. WebKit/iOS nativo/carga nao repetidos. Ops unico: 2026-10-26T08:11:51.313Z, exit1: oito feeds ready; TV/streaming GLOBAL stale. UI confirmou dados retidos de 06:15:46.942Z e aviso em 08:13:44.962Z, proxima tentativa indicada 08:15:46.543Z. Causa nao determinada; nenhum reparo ou garantia alegado. Observacao pontual, nao garantia continua. Preview3102 encerrado, piloto3147 preservado. Recibos /tmp/gld-snow-*, pesquisa /tmp/gld-editorial-20261026-0754-research.log; ledger e docs duraveis no repo.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -570,3 +580,4 @@ Local: Node 24.22.0/Python 3.12.4; 11 Python, 101 unitarios e check passaram. Pr
 - [[2026-10-25-apple-tv-editorial-release]] - Recibo PR43.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Recibo PR44.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Recibo PR45.
+- [[2026-10-26-snow-probability-editorial-release]] - Recibo PR46.

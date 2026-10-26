@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR45 publica guia NFL; CI, Production, paginas e cerebro verificados."
+resumo: "PR46 publica guia de neve; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-26"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-26-nfl-scoring-editorial-release]].
+Ultimo handoff: [[2026-10-26-snow-probability-editorial-release]].
 
-- PR45 integrada; main/origin limpos em 8f6c0eef2971b19e4cd24b58ce5739b4029a91e7. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 27 artigos EN/PT/ES; guia NFL com duas fontes oficiais e consulta datada. Futebol americano e filtro com uma leitura, CTA para indice existente; nenhum feed NFL. [[editorial-publishing]].
-- Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico 390/1280 nos tres idiomas, filtro/teclado/fontes/CTA sem overflow ou erros. Contagem local 26 corrigida para 27; CI main teve falha sintetica FX e passou em uma reexecucao, sem alterar gates. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-26T02:04:55.269Z: nove feeds representativos ready, incluindo USD (ops exit 0). Verificacao pontual, nao garantia continua.
+- PR46 integrada; main/origin limpos em 0a70fc609799870b57ccd2e60d9f37ddc4aa01de. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 28 artigos EN/PT/ES; guia de probabilidades de neve com tres fontes NOAA/NWS e exemplo hipotetico. Filtro Clima3, CTA Natureza existente; nenhum mapa/feed/alerta novo. [[editorial-publishing]].
+- Checks 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico 390/1280 nos tres idiomas, filtro/teclado/fontes/CTA sem overflow/erros de artigo. Natureza503 foi mock de navegacao. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 2026-10-26T08:11:51.313Z, exit1: oito feeds ready; TV/streaming GLOBAL stale. UI confirmou dados retidos de 06:15:46.942Z e aviso em 08:13:44.962Z, proxima tentativa indicada 08:15:46.543Z. Causa nao determinada; nenhum reparo ou garantia alegado. Verificacao pontual. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
@@ -123,3 +123,4 @@ Ultimo handoff: [[2026-10-26-nfl-scoring-editorial-release]].
 - [[2026-10-25-apple-tv-editorial-release]] - Handoff editorial atual.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Estado da revisao TSE.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Estado editorial.
+- [[2026-10-26-snow-probability-editorial-release]] - Estado editorial.

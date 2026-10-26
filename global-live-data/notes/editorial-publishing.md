@@ -218,6 +218,14 @@ Ledger docs/editorial/2026-10-26-nfl-scoring.md: regulamento NFL 2026 (regra 11,
 
 Exemplo original hipotetico: 14+6=20; alternativas 20+1=21 ou 20+2=22; cenario separado 14+3=17, aritmetica conferida. Resumo de opcoes ofensivas, sem esgotar excecoes de pontuacao. Catalogo 27; filtro Futebol americano com uma leitura, separado de futebol, CTA para indice existente. Nenhum placar/API NFL. Fontes, nota datada, apoio IA e ausencia de revisao humana preservados. Nenhuma conta, chave, gasto, analytics ou automacao alterada. Recibos em [[release-status]].
 
+## Edicao de 26 outubro, 07:54 UTC
+
+Guia snow-forecast-probability-guide publicado EN/PT/ES. Uma pesquisa nos seis mercados, todos ready/exit 0; US winter storm forecast observado 07:55:14.004Z, faixa RSS 500+. Pista datada, nao audiencia ou previsao. Comparados os 27 artigos anteriores; foco em probabilidades aninhadas de neve, distinto dos guias de chuva/periodos e watch/warning. Catalogo 28; filtro Clima com tres leituras, Natureza como destino existente. Sem mapa/feed/alerta novo.
+
+Ledger docs/editorial/2026-10-26-snow-probability.md registra tres referencias NOAA/NWS consultadas ate 07:57:46Z: LWX wintermaps, NWS winter?sid=top e release sazonal NOAA de 15out2026. Todas da mesma organizacao, sem alegar corroboracao independente. Exemplo hipotetico 70% >=5cm e 30% >=15cm implica 40% em [5,15), 30% abaixo de 5; particao 30+40+30=100, conferida em Python. Nenhuma cidade, previsao real ou causa da busca inferida. Texto original, disclosure IA/sem revisao humana e fontes preservados.
+
+WPC portal retornou 403; PDF NWS excedeu limite de leitura; OKX nao retornou o texto necessario. Esses caminhos nao viraram fontes. Nao converter outlook sazonal em previsao diaria ou oferecer garantia de seguranca. Evidencia de publicacao em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -258,3 +266,4 @@ Exemplo original hipotetico: 14+6=20; alternativas 20+1=21 ou 20+2=22; cenario s
 - [[2026-10-25-us-gp-grid-editorial-release]] - Guia do grid GP EUA.
 - [[2026-10-25-apple-tv-editorial-release]] - Guia Apple TV.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Guia NFL e apuracao.
+- [[2026-10-26-snow-probability-editorial-release]] - Pauta de neve.

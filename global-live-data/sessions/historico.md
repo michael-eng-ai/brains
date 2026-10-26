@@ -136,6 +136,8 @@ atualizado: "2026-10-26"
 
 - 2026-10-26, 01:54 UTC: PR45 publica guia NFL EN/PT/ES; fontes, testes, CI, Ready, paginas e navegacao verificados. [[2026-10-26-nfl-scoring-editorial-release]].
 
+- 2026-10-26: PR46 publica guia de probabilidades de neve; CI/Ready/SHA e paginas verificados, sem novos feeds. [[2026-10-26-snow-probability-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -199,3 +201,4 @@ atualizado: "2026-10-26"
 - [[2026-10-25-apple-tv-editorial-release]] - Publicacao.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Publicacao.
 - [[2026-10-26-nfl-scoring-editorial-release]] - Publicacao.
+- [[2026-10-26-snow-probability-editorial-release]] - Edicao atual.
