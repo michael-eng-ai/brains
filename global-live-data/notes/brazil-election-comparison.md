@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -119,6 +119,16 @@ Verificacao publica em 2026-10-25T18:49:50.878Z: exports 2026 e 2022 HTTP 200 e 
 
 Branch temporaria vazia removida; main/origin limpos no SHA acima. Nenhum commit/PR/deploy do produto, nenhum gate ou configuracao alterado. Evidencias /tmp/gld-tse-20261025-1848-before.json, -refresh.log, -receipt.json, -tests.log, -public.json e capturas 390/1280. Proxima captura unica na cadencia existente; preservar snapshot ate reconciliar. Editorial PR42, USD, NBA, dominio e piloto de nomes nao alterados nem rechecados.
 
+## Revisao RN/PE reconciliada: 26 outubro, 00:45 UTC
+
+Uma unica execucao history:refresh:tse -- --apply, Node 24.22.0/npm 11.21.1/Python 3.12.4, exit 0 em 2026-10-26T00:45:20.376094+00:00: changed/applied true. O bloqueio RN estadual da rodada anterior resolveu nesta captura, sem afrouxar gates ou repetir download. Identidades observadas permanecem primeiro turno, federal 6257/estadual 6259, data 04/10/2026. Nao houve identidade/resultado de segundo turno nesta captura.
+
+Tres recortes alterados: governador RN, nulos 104.522 para 104.749, outros excluidos 227 para 0, validos iguais e antiga linha PCO (29) zerada ausente; senador PE, escolhas nulas 1.374.907 para 1.393.086, outras excluidas 18.179 para 0, validos/comparecimento iguais e antiga linha DEMOCRATA (35) zerada ausente; estadual RN, validos 1.938.309 para 1.938.293, nulos 122.474 para 122.490, REDE (18) nominais 2.758 para 2.742, legenda permanece 135. Nenhuma causa judicial, politica ou de processo inferida.
+
+Todos os 136 recortes retidos; 133 demais iguais, ambos RO preservados; 1.929 agregados partidarios e nenhuma quarentena. As duas linhas removidas contribuiram zero na captura anterior; ausencia nao e preenchida com zero e versoes anteriores permanecem em Git. Todas as somas partidarias/validos e participacao/escolhas reconciliadas. Arquivo canonico igual ao candidato; SHA-256 155a58af6ed597c2fa9a46106e390df011382c23c012ea51a48bdbd46644ad67 confere com manifest. Brasil 2022 e quatro esportes com hashes e mtimes intactos. Digests originais e aquisicoes reais 00:45:17 UTC registrados no arquivo canonico; docs/TSE-REFRESH.md detalha before/after.
+
+PR44 publicada e provas em [[release-status]]. Nenhum importer, gate, provider, conta, credencial, gasto, permissao CI ou rotina alterado. Recibos /tmp/gld-tse-20261026-0044-before.json, -refresh.log, -diff.json, -checks.log, -local-qa.json, -public-qa.json e -release.json; dados/docs duraveis no repositorio.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -139,3 +149,4 @@ Branch temporaria vazia removida; main/origin limpos no SHA acima. Nenhum commit
 - [[2026-10-24-tse-ro-retention-recheck]] - Rechecagem do bloqueio RO sem alterar a publicacao.
 - [[2026-10-24-tse-reconciliation-recovered]] - Reconciliacao recuperada.
 - [[2026-10-25-tse-rn-retention-blocked]] - Retencao RN bloqueada.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Revisoes RN/PE.

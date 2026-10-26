@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Futebol e cambio
@@ -82,6 +82,10 @@ Ops unico 2026-10-25T14:08:17.022Z: USD reportedStatus/status error, checkedAt/r
 
 Ops unico 2026-10-25T19:59:04.334Z: USD reportedStatus/status error, checkedAt/retrievedAt nulos, nextRefreshAt 2026-10-25T20:58:22.501Z; oito outros feeds ready. A indisponibilidade observada as14:08UTC persiste nesta leitura. Sem diagnostico adicional, reparo de codigo ou consulta direta ao upstream nesta rodada editorial. Nao inferir recuperacao permanente nem causa. Recibo /tmp/gld-appletv-ops.json; [[release-status]].
 
+## USD disponivel na verificacao de 26 outubro, 00:51 UTC
+
+Um unico npm run ops:check em 2026-10-26T00:51:48.820Z retornou exit 0: nove feeds representativos ready, incluindo USD. Para FX, status/reportedStatus ready, checkedAt/retrievedAt 2026-10-26T00:51:31.127Z, nextRefreshAt 2026-10-26T01:51:31.127Z, sourceUpdatedAt null. A rodada anterior, 25 outubro 19:59 UTC, havia reportado error. Isto e recuperacao observada neste probe, sem causa atribuida, garantia de continuidade ou afirmacao de reparo. Nenhum codigo USD, consulta direta ao upstream, retry ou configuracao alterado nesta entrega TSE. Evidencia /tmp/gld-tse-20261026-0044-ops.json e -ops.log; preservar o historico do incidente acima.
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -108,3 +112,4 @@ Ops unico 2026-10-25T19:59:04.334Z: USD reportedStatus/status error, checkedAt/r
 - [[2026-10-25-nhl-shootout-editorial-release]] - Probe durante entrega.
 - [[2026-10-25-us-gp-grid-editorial-release]] - USD na entrega PR42.
 - [[2026-10-25-apple-tv-editorial-release]] - Probe USD nesta entrega.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Disponibilidade USD observada.

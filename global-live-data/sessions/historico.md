@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Historico
@@ -132,6 +132,8 @@ atualizado: "2026-10-25"
 
 - 2026-10-25, 19:48 UTC: PR43 publicou guia Apple TV EN/PT/ES; testes, CI, Ready e publico verificados. [[2026-10-25-apple-tv-editorial-release]].
 
+- 2026-10-26, 00:44 UTC: PR44 publica tres revisoes TSE RN/PE; 136 recortes retidos, sem turno 2; testes, CI, Ready, UI e exports verificados. [[2026-10-26-tse-rn-pe-revision-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -193,3 +195,4 @@ atualizado: "2026-10-25"
 - [[2026-10-25-us-gp-grid-editorial-release]] - Publicacao.
 - [[2026-10-25-tse-rn-retention-blocked]] - Bloqueio sem alteracao dos dados.
 - [[2026-10-25-apple-tv-editorial-release]] - Publicacao.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Publicacao.

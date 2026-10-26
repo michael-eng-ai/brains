@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Estado da entrega
@@ -468,6 +468,16 @@ Local Node 24.22.0/Python 3.12.4: 11 Python, 101 unitarios, lint, types, history
 
 Ops unico 2026-10-25T19:59:04.334Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua; sem reparo ou consulta direta ao provedor. Recibos /tmp/gld-appletv-*; ledger/docs duraveis no repositorio. Servidor proprio 3102 encerrado, piloto 3147 preservado. Conteudo em [[editorial-publishing]].
 
+## TSE RN/PE: PR44, 26 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/44 integrada 2026-10-26T00:51:06Z. Head validado 97d612a3e2642d158ae2bf191523ce27bc9a14f3; main/origin e5a4f8fb32d956a905e92f1a27ee638889153174, arvores identicas e limpas. Ambos jobs passaram nos SHAs exatos: PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40251124191 ; main https://github.com/michael-eng-ai/global-live-data/actions/runs/40251334430 .
+
+Painel autenticado confirmou Production Ready/main/commit exato em 2026-10-26T00:51:44.001796+00:00; build 18s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/7c3okmp8McYdS9yKPqHDhCtrEzyc ; URL unica https://global-live-data-5i4quc5b4-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem deploy duplicado ou mudanca de acesso. Revisoes/proveniencia em [[brazil-election-comparison]].
+
+Verificacao publica 2026-10-26T00:52:41.589Z: exports 2026 e 2022 HTTP 200 e iguais ao canonico, normalizando somente ordem partidaria; datas/fontes/valores completos incluidos. Trinta verificacoes EN/PT/ES a 390/1280 px nos tres recortes alterados e ambos RO, breakdown de 2026, REDE, idiomas/filtros, ausencia segundo turno 2026 com 2022 legivel. Identificador do deploy corresponde no HTML da resposta HTTP original em cada idioma. A primeira sonda procurou data-dpl-id no DOM apos navegacao cliente e recebeu null; corrigiu-se apenas o probe para conferir a resposta original, e o QA completo passou. Nenhuma mudanca no produto ou relaxamento de identidade. Quatro capturas inspecionadas; sem overflow, overlay ou console errors. Pagina https://global-live-data.vercel.app/pt/elections/brazil?office=7&area=RN&round=1 .
+
+Local: 11 testes Python, 101 unitarios, lint/types, history build, Next build, HTTP smoke e 35 Chromium passaram na primeira tentativa. QA equivalente em 00:47:43.398Z e quatro capturas inspecionadas. Seis arquivos alterados: arquivo 2026, manifest e quatro docs. WebKit/iOS nativo/carga nao repetidos para revisao de dados. Ops unico 2026-10-26T00:51:48.820Z: nove feeds representativos ready, incluindo USD (ops exit 0). Nao e garantia continua ou reparo de provedores. Servidor proprio 3102 encerrado, piloto 3147 preservado. Recibos /tmp/gld-tse-20261026-0044-* .
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -546,3 +556,4 @@ Ops unico 2026-10-25T19:59:04.334Z: oito feeds representativos ready, incluindo 
 - [[2026-10-25-pakistan-england-editorial-release]] - Recibo PR41.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Recibo PR42.
 - [[2026-10-25-apple-tv-editorial-release]] - Recibo PR43.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Recibo PR44.

@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Edicoes historicas persistentes com SQLite somente leitura e importacao verificavel."
 tags: [global-live-data, historico, dados]
-atualizado: "2026-10-19"
+atualizado: "2026-10-26"
 ---
 
 # Edicoes historicas
@@ -35,6 +35,10 @@ O fluxo atual de 2026 esta em [[refresh-tse-elections]], superando a limitacao i
 
 A PR14 atualiza somente a fonte 2026 e seu checksum apos reconciliacao de RO; todas as edicoes anteriores e os 134 recortes 2026 ja validos ficaram identicos. Contrato e valores em [[brazil-election-comparison]], publicacao em [[release-status]]. Nao houve migracao, alteracao do importador ou servico novo.
 
+## Revisao TSE de 26 outubro
+
+Brasil 2026 passa a 1.929 agregados partidarios nos mesmos 136 recortes de primeiro turno, com tres revisoes RN/PE e ausencia de duas antigas linhas zeradas. Brasil 2022 e quatro temporadas esportivas mantem bytes/datas; todas as capturas anteriores permanecem em Git. SQLite reconstruido e exports conferidos. Valores e proveniencia em [[brazil-election-comparison]], publicacao PR44 em [[release-status]].
+
 ## Conexoes
 - [[index]] - Persistencia historica, contratos e evidencia de retomada.
 - [[current]] - Persistencia historica, contratos e evidencia de retomada.
@@ -53,3 +57,4 @@ A PR14 atualiza somente a fonte 2026 e seu checksum apos reconciliacao de RO; to
 - [[refresh-tse-elections]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-tse-refresh-release]] - Handoff, procedimento e evidencia da atualizacao TSE.
 - [[2026-10-19-tse-ro-release]] - Handoff da liberacao de Rondonia.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Retencao e nova captura.

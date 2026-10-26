@@ -1,22 +1,22 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR43 publica guia Apple TV; CI, Production e paginas verificados."
+resumo: "PR44 publica revisoes TSE RN/PE; testes, CI, Ready e exports verificados."
 tags: [global-live-data, estado, editorial, release]
-atualizado: "2026-10-25"
+atualizado: "2026-10-26"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-25-apple-tv-editorial-release]].
+Ultimo handoff: [[2026-10-26-tse-rn-pe-revision-release]].
 
-- PR43 integrada; main/origin limpos em 8ac2f47bb25d22f57c8bf7cb6c23b4b08742b6b2. Ambos jobs CI PR/main, Production Ready exato e nove paginas/sitemap verificados. [[release-status]].
+- PR44 integrada; main/origin limpos em e5a4f8fb32d956a905e92f1a27ee638889153174. Ambos jobs CI PR/main, Production Ready exato, UI EN/PT/ES e exports verificados. [[release-status]].
 - Catalogo com 26 artigos EN/PT/ES; guia Apple TV com tres fontes oficiais e consulta datada. TV e streaming e filtro com uma leitura e CTA para agenda existente; nenhum feed novo. [[editorial-publishing]].
-- Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico em 390/1280 pixels nos tres idiomas, teclado/filtros/fontes/CTA sem overflow ou erros. WebKit, iOS nativo e carga nao repetidos. [[release-status]].
-- Ops 2026-10-25T19:59:04.334Z: oito feeds representativos ready, incluindo TV/streaming; USD error em sete leituras limitadas (ops exit 2). Leitura pontual, nao garantia continua.
-- Incidente USD e historico de datas futuras mantidos em [[football-fx-pilot]]; o probe desta entrega esta acima. Sem reparo de codigo, consulta direta do provedor ou prova do corpo atual recebido pela Vercel.
-- TSE 25out 18:49 UTC: exit 1/status blocked, RN deputado estadual turno 1 ausente ou inconsistente. Sete arquivos/datas intactos; 11 Python/3 TypeScript, exports 2026/2022 e UI RN PT/EN/ES verificados. Nenhuma publicacao ou turno 2 aplicado; candidato ignorado e anterior. [[brazil-election-comparison]].
-- TSE PR32 preservada: PB reconciliado; ajuste nominal/legenda UNIAO estadual MS sem mudar total. Brasil2026 tem136recortes/1931agregados primeiro turno incluindo RO; sem quarentena ou turno2. Nao chamar a captura blocked de no-op. [[historical-editions]], [[refresh-tse-elections]].
+- Checks com 101 unitarios, 11 Python e 35 Chromium aprovados; QA local/publico dos tres recortes alterados e ambos RO em 390/1280 nos tres idiomas; breakdown/idioma/filtros sem overflow ou erros. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 2026-10-26T00:51:48.820Z: nove feeds representativos ready, incluindo USD (ops exit 0). Verificacao pontual, nao garantia continua.
+- USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
+- TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
+- TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
 - Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
 - Painel Vercel autenticado acessivel; conector/CLI nao declarados recuperados. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
@@ -121,3 +121,4 @@ Ultimo handoff: [[2026-10-25-apple-tv-editorial-release]].
 - [[2026-10-25-us-gp-grid-editorial-release]] - Handoff editorial atual.
 - [[2026-10-25-tse-rn-retention-blocked]] - Handoff TSE atual.
 - [[2026-10-25-apple-tv-editorial-release]] - Handoff editorial atual.
+- [[2026-10-26-tse-rn-pe-revision-release]] - Estado da revisao TSE.
