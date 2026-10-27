@@ -268,6 +268,14 @@ Exemplo explicitamente ficticio: 250/30 - 229/40 = 313/120, arredondado +2,608; 
 
 Pagina antiga MCC retornou 404; indice atual forneceu PDF 2026. Explicacao ICC 2003 com metadata 2010 excluida por ordem historica diferente. Resultado de busca apontava outro PDF; preferido documento do indice atual. Pistas pessoais/politicas/medicas e especulativas excluidas. Recibos em [[release-status]].
 
+## Edicao de 27 outubro, 20:00 UTC
+
+Guia football-added-extra-time-penalties publicado EN/PT/ES. Uma pesquisa nos seis mercados, todos ready/exit 0; query US fleetwood vs arsenal observada 20:01:22.792Z, faixa 50000+, com pistas BR/JP/IN. Comparados 33 artigos; catalogo 34, Football 7. Faixa RSS datada nao e volume mensal nem evidencia de resultado, fase ou horario.
+
+Ledger docs/editorial/2026-10-27-football-time.md: Leis 7 e 10 da IFAB lidas integralmente em duas paginas primarias, conferidas ate 20:05:40Z. Mesma entidade normativa, sem alegar corroboracao por duas organizacoes. Acrescimos minimos e prorrogacao prevista pelo regulamento sao distintos; placar 1-1 e penaltis 4-3 permanecem separados. Exemplos ficticios; Python/Node verificaram 3-0 apos 3 cobrancas por lado (restam 2). Fontes por secao e disclosure de apoio de IA/sem revisao humana preservados.
+
+EFL regulamento e artigo de 21 mar retornaram navegacao/aviso sem texto completo; snippets e EFL Trophy nao fundamentam a regra da Copa da Liga atual. Nenhum desafio contornado. Artigo nao afirma resultado, horario, escalacao, fase ou formato de Fleetwood-Arsenal. Pistas politicas/pessoais/trabalhistas excluidas. CTA abre pagina de futebol com cobertura cadastrada explicita, sem feed da Copa da Liga. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -314,3 +322,4 @@ Pagina antiga MCC retornou 404; indice atual forneceu PDF 2026. Explicacao ICC 2
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
+- [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.

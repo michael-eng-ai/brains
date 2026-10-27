@@ -34,6 +34,9 @@ maquina: macos
 - WebKit/iOS nativo/carga nao repetidos nesta edicao de conteudo.
 - Probe representativo e detalhes do deploy em [[release-status]].
 
+## Complemento posterior
+Em 27 out 20:02 UTC a pendencia Ready foi encerrada, build 27s, SHA e 9 paginas reconfirmados. Ver [[release-status]]. As instrucoes de desbloqueio abaixo sao historicas.
+
 ## Retomada
 1. Sincronize cerebro e leia current/esta sessao; conclua Ready antes de nova edicao.
 2. Apos desbloqueio manual, abra dashboard em release-status; confira Production/main/SHA/Ready.

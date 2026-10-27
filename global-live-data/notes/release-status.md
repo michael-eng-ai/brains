@@ -550,6 +550,20 @@ Nove paginas publicas EN/PT/ES HTTP 200 e marcador exato de deploy em 2026-10-27
 
 Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium passaram no primeiro conjunto completo. Calculos conferidos independentemente. WebKit/iOS nativo/carga nao repetidos nesta edicao. Ops unico: 27out 14:19:46Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-nrr-*; pesquisa /tmp/gld-editorial-20261027-1356-research.log; ledger/docs/PR preservam evidencia duravel.
 
+## Futebol: acrescimos e penaltis, PR52, 27 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/52 integrada em 2026-10-27T20:18:20Z. Head 2807609048b61bf662ccd573e006dfce9a17418e; main/origin limpos ab9fd8eb51a8fca5255d8e184714a75bd01a56a4. Ambos os jobs CI PR/main aprovados: https://github.com/michael-eng-ai/global-live-data/actions/runs/40575738364 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40576841017.
+
+Production Ready/main/SHA integral conferidos diretamente no painel autenticado em 2026-10-27T20:19:03Z; build 27s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/9oyLURtnKjXj8epjYUKUTu4gsy9N; URL unica https://global-live-data-jlri82l7n-michael-eng-ais-projects.vercel.app. Integracao Git existente; nenhum redeploy manual ou alteracao de acesso.
+
+Nove paginas publicas EN/PT/ES HTTP 200 e marcador exato do deploy em 2026-10-27T20:19:07.857Z; canonical/hreflang, JSON-LD com duas referencias, data/pesquisa/disclosure/sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/football-added-extra-time-penalties . QA local/publico 390/1280 nos tres idiomas: filtro Football 7, teclado, idiomas, sumario/fontes, CTA futebol e retorno ao indice. Quatro capturas de cada ambiente inspecionadas, sem overflow/overlay/console.
+
+Node 24.22.1/Python 3.12.4: 11 Python,101 unitarios, lint/types/historybuild/Nextbuild/HTTPsmoke e35 Chromium passaram. Primeira rodada navegador:34 pass / 1 falha por expectativa antigaFootball 6; corrigido para 7, repeticao completa 35 pass. Nenhum gate relaxado. WebKit/iOS nativo/carga nao repetidos. Ops unico desta release: 27 out 20:19:06Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-football-time-*, pesquisa /tmp/gld-editorial-20261027-2000-research.json; ledger/PR preservam evidencia duravel.
+
+## Complemento PR51: Ready confirmado em 27 outubro, 20:02 UTC
+
+Pendencia visual da PR51 encerrada: painel autenticado mostrou Ready, Latest, Production Current, branch main e SHA 77859c1adc140e4c802d550c12b628df12c43271, build 27s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EAmmXK8wch5uarVh8s3vQuJN7ESA ; URL unica https://global-live-data-pjdvdra64-michael-eng-ais-projects.vercel.app . Nove paginas anonimas e sitemap novamente validados em 20:02:07.841Z com deployment exato. Comentario https://github.com/michael-eng-ai/global-live-data/pull/51#issuecomment-6452390222 . Sem redeploy; limitacao de acesso anterior e historica.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -636,3 +650,4 @@ Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/N
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
+- [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.

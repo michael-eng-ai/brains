@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-22"
+atualizado: "2026-10-27"
 ---
 
 # Acesso e publicacao Vercel
@@ -54,6 +54,10 @@ Mac bloqueado impediu leitura do painel autenticado por CUA. Uma consulta MCP ao
 
 Chrome autenticado novamente acessivel. O painel existente da PR29 confirmou Ready/Production Current/main e link ao SHA integral esperado. PR29 e [[release-status]] receberam recibo complementar, com nova verificacao publica. Pedido anterior de desbloqueio deixa de bloquear a verificacao; nenhuma credencial, configuracao de autenticacao, permissao ou redeploy alterado. Conector/CLI nao foram repetidos nem declarados recuperados.
 
+## Resolucao em 27 outubro, rodada 20:00 UTC
+
+Mac e Chrome autenticado novamente acessiveis. Pendencia Ready PR51 encerrada antes da nova edicao; PR52 conferida no painel apos merge. Conector 403/CLI sem sessao nao foram repetidos nem declarados recuperados; nenhuma credencial, permissao ou configuracao alterada. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -69,3 +73,4 @@ Chrome autenticado novamente acessivel. O painel existente da PR29 confirmou Rea
 - [[2026-10-22-editorial-research-deferred]] - Limitacao do Mac bloqueado reconfirmada sem nova tentativa de acesso.
 - [[2026-10-22-editorial-cricket-triage]] - Painel segue inacessivel; pesquisa independente realizada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da verificacao PR29/PR30.
+- [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.

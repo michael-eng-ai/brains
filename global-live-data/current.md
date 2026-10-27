@@ -1,26 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "TSE bloqueado por granularidade; dados preservados; Ready PR51 pendente."
+resumo: "PR52 publica guia de futebol; CI, Production Ready e publico verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-27"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-27-tse-party-grain-blocked]].
+Ultimo handoff: [[2026-10-27-football-time-editorial-release]].
 
 - TSE 27out 18:53 UTC: captura unica bloqueada por Duplicate party grain or missing contest; condicao exata/UF/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. Sem PR/deploy ou relaxar gates. Proxima captura na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
-- PR51 integrada; main/origin limpos em 77859c1adc140e4c802d550c12b628df12c43271. Ambos CI PR/main, Vercel Production/success/SHA via GitHub e nove paginas/sitemap verificados; Ready visual pendente. [[release-status]].
-- Catalogo com 33 artigos EN/PT/ES; NRR com dois PDFs primarios e exemplos ficticios conferidos. Cricket 4; CTA indice existente. [[editorial-publishing]].
-- Checks: 101 unitarios, 11 Python e 35 Chromium; QA local/publico 390/1280 px nos tres idiomas passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 27out 14:19:46Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. [[release-status]].
-- Prioridade: apos desbloqueio manual do Mac, conferir Production Ready/main/SHA no painel da PR51 e finalizar recibo. Nao criar outro deploy. [[release-status]].
+- PR52 integrada; main/origin limpos em ab9fd8eb51a8fca5255d8e184714a75bd01a56a4. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo 34 EN/PT/ES; guia acrescimos/prorrogacao/penaltis com duas Leis IFAB, exemplos ficticios e CTA futebol existente. Football 7. [[editorial-publishing]].
+- Checks 101 unitarios, 11 Python e 35 Chromium; contagem antiga Football 6 corrigida para 7 apos falha inicial, repeticao passou. QA local/publico 390/1280 nos tres idiomas passou; WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 27 out 20:19:06Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. [[release-status]].
+- PR51: Ready visual confirmado em 20:02 UTC, build 27s, SHA e nove paginas reconfirmados. Pendencia encerrada sem redeploy. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
 - Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
-- Painel Vercel estava autenticado, mas Mac bloqueado impede a conferencia final; conector 403 e CLI sem sessao. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
+- Painel Vercel autenticado acessivel nesta rodada; conector 403/CLI sem sessao nao repetidos. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
 - Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterados. [[launch-readiness]].
@@ -132,3 +132,4 @@ Ultimo handoff: [[2026-10-27-tse-party-grain-blocked]].
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
+- [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
