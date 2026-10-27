@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-26"
+atualizado: "2026-10-27"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -129,6 +129,16 @@ Todos os 136 recortes retidos; 133 demais iguais, ambos RO preservados; 1.929 ag
 
 PR44 publicada e provas em [[release-status]]. Nenhum importer, gate, provider, conta, credencial, gasto, permissao CI ou rotina alterado. Recibos /tmp/gld-tse-20261026-0044-before.json, -refresh.log, -diff.json, -checks.log, -local-qa.json, -public-qa.json e -release.json; dados/docs duraveis no repositorio.
 
+## Captura bloqueada em 27 outubro, 18:53 UTC
+
+Heartbeat 18:52:26Z executou uma unica vez npm run history:refresh:tse -- --apply, em branch codex/ baseada em main/origin 77859c1adc140e4c802d550c12b628df12c43271 limpa. Node 24.22.1/Python 3.12.4. Exit 1; relatorio atual checkedAt 2026-10-27T18:53:16.166Z, status blocked, erro Duplicate party grain or missing contest em scripts/import-tse-history.py:108, chamado por refresh-tse.py:77. Nenhuma mutacao dos arquivos canonicos.
+
+Diagnostico limitado: a mesma mensagem cobre repeticao da chave cargo/UF/turno/eleicao/municipio/zona/transito/partido/coligacao OU chave cargo/UF/turno sem registro no arquivo de totais. O relatorio nao distingue a condicao nem informa cargo/UF/turno afetado. Nao atribuir o erro a Rondonia, ao segundo turno, a um partido ou a causa politica/administrativa. A falha ocorreu antes da comparacao final de identidades e da escrita do novo candidato; nao e changed=false, dataset vazio ou prova de ausencia de turno 2 na fonte.
+
+Os sete JSONs historicos mantiveram bytes e mtime, incluindo manifest, Brasil 2022 e quatro esportes. O arquivo retido de 2026 continua com 136 recortes, 1.929 linhas partidarias, ambos RO presentes, nenhuma quarentena e apenas primeiro turno. Candidato ignorado ainda tem mtime 12:55:45.862971Z e pertence a rodada anterior, nao a captura que falhou. ZIPs temporarios removidos pelo contexto; lock limpo; hashes de aquisicao novos nao disponiveis no relatorio de erro. Sem segunda aquisicao nesta rodada.
+
+11 testes offline history-import passaram. Dois probes sinteticos adicionais demonstraram separadamente que duplicacao e ausencia de contest produzem a mesma mensagem; nao provam qual ocorreu na fonte. JSONs publicos br-2026/br-2022 HTTP 200 e iguais semanticamente aos canonicos em 18:53:55.868Z. SHA-256 canonico 2026 permanece 155a58af6ed597c2fa9a46106e390df011382c23c012ea51a48bdbd46644ad67. Sem alteracao de codigo, gates ou dados; check completo/e2e/CI/UI nao repetidos, nenhuma PR ou publicacao. Branch vazia removida, main limpa. Recibos locais /tmp/gld-tse-20261027-1852-*; proxima captura fica para a rodada prevista, sem relaxar validacoes. Pendencia Ready da PR51 e separada e permanece aberta.
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -150,3 +160,4 @@ PR44 publicada e provas em [[release-status]]. Nenhum importer, gate, provider, 
 - [[2026-10-24-tse-reconciliation-recovered]] - Reconciliacao recuperada.
 - [[2026-10-25-tse-rn-retention-blocked]] - Retencao RN bloqueada.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Revisoes RN/PE.
+- [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.

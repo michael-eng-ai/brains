@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-27-tse-party-grain-blocked]] - TSE bloqueado por granularidade; dados preservados.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Cricket NRR publicado nos tres idiomas.
 - [[2026-10-27-black-friday-editorial-release]] - Black Friday publicada nos tres idiomas.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Guia de beisebol publicado nos tres idiomas.
@@ -297,3 +298,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
+- [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.

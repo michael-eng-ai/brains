@@ -3,7 +3,7 @@ tipo: procedimento
 projeto: global-live-data
 resumo: "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE."
 tags: [global-live-data, eleicoes, automacao, dados]
-atualizado: "2026-10-25"
+atualizado: "2026-10-27"
 ---
 
 # Atualizar dados TSE
@@ -29,6 +29,12 @@ Em 19/10/2026, a execucao autonoma capturou e liberou os dois recortes RO e conc
 
 Uma falha em build_candidate pode ocorrer antes de gravar report/candidate do Python. O wrapper grava novo .data/tse-refresh-last.json com status blocked e motivo, mas .data/tse-refresh-candidate.json pode continuar sendo o candidato de uma rodada anterior. Conferir checkedAt/exit code e mtime; nunca apresentar o candidato antigo como dados da captura que falhou. O contexto temporario remove ZIPs mesmo na excecao, e os hashes de aquisicao novos nao ficam no relatorio de erro atual. Nao deduzir totais ou causa detalhada apenas da lista de chaves ausentes na retencao. Primeiro caso observado de PB em [[brazil-election-comparison]]. Uma nova aquisicao fica para a proxima rodada, sem repetir download ou afrouxar gates.
 
+## Mensagem ambigua de granularidade partidaria
+
+Em 27out 18:53Z, aggregate falhou com Duplicate party grain or missing contest. Em scripts/import-tse-history.py:107-108, a mensagem cobre duas condicoes: chave partidaria duplicada OU cargo/UF/turno sem contest nos totais. O relatorio atual nao identifica a linha/UF/turno e nao permite escolher entre elas. Nao afirmar que houve duplicacao real, que um estado sumiu ou que o segundo turno foi descoberto apenas por essa mensagem. Ambos os ramos foram reproduzidos offline; contexto em [[brazil-election-comparison]].
+
+Preservar canonico/manifest e candidato anterior sem o tratar como novo. Conferir bytes/mtime, exit code, checkedAt, lock e exportacao publica. Nao repetir o download na mesma rodada, nao deduplicar silenciosamente, nao preencher totais ausentes nem afrouxar validacoes. A proxima captura segue a rotina existente; eventual melhoria de diagnostico deve manter todos os gates e passar pelo fluxo normal de mudanca.
+
 ## Conexoes
 - [[index]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
@@ -45,3 +51,4 @@ Uma falha em build_candidate pode ocorrer antes de gravar report/candidate do Py
 - [[2026-10-23-tse-vote-classification-release]] - Revisao material apos recuperacao da fonte.
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-25-tse-rn-retention-blocked]] - Aplicacao do gate em RN.
+- [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.

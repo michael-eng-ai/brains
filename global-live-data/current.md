@@ -1,15 +1,16 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR51 publica guia cricket NRR; CI e publico verificados; Ready visual pendente."
+resumo: "TSE bloqueado por granularidade; dados preservados; Ready PR51 pendente."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-27"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-27-cricket-nrr-editorial-release]].
+Ultimo handoff: [[2026-10-27-tse-party-grain-blocked]].
 
+- TSE 27out 18:53 UTC: captura unica bloqueada por Duplicate party grain or missing contest; condicao exata/UF/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. Sem PR/deploy ou relaxar gates. Proxima captura na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
 - PR51 integrada; main/origin limpos em 77859c1adc140e4c802d550c12b628df12c43271. Ambos CI PR/main, Vercel Production/success/SHA via GitHub e nove paginas/sitemap verificados; Ready visual pendente. [[release-status]].
 - Catalogo com 33 artigos EN/PT/ES; NRR com dois PDFs primarios e exemplos ficticios conferidos. Cricket 4; CTA indice existente. [[editorial-publishing]].
 - Checks: 101 unitarios, 11 Python e 35 Chromium; QA local/publico 390/1280 px nos tres idiomas passou. WebKit/iOS/carga nao repetidos. [[release-status]].
@@ -130,3 +131,4 @@ Ultimo handoff: [[2026-10-27-cricket-nrr-editorial-release]].
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
+- [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.

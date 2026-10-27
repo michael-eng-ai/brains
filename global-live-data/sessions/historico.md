@@ -148,6 +148,8 @@ atualizado: "2026-10-27"
 
 - 2026-10-27: PR51 publica cricket NRR com exemplo ficticio; CI/Production-success/SHA/publico conferidos; Ready visual pendente. [[2026-10-27-cricket-nrr-editorial-release]].
 
+- 2026-10-27 18:53 UTC: TSE bloqueado por Duplicate party grain or missing contest; dados/datas preservados, 11 testes e exports 2026/2022 verificados; sem deploy. [[2026-10-27-tse-party-grain-blocked]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -217,3 +219,4 @@ atualizado: "2026-10-27"
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
+- [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
