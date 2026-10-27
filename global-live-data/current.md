@@ -1,19 +1,19 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR49 publica guia de beisebol; CI, Production e paginas verificados."
+resumo: "PR50 publica guia Black Friday; CI, Production e paginas verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-27"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-27-baseball-rhe-editorial-release]].
+Ultimo handoff: [[2026-10-27-black-friday-editorial-release]].
 
-- PR49 integrada; main/origin limpos em e2fddce8469e31a4e34a63931f3d36c4743dd00d. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 31 artigos EN/PT/ES; guia R/H/E com quatro referencias MLB e exemplo ficticio conferido. Beisebol e somente filtro editorial com 1 artigo. [[editorial-publishing]].
-- Checks finais: 101 unitarios, 11 Python e 35 Chromium; QA local/publico 390/1280 px nos tres idiomas passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-27T02:10:10.756Z: nove feeds amostrados ready (USGS, clima Lisboa, futebol BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao). Apenas seletores representativos, sem provar saude de todas as regioes/chaves. [[release-status]].
+- PR50 integrada; main/origin limpos em bd0693fc7f287fd3cf33e87bee0d8bc8da781734. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo com 32 artigos EN/PT/ES; Black Friday com cinco referencias e exemplos ficticios conferidos. Economia tem 2 artigos; CTA cambio existente. [[editorial-publishing]].
+- Checks: 101 unitarios, 11 Python e 35 Chromium; QA local/publico 390/1280 px nos tres idiomas passou. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 2026-10-27T08:14:23.275Z: nove feeds amostrados ready (USGS, clima Lisboa, futebol BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao). Apenas seletores representativos, sem provar saude de todas as regioes/chaves. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
@@ -127,3 +127,4 @@ Ultimo handoff: [[2026-10-27-baseball-rhe-editorial-release]].
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Estado editorial.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Estado editorial.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
+- [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.

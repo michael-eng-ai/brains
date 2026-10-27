@@ -144,6 +144,8 @@ atualizado: "2026-10-27"
 
 - 2026-10-27: PR49 publica guia R/H/E, exemplo ficticio e filtro editorial Beisebol; CI/Ready/SHA/publico conferidos. [[2026-10-27-baseball-rhe-editorial-release]].
 
+- 2026-10-27: PR50 publica Black Friday, calendario e preco total; CI/Ready/SHA/publico conferidos. [[2026-10-27-black-friday-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -211,3 +213,4 @@ atualizado: "2026-10-27"
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Edicao atual.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Edicao atual.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
+- [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.

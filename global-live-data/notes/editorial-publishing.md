@@ -250,6 +250,14 @@ Ledger docs/editorial/2026-10-27-baseball-rhe.md: quatro paginas MLB Glossary, R
 
 Pistas pessoais, medicas e legislativas nao selecionadas; sem repeticao das pautas NBA/clima existentes. Recibos em [[release-status]].
 
+## Edicao de 27 outubro, 07:55 UTC
+
+Guia black-friday-2026-date-total-price publicado EN/PT/ES. Uma pesquisa de seis mercados, todos ready/exit 0; query britanica when is black friday 2026 observada em 07:56:19.933Z, faixa RSS 1000+, e pista japonesa relacionada. Faixa datada nao e volume mensal nem confirma promocao. Comparados os 31 artigos anteriores; catalogo passa a 32, Economia tem 2. CTA usa cambio diario/historico existente, sem rastreador de varejo ou novo feed.
+
+Ledger docs/editorial/2026-10-27-black-friday.md: quatro referencias institucionais primarias OPM/NRF/FTC/BCE e calendario original timeanddate, lidos maxAge 0/HTTP 200 ate 08:00:40Z. OPM confirma Thanksgiving 26nov; timeanddate Black Friday 27nov; Cyber Monday 30nov. Python/Node conferem dias da semana. Campanhas individuais exigem validade/fuso do varejista; nao ha horario global unico. Exemplos explicitamente ficticios: 100 para 80 = 20%; frete 12 leva total a 92, versus 90 entregue; 100 USD a 0,90 EUR/USD = 90 EUR antes de custos. Python Decimal e Node centavos inteiros conferem contas; nao sao ofertas, cotacoes ou previsoes. Taxas BCE informativas nao garantem valor de pagamento. Texto original e disclosure preservados; sem imagens/citacoes copiadas, afiliados ou recomendacao de produto.
+
+Pagina LEGO excluida: titulo 2026 com FAQ de datas 2025. Nao usar metadados FTC para afirmar revisao recente; nenhuma data de revisao alegada. Numeros NRF de vendas/pesquisas anteriores nao reproduzidos. Pistas pessoais/politicas e lancamentos especulativos nao escolhidos. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -294,3 +302,4 @@ Pistas pessoais, medicas e legislativas nao selecionadas; sem repeticao das paut
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Pauta de tenis.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Pauta NFL.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
+- [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
