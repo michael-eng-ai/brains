@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR50 publica guia Black Friday; CI, Production e paginas verificados."
+resumo: "PR51 publica guia cricket NRR; CI e publico verificados; Ready visual pendente."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-27"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-27-black-friday-editorial-release]].
+Ultimo handoff: [[2026-10-27-cricket-nrr-editorial-release]].
 
-- PR50 integrada; main/origin limpos em bd0693fc7f287fd3cf33e87bee0d8bc8da781734. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo com 32 artigos EN/PT/ES; Black Friday com cinco referencias e exemplos ficticios conferidos. Economia tem 2 artigos; CTA cambio existente. [[editorial-publishing]].
+- PR51 integrada; main/origin limpos em 77859c1adc140e4c802d550c12b628df12c43271. Ambos CI PR/main, Vercel Production/success/SHA via GitHub e nove paginas/sitemap verificados; Ready visual pendente. [[release-status]].
+- Catalogo com 33 artigos EN/PT/ES; NRR com dois PDFs primarios e exemplos ficticios conferidos. Cricket 4; CTA indice existente. [[editorial-publishing]].
 - Checks: 101 unitarios, 11 Python e 35 Chromium; QA local/publico 390/1280 px nos tres idiomas passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-27T08:14:23.275Z: nove feeds amostrados ready (USGS, clima Lisboa, futebol BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao). Apenas seletores representativos, sem provar saude de todas as regioes/chaves. [[release-status]].
+- Ops desta release: 27out 14:19:46Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. [[release-status]].
+- Prioridade: apos desbloqueio manual do Mac, conferir Production Ready/main/SHA no painel da PR51 e finalizar recibo. Nao criar outro deploy. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
 - TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
 - Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
-- Painel Vercel autenticado acessivel; conector/CLI nao declarados recuperados. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
+- Painel Vercel estava autenticado, mas Mac bloqueado impede a conferencia final; conector 403 e CLI sem sessao. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
 - Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
 - Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
 - Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterados. [[launch-readiness]].
@@ -128,3 +129,4 @@ Ultimo handoff: [[2026-10-27-black-friday-editorial-release]].
 - [[2026-10-26-nfl-deadline-editorial-release]] - Estado editorial.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
+- [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.

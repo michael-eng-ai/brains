@@ -540,6 +540,16 @@ Nove paginas publicas EN/PT/ES HTTP 200 e marcador exato de deploy em 2026-10-27
 
 Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium passaram no primeiro conjunto completo. Calculos de datas/valores conferidos independentemente. WebKit/iOS nativo/carga nao repetidos nesta edicao. Ops unico: 2026-10-27T08:14:23.275Z: nove feeds amostrados ready (USGS, clima Lisboa, futebol BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao). Apenas seletores representativos, sem provar saude de todas as regioes/chaves. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-bf-*; pesquisa /tmp/gld-editorial-20261027-0755-research.log; docs/ledger e PR preservam evidencia duravel.
 
+## Cricket NRR: PR51, 27 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/51 integrada em 2026-10-27T14:18:50Z. Head dcb04d8c1aa5d74dffa269402330ff70e67afcdc; main/origin limpos 77859c1adc140e4c802d550c12b628df12c43271. Ambos os jobs CI PR/main aprovados: https://github.com/michael-eng-ai/global-live-data/actions/runs/40518332475 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40519927290.
+
+Integracao oficial Vercel no GitHub informa Production/success (Deployment has completed), vinculada ao SHA exato em 2026-10-27T14:22:12.205735+00:00. O rotulo Ready e a duracao do build no painel ainda NAO foram observados. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EAmmXK8wch5uarVh8s3vQuJN7ESA; URL unica https://global-live-data-pjdvdra64-michael-eng-ais-projects.vercel.app. URL unica: 302 para vercel.com. Alias publico validado separadamente. Conector Vercel 403; painel tinha preview Ready, mas Mac bloqueou antes da conferencia Production. Sessao CLI inexistente; desbloqueio manual solicitado e pendente. Nao declarar Ready visual confirmado. Nenhuma permissao/configuracao alterada ou deploy duplicado.
+
+Nove paginas publicas EN/PT/ES HTTP 200 e marcador exato de deploy em 2026-10-27T14:19:48.425Z; canonical/hreflang, JSON-LD com duas referencias, data da pesquisa, disclosure e sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/cricket-net-run-rate-guide . QA local/publico nos tres idiomas a 390/1280 px passou filtro Cricket 4, teclado, idioma, sumario/fontes, CTA e retorno ao indice. Quatro capturas de cada ambiente inspecionadas; sem overflow/overlay/console.
+
+Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium passaram no primeiro conjunto completo. Calculos conferidos independentemente. WebKit/iOS nativo/carga nao repetidos nesta edicao. Ops unico: 27out 14:19:46Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-nrr-*; pesquisa /tmp/gld-editorial-20261027-1356-research.log; ledger/docs/PR preservam evidencia duravel.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -625,3 +635,4 @@ Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/N
 - [[2026-10-26-nfl-deadline-editorial-release]] - Recibo PR48.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
+- [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.

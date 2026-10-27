@@ -146,6 +146,8 @@ atualizado: "2026-10-27"
 
 - 2026-10-27: PR50 publica Black Friday, calendario e preco total; CI/Ready/SHA/publico conferidos. [[2026-10-27-black-friday-editorial-release]].
 
+- 2026-10-27: PR51 publica cricket NRR com exemplo ficticio; CI/Production-success/SHA/publico conferidos; Ready visual pendente. [[2026-10-27-cricket-nrr-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -214,3 +216,4 @@ atualizado: "2026-10-27"
 - [[2026-10-26-nfl-deadline-editorial-release]] - Edicao atual.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
+- [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.

@@ -258,6 +258,16 @@ Ledger docs/editorial/2026-10-27-black-friday.md: quatro referencias institucion
 
 Pagina LEGO excluida: titulo 2026 com FAQ de datas 2025. Nao usar metadados FTC para afirmar revisao recente; nenhuma data de revisao alegada. Numeros NRF de vendas/pesquisas anteriores nao reproduzidos. Pistas pessoais/politicas e lancamentos especulativos nao escolhidos. Recibos em [[release-status]].
 
+## Edicao de 27 outubro, 13:56 UTC
+
+Guia cricket-net-run-rate-guide publicado EN/PT/ES. Uma pesquisa dos seis mercados, todos ready/exit 0; query GB pakistan national cricket team vs sri lanka national cricket team standings observada em 13:56:49.681Z, faixa RSS 50000+. Faixa datada nao e volume mensal nem confirma jogo/classificacao. Comparados 32 artigos anteriores; catalogo passa a 33, Cricket tem 4. CTA retorna ao indice; nenhum feed de cricket ou tabela NRR ao vivo.
+
+Ledger docs/editorial/2026-10-27-cricket-nrr.md: dois PDFs primarios ICC/MCC ligados pelos indices atuais, baixados/parseados e conferidos ate 14:03:04Z. ICC p. 28, clausulas 16.10.4/16.10.7, e MCC pp. 49-50, Law 17. Paginas ICC 28/MCC 49 renderizadas/inspecionadas. Regulamento ICC de 2026 e exemplo especifico, nao regra universal nem tabela de outubro. Texto explica vitórias antes de NRR em empate de pontos, agregacao e limites de all out/DLS/Super Over.
+
+Exemplo explicitamente ficticio: 250/30 - 229/40 = 313/120, arredondado +2,608; media simples de +1,000 e +4,550 e +2,775. Python Fraction e Node conferem ambos, 16.4 = 100 bolas validas e 120 all out em 17 de 20 usa 120/20 = 6. Sem resultados atuais ou contas DLS inventadas. Texto original, disclosure de IA/ausencia de revisao humana e referencias por secao preservados.
+
+Pagina antiga MCC retornou 404; indice atual forneceu PDF 2026. Explicacao ICC 2003 com metadata 2010 excluida por ordem historica diferente. Resultado de busca apontava outro PDF; preferido documento do indice atual. Pistas pessoais/politicas/medicas e especulativas excluidas. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -303,3 +313,4 @@ Pagina LEGO excluida: titulo 2026 com FAQ de datas 2025. Nao usar metadados FTC 
 - [[2026-10-26-nfl-deadline-editorial-release]] - Pauta NFL.
 - [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
+- [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
