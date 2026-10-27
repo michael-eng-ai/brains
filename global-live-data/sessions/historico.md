@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-26"
+atualizado: "2026-10-27"
 ---
 
 # Historico
@@ -142,6 +142,8 @@ atualizado: "2026-10-26"
 
 - 2026-10-26: PR48 publica prazo NFL e oito horarios; CI/Ready/SHA e paginas verificados, sem novos feeds. [[2026-10-26-nfl-deadline-editorial-release]].
 
+- 2026-10-27: PR49 publica guia R/H/E, exemplo ficticio e filtro editorial Beisebol; CI/Ready/SHA/publico conferidos. [[2026-10-27-baseball-rhe-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -208,3 +210,4 @@ atualizado: "2026-10-26"
 - [[2026-10-26-snow-probability-editorial-release]] - Edicao atual.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Edicao atual.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Edicao atual.
+- [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.

@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-26"
+atualizado: "2026-10-27"
 ---
 
 # Publicacao editorial
@@ -242,6 +242,14 @@ Ledger docs/editorial/2026-10-26-nfl-trade-deadline.md: calendario NFL, comunica
 
 Texto original e checklist de conferencia de anuncios; nenhuma troca, alvo, lesao, condicao contratual ou rumor tratado como fato. Fontes e disclosure IA/sem revisao humana mantidos. Assuntos sensiveis e repeticoes nao selecionados. Evidencias de publicacao em [[release-status]].
 
+## Edicao de 27 outubro, 01:57 UTC
+
+Guia baseball-scoreboard-runs-hits-errors publicado EN/PT/ES. Uma pesquisa dos seis mercados, todos ready/exit 0; query brewers nos EUA em 01:57:43.034Z, faixa RSS 100000+, com pistas relacionadas GB/ES. Nao e estimativa mensal nem prova de resultado/motivo. Os 30 artigos anteriores foram comparados; catalogo passa a 31, novo filtro editorial Beisebol com 1, CTA indice existente. Nenhum feed de beisebol foi adicionado.
+
+Ledger docs/editorial/2026-10-27-baseball-rhe.md: quatro paginas MLB Glossary, Run/Hit/Error/Scorekeeping, lidas com maxAge 0/HTTP 200 ate 01:58:59Z. Mesmo publicador primario; definicoes, nao investigacao independente de evento. Nenhuma data de revisao atribuida. Texto original, sem imagens/citacoes copiadas. Exemplo explicitamente ficticio: A R4/H7/E1, B R3/H9/E0. Python e Node conferem somas das nove entradas 4 e 3; H/E escolhidos separadamente. Nao atribuir numeros a Brewers ou qualquer partida real. Disclosure IA/sem revisao humana e referencias preservados. Publicacao datada em UTC.
+
+Pistas pessoais, medicas e legislativas nao selecionadas; sem repeticao das pautas NBA/clima existentes. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -285,3 +293,4 @@ Texto original e checklist de conferencia de anuncios; nenhuma troca, alvo, lesa
 - [[2026-10-26-snow-probability-editorial-release]] - Pauta de neve.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Pauta de tenis.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Pauta NFL.
+- [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.

@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-26"
+atualizado: "2026-10-27"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-27-baseball-rhe-editorial-release]] - Guia de beisebol publicado nos tres idiomas.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Prazo NFL publicado nos tres idiomas.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Guia de tenis publicado nos tres idiomas.
 - [[2026-10-26-snow-probability-editorial-release]] - Guia de neve publicado nos tres idiomas.
@@ -291,3 +292,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-26-snow-probability-editorial-release]] - Handoff editorial.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Handoff editorial.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Handoff editorial.
+- [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.

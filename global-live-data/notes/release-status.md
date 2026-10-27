@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-26"
+atualizado: "2026-10-27"
 ---
 
 # Estado da entrega
@@ -520,6 +520,16 @@ Publico em 2026-10-26T20:05:06.455Z: nove paginas EN/PT/ES HTTP 200, marcador de
 
 Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium aprovados na primeira execucao. Oito horarios conferidos em zoneinfo e Intl. Sem falhas de teste. WebKit/iOS nativo/carga nao repetidos nesta mudanca de conteudo. Ops unico: 2026-10-26T20:05:06.775Z, exit 0; nove feeds ready nos seletores representativos. Nao cobre todas as chaves/regioes nem garante disponibilidade continua. Verificacao pontual, sem garantia continua. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-deadline-*, pesquisa /tmp/gld-editorial-20261026-1954-research.log; ledger/docs duraveis no repositorio.
 
+## Guia R/H/E: PR49, 27 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/49 integrada em 2026-10-27T02:08:52Z. Head 85b6182d1c70cb2b7b72fe4728464fac86c0c024; main/origin limpos e2fddce8469e31a4e34a63931f3d36c4743dd00d. Ambos os jobs CI PR/main aprovados: https://github.com/michael-eng-ai/global-live-data/actions/runs/40436509712 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40436735464.
+
+Production Ready/Current, branch main, SHA exato observados em 2026-10-27T02:10:06.628265+00:00; build 29s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EQQPaYGpmFzmbJHWaKu2YwTKQ7Sr; URL unica https://global-live-data-k137rgmeg-michael-eng-ais-projects.vercel.app. Conector Vercel 403 e extensao Chrome indisponivel; painel autenticado conferido via interface nativa do Chrome. Sem alterar acesso, configuracao ou criar deploy duplicado. Ao navegar na barra de enderecos, paste preservou URL completa apos typeText truncar o endereco; nao usar esse primeiro erro como evidencia de indisponibilidade do site.
+
+Nove paginas publicas EN/PT/ES HTTP 200 e marcador de deploy em 2026-10-27T02:10:11.742Z; canonical/hreflang, JSON-LD com quatro referencias, data da pesquisa, disclosure e sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/baseball-scoreboard-runs-hits-errors . QA local/publico nos tres idiomas em 390/1280 px passou filtro Beisebol 1, teclado, troca de idioma, sumario/fontes, CTA e retorno. Quatro capturas de cada ambiente inspecionadas; sem overflow/overlay/console.
+
+Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios, lint/types/history build/Next build/HTTP smoke e 35 Chromium passaram. Apos titulo PT e definicao de territorio valido finais, check/e2e/QA repetidos e aprovados; nenhuma falha de teste. WebKit/iOS nativo/carga nao repetidos nesta edicao. Ops unico: 2026-10-27T02:10:10.756Z: nove feeds amostrados ready (USGS, clima Lisboa, futebol BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao). Apenas seletores representativos, sem provar saude de todas as regioes/chaves. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-baseball-*; pesquisa /tmp/gld-editorial-20261027-0157-research.log; docs/ledger e PR preservam evidencia duravel.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -603,3 +613,4 @@ Node 24.22.0/Python 3.12.4: 11 testes Python, 101 unitarios, lint/types/history 
 - [[2026-10-26-snow-probability-editorial-release]] - Recibo PR46.
 - [[2026-10-26-tennis-tiebreak-editorial-release]] - Recibo PR47.
 - [[2026-10-26-nfl-deadline-editorial-release]] - Recibo PR48.
+- [[2026-10-27-baseball-rhe-editorial-release]] - Handoff da edicao de beisebol.
