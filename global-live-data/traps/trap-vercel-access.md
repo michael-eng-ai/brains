@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Acesso e publicacao Vercel
@@ -64,6 +64,10 @@ Mac bloqueado impediu CUA de ler o painel; uma consulta MCP ao novo Preview reto
 
 Proxima tarefa: com o Mac desbloqueado, abrir https://vercel.com/michael-eng-ais-projects/global-live-data/5c4anB3DxZrF6rSX5zCtGJMRKdC4 e conferir Production/main/SHA/Ready. Complementar [[release-status]] e PR56; nao redesplegar nem alterar autenticacao so para obter esse recibo. Nao repetir pergunta pendente ou chamada 403 sem mudanca de acesso.
 
+## Recorrencia em 28 outubro, rodada 20:04 UTC
+
+CUA reconfirmou Mac bloqueado; pedido de desbloqueio PR56 segue sem resposta. Nenhuma tentativa de desbloqueio, chamada 403 repetida, troca de credenciais/permissoes ou redeploy. PR57 integrou pelo fluxo autorizado e GitHub registrou Production/success/SHA; alias serviu o deployment correto, mas Ready direto continua nao observado. Completar os recibos PR56 e PR57 nos dashboards existentes de [[release-status]] quando o painel estiver acessivel. Nao repetir a pergunta pendente ao proprietario nem chamar sucesso GitHub de leitura Ready.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -81,3 +85,4 @@ Proxima tarefa: com o Mac desbloqueado, abrir https://vercel.com/michael-eng-ais
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da verificacao PR29/PR30.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-fomc-editorial-release]] - Limite Ready desta rodada.
+- [[2026-10-28-fog-editorial-release]] - Pendencia Ready PR56/57.

@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-26"
+atualizado: "2026-10-28"
 ---
 
 # Futebol e cambio
@@ -86,6 +86,12 @@ Ops unico 2026-10-25T19:59:04.334Z: USD reportedStatus/status error, checkedAt/r
 
 Um unico npm run ops:check em 2026-10-26T00:51:48.820Z retornou exit 0: nove feeds representativos ready, incluindo USD. Para FX, status/reportedStatus ready, checkedAt/retrievedAt 2026-10-26T00:51:31.127Z, nextRefreshAt 2026-10-26T01:51:31.127Z, sourceUpdatedAt null. A rodada anterior, 25 outubro 19:59 UTC, havia reportado error. Isto e recuperacao observada neste probe, sem causa atribuida, garantia de continuidade ou afirmacao de reparo. Nenhum codigo USD, consulta direta ao upstream, retry ou configuracao alterado nesta entrega TSE. Evidencia /tmp/gld-tse-20261026-0044-ops.json e -ops.log; preservar o historico do incidente acima.
 
+## Nova indisponibilidade USD durante PR57
+
+Ops unico 2026-10-28T20:15:18.431Z saiu 2: oito feeds representativos ready, USD status/reportedStatus error, checkedAt/retrievedAt nulos, nextRefreshAt 2026-10-28T21:14:59.436Z. Uma leitura adicional limitada de /api/live?league=bl1&base=USD retornou data null e o mesmo estado. O probe das 14:19 UTC estava saudavel; inicio/causa atual nao estabelecidos. Sem consulta direta ao upstream, historico ou cada moeda nesta rodada editorial; nao atribuir automaticamente ao mecanismo de datas futuras de 23 out.
+
+Nenhum reparo de provider/cache/gates nesta entrega. Registrar como pendencia operacional separada do artigo Natureza; investigar payload atual e logs autorizados antes de editar, sem retries agressivos durante backoff ou preencher ausencia com zero. Evidencia /tmp/gld-fog-ops.json, /tmp/gld-fog-fx-diagnostic.json e comentario PR57 em [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -113,3 +119,4 @@ Um unico npm run ops:check em 2026-10-26T00:51:48.820Z retornou exit 0: nove fee
 - [[2026-10-25-us-gp-grid-editorial-release]] - USD na entrega PR42.
 - [[2026-10-25-apple-tv-editorial-release]] - Probe USD nesta entrega.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Disponibilidade USD observada.
+- [[2026-10-28-fog-editorial-release]] - Indisponibilidade USD observada nesta entrega.

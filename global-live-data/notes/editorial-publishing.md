@@ -302,6 +302,14 @@ Agenda indica comunicado 14h ET e coletiva 14h30 ET em 28 out; Python zoneinfo e
 
 Quatro secoes originais separam agenda, fusos, comunicado/ata/projecoes e cambio diario. Atas regulares tres semanas depois; outubro sem asterisco de projecoes no calendario consultado. ECB e exemplo de finalidade informativa, nao origem exclusiva do feed combinado Frankfurter. Apoio de IA/sem revisao humana e fontes por secao preservados. Nenhum feed, conta, gasto, chave, frequencia ou escopo acrescentado. Recibos e pendencia Ready em [[release-status]].
 
+## Edicao nevoeiro: 28 outubro, 20:04 UTC
+
+Pesquisa unica Node 24 nos seis mercados US/BR/GB/ES/JP/IN, exit 0, todos ready. GB fog warning observado 20:05:30.280Z, faixa 200+, inicio 19:50 UTC. Sinal datado, sem volume mensal ou garantia de demanda. Comparados 37 artigos; pauta distinta de chuva/neve/mares. Catalogo agora 38, Weather 5; destino Natureza existente.
+
+Artigo fog-visibility-forecast-warning-guide EN/PT/ES; ledger docs/editorial/2026-10-28-fog-visibility.md. Tres referencias primarias lidas ate 20:07:31Z: Met Office fog, MET Norway Locationforecast datamodel e Met Office warnings. Duas paginas sao do mesmo publicador; nao alegar tres entidades independentes. Quatro secoes originais e fontes por secao; apoio de IA e ausencia de revisao humana divulgados.
+
+Guia explicativo sem declarar aviso vigente, local afetado, impacto de transporte ou seguranca de trajetos. Limites de dados/geografia do portal mantidos; nenhuma variavel ou alerta acrescentados. Nenhuma imagem, citacao extensa, conta, gasto, chave, frequencia ou escopo novo. Recibos e pendencia Ready em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -352,3 +360,4 @@ Quatro secoes originais separam agenda, fusos, comunicado/ata/projecoes e cambio
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
+- [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.

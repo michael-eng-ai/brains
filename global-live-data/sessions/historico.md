@@ -162,6 +162,8 @@ atualizado: "2026-10-28"
 
 - 2026-10-28,14:03 UTC: PR56 integrada, FOMC EN/PT/ES servido, CI/Production-success/SHA/publico conferidos; Ready direto pendente por Mac bloqueado/MCP 403. [[2026-10-28-fomc-editorial-release]].
 
+- 2026-10-28,20:04UTC: PR57 integrada, nevoeiro EN/PT/ES servido, CI/Production-success/SHA/publico conferidos; Ready direto pendente, USD error observado e registrado. [[2026-10-28-fog-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -238,3 +240,4 @@ atualizado: "2026-10-28"
 - [[2026-10-28-tse-second-round-release]] - Publicacao TSE.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
+- [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.

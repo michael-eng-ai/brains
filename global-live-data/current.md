@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR56 integrada, FOMC servido e CI aprovados; Ready direto pendente."
+resumo: "PR57 integrada, nevoeiro servido; Ready direto pendente e USD error."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-28"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-28-fomc-editorial-release]].
+Ultimo handoff: [[2026-10-28-fog-editorial-release]].
 
-- PR56 integrada; main/origin limpos f8592fb93cc4c763e8a753fa6fea307a81507040. Ambos CI PR/main, GitHub Vercel Production/success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
-- Catalogo 37 EN/PT/ES, Economy 3. Guia FOMC horarios/documentos, cinco referencias e 20 conversoes verificadas; sem resultado de juros ou previsao financeira. CTA Cambio existente. [[editorial-publishing]].
-- Mac bloqueado e conector 403 impediram leitura Ready; pedido de desbloqueio pendente. Conferir deployment existente antes de encerrar recibo, sem redeploy ou alteracao de acesso. [[trap-vercel-access]].
-- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 12:57 UTC changed false. [[brazil-election-comparison]], [[historical-editions]].
-- Rotina TSE permanece separada e deve reter 170 recortes validos, sem relaxar gates ou preencher ausencia com zero. [[refresh-tse-elections]].
-- Checks 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-28T14:19:55.115Z: nove feeds representativos ready; disponibilidade pontual, nao todas as chaves/regioes. [[release-status]].
-- Proxima pesquisa editorial deve comparar 37 artigos e escolher no maximo uma pauta nova apurada; conferir recibo Ready pendente quando houver acesso. [[editorial-publishing]].
+- PR57 integrada; main/origin limpos 17bc0661cf7d7f805ef54098970fc5a8f81f4de5. Ambos CI PR/main, Production-success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
+- Catalogo 38 EN/PT/ES, Weather 5. Guia de nevoeiro com tres referencias, CTA Natureza; sem aviso ativo declarado ou novo campo de dados. [[editorial-publishing]].
+- Mac bloqueado; pedido de desbloqueio anterior pendente. Completar Ready PR56/57 nos deployments existentes sem redeploy/mudanca de acesso. [[trap-vercel-access]].
+- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 19:01 UTC changed false, sem alteracoes. [[brazil-election-comparison]], [[historical-editions]].
+- Rotina TSE permanece separada; reter 170 recortes validos sem relaxar gates nem preencher ausencia com zero. [[refresh-tse-elections]].
+- Checks: 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 20:15 UTC saiu 2: oito feeds representativos ready e USD error; leitura limitada adicional confirmou. Causa atual nao estabelecida, sem reparo nesta entrega. [[football-fx-pilot]].
+- Proxima pesquisa editorial deve comparar 38 artigos e escolher no maximo uma pauta nova apurada; Ready pendente deve ser conferido quando houver acesso. [[editorial-publishing]].
 - Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito sem respostas reais, escolha de nome ou compra. [[brand-name-testing]].
 - Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do proprietario. [[brasileirao-nba-feeds]], [[launch-readiness]].
 - Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
@@ -135,3 +135,4 @@ Ultimo handoff: [[2026-10-28-fomc-editorial-release]].
 - [[2026-10-28-tse-second-round-release]] - Publicacao atual.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff FOMC e pendencia Ready.
+- [[2026-10-28-fog-editorial-release]] - Handoff atual.
