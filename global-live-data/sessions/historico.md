@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Historico
@@ -152,6 +152,8 @@ atualizado: "2026-10-27"
 
 - 2026-10-27: PR52 publica guia de acrescimos/prorrogacao/penaltis EN/PT/ES; CI/Ready/SHA/publico conferidos. PR51 Ready resolvido. [[2026-10-27-football-time-editorial-release]].
 
+- 2026-10-28 00:54 UTC: captura TSE bloqueada novamente por granularidade; sete canonicos/datas intactos, 11 testes passaram e exports 2026/2022 conferidos; sem publicacao. [[2026-10-28-tse-party-grain-recheck]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -223,3 +225,4 @@ atualizado: "2026-10-27"
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.

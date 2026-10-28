@@ -1,16 +1,16 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR52 publica guia de futebol; CI, Production Ready e publico verificados."
+resumo: "TSE continua bloqueado por granularidade; dados publicados preservados."
 tags: [global-live-data, estado, editorial, release]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-27-football-time-editorial-release]].
+Ultimo handoff: [[2026-10-28-tse-party-grain-recheck]].
 
-- TSE 27out 18:53 UTC: captura unica bloqueada por Duplicate party grain or missing contest; condicao exata/UF/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. Sem PR/deploy ou relaxar gates. Proxima captura na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
+- TSE 28out 00:54 UTC: uma captura bloqueada por Duplicate party grain or missing contest; ramo/UF/cargo/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. 11 testes passaram; sem PR/deploy, segunda captura ou relaxar gates. Proxima tentativa na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
 - PR52 integrada; main/origin limpos em ab9fd8eb51a8fca5255d8e184714a75bd01a56a4. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
 - Catalogo 34 EN/PT/ES; guia acrescimos/prorrogacao/penaltis com duas Leis IFAB, exemplos ficticios e CTA futebol existente. Football 7. [[editorial-publishing]].
 - Checks 101 unitarios, 11 Python e 35 Chromium; contagem antiga Football 6 corrigida para 7 apos falha inicial, repeticao passou. QA local/publico 390/1280 nos tres idiomas passou; WebKit/iOS/carga nao repetidos. [[release-status]].
@@ -133,3 +133,4 @@ Ultimo handoff: [[2026-10-27-football-time-editorial-release]].
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.

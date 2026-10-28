@@ -3,7 +3,7 @@ tipo: procedimento
 projeto: global-live-data
 resumo: "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE."
 tags: [global-live-data, eleicoes, automacao, dados]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Atualizar dados TSE
@@ -35,6 +35,10 @@ Em 27out 18:53Z, aggregate falhou com Duplicate party grain or missing contest. 
 
 Preservar canonico/manifest e candidato anterior sem o tratar como novo. Conferir bytes/mtime, exit code, checkedAt, lock e exportacao publica. Nao repetir o download na mesma rodada, nao deduplicar silenciosamente, nao preencher totais ausentes nem afrouxar validacoes. A proxima captura segue a rotina existente; eventual melhoria de diagnostico deve manter todos os gates e passar pelo fluxo normal de mudanca.
 
+## Rechecagem de 28 outubro, 00:54 UTC
+
+A mesma mensagem ambigua foi observada novamente em uma unica captura. Canonicos/datas e exports publicos preservados; lock e staging desta rodada limpos. Candidato de 27out12:55Z e duas pastas de staging de 16out sao anteriores, nao evidencia desta captura. Nao repetir download, escolher uma das causas sem evidencia ou enfraquecer gates. Detalhes em [[brazil-election-comparison]].
+
 ## Conexoes
 - [[index]] - Atualizacao TSE autorizada e verificavel.
 - [[2026-10-16-auto-tse]] - Atualizacao TSE autorizada e verificavel.
@@ -52,3 +56,4 @@ Preservar canonico/manifest e candidato anterior sem o tratar como novo. Conferi
 - [[2026-10-24-tse-ro-retention-blocked]] - Handoff da falha de retencao RO.
 - [[2026-10-25-tse-rn-retention-blocked]] - Aplicacao do gate em RN.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
+- [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.

@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-28-tse-party-grain-recheck]] - Mesmo bloqueio TSE; dados publicados preservados.
 - [[2026-10-27-football-time-editorial-release]] - Guia de futebol publicado; Ready PR51 resolvido.
 - [[2026-10-27-tse-party-grain-blocked]] - TSE bloqueado por granularidade; dados preservados.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Cricket NRR publicado nos tres idiomas.
@@ -301,3 +302,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
