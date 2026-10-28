@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Estado da entrega
@@ -564,6 +564,16 @@ Node 24.22.1/Python 3.12.4: 11 Python,101 unitarios, lint/types/historybuild/Nex
 
 Pendencia visual da PR51 encerrada: painel autenticado mostrou Ready, Latest, Production Current, branch main e SHA 77859c1adc140e4c802d550c12b628df12c43271, build 27s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EAmmXK8wch5uarVh8s3vQuJN7ESA ; URL unica https://global-live-data-pjdvdra64-michael-eng-ais-projects.vercel.app . Nove paginas anonimas e sitemap novamente validados em 20:02:07.841Z com deployment exato. Comentario https://github.com/michael-eng-ai/global-live-data/pull/51#issuecomment-6452390222 . Sem redeploy; limitacao de acesso anterior e historica.
 
+## World Series: PR53, 28 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/53 integrada em 2026-10-28T06:06:43Z. Head 7a42e0f7c86ea041b1c63ac8011daa3a50bd8c77; main/origin limpos fa6c10d960bed105c00a4e7ea0f8f42a24cc79b6. Dois jobs CI PR/main passaram: https://github.com/michael-eng-ai/global-live-data/actions/runs/40641532527 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40641881421.
+
+Production Ready/main/SHA integral conferidos no painel autenticado em 2026-10-28T06:08:05.636133+00:00; build 29s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EzZS93Z2HgxP6JtT5qfjmx47jPxz; URL unica https://global-live-data-6ntfnu41o-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem redeploy manual ou mudanca de acesso. Previa Ready 29s/SHA conferida antes do merge.
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T06:08:11.366Z; canonical/hreflang, JSON-LD, duas referencias, data/pesquisa/disclosure/sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/world-series-2026-games-5-7-times . QA local/publico 390/1280 nos tres idiomas: Baseball 2, teclado, idiomas, sumario/fontes, CTA e retorno ao indice. Quatro capturas por ambiente inspecionadas, sem overflow/overlay/console.
+
+Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 35 Chromium passaram. Primeira rodada 34 pass / 1 timeout durante clique de idioma do Getafe; trace mostra pausa longa, sem causa conclusiva. Repeticao completa inalterada 35 pass em 27.6s; nenhum gate/timeout relaxado. WebKit/iOS nativo/carga nao repetidos. Ops: 2026-10-28T06:08:10.599Z; nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem afirmar todas as chaves ou disponibilidade continua. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-world-series-*, pesquisa /tmp/gld-editorial-20261028-0200-research.json; ledger/PR preservam evidencia duravel.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -651,3 +661,4 @@ Pendencia visual da PR51 encerrada: painel autenticado mostrou Ready, Latest, Pr
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.

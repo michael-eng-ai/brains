@@ -1,20 +1,20 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "TSE continua bloqueado por granularidade; dados publicados preservados."
+resumo: "PR53 publica agenda World Series; CI, Ready e publico verificados."
 tags: [global-live-data, estado, editorial, release]
 atualizado: "2026-10-28"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-28-tse-party-grain-recheck]].
+Ultimo handoff: [[2026-10-28-world-series-editorial-release]].
 
 - TSE 28out 00:54 UTC: uma captura bloqueada por Duplicate party grain or missing contest; ramo/UF/cargo/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. 11 testes passaram; sem PR/deploy, segunda captura ou relaxar gates. Proxima tentativa na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
-- PR52 integrada; main/origin limpos em ab9fd8eb51a8fca5255d8e184714a75bd01a56a4. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo 34 EN/PT/ES; guia acrescimos/prorrogacao/penaltis com duas Leis IFAB, exemplos ficticios e CTA futebol existente. Football 7. [[editorial-publishing]].
-- Checks 101 unitarios, 11 Python e 35 Chromium; contagem antiga Football 6 corrigida para 7 apos falha inicial, repeticao passou. QA local/publico 390/1280 nos tres idiomas passou; WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 27 out 20:19:06Z: USGS, MET Lisboa, futebol BL1, FX USD, hockey DEL, xadrez, eleicoes Holborn, TV GLOBAL e Brasileirao ready; recortes representativos, nao todas as chaves. [[release-status]].
+- PR53 integrada; main/origin limpos em fa6c10d960bed105c00a4e7ea0f8f42a24cc79b6. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo 35 EN/PT/ES; World Series jogos 5-7/horarios, duas paginas MLB e 30 conversoes verificadas. Baseball 2; CTA indice existente. [[editorial-publishing]].
+- Checks 101 unitarios, 11 Python e 35 Chromium. Timeout inicial em artigo Getafe; repeticao completa inalterada passou. QA local/publico 390/1280 nos tres idiomas passou; WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release: 2026-10-28T06:08:10.599Z; nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem afirmar todas as chaves ou disponibilidade continua. [[release-status]].
 - PR51: Ready visual confirmado em 20:02 UTC, build 27s, SHA e nove paginas reconfirmados. Pendencia encerrada sem redeploy. [[release-status]].
 - USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
 - TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
@@ -134,3 +134,4 @@ Ultimo handoff: [[2026-10-28-tse-party-grain-recheck]].
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
+- [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.

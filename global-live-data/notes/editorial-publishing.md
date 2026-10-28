@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-27"
+atualizado: "2026-10-28"
 ---
 
 # Publicacao editorial
@@ -276,6 +276,14 @@ Ledger docs/editorial/2026-10-27-football-time.md: Leis 7 e 10 da IFAB lidas int
 
 EFL regulamento e artigo de 21 mar retornaram navegacao/aviso sem texto completo; snippets e EFL Trophy nao fundamentam a regra da Copa da Liga atual. Nenhum desafio contornado. Artigo nao afirma resultado, horario, escalacao, fase ou formato de Fleetwood-Arsenal. Pistas politicas/pessoais/trabalhistas excluidas. CTA abre pagina de futebol com cobertura cadastrada explicita, sem feed da Copa da Liga. Recibos em [[release-status]].
 
+## Edicao World Series de 28 outubro
+
+Heartbeat 02:00 UTC executado com pesquisa real as 05:05 UTC: seis mercados ready/exit 0. Query US world series schedule, observada 05:05:05.128Z, faixa 20000+; pistas MLB relacionadas em BR/GB/ES/JP. Comparados 34 artigos; catalogo agora 35, Baseball 2. O guia anterior explica R/H/E; esta pauta distinta cobre agenda, jogos condicionais e virada de data. Faixa RSS nao e volume mensal nem prova de resultado.
+
+Artigo world-series-2026-games-5-7-times EN/PT/ES, ledger docs/editorial/2026-10-28-world-series-times.md. Duas paginas primarias MLB, mesmo publicador, verificadas ate 05:22:29Z; nao alegar independencia. Calendario atualizado confirma jogo 5 em 28 out, 20h ET e condicionais 6/7 em 30/31 out, 20h ET. FAQ introdutorio ainda tinha asterisco no jogo 5; diferenca explicitada e estado atual tomado do calendario. Scrape incluiu artigos por rolagem infinita e URL final divergente; corpos solicitados separados e GETs diretos 200/canonical/URL exatos conferidos. Nenhum resultado, citação, imagem, ticket ou transmissao garantida reproduzidos.
+
+Python zoneinfo e Node Intl conferiram 30 conversoes em 10 cidades / 3 datas. Inicio do jogo 7 pode ser 1 nov em Europa/Asia; preservar data local e condicao. Cinco secoes originais, fontes e disclosure IA/sem revisao humana. CTA indice com guia de placar existente; nenhum feed MLB, conta, chave, gasto, dependencia ou automacao alterados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -323,3 +331,4 @@ EFL regulamento e artigo de 21 mar retornaram navegacao/aviso sem texto completo
 - [[2026-10-27-black-friday-editorial-release]] - Handoff da edicao Black Friday.
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
