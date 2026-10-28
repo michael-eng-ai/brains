@@ -584,6 +584,16 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T07:12:02.
 
 Local: 11 Python, 101 unitarios/check, 36 Chromium passaram. Novo teste inicialmente esqueceu reselecionar turno 2 apos trocar cargo (formulario reinicia em 1); teste corrigido, check e suite completos passaram. Probe HTTP inicialmente assumiu ordem de atributos HTML; corrigido apenas probe e nove paginas passaram. WebKit/iOS nativo/carga nao repetidos. Ops unico 2026-10-28T07:11:11.085Z: nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem garantia continua ou todas as chaves. Servidor proprio 3102 e aba temporaria encerrados; piloto preservado. Comentario duravel https://github.com/michael-eng-ai/global-live-data/pull/54#issuecomment-6463030294 . Recibos /tmp/gld-tse-20261028-0652-* .
 
+## Mares: PR55, 28 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/55 integrada em 2026-10-28T08:18:53Z. Head 9e16d90497039735439caf3614099f4f63a50b79; main/origin limpos e45fd27f0e0d40ff735353b9efea8a5be0df9259. Dois jobs CI PR/main passaram: https://github.com/michael-eng-ai/global-live-data/actions/runs/40655490119 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40655891540.
+
+Production Ready/main/SHA integral conferidos no painel autenticado em 2026-10-28T08:19:43.559318+00:00; build 26s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/EVy3pxWGJWqtV7U1v1miATUHKeb1; URL unica https://global-live-data-h9bsttik3-michael-eng-ais-projects.vercel.app. Integracao Git existente, sem redeploy manual/mudanca de acesso. Previa Ready 28s/head correto observada antes do merge.
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T08:19:50.660Z; canonical/hreflang, JSON-LD, seis referencias, data/pesquisa/disclosure/sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/king-tide-predicted-observed-level-guide . QA local/publico 390/1280 tres idiomas: Weather 4, teclado, idiomas, sumario/fontes, CTA Natureza e indice. Quatro capturas por ambiente inspecionadas; sem overflow, overlay ou console de artigo. API Natureza simulada 503 somente para navegacao; nao confundir com saude real.
+
+Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passaram na primeira rodada completa. WebKit/iOS nativo/carga nao repetidos. Ops: 2026-10-28T08:19:58.239Z nove feeds representativos ready; disponibilidade pontual, nao cobertura de todas as chaves/regioes. Recibos /tmp/gld-tides-*, pesquisa /tmp/gld-editorial-20261028-0803-research.json; ledger e PR preservam evidencia duravel. Nenhum dado historico alterado nesta edicao.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -673,3 +683,4 @@ Local: 11 Python, 101 unitarios/check, 36 Chromium passaram. Novo teste inicialm
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-tse-second-round-release]] - Recibo PR54.
+- [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.

@@ -158,6 +158,8 @@ atualizado: "2026-10-28"
 
 - 2026-10-28, 06:52 UTC: PR54 publica 34 recortes de segundo turno; anteriores retidos, testes/CI/Ready/publico verificados. [[2026-10-28-tse-second-round-release]].
 
+- 2026-10-28: PR55 publica guia de mares EN/PT/ES; CI/Ready/SHA/publico conferidos. [[2026-10-28-king-tides-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -232,3 +234,4 @@ atualizado: "2026-10-28"
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-tse-second-round-release]] - Publicacao TSE.
+- [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.

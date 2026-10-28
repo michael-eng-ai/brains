@@ -284,6 +284,14 @@ Artigo world-series-2026-games-5-7-times EN/PT/ES, ledger docs/editorial/2026-10
 
 Python zoneinfo e Node Intl conferiram 30 conversoes em 10 cidades / 3 datas. Inicio do jogo 7 pode ser 1 nov em Europa/Asia; preservar data local e condicao. Cinco secoes originais, fontes e disclosure IA/sem revisao humana. CTA indice com guia de placar existente; nenhum feed MLB, conta, chave, gasto, dependencia ou automacao alterados. Recibos em [[release-status]].
 
+## Edicao de mares: 28 outubro, 08:03 UTC
+
+Pesquisa unica Node 24 US/BR/GB/ES/JP/IN, exit 0 e seis mercados ready. Query US king tides flooding observada 08:03:58.335Z, faixa 500+, inicio 07:10 UTC; sinal datado, sem estimativa de trafego ou prova de alagamento. Comparados 35 artigos, agora 36 e Weather 4. Pauta distinta dos guias de alertas, chuva e neve.
+
+king-tide-predicted-observed-level-guide EN/PT/ES; ledger docs/editorial/2026-10-28-king-tides.md. Seis referencias primarias NOAA/NWS, Met Office e MET Norway conferidas ate 08:09:50Z. Separar previsao astronomica, medicao, datum e inundacao acima do solo. Python Decimal e Node verificaram exemplo ficticio 1.50 - 1.20 = 0.30 m = 30 cm, sem atribuir residual a tempestade ou transforma-lo em profundidade na rua.
+
+Quatro secoes originais, fontes e disclosure IA/sem revisao humana. CTA Natureza com limite de 42 cidades explicito. Sem alerta, feed de mare, boletim de desastre atual, previsao local, imagem, conta, chave, gasto ou mudanca de cadencia/escopo. A existencia de previsoes meteorologicas costeiras e corroborada separadamente; nao generalizar a limitacao das tabuas a todos os produtos. Recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -332,3 +340,4 @@ Python zoneinfo e Node Intl conferiram 30 conversoes em 10 cidades / 3 datas. In
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
+- [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
