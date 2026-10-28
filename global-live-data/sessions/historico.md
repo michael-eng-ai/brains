@@ -156,6 +156,8 @@ atualizado: "2026-10-28"
 
 - 2026-10-28: PR53 publica agenda World Series 5-7 EN/PT/ES; dois CI/Ready/SHA/publico conferidos. [[2026-10-28-world-series-editorial-release]].
 
+- 2026-10-28, 06:52 UTC: PR54 publica 34 recortes de segundo turno; anteriores retidos, testes/CI/Ready/publico verificados. [[2026-10-28-tse-second-round-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -229,3 +231,4 @@ atualizado: "2026-10-28"
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
+- [[2026-10-28-tse-second-round-release]] - Publicacao TSE.

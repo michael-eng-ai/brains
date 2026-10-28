@@ -1,29 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR53 publica agenda World Series; CI, Ready e publico verificados."
-tags: [global-live-data, estado, editorial, release]
+resumo: "PR54 publica segundo turno TSE; retencao, CI, Ready e exports verificados."
+tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-28"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-28-world-series-editorial-release]].
+Ultimo handoff: [[2026-10-28-tse-second-round-release]].
 
-- TSE 28out 00:54 UTC: uma captura bloqueada por Duplicate party grain or missing contest; ramo/UF/cargo/turno nao identificados. Sete JSONs e datas intactos; exports 2026/2022 iguais ao canonico. 11 testes passaram; sem PR/deploy, segunda captura ou relaxar gates. Proxima tentativa na rodada prevista. [[brazil-election-comparison]], [[refresh-tse-elections]].
-- PR53 integrada; main/origin limpos em fa6c10d960bed105c00a4e7ea0f8f42a24cc79b6. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo 35 EN/PT/ES; World Series jogos 5-7/horarios, duas paginas MLB e 30 conversoes verificadas. Baseball 2; CTA indice existente. [[editorial-publishing]].
-- Checks 101 unitarios, 11 Python e 35 Chromium. Timeout inicial em artigo Getafe; repeticao completa inalterada passou. QA local/publico 390/1280 nos tres idiomas passou; WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-28T06:08:10.599Z; nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem afirmar todas as chaves ou disponibilidade continua. [[release-status]].
-- PR51: Ready visual confirmado em 20:02 UTC, build 27s, SHA e nove paginas reconfirmados. Pendencia encerrada sem redeploy. [[release-status]].
-- USD ready no probe 26out 00:51 UTC, apos error na rodada anterior; sem intervencao ou causa confirmada. Observacao pontual e historico em [[football-fx-pilot]].
-- TSE 26out 00:45 UTC: RN estadual voltou a reconciliar; tres revisoes RN/PE publicadas. Nenhum resultado de turno 2 nesta captura; manter descoberta por identidade real e gates. [[brazil-election-comparison]].
-- TSE PR44: 136 recortes/1.929 agregados primeiro turno, ambos RO retidos e nenhuma quarentena. Dois antigos registros partidarios zerados ausentes; nao completar ausencias com zero. 2022 e quatro esportes intactos. [[historical-editions]], [[refresh-tse-elections]].
-- Proxima rodada editorial exige pesquisa atual e no maximo uma pauta distinta/apurada; tendencia nao prova evento ou resultado. [[editorial-publishing]].
-- Painel Vercel autenticado acessivel nesta rodada; conector 403/CLI sem sessao nao repetidos. Nenhuma credencial, permissao ou configuracao alterada. [[trap-vercel-access]].
-- Teste Global Live Data versus Datasanti World PT/EN/ES segue piloto local gratuito, zero respostas reais, sem escolha de marca/dominio ou compra. [[brand-name-testing]].
-- Brasileirao preserva tabela20clubes e jogos parciais; Gremio bloqueado por identidade. NBA preparada/desativada sem chave por escolha do proprietario. [[brasileirao-nba-feeds]].
-- Dominio/Google e NBA real dependem do proprietario. Nenhuma conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterados. [[launch-readiness]].
+- PR54 integrada; main/origin limpos em d4f907f7277cc25113136ad8484d370eda1db168. Ambos CI PR/main, Production Ready/SHA e paginas publicas conferidos. [[release-status]].
+- TSE 28out 06:53 UTC: captura unica reconciliada; 34 recortes de turno 2 adicionados (presidente 28 regioes; governador AC/AM/DF/ES/RN/TO). Total 170 recortes/1.997 agregados e nenhuma quarentena. [[brazil-election-comparison]].
+- Todos os 136 recortes anteriores e ambos RO preservados; Brasil 2022 e quatro esportes byte/mtime intactos. Ausencias nao sao zero, fonte reconciliada nao certifica vencedores. [[historical-editions]].
+- Bloqueio de granularidade da captura 00:54 nao recorreu, sem causa estabelecida ou relaxar gates. Proxima captura unica na cadencia existente; reter todos os 170 recortes validos. [[refresh-tse-elections]].
+- Checks 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280, 36 paginas e exports canonicos. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops desta release 2026-10-28T07:11:11.085Z: nove feeds representativos ready, disponibilidade pontual. [[release-status]].
+- Editorial PR53 preservada: catalogo 35, Baseball 2. Proxima rodada precisa pesquisa atual e no maximo uma pauta nova apurada; nao executada nesta rotina TSE. [[editorial-publishing]].
+- Painel Vercel autenticado verificado; conector 403/CLI sem sessao conhecidos nao repetidos. Nenhuma credencial ou permissao alterada. [[trap-vercel-access]].
+- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito sem respostas reais, escolha de nome ou compra. [[brand-name-testing]].
+- Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do proprietario. [[brasileirao-nba-feeds]], [[launch-readiness]].
+- Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterado.
 
 ## Conexoes
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
@@ -135,3 +132,4 @@ Ultimo handoff: [[2026-10-28-world-series-editorial-release]].
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
+- [[2026-10-28-tse-second-round-release]] - Publicacao atual.

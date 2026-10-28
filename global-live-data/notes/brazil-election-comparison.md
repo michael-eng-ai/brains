@@ -12,7 +12,7 @@ O proprietario autorizou dados oficiais de 2026, comparacao por cargo/estado/tur
 
 - Rotas /[lang]/elections/brazil e /[lang]/history/br-2026, EN/PT/ES. Entrada na categoria eleicoes; filtros e idioma preservam o recorte. SSR inclui dados e funciona sem JavaScript. Consultas locais indexadas; nenhum ZIP baixado por visitante.
 - Captura inicial (16 outubro), fontes oficiais TSE resultados-2026: votacao_partido_munzona_2026.zip (22.855.241 bytes) e detalhe_votacao_munzona_2026.zip (2.508.283). Captura 16/10/2026 15:11 UTC; geracoes CSV respectivamente 16/10 08:31:37 e 15/10 19:32:48, sem inferir timezone dessas strings. Proveniencia inicial recuperavel na revisao anterior de data/history/br-2026.json. Licenca CC BY sem versao especificada; credito/metodologia/JSON adaptado permanecem acessiveis.
-- Somente IDs observados 6257/6259, data 04/10/2026, turno 1. Calendario oficial preve segundo turno em 25/10, mas nenhum dado/ID de segundo turno e registrado. Noticia/calendario e link do Senado em docs/BRAZIL-COMPARISON.md. Captura preservada nao e apuracao continua nem declaracao de vencedores.
+- Na captura inicial, somente IDs 6257/6259, data 04/10/2026, turno 1. A captura de 28/10 abaixo acrescenta as identidades verificadas 6258/6260 do segundo turno de 25/10. Noticia/calendario e link do Senado em docs/BRAZIL-COMPARISON.md. Captura preservada nao e apuracao continua nem declaracao de vencedores.
 - Captura inicial: 136 recortes esperados; 134 reconciliados com 1.892 agregados por partido. Todos os seis cargos tem dados. Presidencia inclui 28 regioes disjuntas (UFs/DF+ZZ), 119.300.788 votos validos nacionais; nunca somar BRASIL.csv aos regionais.
 - Quarentena inicial, resolvida na captura de 19/10 abaixo: deputado federal RO/1 tem soma partidaria 28.921 contra total independente 932.939; deputado estadual RO/1 tem 45.420 contra 942.021. Causa da divergencia nao comprovada. Ambos os recortes de 2026 foram omitidos integralmente e registrados em unavailable/source_mismatch; 2022 continua visivel. Nao transformar ausencia em zero, ajustar totais ou alegar cobertura completa.
 - No primeiro lote, o importador manual falhou sem exclusao explicita: --year 2026 --exclude-mismatch 6/RO/1 --exclude-mismatch 7/RO/1. Exclusao que nao corresponde mais a divergencia tambem falha. Esse e o modo manual. O wrapper autorizado resolve as duas exclusoes RO quando conferidas; [[refresh-tse-elections]].
@@ -147,6 +147,14 @@ Sete JSONs historicos e suas datas/bytes preservados; arquivo 2026 retido mantem
 
 11 testes history-import passaram. Em 2026-10-28T00:55:19.504Z, exports publicos br-2026/br-2022 responderam HTTP 200 e foram iguais semanticamente aos canonicos. SHA-256 de 2026 segue 155a58af6ed597c2fa9a46106e390df011382c23c012ea51a48bdbd46644ad67. Nenhum codigo/dado foi modificado; check completo/e2e/UI/CI nao repetidos, sem commit de produto, PR ou deploy. Branch vazia removida; main limpa. Recibos locais /tmp/gld-tse-20261028-0053-*; proxima captura na rotina existente. A pendencia visual da PR51 citada historicamente acima foi encerrada na rodada editorial anterior; [[release-status]] conserva o recibo.
 
+## Primeiro segundo turno reconciliado: 28 outubro, 06:53 UTC
+
+Uma unica invocacao history:refresh:tse -- --apply com Node 24.22.1/Python 3.12.4, exit 0 em 2026-10-28T06:53:53.537913+00:00, changed/applied true. Ambos ZIPs oficiais adquiridos em 06:53:50 UTC identificam turno 2, data 25/10/2026, federal 6258 e estadual 6260; IDs nao inferidos. Gates de calendario, escopo, identidade, cobertura, reconciliacao e retencao passaram inalterados. O bloqueio anterior Duplicate party grain or missing contest nao recorreu; causa nao estabelecida.
+
+34 recortes adicionados: Presidencia nas 28 regioes disjuntas (UFs/DF+ZZ) e governador AC, AM, DF, ES, RN, TO. Total agora 170 recortes/1.997 linhas partidarias, nenhuma quarentena. Todos os 136 recortes anteriores de turno 1 iguais, inclusive RO federal 932.939 e estadual 942.021. Brasil 2022 e quatro esportes com bytes/mtime intactos. Ausencia de outro governador nao prova ocorrencia/ausencia de disputa; manter indisponivel e nao preencher zero. Sao agregados partidarios, nao candidatos/vencedores ou certificacao final.
+
+Canonico igual ao candidato e checksum manifest: 2793632081ca144e813973f8c71af58d2feb0be7a6236f7f4f9a4b3781af158f. Digests ZIP f70cd44ead685f5dad1110659debafb2dffeb462e7a854f0c995ab54745544d8 e ec1b4001e86502accf60c7f8d4994872be0d654be815624cb32c36b9dd3897b1; datas integrais em data/history/br-2026.json. Docs/TSE-REFRESH.md registra captura; PR54 e [[release-status]] comprovam publicacao. Nenhum importer, app, gate ou automacao alterados; apenas arquivo/manifest, docs e regressao de navegador. Recibos /tmp/gld-tse-20261028-0652-* .
+
 ## Conexoes
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
@@ -170,3 +178,4 @@ Sete JSONs historicos e suas datas/bytes preservados; arquivo 2026 retido mantem
 - [[2026-10-26-tse-rn-pe-revision-release]] - Revisoes RN/PE.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
+- [[2026-10-28-tse-second-round-release]] - Primeiro segundo turno.

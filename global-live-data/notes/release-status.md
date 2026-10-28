@@ -574,6 +574,16 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T06:08:11.
 
 Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 35 Chromium passaram. Primeira rodada 34 pass / 1 timeout durante clique de idioma do Getafe; trace mostra pausa longa, sem causa conclusiva. Repeticao completa inalterada 35 pass em 27.6s; nenhum gate/timeout relaxado. WebKit/iOS nativo/carga nao repetidos. Ops: 2026-10-28T06:08:10.599Z; nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem afirmar todas as chaves ou disponibilidade continua. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-world-series-*, pesquisa /tmp/gld-editorial-20261028-0200-research.json; ledger/PR preservam evidencia duravel.
 
+## Segundo turno TSE: PR54, 28 outubro 2026
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/54 integrada em 2026-10-28T07:08:52Z. Head 912362d749c12af2c4b1c5b8f37001927aedb223; main/origin limpos d4f907f7277cc25113136ad8484d370eda1db168, arvores iguais. Ambos jobs CI PR/main passaram nos SHAs exatos: https://github.com/michael-eng-ai/global-live-data/actions/runs/40647926645 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40648211333 .
+
+Painel autenticado confirmou Production Ready/main/SHA integral em 2026-10-28T07:11:08.478292+00:00, build 19s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5hVZr7KYz6xzosLXmNUf7mdBnKRd ; URL unica https://global-live-data-hqt28l07h-michael-eng-ais-projects.vercel.app . Previa Ready 27s/head conferida antes do merge. Integracao Git existente; nenhuma mudanca de acesso ou deploy duplicado. Uma navegacao do painel expirou antes de Enter; estado recuperado e pagina correta confirmada, sem repetir publicacao.
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T07:12:02.371Z. QA publico em 2026-10-28T07:11:24.534Z: 36 comparacoes/arquivos, 390/1280 px, total nacional/exterior, seis governos, ambos RO, ausencia SP sem zero, idioma/arquivo e exports 2022/2026 iguais aos canonicos. Tres screenshots por ambiente inspecionados; sem overflow/overlay/console. Pagina https://global-live-data.vercel.app/pt/elections/brazil?office=1&area=BR&round=2 .
+
+Local: 11 Python, 101 unitarios/check, 36 Chromium passaram. Novo teste inicialmente esqueceu reselecionar turno 2 apos trocar cargo (formulario reinicia em 1); teste corrigido, check e suite completos passaram. Probe HTTP inicialmente assumiu ordem de atributos HTML; corrigido apenas probe e nove paginas passaram. WebKit/iOS nativo/carga nao repetidos. Ops unico 2026-10-28T07:11:11.085Z: nove feeds representativos ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirao), sem garantia continua ou todas as chaves. Servidor proprio 3102 e aba temporaria encerrados; piloto preservado. Comentario duravel https://github.com/michael-eng-ai/global-live-data/pull/54#issuecomment-6463030294 . Recibos /tmp/gld-tse-20261028-0652-* .
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -662,3 +672,4 @@ Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 35 Chromium passa
 - [[2026-10-27-cricket-nrr-editorial-release]] - Handoff da edicao cricket NRR.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
+- [[2026-10-28-tse-second-round-release]] - Recibo PR54.

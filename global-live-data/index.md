@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-28-tse-second-round-release]] - Segundo turno TSE publicado e verificado.
 - [[2026-10-28-world-series-editorial-release]] - Agenda World Series publicada e verificada.
 - [[2026-10-28-tse-party-grain-recheck]] - Mesmo bloqueio TSE; dados publicados preservados.
 - [[2026-10-27-football-time-editorial-release]] - Guia de futebol publicado; Ready PR51 resolvido.
@@ -305,3 +306,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
+- [[2026-10-28-tse-second-round-release]] - Handoff TSE.

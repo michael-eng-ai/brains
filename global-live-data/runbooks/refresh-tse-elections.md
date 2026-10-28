@@ -19,7 +19,7 @@ Contrato completo: docs/TSE-REFRESH.md no repositorio. Comando verificado: npm r
 - Dois URLs TSE fixos, TLS verificado, sem redirects, limites de tempo/tamanho, sem retries dentro da rodada. Python macOS sem CA propria usa /etc/ssl/cert.pem; nunca desabilitar TLS.
 - .data/tse-refresh.lock impede concorrencia local. Se processo morrer, conferir PID antes de remover lock. Nao e lock distribuido. Arquivo/manifest renomeados separadamente; crash entre passos pode deixar mismatch que bloqueia build. Comparar Git e restaurar/reaplicar o par antes de publicar.
 
-Primeiras execucoes reais e recibos em [[release-status]]. Nenhum segundo turno real verificado; primeiro heartbeat material documentado abaixo.
+Primeiras execucoes reais e recibos em [[release-status]]. Segundo turno real verificado e publicado na PR54 em 28/10; cobertura e limites em [[brazil-election-comparison]]. A descoberta continua baseada nos dois arquivos, sem IDs presumidos.
 
 ## Primeiro heartbeat com mudanca material
 
@@ -57,3 +57,4 @@ A mesma mensagem ambigua foi observada novamente em uma unica captura. Canonicos
 - [[2026-10-25-tse-rn-retention-blocked]] - Aplicacao do gate em RN.
 - [[2026-10-27-tse-party-grain-blocked]] - Handoff do bloqueio de granularidade TSE.
 - [[2026-10-28-tse-party-grain-recheck]] - Handoff da rechecagem TSE.
+- [[2026-10-28-tse-second-round-release]] - Execucao verificada.
