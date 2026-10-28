@@ -1,27 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR55 publica guia de mares; CI, Ready e publico verificados."
+resumo: "PR56 integrada, FOMC servido e CI aprovados; Ready direto pendente."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-28"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-28-king-tides-editorial-release]].
+Ultimo handoff: [[2026-10-28-fomc-editorial-release]].
 
-- PR55 integrada; main/origin limpos e45fd27f0e0d40ff735353b9efea8a5be0df9259. Ambos CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo 36 EN/PT/ES, Weather 4. Guia mares/previsao/medicao/inundacao; seis referencias e exemplo ficticio verificado. CTA Natureza existente. [[editorial-publishing]].
-- TSE 28out 06:53 UTC: captura unica reconciliada; 34 recortes de turno 2 adicionados (presidente 28 regioes; governador AC/AM/DF/ES/RN/TO). Total 170 recortes/1.997 agregados e nenhuma quarentena. [[brazil-election-comparison]].
-- Todos os 136 recortes anteriores e ambos RO preservados; Brasil 2022 e quatro esportes byte/mtime intactos. Ausencias nao sao zero, fonte reconciliada nao certifica vencedores. [[historical-editions]].
-- Bloqueio de granularidade da captura 00:54 nao recorreu, sem causa estabelecida ou relaxar gates. Proxima captura unica na cadencia existente; reter todos os 170 recortes validos. [[refresh-tse-elections]].
-- Checks 11 Python, 101 unitarios e 36 Chromium; QA editorial local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops desta release: 2026-10-28T08:19:58.239Z nove feeds representativos ready; disponibilidade pontual, nao cobertura de todas as chaves/regioes. [[release-status]].
-- Proxima rodada editorial precisa pesquisa atual e no maximo uma pauta nova apurada; comparar 36 artigos. Rotina TSE segue separada. [[editorial-publishing]].
-- Painel Vercel autenticado verificado; conector 403/CLI sem sessao conhecidos nao repetidos. Nenhuma credencial ou permissao alterada. [[trap-vercel-access]].
+- PR56 integrada; main/origin limpos f8592fb93cc4c763e8a753fa6fea307a81507040. Ambos CI PR/main, GitHub Vercel Production/success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
+- Catalogo 37 EN/PT/ES, Economy 3. Guia FOMC horarios/documentos, cinco referencias e 20 conversoes verificadas; sem resultado de juros ou previsao financeira. CTA Cambio existente. [[editorial-publishing]].
+- Mac bloqueado e conector 403 impediram leitura Ready; pedido de desbloqueio pendente. Conferir deployment existente antes de encerrar recibo, sem redeploy ou alteracao de acesso. [[trap-vercel-access]].
+- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 12:57 UTC changed false. [[brazil-election-comparison]], [[historical-editions]].
+- Rotina TSE permanece separada e deve reter 170 recortes validos, sem relaxar gates ou preencher ausencia com zero. [[refresh-tse-elections]].
+- Checks 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 2026-10-28T14:19:55.115Z: nove feeds representativos ready; disponibilidade pontual, nao todas as chaves/regioes. [[release-status]].
+- Proxima pesquisa editorial deve comparar 37 artigos e escolher no maximo uma pauta nova apurada; conferir recibo Ready pendente quando houver acesso. [[editorial-publishing]].
 - Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito sem respostas reais, escolha de nome ou compra. [[brand-name-testing]].
 - Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do proprietario. [[brasileirao-nba-feeds]], [[launch-readiness]].
-- Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo editorial alterado.
+- Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
 
 ## Conexoes
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
@@ -135,3 +134,4 @@ Ultimo handoff: [[2026-10-28-king-tides-editorial-release]].
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-tse-second-round-release]] - Publicacao atual.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
+- [[2026-10-28-fomc-editorial-release]] - Handoff FOMC e pendencia Ready.

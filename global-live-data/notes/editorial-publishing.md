@@ -292,6 +292,16 @@ king-tide-predicted-observed-level-guide EN/PT/ES; ledger docs/editorial/2026-10
 
 Quatro secoes originais, fontes e disclosure IA/sem revisao humana. CTA Natureza com limite de 42 cidades explicito. Sem alerta, feed de mare, boletim de desastre atual, previsao local, imagem, conta, chave, gasto ou mudanca de cadencia/escopo. A existencia de previsoes meteorologicas costeiras e corroborada separadamente; nao generalizar a limitacao das tabuas a todos os produtos. Recibos em [[release-status]].
 
+## Edicao FOMC: 28 outubro, 14:03 UTC
+
+Pesquisa unica Node 24 US/BR/GB/ES/JP/IN, exit 0, seis mercados ready. Query US fomc observada 14:04:04.726Z, faixa 2000+, inicio 12:50 UTC. Sinal datado, sem volume mensal ou garantia de views. Comparados 36 artigos; pauta de agenda distinta dos guias CPI/Black Friday. Catalogo 37, Economy 3; CTA para Cambio existente.
+
+fomc-october-2026-times-documents EN/PT/ES, ledger docs/editorial/2026-10-28-fomc-times.md. Cinco referencias primarias lidas ate 14:06:34Z: calendario mensal Fed, regra historica de horarios de 2013, pagina de transmissao, calendario FOMC e orientacao ECB para referencias cambiais. Quatro paginas Fed sao da mesma entidade; nao alegar fontes independentes. Calendario FOMC falhou na primeira abertura mas foi lido via link oficial; pagina mensal tem footer antigo, distinguido do corpo atual no ledger.
+
+Agenda indica comunicado 14h ET e coletiva 14h30 ET em 28 out; Python zoneinfo e Node Intl concordaram nas 20 conversoes. Nova Delhi 23h30 de 28 out/0h de 29 out; Toquio 3h/3h30 de 29 out. Preservar data local; horario agendado nao prova inicio da transmissao. O artigo registra consulta anterior ao anuncio, sem resultado sobre juros, nomes de dirigentes, previsoes de mercado ou recomendacao financeira.
+
+Quatro secoes originais separam agenda, fusos, comunicado/ata/projecoes e cambio diario. Atas regulares tres semanas depois; outubro sem asterisco de projecoes no calendario consultado. ECB e exemplo de finalidade informativa, nao origem exclusiva do feed combinado Frankfurter. Apoio de IA/sem revisao humana e fontes por secao preservados. Nenhum feed, conta, gasto, chave, frequencia ou escopo acrescentado. Recibos e pendencia Ready em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -341,3 +351,4 @@ Quatro secoes originais, fontes e disclosure IA/sem revisao humana. CTA Natureza
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
+- [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.

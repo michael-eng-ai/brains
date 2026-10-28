@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-28-fomc-editorial-release]] - FOMC servido, CI aprovados; Ready direto pendente.
 - [[2026-10-28-king-tides-editorial-release]] - Guia de mares publicado e verificado.
 - [[2026-10-28-tse-second-round-release]] - Segundo turno TSE publicado e verificado.
 - [[2026-10-28-world-series-editorial-release]] - Agenda World Series publicada e verificada.
@@ -309,3 +310,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-tse-second-round-release]] - Handoff TSE.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
+- [[2026-10-28-fomc-editorial-release]] - Handoff FOMC.

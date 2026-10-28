@@ -58,6 +58,12 @@ Chrome autenticado novamente acessivel. O painel existente da PR29 confirmou Rea
 
 Mac e Chrome autenticado novamente acessiveis. Pendencia Ready PR51 encerrada antes da nova edicao; PR52 conferida no painel apos merge. Conector 403/CLI sem sessao nao foram repetidos nem declarados recuperados; nenhuma credencial, permissao ou configuracao alterada. Recibos em [[release-status]].
 
+## Recorrencia em 28 outubro, rodada 14:03 UTC
+
+Mac bloqueado impediu CUA de ler o painel; uma consulta MCP ao novo Preview retornou 403 para o scope existente. Nao desbloquear automaticamente nem ampliar acesso; pedido assíncrono ao proprietario ainda sem resposta. CLI com falha conhecida nao repetida. Ambos CI passaram, PR56 integrada com autorizacao vigente e GitHub registrou Production/success no SHA f8592fb93cc4c763e8a753fa6fea307a81507040; alias publico passou com o marcador correspondente. Esses recibos nao sao leitura direta do campo Ready.
+
+Proxima tarefa: com o Mac desbloqueado, abrir https://vercel.com/michael-eng-ais-projects/global-live-data/5c4anB3DxZrF6rSX5zCtGJMRKdC4 e conferir Production/main/SHA/Ready. Complementar [[release-status]] e PR56; nao redesplegar nem alterar autenticacao so para obter esse recibo. Nao repetir pergunta pendente ou chamada 403 sem mudanca de acesso.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -74,3 +80,4 @@ Mac e Chrome autenticado novamente acessiveis. Pendencia Ready PR51 encerrada an
 - [[2026-10-22-editorial-cricket-triage]] - Painel segue inacessivel; pesquisa independente realizada.
 - [[2026-10-22-hunters-moon-editorial-release]] - Handoff da verificacao PR29/PR30.
 - [[2026-10-27-football-time-editorial-release]] - Handoff da edicao de futebol.
+- [[2026-10-28-fomc-editorial-release]] - Limite Ready desta rodada.

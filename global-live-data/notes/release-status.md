@@ -594,6 +594,16 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-28T08:19:50.
 
 Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passaram na primeira rodada completa. WebKit/iOS nativo/carga nao repetidos. Ops: 2026-10-28T08:19:58.239Z nove feeds representativos ready; disponibilidade pontual, nao cobertura de todas as chaves/regioes. Recibos /tmp/gld-tides-*, pesquisa /tmp/gld-editorial-20261028-0803-research.json; ledger e PR preservam evidencia duravel. Nenhum dado historico alterado nesta edicao.
 
+## FOMC: PR56, 28 outubro 2026 - Ready direto pendente
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/56 integrada em 2026-10-28T14:18:06Z. Head b6624afdf64b0d909978898fad89af890e9bd675; main/origin limpos f8592fb93cc4c763e8a753fa6fea307a81507040; arvore igual ao head aprovado. Ambos jobs CI PR/main passaram: https://github.com/michael-eng-ai/global-live-data/actions/runs/40703760893 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40704584233 .
+
+Vercel via GitHub deployment 7387893587: Production/success, SHA integral exato, mensagem Deployment has completed em 2026-10-28T14:18:42Z. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5c4anB3DxZrF6rSX5zCtGJMRKdC4 ; URL unica https://global-live-data-l1zcqwlo2-michael-eng-ais-projects.vercel.app . Previa tambem success no head, mas Ready direto nao foi observado em nenhum dos dois. Painel bloqueado pelo Mac; uma chamada MCP ao novo Preview retornou 403. Pedido de desbloqueio pendente ao proprietario, sem alterar autenticacao/permissoes/credenciais. CLI com falha conhecida nao repetida. Conferir este deployment existente quando houver acesso, sem novo deploy; [[trap-vercel-access]].
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador do deployment acima em 2026-10-28T14:19:48.776Z; canonical/hreflang, Article JSON-LD, cinco referencias, data/pesquisa/disclosure/sitemap conferidos. Artigo https://global-live-data.vercel.app/pt/trending/fomc-october-2026-times-documents . QA local/publico 390/1280 tres idiomas: Economy 3, teclado, idiomas, sumario/fontes, CTA Cambio e indice. Quatro capturas por ambiente inspecionadas; sem overflow/overlay/console de artigo. API Cambio simulada 503 somente para navegacao; saude real medida separadamente.
+
+Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passaram na primeira rodada completa. WebKit/iOS nativo/carga nao repetidos. Ops unico 2026-10-28T14:19:55.115Z: nove feeds representativos ready, nao todas as chaves/regioes ou disponibilidade continua. Servidor proprio 3102 encerrado; piloto 3147 preservado. Nenhum dado historico alterado. Recibos /tmp/gld-fomc-*, pesquisa /tmp/gld-editorial-20261028-1403-research.json; ledger e comentario duravel https://github.com/michael-eng-ai/global-live-data/pull/56#issuecomment-6471604905 .
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -684,3 +694,4 @@ Node 24.22.1 / Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passa
 - [[2026-10-28-world-series-editorial-release]] - Handoff da agenda World Series.
 - [[2026-10-28-tse-second-round-release]] - Recibo PR54.
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
+- [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
