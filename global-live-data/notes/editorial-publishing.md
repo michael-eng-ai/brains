@@ -316,6 +316,19 @@ Uma pesquisa Node 24 nos seis mercados saiu 0, todos ready. BR mls observado 02:
 
 Artigo mls-playoffs-2026-series-dates EN/PT/ES; ledger docs/editorial/2026-10-29-mls-playoffs.md. Quatro referencias primarias lidas ate 02:07:09Z, tres MLS e uma Inter Miami; nao alegar independencia editorial. Exemplo ficticio e limites de calendario conferidos em Python/Node. Nao transferir snippets ou cards relacionados para resultados atuais. Sem placar real, classificacao atual, feed MLS, bracket, direitos de transmissao ou mudanca de escopo. Apoio de IA/sem revisao humana permanecem divulgados; recibos em [[release-status]].
 
+## Triagem de 29 outubro, 08:03 UTC
+
+Uma unica chamada editorial:research US BR GB ES JP IN, Node 24.22.1, saiu 0 com todos ready; 60 leads, observacoes 08:03:30.771Z a 08:03:33.528Z. Comparacao com os 39 artigos existentes. Log local: /tmp/gld-editorial-20261029-0803-research.log. Faixas do RSS nao representam audiencia do site, estimativas de views ou motivo comprovado da busca.
+
+- Críquete: sl vs eng em GB/US e termos relacionados em IN. Agenda atual encontrada no [ICC](https://www.icc-cricket.com/fixtures-results) e [ECB](https://www.ecb.co.uk/matches/113503/overview); proximidade com os guias de calendario e NRR ja publicados reduziu a novidade. Nenhum placar ou finalista inferido; texto do PCB sobre classificacao tinha contradicao interna e nao foi usado.
+- Tenis: japan open no US. A [WTA](https://www.wtatennis.com/tournaments/405/x/2026) mostrava Osaka concluido em 25out, enquanto notas de jogos distinguiam Tokyo atual; a consulta sozinha nao identifica evento/causa. Sem manchete de torneio em andamento baseada nela.
+- TV: traitors finale em GB. Links oficiais BBC de programa/Media Centre nao foram acessiveis pelo leitor; mirrors e materias secundarias nao substituem duas fontes primarias lidas. Pauta nao apurada para publicacao.
+- NBA: okc (BR, 08:03:31.042Z, faixa500+) e spurs sao leads relacionados a equipes, nao evidencia direta de busca por NBA Cup. [Calendario da liga](https://www.nba.com/news/emirates-nba-cup-2026-groups-announced) e [anuncio do anfitriao Butler](https://butlersports.com/news/2026/10/1/tickets-nba-launches-countdown-to-emirates-nba-cup-with-indianapolis-fan-activation-and-championship-ticket-on-sale.aspx) corroboram o periodo basico da competicao. Paginas de clubes ainda misturam referencias antigas de local/dia da semana; nao extrair todos os detalhes sem reconciliar. Um guia de Copa/temporada pode ser util, mas nao foi transformado em artigo nesta rodada.
+
+Decisao operacional: adiar nova publicacao enquanto os recibos Ready PR56/57/58 seguem incompletos; docs/EDITORIAL.md passo1 orienta nao sobrepor release ainda em verificacao. Uma consulta ao Chrome por CUA confirmou novamente Mac bloqueado; sem repetir CLI/conector com acesso negado, alterar seguranca ou pedir desbloqueio outra vez. Pesquisa nao deve ser reutilizada como evidencia atual sem nova consulta/apuracao. [[trap-vercel-access]].
+
+Main/origin d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3 limpos e nenhuma PR aberta. Rechecagem anonima MLS EN/PT/ES as 08:09 UTC: HTTP200, article presente e marcador dpl_GQ6kAdNH2Ax4Q4C6o49oSGCJutHw, sem prova direta Ready. Primeiro urllib retornou URLError sem detalhe retido; rechecagem com CA do sistema e TLS verificado passou, sem inferir indisponibilidade publica. Recibo local /tmp/gld-editorial-20261029-0803-receipt.json. Nenhum codigo, teste, historico, timestamp editorial, branch, commit, PR, deploy, configuracao ou frequencia do produto alterado. Sem nova notificacao do impedimento ja conhecido. [[2026-10-29-editorial-research-deferred]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -368,3 +381,4 @@ Artigo mls-playoffs-2026-series-dates EN/PT/ES; ledger docs/editorial/2026-10-29
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
 - [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS e apuracao.
+- [[2026-10-29-editorial-research-deferred]] - Handoff da triagem sem publicacao.

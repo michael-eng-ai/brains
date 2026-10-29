@@ -91,3 +91,4 @@ Mac bloqueado reconfirmado; pedido de desbloqueio PR56 permanece pendente. Nenhu
 - [[2026-10-28-fomc-editorial-release]] - Limite Ready desta rodada.
 - [[2026-10-28-fog-editorial-release]] - Pendencia Ready PR56/57.
 - [[2026-10-29-mls-editorial-release]] - Pendencia Ready PR56/57/58.
+- [[2026-10-29-editorial-research-deferred]] - Mac ainda bloqueado; nao repetir pedido anterior.

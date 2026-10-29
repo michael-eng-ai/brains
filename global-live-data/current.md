@@ -1,19 +1,20 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR58 integrada, guia MLS servido; Ready direto pendente."
+resumo: "Triagem editorial concluida; nova publicacao adiada com Ready anterior pendente."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-29"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-29-mls-editorial-release]].
+Ultimo handoff: [[2026-10-29-editorial-research-deferred]].
 
+- Rodada editorial 29out08:03: seis mercados ready, triagem sem novo artigo; manter prioridade na verificacao Ready pendente. [[editorial-publishing]].
 - PR58 integrada; main/origin limpos d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3. Ambos CI PR/main, Production-success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
 - Catalogo 39 EN/PT/ES, Football 8. Guia MLS com quatro referencias, CTA Futebol; sem resultado atual ou feed MLS. [[editorial-publishing]].
 - Mac bloqueado; pedido de desbloqueio anterior pendente. Completar Ready PR56/57/58 nos deployments existentes sem redeploy/mudanca de acesso. [[trap-vercel-access]].
-- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 29 out 00:59 UTC changed false, sem alteracoes. [[brazil-election-comparison]], [[historical-editions]].
+- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura TSE 29 out 07:03:45 UTC changed false, exit0, sete canonicos/datas intactos; recibo /tmp/gld-tse-20261029-0700-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
 - Rotina TSE permanece separada; reter 170 recortes validos sem relaxar gates nem preencher ausencia com zero. [[refresh-tse-elections]].
 - Checks: 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
 - Ops 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD ready; observacao pontual sem reparo ou causa inferida. [[football-fx-pilot]].
@@ -137,3 +138,4 @@ Ultimo handoff: [[2026-10-29-mls-editorial-release]].
 - [[2026-10-28-fomc-editorial-release]] - Handoff FOMC e pendencia Ready.
 - [[2026-10-28-fog-editorial-release]] - Handoff atual.
 - [[2026-10-29-mls-editorial-release]] - Handoff atual.
+- [[2026-10-29-editorial-research-deferred]] - Handoff atual.

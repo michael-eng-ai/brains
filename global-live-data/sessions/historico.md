@@ -166,6 +166,8 @@ atualizado: "2026-10-29"
 
 - 2026-10-29, 02:04 UTC: PR58 integrada, MLS EN/PT/ES servido, ambos CI/SHA/publico conferidos; Ready pendente, USD ready no probe. [[2026-10-29-mls-editorial-release]].
 
+- 2026-10-29 08:03 UTC - Pesquisa editorial seis mercados, sem artigo/PR/deploy; Ready PR56/57/58 segue pendente, MLS publico rechecado. [[2026-10-29-editorial-research-deferred]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -244,3 +246,4 @@ atualizado: "2026-10-29"
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
 - [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS.
+- [[2026-10-29-editorial-research-deferred]] - Triagem editorial.
