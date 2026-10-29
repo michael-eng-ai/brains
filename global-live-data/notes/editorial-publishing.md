@@ -329,6 +329,12 @@ Decisao operacional: adiar nova publicacao enquanto os recibos Ready PR56/57/58 
 
 Main/origin d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3 limpos e nenhuma PR aberta. Rechecagem anonima MLS EN/PT/ES as 08:09 UTC: HTTP200, article presente e marcador dpl_GQ6kAdNH2Ax4Q4C6o49oSGCJutHw, sem prova direta Ready. Primeiro urllib retornou URLError sem detalhe retido; rechecagem com CA do sistema e TLS verificado passou, sem inferir indisponibilidade publica. Recibo local /tmp/gld-editorial-20261029-0803-receipt.json. Nenhum codigo, teste, historico, timestamp editorial, branch, commit, PR, deploy, configuracao ou frequencia do produto alterado. Sem nova notificacao do impedimento ja conhecido. [[2026-10-29-editorial-research-deferred]].
 
+## Edicao PIB: 29 outubro, 14:00 UTC
+
+Pesquisa unica Node 24 US/BR/GB/ES/JP/IN: exit0, seis mercados ready, 60 leads. Selecionado US gdp, observado 14:01:32.500Z, faixa 1000+, inicio 12:30 UTC. Sinal datado de pauta, sem volume mensal ou causa atribuida. Comparados 39 artigos; anualizacao e revisoes distintas de CPI/FOMC/compras. Catalogo 40, Economy 4; artigo us-gdp-annualized-quarterly-growth-guide EN/PT/ES com CTA cambio diario/historico existente.
+
+Ledger docs/editorial/2026-10-29-gdp-growth.md. Quatro referencias BEA lidas ate 14:07:47Z, uma unica agencia primaria, sem alegar independencia. Release inicial Q3 de 29out: real 3.4% anualizado/0.8% trimestral arredondado; exemplo explicitamente ficticio indice100->100.5, 0.5%/2.02%, verificado em Python Decimal e Node. Sem previsao, conselho de investimento, feed PIB ou afirmacao de impacto cambial. Apoio de IA/ausencia de revisao humana divulgados. [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -382,3 +388,4 @@ Main/origin d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3 limpos e nenhuma PR aberta.
 - [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS e apuracao.
 - [[2026-10-29-editorial-research-deferred]] - Handoff da triagem sem publicacao.
+- [[2026-10-29-gdp-editorial-release]] - Apuracao e limites do guia PIB.

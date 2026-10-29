@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-29-gdp-editorial-release]] - Guia PIB publicado e Ready anterior resolvido.
 - [[2026-10-29-editorial-research-deferred]] - Triagem sem nova publicacao; Ready anterior pendente.
 - [[2026-10-29-mls-editorial-release]] - MLS servido e Ready direto pendente.
 - [[2026-10-28-fog-editorial-release]] - Nevoeiro servido; Ready pendente e USD error observado.
@@ -317,3 +318,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-28-fog-editorial-release]] - Handoff de nevoeiro.
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS.
 - [[2026-10-29-editorial-research-deferred]] - Handoff da triagem.
+- [[2026-10-29-gdp-editorial-release]] - Handoff PIB.

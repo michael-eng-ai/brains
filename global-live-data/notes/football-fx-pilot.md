@@ -96,6 +96,10 @@ Nenhum reparo de provider/cache/gates nesta entrega. Registrar como pendencia op
 
 Ops unico 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD status ready, checkedAt 2026-10-29T02:16:57.482Z, retrievedAt 2026-10-29T02:16:57.482Z, nextRefreshAt 2026-10-29T03:16:57.482Z. Na ultima observacao de 28 out 20:15 UTC, USD estava error. Este probe e pontual; nao estabelece causa, reparo ou disponibilidade continua. Nenhuma consulta direta adicional ao upstream, historico ou alteracao de provider/cache/gates nesta edicao. Evidencia /tmp/gld-mls-ops.json e [[release-status]].
 
+## Probe durante PR59
+
+Ops unico 2026-10-29T14:20:50.928Z: 9/9 feeds representativos ready; USD ready, checkedAt 2026-10-29T14:18:41.542Z, retrievedAt 2026-10-29T14:18:41.542Z, nextRefreshAt 2026-10-29T15:18:41.542Z. Snapshot pontual, sem causa ou reparo inferido, sem consulta upstream adicional ou mudanca de provider/cache. Recibo /tmp/gld-gdp-ops.json e [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -125,3 +129,4 @@ Ops unico 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD status re
 - [[2026-10-26-tse-rn-pe-revision-release]] - Disponibilidade USD observada.
 - [[2026-10-28-fog-editorial-release]] - Indisponibilidade USD observada nesta entrega.
 - [[2026-10-29-mls-editorial-release]] - Probe cambial durante a entrega MLS.
+- [[2026-10-29-gdp-editorial-release]] - Estado do cambio no probe de publicacao.

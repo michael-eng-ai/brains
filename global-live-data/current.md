@@ -1,26 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Triagem editorial concluida; nova publicacao adiada com Ready anterior pendente."
+resumo: "Guia PIB publicado; PR59 Ready e verificacoes anteriores encerradas."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-29"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-29-editorial-research-deferred]].
+Ultimo handoff: [[2026-10-29-gdp-editorial-release]].
 
-- Rodada editorial 29out08:03: seis mercados ready, triagem sem novo artigo; manter prioridade na verificacao Ready pendente. [[editorial-publishing]].
-- PR58 integrada; main/origin limpos d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3. Ambos CI PR/main, Production-success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
-- Catalogo 39 EN/PT/ES, Football 8. Guia MLS com quatro referencias, CTA Futebol; sem resultado atual ou feed MLS. [[editorial-publishing]].
-- Mac bloqueado; pedido de desbloqueio anterior pendente. Completar Ready PR56/57/58 nos deployments existentes sem redeploy/mudanca de acesso. [[trap-vercel-access]].
-- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura TSE 29 out 07:03:45 UTC changed false, exit0, sete canonicos/datas intactos; recibo /tmp/gld-tse-20261029-0700-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
-- Rotina TSE permanece separada; reter 170 recortes validos sem relaxar gates nem preencher ausencia com zero. [[refresh-tse-elections]].
-- Checks: 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD ready; observacao pontual sem reparo ou causa inferida. [[football-fx-pilot]].
-- Proxima pesquisa editorial deve comparar 39 artigos e escolher no maximo uma pauta nova apurada; Ready pendente deve ser conferido quando houver acesso. [[editorial-publishing]].
-- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito sem respostas reais, escolha de nome ou compra. [[brand-name-testing]].
-- Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do proprietario. [[brasileirao-nba-feeds]], [[launch-readiness]].
+- PR59 integrada/publicada; main/origin limpos 28933954dd088d6f6a6a18944ea876eab354a076. Dois CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
+- Catalogo 40 EN/PT/ES, Economy 4. Guia PIB anualizado/trimestral com quatro referencias BEA e exemplo ficticio; CTA cambio diario/historico. [[editorial-publishing]].
+- PR56/57/58 Ready direto confirmado e comentarios atualizados; pedido de desbloqueio encerrado. Chrome funciona; nao inferir reparo do connector403. [[trap-vercel-access]].
+- Checks: 11 Python, 101 unitarios/check e 36 Chromium; QA local tres idiomas em 390/1280 px e publico. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 2026-10-29T14:20:50.928Z: 9/9 feeds ready, USD ready; sem causa/reparo inferido. [[football-fx-pilot]].
+- TSE 170 recortes/1997 agregados, turnos 1/2, sem quarentena; ambos RO, 2022 e quatro esportes preservados. Ultimo no-op 29 out 12:57:47.065370Z, exit0; recibo /tmp/gld-tse-20261029-1256-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
+- Rotina TSE separada; reter recortes validos sem relaxar gates ou preencher ausencia com zero. [[refresh-tse-elections]].
+- Proxima rodada editorial compara 40 artigos e apura no maximo uma pauta nova; pular se faltar valor/verificacao. [[editorial-publishing]].
+- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito; sem respostas reais ou compra. [[brand-name-testing]].
+- Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do dono. [[brasileirao-nba-feeds]], [[launch-readiness]].
 - Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
 
 ## Conexoes
@@ -139,3 +138,4 @@ Ultimo handoff: [[2026-10-29-editorial-research-deferred]].
 - [[2026-10-28-fog-editorial-release]] - Handoff atual.
 - [[2026-10-29-mls-editorial-release]] - Handoff atual.
 - [[2026-10-29-editorial-research-deferred]] - Handoff atual.
+- [[2026-10-29-gdp-editorial-release]] - Handoff atual.

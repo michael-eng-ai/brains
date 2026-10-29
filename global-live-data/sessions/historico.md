@@ -168,6 +168,8 @@ atualizado: "2026-10-29"
 
 - 2026-10-29 08:03 UTC - Pesquisa editorial seis mercados, sem artigo/PR/deploy; Ready PR56/57/58 segue pendente, MLS publico rechecado. [[2026-10-29-editorial-research-deferred]].
 
+- 2026-10-29,14:00UTC: PR59 guia PIB EN/PT/ES publicada; ambos CI/Ready/SHA/publico; Ready PR56-58 encerrados. [[2026-10-29-gdp-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -247,3 +249,4 @@ atualizado: "2026-10-29"
 - [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS.
 - [[2026-10-29-editorial-research-deferred]] - Triagem editorial.
+- [[2026-10-29-gdp-editorial-release]] - Publicacao PIB e acesso resolvido.

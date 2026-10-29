@@ -72,6 +72,12 @@ CUA reconfirmou Mac bloqueado; pedido de desbloqueio PR56 segue sem resposta. Ne
 
 Mac bloqueado reconfirmado; pedido de desbloqueio PR56 permanece pendente. Nenhuma chamada 403 repetida ou mudanca de acesso. PR58 recebeu evidencias GitHub Production/success/SHA e paginas publicas, sem ler Ready diretamente. Completar PR56/57/58 pelos dashboards existentes em [[release-status]] quando houver acesso autorizado, sem redeploy ou nova pergunta repetida.
 
+## Resolucao em 29 outubro, rodada 14:00 UTC
+
+Mac desbloqueado; Chrome autenticado abriu diretamente os dashboards existentes. Ready/Production/main e commits exatos observados para PR56 f8592fb, PR57 17bc066 e PR58 d271789. PR56/57 estavam Stale por serem sucedidas; PR58 Current naquele instante. Comentarios duraveis6498980633/6498986076/6498986561 encerram os pedidos pendentes. A tela anterior recomendava2FA, mas nenhuma configuracao foi alterada; navegar ao deployment existente bastou. Nenhum bypass, extracao de credenciais, redeploy ou nova pergunta.
+
+PR59: previa e Production Ready observados diretamente; [[release-status]]. Em nova recorrencia, verificar acesso real e usar dashboard autorizado. Nao assumir que o antigo403 de connector/CLI foi reparado, nem repetir chamadas inalteradas. Nao declarar Ready somente por status GitHub.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -92,3 +98,4 @@ Mac bloqueado reconfirmado; pedido de desbloqueio PR56 permanece pendente. Nenhu
 - [[2026-10-28-fog-editorial-release]] - Pendencia Ready PR56/57.
 - [[2026-10-29-mls-editorial-release]] - Pendencia Ready PR56/57/58.
 - [[2026-10-29-editorial-research-deferred]] - Mac ainda bloqueado; nao repetir pedido anterior.
+- [[2026-10-29-gdp-editorial-release]] - Resolucao de acesso e verificacao direta.
