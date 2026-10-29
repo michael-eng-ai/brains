@@ -170,6 +170,8 @@ atualizado: "2026-10-29"
 
 - 2026-10-29,14:00UTC: PR59 guia PIB EN/PT/ES publicada; ambos CI/Ready/SHA/publico; Ready PR56-58 encerrados. [[2026-10-29-gdp-editorial-release]].
 
+- 2026-10-29,20:04UTC: PR60 guia FIDE EN/PT/ES integrada; ambos CI/SHA/Production-success/publico; Ready direto pendente de desbloqueio. [[2026-10-29-chess-ratings-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -250,3 +252,4 @@ atualizado: "2026-10-29"
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS.
 - [[2026-10-29-editorial-research-deferred]] - Triagem editorial.
 - [[2026-10-29-gdp-editorial-release]] - Publicacao PIB e acesso resolvido.
+- [[2026-10-29-chess-ratings-editorial-release]] - Integracao xadrez e pendencia de verificacao.

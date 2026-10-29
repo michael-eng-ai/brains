@@ -78,6 +78,12 @@ Mac desbloqueado; Chrome autenticado abriu diretamente os dashboards existentes.
 
 PR59: previa e Production Ready observados diretamente; [[release-status]]. Em nova recorrencia, verificar acesso real e usar dashboard autorizado. Nao assumir que o antigo403 de connector/CLI foi reparado, nem repetir chamadas inalteradas. Nao declarar Ready somente por status GitHub.
 
+## Recorrencia em 29 outubro, rodada 20:04 UTC
+
+O Mac voltou a estar bloqueado ao obter Google Chrome. Inventario mostrou somente MCP Apps e IAB, sem extensao Chrome autenticada. Nenhuma tentativa de desbloqueio manual automatizado, mudanca de seguranca, extracao de credenciais, chamada403 repetida ou redeploy. Pedido novo de desbloqueio enviado uma vez; nao ha resposta nesta rodada. A resolucao anterior PR56-59 permanece valida para aqueles deployments.
+
+PR60: GitHub Production/success/SHA e alias publico verificados; Ready direto continua pendente. Com o Mac desbloqueado, abrir https://vercel.com/michael-eng-ais-projects/global-live-data/89wPEbcuAmo6tn8WuVekrmM6oWcj e conferir Ready, Production, branch main e commit f86a9047aad6ef82ccc8b11a9deca4572e88194f. Acrescentar recibo em [[release-status]] e PR60; nao publicar outra versao para preencher essa lacuna.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -99,3 +105,4 @@ PR59: previa e Production Ready observados diretamente; [[release-status]]. Em n
 - [[2026-10-29-mls-editorial-release]] - Pendencia Ready PR56/57/58.
 - [[2026-10-29-editorial-research-deferred]] - Mac ainda bloqueado; nao repetir pedido anterior.
 - [[2026-10-29-gdp-editorial-release]] - Resolucao de acesso e verificacao direta.
+- [[2026-10-29-chess-ratings-editorial-release]] - Nova pendencia de acesso, preservando recibos anteriores.

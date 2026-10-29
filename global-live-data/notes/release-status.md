@@ -634,6 +634,16 @@ Nove paginas publicas EN/PT/ES HTTP200 com marcador exato em 2026-10-29T14:20:47
 
 11 Python, 101 unitarios/check e 36 Chromium passaram. Sete JSON historicos mantiveram bytes/mtime; TSE nao executado nesta rodada. Ops unico 2026-10-29T14:20:50.928Z: 9/9 feeds ready, USD ready; observacao pontual, nao garantia. Servidor proprio 3102 e navegador de QA encerrados; piloto 3147 preservado. Recibos temporarios /tmp/gld-gdp-*; evidencias essenciais acima e na PR.
 
+## Xadrez: PR60 integrada, paginas verificadas, Ready direto pendente
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/60 integrada 2026-10-29T20:17:58Z; head c26b0507216ee999abc360273fe22af56c79600c, main/origin f86a9047aad6ef82ccc8b11a9deca4572e88194f, mesma arvore aprovada. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40947355322 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40947777853: dois jobs success em cada. Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/60#issuecomment-6507408883 .
+
+GitHub deployment 7423194332: Production/success no SHA exato, 2026-10-29T20:18:31Z. Deployment dpl_89wPEbcuAmo6tn8WuVekrmM6oWcj; dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/89wPEbcuAmo6tn8WuVekrmM6oWcj ; URL unica https://global-live-data-oh1lwuf1j-michael-eng-ais-projects.vercel.app . Campo Ready NAO observado diretamente: CUA informou Mac bloqueado; inventario sem extensao Chrome. Pedido de desbloqueio enviado uma vez nesta rodada. Nao chamar o status GitHub de Ready nem redesplegar; concluir o recibo existente quando houver acesso. [[trap-vercel-access]].
+
+Nove paginas publicas EN/PT/ES HTTP200 com marcador exato em 2026-10-29T20:18:55.206Z; titulo, canonical/hreflang, Article JSON-LD, tres referencias, datas/disclosure e sitemap passaram. Guia https://global-live-data.vercel.app/pt/trending/chess-fide-ratings-time-control-guide . QA local EN/PT/ES390/1280: filtroChess1,teclado,idioma,sumario/fontes,CTAcalendario e retorno. Cinco capturas locais e duas publicas inspecionadas sem corte/overlay. Console publico zero erros; local somente favicon404 existente e API503 simulada. Uma assercao manual antes da navegacao assentar foi repetida com waitForURL e passou, sem alterar produto.
+
+11 Python,101 unitarios/check,36 Chromium passaram; WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes/mtime; rotina TSE nao reexecutada. Ops unico 2026-10-29T20:18:58.200Z: 9/9 feeds ready,incluindo USD e xadrez; observacao pontual. Servidor proprio3102 e navegadorQA encerrados; piloto3147 preservado. Recibos temporarios /tmp/gld-chess-*; evidencias duraveis na PR e neste cerebro.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -728,3 +738,4 @@ Nove paginas publicas EN/PT/ES HTTP200 com marcador exato em 2026-10-29T14:20:47
 - [[2026-10-28-fog-editorial-release]] - Recibo PR57 e pendencias operacionais.
 - [[2026-10-29-mls-editorial-release]] - Recibo PR58 e limites de verificacao.
 - [[2026-10-29-gdp-editorial-release]] - Recibos da publicacao PIB.
+- [[2026-10-29-chess-ratings-editorial-release]] - Evidencias e pendencia Ready da PR60.

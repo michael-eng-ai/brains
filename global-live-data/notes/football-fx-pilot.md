@@ -100,6 +100,10 @@ Ops unico 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD status re
 
 Ops unico 2026-10-29T14:20:50.928Z: 9/9 feeds representativos ready; USD ready, checkedAt 2026-10-29T14:18:41.542Z, retrievedAt 2026-10-29T14:18:41.542Z, nextRefreshAt 2026-10-29T15:18:41.542Z. Snapshot pontual, sem causa ou reparo inferido, sem consulta upstream adicional ou mudanca de provider/cache. Recibo /tmp/gld-gdp-ops.json e [[release-status]].
 
+## Probe durante PR60
+
+Ops unico 2026-10-29T20:18:58.200Z: 9/9 feeds representativos ready; USD ready,checkedAt 2026-10-29T20:18:31.142Z,retrievedAt 2026-10-29T20:18:31.142Z,nextRefreshAt 2026-10-29T21:18:31.142Z. Snapshot pontual, sem causa ou reparo inferido e sem mudanca de provider/cache. Recibo /tmp/gld-chess-ops.json e [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -130,3 +134,4 @@ Ops unico 2026-10-29T14:20:50.928Z: 9/9 feeds representativos ready; USD ready, 
 - [[2026-10-28-fog-editorial-release]] - Indisponibilidade USD observada nesta entrega.
 - [[2026-10-29-mls-editorial-release]] - Probe cambial durante a entrega MLS.
 - [[2026-10-29-gdp-editorial-release]] - Estado do cambio no probe de publicacao.
+- [[2026-10-29-chess-ratings-editorial-release]] - Estado cambial na verificacao da PR60.

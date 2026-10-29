@@ -335,6 +335,12 @@ Pesquisa unica Node 24 US/BR/GB/ES/JP/IN: exit0, seis mercados ready, 60 leads. 
 
 Ledger docs/editorial/2026-10-29-gdp-growth.md. Quatro referencias BEA lidas ate 14:07:47Z, uma unica agencia primaria, sem alegar independencia. Release inicial Q3 de 29out: real 3.4% anualizado/0.8% trimestral arredondado; exemplo explicitamente ficticio indice100->100.5, 0.5%/2.02%, verificado em Python Decimal e Node. Sem previsao, conselho de investimento, feed PIB ou afirmacao de impacto cambial. Apoio de IA/ausencia de revisao humana divulgados. [[release-status]].
 
+## Edicao xadrez: 29 outubro, 20:04 UTC
+
+Uma pesquisa Node24 US/BR/GB/ES/JP/IN: exit0, seis mercados ready,60 leads. Selecionado IN praggnanandhaa rameshbabu, observado20:05:25.410Z,faixa100+,inicio19:40UTC. Sinal datado, sem volume mensal ou causa atribuida. Comparados40 artigos; primeiro filtro editorial Chess. Catalogo41; chess-fide-ratings-time-control-guide EN/PT/ES liga ao calendario FIDE existente.
+
+Ledger docs/editorial/2026-10-29-chess-ratings.md: tres referencias FIDE lidas ate20:08:44Z, sem alegar independencia. FAQ usada apenas para distinguir modalidades; detalhes antigos de piso/inicio ignorados em favor do Handbook. Pagina Laws indisponivel nao foi usada. Exemplos originais:180+60*2=300s,600+60*5=900s;ratings ficticios2200->2210=+10,nao+50 misturando modalidades. Python/Node conferiram. Sem rating,ranking,resultado ou participacao de jogador real. Apoio de IA/ausencia de revisao humana mantidos. [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -389,3 +395,4 @@ Ledger docs/editorial/2026-10-29-gdp-growth.md. Quatro referencias BEA lidas ate
 - [[2026-10-29-mls-editorial-release]] - Handoff MLS e apuracao.
 - [[2026-10-29-editorial-research-deferred]] - Handoff da triagem sem publicacao.
 - [[2026-10-29-gdp-editorial-release]] - Apuracao e limites do guia PIB.
+- [[2026-10-29-chess-ratings-editorial-release]] - Apuracao e limites do guia de ratings.

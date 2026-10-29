@@ -1,26 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia PIB publicado; PR59 Ready e verificacoes anteriores encerradas."
+resumo: "PR60 integrada e paginas verificadas; Ready direto aguarda Mac desbloqueado."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-29"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-29-gdp-editorial-release]].
+Ultimo handoff: [[2026-10-29-chess-ratings-editorial-release]].
 
-- PR59 integrada/publicada; main/origin limpos 28933954dd088d6f6a6a18944ea876eab354a076. Dois CI PR/main, Production Ready/SHA e nove paginas/sitemap verificados. [[release-status]].
-- Catalogo 40 EN/PT/ES, Economy 4. Guia PIB anualizado/trimestral com quatro referencias BEA e exemplo ficticio; CTA cambio diario/historico. [[editorial-publishing]].
-- PR56/57/58 Ready direto confirmado e comentarios atualizados; pedido de desbloqueio encerrado. Chrome funciona; nao inferir reparo do connector403. [[trap-vercel-access]].
-- Checks: 11 Python, 101 unitarios/check e 36 Chromium; QA local tres idiomas em 390/1280 px e publico. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-29T14:20:50.928Z: 9/9 feeds ready, USD ready; sem causa/reparo inferido. [[football-fx-pilot]].
-- TSE 170 recortes/1997 agregados, turnos 1/2, sem quarentena; ambos RO, 2022 e quatro esportes preservados. Ultimo no-op 29 out 12:57:47.065370Z, exit0; recibo /tmp/gld-tse-20261029-1256-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
-- Rotina TSE separada; reter recortes validos sem relaxar gates ou preencher ausencia com zero. [[refresh-tse-elections]].
-- Proxima rodada editorial compara 40 artigos e apura no maximo uma pauta nova; pular se faltar valor/verificacao. [[editorial-publishing]].
-- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito; sem respostas reais ou compra. [[brand-name-testing]].
-- Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do dono. [[brasileirao-nba-feeds]], [[launch-readiness]].
-- Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
+- PR60 integrada; main/origin limpos f86a9047aad6ef82ccc8b11a9deca4572e88194f. Dois CI PR/main, GitHub Production/success/SHA e nove paginas/sitemap verificados. Campo Ready ainda nao observado. [[release-status]].
+- Catalogo41 EN/PT/ES,Chess1; guia de ratings FIDE com tres referencias e exemplos ficticios; CTA calendario existente. [[editorial-publishing]].
+- Mac voltou a estar bloqueado; sem extensao Chrome. Pedido de desbloqueio enviado uma vez. Nao repetir403,alterar seguranca ou redesplegar. Ready PR56-59 permanece encerrado. [[trap-vercel-access]].
+- Checks: 11 Python, 101 unitarios/check e 36 Chromium; QA tres idiomas em 390/1280 px e publico. WebKit/iOS/carga nao repetidos. [[release-status]].
+- Ops 2026-10-29T20:18:58.200Z: 9/9 feeds ready,USD ready; snapshot pontual. [[football-fx-pilot]].
+- TSE170 recortes/1997 agregados,turnos1/2,sem quarentena; RO,2022 e quatro esportes preservados. Ultimo no-op29out19:02:30.771050Z,exit0; recibo /tmp/gld-tse-20261029-1901-receipt.json. [[brazil-election-comparison]],[[historical-editions]].
+- Rotina TSE separada; reter recortes validos sem relaxar gates/preencher ausencia com zero. [[refresh-tse-elections]].
+- Proxima rodada editorial compara41 artigos e apura no maximo uma pauta; pular se faltar valor/verificacao. [[editorial-publishing]].
+- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito,sem respostas reais/compra. [[brand-name-testing]].
+- Brasileirao preservado;NBA preparada/desativada por escolha do dono. Dominio/Google e NBA real dependem dele. [[brasileirao-nba-feeds]],[[launch-readiness]].
+- Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo alterado.
 
 ## Conexoes
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
@@ -139,3 +139,4 @@ Ultimo handoff: [[2026-10-29-gdp-editorial-release]].
 - [[2026-10-29-mls-editorial-release]] - Handoff atual.
 - [[2026-10-29-editorial-research-deferred]] - Handoff atual.
 - [[2026-10-29-gdp-editorial-release]] - Handoff atual.
+- [[2026-10-29-chess-ratings-editorial-release]] - Handoff atual.
