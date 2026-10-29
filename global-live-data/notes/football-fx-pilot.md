@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "OpenLigaDB e Frankfurter publicadas com paginas internas, cache compartilhado e datas explicitas."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-28"
+atualizado: "2026-10-29"
 ---
 
 # Futebol e cambio
@@ -92,6 +92,10 @@ Ops unico 2026-10-28T20:15:18.431Z saiu 2: oito feeds representativos ready, USD
 
 Nenhum reparo de provider/cache/gates nesta entrega. Registrar como pendencia operacional separada do artigo Natureza; investigar payload atual e logs autorizados antes de editar, sem retries agressivos durante backoff ou preencher ausencia com zero. Evidencia /tmp/gld-fog-ops.json, /tmp/gld-fog-fx-diagnostic.json e comentario PR57 em [[release-status]].
 
+## Probe USD durante PR58
+
+Ops unico 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD status ready, checkedAt 2026-10-29T02:16:57.482Z, retrievedAt 2026-10-29T02:16:57.482Z, nextRefreshAt 2026-10-29T03:16:57.482Z. Na ultima observacao de 28 out 20:15 UTC, USD estava error. Este probe e pontual; nao estabelece causa, reparo ou disponibilidade continua. Nenhuma consulta direta adicional ao upstream, historico ou alteracao de provider/cache/gates nesta edicao. Evidencia /tmp/gld-mls-ops.json e [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa do projeto.
 - [[2026-10-15-football-fx-first]] - Escolha do proprietario.
@@ -120,3 +124,4 @@ Nenhum reparo de provider/cache/gates nesta entrega. Registrar como pendencia op
 - [[2026-10-25-apple-tv-editorial-release]] - Probe USD nesta entrega.
 - [[2026-10-26-tse-rn-pe-revision-release]] - Disponibilidade USD observada.
 - [[2026-10-28-fog-editorial-release]] - Indisponibilidade USD observada nesta entrega.
+- [[2026-10-29-mls-editorial-release]] - Probe cambial durante a entrega MLS.

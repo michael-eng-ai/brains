@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-28"
+atualizado: "2026-10-29"
 ---
 
 # Publicacao editorial
@@ -310,6 +310,12 @@ Artigo fog-visibility-forecast-warning-guide EN/PT/ES; ledger docs/editorial/202
 
 Guia explicativo sem declarar aviso vigente, local afetado, impacto de transporte ou seguranca de trajetos. Limites de dados/geografia do portal mantidos; nenhuma variavel ou alerta acrescentados. Nenhuma imagem, citacao extensa, conta, gasto, chave, frequencia ou escopo novo. Recibos e pendencia Ready em [[release-status]].
 
+## Edicao MLS: 29 outubro, 02:04 UTC
+
+Uma pesquisa Node 24 nos seis mercados saiu 0, todos ready. BR mls observado 02:04:55.090Z, faixa 1000+, inicio 01:40 UTC; relacionados GB/ES. Sinal datado sem volume mensal ou garantia de views. Comparados 38 artigos; pergunta sobre vitorias na serie distinta dos guias de tempo de jogo/tabela. Catalogo 39, Football 8, destino Futebol existente.
+
+Artigo mls-playoffs-2026-series-dates EN/PT/ES; ledger docs/editorial/2026-10-29-mls-playoffs.md. Quatro referencias primarias lidas ate 02:07:09Z, tres MLS e uma Inter Miami; nao alegar independencia editorial. Exemplo ficticio e limites de calendario conferidos em Python/Node. Nao transferir snippets ou cards relacionados para resultados atuais. Sem placar real, classificacao atual, feed MLS, bracket, direitos de transmissao ou mudanca de escopo. Apoio de IA/sem revisao humana permanecem divulgados; recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -361,3 +367,4 @@ Guia explicativo sem declarar aviso vigente, local afetado, impacto de transport
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
 - [[2026-10-28-fog-editorial-release]] - Handoff da edicao de nevoeiro.
+- [[2026-10-29-mls-editorial-release]] - Handoff MLS e apuracao.

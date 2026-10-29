@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-28"
+atualizado: "2026-10-29"
 ---
 
 # Estado da entrega
@@ -614,6 +614,16 @@ Nove paginas anonimas EN/PT/ES HTTP 200 com marcador do deployment exato em 2026
 
 Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passaram na primeira rodada completa. WebKit/iOS nativo/carga nao repetidos. Ops unico saiu 2: oito feeds ready e USD error; diagnostico e limites em [[football-fx-pilot]]. Nenhum dado historico, provider ou cache alterado; servidor proprio 3102 encerrado e piloto 3147 preservado. Recibos /tmp/gld-fog-*, pesquisa /tmp/gld-editorial-20261028-2004-research.json; ledger e comentario duravel https://github.com/michael-eng-ai/global-live-data/pull/57#issuecomment-6479664273 .
 
+## MLS: PR58, 29 outubro 2026 - Ready direto pendente
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/58 integrada em 2026-10-29T02:16:07Z. Head 38c7a8b1bac6a288c0f21872cc490cc65c94896d; main/origin limpos d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3, mesma arvore do head aprovado. Dois jobs CI PR/main passaram: https://github.com/michael-eng-ai/global-live-data/actions/runs/40805065812 e https://github.com/michael-eng-ai/global-live-data/actions/runs/40805345015 .
+
+Vercel via GitHub: Production/success/SHA exato, deployment 7402284041, observado 2026-10-29T02:18:05.610391+00:00. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/GQ6kAdNH2Ax4Q4C6o49oSGCJutHw ; URL unica https://global-live-data-hzrdf2wg4-michael-eng-ais-projects.vercel.app . Previa success no head, sem leitura direta Ready. Mac ainda bloqueado; pedido anterior ao proprietario pendente. Nao repetir 403/CLI sem acesso ou trocar autenticacao. Complementar PR56/57/58 quando o painel autorizado estiver disponivel, sem redeploy. [[trap-vercel-access]].
+
+Nove paginas EN/PT/ES HTTP 200 e marcador exato em 2026-10-29T02:18:21.156Z; canonical/hreflang, Article JSON-LD, quatro referencias, datas/disclosure/sitemap passaram. Artigo https://global-live-data.vercel.app/pt/trending/mls-playoffs-2026-series-dates . QA local/publico 390/1280 tres idiomas: Football 8, teclado, idiomas, sumario/fontes, CTA Futebol e indice. Quatro capturas por ambiente inspecionadas, sem overflow/overlay/console de artigo. APIs Futebol 503 sinteticas somente para navegacao.
+
+11 Python, 101 unitarios/check e 36 Chromium passaram. Primeiro browser run falhou na expectativa antiga de sete artigos de futebol; corrigida para oito e check/suite completa repetidos com sucesso. WebKit/iOS nativo/carga nao repetidos. Sete JSON historicos mantiveram bytes/mtime. Ops unico 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD ready; ver [[football-fx-pilot]]. Servidor proprio 3102 encerrado; piloto 3147 preservado. Recibos /tmp/gld-mls-* e comentario duravel https://github.com/michael-eng-ai/global-live-data/pull/58#issuecomment-6486081178 .
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -706,3 +716,4 @@ Node 24.22.1/Python 3.12.4: 11 Python, 101 unitarios/check e 36 Chromium passara
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff da edicao FOMC.
 - [[2026-10-28-fog-editorial-release]] - Recibo PR57 e pendencias operacionais.
+- [[2026-10-29-mls-editorial-release]] - Recibo PR58 e limites de verificacao.

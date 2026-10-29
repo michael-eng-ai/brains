@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-28"
+atualizado: "2026-10-29"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-29-mls-editorial-release]] - MLS servido e Ready direto pendente.
 - [[2026-10-28-fog-editorial-release]] - Nevoeiro servido; Ready pendente e USD error observado.
 - [[2026-10-28-fomc-editorial-release]] - FOMC servido, CI aprovados; Ready direto pendente.
 - [[2026-10-28-king-tides-editorial-release]] - Guia de mares publicado e verificado.
@@ -313,3 +314,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff FOMC.
 - [[2026-10-28-fog-editorial-release]] - Handoff de nevoeiro.
+- [[2026-10-29-mls-editorial-release]] - Handoff MLS.

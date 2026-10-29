@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR57 integrada, nevoeiro servido; Ready direto pendente e USD error."
+resumo: "PR58 integrada, guia MLS servido; Ready direto pendente."
 tags: [global-live-data, estado, eleicoes, release]
-atualizado: "2026-10-28"
+atualizado: "2026-10-29"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-28-fog-editorial-release]].
+Ultimo handoff: [[2026-10-29-mls-editorial-release]].
 
-- PR57 integrada; main/origin limpos 17bc0661cf7d7f805ef54098970fc5a8f81f4de5. Ambos CI PR/main, Production-success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
-- Catalogo 38 EN/PT/ES, Weather 5. Guia de nevoeiro com tres referencias, CTA Natureza; sem aviso ativo declarado ou novo campo de dados. [[editorial-publishing]].
-- Mac bloqueado; pedido de desbloqueio anterior pendente. Completar Ready PR56/57 nos deployments existentes sem redeploy/mudanca de acesso. [[trap-vercel-access]].
-- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 19:01 UTC changed false, sem alteracoes. [[brazil-election-comparison]], [[historical-editions]].
+- PR58 integrada; main/origin limpos d271789c492204ef1ebce6ea47b2fa3b1b8fb7b3. Ambos CI PR/main, Production-success/SHA e nove paginas/sitemap verificados; Ready direto pendente. [[release-status]].
+- Catalogo 39 EN/PT/ES, Football 8. Guia MLS com quatro referencias, CTA Futebol; sem resultado atual ou feed MLS. [[editorial-publishing]].
+- Mac bloqueado; pedido de desbloqueio anterior pendente. Completar Ready PR56/57/58 nos deployments existentes sem redeploy/mudanca de acesso. [[trap-vercel-access]].
+- TSE 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; ambos RO, Brasil 2022 e quatro esportes preservados. Ultima captura 29 out 00:59 UTC changed false, sem alteracoes. [[brazil-election-comparison]], [[historical-editions]].
 - Rotina TSE permanece separada; reter 170 recortes validos sem relaxar gates nem preencher ausencia com zero. [[refresh-tse-elections]].
 - Checks: 11 Python, 101 unitarios e 36 Chromium; QA local/publico EN/PT/ES 390/1280 passou. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 20:15 UTC saiu 2: oito feeds representativos ready e USD error; leitura limitada adicional confirmou. Causa atual nao estabelecida, sem reparo nesta entrega. [[football-fx-pilot]].
-- Proxima pesquisa editorial deve comparar 38 artigos e escolher no maximo uma pauta nova apurada; Ready pendente deve ser conferido quando houver acesso. [[editorial-publishing]].
+- Ops 2026-10-29T02:18:19.290Z: 9 feeds representativos ready, USD ready; observacao pontual sem reparo ou causa inferida. [[football-fx-pilot]].
+- Proxima pesquisa editorial deve comparar 39 artigos e escolher no maximo uma pauta nova apurada; Ready pendente deve ser conferido quando houver acesso. [[editorial-publishing]].
 - Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito sem respostas reais, escolha de nome ou compra. [[brand-name-testing]].
 - Brasileirao preservado; NBA preparada/desativada por escolha do proprietario. Dominio/Google e NBA real dependem do proprietario. [[brasileirao-nba-feeds]], [[launch-readiness]].
 - Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
@@ -136,3 +136,4 @@ Ultimo handoff: [[2026-10-28-fog-editorial-release]].
 - [[2026-10-28-king-tides-editorial-release]] - Handoff do guia de mares.
 - [[2026-10-28-fomc-editorial-release]] - Handoff FOMC e pendencia Ready.
 - [[2026-10-28-fog-editorial-release]] - Handoff atual.
+- [[2026-10-29-mls-editorial-release]] - Handoff atual.
