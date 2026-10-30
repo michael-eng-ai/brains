@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-29"
+atualizado: "2026-10-30"
 ---
 
 # Publicacao editorial
@@ -341,6 +341,12 @@ Uma pesquisa Node24 US/BR/GB/ES/JP/IN: exit0, seis mercados ready,60 leads. Sele
 
 Ledger docs/editorial/2026-10-29-chess-ratings.md: tres referencias FIDE lidas ate20:08:44Z, sem alegar independencia. FAQ usada apenas para distinguir modalidades; detalhes antigos de piso/inicio ignorados em favor do Handbook. Pagina Laws indisponivel nao foi usada. Exemplos originais:180+60*2=300s,600+60*5=900s;ratings ficticios2200->2210=+10,nao+50 misturando modalidades. Python/Node conferiram. Sem rating,ranking,resultado ou participacao de jogador real. Apoio de IA/ausencia de revisao humana mantidos. [[release-status]].
 
+## Brasileirao: 30 outubro, rodada 02:05 UTC
+
+Pesquisa unica Node24 nos seis mercados: exit0, 60 leads. BR classificacao do brasileirao observado 02:06:25.702Z, faixa5000+, inicio01:40UTC; tabela brasileirao 2026 tambem5000+, inicio01:20UTC. Nao sao volumes mensais nem previsao de trafego. Comparados41 artigos: guia novo sobre desempate final, diferente de jogos a menos/Premier e tabela/Champions. Catalogo42, Football9.
+
+Ledger docs/editorial/2026-10-30-brasileirao-tiebreak.md e slug brasileirao-2026-wins-goal-difference-guide EN/PT/ES. Duas fontes primarias lidas ate02:14:31Z: CBF REC2026 art15 para vitorias antes de saldo na classificacao final; Palmeiras para as colunas da tabela. Paginas HTML CBF com502/certificado nao utilizadas; TLS preservado. Exemplo inteiramente ficticio A/B com48pontos,14/13vitorias,+1/+20saldo; Python/Node verificaram a comparacao. Sem copiar linhas atuais, imagens ou prognosticos. CTA direto para Brasileirao existente, mantendo ordem e limites do provedor. [[brasileirao-nba-feeds]], [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -396,3 +402,4 @@ Ledger docs/editorial/2026-10-29-chess-ratings.md: tres referencias FIDE lidas a
 - [[2026-10-29-editorial-research-deferred]] - Handoff da triagem sem publicacao.
 - [[2026-10-29-gdp-editorial-release]] - Apuracao e limites do guia PIB.
 - [[2026-10-29-chess-ratings-editorial-release]] - Apuracao e limites do guia de ratings.
+- [[2026-10-30-brasileirao-editorial-release]] - Apuracao, demanda datada e limites editoriais.

@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave."
 tags: [global-live-data, esportes, fornecedores]
-atualizado: "2026-10-20"
+atualizado: "2026-10-30"
 ---
 
 # Brasileirao e NBA
@@ -36,6 +36,10 @@ ops:check passou a sete leituras e nove feeds representativos, incluindo apenas 
 
 A medicao Trends de 19 outubro continua datada: NBA 41, Brasileirao 14, Bundesliga 7, indices relativos da mesma comparacao global de 12 meses, nao volumes absolutos. Em 20 outubro a comparacao apresentou erro; RSS US/BR funcionou as 15:29 UTC, sem essas ligas nos dez itens retornados. Isso nao prova ausencia de demanda.
 
+## Guia editorial de desempate
+
+A PR61 liga um artigo EN/PT/ES diretamente a /[lang]/football/brasileirao. Apenas o tipo de destino editorial foi ampliado para essa rota existente; nenhuma ordenacao, fonte, cobertura, cache ou partida mudou. O art15 CBF foi explicado como regra da classificacao final. Nao usar o guia como prova de temporada informada pelo SportScore, resultados finais ou cobertura completa. Apuracao e demanda em [[editorial-publishing]]; recibos em [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Estado atual.
@@ -45,3 +49,4 @@ A medicao Trends de 19 outubro continua datada: NBA 41, Brasileirao 14, Bundesli
 - [[release-status]] - Commit, CI e publicacao.
 - [[validation-workflow]] - Gates.
 - [[environment]] - Nome da configuracao opcional.
+- [[2026-10-30-brasileirao-editorial-release]] - Guia ligado a pagina existente sem alterar o feed.

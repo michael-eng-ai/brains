@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-29"
+atualizado: "2026-10-30"
 ---
 
 # Historico
@@ -172,6 +172,8 @@ atualizado: "2026-10-29"
 
 - 2026-10-29,20:04UTC: PR60 guia FIDE EN/PT/ES integrada; ambos CI/SHA/Production-success/publico; Ready direto pendente de desbloqueio. [[2026-10-29-chess-ratings-editorial-release]].
 
+- 2026-10-30,02:05UTC: PR61 guia Brasileirao EN/PT/ES integrada; CI/SHA/Production-success/publico conferidos; Ready direto PR60/61 pendente. [[2026-10-30-brasileirao-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -253,3 +255,4 @@ atualizado: "2026-10-29"
 - [[2026-10-29-editorial-research-deferred]] - Triagem editorial.
 - [[2026-10-29-gdp-editorial-release]] - Publicacao PIB e acesso resolvido.
 - [[2026-10-29-chess-ratings-editorial-release]] - Integracao xadrez e pendencia de verificacao.
+- [[2026-10-30-brasileirao-editorial-release]] - Guia de desempate e evidencias verificadas.

@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-29"
+atualizado: "2026-10-30"
 ---
 
 # Acesso e publicacao Vercel
@@ -84,6 +84,10 @@ O Mac voltou a estar bloqueado ao obter Google Chrome. Inventario mostrou soment
 
 PR60: GitHub Production/success/SHA e alias publico verificados; Ready direto continua pendente. Com o Mac desbloqueado, abrir https://vercel.com/michael-eng-ais-projects/global-live-data/89wPEbcuAmo6tn8WuVekrmM6oWcj e conferir Ready, Production, branch main e commit f86a9047aad6ef82ccc8b11a9deca4572e88194f. Acrescentar recibo em [[release-status]] e PR60; nao publicar outra versao para preencher essa lacuna.
 
+## Rechecagem em 30 outubro, rodada 02:05 UTC
+
+CUA getApp Google Chrome confirmou novamente Mac bloqueado. Pedido anterior continua pendente: nao repetir pergunta, chamadas403, extrair credenciais ou mudar seguranca. Verificacao publica e GitHub nao desbloqueiam o painel. PR60 segue pendente; PR61 tambem precisa de observacao direta de Ready, Production, main e commit 70934070ccdc1c166427cc3324f14283998488da em https://vercel.com/michael-eng-ais-projects/global-live-data/5rK2Xx1ntKspQYMn6ushKwkcE4jm . Complete os recibos existentes quando houver acesso; nao gere outro deploy para isso. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -106,3 +110,4 @@ PR60: GitHub Production/success/SHA e alias publico verificados; Ready direto co
 - [[2026-10-29-editorial-research-deferred]] - Mac ainda bloqueado; nao repetir pedido anterior.
 - [[2026-10-29-gdp-editorial-release]] - Resolucao de acesso e verificacao direta.
 - [[2026-10-29-chess-ratings-editorial-release]] - Nova pendencia de acesso, preservando recibos anteriores.
+- [[2026-10-30-brasileirao-editorial-release]] - Pendencia de acesso sem repeticao de autorizacao.

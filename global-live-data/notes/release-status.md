@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-29"
+atualizado: "2026-10-30"
 ---
 
 # Estado da entrega
@@ -644,6 +644,16 @@ Nove paginas publicas EN/PT/ES HTTP200 com marcador exato em 2026-10-29T20:18:55
 
 11 Python,101 unitarios/check,36 Chromium passaram; WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes/mtime; rotina TSE nao reexecutada. Ops unico 2026-10-29T20:18:58.200Z: 9/9 feeds ready,incluindo USD e xadrez; observacao pontual. Servidor proprio3102 e navegadorQA encerrados; piloto3147 preservado. Recibos temporarios /tmp/gld-chess-*; evidencias duraveis na PR e neste cerebro.
 
+## PR61: guia Brasileirao, paginas verificadas; Ready direto pendente
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/61 integrada 2026-10-30T02:22:45Z; head f9d0ad1c8a4c13939c860754a9624611f2c1f1ca; main/origin 70934070ccdc1c166427cc3324f14283998488da, mesma arvore aprovada. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/40991059513 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/40991334777: dois jobs success em cada. Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/61#issuecomment-6513429741 .
+
+GitHub deployment 7429119493, Production, success em 2026-10-30T02:23:24Z, SHA 70934070ccdc1c166427cc3324f14283998488da. Deployment dpl_5rK2Xx1ntKspQYMn6ushKwkcE4jm. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/5rK2Xx1ntKspQYMn6ushKwkcE4jm ; URL unica https://global-live-data-ot56no2fe-michael-eng-ais-projects.vercel.app . Ready direto NAO observado: CUA confirmou Mac bloqueado; pedido anterior segue sem resposta e nao foi repetido. PR60 tambem continua pendente. Nao tratar status GitHub como leitura do campo Ready nem redesplegar para preencher recibo. [[trap-vercel-access]].
+
+Nove paginas anonimas EN/PT/ES HTTP200 e marcador exato em 2026-10-30T02:23:47.806Z; titulo, canonical/hreflang, Article JSON-LD, duas referencias, datas, disclosure, destino direto e sitemap passaram. Guia https://global-live-data.vercel.app/pt/trending/brasileirao-2026-wins-goal-difference-guide . QA local EN/PT/ES390/1280: filtroFootball9, teclado, idiomas, sumario/fontes, CTA Brasileirao e retorno. Cinco vistas finais locais e duas publicas inspecionadas; sem overflow/overlay. Capturas iniciais apos mudanca de idioma/viewport apresentaram pintura incompleta; novas navegacoes com fontes carregadas mostraram o titulo completo. Sem overflow ou mudanca de produto. Console local/publico: somente favicon404, sem erro do artigo. API de Brasileirao simulada503 apenas na navegacao local.
+
+11 Python,101 unitarios/check,36 Chromium passaram na primeira execucao completa. WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes e mtime; TSE nao reexecutado nesta rodada editorial. Ops unico 2026-10-30T02:23:56.896Z: 9/9 feeds ready; observacao pontual. Navegadores QA e servidor proprio3102 encerrados, piloto3147 preservado. Temporarios /tmp/gld-brasileirao-*.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -739,3 +749,4 @@ Nove paginas publicas EN/PT/ES HTTP200 com marcador exato em 2026-10-29T20:18:55
 - [[2026-10-29-mls-editorial-release]] - Recibo PR58 e limites de verificacao.
 - [[2026-10-29-gdp-editorial-release]] - Recibos da publicacao PIB.
 - [[2026-10-29-chess-ratings-editorial-release]] - Evidencias e pendencia Ready da PR60.
+- [[2026-10-30-brasileirao-editorial-release]] - Commit, CI, publico e limite da verificacao Ready.
