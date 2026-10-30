@@ -220,7 +220,22 @@ Harness inicial exigia ready universalmente e falhou em uma resposta stale. Date
 
 Gerador e servidor no mesmo host, um processo: nao prova capacidade Vercel/CDN, usuarios simultaneos reais, multirregiao ou vazao das APIs. Sete JSON historicos bytes/mtime preservados. Isolamento/fixtures nao foram ao Git/deploy. Scripts/metricas/capturas /tmp/gld-mobile-20261030-*; servidor 3102 e browsers encerrados. Recibos em [[release-status]].
 
+## Safari nativo e sincronizacao FX, 30 outubro
+
+Xcode 27.2 (27B52) e iOS 27.2 arm64 (24B8117) instalados da Apple, apos autorizacoes explicitas do contrato e da limpeza somente dos caches de download npm/pip/uv/Homebrew. Dispositivo dedicado Global Live Data - iPhone 13, 390x844 e paisagem, Safari nativo via DeviceHub. Nao e telefone fisico. O runtime adicional 24B91016s falhou no Streaming Extractor; o 24B8117 funcional dispensa retry. Disco chegou a 296 MiB livres e recuperou cerca de 2.4 GiB; verificar antes de instalar mais. Nao apagar outros arquivos por inferencia.
+
+Defeito reproduzido em 3e0025d: input de 13 px no seletor de cidade dispara zoom de foco e corta a borda esquerda, persistindo apos fechar teclado. Correcao em app/globals.css: input/select de 16 px em tela estreita/ponteiro coarse; filtros empilhados abaixo de 360 px, pinch zoom preservado. Regressao existente verifica foco, tres fontes >=16 px, bounds 320/390/844, pesquisa Sao e Escape. Safari nativo confirmou teclado/pesquisa/selecao sem recorte local e publicado em 8200227; rechecagem do teclado/pesquisa sem recorte tambem em a5ce629. Captura final /tmp/gld-ios-native-20261030-picker-final.jpg.
+
+Fluxos nativos amostrados: portal/Brasileirao/Flamengo; FX com teclado numerico, 250 USD, 30/90 dias e tabela; DEL rodada 1 e time interno; Mexico ES, dia 5 novembro, periodos de 6 h, scroll horizontal e rotacao; comparacao governador/RN/turno 2 com 2022 ausente; filtro Rugby league, artigo EN/PT/ES e ancora de fontes. Sao evidencias de UI, nao reconciliacao de fonte nem cobertura exaustiva.
+
+Node 24.22.1: check com 101 unidades/lint/tipos/build/HTTP e 11 Python passaram; 36 Chromium e 36 WebKit passaram apos CSS final. CI da PR65 passou; main encontrou corrida preexistente no teste FX: contador da rota avancava antes de a resposta ser consumida. Trace registra clockRunFor 59999 antes do fim da segunda resposta, acionando timeout artificial de 20 s. Follow-up altera somente fixture/assert: checkedAt distinto e espera do texto renderizado antes de avancar; prazos/contagens/recuperacao preservados. Dez repeticoes em cada engine (20/20), check 101 e suite integral 72/72 passaram. Primeiro locator assumiu en-US, depois pontuacao Chromium; ajustado a en-GB e comma/at dos dois engines, com mesma data/hora exata. Nenhum retry/timeout do produto alterado.
+
+Local 320/1280 visualmente inspecionado, sem overflow/erro de console. Publico EN/PT/ES preservou Sao Paulo ao trocar idioma; erro de extensao Chrome identificado fora do site, nenhum erro da aplicacao observado. Console Safari nativo, telefone fisico, banda/CPU restritos e capacidade distribuida nao medidos. Carga de 4.836 HTTP da PR64 mantida como evidencia separada, nao repetida para CSS. Logs/capturas temporarios /tmp/gld-ios-native-20261030-*; CI/Ready em [[release-status]].
+
+Continuacao tecnica: Xcode 27 usa /Applications/Xcode.app/Contents/Applications/DeviceHub.app; Simulator.app antigo ausente. AX nativo mostra barras/teclado, nao DOM web; confirmar screenshot apos transicao antes de clicar. Para Node 24 usar binario verificado, nao confiar no symlink Homebrew node@24 (reportou 25.8.0). Python HTTPS requer bundle /etc/ssl/cert.pem neste ambiente, mantendo verificacao TLS.
+
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
 - [[index]] - Mapa de conhecimento e entrada do projeto.

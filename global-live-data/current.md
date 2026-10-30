@@ -1,28 +1,27 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR64 consolida WebKit e carga; sem defeito funcional, Ready verificado."
+resumo: "Safari nativo corrigido; PR65/66 publicadas, CI final verde; MET Lisboa stale."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-30"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-30-mobile-load-validation]].
+Ultimo handoff: [[2026-10-30-native-safari-fix]].
 
-- PR64 integrada, main/origin limpos 3e0025dbec4c12be9f5db272e6f36065ba72aacb; CI PR/main, Vercel Production Ready/SHA e paginas publicas conferidos. Somente documentacao; codigo funcional igual a 58e83db. [[release-status]].
-- Catalogo 44 EN/PT/ES; Rugby league 1. Guia golden point e pontos da tabela, tres fontes primarias e exemplo ficticio; CTA indice. [[editorial-publishing]].
-- Chrome autenticado acessivel; Ready PR60/61/62 pendentes resolvidos, PR63 completo. Nao assumir recuperacao do conector/CLI 403 nem alterar seguranca. [[trap-vercel-access]].
-- Rechecagem: 36 WebKit iPhone-profile e 4.836 HTTP de carga local passaram, ate 30 clientes, P95 pico 132.20 ms; sem defeito funcional. Safari nativo indisponivel (simctl ausente), capacidade Vercel nao medida. [[validation-workflow]].
-- Ops 2026-10-30T15:46:48.152Z: 9/9 feeds ready, observacao pontual. [[release-status]].
-- TSE: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; RO, 2022 e quatro esportes preservados. Ultimo no-op: 30 outubro 13:06:07.772533Z, exit 0; /tmp/gld-tse-20261030-1305-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
-- Rotina TSE separada; preserve dados validos, gates e ausencias sem zeros inventados. [[refresh-tse-elections]].
-- Proxima rodada compara 44 artigos e apura no maximo uma pauta; pular sem evidencia suficiente. [[editorial-publishing]].
-- Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito, sem respostas reais ou compra. [[brand-name-testing]].
-- NBA preparada/desativada por escolha do dono. Dominio/Google e NBA real dependem dele. [[brasileirao-nba-feeds]], [[launch-readiness]].
-- Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
+- PR65 corrige seletor de cidades no Safari iPhone; PR66 elimina corrida no teste FX. Main/origin limpos a5ce629d26f123633e07a8f0f97873e4a1a3fe74; CI final PR/main, Production Ready/SHA e publico EN/PT/ES verificados. [[release-status]].
+- Xcode/iOS instalados; Safari nativo no simulador iPhone 13 testado, teclado/pesquisa/selecao corrigidos. Check101, Python11, Chromium36, WebKit36 e20 repeticoes FX passaram. Telefone fisico, console Safari nativo e capacidade Vercel nao medidos. [[validation-workflow]].
+- Carga anterior: 4.836 HTTP locais/sinteticos ate30 clientes, zero falhas finais; nao repetir/extrapolar sem motivo. [[validation-workflow]].
+- Ops final30/10 17:28:56.555Z: oito feeds ready, MET Lisboa stale. Proxima investigacao de dados deve conferir expiry/cache/fonte sem reescrever timestamps ou acelerar pedidos. [[release-status]].
+- Catalogo44 EN/PT/ES; Rugby league1. Rotina editorial pode apurar no maximo uma nova pauta com evidencias; demais escopos inalterados. [[editorial-publishing]].
+- TSE:170 recortes/1.997 agregados, turnos1/2, sem quarentena; RO,2022 e quatro esportes preservados. Ultimo no-op30/10 13:06:07.772533Z, exit0; /tmp/gld-tse-20261030-1305-receipt.json. Nenhum refresh nesta tarefa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- Chrome autenticado permite verificar Vercel; conector403 continua sem nova permissao. [[trap-vercel-access]].
+- Nome Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito, sem respostas reais/compra. Dominio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
+- Disco livre reduzido apos runtime iOS; nao repetir instalacoes nem apagar outros caches sem necessidade/autorizacao. Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo novo.
 
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.
 - [[2026-10-22-editorial-cricket-triage]] - Handoff anterior editorial.
 - [[2026-10-22-tse-pb-retention-recheck]] - Ultima rodada TSE.

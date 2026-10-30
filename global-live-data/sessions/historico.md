@@ -180,7 +180,10 @@ atualizado: "2026-10-30"
 
 - 2026-10-30: WebKit 36/36 e carga 4.836 HTTP passaram; sem defeito funcional; PR64 somente documentacao, CI/Ready/publico verificados. [[2026-10-30-mobile-load-validation]].
 
+- 2026-10-30 | Safari nativo preparado/testado; PR65 corrige picker, PR66 sincroniza teste FX; CI final e Ready verificados. [[2026-10-30-native-safari-fix]].
+
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[index]] - Mapa de conhecimento e entrada do projeto.

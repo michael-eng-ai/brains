@@ -684,7 +684,20 @@ Production Ready/Current/main/SHA integral observado no painel em 2026-10-30T15:
 
 Nove paginas EN/PT/ES e sitemap conferidos em 2026-10-30T15:46:50.172Z com marcador publico exato; navegacao WebKit novamente passou, console limpo. Ops 2026-10-30T15:46:48.152Z: 9/9 feeds ready, observacao pontual. Testes/metricas/limites em [[validation-workflow]]. Documentacao consolidada nao representa uma correcao funcional inexistente. Temporarios /tmp/gld-mobile-20261030-*.
 
+## Safari nativo e correcao do seletor, 30 outubro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/65 integrada em 17:17:16Z: head 78988e11e1ce1a37e6554c4caf6f6f23d3eee953, main 82002272b3cd209f112a8588a9ff14443cb0b001, mesma arvore. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41096871207 passou ambos os jobs. Vercel Production Ready/main/SHA observado: https://vercel.com/michael-eng-ais-projects/global-live-data/EbCe3awzZGZM6WqNCT63vdVfmEQW ; URL unica https://global-live-data-cefo837o4-michael-eng-ais-projects.vercel.app ; build 31 s. Safari nativo publicou prova da correcao de teclado/picker. Main CI https://github.com/michael-eng-ai/global-live-data/actions/runs/41097500100 passou aggregate e falhou Chromium por corrida do teste FX; nao apagar nem apresentar esse run como verde.
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/66 corrige somente sincronizacao da fixture e documentacao. Integrada em 17:27:28Z, head 4301bc85174cdb1df2a68cedd3237de846a180d0, main/origin limpos a5ce629d26f123633e07a8f0f97873e4a1a3fe74, mesma arvore revisada. App/components/lib/public/package/lock identicos a 8200227. Ambos os jobs success na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41098636582 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/41098992249 .
+
+Production Ready/Latest/main/SHA integral final observado no painel: https://vercel.com/michael-eng-ais-projects/global-live-data/8jZrEenbU3eoitHHJGF7VqYfvvgs ; URL unica https://global-live-data-89cr2pxqh-michael-eng-ais-projects.vercel.app ; build 30 s. GitHub deployment 7444731407, Production/success em 17:28:03Z. Integracao Git existente, sem deploy duplicado ou alteracao de acesso. Conector Vercel ainda403; painel Chrome ja autenticado forneceu Ready.
+
+Em 17:29:10.241183Z, paginas anonimas /en/nature, /pt/nature e /es/nature retornaram200 com CSP, lang e marcador exato da implantacao final. CSS publicado contem regra16px e mesmo SHA256 de 8200227. /tmp/gld-ios-native-20261030-public-check.json retido. Fluxos EN/PT/ES preservaram cidade; nenhum erro de aplicacao observado no Chrome, erros de extensao separados. Testes e limites nativos em [[validation-workflow]]. Corpos das PR65/66 guardam recibos duraveis.
+
+Ops 17:18:08.712Z e final 17:28:56.555Z: oito feeds ready; MET Lisboa stale, exit1. Registar como pendencia de atualidade da fonte, nao como falha de deploy nem dado zerado. Sem consultas repetidas para forcar recuperacao. Servidor proprio3102 encerrado; piloto3147 preservado. Nenhuma mudanca em fornecedores, historicos, dependencias, chaves, analytics, DNS, custo ou automacoes.
+
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
 - [[2026-10-15-production-launch]] - Sessao de publicacao autorizada.

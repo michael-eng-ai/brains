@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Dominio proprio e Google: .com cotado, registros ainda nao adquiridos."
 tags: [global-live-data, conceito, validacao, lancamento]
-atualizado: "2026-10-21"
+atualizado: "2026-10-30"
 ---
 
 # Preparacao do lancamento
@@ -38,11 +38,12 @@ Em21/10, o proprietario pediu preparar teste Global Live Data versus Datasanti W
 2. Apos registro autorizado, associar ao projeto existente, ler os DNS exigidos para aquele dominio, escolher apex/www principal e redirecionar o alternativo. Preservar MX/TXT de email. Validar DNS e HTTPS; nao usar um A/CNAME universal inventado.
 3. Alterar origin e metadados EN/PT/ES/canonical/hreflang/sitemap juntos. Adicionar canonical da home e revisar redirecionamento do vercel.app sem loop/404 nem perder queries validas. Testar e publicar pelo fluxo existente.
 4. Verificar propriedade no Google Search Console (DNS TXT para propriedade de dominio), enviar sitemap e inspecionar home, artigo e categoria. Envio nao garante indexacao/posicao. Sem necessidade de adicionar analytics para essa verificacao.
-5. Antes de promocao ampla, concluir iPhone Safari nativo e medir trafego/custo real por instancia. Evidencia atual de emulacao/carga em [[validation-workflow]]. Nao inferir capacidade Vercel dos numeros locais.
+5. Safari nativo concluido em 30/10 no simulador iPhone 13, com correcao de foco do seletor. Antes de promocao ampla, verificar telefone fisico/banda/CPU e medir trafego/custo real por instancia. Evidencia e limites em [[validation-workflow]]. Nao inferir capacidade Vercel dos numeros locais.
 
 Referencias primarias consultadas19/10: https://vercel.com/docs/domains/registrar-api ; https://vercel.com/docs/domains/set-up-custom-domain ; https://support.google.com/webmasters/answer/9008080 ; https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap .
 
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[brand-name-testing]] - Preparacao antes da escolha.
 - [[2026-10-21-brand-name-test-preparation]] - Handoff de pesquisa.
 - [[index]] - Mapa.

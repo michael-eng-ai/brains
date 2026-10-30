@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-30-mobile-load-validation]] - WebKit/carga e documentacao PR64.
 - [[2026-10-30-rugby-editorial-release]] - Guia rugby league publicado, PR63 e Ready completos.
 - [[2026-10-30-dexter-editorial-release]] - Guia Dexter, PR62 e Ready pendente.
@@ -184,6 +185,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[brand-name-testing]] - Teste de nomes.
 - [[2026-10-21-brand-name-test-preparation]] - Handoff de pesquisa.
 - [[2026-10-15-defer-publication]] - Escolha historica de nao publicar; merge posterior observado nao autoriza deploy.
