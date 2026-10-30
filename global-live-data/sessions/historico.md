@@ -178,6 +178,8 @@ atualizado: "2026-10-30"
 
 - 2026-10-30, 14:02 UTC: PR63 guia rugby EN/PT/ES publicada; CI/Ready/SHA/publico verificados; pendencias Ready PR60/61/62 encerradas. [[2026-10-30-rugby-editorial-release]].
 
+- 2026-10-30: WebKit 36/36 e carga 4.836 HTTP passaram; sem defeito funcional; PR64 somente documentacao, CI/Ready/publico verificados. [[2026-10-30-mobile-load-validation]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -262,3 +264,4 @@ atualizado: "2026-10-30"
 - [[2026-10-30-brasileirao-editorial-release]] - Guia de desempate e evidencias verificadas.
 - [[2026-10-30-dexter-editorial-release]] - Guia Dexter e verificacao de release.
 - [[2026-10-30-rugby-editorial-release]] - Publicacao do guia rugby e recibos completos.
+- [[2026-10-30-mobile-load-validation]] - Validacao mobile/carga consolidada.

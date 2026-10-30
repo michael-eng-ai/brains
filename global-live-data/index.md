@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-30-mobile-load-validation]] - WebKit/carga e documentacao PR64.
 - [[2026-10-30-rugby-editorial-release]] - Guia rugby league publicado, PR63 e Ready completos.
 - [[2026-10-30-dexter-editorial-release]] - Guia Dexter, PR62 e Ready pendente.
 - [[2026-10-30-brasileirao-editorial-release]] - Guia Brasileirao, PR61 e Ready pendente.
@@ -327,3 +328,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-30-brasileirao-editorial-release]] - Handoff Brasileirao.
 - [[2026-10-30-dexter-editorial-release]] - Handoff Dexter.
 - [[2026-10-30-rugby-editorial-release]] - Handoff rugby league.
+- [[2026-10-30-mobile-load-validation]] - Handoff mobile/carga.

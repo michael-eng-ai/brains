@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-25"
+atualizado: "2026-10-30"
 ---
 
 # Validacao
@@ -208,6 +208,18 @@ Browser plugin ausente; Playwright do repositorio usado. QA390x844/1280x900 emPT
 
 CI da PR42, run 40200350272, tentativa 1: agregado passou, Chromium34/35; falha fx-refresh.spec.ts:51, conversao sintetica 512.00 ausente. Trace tem apenas duas respostas mock e clockRunFor(59999) comeca 0.742 ms apos o segundo fulfill. Padrao semelhante ao PR38; suspeita de sincronizacao entre resposta e relogio simulado, nao causa estabelecida nem incidente real do provedor. Um unico rerun do job no mesmo SHA passou sem mudar codigo/assertions. Artefatos e analise em /tmp/gld-usgp-pr42-artifacts e /tmp/gld-usgp-ci-triage.json. Uma investigacao focada futura deve sincronizar a aplicacao da resposta antes de avancar o relogio, preservando as verificacoes de prazo, recuperacao e numero de chamadas; nao esconder a falha com retries ilimitados. Recibos em [[release-status]].
 
+## WebKit e carga, 30 outubro
+
+Pedido direto do proprietario apos PR63. Codigo funcional 58e83db27dd8b1535467bd3b9fb8d034a38227a2: 36/36 WebKit iPhone-profile passaram na primeira execucao, Node 24.22.1, Playwright 1.64.1/WebKit 27.2 revision 2370, macOS 27.0.1/Mac15,6/18 GiB. Plugin Browser ausente; suite do repositorio e controlador temporario usando biblioteca instalada. CLI isolado esperou revision 2368 ausente e nao iniciou; nao instalar outra dependencia nem forcar binario divergente. Biblioteca do repositorio usou revision 2370 compativel.
+
+Publico EN/PT/ES em 390 CSS px: artigo, idiomas, sumario/fontes, filtro Rugby league, retorno e vista inicial da comparacao Brasil passaram; tres screenshots inspecionados, zero overflow/overlay/erros/avisos. Nao e Safari nativo: simctl indisponivel. iPhone fisico, teclado/browser chrome nativos, banda/CPU limitadas continuam pendentes.
+
+Carga local isolada final 15:38:29Z: 4.805 requests em etapas 1/5/15/30/1, mais 30 concorrentes frios e 1 checagem de recuperacao =4.836 HTTP. Pausa 100 ms, teto 2.000/etapa, 64.2 s. P95 por etapa 41.89/42.53/62.75/132.20/46.38 ms; pico 169.15 req/s; P95 frio 175.01 ms. Zero falha final. Trinta cold callers compartilharam 1 operacao upstream; duas no total, 60.877 s apartadas. Somente USGS sintetico com 1.000 eventos/transporte 100 ms; MET/config privada vazios, fetch externo bloqueado, zero chamada externa.
+
+Harness inicial exigia ready universalmente e falhou em uma resposta stale. Date HTTP tem precisao de segundos; validade 60 s pode terminar antes do retry minimo 60 s contado do inicio da operacao. Inspecao de ProviderCache/responseTiming confirmou comportamento intencional. Harness final validou expiry/status, fonte preservada, transicao menor que 1 s e recuperacao com fonte nova: uma resposta stale 394 ms apos expirar, depois ready. Nenhum guard de produto, fonte, timeout ou cache foi alterado. Sem defeito funcional; PR64 somente consolida docs/OPERATIONS.md e HANDOFF.md.
+
+Gerador e servidor no mesmo host, um processo: nao prova capacidade Vercel/CDN, usuarios simultaneos reais, multirregiao ou vazao das APIs. Sete JSON historicos bytes/mtime preservados. Isolamento/fixtures nao foram ao Git/deploy. Scripts/metricas/capturas /tmp/gld-mobile-20261030-*; servidor 3102 e browsers encerrados. Recibos em [[release-status]].
+
 ## Conexoes
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
@@ -262,3 +274,4 @@ CI da PR42, run 40200350272, tentativa 1: agregado passou, Chromium34/35; falha 
 - [[2026-10-21-wawrinka-editorial-release]] - Handoff da decima segunda leitura.
 - [[2026-10-21-champions-editorial-release]] - Handoff da decima terceira leitura.
 - [[2026-10-25-us-gp-grid-editorial-release]] - Reincidencia FX na PR42.
+- [[2026-10-30-mobile-load-validation]] - Rechecagem WebKit/carga e limites concretos.

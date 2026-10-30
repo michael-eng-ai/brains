@@ -1,20 +1,20 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR63 publicada e verificada; Ready PR60-63 encerrados."
+resumo: "PR64 consolida WebKit e carga; sem defeito funcional, Ready verificado."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-30"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-30-rugby-editorial-release]].
+Ultimo handoff: [[2026-10-30-mobile-load-validation]].
 
-- PR63 integrada, main/origin limpos 58e83db27dd8b1535467bd3b9fb8d034a38227a2; CI PR/main dois jobs success, Vercel Production Ready/main/SHA e nove paginas/sitemap com marcador exato. [[release-status]].
+- PR64 integrada, main/origin limpos 3e0025dbec4c12be9f5db272e6f36065ba72aacb; CI PR/main, Vercel Production Ready/SHA e paginas publicas conferidos. Somente documentacao; codigo funcional igual a 58e83db. [[release-status]].
 - Catalogo 44 EN/PT/ES; Rugby league 1. Guia golden point e pontos da tabela, tres fontes primarias e exemplo ficticio; CTA indice. [[editorial-publishing]].
 - Chrome autenticado acessivel; Ready PR60/61/62 pendentes resolvidos, PR63 completo. Nao assumir recuperacao do conector/CLI 403 nem alterar seguranca. [[trap-vercel-access]].
-- Checks: 11 Python, 101 unitarios/check, 36 Chromium; QA EN/PT/ES em 390/1280 px e publico. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-30T14:20:31.964Z: 9/9 feeds ready, snapshot pontual. [[release-status]].
+- Rechecagem: 36 WebKit iPhone-profile e 4.836 HTTP de carga local passaram, ate 30 clientes, P95 pico 132.20 ms; sem defeito funcional. Safari nativo indisponivel (simctl ausente), capacidade Vercel nao medida. [[validation-workflow]].
+- Ops 2026-10-30T15:46:48.152Z: 9/9 feeds ready, observacao pontual. [[release-status]].
 - TSE: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; RO, 2022 e quatro esportes preservados. Ultimo no-op: 30 outubro 13:06:07.772533Z, exit 0; /tmp/gld-tse-20261030-1305-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
 - Rotina TSE separada; preserve dados validos, gates e ausencias sem zeros inventados. [[refresh-tse-elections]].
 - Proxima rodada compara 44 artigos e apura no maximo uma pauta; pular sem evidencia suficiente. [[editorial-publishing]].
@@ -143,3 +143,4 @@ Ultimo handoff: [[2026-10-30-rugby-editorial-release]].
 - [[2026-10-30-brasileirao-editorial-release]] - Handoff atual.
 - [[2026-10-30-dexter-editorial-release]] - Handoff atual.
 - [[2026-10-30-rugby-editorial-release]] - Handoff atual.
+- [[2026-10-30-mobile-load-validation]] - Handoff mobile/carga.

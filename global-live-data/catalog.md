@@ -14,7 +14,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
 | [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
-| [[current]] (current.md) | estado | "PR63 publicada e verificada; Ready PR60-63 encerrados." | [global-live-data, estado, eleicoes, release] | 118 | 121 |
+| [[current]] (current.md) | estado | "PR64 consolida WebKit e carga; sem defeito funcional, Ready verificado." | [global-live-data, estado, eleicoes, release] | 119 | 122 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 6 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 7 | 7 |
@@ -36,7 +36,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-19-repair-usgs-refresh]] (decisions/2026-10-19-repair-usgs-refresh.md) | decisao | "Corrigir o frescor USGS, testar, integrar e publicar por autorizacao explicita." | [global-live-data, decisao, usgs, cache] | 5 | 5 |
 | [[2026-10-20-publish-brasileirao-prepare-nba]] (decisions/2026-10-20-publish-brasileirao-prepare-nba.md) | decisao | "Publicar Brasileirao e deixar NBA preparada sem chave, conforme escolha explicita." | [global-live-data, produto, autorizacao] | 4 | 3 |
 | [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 12 | 12 |
-| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 147 | 148 |
+| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 148 | 149 |
 | [[api-data-adequacy]] (notes/api-data-adequacy.md) | conceito | "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas." | [global-live-data, dados, qualidade, produto] | 13 | 13 |
 | [[brand-name-testing]] (notes/brand-name-testing.md) | conceito | "Teste local PT/EN/ES preparado para dois nomes; sem participantes ou contratacao." | [global-live-data, conceito, pesquisa, lancamento] | 5 | 5 |
 | [[brasileirao-nba-feeds]] (notes/brasileirao-nba-feeds.md) | conceito | "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave." | [global-live-data, esportes, fornecedores] | 10 | 10 |
@@ -53,13 +53,13 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[nature-portal]] (notes/nature-portal.md) | "conceito" | "Produto implementado, idiomas e limites de informacao." | ["global-live-data", "conceito"] | 4 | 4 |
 | [[provider-cache]] (notes/provider-cache.md) | "conceito" | "Cache do framework, cache por processo e timestamps diferentes." | ["global-live-data", "conceito"] | 14 | 14 |
 | [[public-contact]] (notes/public-contact.md) | "conceito" | "Contato publico separado do identificador MET e lacunas de privacidade." | ["global-live-data", "conceito"] | 8 | 7 |
-| [[release-status]] (notes/release-status.md) | "conceito" | "Evidencias de merge, CI e publicacao Vercel." | ["global-live-data", "conceito"] | 91 | 92 |
+| [[release-status]] (notes/release-status.md) | "conceito" | "Evidencias de merge, CI e publicacao Vercel." | ["global-live-data", "conceito"] | 92 | 93 |
 | [[sports-demand-priorities]] (notes/sports-demand-priorities.md) | conceito | "Demanda medida para cinco ligas e candidatos de API ainda sujeitos a validacao." | [global-live-data, produto, esportes, demanda] | 6 | 7 |
 | [[sports-election-feeds]] (notes/sports-election-feeds.md) | "conceito" | "Hoquei, xadrez e resultados eleitorais publicados: fontes e limites." | ["global-live-data", "conceito", "esportes", "eleicoes"] | 14 | 13 |
 | [[sports-fx-depth]] (notes/sports-fx-depth.md) | conceito | "Calendarios/time/classificacao e serie cambial30/90dias com limites verificaveis." | [global-live-data, dados, entrega] | 10 | 10 |
 | [[trends-tv-discovery]] (notes/trends-tv-discovery.md) | conceito | "Buscas regionais e programacao de TV com fontes reais, cobertura e direitos explicitos." | [global-live-data, conceito, discovery] | 16 | 16 |
 | [[usgs-earthquakes]] (notes/usgs-earthquakes.md) | "conceito" | "Fonte USGS limitada a janela movel de 24 horas." | ["global-live-data", "conceito"] | 8 | 8 |
-| [[validation-workflow]] (notes/validation-workflow.md) | "conceito" | "Checks locais e CI sem confundir fixtures com dados reais." | ["global-live-data", "conceito"] | 51 | 51 |
+| [[validation-workflow]] (notes/validation-workflow.md) | "conceito" | "Checks locais e CI sem confundir fixtures com dados reais." | ["global-live-data", "conceito"] | 52 | 52 |
 | [[project]] (project.md) | "fundamentos" | "Objetivo de produto e limites das fases." | ["global-live-data", "fundamentos"] | 17 | 17 |
 | [[refresh-tse-elections]] (runbooks/refresh-tse-elections.md) | procedimento | "Heartbeat local e comando limitado para reconciliar e publicar atualizacoes TSE." | [global-live-data, eleicoes, automacao, dados] | 18 | 18 |
 | [[resume-publication]] (runbooks/resume-publication.md) | "procedimento" | "Retomar hospedagem somente com nova instrucao e alvo confirmado." | ["global-live-data", "procedimento"] | 6 | 6 |
@@ -144,8 +144,9 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-29-mls-editorial-release]] (sessions/2026-10-29-mls-editorial-release.md) | sessao | "PR58 integrada, MLS servido EN/PT/ES; Ready direto pendente." | [global-live-data, sessao, editorial, release] | 7 | 7 |
 | [[2026-10-30-brasileirao-editorial-release]] (sessions/2026-10-30-brasileirao-editorial-release.md) | sessao | "PR61 integrada; guia Brasileirao EN/PT/ES acessivel; Ready direto pendente." | [global-live-data, sessao, editorial, release] | 7 | 7 |
 | [[2026-10-30-dexter-editorial-release]] (sessions/2026-10-30-dexter-editorial-release.md) | sessao | "PR62 integrada; guia Dexter EN/PT/ES acessivel; Ready direto pendente." | [global-live-data, sessao, editorial, release] | 6 | 6 |
+| [[2026-10-30-mobile-load-validation]] (sessions/2026-10-30-mobile-load-validation.md) | sessao | "WebKit 36 e carga de 4.836 HTTP passaram; PR64 consolida docs, sem patch funcional." | [global-live-data, sessao, validacao, release] | 5 | 5 |
 | [[2026-10-30-rugby-editorial-release]] (sessions/2026-10-30-rugby-editorial-release.md) | sessao | "PR63 publica guia de rugby EN/PT/ES; Ready PR60-63 verificado." | [global-live-data, sessao, editorial, release] | 6 | 6 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 82 | 82 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 83 | 83 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |

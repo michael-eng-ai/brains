@@ -676,6 +676,14 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-30T14:20:33.
 
 Pendencias anteriores encerradas pelo painel em 30 outubro, 14:11-14:14 UTC: PR60 Ready/Production/main f86a9047aad6ef82ccc8b11a9deca4572e88194f (26s), PR61 70934070ccdc1c166427cc3324f14283998488da (34s), PR62 c6f1ca34851cb1e6521c938e644e0540bc64b1d5 (30s). PR60/61 Stale por sucessao; PR62 Current antes desta publicacao. Comentarios 6524928038 / 6524928483 / 6524928887 nas respectivas PRs. Nenhuma credencial, permissao ou redeploy; [[trap-vercel-access]].
 
+## PR64: consolidacao WebKit/carga publicada
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/64 integrada 2026-10-30T15:45:32Z; head 6deaf8950a89dfb63370f32b90d0910cbe7e8201; main/origin 3e0025dbec4c12be9f5db272e6f36065ba72aacb, mesma arvore aprovada. Somente docs/OPERATIONS.md e docs/HANDOFF.md; codigo funcional igual a 58e83db testado. Nenhum patch de aplicacao necessario. Avisos de build existentes: npm cache-dir e deprecacao ESLint 9.39.5; nenhum ajuste incidental de dependencias. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41082914579 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/41083652637: dois jobs success em cada. Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/64#issuecomment-6526974622 .
+
+Production Ready/Current/main/SHA integral observado no painel em 2026-10-30T15:46:44Z, build 32s. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/7oxeoEEJyG3Cxbdo22HQpLLj79up ; URL unica https://global-live-data-59r6arxnt-michael-eng-ais-projects.vercel.app . GitHub deployment 7442532494, success em 2026-10-30T15:46:09Z. Integracao Git existente; nenhum deploy duplicado ou alteracao de seguranca.
+
+Nove paginas EN/PT/ES e sitemap conferidos em 2026-10-30T15:46:50.172Z com marcador publico exato; navegacao WebKit novamente passou, console limpo. Ops 2026-10-30T15:46:48.152Z: 9/9 feeds ready, observacao pontual. Testes/metricas/limites em [[validation-workflow]]. Documentacao consolidada nao representa uma correcao funcional inexistente. Temporarios /tmp/gld-mobile-20261030-*.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -774,3 +782,4 @@ Pendencias anteriores encerradas pelo painel em 30 outubro, 14:11-14:14 UTC: PR6
 - [[2026-10-30-brasileirao-editorial-release]] - Commit, CI, publico e limite da verificacao Ready.
 - [[2026-10-30-dexter-editorial-release]] - Commit, CI, paginas publicas e limite Ready.
 - [[2026-10-30-rugby-editorial-release]] - CI, SHA, Ready e paginas publicas.
+- [[2026-10-30-mobile-load-validation]] - Commit, CI, Ready e verificacao publica.
