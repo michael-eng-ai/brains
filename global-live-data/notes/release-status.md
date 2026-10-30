@@ -664,6 +664,18 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-30T08:18:20.
 
 11 Python, 101 unitarios/check, 36 Chromium passaram na primeira execucao completa. WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes e mtime; TSE nao reexecutado nesta rodada editorial. Ops unico 2026-10-30T08:18:18.475Z: 9/9 feeds ready; observacao pontual. Navegadores QA e servidor proprio 3102 encerrados, piloto 3147 preservado. Temporarios /tmp/gld-dexter-*.
 
+## PR63: rugby league publicado e Ready verificado
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/63 integrada 2026-10-30T14:19:31Z; head fc282b1d2b676549034b457dfad5096efa623cbd; main/origin 58e83db27dd8b1535467bd3b9fb8d034a38227a2, mesma arvore aprovada. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41070515751 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/41070876650: dois jobs success em cada. Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/63#issuecomment-6525096922 .
+
+GitHub deployment 7440598389, Production/success em 2026-10-30T14:20:09Z, SHA 58e83db27dd8b1535467bd3b9fb8d034a38227a2. Deployment dpl_AftDnVpxGmYdsUnWjBQsF6R3ktV7. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/AftDnVpxGmYdsUnWjBQsF6R3ktV7 ; URL unica https://global-live-data-5j4c2obhy-michael-eng-ais-projects.vercel.app . Painel autenticado confirmou Production Ready/Current/main/SHA integral em 2026-10-30T14:20:28Z; build 32s. Previa tambem Ready, build 28s no head esperado. Integracao Git existente, sem deploy duplicado ou alteracao de acesso.
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-30T14:20:33.192Z; titulo, canonical/hreflang, Article JSON-LD, tres referencias, datas, disclosure, destino indice e sitemap passaram. Guia https://global-live-data.vercel.app/pt/trending/rugby-league-world-cup-2026-golden-point . QA local EN/PT/ES em 390/1280px: filtro Rugby league 1, teclado, idiomas, sumario/fontes, CTA e retorno. Cinco capturas locais e duas publicas inspecionadas, sem overflow/overlays. Console local somente favicon 404; console publico sem erros ou avisos.
+
+11 Python, 101 unitarios/check e 36 Chromium passaram. Typecheck inicial encontrou icone omitido no novo filtro; corrigido e suites completas repetidas com sucesso. Harness manual corrigido para aguardar navegacao e usar fragmento real; sem mudanca de produto. WebKit/iOS/carga nao repetidos. Sete JSON historicos conservaram bytes/mtime. Ops unico 2026-10-30T14:20:31.964Z: 9/9 feeds ready, snapshot pontual. TSE nao reexecutado nesta rodada. Servidor proprio 3102 e navegador QA encerrados; piloto 3147 preservado. Temporarios /tmp/gld-rugby-*.
+
+Pendencias anteriores encerradas pelo painel em 30 outubro, 14:11-14:14 UTC: PR60 Ready/Production/main f86a9047aad6ef82ccc8b11a9deca4572e88194f (26s), PR61 70934070ccdc1c166427cc3324f14283998488da (34s), PR62 c6f1ca34851cb1e6521c938e644e0540bc64b1d5 (30s). PR60/61 Stale por sucessao; PR62 Current antes desta publicacao. Comentarios 6524928038 / 6524928483 / 6524928887 nas respectivas PRs. Nenhuma credencial, permissao ou redeploy; [[trap-vercel-access]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -761,3 +773,4 @@ Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-30T08:18:20.
 - [[2026-10-29-chess-ratings-editorial-release]] - Evidencias e pendencia Ready da PR60.
 - [[2026-10-30-brasileirao-editorial-release]] - Commit, CI, publico e limite da verificacao Ready.
 - [[2026-10-30-dexter-editorial-release]] - Commit, CI, paginas publicas e limite Ready.
+- [[2026-10-30-rugby-editorial-release]] - CI, SHA, Ready e paginas publicas.

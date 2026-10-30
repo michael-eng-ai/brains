@@ -353,6 +353,12 @@ Pesquisa unica Node 24 nos seis mercados: exit 0, 60 leads. US "when does dexter
 
 Ledger docs/editorial/2026-10-30-dexter-premiere.md e slug dexter-resurrection-2026-premiere-guide EN/PT/ES. Tres publicacoes primarias do mesmo grupo Paramount lidas ate 08:04:44Z: anuncio de 8 setembro, comunicado SHOWTIME de 1 outubro e atualizacao corporativa de 29 outubro. A serie foi anunciada para 30 outubro; o horario 31 outubro 9h PT/12h ET pertence ao pos-programa Final Cut. Nenhum horario de liberacao dos episodios aparece nas tres fontes. Python e Node verificaram oito conversoes, incluindo Toquio em 1 novembro. Nao afirmar reproducao testada, catalogo/plano universal, numero de episodios ou calendario semanal da serie. Sem copiar texto promocional, imagens ou contatos. CTA TV existente; agenda colaborativa TVmaze nao transmite episodios. [[release-status]].
 
+## Rugby league: 30 outubro, rodada 14:02 UTC
+
+Uma pesquisa Node 24 nos seis mercados, exit 0, 60 leads. GB "england rugby league world cup", observado 14:02:37.769Z, faixa 2000+, inicio 13:30 UTC. Sinal datado, nao volume mensal/previsao de views. Comparados 43 artigos; catalogo agora 44, Rugby league um filtro de leitura.
+
+Ledger docs/editorial/2026-10-30-rugby-golden-point.md e slug rugby-league-world-cup-2026-golden-point EN/PT/ES. IRL, NRL e RFL lidos ate 14:06:03Z. Guia limitado ao Mundial masculino/feminino de 2026: golden point, primeira pontuacao, troca de lado apos cinco minutos sem pontos, try decisivo sem conversao. Vitoria rende dois pontos de tabela, derrota zero. Exemplo A 22-18 B explicitamente ficticio; Python/Node verificaram margem e 2+2+0=4. Wheelchair tem regras separadas; nao importar leis antigas/genericas, resultado real, classificacao, horario ou transmissao. CTA indice existente; nenhum feed de rugby. [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -410,3 +416,4 @@ Ledger docs/editorial/2026-10-30-dexter-premiere.md e slug dexter-resurrection-2
 - [[2026-10-29-chess-ratings-editorial-release]] - Apuracao e limites do guia de ratings.
 - [[2026-10-30-brasileirao-editorial-release]] - Apuracao, demanda datada e limites editoriais.
 - [[2026-10-30-dexter-editorial-release]] - Demanda datada, fontes e distincao entre serie e pos-programa.
+- [[2026-10-30-rugby-editorial-release]] - Pauta, fontes e limites do guia.

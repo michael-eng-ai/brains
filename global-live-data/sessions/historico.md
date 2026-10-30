@@ -176,6 +176,8 @@ atualizado: "2026-10-30"
 
 - 2026-10-30, 08:00 UTC: PR62 guia Dexter EN/PT/ES integrada; CI/SHA/Production-success/publico conferidos; Ready direto PR60/61/62 pendente. [[2026-10-30-dexter-editorial-release]].
 
+- 2026-10-30, 14:02 UTC: PR63 guia rugby EN/PT/ES publicada; CI/Ready/SHA/publico verificados; pendencias Ready PR60/61/62 encerradas. [[2026-10-30-rugby-editorial-release]].
+
 ## Conexoes
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
@@ -259,3 +261,4 @@ atualizado: "2026-10-30"
 - [[2026-10-29-chess-ratings-editorial-release]] - Integracao xadrez e pendencia de verificacao.
 - [[2026-10-30-brasileirao-editorial-release]] - Guia de desempate e evidencias verificadas.
 - [[2026-10-30-dexter-editorial-release]] - Guia Dexter e verificacao de release.
+- [[2026-10-30-rugby-editorial-release]] - Publicacao do guia rugby e recibos completos.
