@@ -359,7 +359,16 @@ Uma pesquisa Node 24 nos seis mercados, exit 0, 60 leads. GB "england rugby leag
 
 Ledger docs/editorial/2026-10-30-rugby-golden-point.md e slug rugby-league-world-cup-2026-golden-point EN/PT/ES. IRL, NRL e RFL lidos ate 14:06:03Z. Guia limitado ao Mundial masculino/feminino de 2026: golden point, primeira pontuacao, troca de lado apos cinco minutos sem pontos, try decisivo sem conversao. Vitoria rende dois pontos de tabela, derrota zero. Exemplo A 22-18 B explicitamente ficticio; Python/Node verificaram margem e 2+2+0=4. Wheelchair tem regras separadas; nao importar leis antigas/genericas, resultado real, classificacao, horario ou transmissao. CTA indice existente; nenhum feed de rugby. [[release-status]].
 
+## Mexico GP: 30 outubro, rodada 20:12 UTC
+
+Uma pesquisa Node24 nos seis mercados, exit0,60 leads. ES `gran premio de méxico`, observado20:12:42.165Z, faixa200+, inicio19:30UTC. Comparados44 artigos; catalogo45 e Motorsport2. Sinal RSS datado, nao volume mensal ou promessa de views.
+
+Slug mexico-gp-2026-times-clock-change EN/PT/ES; ledger docs/editorial/2026-10-30-mexico-gp-times.md. Quatro corpos primarios lidos ate20:13:26Z: agenda F1, guia F1 de27/10, organizador MexicoGP e NIST. Classificacao31/10 15h e corrida01/11 14h locais Mexico; Python zoneinfo e Node Intl concordaram nas16 conversoes, incluindo02/11 na Asia e mudanca US em01/11. Preservar a URL incomum do timetable exatamente como verificada, sem reconstruir identificador.
+
+CTA para weather/mexico-city existente; previsao urbana nao e medicao do circuito/direcao de prova. Sem resultado, cronometragem, transmissao garantida, novo feed/imagem ou filtro. Disclosures de apoio de IA e ausencia de revisao humana preservados. Recibos e limites em [[release-status]] e [[validation-workflow]].
+
 ## Conexoes
+- [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[index]] - Entrada.
 - [[current]] - Retomada.
 - [[2026-10-16-auto-editorial]] - Escolha do proprietario.

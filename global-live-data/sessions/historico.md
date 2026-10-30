@@ -182,7 +182,10 @@ atualizado: "2026-10-30"
 
 - 2026-10-30 | Safari nativo preparado/testado; PR65 corrige picker, PR66 sincroniza teste FX; CI final e Ready verificados. [[2026-10-30-native-safari-fix]].
 
+- 2026-10-30,20:12UTC: PR67 publicou guia Mexico GP EN/PT/ES; quatro fontes,16conversoes,CI/Ready/publico verificados; Lisboa MET stale. [[2026-10-30-mexico-gp-editorial-release]].
+
 ## Conexoes
+- [[2026-10-30-mexico-gp-editorial-release]] - Publicacao Mexico GP e recibos.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.

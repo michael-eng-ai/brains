@@ -696,7 +696,18 @@ Em 17:29:10.241183Z, paginas anonimas /en/nature, /pt/nature e /es/nature retorn
 
 Ops 17:18:08.712Z e final 17:28:56.555Z: oito feeds ready; MET Lisboa stale, exit1. Registar como pendencia de atualidade da fonte, nao como falha de deploy nem dado zerado. Sem consultas repetidas para forcar recuperacao. Servidor proprio3102 encerrado; piloto3147 preservado. Nenhuma mudanca em fornecedores, historicos, dependencias, chaves, analytics, DNS, custo ou automacoes.
 
+## PR67: horarios Mexico GP publicados, 30 outubro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/67 integrada20:24:00Z; head 339158cacd533c3ace622501ca62d45eb055da8c e main/origin limpos 0c8be70b01719617744382f4c7bd84b11030b534, arvores identicas. Ambos os jobs success em PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41122534694 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/41122880566 . Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/67#issuecomment-6532780357 .
+
+Painel autenticado confirmou Production/Ready/Current,main e SHA integral,build30s: https://vercel.com/michael-eng-ais-projects/global-live-data/6whCE5PoTCiLYEmhKhHVgC5pAWnm . URL unica https://global-live-data-el1cmtfwc-michael-eng-ais-projects.vercel.app . GitHub deployment7448049353 Production/success20:24:35Z. Integracao Git existente, sem deploy duplicado, nova permissao ou credencial.
+
+Guia https://global-live-data.vercel.app/pt/trending/mexico-gp-2026-times-clock-change ; anonimo PT/EN/ES HTTP200,conteudo/metadata/fontes/sitemap e fluxos mobile/desktop verificados em20:25:10.740Z. HTML/CSP e marcador dpl_6whCE5PoTCiLYEmhKhHVgC5pAWnm confirmados nos tres idiomas20:26:19.075Z. Evidencias temporarias /tmp/gld-mexico-public-result.json e /tmp/gld-mexico-public-deployment.json. Validacao e limites em [[validation-workflow]].
+
+Ops unico20:25:01.813Z,exit1: oito feeds ready, MET Lisboa continua stale; sourceUpdatedAt17:17:28Z,checkedAt19:25:55Z,expiresAt19:43:10Z. Pendencia ja registrada, distinta de falha de release; nao modificar datas/cache/backoff por suposicao nem repetir probes para forcar recuperacao. TSE/historicos/providers/dependencias/configuracoes/automacoes inalterados.
+
 ## Conexoes
+- [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.

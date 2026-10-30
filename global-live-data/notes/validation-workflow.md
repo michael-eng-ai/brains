@@ -234,7 +234,16 @@ Local 320/1280 visualmente inspecionado, sem overflow/erro de console. Publico E
 
 Continuacao tecnica: Xcode 27 usa /Applications/Xcode.app/Contents/Applications/DeviceHub.app; Simulator.app antigo ausente. AX nativo mostra barras/teclado, nao DOM web; confirmar screenshot apos transicao antes de clicar. Para Node 24 usar binario verificado, nao confiar no symlink Homebrew node@24 (reportou 25.8.0). Python HTTPS requer bundle /etc/ssl/cert.pem neste ambiente, mantendo verificacao TLS.
 
+## Guia Mexico GP, 30 outubro 20:12 UTC
+
+Node24.22.1/Python3.12.4: check completo com101 unitarios, lint/types, history build, Next build e HTTPsmoke; Python11 e Chromium36 passaram. Dezesseis conversoes conferidas independentemente com zoneinfo/Intl. Seis fluxos locais EN/PT/ES em390/1280px passaram filtro Motorsport2, teclado, idiomas, sumario/fontes, metadata, CTA para previsao e retorno; espanhol legivel sem JavaScript. Capturas locais/publicas inspecionadas, sem overflow/overlay/erros/avisos finais ou fetch Trends. Browser skill indisponivel; Playwright do repo para QA, CUA para painel autenticado.
+
+Harness temporario inicial usou label exato do select e presumiu heading traduzido; labels reais/curadoria corrigiram apenas asserts, sem patch no produto. Screenshot inicial apos click capturou antes do smooth-scroll; captura refeita com scrollIntoViewIfNeeded/toBeInViewport. Scripts temporarios nao entram no repo. WebKit, Safari iOS nativo e carga nao repetidos para esta edicao; resultados anteriores nao sao novas execucoes.
+
+Publico20:25:10.740Z: PT390/EN1280/ES390, HTTP200,16 conversoes, quatro fontes, AI disclosure, canonical/hreflang/ArticleJSONLD, filtro/teclado/locale/ancora e sitemap passaram. CTA publico validado por href; abertura local com MET desativado nao comprova tempo real mexicano. Capturas publicas PTtopo/ENleitura inspecionadas. Extracao de marcador em query de scripts retornou vazio; verificacao do HTML bruto em20:26:19.075Z confirmou marcador exato/CSP nos tres idiomas. Recibos em [[release-status]]. Servidor proprio3102 encerrado; piloto3147 preservado. Temporarios /tmp/gld-mexico-*.
+
 ## Conexoes
+- [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
 - [[development-dependencies]] - Auditoria de dependencias e restricao de compatibilidade do lint.
