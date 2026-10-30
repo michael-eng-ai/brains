@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-10-30-dexter-editorial-release]] - Guia Dexter, PR62 e Ready pendente.
 - [[2026-10-30-brasileirao-editorial-release]] - Guia Brasileirao, PR61 e Ready pendente.
 - [[2026-10-29-chess-ratings-editorial-release]] - Guia de ratings FIDE, PR60 e Ready pendente.
 - [[2026-10-29-gdp-editorial-release]] - Guia PIB publicado e Ready anterior resolvido.
@@ -323,3 +324,4 @@ Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita,
 - [[2026-10-29-gdp-editorial-release]] - Handoff PIB.
 - [[2026-10-29-chess-ratings-editorial-release]] - Handoff xadrez.
 - [[2026-10-30-brasileirao-editorial-release]] - Handoff Brasileirao.
+- [[2026-10-30-dexter-editorial-release]] - Handoff Dexter.

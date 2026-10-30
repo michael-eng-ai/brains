@@ -347,6 +347,12 @@ Pesquisa unica Node24 nos seis mercados: exit0, 60 leads. BR classificacao do br
 
 Ledger docs/editorial/2026-10-30-brasileirao-tiebreak.md e slug brasileirao-2026-wins-goal-difference-guide EN/PT/ES. Duas fontes primarias lidas ate02:14:31Z: CBF REC2026 art15 para vitorias antes de saldo na classificacao final; Palmeiras para as colunas da tabela. Paginas HTML CBF com502/certificado nao utilizadas; TLS preservado. Exemplo inteiramente ficticio A/B com48pontos,14/13vitorias,+1/+20saldo; Python/Node verificaram a comparacao. Sem copiar linhas atuais, imagens ou prognosticos. CTA direto para Brasileirao existente, mantendo ordem e limites do provedor. [[brasileirao-nba-feeds]], [[release-status]].
 
+## Dexter: 30 outubro, rodada 08:00 UTC
+
+Pesquisa unica Node 24 nos seis mercados: exit 0, 60 leads. US "when does dexter resurrection 2 come out", observado 08:01:29.975Z, faixa 200+, inicio 07:10 UTC; BR "dexter ressurreicao 2 temporada", 08:01:30.584Z, faixa 200+, inicio 03:30 UTC. Nao sao volumes mensais nem previsao de trafego. Comparados 42 artigos: guia de estreia distinto do explicador sobre app/assinatura Apple TV. Catalogo 43; Streaming 2.
+
+Ledger docs/editorial/2026-10-30-dexter-premiere.md e slug dexter-resurrection-2026-premiere-guide EN/PT/ES. Tres publicacoes primarias do mesmo grupo Paramount lidas ate 08:04:44Z: anuncio de 8 setembro, comunicado SHOWTIME de 1 outubro e atualizacao corporativa de 29 outubro. A serie foi anunciada para 30 outubro; o horario 31 outubro 9h PT/12h ET pertence ao pos-programa Final Cut. Nenhum horario de liberacao dos episodios aparece nas tres fontes. Python e Node verificaram oito conversoes, incluindo Toquio em 1 novembro. Nao afirmar reproducao testada, catalogo/plano universal, numero de episodios ou calendario semanal da serie. Sem copiar texto promocional, imagens ou contatos. CTA TV existente; agenda colaborativa TVmaze nao transmite episodios. [[release-status]].
+
 ## Conexoes
 - [[index]] - Entrada.
 - [[current]] - Retomada.
@@ -403,3 +409,4 @@ Ledger docs/editorial/2026-10-30-brasileirao-tiebreak.md e slug brasileirao-2026
 - [[2026-10-29-gdp-editorial-release]] - Apuracao e limites do guia PIB.
 - [[2026-10-29-chess-ratings-editorial-release]] - Apuracao e limites do guia de ratings.
 - [[2026-10-30-brasileirao-editorial-release]] - Apuracao, demanda datada e limites editoriais.
+- [[2026-10-30-dexter-editorial-release]] - Demanda datada, fontes e distincao entre serie e pos-programa.

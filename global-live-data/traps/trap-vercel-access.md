@@ -88,6 +88,10 @@ PR60: GitHub Production/success/SHA e alias publico verificados; Ready direto co
 
 CUA getApp Google Chrome confirmou novamente Mac bloqueado. Pedido anterior continua pendente: nao repetir pergunta, chamadas403, extrair credenciais ou mudar seguranca. Verificacao publica e GitHub nao desbloqueiam o painel. PR60 segue pendente; PR61 tambem precisa de observacao direta de Ready, Production, main e commit 70934070ccdc1c166427cc3324f14283998488da em https://vercel.com/michael-eng-ais-projects/global-live-data/5rK2Xx1ntKspQYMn6ushKwkcE4jm . Complete os recibos existentes quando houver acesso; nao gere outro deploy para isso. [[release-status]].
 
+## Rechecagem em 30 outubro, rodada 08:00 UTC
+
+CUA getApp Google Chrome confirmou Mac bloqueado. Pedido anterior nao respondido e nao repetido; sem novas tentativas 403, extracao de credenciais ou alteracao de seguranca. PR60/61 ainda pendentes; PR62 precisa de observacao direta de Ready, Production, main e SHA c6f1ca34851cb1e6521c938e644e0540bc64b1d5 em https://vercel.com/michael-eng-ais-projects/global-live-data/3QDfS1ZVihjQwZFeEksrt8BS5Tim . GitHub Production/success e paginas com deployment exato foram verificados, mas nao substituem esse campo. Complete os recibos existentes quando houver acesso, sem redeploy. [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
@@ -111,3 +115,4 @@ CUA getApp Google Chrome confirmou novamente Mac bloqueado. Pedido anterior cont
 - [[2026-10-29-gdp-editorial-release]] - Resolucao de acesso e verificacao direta.
 - [[2026-10-29-chess-ratings-editorial-release]] - Nova pendencia de acesso, preservando recibos anteriores.
 - [[2026-10-30-brasileirao-editorial-release]] - Pendencia de acesso sem repeticao de autorizacao.
+- [[2026-10-30-dexter-editorial-release]] - Confirmacao do impedimento e recibo pendente.

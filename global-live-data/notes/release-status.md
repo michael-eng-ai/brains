@@ -654,6 +654,16 @@ Nove paginas anonimas EN/PT/ES HTTP200 e marcador exato em 2026-10-30T02:23:47.8
 
 11 Python,101 unitarios/check,36 Chromium passaram na primeira execucao completa. WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes e mtime; TSE nao reexecutado nesta rodada editorial. Ops unico 2026-10-30T02:23:56.896Z: 9/9 feeds ready; observacao pontual. Navegadores QA e servidor proprio3102 encerrados, piloto3147 preservado. Temporarios /tmp/gld-brasileirao-*.
 
+## PR62: guia Dexter acessivel; Ready direto pendente
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/62 integrada 2026-10-30T08:16:58Z; head c29c245f241ad4d7e1c7a3314050e57d0fae1eb3; main/origin c6f1ca34851cb1e6521c938e644e0540bc64b1d5, mesma arvore aprovada. CI PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41025114931 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/41025398751: dois jobs success em cada. Recibo duravel https://github.com/michael-eng-ai/global-live-data/pull/62#issuecomment-6518355305 .
+
+GitHub deployment 7433802712, Production, success em 2026-10-30T08:17:34Z, SHA c6f1ca34851cb1e6521c938e644e0540bc64b1d5. Deployment dpl_3QDfS1ZVihjQwZFeEksrt8BS5Tim. Dashboard https://vercel.com/michael-eng-ais-projects/global-live-data/3QDfS1ZVihjQwZFeEksrt8BS5Tim ; URL unica https://global-live-data-ekeoxn99g-michael-eng-ais-projects.vercel.app . Ready direto NAO observado: CUA confirmou Mac bloqueado nesta rodada. Pedido anterior segue sem resposta e nao foi repetido; PR60/61 tambem continuam pendentes. Nao tratar status GitHub como leitura do campo Ready nem redesplegar para completar recibo. [[trap-vercel-access]].
+
+Nove paginas anonimas EN/PT/ES HTTP 200 e marcador exato em 2026-10-30T08:18:20.254Z; titulo, canonical/hreflang, Article JSON-LD, tres referencias, datas, disclosure, destino TV e sitemap passaram. Guia https://global-live-data.vercel.app/pt/trending/dexter-resurrection-2026-premiere-guide . QA local EN/PT/ES em 390/1280 px: filtro Streaming 2, teclado, idiomas, sumario/fontes, CTA TV e retorno. Cinco capturas locais e duas publicas inspecionadas, sem overflow ou overlays. Console local: somente favicon 404; publico: nenhum erro ou aviso. API TV simulada 503 apenas na navegacao local; nao e probe do provedor.
+
+11 Python, 101 unitarios/check, 36 Chromium passaram na primeira execucao completa. WebKit/iOS/carga nao repetidos. Sete JSON historicos mantiveram bytes e mtime; TSE nao reexecutado nesta rodada editorial. Ops unico 2026-10-30T08:18:18.475Z: 9/9 feeds ready; observacao pontual. Navegadores QA e servidor proprio 3102 encerrados, piloto 3147 preservado. Temporarios /tmp/gld-dexter-*.
+
 ## Conexoes
 - [[index]] - Mapa de conhecimento.
 - [[release-status]] - Evidencias verificadas da entrega.
@@ -750,3 +760,4 @@ Nove paginas anonimas EN/PT/ES HTTP200 e marcador exato em 2026-10-30T02:23:47.8
 - [[2026-10-29-gdp-editorial-release]] - Recibos da publicacao PIB.
 - [[2026-10-29-chess-ratings-editorial-release]] - Evidencias e pendencia Ready da PR60.
 - [[2026-10-30-brasileirao-editorial-release]] - Commit, CI, publico e limite da verificacao Ready.
+- [[2026-10-30-dexter-editorial-release]] - Commit, CI, paginas publicas e limite Ready.

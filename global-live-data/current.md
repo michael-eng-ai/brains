@@ -1,23 +1,23 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR61 integrada e publico verificado; Ready direto PR60/61 pendente."
+resumo: "PR62 integrada e publico verificado; Ready direto PR60/61/62 pendente."
 tags: [global-live-data, estado, eleicoes, release]
 atualizado: "2026-10-30"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-30-brasileirao-editorial-release]].
+Ultimo handoff: [[2026-10-30-dexter-editorial-release]].
 
-- PR61 integrada, main/origin limpos 70934070ccdc1c166427cc3324f14283998488da; ambos CI PR/main e GitHub Production/success/SHA conferidos. Nove paginas publicas/sitemap com marcador exato. Campo Ready direto ainda pendente. [[release-status]].
-- Catalogo: 42 artigos EN/PT/ES, nove de futebol; guia Brasileirao com duas referencias e exemplo ficticio; CTA direto para pagina existente. [[editorial-publishing]], [[brasileirao-nba-feeds]].
-- Mac segue bloqueado; pedido anterior nao repetido. Ready PR60 e PR61 pendentes; PR56-59 resolvidos. Nao repetir chamadas 403, alterar seguranca ou redesplegar. [[trap-vercel-access]].
+- PR62 integrada, main/origin limpos c6f1ca34851cb1e6521c938e644e0540bc64b1d5; ambos CI PR/main e GitHub Production/success/SHA conferidos. Nove paginas/sitemap com marcador exato. Campo Ready direto pendente. [[release-status]].
+- Catalogo 43 EN/PT/ES; Streaming 2. Guia Dexter com tres referencias distingue data da serie e horario do pos-programa; CTA TV existente. [[editorial-publishing]].
+- Mac bloqueado; pedido anterior nao repetido. Ready PR60/61/62 pendentes; PR56-59 resolvidos. Nao repetir 403, alterar seguranca ou redesplegar. [[trap-vercel-access]].
 - Checks: 11 Python, 101 unitarios/check, 36 Chromium; QA EN/PT/ES em 390/1280 px e publico. WebKit/iOS/carga nao repetidos. [[release-status]].
-- Ops 2026-10-30T02:23:56.896Z: 9/9 feeds ready; snapshot pontual. [[release-status]].
-- TSE: 170 recortes e 1.997 agregados, turnos 1/2, sem quarentena; RO, 2022 e quatro esportes preservados. Ultimo no-op: 30 outubro 01:05:08.986648Z, exit 0; /tmp/gld-tse-20261030-0103-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
-- Rotina TSE separada; preservar versoes validas sem enfraquecer gates ou preencher ausencias com zero. [[refresh-tse-elections]].
-- Proxima rodada editorial compara 42 artigos e apura no maximo uma pauta util; pular se faltar evidencia. [[editorial-publishing]].
+- Ops 2026-10-30T08:18:18.475Z: 9/9 feeds ready, snapshot pontual. [[release-status]].
+- TSE: 170 recortes e 1.997 agregados, turnos 1/2, sem quarentena; RO, 2022 e quatro esportes preservados. Ultimo no-op: 30 outubro 07:02:46.422458Z, exit 0; /tmp/gld-tse-20261030-0701-receipt.json. [[brazil-election-comparison]], [[historical-editions]].
+- Rotina TSE separada; preserve versoes validas sem enfraquecer gates ou preencher ausencias com zero. [[refresh-tse-elections]].
+- Proxima rodada editorial compara 43 artigos e apura no maximo uma pauta; pular sem evidencia suficiente. [[editorial-publishing]].
 - Teste Global Live Data/Datasanti World PT/EN/ES segue piloto local gratuito, sem respostas reais ou compra. [[brand-name-testing]].
 - NBA preparada e desativada por escolha do dono. Dominio/Google e NBA real dependem dele. [[brasileirao-nba-feeds]], [[launch-readiness]].
 - Nenhum servico, conta, gasto, chave, DNS, anuncio, analytics, frequencia ou escopo alterado.
@@ -141,3 +141,4 @@ Ultimo handoff: [[2026-10-30-brasileirao-editorial-release]].
 - [[2026-10-29-gdp-editorial-release]] - Handoff atual.
 - [[2026-10-29-chess-ratings-editorial-release]] - Handoff atual.
 - [[2026-10-30-brasileirao-editorial-release]] - Handoff atual.
+- [[2026-10-30-dexter-editorial-release]] - Handoff atual.
