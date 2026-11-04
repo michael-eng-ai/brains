@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia de críquete publicado na PR68, com CI e produção verificados."
+resumo: "Guia EICMA e botão Voltar publicados na PR69; produção verificada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-04"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-04-lions-cricket-release]].
+Ultimo handoff: [[2026-11-04-eicma-visitors-release]].
 
-- PR68 publicou o guia dos seis jogos de West Indies A e England Lions em três idiomas. Main/origin 5b9e4a38e11734cc9ffed883f38167ec49c9aa7a, CI da PR e main, Production Ready e páginas públicas verificados. [[release-status]].
-- Catálogo com 46 artigos e cinco no filtro Críquete. Três fontes primárias, horários conferidos e navegação ao guia de overs. [[editorial-publishing]].
-- Verificações locais e públicas em mobile e desktop passaram. Última amostra operacional em 2026-11-04T01:07:55.857Z registrou 9 feeds ready. [[release-status]].
+- PR69 publicou o guia EICMA em PT/EN/ES e corrigiu a volta do câmbio à referência do artigo. Main 1389f4e9030b1a1b9ef1890087686454efa2201c, CI, Production Ready e páginas públicas verificadas. [[release-status]].
+- Catálogo com 47 artigos. Feiras é um filtro editorial; o alcance da página de câmbio permanece o mesmo. [[editorial-publishing]].
+- Amostra operacional separada em 2026-11-04T13:03:58.309Z: 8 de 9 feeds prontos; fx: error; câmbio USD sem cotação ou data de origem, próxima tentativa indicada para 2026-11-04T14:03:41.383Z. Reavaliar depois desse horário; causa não confirmada. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
-- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Última conferência separada em 4/11 às 00:57 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 06:58 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
 - Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Dominio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-04-eicma-visitors-release]] - Publicação da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Publicação da série de críquete.
 - [[2026-10-30-mexico-gp-editorial-release]] - Edicao Mexico GP e recibos finais.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.

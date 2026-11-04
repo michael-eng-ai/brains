@@ -714,7 +714,16 @@ Painel https://vercel.com/michael-eng-ais-projects/global-live-data/5YCai86ke4n8
 
 Uma consulta operacional em 2026-11-04T01:07:55.857Z registrou 9 feeds ready. O registro distingue essa amostra da verificação do artigo.
 
+## Guia EICMA e retorno ao artigo, PR69
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/69 . Head 4dd4e7b16b682c15adade195e7a6d2bf098808b8, main 1389f4e9030b1a1b9ef1890087686454efa2201c, árvores idênticas. Dois jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41833948121 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/41834439340. Recibo https://github.com/michael-eng-ai/global-live-data/pull/69#issuecomment-6631379630 .
+
+Vercel https://vercel.com/michael-eng-ais-projects/global-live-data/D86ZmeQNjp922bL3xJsoAJ6CcD98 mostrou Production Ready com branch main e o commit acima. Domínio exclusivo https://global-live-data-8mdm63x0q-michael-eng-ais-projects.vercel.app. As três páginas públicas responderam HTTP 200 com o marcador dpl_D86ZmeQNjp922bL3xJsoAJ6CcD98; jornadas em PT, EN e ES passaram em 2026-11-04T13:04:17.313Z, incluindo o retorno à referência, metadados, filtro e leitura sem JavaScript em espanhol. Guia https://global-live-data.vercel.app/pt/trending/eicma-2026-public-days-rho-fiera .
+
+Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis combinações de idioma/tamanho e jornada adicional WebKit (perfil iPhone 13) aprovadas. Tráfego à API na jornada de câmbio foi simulado. Verificação operacional separada em 2026-11-04T13:03:58.309Z: 8 de 9 feeds prontos; fx: error; câmbio USD sem cotação ou data de origem, próxima tentativa indicada para 2026-11-04T14:03:41.383Z. Reavaliar depois desse horário; causa não confirmada.
+
 ## Conexoes
+- [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.

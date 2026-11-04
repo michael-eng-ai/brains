@@ -186,7 +186,10 @@ atualizado: "2026-11-04"
 
 - 2026-11-04 00:58 UTC. Guia da série de críquete publicado na PR68. [[2026-11-04-lions-cricket-release]].
 
+- 2026-11-04. Guia da EICMA e correção do botão Voltar publicados na PR69. [[2026-11-04-eicma-visitors-release]].
+
 ## Conexoes
+- [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.
 - [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.
 - [[2026-10-30-mexico-gp-editorial-release]] - Publicacao Mexico GP e recibos.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.

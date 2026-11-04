@@ -371,7 +371,12 @@ CTA para weather/mexico-city existente; previsao urbana nao e medicao do circuit
 
 A pesquisa trouxe 60 termos em seis mercados. O termo indiano west indies england lions foi observado às 00:58:52.018 UTC na faixa 2000+. O livro de fatos docs/editorial/2026-11-04-lions-st-kitts.md reúne três publicações primárias. A agenda da CWI distingue o terceiro T20 em 4 de novembro das cinco partidas List A entre 7 e 16 de novembro. Python conferiu as datas e horas dos seis jogos em quatro fusos. A leitura leva ao artigo existente sobre placar e overs.
 
+## EICMA, 4 de novembro
+
+A observação espanhola de eicma às 07:01:56.365 UTC (faixa 100+) motivou o guia de acesso público. O livro de fatos docs/editorial/2026-11-04-eicma-public-days.md liga horários e regras de ingresso à EICMA e a tarifa de transporte à ATM Milano. A feira abre ao público de 5 a 8 de novembro, 09:30 a 18:30 locais; ingresso da tarde a partir de 13:30. O link interno abre o câmbio diário. Sem bilheteria, cobertura de trânsito ou novo provedor no portal.
+
 ## Conexoes
+- [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[index]] - Entrada.
