@@ -375,7 +375,12 @@ A pesquisa trouxe 60 termos em seis mercados. O termo indiano west indies englan
 
 A observação espanhola de eicma às 07:01:56.365 UTC (faixa 100+) motivou o guia de acesso público. O livro de fatos docs/editorial/2026-11-04-eicma-public-days.md liga horários e regras de ingresso à EICMA e a tarifa de transporte à ATM Milano. A feira abre ao público de 5 a 8 de novembro, 09:30 a 18:30 locais; ingresso da tarde a partir de 13:30. O link interno abre o câmbio diário. Sem bilheteria, cobertura de trânsito ou novo provedor no portal.
 
+## Táuridas, 4 de novembro
+
+A busca southern taurids meteor shower no feed GB às 19:01:40.082 UTC (faixa 1000+) levou à comparação das noites de 4 para 5 e 11 para 12 de novembro. O livro de fatos docs/editorial/2026-11-04-taurid-observing-nights.md diferencia os radiantes na constelação de Touro de hemisférios terrestres; os cinco meteoros por hora em condições ideais não são periodicidade garantida. Referências: AMS, NASA e IMO. Céu noturno passa a três artigos, com chamada interna para Natureza.
+
 ## Conexoes
+- [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.

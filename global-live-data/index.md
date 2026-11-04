@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-04-taurid-observing-release]] - As duas noites das Táuridas.
 - [[2026-11-04-eicma-visitors-release]] - Horários da feira e retorno à referência.
 - [[2026-11-04-lions-cricket-release]] - Série em São Cristóvão e horários em três idiomas.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP, PR67 e Ready completos.
@@ -188,6 +189,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-04-taurid-observing-release]] - PR70 e recibo de produção.
 - [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.
 - [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.
 - [[2026-10-30-mexico-gp-editorial-release]] - Handoff da publicacao Mexico GP.

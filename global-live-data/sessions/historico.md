@@ -188,7 +188,10 @@ atualizado: "2026-11-04"
 
 - 2026-11-04. Guia da EICMA e correção do botão Voltar publicados na PR69. [[2026-11-04-eicma-visitors-release]].
 
+- 2026-11-04. Guia das Táuridas publicado em três idiomas na PR70. [[2026-11-04-taurid-observing-release]].
+
 ## Conexoes
+- [[2026-11-04-taurid-observing-release]] - PR70 e verificação pública.
 - [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.
 - [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.
 - [[2026-10-30-mexico-gp-editorial-release]] - Publicacao Mexico GP e recibos.

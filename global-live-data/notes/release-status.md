@@ -722,7 +722,16 @@ Vercel https://vercel.com/michael-eng-ais-projects/global-live-data/D86ZmeQNjp92
 
 Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis combinações de idioma/tamanho e jornada adicional WebKit (perfil iPhone 13) aprovadas. Tráfego à API na jornada de câmbio foi simulado. Verificação operacional separada em 2026-11-04T13:03:58.309Z: 8 de 9 feeds prontos; fx: error; câmbio USD sem cotação ou data de origem, próxima tentativa indicada para 2026-11-04T14:03:41.383Z. Reavaliar depois desse horário; causa não confirmada.
 
+## Guia das Táuridas, PR70
+
+Head 148a752ef491bcaf634914cbb6eefa6156cc0069; main e5691ea853ed74e6d72210ccb133349e3979d977; árvores idênticas. Dois jobs com sucesso na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41893711652 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/41894200292. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/70#issuecomment-6639680339 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/5pnNzjGKRPodPddFJMJxBRSFDCvm mostrou Production Ready, branch main e o commit correspondente. Domínio exclusivo: https://global-live-data-18ru92w1f-michael-eng-ais-projects.vercel.app. Nas três páginas públicas: HTTP 200, CSP e marcador dpl_5pnNzjGKRPodPddFJMJxBRSFDCvm. Leitura verificada em 2026-11-04T19:11:24.537Z, incluindo navegação de ida/volta, metadados, filtro, sitemap e espanhol sem JavaScript. Artigo: https://global-live-data.vercel.app/pt/trending/taurid-meteor-showers-november-2026 .
+
+Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis jornadas em 390 e 1280 px passaram. Amostra operacional separada em 2026-11-04T19:11:05.680Z: 8 de 9 feeds amostrados prontos; fx: error. USD: error; data da fonte: não informada; próxima tentativa indicada: 2026-11-04T20:10:52.630Z.
+
 ## Conexoes
+- [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
