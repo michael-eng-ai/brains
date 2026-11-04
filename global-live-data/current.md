@@ -1,26 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia Mexico GP EN/PT/ES publicado PR67; CI/Ready/publico verificados; Lisboa MET stale."
+resumo: "Guia de críquete publicado na PR68, com CI e produção verificados."
 tags: [global-live-data, estado, eleicoes, release, editorial]
-atualizado: "2026-10-30"
+atualizado: "2026-11-04"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-10-30-mexico-gp-editorial-release]].
+Ultimo handoff: [[2026-11-04-lions-cricket-release]].
 
-- PR67 publicou guia de horarios MexicoGP e mudanca de relogio US em EN/PT/ES. Main/origin limpos 0c8be70b01719617744382f4c7bd84b11030b534; CI PR/main, Production Ready/SHA e publico nos tres idiomas verificados. [[release-status]].
-- Catalogo45, Motorsport2; quatro fontes primarias,16 conversoes independentes, CTA para previsao Mexico existente. Rotina editorial pesquisa ate seis mercados e seleciona no maximo uma pauta util sem duplicatas. [[editorial-publishing]].
-- Gates locais101unit/check,Python11,Chromium36 e QA local/publico390/1280px passaram. WebKit/nativeSafari/carga nao repetidos para conteudo. [[validation-workflow]].
-- Ops30/10 20:25:01.813Z: oito feeds ready, MET Lisboa continua stale. Fonte17:17:28Z,expiry19:43:10Z; investigar atualidade/cache sem fabricar timestamps ou aumentar frequencia. [[release-status]].
+- PR68 publicou o guia dos seis jogos de West Indies A e England Lions em três idiomas. Main/origin 5b9e4a38e11734cc9ffed883f38167ec49c9aa7a, CI da PR e main, Production Ready e páginas públicas verificados. [[release-status]].
+- Catálogo com 46 artigos e cinco no filtro Críquete. Três fontes primárias, horários conferidos e navegação ao guia de overs. [[editorial-publishing]].
+- Verificações locais e públicas em mobile e desktop passaram. Última amostra operacional em 2026-11-04T01:07:55.857Z registrou 9 feeds ready. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
-- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Ultimo no-op documentado30/10 13:06:07.772533Z; nenhum refresh nesta rodada editorial. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Última conferência separada em 4/11 às 00:57 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
 - Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Dominio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-04-lions-cricket-release]] - Publicação da série de críquete.
 - [[2026-10-30-mexico-gp-editorial-release]] - Edicao Mexico GP e recibos finais.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-22-hunters-moon-editorial-release]] - Publicacao editorial anterior.

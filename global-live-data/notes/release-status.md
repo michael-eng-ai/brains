@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-30"
+atualizado: "2026-11-04"
 ---
 
 # Estado da entrega
@@ -706,7 +706,16 @@ Guia https://global-live-data.vercel.app/pt/trending/mexico-gp-2026-times-clock-
 
 Ops unico20:25:01.813Z,exit1: oito feeds ready, MET Lisboa continua stale; sourceUpdatedAt17:17:28Z,checkedAt19:25:55Z,expiresAt19:43:10Z. Pendencia ja registrada, distinta de falha de release; nao modificar datas/cache/backoff por suposicao nem repetir probes para forcar recuperacao. TSE/historicos/providers/dependencias/configuracoes/automacoes inalterados.
 
+## Publicação do guia de São Cristóvão na PR68
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/68 . Head 70f70aa34f4c931443e9c2f6c9f384c5cb2b6ff3, main 5b9e4a38e11734cc9ffed883f38167ec49c9aa7a, árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41751233020 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/41751631917. Recibo https://github.com/michael-eng-ai/global-live-data/pull/68#issuecomment-6619744805 .
+
+Painel https://vercel.com/michael-eng-ais-projects/global-live-data/5YCai86ke4n8QqeFDDBSyqyyLVxm confirmou Production, Ready, main e SHA integral. Domínio exclusivo https://global-live-data-bubaa35hu-michael-eng-ais-projects.vercel.app. As páginas públicas PT, EN e ES responderam 200 com o identificador dpl_5YCai86ke4n8QqeFDDBSyqyyLVxm. As três jornadas públicas passaram em 2026-11-04T01:08:09.297Z. Guia https://global-live-data.vercel.app/pt/trending/west-indies-a-england-lions-st-kitts-2026 .
+
+Uma consulta operacional em 2026-11-04T01:07:55.857Z registrou 9 feeds ready. O registro distingue essa amostra da verificação do artigo.
+
 ## Conexoes
+- [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[index]] - Mapa de conhecimento.

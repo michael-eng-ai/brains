@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-10-30"
+atualizado: "2026-11-04"
 ---
 
 # Publicacao editorial
@@ -367,7 +367,12 @@ Slug mexico-gp-2026-times-clock-change EN/PT/ES; ledger docs/editorial/2026-10-3
 
 CTA para weather/mexico-city existente; previsao urbana nao e medicao do circuito/direcao de prova. Sem resultado, cronometragem, transmissao garantida, novo feed/imagem ou filtro. Disclosures de apoio de IA e ausencia de revisao humana preservados. Recibos e limites em [[release-status]] e [[validation-workflow]].
 
+## West Indies A e England Lions, 4 de novembro
+
+A pesquisa trouxe 60 termos em seis mercados. O termo indiano west indies england lions foi observado às 00:58:52.018 UTC na faixa 2000+. O livro de fatos docs/editorial/2026-11-04-lions-st-kitts.md reúne três publicações primárias. A agenda da CWI distingue o terceiro T20 em 4 de novembro das cinco partidas List A entre 7 e 16 de novembro. Python conferiu as datas e horas dos seis jogos em quatro fusos. A leitura leva ao artigo existente sobre placar e overs.
+
 ## Conexoes
+- [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[index]] - Entrada.
 - [[current]] - Retomada.

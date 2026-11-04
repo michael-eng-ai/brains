@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-10-30"
+atualizado: "2026-11-04"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-04-lions-cricket-release]] - Série em São Cristóvão e horários em três idiomas.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP, PR67 e Ready completos.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-30-mobile-load-validation]] - WebKit/carga e documentacao PR64.
@@ -186,6 +187,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.
 - [[2026-10-30-mexico-gp-editorial-release]] - Handoff da publicacao Mexico GP.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[brand-name-testing]] - Teste de nomes.

@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-10-30"
+atualizado: "2026-11-04"
 ---
 
 # Historico
@@ -184,7 +184,10 @@ atualizado: "2026-10-30"
 
 - 2026-10-30,20:12UTC: PR67 publicou guia Mexico GP EN/PT/ES; quatro fontes,16conversoes,CI/Ready/publico verificados; Lisboa MET stale. [[2026-10-30-mexico-gp-editorial-release]].
 
+- 2026-11-04 00:58 UTC. Guia da série de críquete publicado na PR68. [[2026-11-04-lions-cricket-release]].
+
 ## Conexoes
+- [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.
 - [[2026-10-30-mexico-gp-editorial-release]] - Publicacao Mexico GP e recibos.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-21-brand-name-test-preparation]] - Pesquisa preparada.
