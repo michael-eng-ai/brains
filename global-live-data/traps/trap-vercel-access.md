@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-10-30"
+atualizado: "2026-11-05"
 ---
 
 # Acesso e publicacao Vercel
@@ -96,7 +96,12 @@ CUA getApp Google Chrome confirmou Mac bloqueado. Pedido anterior nao respondido
 
 Chrome nativo autenticado acessivel. Dashboards existentes confirmaram Ready/Production/main/SHA integral para PR60/61/62; comentarios 6524928038 / 6524928483 / 6524928887 encerram as pendencias. PR60/61 Stale por sucessao, PR62 Current no instante. Nova PR63 teve Preview e Production Ready conferidos pelo mesmo canal. Nenhuma mudanca de seguranca, credencial copiada ou redeploy para preencher recibos. Falhas antigas do conector/CLI nao foram repetidas nem declaradas reparadas. Pedidos anteriores de desbloqueio nao sao mais bloqueio desta verificacao. [[release-status]].
 
+## Domínio exclusivo protegido, 5 de novembro
+
+Na PR72, o alias público respondeu com o artigo e o marcador esperado nos três idiomas. O domínio exclusivo abriu corretamente em Chrome autenticado, mas fetch anônimo seguiu um redirect ao login Vercel. O HTTP 200 e o marcador dessa página pertenciam ao login. Uma asserção combinada falhou e o recibo que antecipara seu sucesso foi corrigido antes do encerramento. Verifique response.url, título/conteúdo e eventuais redirects antes do marcador; mantenha separadas as evidências do alias público e do domínio protegido. Não extrair cookies, alterar proteção ou redesplegar para completar a inspeção.
+
 ## Conexoes
+- [[2026-11-05-zimbabwe-afghanistan-release]] - Diagnóstico do falso desvio de marcador.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.
 - [[2026-10-20-spain-clock-editorial-release]] - Evidencia e pendencia da edicao de 20 outubro.

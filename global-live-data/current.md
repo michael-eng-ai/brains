@@ -1,18 +1,18 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia da Unrivaled publicado em três idiomas; produção verificada."
+resumo: "Guia de calendário e innings Zimbábue x Afeganistão publicado; produção verificada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-05"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-05-unrivaled-rosters-release]].
+Ultimo handoff: [[2026-11-05-zimbabwe-afghanistan-release]].
 
-- PR71 publicou o guia dos elencos e Player Pool da Unrivaled em PT/EN/ES. Main a85c8dd682919f3bd2f4cf15096af16ed3f611e9, CI da PR e main, Production Ready e páginas públicas verificadas. [[release-status]].
-- Catálogo com 49 artigos. Basquete tem quatro; NBA continua preparada e desativada. [[editorial-publishing]].
-- Amostra operacional separada em 2026-11-05T01:08:19.892Z: 9 de 9 feeds amostrados prontos. USD: ready; data da fonte: não informada; próxima tentativa indicada: 2026-11-05T01:57:50.943Z. Resposta pronta após o erro da rodada anterior; nenhuma correção de FX nesta edição, causa da recuperação não confirmada. [[release-status]].
+- PR72 publicou o guia Zimbábue x Afeganistão em PT/EN/ES. Main 634ae7dc1323eb4dea5d35708fa702cdc3d52423; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
+- Catálogo com 50 artigos; Críquete tem seis. NBA segue preparada e desativada. [[editorial-publishing]].
+- Amostra operacional separada em 2026-11-05T07:14:08.126Z: 9 de 9 feeds amostrados prontos, inclusive USD. Limites e próximos horários no recibo. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
 - TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 19:30 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
@@ -20,6 +20,7 @@ Ultimo handoff: [[2026-11-05-unrivaled-rosters-release]].
 - Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação do guia de Tests.
 - [[2026-11-05-unrivaled-rosters-release]] - Publicação da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Publicação das Táuridas.
 - [[2026-11-04-eicma-visitors-release]] - Publicação da EICMA e correção de navegação.

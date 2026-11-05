@@ -738,7 +738,18 @@ O painel https://vercel.com/michael-eng-ais-projects/global-live-data/Bs6i6NvM6H
 
 Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis jornadas em 390 e 1280 px passaram. Amostra operacional separada em 2026-11-05T01:08:19.892Z: 9 de 9 feeds amostrados prontos. USD: ready; data da fonte: não informada; próxima tentativa indicada: 2026-11-05T01:57:50.943Z. Resposta pronta após o erro da rodada anterior; nenhuma correção de FX nesta edição, causa da recuperação não confirmada.
 
+## Guia dos Tests de Zimbábue e Afeganistão, PR72
+
+Head 01108f4e589b8e45be47e45f18443cd4fe5fe638; main 634ae7dc1323eb4dea5d35708fa702cdc3d52423; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41985201927 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/41985593651. Recibo corrigido e completo: https://github.com/michael-eng-ai/global-live-data/pull/72#issuecomment-6652123812 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/4BT8z1Vr6ATkkgHhpJuiUTrskgWR confirmou Ready, Production, main e SHA exato; duração exibida de 1m 19s. Domínio exclusivo https://global-live-data-azfdvb8av-michael-eng-ais-projects.vercel.app abriu o artigo em Chrome autenticado. Requisição anônima a esse domínio redireciona ao login Vercel; não declarar seu HTTP 200 de login como resposta da aplicação. O alias público, sem autenticação e sem redirecionamento, serviu PT/EN/ES com HTTP 200, CSP e marcador dpl_4BT8z1Vr6ATkkgHhpJuiUTrskgWR. Artigo: https://global-live-data.vercel.app/pt/trending/zimbabwe-afghanistan-tests-november-2026 .
+
+Leitura pública verificada em 2026-11-05T07:14:24.227Z: PT/ES a 390 px, EN a 1280 px, conteúdo, cinco fontes, links internos e retorno, filtro Críquete, idioma, metadados, sitemap e espanhol sem JavaScript. Capturas revisadas sem cortes. Locais: 11 testes de importação; lint, tipos, 101 unitários, build e smoke; 37 Chromium e seis jornadas adicionais nos três idiomas a 390/1280 px aprovados. Safari nativo, WebKit e carga não repetidos para esta mudança de conteúdo.
+
+Amostra operacional única e separada em 2026-11-05T07:14:08.126Z: 9 de 9 feeds amostrados prontos, exit 0. USD ready, fonte sem timestamp no envelope; próxima tentativa indicada para 2026-11-05T08:13:51.062Z. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
+
 ## Conexoes
+- [[2026-11-05-zimbabwe-afghanistan-release]] - Recibo da PR72 e limites de verificação.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.

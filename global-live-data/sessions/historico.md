@@ -192,7 +192,10 @@ atualizado: "2026-11-05"
 
 - 2026-11-05. Guia da Unrivaled publicado em três idiomas na PR71. [[2026-11-05-unrivaled-rosters-release]].
 
+- 2026-11-05. Guia Zimbábue x Afeganistão publicado em três idiomas na PR72. [[2026-11-05-zimbabwe-afghanistan-release]].
+
 ## Conexoes
+- [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação e evidências.
 - [[2026-11-05-unrivaled-rosters-release]] - Publicação e verificação pública.
 - [[2026-11-04-taurid-observing-release]] - PR70 e verificação pública.
 - [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.

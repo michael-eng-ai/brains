@@ -383,7 +383,12 @@ A busca southern taurids meteor shower no feed GB às 19:01:40.082 UTC (faixa 10
 
 A busca unrivaled basketball no feed US às 00:58:13.331 UTC (faixa 1000+) motivou a distinção entre os oito elencos de seis atletas e o Player Pool separado. O livro de fatos docs/editorial/2026-11-05-unrivaled-rosters.md registra dois comunicados de 4 de novembro e o diretório da liga. Não foi inventada hora para a divulgação de confrontos em 6 de novembro. Basquete passa a quatro artigos; o link interno abre o guia de súmula da NBA.
 
+## Tests de Zimbábue e Afeganistão, 5 de novembro
+
+Pesquisa dos seis mercados retornou dez termos por mercado. IN: zim vs afg às 07:00:56.710 UTC, faixa RSS 50000+; GB: zimbabwe vs afghanistan às 07:00:54.991 UTC, 500+. Sinais datados, sem promessa de audiência. A pergunta nova distingue dias, innings, vantagem acumulada e alvo, com exemplo original identificado como fictício. Cinco fontes primárias verificadas no livro de fatos docs/editorial/2026-11-05-zimbabwe-afghanistan-tests.md. Calendário: 5–9 e 13–17 de novembro, Sharjah. Sem hora exata, placar, estado atual, escalação ou transmissão inferidos. Catálogo agora com 50 artigos e seis em Críquete; link ao guia interno de overs.
+
 ## Conexoes
+- [[2026-11-05-zimbabwe-afghanistan-release]] - Pauta de calendário e leitura dos innings.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
