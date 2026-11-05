@@ -196,7 +196,10 @@ atualizado: "2026-11-05"
 
 - 2026-11-05. Guia das ATP Finals publicado em três idiomas na PR73. [[2026-11-05-atp-finals-release]].
 
+- 2026-11-05. Guia da CCXP publicado em três idiomas na PR74. [[2026-11-05-ccxp-guide-release]].
+
 ## Conexoes
+- [[2026-11-05-ccxp-guide-release]] - Publicação e evidências.
 - [[2026-11-05-atp-finals-release]] - Publicação e evidências.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação e evidências.
 - [[2026-11-05-unrivaled-rosters-release]] - Publicação e verificação pública.

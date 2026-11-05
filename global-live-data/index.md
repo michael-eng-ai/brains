@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-05-ccxp-guide-release]] - Datas e ingressos da CCXP.
 - [[2026-11-05-atp-finals-release]] - Grupos e pontos das ATP Finals.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Calendário e innings de Zimbábue x Afeganistão.
 - [[2026-11-05-unrivaled-rosters-release]] - Elencos e grupo de reposição da Unrivaled.
@@ -192,6 +193,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-05-ccxp-guide-release]] - PR74 e páginas públicas verificadas.
 - [[2026-11-05-atp-finals-release]] - PR73 e páginas públicas verificadas.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - PR72 e verificação pública.
 - [[2026-11-05-unrivaled-rosters-release]] - PR71 e recibo de produção.

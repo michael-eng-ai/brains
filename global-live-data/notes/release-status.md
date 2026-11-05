@@ -758,7 +758,18 @@ Leitura pública verificada em 2026-11-05T13:12:11.175Z: PT/ES a 390 px e EN a 1
 
 Amostra operacional única e separada em 2026-11-05T13:11:53.493Z: 9 de 9 feeds amostrados prontos, exit 0. USD pronto, sem timestamp da fonte no envelope, com próxima tentativa indicada para 2026-11-05T14:11:03.923Z. Hóquei DEL ainda dentro do TTL de seis horas, próxima tentativa 2026-11-05T13:13:52.740Z. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
 
+## Guia da CCXP, PR74
+
+Head 8fbadaa7fa952603cea27e58fc9da40feffb48e7; main f9dd5aa75545e484eaa921529efa7e83758e5fb5; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42090650940 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42092588528. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/74#issuecomment-6667101570 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/4Ppbb1XzPYzgh6qjda4s9o6DYV6e confirmou Ready, Production, main e SHA exato; duração exibida 1m 4s. Domínio exclusivo https://global-live-data-n3rysoenj-michael-eng-ais-projects.vercel.app abriu o artigo em Chrome autenticado. O alias público, sem autenticação/redirects, serviu PT/EN/ES com HTTP 200, CSP e marcador dpl_4Ppbb1XzPYzgh6qjda4s9o6DYV6e. Artigo: https://global-live-data.vercel.app/pt/trending/ccxp-2026-dates-spoiler-night-tickets .
+
+Leitura pública em 2026-11-05T19:20:14.219Z: PT/ES 390 px e EN 1280 px; seis fontes, conteúdo, metadados, filtro Feiras, idioma, link interno/retorno, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. Locais: 11 importações, lint, tipos, 101 unitários, build/smoke, 37 Chromium e seis jornadas EN/PT/ES a 390/1280 px aprovados. FX/history simulados apenas no teste de navegação, sem prova de provedor. Safari nativo, WebKit e carga não repetidos nesta edição de conteúdo.
+
+Amostra operacional única e separada em 2026-11-05T19:19:54.830Z: 7 de 9 feeds amostrados prontos; futebol BL1 e hóquei DEL em erro, exit 2. Os dois envelopes indisponíveis não tinham checkedAt nem timestamp da fonte. Próxima tentativa indicada: BL1 2026-11-05T19:24:35.281Z; DEL 2026-11-06T01:19:39.901Z. USD, Brasileirão, USGS, previsão de Lisboa, xadrez, eleições e TV estavam prontos. Causa dos dois erros não apurada nesta rodada editorial; nenhuma repetição, alteração de cache ou de provedor foi feita. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
+
 ## Conexoes
+- [[2026-11-05-ccxp-guide-release]] - Recibo da PR74 e limites de validação.
 - [[2026-11-05-atp-finals-release]] - Recibo da PR73 e limites de validação.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Recibo da PR72 e limites de verificação.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.

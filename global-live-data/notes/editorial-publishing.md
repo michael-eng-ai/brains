@@ -391,7 +391,12 @@ Pesquisa dos seis mercados retornou dez termos por mercado. IN: zim vs afg às 0
 
 Uma execução de pesquisa retornou dez termos em cada um dos seis mercados. Ben Shelton apareceu em US/BR/GB/ES/IN; a seleção usa US às 12:55:58.416 UTC, faixa RSS 1000+. Sinal datado, sem promessa de audiência ou explicação causal. Pergunta nova: uma derrota elimina na fase de grupos? Quatro páginas do organizador sustentam datas de 15–22/11/2026 em Turim, oito participantes, grupos/semifinais e pontos 200/400/500. Exemplos A/B/C/D, 1500 e 1300 explicitamente fictícios e conferidos em dois ambientes. Livro de fatos docs/editorial/2026-11-05-atp-finals-groups.md. Catálogo com 51 artigos e três em Tênis; link ao guia de placar. Acesso bloqueado à documentação de ranking/Race levou ao recorte mais restrito, sem usar snippets como evidência.
 
+## CCXP: datas e ingresso, 5 de novembro
+
+Uma pesquisa retornou dez termos em cada um dos seis mercados. CCXP apareceu em BR às 18:55:59.293 UTC, faixa RSS 200+, início 18:20. Sinal datado, sem estimativa de tráfego ou causa atribuída. Seis páginas oficiais, da mesma organização, sustentam datas de 3–6/12/2026 no São Paulo Expo, Spoiler Night dia 2, modalidades e resgate. Datas/horários locais conferidos; sem hora inventada para o prazo de 1/12 do Coringa. Livro de fatos docs/editorial/2026-11-05-ccxp-tickets.md. Catálogo com 52 artigos, dois em Feiras; link ao câmbio diário. Preços de lote antigo e bilheteria que mostrou somente estrutura vazia não foram usados para afirmar disponibilidade ou custo.
+
 ## Conexoes
+- [[2026-11-05-ccxp-guide-release]] - Pauta, referências e limites de acesso.
 - [[2026-11-05-atp-finals-release]] - Pauta de grupos e pontos, com limites de fonte.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Pauta de calendário e leitura dos innings.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.

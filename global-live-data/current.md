@@ -1,18 +1,18 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia de grupos e pontos das ATP Finals publicado; produção verificada."
+resumo: "Guia da CCXP: datas e ingressos publicado; produção verificada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-05"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-05-atp-finals-release]].
+Ultimo handoff: [[2026-11-05-ccxp-guide-release]].
 
-- PR73 publicou o guia das ATP Finals em PT/EN/ES. Main bdee8724981d00a10a680866e84f68d038d66853; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
-- Catálogo com 51 artigos; Tênis tem três. NBA segue preparada e desativada. [[editorial-publishing]].
-- Amostra operacional separada em 2026-11-05T13:11:53.493Z: 9 de 9 feeds amostrados prontos. Limites e próximos horários no recibo. [[release-status]].
+- PR74 publicou o guia da CCXP em PT/EN/ES. Main f9dd5aa75545e484eaa921529efa7e83758e5fb5; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
+- Catálogo com 52 artigos; Feiras tem dois. NBA segue preparada e desativada. [[editorial-publishing]].
+- Amostra operacional separada em 2026-11-05T19:19:54.830Z: 7 de 9 feeds amostrados prontos; futebol BL1 e hóquei DEL em erro. Limites no recibo. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
 - TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 19:30 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
@@ -20,6 +20,7 @@ Ultimo handoff: [[2026-11-05-atp-finals-release]].
 - Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-05-ccxp-guide-release]] - Publicação do guia da CCXP.
 - [[2026-11-05-atp-finals-release]] - Publicação do guia das ATP Finals.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação do guia de Tests.
 - [[2026-11-05-unrivaled-rosters-release]] - Publicação da Unrivaled.
