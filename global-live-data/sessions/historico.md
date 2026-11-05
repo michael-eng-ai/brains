@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-04"
+atualizado: "2026-11-05"
 ---
 
 # Historico
@@ -190,7 +190,10 @@ atualizado: "2026-11-04"
 
 - 2026-11-04. Guia das Táuridas publicado em três idiomas na PR70. [[2026-11-04-taurid-observing-release]].
 
+- 2026-11-05. Guia da Unrivaled publicado em três idiomas na PR71. [[2026-11-05-unrivaled-rosters-release]].
+
 ## Conexoes
+- [[2026-11-05-unrivaled-rosters-release]] - Publicação e verificação pública.
 - [[2026-11-04-taurid-observing-release]] - PR70 e verificação pública.
 - [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.
 - [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.

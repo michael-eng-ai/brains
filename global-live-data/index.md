@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-11-04"
+atualizado: "2026-11-05"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-05-unrivaled-rosters-release]] - Elencos e grupo de reposição da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - As duas noites das Táuridas.
 - [[2026-11-04-eicma-visitors-release]] - Horários da feira e retorno à referência.
 - [[2026-11-04-lions-cricket-release]] - Série em São Cristóvão e horários em três idiomas.
@@ -189,6 +190,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-05-unrivaled-rosters-release]] - PR71 e recibo de produção.
 - [[2026-11-04-taurid-observing-release]] - PR70 e recibo de produção.
 - [[2026-11-04-eicma-visitors-release]] - PR69 e verificação pública.
 - [[2026-11-04-lions-cricket-release]] - PR68 e conferência pública.

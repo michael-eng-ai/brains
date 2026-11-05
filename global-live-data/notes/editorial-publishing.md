@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-04"
+atualizado: "2026-11-05"
 ---
 
 # Publicacao editorial
@@ -379,7 +379,12 @@ A observação espanhola de eicma às 07:01:56.365 UTC (faixa 100+) motivou o gu
 
 A busca southern taurids meteor shower no feed GB às 19:01:40.082 UTC (faixa 1000+) levou à comparação das noites de 4 para 5 e 11 para 12 de novembro. O livro de fatos docs/editorial/2026-11-04-taurid-observing-nights.md diferencia os radiantes na constelação de Touro de hemisférios terrestres; os cinco meteoros por hora em condições ideais não são periodicidade garantida. Referências: AMS, NASA e IMO. Céu noturno passa a três artigos, com chamada interna para Natureza.
 
+## Unrivaled, 5 de novembro
+
+A busca unrivaled basketball no feed US às 00:58:13.331 UTC (faixa 1000+) motivou a distinção entre os oito elencos de seis atletas e o Player Pool separado. O livro de fatos docs/editorial/2026-11-05-unrivaled-rosters.md registra dois comunicados de 4 de novembro e o diretório da liga. Não foi inventada hora para a divulgação de confrontos em 6 de novembro. Basquete passa a quatro artigos; o link interno abre o guia de súmula da NBA.
+
 ## Conexoes
+- [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.

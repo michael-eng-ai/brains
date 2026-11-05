@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-04"
+atualizado: "2026-11-05"
 ---
 
 # Estado da entrega
@@ -730,7 +730,16 @@ O painel https://vercel.com/michael-eng-ais-projects/global-live-data/5pnNzjGKRP
 
 Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis jornadas em 390 e 1280 px passaram. Amostra operacional separada em 2026-11-04T19:11:05.680Z: 8 de 9 feeds amostrados prontos; fx: error. USD: error; data da fonte: não informada; próxima tentativa indicada: 2026-11-04T20:10:52.630Z.
 
+## Guia da Unrivaled, PR71
+
+Head 4854e44762028a38f216d23c68961858af6ed3bd; main a85c8dd682919f3bd2f4cf15096af16ed3f611e9; árvores idênticas. Dois jobs com sucesso na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/41945853669 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/41946227319. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/71#issuecomment-6646859560 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/Bs6i6NvM6HmqyV55tqoP3LRccLb5 mostrou Production Ready, branch main e o commit correspondente. Domínio exclusivo: https://global-live-data-oj9eqvl4s-michael-eng-ais-projects.vercel.app. Nas três páginas públicas: HTTP 200, CSP e marcador dpl_Bs6i6NvM6HmqyV55tqoP3LRccLb5. Leitura verificada em 2026-11-05T01:08:34.728Z, incluindo navegação de ida/volta, metadados, filtro, sitemap e espanhol sem JavaScript. Artigo: https://global-live-data.vercel.app/pt/trending/unrivaled-2027-rosters-player-pool .
+
+Locais: 101 testes unitários, 11 de importação, 37 Chromium, lint, tipos, build e smoke aprovados. Seis jornadas em 390 e 1280 px passaram. Amostra operacional separada em 2026-11-05T01:08:19.892Z: 9 de 9 feeds amostrados prontos. USD: ready; data da fonte: não informada; próxima tentativa indicada: 2026-11-05T01:57:50.943Z. Resposta pronta após o erro da rodada anterior; nenhuma correção de FX nesta edição, causa da recuperação não confirmada.
+
 ## Conexoes
+- [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.
 - [[2026-11-04-eicma-visitors-release]] - Edição da EICMA e correção de navegação.
 - [[2026-11-04-lions-cricket-release]] - Guia da série em São Cristóvão.
