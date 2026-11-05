@@ -387,7 +387,12 @@ A busca unrivaled basketball no feed US às 00:58:13.331 UTC (faixa 1000+) motiv
 
 Pesquisa dos seis mercados retornou dez termos por mercado. IN: zim vs afg às 07:00:56.710 UTC, faixa RSS 50000+; GB: zimbabwe vs afghanistan às 07:00:54.991 UTC, 500+. Sinais datados, sem promessa de audiência. A pergunta nova distingue dias, innings, vantagem acumulada e alvo, com exemplo original identificado como fictício. Cinco fontes primárias verificadas no livro de fatos docs/editorial/2026-11-05-zimbabwe-afghanistan-tests.md. Calendário: 5–9 e 13–17 de novembro, Sharjah. Sem hora exata, placar, estado atual, escalação ou transmissão inferidos. Catálogo agora com 50 artigos e seis em Críquete; link ao guia interno de overs.
 
+## Grupos e pontos das ATP Finals, 5 de novembro
+
+Uma execução de pesquisa retornou dez termos em cada um dos seis mercados. Ben Shelton apareceu em US/BR/GB/ES/IN; a seleção usa US às 12:55:58.416 UTC, faixa RSS 1000+. Sinal datado, sem promessa de audiência ou explicação causal. Pergunta nova: uma derrota elimina na fase de grupos? Quatro páginas do organizador sustentam datas de 15–22/11/2026 em Turim, oito participantes, grupos/semifinais e pontos 200/400/500. Exemplos A/B/C/D, 1500 e 1300 explicitamente fictícios e conferidos em dois ambientes. Livro de fatos docs/editorial/2026-11-05-atp-finals-groups.md. Catálogo com 51 artigos e três em Tênis; link ao guia de placar. Acesso bloqueado à documentação de ranking/Race levou ao recorte mais restrito, sem usar snippets como evidência.
+
 ## Conexoes
+- [[2026-11-05-atp-finals-release]] - Pauta de grupos e pontos, com limites de fonte.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Pauta de calendário e leitura dos innings.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.

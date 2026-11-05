@@ -748,7 +748,18 @@ Leitura pública verificada em 2026-11-05T07:14:24.227Z: PT/ES a 390 px, EN a 12
 
 Amostra operacional única e separada em 2026-11-05T07:14:08.126Z: 9 de 9 feeds amostrados prontos, exit 0. USD ready, fonte sem timestamp no envelope; próxima tentativa indicada para 2026-11-05T08:13:51.062Z. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
 
+## Guia das ATP Finals, PR73
+
+Head 595541753cee89da62d3b018bef918c4aa6c991b; main bdee8724981d00a10a680866e84f68d038d66853; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42032872854 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42033278889. Recibo completo: https://github.com/michael-eng-ai/global-live-data/pull/73#issuecomment-6658887607 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/2khYPz2a6ipmLJiWfvv3ht1puNXD confirmou Ready, Production, main e SHA exato; duração exibida 1m 27s. Domínio exclusivo https://global-live-data-qwzkyyos3-michael-eng-ais-projects.vercel.app abriu o artigo em Chrome autenticado. O alias público, sem autenticação e sem redirects, serviu PT/EN/ES com HTTP 200, CSP e marcador dpl_2khYPz2a6ipmLJiWfvv3ht1puNXD. Artigo: https://global-live-data.vercel.app/pt/trending/atp-finals-2026-group-stage-points .
+
+Leitura pública verificada em 2026-11-05T13:12:11.175Z: PT/ES a 390 px e EN a 1280 px; conteúdo, quatro fontes, link interno e retorno, filtro Tênis, idioma, metadados, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. Locais: 11 testes de importação; lint, tipos, 101 unitários, build e smoke; 37 Chromium e seis jornadas nos três idiomas a 390/1280 px aprovados. Safari nativo, WebKit e carga não repetidos para esta mudança de conteúdo.
+
+Amostra operacional única e separada em 2026-11-05T13:11:53.493Z: 9 de 9 feeds amostrados prontos, exit 0. USD pronto, sem timestamp da fonte no envelope, com próxima tentativa indicada para 2026-11-05T14:11:03.923Z. Hóquei DEL ainda dentro do TTL de seis horas, próxima tentativa 2026-11-05T13:13:52.740Z. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
+
 ## Conexoes
+- [[2026-11-05-atp-finals-release]] - Recibo da PR73 e limites de validação.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Recibo da PR72 e limites de verificação.
 - [[2026-11-05-unrivaled-rosters-release]] - Guia dos elencos da Unrivaled.
 - [[2026-11-04-taurid-observing-release]] - Guia das Táuridas de novembro.

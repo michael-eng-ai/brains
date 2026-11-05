@@ -194,7 +194,10 @@ atualizado: "2026-11-05"
 
 - 2026-11-05. Guia Zimbábue x Afeganistão publicado em três idiomas na PR72. [[2026-11-05-zimbabwe-afghanistan-release]].
 
+- 2026-11-05. Guia das ATP Finals publicado em três idiomas na PR73. [[2026-11-05-atp-finals-release]].
+
 ## Conexoes
+- [[2026-11-05-atp-finals-release]] - Publicação e evidências.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação e evidências.
 - [[2026-11-05-unrivaled-rosters-release]] - Publicação e verificação pública.
 - [[2026-11-04-taurid-observing-release]] - PR70 e verificação pública.
