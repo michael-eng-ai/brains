@@ -202,7 +202,10 @@ atualizado: "2026-11-06"
 
 - 2026-11-06. Guia de vórtice polar publicado em três idiomas na PR76. [[2026-11-06-polar-vortex-release]].
 
+- 2026-11-06. Guia de emprego nos EUA publicado em três idiomas na PR77. [[2026-11-06-us-jobs-release]].
+
 ## Conexoes
+- [[2026-11-06-us-jobs-release]] - Publicação e evidências.
 - [[2026-11-06-polar-vortex-release]] - Publicação e evidências.
 - [[2026-11-06-ravens-calendar-release]] - Publicação e evidências.
 - [[2026-11-05-ccxp-guide-release]] - Publicação e evidências.

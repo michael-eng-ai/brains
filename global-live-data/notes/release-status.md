@@ -788,7 +788,18 @@ Leitura pública em 2026-11-06T07:48:04.501Z: PT/ES 390 px e EN 1280 px; quatro 
 
 Amostra operacional única em 2026-11-06T07:47:47.151Z: 9 de 9 feeds amostrados prontos, incluindo hóquei DEL, exit 0. USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirão retornaram ready. DEL estava em erro na amostra anterior; agora respondeu pronto, sem intervenção no provedor. Não constitui garantia de disponibilidade contínua. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
 
+## Guia de emprego nos EUA, PR77
+
+Head 71663945dba74c4757b852042a389b040e35c6e2; main ad2c67bb214863d6ece6578f762ffce8f680f965; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42224110037 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42226204900. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/77#issuecomment-6686061502 .
+
+Painel https://vercel.com/michael-eng-ais-projects/global-live-data/8Znvyq9U448PZ7qcdNAcidF2Q154: Ready, Production, main e SHA exato observados; duração 1m 2s. Domínio exclusivo https://global-live-data-g4wqqy2n3-michael-eng-ais-projects.vercel.app abriu o artigo no Chrome autenticado. Alias público sem autenticação/redirects retornou PT/EN/ES HTTP 200, CSP e marcador dpl_8Znvyq9U448PZ7qcdNAcidF2Q154. Artigo: https://global-live-data.vercel.app/pt/trending/us-jobs-report-payroll-unemployment-guide .
+
+Leitura pública em 2026-11-06T13:33:28.117Z: PT/ES 390 px e EN 1280 px; cinco fontes, conteúdo, metadados, filtro Economia com cinco artigos, idioma, link interno/retorno, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. FX/histórico simulados apenas na navegação, sem contar como validação de provedor. Locais: 101 unitários, 11 importações, lint, tipos, build/smoke, 37 Chromium e seis jornadas EN/PT/ES a 390/1280 px passaram. Safari nativo, WebKit e carga não repetidos na edição de conteúdo.
+
+Amostra operacional única em 2026-11-06T13:33:11.246Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro, exit 2. USD sem checkedAt/sourceUpdatedAt/retrievedAt/expiry, nextRefreshAt 2026-11-06T14:32:48.185Z. Os outros oito feeds da amostra, incluindo hóquei DEL, estavam prontos. Causa do erro não estabelecida; não foi repetida consulta nem alterado backoff para mascarar o estado. Reavaliar após o horário indicado em uma investigação própria de câmbio. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
+
 ## Conexoes
+- [[2026-11-06-us-jobs-release]] - Recibo da PR77 e limites de validação.
 - [[2026-11-06-polar-vortex-release]] - Recibo da PR76 e limites de validação.
 - [[2026-11-06-ravens-calendar-release]] - Recibo da PR75 e limites de validação.
 - [[2026-11-05-ccxp-guide-release]] - Recibo da PR74 e limites de validação.

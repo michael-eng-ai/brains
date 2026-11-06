@@ -1,18 +1,18 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia de vórtice polar publicado; produção verificada."
+resumo: "Guia de emprego nos EUA publicado; produção verificada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-06"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-06-polar-vortex-release]].
+Ultimo handoff: [[2026-11-06-us-jobs-release]].
 
-- PR76 publicou o guia de vórtice polar em PT/EN/ES. Main 925c81e7b2c5a207e1a8206ac6daba9b9a3d091a; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
-- Catálogo com 54 artigos; Clima tem seis. NBA segue preparada e desativada. [[editorial-publishing]].
-- Amostra operacional separada em 2026-11-06T07:47:47.151Z: 9 de 9 feeds amostrados prontos, incluindo hóquei DEL. Limites no recibo. [[release-status]].
+- PR77 publicou o guia de emprego nos EUA em PT/EN/ES. Main ad2c67bb214863d6ece6578f762ffce8f680f965; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
+- Catálogo com 55 artigos; Economia tem cinco. NBA segue preparada e desativada. [[editorial-publishing]].
+- Amostra operacional separada em 2026-11-06T13:33:11.246Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro. Limites no recibo. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
 - TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 19:30 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
@@ -20,6 +20,7 @@ Ultimo handoff: [[2026-11-06-polar-vortex-release]].
 - Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-06-us-jobs-release]] - Publicação do guia de emprego nos EUA.
 - [[2026-11-06-polar-vortex-release]] - Publicação do guia de vórtice polar.
 - [[2026-11-06-ravens-calendar-release]] - Publicação do guia dos Ravens.
 - [[2026-11-05-ccxp-guide-release]] - Publicação do guia da CCXP.

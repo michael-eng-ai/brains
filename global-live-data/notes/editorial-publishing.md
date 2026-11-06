@@ -403,7 +403,12 @@ Uma pesquisa retornou dez termos em cada um dos seis mercados. ravens schedule a
 
 Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. weather polar vortex observado em GB às 07:07:57.454 UTC, faixa RSS 1000+, início 06:30. Quatro fontes primárias: NWS, explicação do Met Office datada 5/11/2026, guia SSW e NESDIS datado 25/8/2025. São duas organizações, sem causa inferida para o interesse. Livro de fatos docs/editorial/2026-11-06-polar-vortex.md; data/dia da semana conferidos com Python e Node. Catálogo com 54 artigos, seis em Clima, CTA ao guia de probabilidades de neve. Não há previsão local, atribuição de evento atual, alerta ou novo feed. Black Friday, Tests ZIM-AFG e estatísticas de arremessos já tinham perguntas cobertas e não receberam duplicatas.
 
+## Emprego nos EUA, 6 de novembro às 13 UTC
+
+Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. forex factory em IN às 13:07:32.214 UTC, faixa RSS 2000+, início 12:20; economic indicators em JP às 13:07:31.496 UTC, faixa 200+, início 12:30. Cinco referências do BLS: calendário de novembro, comparação CES/CPS, nota técnica, conceitos de desemprego e revisões. São páginas da mesma agência, sem causa inferida para a busca. Livro de fatos docs/editorial/2026-11-06-us-jobs-report.md; sexta-feira 6/11/2026 08:30 America/New_York = 13:30 UTC conferido com Python e Node. Exemplo fictício 4/100=4% e 2/98 aproximadamente 2,04%, com 96 empregados em ambos, conferido independentemente. Catálogo com 55 artigos, cinco em Economia, CTA câmbio/histórico. Sem resultado atual, recomendação financeira, previsão de mercado ou novo feed. Black Friday e rugby league já tinham cobertura; alegações políticas, pessoais, legais e de aquisições não foram pautadas.
+
 ## Conexoes
+- [[2026-11-06-us-jobs-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-polar-vortex-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-ravens-calendar-release]] - Pauta, referências e limites temporais.
 - [[2026-11-05-ccxp-guide-release]] - Pauta, referências e limites de acesso.
