@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-05"
+atualizado: "2026-11-06"
 ---
 
 # Publicacao editorial
@@ -395,7 +395,12 @@ Uma execução de pesquisa retornou dez termos em cada um dos seis mercados. Ben
 
 Uma pesquisa retornou dez termos em cada um dos seis mercados. CCXP apareceu em BR às 18:55:59.293 UTC, faixa RSS 200+, início 18:20. Sinal datado, sem estimativa de tráfego ou causa atribuída. Seis páginas oficiais, da mesma organização, sustentam datas de 3–6/12/2026 no São Paulo Expo, Spoiler Night dia 2, modalidades e resgate. Datas/horários locais conferidos; sem hora inventada para o prazo de 1/12 do Coringa. Livro de fatos docs/editorial/2026-11-05-ccxp-tickets.md. Catálogo com 52 artigos, dois em Feiras; link ao câmbio diário. Preços de lote antigo e bilheteria que mostrou somente estrutura vazia não foram usados para afirmar disponibilidade ou custo.
 
+## Calendário dos Ravens, 6 de novembro
+
+Uma pesquisa retornou dez termos em cada um dos seis mercados. ravens schedule apareceu nos EUA às 01:01:37.314 UTC, faixa RSS 2000+, início 00:20; ravens x jaguars apareceu em BR às 01:01:37.870 UTC, faixa 200+, início 00:30. Sinais datados, sem estimativa de tráfego ou causa atribuída. Cinco páginas primárias sustentam temporada, BYE/TBD e EST/EDT. Python zoneinfo e Node Intl coincidiram nas oito conversões para Ravens-Chargers, 16/11/2026 20:15 EST. Livro de fatos docs/editorial/2026-11-06-ravens-calendar.md. Catálogo com 53 artigos, três em Futebol americano; link ao guia de pontuação. Tabela inconsistente da semana 18 excluída, sem data exata publicada; nenhum placar atual, flex rule ou direito de transmissão inferido.
+
 ## Conexoes
+- [[2026-11-06-ravens-calendar-release]] - Pauta, referências e limites temporais.
 - [[2026-11-05-ccxp-guide-release]] - Pauta, referências e limites de acesso.
 - [[2026-11-05-atp-finals-release]] - Pauta de grupos e pontos, com limites de fonte.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Pauta de calendário e leitura dos innings.

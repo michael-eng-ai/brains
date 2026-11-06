@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-05"
+atualizado: "2026-11-06"
 ---
 
 # Estado da entrega
@@ -768,7 +768,18 @@ Leitura pública em 2026-11-05T19:20:14.219Z: PT/ES 390 px e EN 1280 px; seis fo
 
 Amostra operacional única e separada em 2026-11-05T19:19:54.830Z: 7 de 9 feeds amostrados prontos; futebol BL1 e hóquei DEL em erro, exit 2. Os dois envelopes indisponíveis não tinham checkedAt nem timestamp da fonte. Próxima tentativa indicada: BL1 2026-11-05T19:24:35.281Z; DEL 2026-11-06T01:19:39.901Z. USD, Brasileirão, USGS, previsão de Lisboa, xadrez, eleições e TV estavam prontos. Causa dos dois erros não apurada nesta rodada editorial; nenhuma repetição, alteração de cache ou de provedor foi feita. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
 
+## Calendário dos Ravens, PR75
+
+Head 83d27ae0f94abc48f7e1b2e5dceefa64470e4d61; main 67eccaeb7130e7ae24dccf9364097d499b9fb5b8; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42142040204 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42142331030. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/75#issuecomment-6674007124 .
+
+O painel https://vercel.com/michael-eng-ais-projects/global-live-data/25ZMuCJww5sxSoAHi6zghUbUVtMJ confirmou Ready, Production, main e SHA exato; duração exibida 1m 2s. Domínio exclusivo https://global-live-data-328qxt51q-michael-eng-ais-projects.vercel.app abriu o artigo em Chrome autenticado. O alias público, sem autenticação/redirects, serviu PT/EN/ES com HTTP 200, CSP e marcador dpl_25ZMuCJww5sxSoAHi6zghUbUVtMJ. Artigo: https://global-live-data.vercel.app/pt/trending/ravens-2026-bye-tbd-local-time-guide .
+
+Leitura pública em 2026-11-06T01:14:56.785Z: PT/ES 390 px e EN 1280 px; cinco fontes, conteúdo, metadados, filtro Futebol americano, idioma, link interno/retorno, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. Locais: 11 importações, lint, tipos, 101 unitários, build/smoke, 37 Chromium e seis jornadas EN/PT/ES a 390/1280 px aprovados. Safari nativo, WebKit e carga não repetidos nesta edição de conteúdo.
+
+Amostra operacional única e separada em 2026-11-06T01:14:37.832Z: 8 de 9 feeds amostrados prontos; hóquei DEL em erro, exit 2. Futebol BL1 voltou a responder pronto nesta amostra. O envelope de hóquei DEL continuou sem checkedAt nem timestamp da fonte, com próxima tentativa indicada em 2026-11-06T01:19:39.901Z. Causa não apurada nesta rodada editorial; nenhuma repetição, alteração de cache ou de provedor foi feita. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
+
 ## Conexoes
+- [[2026-11-06-ravens-calendar-release]] - Recibo da PR75 e limites de validação.
 - [[2026-11-05-ccxp-guide-release]] - Recibo da PR74 e limites de validação.
 - [[2026-11-05-atp-finals-release]] - Recibo da PR73 e limites de validação.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Recibo da PR72 e limites de verificação.

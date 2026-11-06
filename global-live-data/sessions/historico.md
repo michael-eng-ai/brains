@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-05"
+atualizado: "2026-11-06"
 ---
 
 # Historico
@@ -198,7 +198,10 @@ atualizado: "2026-11-05"
 
 - 2026-11-05. Guia da CCXP publicado em três idiomas na PR74. [[2026-11-05-ccxp-guide-release]].
 
+- 2026-11-06. Guia do calendário dos Ravens publicado em três idiomas na PR75. [[2026-11-06-ravens-calendar-release]].
+
 ## Conexoes
+- [[2026-11-06-ravens-calendar-release]] - Publicação e evidências.
 - [[2026-11-05-ccxp-guide-release]] - Publicação e evidências.
 - [[2026-11-05-atp-finals-release]] - Publicação e evidências.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Publicação e evidências.
