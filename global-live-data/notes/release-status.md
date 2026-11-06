@@ -798,7 +798,18 @@ Leitura pública em 2026-11-06T13:33:28.117Z: PT/ES 390 px e EN 1280 px; cinco f
 
 Amostra operacional única em 2026-11-06T13:33:11.246Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro, exit 2. USD sem checkedAt/sourceUpdatedAt/retrievedAt/expiry, nextRefreshAt 2026-11-06T14:32:48.185Z. Os outros oito feeds da amostra, incluindo hóquei DEL, estavam prontos. Causa do erro não estabelecida; não foi repetida consulta nem alterado backoff para mascarar o estado. Reavaliar após o horário indicado em uma investigação própria de câmbio. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
 
+## Paris Masters, PR78
+
+Head 0144b7752232338accba7d31110dab7dadb0b5ca; main 671c54eaf81baa75cd4052735079b8a9b11f1ac7; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42278627170 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42279102776. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/78#issuecomment-6693494115 .
+
+Painel https://vercel.com/michael-eng-ais-projects/global-live-data/3uTMPVbsj3GvfJeZAAyH7f6dxzCJ: Ready, Production, main e SHA exato observados; duração 1m 17s. Domínio exclusivo https://global-live-data-1m8wf6td2-michael-eng-ais-projects.vercel.app abriu o artigo no Chrome autenticado. Alias público sem autenticação/redirects retornou PT/EN/ES HTTP 200, CSP e marcador dpl_3uTMPVbsj3GvfJeZAAyH7f6dxzCJ. Artigo: https://global-live-data.vercel.app/pt/trending/paris-masters-q-ll-wc-draw-guide .
+
+Leitura pública em 2026-11-06T19:24:45.561Z: PT/ES 390 px e EN 1280 px; quatro fontes, conteúdo, metadados, filtro Tênis com quatro artigos, idioma, link interno/retorno, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. Locais: 101 unitários, 11 importações, lint, tipos, build/smoke, 37 Chromium e seis jornadas EN/PT/ES a 390/1280 px passaram. Sete JSON históricos mantiveram bytes e mtimes. Safari nativo, WebKit e carga não repetidos na edição de conteúdo. Browser plugin indisponível; Playwright do repositório utilizado.
+
+Amostra operacional única em 2026-11-06T19:24:26.094Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro, exit 2. Sete requisições limitadas; USD sem checkedAt/sourceUpdatedAt e nextRefreshAt 2026-11-06T20:24:11.985Z. Não foi feita nova tentativa antes do prazo. O erro já constava na amostra anterior; a edição editorial não alterou o provedor. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
+
 ## Conexoes
+- [[2026-11-06-paris-draw-release]] - Recibo da PR78 e limites de validação.
 - [[2026-11-06-us-jobs-release]] - Recibo da PR77 e limites de validação.
 - [[2026-11-06-polar-vortex-release]] - Recibo da PR76 e limites de validação.
 - [[2026-11-06-ravens-calendar-release]] - Recibo da PR75 e limites de validação.

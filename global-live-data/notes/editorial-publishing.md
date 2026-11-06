@@ -407,7 +407,12 @@ Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. weathe
 
 Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. forex factory em IN às 13:07:32.214 UTC, faixa RSS 2000+, início 12:20; economic indicators em JP às 13:07:31.496 UTC, faixa 200+, início 12:30. Cinco referências do BLS: calendário de novembro, comparação CES/CPS, nota técnica, conceitos de desemprego e revisões. São páginas da mesma agência, sem causa inferida para a busca. Livro de fatos docs/editorial/2026-11-06-us-jobs-report.md; sexta-feira 6/11/2026 08:30 America/New_York = 13:30 UTC conferido com Python e Node. Exemplo fictício 4/100=4% e 2/98 aproximadamente 2,04%, com 96 empregados em ambos, conferido independentemente. Catálogo com 55 artigos, cinco em Economia, CTA câmbio/histórico. Sem resultado atual, recomendação financeira, previsão de mercado ou novo feed. Black Friday e rugby league já tinham cobertura; alegações políticas, pessoais, legais e de aquisições não foram pautadas.
 
+## Paris Masters, 6 de novembro às 19 UTC
+
+Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. atp paris em US às 19:11:31.861 UTC, faixa RSS 5000+, início 18:30; atp paris 2026 e paris masters em ES às 19:11:33.159 UTC. Quatro referências: anúncio FFT de 1/11 com sete classificados, quadro atual FFT, guia LTA e glossário Tennis Australia. Livro de fatos docs/editorial/2026-11-06-paris-draw-labels.md. Q/WC/LL são vias de entrada; walkover precede a partida e retirement ocorre durante ela. Recomenda ler modalidade, rodada e estado separadamente e registrar a hora da consulta. Sem placar atual, causa médica ou regras detalhadas de lucky losers. Fonte LTA de Grand Slams usada apenas para definições; ATP 403 registrado. Catálogo com 56 artigos, quatro em Tênis, CTA guia de placar. Nenhum novo feed ou rotina.
+
 ## Conexoes
+- [[2026-11-06-paris-draw-release]] - Apuração e limites do guia de siglas.
 - [[2026-11-06-us-jobs-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-polar-vortex-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-ravens-calendar-release]] - Pauta, referências e limites temporais.
