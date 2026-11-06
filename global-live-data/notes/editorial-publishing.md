@@ -399,7 +399,12 @@ Uma pesquisa retornou dez termos em cada um dos seis mercados. CCXP apareceu em 
 
 Uma pesquisa retornou dez termos em cada um dos seis mercados. ravens schedule apareceu nos EUA às 01:01:37.314 UTC, faixa RSS 2000+, início 00:20; ravens x jaguars apareceu em BR às 01:01:37.870 UTC, faixa 200+, início 00:30. Sinais datados, sem estimativa de tráfego ou causa atribuída. Cinco páginas primárias sustentam temporada, BYE/TBD e EST/EDT. Python zoneinfo e Node Intl coincidiram nas oito conversões para Ravens-Chargers, 16/11/2026 20:15 EST. Livro de fatos docs/editorial/2026-11-06-ravens-calendar.md. Catálogo com 53 artigos, três em Futebol americano; link ao guia de pontuação. Tabela inconsistente da semana 18 excluída, sem data exata publicada; nenhum placar atual, flex rule ou direito de transmissão inferido.
 
+## Vórtice polar, 6 de novembro às 07 UTC
+
+Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. weather polar vortex observado em GB às 07:07:57.454 UTC, faixa RSS 1000+, início 06:30. Quatro fontes primárias: NWS, explicação do Met Office datada 5/11/2026, guia SSW e NESDIS datado 25/8/2025. São duas organizações, sem causa inferida para o interesse. Livro de fatos docs/editorial/2026-11-06-polar-vortex.md; data/dia da semana conferidos com Python e Node. Catálogo com 54 artigos, seis em Clima, CTA ao guia de probabilidades de neve. Não há previsão local, atribuição de evento atual, alerta ou novo feed. Black Friday, Tests ZIM-AFG e estatísticas de arremessos já tinham perguntas cobertas e não receberam duplicatas.
+
 ## Conexoes
+- [[2026-11-06-polar-vortex-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-ravens-calendar-release]] - Pauta, referências e limites temporais.
 - [[2026-11-05-ccxp-guide-release]] - Pauta, referências e limites de acesso.
 - [[2026-11-05-atp-finals-release]] - Pauta de grupos e pontos, com limites de fonte.

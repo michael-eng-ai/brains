@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-06-polar-vortex-release]] - Vórtice polar e leitura da previsão.
 - [[2026-11-06-ravens-calendar-release]] - Calendário dos Ravens e horários locais.
 - [[2026-11-05-ccxp-guide-release]] - Datas e ingressos da CCXP.
 - [[2026-11-05-atp-finals-release]] - Grupos e pontos das ATP Finals.
@@ -194,6 +195,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-06-polar-vortex-release]] - PR76 e páginas públicas verificadas.
 - [[2026-11-06-ravens-calendar-release]] - PR75 e páginas públicas verificadas.
 - [[2026-11-05-ccxp-guide-release]] - PR74 e páginas públicas verificadas.
 - [[2026-11-05-atp-finals-release]] - PR73 e páginas públicas verificadas.

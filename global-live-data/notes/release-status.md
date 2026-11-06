@@ -778,7 +778,18 @@ Leitura pública em 2026-11-06T01:14:56.785Z: PT/ES 390 px e EN 1280 px; cinco f
 
 Amostra operacional única e separada em 2026-11-06T01:14:37.832Z: 8 de 9 feeds amostrados prontos; hóquei DEL em erro, exit 2. Futebol BL1 voltou a responder pronto nesta amostra. O envelope de hóquei DEL continuou sem checkedAt nem timestamp da fonte, com próxima tentativa indicada em 2026-11-06T01:19:39.901Z. Causa não apurada nesta rodada editorial; nenhuma repetição, alteração de cache ou de provedor foi feita. A amostra não cobre todos os seletores. Nenhum cache, provedor ou rotina foi alterado.
 
+## Guia de vórtice polar, PR76
+
+Head bfcd3699c3a5f95cae8f5a683003bc0c47d781a3; main 925c81e7b2c5a207e1a8206ac6daba9b9a3d091a; árvores idênticas. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42182524699 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42182855224. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/76#issuecomment-6679968556 .
+
+Painel https://vercel.com/michael-eng-ais-projects/global-live-data/9ukuqYQjftiRZTF3QRdysbWwMrMR: Ready, Production, main e SHA exato observados; duração 1m 15s. Domínio exclusivo https://global-live-data-8f3fqa5u7-michael-eng-ais-projects.vercel.app abriu o artigo no Chrome autenticado. Alias público sem autenticação/redirects retornou PT/EN/ES HTTP 200, CSP e marcador dpl_9ukuqYQjftiRZTF3QRdysbWwMrMR. Artigo: https://global-live-data.vercel.app/pt/trending/polar-vortex-stratosphere-local-weather-guide .
+
+Leitura pública em 2026-11-06T07:48:04.501Z: PT/ES 390 px e EN 1280 px; quatro fontes, conteúdo, metadados, filtro Clima com seis artigos, idioma, link interno/retorno, sitemap e espanhol sem JavaScript. Capturas inspecionadas sem cortes. Locais: 101 unitários, 11 importações, lint, tipos, build/smoke, 37 Chromium e seis jornadas EN/PT/ES a 390/1280 px passaram. Safari nativo, WebKit e carga não repetidos na edição de conteúdo.
+
+Amostra operacional única em 2026-11-06T07:47:47.151Z: 9 de 9 feeds amostrados prontos, incluindo hóquei DEL, exit 0. USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirão retornaram ready. DEL estava em erro na amostra anterior; agora respondeu pronto, sem intervenção no provedor. Não constitui garantia de disponibilidade contínua. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
+
 ## Conexoes
+- [[2026-11-06-polar-vortex-release]] - Recibo da PR76 e limites de validação.
 - [[2026-11-06-ravens-calendar-release]] - Recibo da PR75 e limites de validação.
 - [[2026-11-05-ccxp-guide-release]] - Recibo da PR74 e limites de validação.
 - [[2026-11-05-atp-finals-release]] - Recibo da PR73 e limites de validação.
