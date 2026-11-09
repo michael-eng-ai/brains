@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-06"
+atualizado: "2026-11-09"
 ---
 
 # Estado da entrega
@@ -808,7 +808,20 @@ Leitura pública em 2026-11-06T19:24:45.561Z: PT/ES 390 px e EN 1280 px; quatro 
 
 Amostra operacional única em 2026-11-06T19:24:26.094Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro, exit 2. Sete requisições limitadas; USD sem checkedAt/sourceUpdatedAt e nextRefreshAt 2026-11-06T20:24:11.985Z. Não foi feita nova tentativa antes do prazo. O erro já constava na amostra anterior; a edição editorial não alterou o provedor. Não cobre todos os seletores. Nenhum cache, provedor ou rotina alterado.
 
+## Nations League, PR79 — CI bloqueado em 9 de novembro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/79 aberta e anexada; branch codex/editorial-nations-november-20261109, head cad909359c07edb3714ca4238d830061c22a84d0. Main permanece 671c54eaf81baa75cd4052735079b8a9b11f1ac7. Nenhum merge ou deploy de produção desta edição foi executado. Recibo: https://github.com/michael-eng-ai/global-live-data/pull/79#issuecomment-6748016554 .
+
+Locais aprovados: npm run check (lint, tipos, 101 unitários, build/histórico e HTTP smoke),11 testes de importação,37 Chromium e seis jornadas PT/EN/ES 390/1280 px mais espanhol sem JavaScript. Capturas mobile/desktop inspecionadas; links internos, citações, filtro e Voltar verificados. Sete JSON históricos conservaram bytes/mtimes. WebKit, Safari nativo e carga não repetidos para edição de conteúdo; providers só simulados na navegação. Recibos temporários /tmp/gld-nations-check.log, /tmp/gld-nations-e2e.log, /tmp/gld-nations-local-qa.json e /tmp/gld-nations-times.json.
+
+CI https://github.com/michael-eng-ai/global-live-data/actions/runs/42672600256: tentativas 1/2 falharam antes de criar qualquer job. A segunda foi a única repetição; nenhuma terceira tentativa foi iniciada. Workflow não mudou e a execução anterior em main passou. API oficial https://www.githubstatus.com/api/v2/summary.json confirmou incidente Actions tp8cghg7tlc4 iniciado 18:12:37Z, major_outage às 18:14:58Z; atualização 18:24:13Z passou a incluir Actions e Checks API com erros elevados. Evidência consistente com indisponibilidade do serviço, sem log que estabeleça a causa individual da execução. Não alterar YAML/permissões, substituir validação remota por testes locais ou integrar sem ambos os jobs aprovados.
+
+Vercel reportou Deployment has completed no contexto GitHub da prévia dpl_5sUgzWohuzoozsozYJPqyxgqVjJY. Isso não é Production Ready. O proprietário informou autorização do acesso da conexão, mas a única nova consulta após a confirmação ainda retornou 403 para a equipe correta. CLI sem sessão foi cancelada antes de autenticar; plugins de browser/Chrome sem SKILL.md e nenhum CUA disponível nesta sessão. Não contornar a autorização, copiar credenciais, criar conta ou redesplegar. Limite de acesso em [[trap-vercel-access]].
+
+Retomar a PR79 antes de produzir outra pauta: aguardar recuperação do GitHub e então repetir o CI do head correto, revalidar fontes/datas caso a espera se prolongue e só integrar após ambos os jobs. Depois verificar SHA exato/Production Ready, páginas públicas PT/EN/ES e uma amostra operacional limitada. Nenhuma nova amostra dos feeds foi feita nesta rodada.
+
 ## Conexoes
+- [[2026-11-09-nations-editorial-ci-blocked]] - Recibos e bloqueios da PR79.
 - [[2026-11-06-paris-draw-release]] - Recibo da PR78 e limites de validação.
 - [[2026-11-06-us-jobs-release]] - Recibo da PR77 e limites de validação.
 - [[2026-11-06-polar-vortex-release]] - Recibo da PR76 e limites de validação.

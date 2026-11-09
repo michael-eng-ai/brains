@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-06"
+atualizado: "2026-11-09"
 ---
 
 # Historico
@@ -206,7 +206,10 @@ atualizado: "2026-11-06"
 
 - 2026-11-06. Guia de siglas do Paris Masters publicado em três idiomas na PR78. [[2026-11-06-paris-draw-release]].
 
+- 2026-11-09. PR79 com guia Nations League preparado/testado; incidente Actions bloqueia CI e merge; produção preservada. [[2026-11-09-nations-editorial-ci-blocked]].
+
 ## Conexoes
+- [[2026-11-09-nations-editorial-ci-blocked]] - Handoff da PR79 pendente.
 - [[2026-11-06-paris-draw-release]] - Publicação e evidências.
 - [[2026-11-06-us-jobs-release]] - Publicação e evidências.
 - [[2026-11-06-polar-vortex-release]] - Publicação e evidências.

@@ -1,25 +1,27 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "Guia de siglas do Paris Masters publicado; produção verificada."
+resumo: "PR79 pronta; CI bloqueado durante incidente Actions, produção preservada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
-atualizado: "2026-11-06"
+atualizado: "2026-11-09"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-06-paris-draw-release]].
+Ultimo handoff: [[2026-11-09-nations-editorial-ci-blocked]].
 
+- PR79 preparada e testada, sem merge; retomar CI e publicação antes de outra pauta. [[release-status]].
 - PR78 publicou o guia de siglas do Paris Masters em PT/EN/ES. Main 671c54eaf81baa75cd4052735079b8a9b11f1ac7; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
 - Catálogo com 56 artigos; Tênis tem quatro. NBA segue preparada e desativada. [[editorial-publishing]].
 - Amostra operacional separada em 2026-11-06T19:24:26.094Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro. Limites no recibo. [[release-status]].
 - Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
 - TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 19:30 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Chrome autenticado permite verificar Vercel; nao repetir conector403 sem mudanca de acesso. [[trap-vercel-access]].
+- Acesso Vercel ainda403 após autorização informada pelo proprietário; browser/CUA indisponíveis nesta sessão. Não repetir tentativas sem nova evidência. [[trap-vercel-access]].
 - Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Dominio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor proprio3102 encerrado; piloto3147 preservado.
+- Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor próprio3102 encerrado após QA; piloto3147 preservado.
 
 ## Conexoes
+- [[2026-11-09-nations-editorial-ci-blocked]] - Retomar publicação pendente da PR79.
 - [[2026-11-06-paris-draw-release]] - Publicação do guia de siglas do Paris Masters.
 - [[2026-11-06-us-jobs-release]] - Publicação do guia de emprego nos EUA.
 - [[2026-11-06-polar-vortex-release]] - Publicação do guia de vórtice polar.

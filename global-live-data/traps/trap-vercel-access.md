@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-11-05"
+atualizado: "2026-11-09"
 ---
 
 # Acesso e publicacao Vercel
@@ -100,7 +100,12 @@ Chrome nativo autenticado acessivel. Dashboards existentes confirmaram Ready/Pro
 
 Na PR72, o alias público respondeu com o artigo e o marcador esperado nos três idiomas. O domínio exclusivo abriu corretamente em Chrome autenticado, mas fetch anônimo seguiu um redirect ao login Vercel. O HTTP 200 e o marcador dessa página pertenciam ao login. Uma asserção combinada falhou e o recibo que antecipara seu sucesso foi corrigido antes do encerramento. Verifique response.url, título/conteúdo e eventuais redirects antes do marcador; mantenha separadas as evidências do alias público e do domínio protegido. Não extrair cookies, alterar proteção ou redesplegar para completar a inspeção.
 
+## 9 de novembro — autorização informada, API ainda negada
+
+A consulta do deployment da PR79 retornou 403 para a equipe existente. Foi gerado um link temporário de autorização pelo conector e o proprietário respondeu que autorizou. A única consulta posterior continuou403; não declarar acesso recuperado nem repetir indefinidamente. Não registrar o link de autorização ou códigos de login no cérebro. CLI instalada em cache iniciou login por não haver sessão e foi cancelada sem autenticar. Os diretórios declarados dos plugins Browser/Chrome não continham SKILL.md; não utilizar APIs internas como substituto. Evidências de preview via GitHub não comprovam Production Ready. A edição permanece sem merge devido ao CI; detalhes em [[release-status]].
+
 ## Conexoes
+- [[2026-11-09-nations-editorial-ci-blocked]] - Acesso pendente apesar da confirmação do proprietário.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Diagnóstico do falso desvio de marcador.
 - [[index]] - Mapa de conhecimento e entrada do projeto.
 - [[release-status]] - Evidencias de GitHub e limites da preparacao Vercel.

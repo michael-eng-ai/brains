@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-06"
+atualizado: "2026-11-09"
 ---
 
 # Publicacao editorial
@@ -411,7 +411,14 @@ Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. forex 
 
 Pesquisa única nos seis mercados, dez termos por mercado, todos prontos. atp paris em US às 19:11:31.861 UTC, faixa RSS 5000+, início 18:30; atp paris 2026 e paris masters em ES às 19:11:33.159 UTC. Quatro referências: anúncio FFT de 1/11 com sete classificados, quadro atual FFT, guia LTA e glossário Tennis Australia. Livro de fatos docs/editorial/2026-11-06-paris-draw-labels.md. Q/WC/LL são vias de entrada; walkover precede a partida e retirement ocorre durante ela. Recomenda ler modalidade, rodada e estado separadamente e registrar a hora da consulta. Sem placar atual, causa médica ou regras detalhadas de lucky losers. Fonte LTA de Grand Slams usada apenas para definições; ATP 403 registrado. Catálogo com 56 artigos, quatro em Tênis, CTA guia de placar. Nenhum novo feed ou rotina.
 
+## Nations League, 9 de novembro às 18 UTC — preparada, não publicada
+
+Pesquisa única nos seis mercados retornou dez termos por mercado, todos prontos. ES `nations league`, faixa RSS 500+, observada em 2026-11-09T18:09:13.197Z, foi comparada aos 56 artigos publicados. A pauta acrescenta três jogos Espanha/Inglaterra de 12/15 de novembro e nove relógios locais, incluindo virada de data na Índia/Japão. Cinco páginas primárias UEFA/RFEF/FA lidas até 18:10:16Z; dezoito conversões Python zoneinfo/Node Intl coincidiram. Livro de fatos: docs/editorial/2026-11-09-nations-league-times.md. A expressão GrupoC da RFEF e afirmações de classificação foram excluídas diante da divergência com UEFA/FA; datas inconsistentes das finais também não entram. Nenhum resultado, classificação corrente, transmissão ou novo feed é afirmado.
+
+Catálogo preparado: 57 artigos, dez em Futebol; produção permanece com 56 enquanto PR79 aguarda os gates. O destino interno é futebol, com limite explícito de não oferecer placares ao vivo da Nations League. PT/EN/ES originais, cinco referências, apoio de IA e ausência de revisão humana preservados. Sem novas contas, gastos, chaves, provedores, anúncios, analytics ou alterações das rotinas. Recibo e bloqueio em [[release-status]].
+
 ## Conexoes
+- [[2026-11-09-nations-editorial-ci-blocked]] - Pauta preparada e retomada da PR79.
 - [[2026-11-06-paris-draw-release]] - Apuração e limites do guia de siglas.
 - [[2026-11-06-us-jobs-release]] - Apuração, originalidade e limites do guia.
 - [[2026-11-06-polar-vortex-release]] - Apuração, originalidade e limites do guia.
