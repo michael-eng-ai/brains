@@ -866,7 +866,22 @@ Logs do build mostraram três grupos/quatro linhas de avisos: configuração npm
 
 Evidências temporárias: /tmp/gld-valencia-check.log, /tmp/gld-valencia-import.log, /tmp/gld-valencia-e2e.log, /tmp/gld-valencia-local-qa.json, /tmp/gld-valencia-public-qa.json, /tmp/gld-valencia-20261110-public-receipt.json, /tmp/gld-valencia-ops.log. Podem expirar; o recibo da PR é durável.
 
+## Champions feminina: PR82 publicada em 10 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/82#issuecomment-6775843081). Head a13c9a2a8ddc033ce122c3f929bfc96fff75c178; main local/remota limpa cd13bf660562573f5dc9ff527ea5ccf204c2693d, árvore idêntica. Ambos os jobs passaram na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42875131310 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/42875677528 .
+
+Painel autenticado mostrou Ready, Production, main e SHA integral. Deployment dpl_14NiPgA7vXTzdm4cUtqtzYPa2YW3; painel https://vercel.com/michael-eng-ais-projects/global-live-data/14NiPgA7vXTzdm4cUtqtzYPa2YW3 ; domínio único https://global-live-data-a7t5x31qa-michael-eng-ais-projects.vercel.app. GitHub deployment 7690740066: Production/success em 2026-11-10T18:30:45Z. Integração Git existente, sem deploy duplicado ou mudança de acesso.
+
+Verificação anônima 2026-11-10T18:31:08.758Z: PT/EN/ES HTTP200, CSP, idioma, headline/Article, publicação, cinco fontes, sitemap e marcador do deployment corretos. Três jornadas públicas 2026-11-10T18:31:28.334Z (PT/ES 390px e EN 1280px) passaram filtro Football, teclado, parágrafos, canonical, fontes/âncoras, idioma, índice e Voltar. Espanhol também sem JavaScript. Duas capturas públicas inspecionadas sem cortes/overflow; zero erros de aplicação, avisos/erros de console e consultas visitantes a Trends. URL PT: https://global-live-data.vercel.app/pt/trending/womens-champions-league-2026-27-knockout-path .
+
+Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 importações e 37 Chromium passaram; seis jornadas 390/1280px e espanhol sem JavaScript; três capturas inspecionadas. Exportações TypeScript conferidas contra o texto revisado; Python/Node concordam nas faixas de classificação. Sete JSON históricos preservaram bytes/mtimes, inclusive após merge. Safari nativo/WebKit/carga não repetidos nesta edição de conteúdo. Servidor próprio 3102 encerrado; trabalho local alheio preservado. Mocks de navegação não contam como validação de provedor.
+
+Amostra única em 2026-11-10T18:31:09.616Z: sete requisições, nove feeds ready, incluindo USD, USGS, MET Lisboa e Brasileirão; exit0. Observação pontual de seletores representativos, sem garantia contínua.
+
+Evidências temporárias /tmp/gld-womens-cl-check.log, history-tests.log, e2e.log, local-qa.json, public-qa.json, 20261110-public-receipt.json e ops.log (todos com prefixo gld-womens-cl-). O recibo da PR é durável. Build observado com quatro linhas de avisos em três grupos: npm cache-dir e ESLint 9.39.5 depreciado. Instalação mostrou sete achados moderados de audit; não é uma auditoria production-only nova. Manutenção separada, sem mudar dependências ou segurança.
+
 ## Conexoes
+- [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.

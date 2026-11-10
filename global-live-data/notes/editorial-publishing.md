@@ -437,7 +437,16 @@ Quatro fontes primárias lidas até 12:18:49Z: cronograma/FAQ do organizador, ag
 
 Catálogo publicado: 59 artigos; Running é somente filtro editorial, CTA índice existente. Slug valencia-half-marathon-2027-ballot-dates. Quatro referências e divulgação de apoio de IA/ausência de revisão humana preservadas. Sem imagem/texto copiado, autor inventado, resultado de sorteio, disponibilidade de vaga, inscrição realizada, provedor, conta, chave, gasto, analytics ou alteração de rotina. Recibos em [[release-status]].
 
+## Champions feminina: 10 novembro, rodada 18:17 UTC
+
+Pesquisa única nos seis mercados retornou dez termos cada, todos prontos, entre 18:17:28.535Z e 18:17:31.645Z. BR liga dos campeões feminina observado em 2026-11-10T18:17:28.829Z, faixa RSS 200+, início 17:50Z, com partidas relacionadas em BR/ES/IN. Sinal datado de descoberta, não volume mensal nem causa comprovada. Comparação com 59 artigos: pauta distinta do guia masculino de 36 clubes; uma única escolhida.
+
+Cinco fontes primárias verificadas até 18:21:18Z: calendário atual UEFA, artigos 17 e 20 do regulamento 2026/27, Real Madrid e Chelsea. Texto original PT/EN/ES explica 18 clubes/seis adversários, faixas 1–4/5–12/13–18, ida/volta com exceção regulamentar e calendário novembro/dezembro de 2026 a fevereiro/março/abril de 2027. Livro de fatos docs/editorial/2026-11-10-womens-champions.md. Horários de kickoff conflitantes no Real Madrid e título/URL com ordem ambígua do Chelsea foram excluídos; corpo oficial usado só para adversários e data. Artigo16 indisponível não fundamenta afirmação.
+
+Catálogo publicado: 60 artigos, Football com onze; destino índice existente. Slug womens-champions-league-2026-27-knockout-path. Fontes contextuais, divulgação de apoio de IA e ausência de revisão humana preservadas. Sem placar, classificação já garantida, tabela ao vivo, imagem/texto copiado, autor inventado, provedor, conta, chave, gasto, analytics, escopo ou frequência novos. Recibos em [[release-status]].
+
 ## Conexoes
+- [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.

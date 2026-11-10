@@ -214,7 +214,10 @@ atualizado: "2026-11-10"
 
 - 2026-11-10: PR81 publica guia de prazos de Valência em PT/EN/ES; testes, CI PR/main, Production Ready/SHA e páginas confirmados; catálogo 59. [[2026-11-10-valencia-ballot-editorial-release]].
 
+- 2026-11-10: PR82 publica caminho às quartas da Champions feminina em PT/EN/ES; testes, CI PR/main, Ready/SHA e páginas confirmados; catálogo 60. [[2026-11-10-womens-champions-editorial-release]].
+
 ## Conexoes
+- [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
