@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR80 publicada: guia de vento/rajadas com CI, Ready e páginas verificadas."
+resumo: "PR81 publicada: prazos de Valência com CI, Ready e páginas verificadas."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-10"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-10-wind-gusts-editorial-release]].
+Ultimo handoff: [[2026-11-10-valencia-ballot-editorial-release]].
 
-- PR80 integrada; main local/remota fe81bfda8ea817aa396de6f526df778b40507a7e limpa, ambos os jobs PR/main aprovados. Production Ready/SHA e páginas PT/EN/ES conferidos; nenhuma pendência da entrega. A leitura Ready da PR79 também foi concluída. [[release-status]], [[trap-vercel-access]].
-- Catálogo com 58 artigos, sete em Weather; novo guia de vento médio/rajadas, conversões fictícias e três fontes primárias. Pesquisa atual nos seis mercados, uma pauta nova. [[editorial-publishing]].
-- Amostra única em 2026-11-10T06:26:11.136Z: nove feeds amostrados ready, incluindo USD e MET Lisboa. Observação pontual, sem garantia contínua. [[release-status]].
+- PR81 integrada; main local/remota 4e98353586a6a12ca581c1faee8257aea5a49862 limpa, ambos os jobs PR/main aprovados. Production Ready/SHA e páginas PT/EN/ES conferidos; nenhuma pendência da entrega. [[release-status]], [[trap-vercel-access]].
+- Catálogo com 59 artigos; novo guia de prazos do sorteio de Valência 2027, filtro Running e quatro fontes primárias. Pesquisa atual nos seis mercados, uma pauta nova. [[editorial-publishing]].
+- Amostra única em 2026-11-10T12:28:14.897Z: nove feeds ready, incluindo USD e MET Lisboa. Observação pontual, sem garantia contínua. Build com avisos npm/ESLint e sete achados moderados de audit; detalhes e limite da observação em [[release-status]].
 - Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
 - TSE registrado: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/quatro esportes preservados. Sete JSON históricos mantiveram bytes/mtimes nesta edição. Rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Nome Global Live Data/Datasanti World segue piloto local gratuito; domínio/Google e NBA real dependem do dono. NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; piloto 3147 preservado. Não repetir pedidos antigos ou 403 por lacunas de acesso já contornadas com evidência válida.
 
 ## Conexoes
+- [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada e verificação da PR79.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Retomar publicação pendente da PR79.

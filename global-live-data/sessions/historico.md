@@ -212,7 +212,10 @@ atualizado: "2026-11-10"
 
 - 2026-11-10. PR80: guia vento/rajadas publicado em PT/EN/ES, ambos CI/Ready/SHA/páginas aprovados; nove feeds amostrados prontos e pendência Ready PR79 resolvida. [[2026-11-10-wind-gusts-editorial-release]].
 
+- 2026-11-10: PR81 publica guia de prazos de Valência em PT/EN/ES; testes, CI PR/main, Production Ready/SHA e páginas confirmados; catálogo 59. [[2026-11-10-valencia-ballot-editorial-release]].
+
 ## Conexoes
+- [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Handoff da PR79 pendente.

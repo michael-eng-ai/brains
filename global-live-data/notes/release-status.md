@@ -850,7 +850,24 @@ Locais: check com lint/tipos/101 unitários/build/histórico/HTTP smoke, 11 impo
 
 Amostra operacional única às 2026-11-10T06:26:11.136Z: sete requisições, nove feeds ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL, Brasileirão), exit0. Não significa todos os seletores ou garantia contínua; nenhum provedor foi alterado. Evidências temporárias: /tmp/gld-wind-check.log, /tmp/gld-wind-import.log, /tmp/gld-wind-e2e.log, /tmp/gld-wind-local-qa.json, /tmp/gld-wind-public-qa.json, /tmp/gld-wind-20261110-public-receipt.json, /tmp/gld-wind-public-console.json e /tmp/gld-wind-ops.log. Podem expirar; o recibo da PR é durável.
 
+## Valência 2027: PR81 publicada em 10 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/81#issuecomment-6767366269). Head 56a0ad9a380bbea89ee36c06146517deea76d994; main local/remota limpa 4e98353586a6a12ca581c1faee8257aea5a49862, árvore idêntica. Ambos os jobs passaram na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42815346551 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/42815742102 .
+
+O painel autenticado mostrou Ready, Production, Current, main e SHA integral esperado. Deployment dpl_ZZhthSeJKjTLRuHyyvzSrX1fxjCF, build 1m27s; painel https://vercel.com/michael-eng-ais-projects/global-live-data/ZZhthSeJKjTLRuHyyvzSrX1fxjCF e domínio único https://global-live-data-2ptbxu5g7-michael-eng-ais-projects.vercel.app . GitHub deployment 7682061174: Production/success em 2026-11-10T12:27:47Z. Integração Git existente, sem deploy duplicado ou mudança de acesso.
+
+Verificação anônima 12:28:13.839Z: PT/EN/ES HTTP200, CSP, idioma, headline/Article, publicação, quatro fontes, sitemap e marcador do deployment passaram. Três jornadas públicas 12:28:32.728Z (PT/ES 390px e EN 1280px) passaram filtro Running, teclado, todos os parágrafos, canonical, fontes/âncoras, idioma, índice e Voltar. Espanhol também passou sem JavaScript. Duas capturas públicas inspecionadas sem cortes/overflow; zero erros de aplicação, avisos/erros de console e consultas visitantes a Trends. URL PT: https://global-live-data.vercel.app/pt/trending/valencia-half-marathon-2027-ballot-dates .
+
+Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 importações e 37 Chromium passaram; seis jornadas 390/1280px nos três idiomas e espanhol sem JavaScript; três capturas inspecionadas. Python zoneinfo e Node Intl conferiram 30 pares de data/fuso e domingo da corrida. Sete JSON históricos preservaram bytes/mtimes, inclusive após merge. Browser plugin indisponível; Playwright do repositório usado. WebKit, Safari nativo e carga não repetidos nesta entrega de conteúdo. Servidor próprio 3102 encerrado; trabalho local alheio preservado.
+
+Amostra operacional única em 2026-11-10T12:28:14.897Z: sete requisições, nove feeds ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL e Brasileirão), exit0. É observação pontual, não todos os seletores nem garantia contínua. Mocks de navegação não contam como validação de provedor.
+
+Logs do build mostraram três grupos/quatro linhas de avisos: configuração npm cache-dir e depreciação ESLint 9.39.5. Resumo de instalação também mostrou sete achados moderados de audit. Não foi feita uma nova auditoria production-only nem classificação dessas dependências; não reutilizar a antiga contagem de docs/DEPENDENCIES.md como atual. Manutenção compatível deve ser tratada separadamente; nenhum upgrade, override ou alteração de segurança nesta edição.
+
+Evidências temporárias: /tmp/gld-valencia-check.log, /tmp/gld-valencia-import.log, /tmp/gld-valencia-e2e.log, /tmp/gld-valencia-local-qa.json, /tmp/gld-valencia-public-qa.json, /tmp/gld-valencia-20261110-public-receipt.json, /tmp/gld-valencia-ops.log. Podem expirar; o recibo da PR é durável.
+
 ## Conexoes
+- [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Recibos e bloqueios da PR79.

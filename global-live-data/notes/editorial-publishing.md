@@ -429,7 +429,16 @@ Met Office, AEMET e MET Norway lidos até 06:12:12Z fundamentam vento médio, pi
 
 Catálogo publicado: 58 artigos, sete em Weather; slug wind-speed-gusts-forecast-reading-guide. CTA Natureza com limite de 42 cidades e distinção entre vento previsto e rajada. Sem alerta vigente, dado atual inventado, feed de rajadas, provedor, conta, chave, gasto, analytics ou mudança nas rotinas. Recibos em [[release-status]].
 
+## Valência 2027: 10 novembro, rodada 12:13 UTC
+
+Pesquisa única nos seis mercados retornou dez termos cada, todos prontos, entre 12:13:22.747Z e 12:13:25.607Z. ES media maraton valencia 2027 observado em 2026-11-10T12:13:24.390Z, faixa RSS 200+, início 10:10Z. Sinal de descoberta, não volume mensal nem número de inscritos. Comparação com 58 artigos identificou pauta inédita; uma única selecionada. Alegações médicas, ataques não confirmados e especulação financeira excluídos; aviação investigada sem segundo artigo.
+
+Quatro fontes primárias lidas até 12:18:49Z: cronograma/FAQ do organizador, agenda municipal, regulamento 2027 e calendário BOE. Texto original PT/EN/ES distingue processo de novembro de 2026 e prova de outubro de 2027, cadastro no sorteio/compra posterior, retenção temporária de cartão e prazo específico de encerramento. Conversões de fusos e domingo verificados independentemente. Livro de fatos: docs/editorial/2026-11-10-valencia-ballot.md. Datas específicas do ballot prevalecem para este guia sobre o horário genérico do regulamento de gestões; horários de chegada/largada e vagas restantes não são afirmados.
+
+Catálogo publicado: 59 artigos; Running é somente filtro editorial, CTA índice existente. Slug valencia-half-marathon-2027-ballot-dates. Quatro referências e divulgação de apoio de IA/ausência de revisão humana preservadas. Sem imagem/texto copiado, autor inventado, resultado de sorteio, disponibilidade de vaga, inscrição realizada, provedor, conta, chave, gasto, analytics ou alteração de rotina. Recibos em [[release-status]].
+
 ## Conexoes
+- [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Pauta preparada e retomada da PR79.
