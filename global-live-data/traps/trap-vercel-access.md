@@ -3,7 +3,7 @@ tipo: "armadilha"
 projeto: "global-live-data"
 resumo: "Conector, browser, formulario e deploy sao estados independentes."
 tags: ["global-live-data", "armadilha"]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Acesso e publicacao Vercel
@@ -104,7 +104,12 @@ Na PR72, o alias público respondeu com o artigo e o marcador esperado nos três
 
 A consulta do deployment da PR79 retornou 403 para a equipe existente. Foi gerado um link temporário de autorização pelo conector e o proprietário respondeu que autorizou. A única consulta posterior continuou403; não declarar acesso recuperado nem repetir indefinidamente. Não registrar o link de autorização ou códigos de login no cérebro. CLI instalada em cache iniciou login por não haver sessão e foi cancelada sem autenticar. Os diretórios declarados dos plugins Browser/Chrome não continham SKILL.md; não utilizar APIs internas como substituto. Evidências de preview via GitHub não comprovam Production Ready. A edição permanece sem merge devido ao CI; detalhes em [[release-status]].
 
+## 10 de novembro — Chrome acessível, concorrência na leitura de produção
+
+CUA nativo voltou a acessar a sessão Chrome autorizada e mostrou Ready na prévia antiga da PR79. Nenhum conector ou CLI foi declarado recuperado. Após merge, o proprietário estava usando outra janela/perfil: duas tentativas foram interrompidas pelos guardas de interação. Não disputar foco, repetir índices de uma árvore antiga nem navegar sobre páginas alheias. Pedido de disponibilidade enviado uma vez; aguardar resposta para o painel de produção existente em [[release-status]]. GitHub Production/success e marcador público já conferidos, mas Ready direto segue pendente. Nenhuma credencial copiada, configuração de segurança ou proteção alterada.
+
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Acesso pendente apesar da confirmação do proprietário.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Diagnóstico do falso desvio de marcador.
 - [[index]] - Mapa de conhecimento e entrada do projeto.

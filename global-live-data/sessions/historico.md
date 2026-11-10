@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Historico
@@ -208,7 +208,10 @@ atualizado: "2026-11-09"
 
 - 2026-11-09. PR79 com guia Nations League preparado/testado; incidente Actions bloqueia CI e merge; produção preservada. [[2026-11-09-nations-editorial-ci-blocked]].
 
+- 2026-11-10. PR79 integrada após recuperação Actions; fontes/datas revalidadas, CI/SHA/Production-success e páginas PT/EN/ES conferidos; Ready direto aguarda Chrome livre. [[2026-11-10-nations-editorial-release]].
+
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Handoff da PR79 pendente.
 - [[2026-11-06-paris-draw-release]] - Publicação e evidências.
 - [[2026-11-06-us-jobs-release]] - Publicação e evidências.

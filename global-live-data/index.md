@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-10-nations-editorial-release]] - PR79 integrada, páginas conferidas e Ready direto pendente.
 - [[2026-11-09-nations-editorial-ci-blocked]] - PR79 pronta; aguarda CI e verificação de publicação.
 - [[2026-11-06-paris-draw-release]] - Paris Masters e leitura da chave.
 - [[2026-11-06-us-jobs-release]] - Emprego nos EUA e leitura da taxa.
@@ -198,6 +199,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Retomada pendente.
 - [[2026-11-06-paris-draw-release]] - PR78 e páginas públicas verificadas.
 - [[2026-11-06-us-jobs-release]] - PR77 e páginas públicas verificadas.

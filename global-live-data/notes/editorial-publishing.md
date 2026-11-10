@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Publicacao editorial
@@ -417,7 +417,12 @@ Pesquisa única nos seis mercados retornou dez termos por mercado, todos prontos
 
 Catálogo preparado: 57 artigos, dez em Futebol; produção permanece com 56 enquanto PR79 aguarda os gates. O destino interno é futebol, com limite explícito de não oferecer placares ao vivo da Nations League. PT/EN/ES originais, cinco referências, apoio de IA e ausência de revisão humana preservados. Sem novas contas, gastos, chaves, provedores, anúncios, analytics ou alterações das rotinas. Recibo e bloqueio em [[release-status]].
 
+## Nations League, retomada em 10 de novembro
+
+A PR79 foi integrada após recuperação do Actions e revalidação das cinco fontes até 00:06:25Z. Data da primeira publicação corrigida para10/11 nos três idiomas; observação Trends de9/11 preservada. Pesquisa nova única via editorial:research,00:05:21.054Z–00:05:24.925Z, retornou os seis mercados prontos e dez termos cada. Nations league não apareceu nessa amostra limitada; o texto não afirma tendência atual. Nenhuma segunda pauta escolhida. Catálogo servido:57 artigos,10 em Futebol. Apuração/exclusões e18conversões continuam em docs/editorial/2026-11-09-nations-league-times.md. CI/SHA/páginas públicas aprovados; recibo e limite de Ready direto em [[release-status]].
+
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Pauta preparada e retomada da PR79.
 - [[2026-11-06-paris-draw-release]] - Apuração e limites do guia de siglas.
 - [[2026-11-06-us-jobs-release]] - Apuração, originalidade e limites do guia.

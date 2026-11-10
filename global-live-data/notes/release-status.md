@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Estado da entrega
@@ -820,7 +820,22 @@ Vercel reportou Deployment has completed no contexto GitHub da prévia dpl_5sUgz
 
 Retomar a PR79 antes de produzir outra pauta: aguardar recuperação do GitHub e então repetir o CI do head correto, revalidar fontes/datas caso a espera se prolongue e só integrar após ambos os jobs. Depois verificar SHA exato/Production Ready, páginas públicas PT/EN/ES e uma amostra operacional limitada. Nenhuma nova amostra dos feeds foi feita nesta rodada.
 
+## Nations League, PR79 — retomada em 10 de novembro
+
+Recibo público com a pendência explícita: https://github.com/michael-eng-ai/global-live-data/pull/79#issuecomment-6755155036 .
+
+O incidente Actions já não afetava o componente na consulta oficial. Cinco fontes revalidadas em 2026-11-10T00:06:25Z; publicação e texto de conferência passaram para 10/11, preservando a observação original do Trends. Head final ef27554c1c048a1e681efda4402aa0a8ef262ff4; squash em main 04b30a478ad63e98d0a0416c7cfbc0360409f587. Árvores idênticas, checkout main limpo/sincronizado. Ambos os jobs aprovados na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42726080317 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/42726396453. O run antigo42672600256 não foi repetido no head obsoleto; os gates do workflow permaneceram intactos.
+
+GitHub registrou deployment7669695437 às 2026-11-10T00:13:00Z com SHA exato, environment Production e success/Deployment has completed. Deployment dpl_DryHwaVp5iYhD6SpnEErFRBPSYZ9; painel https://vercel.com/michael-eng-ais-projects/global-live-data/DryHwaVp5iYhD6SpnEErFRBPSYZ9 e domínio exclusivo https://global-live-data-osgkioqgs-michael-eng-ais-projects.vercel.app. Ready de produção ainda não observado diretamente: o Chrome estava em uso pelo proprietário e interrompeu a navegação; pedido de disponibilidade enviado uma vez. A prévia antiga foi vista Ready no painel, mas não substitui a prova de produção. Não repetir403, iniciar login, mudar permissões ou redesplegar; completar somente o recibo do deployment existente quando o Chrome estiver livre.
+
+Alias público verificado anonimamente em 2026-11-10T00:13:36.943Z: HTTP200 sem redirects, idioma/título/dataPublished10/11 corretos, cinco referências, CSP, marcador exato dpl_DryHwaVp5iYhD6SpnEErFRBPSYZ9 e sitemap PT/EN/ES. Artigo https://global-live-data.vercel.app/pt/trending/nations-league-november-2026-spain-england-times. Leitura pública às 00:14:57.615Z: PT/ES390px e EN1280px, conteúdo, fontes, metadados, filtro Futebol10, teclado, idioma, CTA/Voltar e espanhol sem JavaScript aprovados. Capturas públicas mobile/desktop inspecionadas sem cortes. Primeira execução do harness temporário falhou na âncora após Voltar: o script não aguardava a navegação da citação antes de sair. Acrescentada espera/assertion do hash antes do CTA, mantida assertion posterior; execução integral seguinte passou sem mudança no app.
+
+Locais no head final: npm run check (lint, tipos,101 unitários,build/histórico,HTTP smoke),11 importações,37 Chromium e seis jornadas PT/EN/ES390/1280px mais espanhol sem JavaScript passaram. Sete JSON históricos mantiveram bytes/mtimes. Native Safari, WebKit e carga não repetidos nesta edição de conteúdo. FX/histórico simulados somente na navegação, sem prova de provedor. Evidências temporárias /tmp/gld-nations-20261110-check.log, /tmp/gld-nations-20261110-history.log, /tmp/gld-nations-20261110-e2e.log, /tmp/gld-nations-local-qa.json, /tmp/gld-nations-public-qa.json, /tmp/gld-nations-20261110-public-receipt.json e /tmp/gld-nations-20261110-history-verification.json.
+
+Amostra operacional única e separada em 2026-11-10T00:13:37.694Z: sete requisições limitadas,9/9 feeds prontos,exit0. USGS,MET Lisboa,BL1,USD,DEL,xadrez,Holborn,TV GLOBAL e Brasileirão responderam ready. USD estava em erro na amostra anterior; voltou a responder sem intervenção nesta rodada. Não demonstra correção permanente ou cobertura de todos os seletores. Recibo /tmp/gld-nations-20261110-ops.log. Nenhum provedor/cache/rotina/serviço/credencial/gasto/analytics alterado. Servidor próprio3102 encerrado; piloto3147 preservado.
+
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Recibos e bloqueios da PR79.
 - [[2026-11-06-paris-draw-release]] - Recibo da PR78 e limites de validação.
 - [[2026-11-06-us-jobs-release]] - Recibo da PR77 e limites de validação.

@@ -3,7 +3,7 @@ tipo: sessao
 projeto: global-live-data
 resumo: "PR79 preparada e testada; CI falhou durante incidente Actions, sem publicação."
 tags: [global-live-data, sessao, editorial, release, football]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 data: "2026-11-09"
 ia: codex
 maquina: macos
@@ -28,7 +28,12 @@ GitHub Actions confirmou incidente de disponibilidade; ambas as tentativas do CI
 ## Prompt inicial para a próxima sessão
 Conclua somente a publicação pendente da PR79 do Global Live Data: confira o incidente Actions e ambos os jobs do head cad909359c07edb3714ca4238d830061c22a84d0, preserve as fontes e validações em docs/editorial/2026-11-09-nations-league-times.md, resolva o acesso de leitura à Vercel sem contornar permissões e só declare publicação após SHA/Production Ready/páginas públicas verificados. Não abra outra pauta nesta retomada.
 
+## Resolução posterior
+
+A retomada de10/11 revalidou fontes e datas; o head final passou nos dois jobs e foi integrado. Páginas públicas conferidas. O bloqueio CI acima é histórico; evidência atual e limite restante do painel em [[2026-11-10-nations-editorial-release]].
+
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[index]] - Mapa do projeto.
 - [[current]] - Estado atual.
 - [[historico]] - Cronologia.

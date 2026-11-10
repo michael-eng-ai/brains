@@ -1,26 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR79 pronta; CI bloqueado durante incidente Actions, produção preservada."
+resumo: "PR79 integrada e páginas verificadas; Ready direto aguarda Chrome livre."
 tags: [global-live-data, estado, eleicoes, release, editorial]
-atualizado: "2026-11-09"
+atualizado: "2026-11-10"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-09-nations-editorial-ci-blocked]].
+Ultimo handoff: [[2026-11-10-nations-editorial-release]].
 
-- PR79 preparada e testada, sem merge; retomar CI e publicação antes de outra pauta. [[release-status]].
-- PR78 publicou o guia de siglas do Paris Masters em PT/EN/ES. Main 671c54eaf81baa75cd4052735079b8a9b11f1ac7; CI da PR/main, Production Ready e páginas públicas verificados. [[release-status]].
-- Catálogo com 56 artigos; Tênis tem quatro. NBA segue preparada e desativada. [[editorial-publishing]].
-- Amostra operacional separada em 2026-11-06T19:24:26.094Z: 8 de 9 feeds amostrados prontos; câmbio USD em erro. Limites no recibo. [[release-status]].
-- Safari nativo previamente concluido: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidencias e limites em [[validation-workflow]]. Carga anterior local/sintetica4.836HTTP ate30clientes; nao extrapolar capacidade da hospedagem.
-- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Conferência da rotina separada em 4/11 às 19:30 UTC, sem revisão dos 170 recortes. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Acesso Vercel ainda403 após autorização informada pelo proprietário; browser/CUA indisponíveis nesta sessão. Não repetir tentativas sem nova evidência. [[trap-vercel-access]].
-- Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Dominio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Verificar espaco antes de novas instalacoes; nenhum cache apagado nesta rodada. Nenhum servico,conta,gasto,chave,DNS,anuncio,analytics,frequencia ou escopo novo. Servidor próprio3102 encerrado após QA; piloto3147 preservado.
+- PR79 integrada após recuperação Actions; main local/remota 04b30a478ad63e98d0a0416c7cfbc0360409f587 limpa, ambos os jobs PR/main aprovados. GitHub Production/success/SHA e alias público PT/EN/ES verificados. Ready direto pendente de Chrome livre; completar recibo existente antes de outra publicação. [[release-status]], [[trap-vercel-access]].
+- Catálogo servido com57 artigos,10 em Futebol; guia Nations League com fontes revalidadas10/11 e demanda originalmente observada9/11. Sem outra pauta nesta retomada. [[editorial-publishing]].
+- Amostra única em 2026-11-10T00:13:37.694Z:9/9 feeds amostrados prontos, inclusive USD; observação pontual sem garantia contínua ou alteração de provedor. [[release-status]].
+- Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidências e limites em [[validation-workflow]]. Carga anterior local/sintética4.836HTTP até30clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
+- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Sete JSON históricos mantiveram bytes/mtimes nesta edição; não houve atualização TSE. Próxima rotina separada pode retomar a partir da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Domínio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
+- Nenhum serviço,conta,gasto,chave,DNS,anúncio,analytics,frequência ou escopo novo. Servidor próprio3102 encerrado após QA; piloto3147 preservado. Não repetir403 ou iniciar autenticação por causa da lacuna de leitura Ready.
 
 ## Conexoes
+- [[2026-11-10-nations-editorial-release]] - Retomada e verificação da PR79.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Retomar publicação pendente da PR79.
 - [[2026-11-06-paris-draw-release]] - Publicação do guia de siglas do Paris Masters.
 - [[2026-11-06-us-jobs-release]] - Publicação do guia de emprego nos EUA.
