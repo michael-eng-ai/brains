@@ -210,7 +210,10 @@ atualizado: "2026-11-10"
 
 - 2026-11-10. PR79 integrada após recuperação Actions; fontes/datas revalidadas, CI/SHA/Production-success e páginas PT/EN/ES conferidos; Ready direto aguarda Chrome livre. [[2026-11-10-nations-editorial-release]].
 
+- 2026-11-10. PR80: guia vento/rajadas publicado em PT/EN/ES, ambos CI/Ready/SHA/páginas aprovados; nove feeds amostrados prontos e pendência Ready PR79 resolvida. [[2026-11-10-wind-gusts-editorial-release]].
+
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Handoff da PR79 pendente.
 - [[2026-11-06-paris-draw-release]] - Publicação e evidências.

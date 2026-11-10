@@ -108,7 +108,16 @@ A consulta do deployment da PR79 retornou 403 para a equipe existente. Foi gerad
 
 CUA nativo voltou a acessar a sessão Chrome autorizada e mostrou Ready na prévia antiga da PR79. Nenhum conector ou CLI foi declarado recuperado. Após merge, o proprietário estava usando outra janela/perfil: duas tentativas foram interrompidas pelos guardas de interação. Não disputar foco, repetir índices de uma árvore antiga nem navegar sobre páginas alheias. Pedido de disponibilidade enviado uma vez; aguardar resposta para o painel de produção existente em [[release-status]]. GitHub Production/success e marcador público já conferidos, mas Ready direto segue pendente. Nenhuma credencial copiada, configuração de segurança ou proteção alterada.
 
+## PR79: Ready confirmado em 10 novembro, 06:10 UTC
+
+O painel autenticado mostrou diretamente Ready, Production Current, branch main e SHA 04b30a478ad63e98d0a0416c7cfbc0360409f587 para dpl_DryHwaVp5iYhD6SpnEErFRBPSYZ9. A pendência anterior de leitura do painel está encerrada, sem redeploy ou mudança de acesso. Recibo permanente: https://github.com/michael-eng-ai/global-live-data/pull/79#issuecomment-6760451002 . Isso não afirma recuperação do conector/CLI. A pergunta anterior de disponibilidade do Chrome não precisa ser repetida.
+
+## PR80: evidência direta e limite do conector GitHub
+
+Ready/Production/main/SHA da PR80 foram lidos no Chrome autenticado; sem autenticação nova, credenciais copiadas ou alteração de proteção. A chamada GitHub get_commit_combined_status retornou 403 Resource not accessible by integration, enquanto criar/mesclar/comentar PR funcionou. O CLI GitHub já autenticado forneceu checks, jobs e deployment/status. Não repetir o conector inalterado nem ampliar permissões; registrar qual canal forneceu cada evidência. Recibo em [[release-status]].
+
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Acesso pendente apesar da confirmação do proprietário.
 - [[2026-11-05-zimbabwe-afghanistan-release]] - Diagnóstico do falso desvio de marcador.

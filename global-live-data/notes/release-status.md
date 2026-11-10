@@ -834,7 +834,24 @@ Locais no head final: npm run check (lint, tipos,101 unitários,build/histórico
 
 Amostra operacional única e separada em 2026-11-10T00:13:37.694Z: sete requisições limitadas,9/9 feeds prontos,exit0. USGS,MET Lisboa,BL1,USD,DEL,xadrez,Holborn,TV GLOBAL e Brasileirão responderam ready. USD estava em erro na amostra anterior; voltou a responder sem intervenção nesta rodada. Não demonstra correção permanente ou cobertura de todos os seletores. Recibo /tmp/gld-nations-20261110-ops.log. Nenhum provedor/cache/rotina/serviço/credencial/gasto/analytics alterado. Servidor próprio3102 encerrado; piloto3147 preservado.
 
+## PR79: Ready confirmado em 10 novembro, 06:10 UTC
+
+O painel autenticado mostrou diretamente Ready, Production Current, branch main e SHA 04b30a478ad63e98d0a0416c7cfbc0360409f587 para dpl_DryHwaVp5iYhD6SpnEErFRBPSYZ9. A pendência anterior de leitura do painel está encerrada, sem redeploy ou mudança de acesso. Recibo permanente: https://github.com/michael-eng-ai/global-live-data/pull/79#issuecomment-6760451002 . Isso não afirma recuperação do conector/CLI. A pergunta anterior de disponibilidade do Chrome não precisa ser repetida.
+
+## Vento e rajadas: PR80 publicada em 10 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/80#issuecomment-6760695300). Head 85d68a588dc211efe9c4783e9a99e731ddea0c40; main local/remota limpa fe81bfda8ea817aa396de6f526df778b40507a7e, árvore idêntica. Os dois jobs passaram na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42767752692 e na main https://github.com/michael-eng-ai/global-live-data/actions/runs/42768278114 .
+
+Painel autenticado mostrou Ready, Production, main e SHA integral esperado. Deployment dpl_8vaE4KvkLMKMqX3aRUdqyenygKMZ, build cerca de 1m26s; painel https://vercel.com/michael-eng-ais-projects/global-live-data/8vaE4KvkLMKMqX3aRUdqyenygKMZ e domínio único https://global-live-data-glo90sn0h-michael-eng-ais-projects.vercel.app . GitHub deployment 7675204407: Production/success às 06:25:44Z. Integração Git existente, sem redeploy ou mudança de acesso.
+
+Verificação anônima às 06:26:10Z: PT/EN/ES HTTP200, CSP, idioma, canonical/Article, data, três fontes, sitemap e marcador do deploy passaram. Três jornadas públicas PT/ES 390px e EN 1280px passaram teclado, filtro Weather, traduções, fontes, âncoras, idioma, Natureza e Voltar; espanhol também sem JavaScript. Duas capturas públicas inspecionadas sem cortes/overflow. Nenhum erro de aplicação, aviso/erro de console ou consulta visitante a Trends observado. Destinos simulados apenas para navegação. URL PT: https://global-live-data.vercel.app/pt/trending/wind-speed-gusts-forecast-reading-guide .
+
+Locais: check com lint/tipos/101 unitários/build/histórico/HTTP smoke, 11 importações e 37 Chromium passaram. Seis jornadas 390/1280px nos três idiomas mais espanhol sem JavaScript passaram; três capturas locais inspecionadas. Python Decimal e Node confirmaram as duas conversões fictícias. Sete JSON históricos preservaram bytes e mtimes inclusive após merge. WebKit, Safari nativo e carga não repetidos por ser entrega de conteúdo. Servidor próprio 3102 encerrado, piloto 3147 preservado.
+
+Amostra operacional única às 2026-11-10T06:26:11.136Z: sete requisições, nove feeds ready (USGS, MET Lisboa, BL1, USD, DEL, xadrez, Holborn, TV GLOBAL, Brasileirão), exit0. Não significa todos os seletores ou garantia contínua; nenhum provedor foi alterado. Evidências temporárias: /tmp/gld-wind-check.log, /tmp/gld-wind-import.log, /tmp/gld-wind-e2e.log, /tmp/gld-wind-local-qa.json, /tmp/gld-wind-public-qa.json, /tmp/gld-wind-20261110-public-receipt.json, /tmp/gld-wind-public-console.json e /tmp/gld-wind-ops.log. Podem expirar; o recibo da PR é durável.
+
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Recibos e bloqueios da PR79.
 - [[2026-11-06-paris-draw-release]] - Recibo da PR78 e limites de validação.

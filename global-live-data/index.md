@@ -91,7 +91,8 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
-- [[2026-11-10-nations-editorial-release]] - PR79 integrada, páginas conferidas e Ready direto pendente.
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
+- [[2026-11-10-nations-editorial-release]] - PR79 integrada e pendência Ready resolvida em 10/11.
 - [[2026-11-09-nations-editorial-ci-blocked]] - PR79 pronta; aguarda CI e verificação de publicação.
 - [[2026-11-06-paris-draw-release]] - Paris Masters e leitura da chave.
 - [[2026-11-06-us-jobs-release]] - Emprego nos EUA e leitura da taxa.
@@ -199,6 +200,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Retomada pendente.
 - [[2026-11-06-paris-draw-release]] - PR78 e páginas públicas verificadas.

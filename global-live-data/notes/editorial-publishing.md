@@ -421,7 +421,16 @@ Catálogo preparado: 57 artigos, dez em Futebol; produção permanece com 56 enq
 
 A PR79 foi integrada após recuperação do Actions e revalidação das cinco fontes até 00:06:25Z. Data da primeira publicação corrigida para10/11 nos três idiomas; observação Trends de9/11 preservada. Pesquisa nova única via editorial:research,00:05:21.054Z–00:05:24.925Z, retornou os seis mercados prontos e dez termos cada. Nations league não apareceu nessa amostra limitada; o texto não afirma tendência atual. Nenhuma segunda pauta escolhida. Catálogo servido:57 artigos,10 em Futebol. Apuração/exclusões e18conversões continuam em docs/editorial/2026-11-09-nations-league-times.md. CI/SHA/páginas públicas aprovados; recibo e limite de Ready direto em [[release-status]].
 
+## Vento médio e rajadas: 10 novembro, 06:08 UTC
+
+Pesquisa única nos seis mercados retornou dez termos cada, todos prontos, entre 06:09:23.554Z e 06:09:26.492Z. ES `tiempo`, observado em 2026-11-10T06:09:25.098Z, faixa RSS 50000+, iniciou às 06:00Z. Não é volume mensal nem prova de temporal/causa da demanda. Comparação com 57 artigos encontrou uma pauta distinta dos seis guias de clima existentes. Uma única pauta nova, sem alegações sensíveis.
+
+Met Office, AEMET e MET Norway lidos até 06:12:12Z fundamentam vento médio, pico de três segundos, períodos horários e previsão no instante. Dados do dia atual são parciais até a observação. Exemplos fictícios 8 m/s = 28,8 km/h e 14 m/s = 50,4 km/h verificados independentemente em Python Decimal e Node. Livro de fatos: docs/editorial/2026-11-10-wind-gusts.md. Texto original PT/EN/ES, três referências, apoio de IA e ausência de revisão humana preservados; sem imagens copiadas.
+
+Catálogo publicado: 58 artigos, sete em Weather; slug wind-speed-gusts-forecast-reading-guide. CTA Natureza com limite de 42 cidades e distinção entre vento previsto e rajada. Sem alerta vigente, dado atual inventado, feed de rajadas, provedor, conta, chave, gasto, analytics ou mudança nas rotinas. Recibos em [[release-status]].
+
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada da PR79, validação pública e limite de leitura do painel.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Pauta preparada e retomada da PR79.
 - [[2026-11-06-paris-draw-release]] - Apuração e limites do guia de siglas.

@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR79 integrada e páginas verificadas; Ready direto aguarda Chrome livre."
+resumo: "PR80 publicada: guia de vento/rajadas com CI, Ready e páginas verificadas."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-10"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-10-nations-editorial-release]].
+Ultimo handoff: [[2026-11-10-wind-gusts-editorial-release]].
 
-- PR79 integrada após recuperação Actions; main local/remota 04b30a478ad63e98d0a0416c7cfbc0360409f587 limpa, ambos os jobs PR/main aprovados. GitHub Production/success/SHA e alias público PT/EN/ES verificados. Ready direto pendente de Chrome livre; completar recibo existente antes de outra publicação. [[release-status]], [[trap-vercel-access]].
-- Catálogo servido com57 artigos,10 em Futebol; guia Nations League com fontes revalidadas10/11 e demanda originalmente observada9/11. Sem outra pauta nesta retomada. [[editorial-publishing]].
-- Amostra única em 2026-11-10T00:13:37.694Z:9/9 feeds amostrados prontos, inclusive USD; observação pontual sem garantia contínua ou alteração de provedor. [[release-status]].
-- Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixtureFX. Xcode/iOS instalados; evidências e limites em [[validation-workflow]]. Carga anterior local/sintética4.836HTTP até30clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
-- TSE registrado:170recortes/1.997agregados,turnos1/2,sem quarentena;2022/RO/quatro esportes preservados. Sete JSON históricos mantiveram bytes/mtimes nesta edição; não houve atualização TSE. Próxima rotina separada pode retomar a partir da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Nome GlobalLiveData/DatasantiWorld segue piloto local gratuito, sem respostas reais/compra. Domínio/Google e NBA real dependem do dono; NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Nenhum serviço,conta,gasto,chave,DNS,anúncio,analytics,frequência ou escopo novo. Servidor próprio3102 encerrado após QA; piloto3147 preservado. Não repetir403 ou iniciar autenticação por causa da lacuna de leitura Ready.
+- PR80 integrada; main local/remota fe81bfda8ea817aa396de6f526df778b40507a7e limpa, ambos os jobs PR/main aprovados. Production Ready/SHA e páginas PT/EN/ES conferidos; nenhuma pendência da entrega. A leitura Ready da PR79 também foi concluída. [[release-status]], [[trap-vercel-access]].
+- Catálogo com 58 artigos, sete em Weather; novo guia de vento médio/rajadas, conversões fictícias e três fontes primárias. Pesquisa atual nos seis mercados, uma pauta nova. [[editorial-publishing]].
+- Amostra única em 2026-11-10T06:26:11.136Z: nove feeds amostrados ready, incluindo USD e MET Lisboa. Observação pontual, sem garantia contínua. [[release-status]].
+- Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
+- TSE registrado: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/quatro esportes preservados. Sete JSON históricos mantiveram bytes/mtimes nesta edição. Rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- Nome Global Live Data/Datasanti World segue piloto local gratuito; domínio/Google e NBA real dependem do dono. NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
+- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; piloto 3147 preservado. Não repetir pedidos antigos ou 403 por lacunas de acesso já contornadas com evidência válida.
 
 ## Conexoes
+- [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
 - [[2026-11-10-nations-editorial-release]] - Retomada e verificação da PR79.
 - [[2026-11-09-nations-editorial-ci-blocked]] - Retomar publicação pendente da PR79.
 - [[2026-11-06-paris-draw-release]] - Publicação do guia de siglas do Paris Masters.
