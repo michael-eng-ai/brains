@@ -218,7 +218,10 @@ atualizado: "2026-11-11"
 
 - 2026-11-11: [[2026-11-11-ncaa-rankings-editorial-release]] - PR83 NCAA publicada; CI, Ready/SHA e PT/EN/ES verificados.
 
+- 2026-11-11: [[2026-11-11-enso-outlook-editorial-release]] - PR84 ENSO publicada; CI, Ready/SHA e páginas verificadas.
+
 ## Conexoes
+- [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.

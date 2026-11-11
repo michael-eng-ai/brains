@@ -892,7 +892,20 @@ Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 importações e 37 Ch
 
 Evidências temporárias /tmp/gld-ncaa-check.log, /tmp/gld-ncaa-history-test.log, /tmp/gld-ncaa-e2e.log, /tmp/gld-ncaa-local-qa.json, /tmp/gld-ncaa-public-qa.json e /tmp/gld-ncaa-20261111-public-receipt.json. Evidência durável no recibo da PR. Build observado de 1m21, com quatro linhas de avisos em três grupos: npm cache-dir e ESLint 9.39.5 depreciado. A instalação reportou sete achados moderados; não é uma auditoria nova de dependências exclusivas de produção. Manutenção separada, sem alteração incidental de dependências.
 
+## ENSO: PR84 publicada em 11 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/84#issuecomment-6789197079). Head 47aac6614ec3fd9008d312dc5352382c1c3478b0; main local/remota limpa b5040f9b80f038ab0d92e59095f21e6c888af2ec, árvore idêntica ao head revisado. Ambos os jobs passaram na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42974647859 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/42975047380 .
+
+Painel autenticado mostrou Ready, Production, main e SHA integral em 2026-11-11T06:50:58Z. Deployment dpl_FbHLmtVYe1irKsZsHBuXta8Sqvxq; painel https://vercel.com/michael-eng-ais-projects/global-live-data/FbHLmtVYe1irKsZsHBuXta8Sqvxq; domínio único global-live-data-993mi71v7-michael-eng-ais-projects.vercel.app. GitHub deployment 7703767457: Production/success em 2026-11-11T06:50:16Z. Integração Git existente, sem deploy duplicado ou mudança de acesso.
+
+Verificação anônima 2026-11-11T06:51:01.008Z: PT/EN/ES HTTP200, CSP, idioma, título/Article, data, quatro fontes, sitemap e marcador do deployment. Três jornadas públicas 2026-11-11T06:51:20.555Z (PT/ES 390px, EN 1280px) passaram filtro Weather, teclado, parágrafos, canonical, fontes/âncoras, divulgação editorial, idiomas, Natureza e Voltar. Espanhol também sem JavaScript; duas capturas públicas inspecionadas. Zero erros/avisos de aplicação ou console e zero consultas visitantes a Trends.
+
+Locais: check101 unitários/lint/tipos/build/HTTP, import11, Chromium37; seis jornadas 390/1280px, espanhol sem JavaScript e três capturas inspecionadas. Exportações TypeScript conferem com revisão. Sete JSON históricos mantêm bytes/mtimes. Harness inicialmente sinalizou seu próprio HTTP503 sintético; substituído por envelope HTTP200 válido, sem mudar a aplicação. Mocks não comprovam provedores reais. Safari nativo/WebKit/carga não repetidos. Servidor próprio3102 encerrado.
+
+Auditoria separada uma vez em 2026-11-11T06:51:01.954Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Escopo representativo, sem garantia contínua. Evidências temporárias /tmp/gld-enso-*.json e logs, recibo durável acima. MCP retornou 403; painel autenticado forneceu evidência. Painel marcou três avisos de build; mensagens observadas incluem npm cache-dir e ESLint 9.39.5 depreciado. Dependências não alteradas.
+
 ## Conexoes
+- [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.

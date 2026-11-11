@@ -453,7 +453,16 @@ Quatro referências primárias: método AP (2024, rotulado), What is the NET? da
 
 Texto original PT/EN/ES distingue votação AP, desempenho NET e seleção/seed. Exemplo inventado de três cédulas: 67 e 70 pontos; Python/Node concordam. Sem equipes/resultados reais, vagas confirmadas, fórmula NET inventada, data específica de estreia do NET ou total de participantes do torneio (páginas atuais e antigas divergem). Catálogo 61, Basketball cinco; CTA índice existente. Fontes contextuais, divulgação de apoio de IA e ausência de revisão humana preservadas. Sem conta, chave, gasto, provedor, imagem copiada, autor inventado, anúncios, analytics, frequência ou escopo novos. [[release-status]].
 
+## ENSO: 11 novembro, rodada 06:27 UTC
+
+Pesquisa única Node24 nos seis mercados: dez termos por mercado, todos prontos. US el nino observado 2026-11-11T06:28:26.360Z, faixa RSS200+, início05:40Z. Sinal datado, não volume mensal nem causa de evento. Comparação com61 IDs; uma pauta inédita selecionada, distinta dos guias de vórtice polar, chuva, neve e vento.
+
+Quatro fontes primárias: Bureau of Meteorology, JMA, CPC/NOAA e Earth Sciences New Zealand. Revisão06:32:39Z; JMA atualizada10Nov, CPC8Out com próxima discussão prevista12Nov. Datas/estações explicitam Hemisfério Norte. FAQ Climate.gov retornou desafio JavaScript/robô e foi excluída, sem contorno. Livro de fatos docs/editorial/2026-11-11-enso-outlook.md.
+
+Texto original PT/EN/ES ensina a conferir agência, emissão, período e variável, mantém porcentagens junto do que medem e separa planejamento local. Sem recorde, probabilidade numérica, atribuição causal local, alerta, imagem copiada ou novo feed. Catálogo62, Weather8, CTA Natureza com42 cidades. Divulgação de apoio de IA e ausência de revisão humana preservadas. Sem conta, chave, gasto, anúncios, analytics, frequência ou escopo novos. [[release-status]].
+
 ## Conexoes
+- [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
