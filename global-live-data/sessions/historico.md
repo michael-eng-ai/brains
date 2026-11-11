@@ -220,7 +220,10 @@ atualizado: "2026-11-11"
 
 - 2026-11-11: [[2026-11-11-enso-outlook-editorial-release]] - PR84 ENSO publicada; CI, Ready/SHA e páginas verificadas.
 
+- 2026-11-11: [[2026-11-11-nascar-flags-editorial-release]] - PR85 NASCAR publicada; CI, Ready/SHA e páginas verificados.
+
 ## Conexoes
+- [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.

@@ -461,7 +461,16 @@ Quatro fontes primárias: Bureau of Meteorology, JMA, CPC/NOAA e Earth Sciences 
 
 Texto original PT/EN/ES ensina a conferir agência, emissão, período e variável, mantém porcentagens junto do que medem e separa planejamento local. Sem recorde, probabilidade numérica, atribuição causal local, alerta, imagem copiada ou novo feed. Catálogo62, Weather8, CTA Natureza com42 cidades. Divulgação de apoio de IA e ausência de revisão humana preservadas. Sem conta, chave, gasto, anúncios, analytics, frequência ou escopo novos. [[release-status]].
 
+## NASCAR: 11 novembro, rodada 12:22 UTC
+
+Uma pesquisa Node 24 em US/BR/GB/ES/JP/IN, dez leads em cada mercado, todos prontos. US joey logano observado 2026-11-11T12:22:55.089Z, faixa RSS 100+, início 12:00 UTC. Sinal datado, não volume mensal ou prova de evento. Comparação com 62 artigos; uma pauta inédita, distinta dos guias de Fórmula 1.
+
+Duas fontes primárias: guia de bandeiras Hendrick Motorsports (12 janeiro) e anúncio NASCAR (6 agosto) sobre encerrar estágios quando uma neutralização ocorre a dez voltas ou menos do final. Revisão 12:26:34 UTC. Texto distingue estágio, última volta, chegada e o momento de neutralização usado para classificar. Aplicabilidade do procedimento fica limitada ao restante de 2026. Livro de fatos docs/editorial/2026-11-11-nascar-flags.md.
+
+Checklist original PT/EN/ES; catálogo 63, Motorsport 3, CTA índice de artigos. Sem resultado/alegação sobre piloto, pontos, limite de prorrogações, imagem ou novo feed. Limite de três tentativas na fonte Hendrick não corroborado e excluído. FAQ de 2017 lida somente como contexto, sem reutilizar pontos/playoffs antigos. Outro lead, SS United States, tinha datas conflitantes e não gerou publicação. Apoio de IA e ausência de revisão humana divulgados. Nenhuma conta, chave, gasto, anúncios, analytics, frequência ou ampliação de produto. [[release-status]].
+
 ## Conexoes
+- [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.

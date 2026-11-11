@@ -904,7 +904,20 @@ Locais: check101 unitários/lint/tipos/build/HTTP, import11, Chromium37; seis jo
 
 Auditoria separada uma vez em 2026-11-11T06:51:01.954Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Escopo representativo, sem garantia contínua. Evidências temporárias /tmp/gld-enso-*.json e logs, recibo durável acima. MCP retornou 403; painel autenticado forneceu evidência. Painel marcou três avisos de build; mensagens observadas incluem npm cache-dir e ESLint 9.39.5 depreciado. Dependências não alteradas.
 
+## NASCAR: PR85 publicada em 11 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/85#issuecomment-6796032236). Head ee5d39da9f6254efef231c614c77abb88115c14d; main local/remota limpa ee273211437890de7552d6df1f5e13aba28e7370, árvore idêntica ao head revisado. Ambos os jobs passaram na [PR](https://github.com/michael-eng-ai/global-live-data/actions/runs/43021105820) e na [main](https://github.com/michael-eng-ai/global-live-data/actions/runs/43021617260).
+
+Painel autenticado mostrou Ready, Production, main e SHA integral em 2026-11-11T12:36:59Z. Deployment dpl_C6CDjJ1vw2o4V5z2CU3FDV7uz6Lh; painel https://vercel.com/michael-eng-ais-projects/global-live-data/C6CDjJ1vw2o4V5z2CU3FDV7uz6Lh; domínio único https://global-live-data-p8nx5d7gk-michael-eng-ais-projects.vercel.app. GitHub deployment 7710250109: Production/success em 2026-11-11T12:36:39Z. Integração Git existente, sem deploy duplicado ou alteração de acesso.
+
+Verificação anônima 2026-11-11T12:37:01.920Z: PT/EN/ES HTTP 200, CSP, idioma, título/Article, data, duas fontes, sitemap e marcador do deployment. Três jornadas públicas 2026-11-11T12:37:21.882Z (PT/ES 390 px, EN 1280 px): filtro Motorsport, teclado, parágrafos, canonical, fontes/âncoras, divulgação editorial, idiomas, índice e Voltar. Espanhol sem JavaScript; duas capturas públicas inspecionadas. Zero erros/avisos de aplicação ou console e zero consultas visitantes a Trends.
+
+Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 import, 37 Chromium; seis jornadas 390/1280 px e espanhol sem JavaScript, três capturas inspecionadas. Exportações TypeScript conferem com revisão. Sete JSON históricos mantêm bytes/mtimes. Browser plugin indisponível: Playwright do repositório. Safari nativo/WebKit/carga não repetidos nesta edição de conteúdo. Servidor próprio 3102 encerrado.
+
+Auditoria separada uma vez em 2026-11-11T12:37:03.136Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência representativa, sem garantia contínua. Artefatos temporários /tmp/gld-nascar-*; recibo durável acima. Conector Vercel retornou 403; painel autenticado supriu a verificação, sem alterar acesso. Painel indicou três avisos de build; cache-dir foi diretamente observado. Nenhuma dependência ou CI alterado. Um timeout de rede no watcher da PR foi resolvido por consulta fresca antes do merge.
+
 ## Conexoes
+- [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.

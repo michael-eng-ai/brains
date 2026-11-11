@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR84 publicada: guia ENSO com CI, Ready e páginas verificadas."
+resumo: "PR85 publicada: guia NASCAR com CI, Ready e páginas verificadas."
 tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-11"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-11-enso-outlook-editorial-release]].
+Ultimo handoff: [[2026-11-11-nascar-flags-editorial-release]].
 
-- PR84 integrada; main local/remota b5040f9b80f038ab0d92e59095f21e6c888af2ec limpa; ambos os jobs PR/main, Production Ready/SHA e PT/EN/ES conferidos. Nenhuma pendência desta entrega. [[release-status]].
-- Catálogo62; novo guia de boletins ENSO, Weather8 e quatro fontes. Uma pauta após pesquisa nos seis mercados. [[editorial-publishing]].
-- Auditoria representativa em 2026-11-11T06:51:01.954Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência pontual, sem garantia contínua. [[release-status]].
+- PR85 integrada; main local/remota ee273211437890de7552d6df1f5e13aba28e7370 limpa; ambos os jobs PR/main, Production Ready/SHA e PT/EN/ES conferidos. Nenhuma pendência desta entrega. [[release-status]].
+- Catálogo 63; novo guia de bandeiras NASCAR, Motorsport 3 e duas fontes. Uma pauta após pesquisa nos seis mercados. [[editorial-publishing]].
+- Auditoria representativa em 2026-11-11T12:37:03.136Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência pontual, sem garantia contínua. [[release-status]].
 - Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
 - TSE: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/esportes preservados. Sete JSON mantiveram bytes/mtimes nesta edição; rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Nome Global Live Data/Datasanti World segue piloto local gratuito; domínio/Google e NBA real dependem do dono. NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
