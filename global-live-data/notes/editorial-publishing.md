@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-10"
+atualizado: "2026-11-11"
 ---
 
 # Publicacao editorial
@@ -445,7 +445,16 @@ Cinco fontes primárias verificadas até 18:21:18Z: calendário atual UEFA, arti
 
 Catálogo publicado: 60 artigos, Football com onze; destino índice existente. Slug womens-champions-league-2026-27-knockout-path. Fontes contextuais, divulgação de apoio de IA e ausência de revisão humana preservadas. Sem placar, classificação já garantida, tabela ao vivo, imagem/texto copiado, autor inventado, provedor, conta, chave, gasto, analytics, escopo ou frequência novos. Recibos em [[release-status]].
 
+## NCAA: 11 novembro, rodada 00:23 UTC
+
+Pesquisa única com Node24 nos seis mercados retornou dez termos em cada um, todos prontos. US ncaa basketball rankings observado em 2026-11-11T00:24:11.665Z, faixa RSS 200+, início 00:10Z; duke vs mi state 20.000+ e ncaa basketball 1.000+ como pistas relacionadas. Sinal datado de descoberta, não volume mensal ou resultado. Comparação com 60 IDs: assunto inédito; uma única pauta.
+
+Quatro referências primárias: método AP (2024, rotulado), What is the NET? da NCAA (2025), tabela oficial masculina e Selections 101 atual. Revisão concluída 01:47:09Z. Tabela lida com sucesso antes: Through Games Apr. 06 2026; recaptura final retornou desafio JavaScript/robô, não contornado. Usar só a observação datada, sem afirmar lista atualizada. Publicação 2026-11-11 UTC; livro de fatos docs/editorial/2026-11-11-ncaa-rankings.md.
+
+Texto original PT/EN/ES distingue votação AP, desempenho NET e seleção/seed. Exemplo inventado de três cédulas: 67 e 70 pontos; Python/Node concordam. Sem equipes/resultados reais, vagas confirmadas, fórmula NET inventada, data específica de estreia do NET ou total de participantes do torneio (páginas atuais e antigas divergem). Catálogo 61, Basketball cinco; CTA índice existente. Fontes contextuais, divulgação de apoio de IA e ausência de revisão humana preservadas. Sem conta, chave, gasto, provedor, imagem copiada, autor inventado, anúncios, analytics, frequência ou escopo novos. [[release-status]].
+
 ## Conexoes
+- [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.

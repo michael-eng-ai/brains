@@ -1,24 +1,25 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR82 publicada: Champions feminina com CI, Ready e páginas verificadas."
+resumo: "PR83 publicada: guia NCAA com CI, Ready e páginas verificadas."
 tags: [global-live-data, estado, eleicoes, release, editorial]
-atualizado: "2026-11-10"
+atualizado: "2026-11-11"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-10-womens-champions-editorial-release]].
+Ultimo handoff: [[2026-11-11-ncaa-rankings-editorial-release]].
 
-- PR82 integrada; main local/remota cd13bf660562573f5dc9ff527ea5ccf204c2693d limpa, ambos os jobs PR/main aprovados. Production Ready/SHA e páginas PT/EN/ES conferidos; nenhuma pendência da entrega. [[release-status]], [[trap-vercel-access]].
-- Catálogo com 60 artigos; novo guia da Champions feminina até as quartas, Football com onze e cinco fontes primárias. Pesquisa atual nos seis mercados, uma pauta nova. [[editorial-publishing]].
-- Amostra única em 2026-11-10T18:31:09.616Z: sete requisições, nove feeds ready, incluindo USD, USGS, MET Lisboa e Brasileirão; exit0. Observação pontual de seletores representativos, sem garantia contínua. [[release-status]].
+- PR83 integrada; main local/remota 6b0309d0472fe16e0b02c1b6f390b71ecd8b6055 limpa, ambos os jobs PR/main aprovados. Production Ready/SHA e páginas PT/EN/ES conferidos; nenhuma pendência da entrega. [[release-status]].
+- Catálogo 61; novo guia AP/NET/seleção NCAA, Basketball cinco e quatro referências primárias. Pesquisa atual nos seis mercados, uma pauta nova. [[editorial-publishing]].
+- Nenhum probe de provedores repetido nesta edição. Amostra anterior em 2026-11-10T18:31:09.616Z: sete requisições/nove feeds ready; é evidência passada, sem garantia contínua. [[release-status]].
 - Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
-- TSE registrado: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/quatro esportes preservados. Sete JSON históricos mantiveram bytes/mtimes nesta edição. Rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
+- TSE: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/esportes preservados. Sete JSON mantiveram bytes/mtimes nesta edição; rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
 - Nome Global Live Data/Datasanti World segue piloto local gratuito; domínio/Google e NBA real dependem do dono. NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; piloto 3147 preservado. Não repetir pedidos antigos ou 403 por lacunas de acesso já contornadas com evidência válida.
+- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.

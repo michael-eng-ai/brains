@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-10"
+atualizado: "2026-11-11"
 ---
 
 # Historico
@@ -216,7 +216,10 @@ atualizado: "2026-11-10"
 
 - 2026-11-10: PR82 publica caminho às quartas da Champions feminina em PT/EN/ES; testes, CI PR/main, Ready/SHA e páginas confirmados; catálogo 60. [[2026-11-10-womens-champions-editorial-release]].
 
+- 2026-11-11: [[2026-11-11-ncaa-rankings-editorial-release]] - PR83 NCAA publicada; CI, Ready/SHA e PT/EN/ES verificados.
+
 ## Conexoes
+- [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.

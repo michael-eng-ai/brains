@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-10"
+atualizado: "2026-11-11"
 ---
 
 # Estado da entrega
@@ -880,7 +880,20 @@ Amostra única em 2026-11-10T18:31:09.616Z: sete requisições, nove feeds ready
 
 Evidências temporárias /tmp/gld-womens-cl-check.log, history-tests.log, e2e.log, local-qa.json, public-qa.json, 20261110-public-receipt.json e ops.log (todos com prefixo gld-womens-cl-). O recibo da PR é durável. Build observado com quatro linhas de avisos em três grupos: npm cache-dir e ESLint 9.39.5 depreciado. Instalação mostrou sete achados moderados de audit; não é uma auditoria production-only nova. Manutenção separada, sem mudar dependências ou segurança.
 
+## NCAA: PR83 publicada em 11 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/83#issuecomment-6784760434). Head f3bdc95de20e3cd918d444f92d1b13dead24f2e5; main local/remota limpa 6b0309d0472fe16e0b02c1b6f390b71ecd8b6055, árvore idêntica ao head revisado. Ambos os jobs passaram na PR https://github.com/michael-eng-ai/global-live-data/actions/runs/42941987445 e main https://github.com/michael-eng-ai/global-live-data/actions/runs/42942344599 .
+
+Painel autenticado mostrou Ready, Production, main e SHA integral em 2026-11-11T01:57:25Z. Deployment dpl_CdjpZxXvdFqja46atCTFCboU1N66; painel https://vercel.com/michael-eng-ais-projects/global-live-data/CdjpZxXvdFqja46atCTFCboU1N66; domínio único global-live-data-ao8u1adzc-michael-eng-ais-projects.vercel.app. GitHub deployment 7699512434: Production/success em 2026-11-11T01:56:27Z. Integração Git existente, sem deploy duplicado nem mudança de acesso.
+
+Verificação anônima 2026-11-11T01:57:28.290Z: PT/EN/ES HTTP200, CSP, idioma, headline/Article, data, quatro fontes, sitemap e marcador do deployment corretos. Três jornadas públicas 2026-11-11T01:57:47.603Z (PT/ES 390px, EN 1280px): filtro Basketball, teclado, parágrafos, canonical, fontes/âncoras, divulgação de apoio de IA, idiomas, índice e Voltar; espanhol também sem JavaScript. Duas capturas públicas inspecionadas sem cortes/overflow; zero erros de aplicação/console, avisos ou consultas visitantes a Trends.
+
+Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 importações e 37 Chromium; seis jornadas 390/1280px e espanhol sem JavaScript; três capturas inspecionadas. Texto real TypeScript confere com revisão, aritmética fictícia confirmada em Python e Node. Sete JSON históricos preservam bytes/mtimes, inclusive após merge. Safari nativo/WebKit/carga e probes de provedores não repetidos nesta edição de conteúdo; mocks de navegação não são validação ao vivo. Servidor próprio 3102 encerrado.
+
+Evidências temporárias /tmp/gld-ncaa-check.log, /tmp/gld-ncaa-history-test.log, /tmp/gld-ncaa-e2e.log, /tmp/gld-ncaa-local-qa.json, /tmp/gld-ncaa-public-qa.json e /tmp/gld-ncaa-20261111-public-receipt.json. Evidência durável no recibo da PR. Build observado de 1m21, com quatro linhas de avisos em três grupos: npm cache-dir e ESLint 9.39.5 depreciado. A instalação reportou sete achados moderados; não é uma auditoria nova de dependências exclusivas de produção. Manutenção separada, sem alteração incidental de dependências.
+
 ## Conexoes
+- [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
 - [[2026-11-10-womens-champions-editorial-release]] - Caminho às quartas da Champions feminina publicado.
 - [[2026-11-10-valencia-ballot-editorial-release]] - Guia de prazos de Valência publicado e verificado.
 - [[2026-11-10-wind-gusts-editorial-release]] - Guia de vento e rajadas publicado e verificado.
