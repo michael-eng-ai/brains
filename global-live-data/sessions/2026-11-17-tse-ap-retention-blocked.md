@@ -32,6 +32,7 @@ Na próxima execução prevista, repetir uma única captura com main limpa e os 
 4. Salve/sincronize resultado significativo; não altere cadências ou escopo.
 
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[index]] - Entrada.
 - [[current]] - Estado atual.
 - [[historico]] - Cronologia.

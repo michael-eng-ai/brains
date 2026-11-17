@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-11"
+atualizado: "2026-11-17"
 ---
 
 # Publicacao editorial
@@ -469,7 +469,16 @@ Duas fontes primárias: guia de bandeiras Hendrick Motorsports (12 janeiro) e an
 
 Checklist original PT/EN/ES; catálogo 63, Motorsport 3, CTA índice de artigos. Sem resultado/alegação sobre piloto, pontos, limite de prorrogações, imagem ou novo feed. Limite de três tentativas na fonte Hendrick não corroborado e excluído. FAQ de 2017 lida somente como contexto, sem reutilizar pontos/playoffs antigos. Outro lead, SS United States, tinha datas conflitantes e não gerou publicação. Apoio de IA e ausência de revisão humana divulgados. Nenhuma conta, chave, gasto, anúncios, analytics, frequência ou ampliação de produto. [[release-status]].
 
+## Las Vegas: 17 novembro, rodada 18:31 UTC
+
+Uma pesquisa retornou seis mercados ready e dez pautas por mercado. A saída da pesquisa foi salva; apenas o código de saída do processo não foi retido, portanto não declarar saída 0. Consulta britânica las vegas grand prix observada em 2026-11-17T18:31:51.933Z. Comparados 63 artigos; catálogo agora 64, Motorsport com quatro artigos. Pergunta útil: em qual dia salvar a classificação de 20 novembro e a corrida de 21 novembro em Las Vegas? Livro de fatos docs/editorial/2026-11-17-las-vegas-times.md; slug las-vegas-gp-2026-saturday-sunday-times.
+
+Quatro referências primárias lidas: tabela F1, organizador, guia F1 de 16 novembro e NIST. Checagem às 18:34:38 UTC. Dezoito conversões Python/Node para nove cidades conferidas, incluindo São Paulo às 01h de 22 novembro, Londres às 04h de 22 novembro e Madri às 05h de 22 novembro para a corrida; classificação 24 horas antes. Linha Vancouver inconsistente excluída, sem reaproveitar resultados/campeonato/transmissão. Texto original PT/EN/ES, fontes por seção, apoio de IA e ausência de revisão humana; CTA índice. Nenhum feed, conta, gasto ou alteração de cadência.
+
+Patch de segurança Next estritamente relacionado ao bloqueio do build consta em docs/DEPENDENCIES.md e [[validation-workflow]]. Recibos finais em [[release-status]]. Próxima rodada compara 64 artigos e pode pular se faltar apuração; não há mínimo de publicação.
+
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.

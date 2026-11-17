@@ -224,7 +224,10 @@ atualizado: "2026-11-17"
 
 - 2026-11-17: [[2026-11-17-tse-ap-retention-blocked]] - TSE bloqueado por retenção AP; exports/datas preservados, sem release.
 
+- 2026-11-17, 18:31 UTC: Codex publicou PR #86 (Las Vegas PT/EN/ES e Next 16.4.5), ambos os jobs de CI, Ready, SHA, páginas públicas e histórico verificados; 15 achados de desenvolvimento e bloqueio AP preservados. [[2026-11-17-las-vegas-security-release]].
+
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.

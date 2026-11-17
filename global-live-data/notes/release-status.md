@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-11"
+atualizado: "2026-11-17"
 ---
 
 # Estado da entrega
@@ -916,7 +916,20 @@ Locais: check com 101 unitários/lint/tipos/build/HTTP, 11 import, 37 Chromium; 
 
 Auditoria separada uma vez em 2026-11-11T12:37:03.136Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência representativa, sem garantia contínua. Artefatos temporários /tmp/gld-nascar-*; recibo durável acima. Conector Vercel retornou 403; painel autenticado supriu a verificação, sem alterar acesso. Painel indicou três avisos de build; cache-dir foi diretamente observado. Nenhuma dependência ou CI alterado. Um timeout de rede no watcher da PR foi resolvido por consulta fresca antes do merge.
 
+## Las Vegas e segurança Next: PR #86 publicada em 17 novembro
+
+[Recibo permanente](https://github.com/michael-eng-ai/global-live-data/pull/86#issuecomment-6957661948). Head 4a22b7aad18538f5cd7794720f371826553a1ed4; main local/remota limpa d49b9daf3e8c612f30ca7d01a110bd1ce683efb7, árvore idêntica ao head revisado. Ambos os jobs passaram na [PR](https://github.com/michael-eng-ai/global-live-data/actions/runs/44150636857) e na [main](https://github.com/michael-eng-ai/global-live-data/actions/runs/44151185305).
+
+Painel autenticado mostrou Ready, Production/Current, main e link do SHA integral nesta execução. Deployment dpl_78RFxtAJFw6pTL9e21p1crwhd6Tu; painel https://vercel.com/michael-eng-ais-projects/global-live-data/78RFxtAJFw6pTL9e21p1crwhd6Tu; domínio único https://global-live-data-b9j1b4ftl-michael-eng-ais-projects.vercel.app. GitHub deployment 7862864252 informou Production/success em 18:46:40 UTC. Conector retornou 403 de escopo; perfil já autenticado foi usado, sem mudar acesso. Três avisos de build foram indicados; conteúdo não inspecionado.
+
+Verificação anônima em 2026-11-17T18:49:57.414Z: PT/EN/ES HTTP 200, CSP, idioma, título/Article, quatro fontes, sitemap e marcador exato do deployment. Três jornadas públicas em 2026-11-17T18:49:45.201Z (PT/ES com largura de 390 px e EN com 1280 px) passaram leitura, filtro Motorsport/teclado, referências, âncoras, divulgação, idiomas, índice e Voltar. Espanhol também sem JavaScript; duas capturas públicas inspecionadas, sem overflow, erros/avisos de console/aplicação ou consultas visitantes a Trends.
+
+Auditoria única de feeds em 2026-11-17T18:49:30.036Z: saída 0, sete requisições representativas, nove feeds ready; não é garantia contínua. JSON publicados 2026/2022 iguais aos canônicos em 2026-11-17T18:49:29.479Z, com 170/176 recortes e 1997/2217 agregados. Sete JSON locais mantiveram bytes/mtimes. O bloqueio AP da rotina TSE anterior foi preservado; nenhuma captura TSE repetida por esta edição.
+
+Next/eslint-config-next passaram de 16.4.1 para 16.4.5 após SecurityFatalError no build; produção auditada sem achados, 15 achados de desenvolvimento (6 moderados e 9 altos). Regressão pós-patch: check com 101 testes unitários, lint, tipos, build e HTTP, 11 testes de importação, 37 testes Chromium e 37 testes WebKit. Seis jornadas locais, espanhol sem JavaScript e três capturas inspecionadas. Safari iOS nativo e carga não repetidos. Servidor próprio na porta 3102 encerrado. Evidências temporárias /tmp/gld-vegas-*. O recibo acima é durável.
+
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.

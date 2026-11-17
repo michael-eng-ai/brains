@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "TSE bloqueado por retenção AP; publicação PR85 preservada."
-tags: [global-live-data, estado, eleicoes, release, editorial]
+resumo: "PR #86 Las Vegas/Next 16.4.5 publicada; bloqueio AP preservado."
+tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
 atualizado: "2026-11-17"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-17-tse-ap-retention-blocked]].
+Último handoff: [[2026-11-17-las-vegas-security-release]].
 
-- TSE em 17 novembro, 18:28 UTC: captura única exit 1/status blocked por AP deputado federal/estadual, turno 1. Sete JSON/datas intactos; exports 2026/2022 iguais aos canônicos. Sem mudança de produto ou deploy; próxima tentativa na cadência existente. [[brazil-election-comparison]].
-- Última publicação PR85 integrada; main local/remota ee273211437890de7552d6df1f5e13aba28e7370 limpa; ambos os jobs PR/main, Production Ready/SHA e PT/EN/ES conferidos. Nenhuma pendência desta entrega. [[release-status]].
-- Catálogo 63; novo guia de bandeiras NASCAR, Motorsport 3 e duas fontes. Uma pauta após pesquisa nos seis mercados. [[editorial-publishing]].
-- Auditoria representativa em 2026-11-11T12:37:03.136Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência pontual, sem garantia contínua. [[release-status]].
-- Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
-- TSE: 170 recortes/1.997 agregados, turnos 1/2, sem quarentena; 2022/RO/esportes preservados. Sete JSON mantiveram bytes/mtimes nesta edição; rotina TSE separada pode retomar da main limpa. [[brazil-election-comparison]], [[historical-editions]], [[refresh-tse-elections]].
-- Nome Global Live Data/Datasanti World segue piloto local gratuito; domínio/Google e NBA real dependem do dono. NBA preparada/desativada. [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
+- PR #86 integrada; main/origin d49b9daf3e8c612f30ca7d01a110bd1ce683efb7, árvore limpa. Ambos jobs PR/main, Production Ready/SHA e PT/EN/ES confirmados; recibo em [[release-status]].
+- Catálogo com 64 artigos: guia Las Vegas, quatro fontes, 18 conversões, Motorsport com quatro artigos e link para o índice. Uma pauta após seis mercados; [[editorial-publishing]].
+- Next/eslint-config-next 16.4.5 corrigem aviso que interrompeu build com Next 16.4.1. Auditoria de produção sem achados; auditoria completa com 15 achados de desenvolvimento (6 moderados e 9 altos), manutenção separada. Check com 101 testes unitários, 11 testes de importação, 37 testes Chromium e 37 testes WebKit, QA mobile/desktop e público passaram. [[validation-workflow]].
+- Auditoria representativa 2026-11-17T18:49:30.036Z: sete requisições, nove feeds ready, saída 0. Evidência pontual; [[release-status]].
+- TSE em 17 novembro, às 18:28 UTC: única captura saída 1, estado blocked por deputado federal/estadual AP, turno 1. Preservados 170 recortes e 1997 agregados, turnos 1/2, RO e 2022. Sete JSON/datas intactos; exports públicos 2026/2022 iguais aos canônicos depois do novo deploy. Próxima tentativa só na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- Safari nativo antes concluído em PR65/66; não repetido nesta rodada, nem carga. WebKit não prova Safari nativo. Histórico de carga não extrapola capacidade hospedada; [[validation-workflow]].
+- Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
+- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio na porta 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.

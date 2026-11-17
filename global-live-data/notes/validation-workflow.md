@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-10-30"
+atualizado: "2026-11-17"
 ---
 
 # Validacao
@@ -242,7 +242,16 @@ Harness temporario inicial usou label exato do select e presumiu heading traduzi
 
 Publico20:25:10.740Z: PT390/EN1280/ES390, HTTP200,16 conversoes, quatro fontes, AI disclosure, canonical/hreflang/ArticleJSONLD, filtro/teclado/locale/ancora e sitemap passaram. CTA publico validado por href; abertura local com MET desativado nao comprova tempo real mexicano. Capturas publicas PTtopo/ENleitura inspecionadas. Extracao de marcador em query de scripts retornou vazio; verificacao do HTML bruto em20:26:19.075Z confirmou marcador exato/CSP nos tres idiomas. Recibos em [[release-status]]. Servidor proprio3102 encerrado; piloto3147 preservado. Temporarios /tmp/gld-mexico-*.
 
+## Patch Next e rodada editorial de 17 novembro
+
+O build com Next 16.4.1 parou com SecurityFatalError depois de 101 unitários e compilação. Auditoria de produção confirmou dois avisos moderados em um pacote: GHSA-mfr8-8qww-v76h e GHSA-vc7v-qv4w-wrv8, corrigidos em 16.4.5. Há unstable_cache no app, mas revisão não encontrou use-cache/CacheComponents/root-params exigidos nesses cenários; não inferir exploração. Atualização mínima Next+eslint-config-next16.4.5 com --ignore-scripts; lock alterou apenas família Next, sem bypass, permissões do CI ou React.
+
+Pós-patch: auditoria de produção sem achados; auditoria completa com 15 achados de desenvolvimento (6 moderados e 9 altos), propagados de minimatch/picomatch. Não aplicar audit fix --force nem downgrade para a versão 14 no lint. Manutenção separada documentada em docs/DEPENDENCIES.md. Check completo com 101 testes unitários, 11 testes de importação, 37 testes Chromium e 37 testes WebKit com perfil iPhone passaram. WebKit é emulação, não Safari nativo. Datas foram verificadas independentemente por zoneinfo/Intl.
+
+Harness temporário de HTML público inicialmente assumiu html-lang como primeiro atributo; Vercel inseriu data-dpl-id antes. Corrigir parser para ler lang independentemente da ordem, mantendo asserção do ID exato. Não houve erro de produto. CUA Cancel em menu nativo expirou; selecionar uma janela existente pelo menu fechou-o. Abrir perfil pode criar janela em segundo plano: escolher a nova janela antes da aba de Vercel. Nunca armazenar conteúdo de abas alheias. Resposta 403 do conector não foi contornado com mudança de acesso: painel autenticado permitido por docs/DEPLOYMENT.
+
 ## Conexoes
+- [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.
 - [[2026-10-15-init]] - Inicializacao autorizada e nova verificacao local sem publicar.
