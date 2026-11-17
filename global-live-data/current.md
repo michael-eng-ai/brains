@@ -1,16 +1,17 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR85 publicada: guia NASCAR com CI, Ready e páginas verificadas."
+resumo: "TSE bloqueado por retenção AP; publicação PR85 preservada."
 tags: [global-live-data, estado, eleicoes, release, editorial]
-atualizado: "2026-11-11"
+atualizado: "2026-11-17"
 ---
 
 # Estado atual
 
-Ultimo handoff: [[2026-11-11-nascar-flags-editorial-release]].
+Ultimo handoff: [[2026-11-17-tse-ap-retention-blocked]].
 
-- PR85 integrada; main local/remota ee273211437890de7552d6df1f5e13aba28e7370 limpa; ambos os jobs PR/main, Production Ready/SHA e PT/EN/ES conferidos. Nenhuma pendência desta entrega. [[release-status]].
+- TSE em 17 novembro, 18:28 UTC: captura única exit 1/status blocked por AP deputado federal/estadual, turno 1. Sete JSON/datas intactos; exports 2026/2022 iguais aos canônicos. Sem mudança de produto ou deploy; próxima tentativa na cadência existente. [[brazil-election-comparison]].
+- Última publicação PR85 integrada; main local/remota ee273211437890de7552d6df1f5e13aba28e7370 limpa; ambos os jobs PR/main, Production Ready/SHA e PT/EN/ES conferidos. Nenhuma pendência desta entrega. [[release-status]].
 - Catálogo 63; novo guia de bandeiras NASCAR, Motorsport 3 e duas fontes. Uma pauta após pesquisa nos seis mercados. [[editorial-publishing]].
 - Auditoria representativa em 2026-11-11T12:37:03.136Z: sete requisições limitadas, nove feeds ready, saída 0 (terremotos, clima Lisboa, futebol, USD FX, hóquei, xadrez, eleições, TV e Brasileirão). Evidência pontual, sem garantia contínua. [[release-status]].
 - Safari nativo previamente concluído: PR65 corrige picker mobile e PR66 sincroniza fixture FX. Evidências e limites em [[validation-workflow]]. Carga anterior local/sintética de 4.836 HTTP até 30 clientes; não extrapolar capacidade da hospedagem. Não repetidos nesta edição de conteúdo.
@@ -19,6 +20,7 @@ Ultimo handoff: [[2026-11-11-nascar-flags-editorial-release]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.

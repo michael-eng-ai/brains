@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-11"
+atualizado: "2026-11-17"
 ---
 
 # Historico
@@ -222,7 +222,10 @@ atualizado: "2026-11-11"
 
 - 2026-11-11: [[2026-11-11-nascar-flags-editorial-release]] - PR85 NASCAR publicada; CI, Ready/SHA e páginas verificados.
 
+- 2026-11-17: [[2026-11-17-tse-ap-retention-blocked]] - TSE bloqueado por retenção AP; exports/datas preservados, sem release.
+
 ## Conexoes
+- [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.

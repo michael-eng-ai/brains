@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-11-11"
+atualizado: "2026-11-17"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.
@@ -205,6 +206,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
 - [[2026-11-11-ncaa-rankings-editorial-release]] - Guia NCAA publicado, CI e Production verificados.

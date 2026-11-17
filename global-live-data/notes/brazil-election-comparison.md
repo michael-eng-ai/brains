@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-10-28"
+atualizado: "2026-11-17"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -155,7 +155,20 @@ Uma unica invocacao history:refresh:tse -- --apply com Node 24.22.1/Python 3.12.
 
 Canonico igual ao candidato e checksum manifest: 2793632081ca144e813973f8c71af58d2feb0be7a6236f7f4f9a4b3781af158f. Digests ZIP f70cd44ead685f5dad1110659debafb2dffeb462e7a854f0c995ab54745544d8 e ec1b4001e86502accf60c7f8d4994872be0d654be815624cb32c36b9dd3897b1; datas integrais em data/history/br-2026.json. Docs/TSE-REFRESH.md registra captura; PR54 e [[release-status]] comprovam publicacao. Nenhum importer, app, gate ou automacao alterados; apenas arquivo/manifest, docs e regressao de navegador. Recibos /tmp/gld-tse-20261028-0652-* .
 
+## Captura bloqueada em 17 novembro, 18:28 UTC
+
+Rodada 18:27:28 UTC, uma única chamada history:refresh:tse -- --apply em branch codex/ a partir de main atualizada ee273211437890de7552d6df1f5e13aba28e7370. Node 24.22.1 e Python 3.12.4. Exit 1/status blocked em 2026-11-17T18:28:30.473Z: Previously published selections lost or inconsistent: [(6, 'AP', 1), (7, 'AP', 1)]. São os recortes já publicados de deputado federal e estadual do Amapá, primeiro turno. O guard de retenção barrou a publicação.
+
+Investigação sem novo download: scripts/refresh-tse.py:62 compara seleções anteriores com a saída reconciliada; scripts/import-tse-history.py:aggregate remove seleções cujas somas partidárias divergem dos totais independentes. Ausência nos arquivos também pode produzir seleção perdida. O relatório não registra os totais novos, o conjunto de divergências, as identidades ou os hashes novos nesta falha; não permite distinguir falta de registros de divergência de somas nem atribuir causa ao TSE. Não inferir situação de candidatura, resultado ou mudança jurídica. Nenhum gate foi afrouxado.
+
+Sete JSON históricos e manifest preservaram SHA-256 e mtime, inclusive 2022 e quatro esportes. Canonical 2026 mantém 170 recortes/1.997 agregados, ambos turnos, ambos RO e nenhuma quarentena; checksum 2793632081ca144e813973f8c71af58d2feb0be7a6236f7f4f9a4b3781af158f. AP preservado: votos válidos 459.680 (federal), 450.731 (estadual), sem alteração de captura. Candidato ignorado tem mtime 2026-11-11T12:11:39.995615Z e fontes de 11 novembro, portanto não pertence à tentativa bloqueada. ZIPs temporários são removidos pelo contexto Python, lock/staging desta rodada limpos; as duas pastas antigas foram preservadas.
+
+Às 2026-11-17T18:29:20.730Z, exports públicos br-2026 e br-2022 retornaram HTTP 200 e igualdade semântica com os respectivos canônicos, normalizando somente ordem de recortes/partidos. Testes offline: 11 de importação Python e três de refresh TypeScript passaram. Check/build/e2e/UI/CI/Safari/carga não repetidos: nenhum código ou dado mudou. Branch vazia removida, main/origin limpas em ee273211437890de7552d6df1f5e13aba28e7370; nenhum commit, PR ou deploy do produto.
+
+Evidências locais /tmp/gld-tse-20261117-1827-before.json, -refresh.log, -verification.json, -public.json, -tests.log e -refresh-tests.log; relatório corrente ignorado .data/tse-refresh-last.json. Nova aquisição somente na próxima rodada prevista. Mesma falha sem novidade pode ficar silenciosa; avisar recuperação material, novo impedimento ou ação necessária. Editorial, frequência e escopo intactos.
+
 ## Conexoes
+- [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
 - [[historical-editions]] - Persistencia e recuperacao.
