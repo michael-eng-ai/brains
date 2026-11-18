@@ -3,7 +3,7 @@ tipo: catalogo
 projeto: global-live-data
 resumo: Catalogo gerado por graph.sh. Uma linha por nota. Nao editar a mao.
 tags: [global-live-data, catalogo]
-atualizado: 2026-11-17
+atualizado: 2026-11-18
 ---
 
 # Catalogo: global-live-data

@@ -173,6 +173,12 @@ Uma única execução de `history:refresh:tse -- --apply`, em branch `codex/` cr
 
 Sete JSON canônicos preservaram bytes e mtimes; lock liberado. Às 2026-11-18T00:24:56.559Z, exports públicos 2026/2022 retornaram HTTP 200 e igualdade semântica com os canônicos. Mantidos 170 recortes e 1997 agregados em 2026, ambos turnos e RO; 2022 inalterado. Branch vazia removida, main/origin limpas no SHA acima. Nenhum commit/PR/deploy do produto. Testes e UI não repetidos porque código e dados continuam intactos; guard e agregação foram revisados sem alteração. Sem novo download nesta rodada. Evidências locais `/tmp/gld-tse-20261118-0023-*`. Falha já comunicada, sem novidade acionável: esta rechecagem permanece silenciosa.
 
+## Rechecagem em 18 novembro, 06:29 UTC
+
+Rodada 06:26 UTC: uma única chamada `history:refresh:tse -- --apply` em `codex/tse-refresh-20261118-0626`, baseada em main/origin atualizadas d49b9daf3e8c612f30ca7d01a110bd1ce683efb7. Node 24.22.1/Python 3.12.4; saída 1, `status: blocked`, `checkedAt: 2026-11-18T06:29:00.141Z`, razão idêntica à captura anterior: AP federal/estadual, turno 1. Revisão do guard e da agregação confirma os mesmos limites de diagnóstico; nenhum gate alterado e nenhum segundo download.
+
+Sete JSON preservaram SHA-256 e mtime; lock liberado. Exports públicos 2026/2022 às 2026-11-18T06:29:19.923Z: HTTP 200 e igualdade semântica com os canônicos, respectivamente 170/176 recortes. Os 1997 agregados de 2026 e toda a proveniência permanecem intactos. Branch vazia removida, main/origin limpas no mesmo SHA. Sem commit/PR/deploy do produto; testes, UI e CI não repetidos, pois código e dados não mudaram. Recibos locais `/tmp/gld-tse-20261118-0626-*`. Bloqueio já comunicado sem novidade acionável; manter silêncio e a cadência autorizada.
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.

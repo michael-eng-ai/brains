@@ -34,6 +34,8 @@ Na próxima execução prevista, repetir uma única captura com main limpa e os 
 ## Rechecagem posterior
 Em 18 novembro, 00:24 UTC, mesma falha AP, saída 1, sete JSON/datas preservados e exports 2026/2022 iguais aos canônicos. Main limpa d49b9daf3e8c612f30ca7d01a110bd1ce683efb7; sem novo release. Evidência e limites em [[brazil-election-comparison]].
 
+Rechecagem de 18 novembro, 06:29 UTC: uma chamada, mesma falha e saída 1, sete JSON/datas intactos, lock liberado, exports 2026/2022 HTTP 200 e iguais aos canônicos. Main/origin continuam limpas no mesmo SHA; sem release ou repetição de testes. Recibos e limites em [[brazil-election-comparison]].
+
 ## Conexoes
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[index]] - Entrada.
