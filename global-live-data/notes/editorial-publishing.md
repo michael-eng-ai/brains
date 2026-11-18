@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 ---
 
 # Publicacao editorial
@@ -477,7 +477,18 @@ Quatro referências primárias lidas: tabela F1, organizador, guia F1 de 16 nove
 
 Patch de segurança Next estritamente relacionado ao bloqueio do build consta em docs/DEPENDENCIES.md e [[validation-workflow]]. Recibos finais em [[release-status]]. Próxima rodada compara 64 artigos e pode pular se faltar apuração; não há mínimo de publicação.
 
+## Triagem de 18 novembro, 00:31 UTC: sem nova publicação
+
+`editorial:research -- US BR GB ES JP IN` executado uma vez em Node 24.22.1, saída 0: seis mercados ready, dez pautas por mercado, 64 artigos existentes comparados. Observações entre 00:31:22.943Z e 00:31:25.464Z. Main/origin limpas d49b9daf3e8c612f30ca7d01a110bd1ce683efb7. Evidência local `/tmp/gld-editorial-20261118-0031-research.json` e `-exit.json`. O sinal de busca não comprova resultado nem motivo da procura.
+
+A pauta britânica `doomsday release date` (00:31:23.842Z, faixa 100+) foi investigada, mas não aprovada. Em leitura atual, a [página Disney UK do filme](https://www.disney.co.uk/movies/avengers-doomsday) mostra 18 dezembro 2026; o [comunicado Disney UK de 20 julho](https://press.disney.co.uk/news/marvel-studios-avengers-doomsday-debuts-new-trailer-and-poster) anuncia 16 dezembro 2026. Não foi encontrada nesta apuração uma explicação que reconcilie essas referências. As páginas [americana](https://movies.disney.com/avengers-doomsday) e [espanhola](https://www.disney.es/peliculas/vengadores-doomsday) mostram respectivamente 18 e 17 dezembro, mas isso não resolve a divergência dentro do Reino Unido. O [guia Disney+ em inglês](https://www.disneyplus.com/explore/articles/avengers-doomsday) separa cinema de uma futura estreia em streaming, sem informar data desta última. Não inventar dia, mudança de calendário, horário global ou disponibilidade de sessões. Referências brasileiras também apresentaram datas divergentes durante a pesquisa; nenhuma data brasileira foi aprovada para publicação.
+
+NBA: `pistons vs spurs` (US, 00:31:22.943Z, faixa 10000+) e consultas relacionadas em BR/GB/JP não comprovam que os jogos sejam da NBA Cup. A leitura exploratória da FAQ e do anúncio de calendário da liga não foi convertida em resultado, classificação ou artigo genérico repetido. [Anúncio NBA Communications de 2026/27](https://pr.nba.com/2026-27-nba-regular-season-schedule/) registra dois jogos inicialmente não definidos entre 4 e 10 dezembro; a FAQ consultada também contém trecho com 9 a 15 dezembro. Antes de um guia com datas, reconciliar a edição e os trechos das fontes canônicas. A explicação básica da relação Copa/temporada continua apenas uma opção, como na triagem anterior de 30 outubro.
+
+Decisão: nenhuma pauta nova com apuração suficiente nesta rodada; não forçar frequência nem publicar alegações, resultados, rumores de falha de serviço ou calendário não reconciliado. Nenhum arquivo do produto, data editorial, branch, commit, PR ou deploy criado. Sem mudanças, testes/build/UI/CI não repetidos e produção não redeployada; isso não é nova verificação de Ready. Próxima rodada pesquisa novamente e compara os 64 artigos. Escopo, frequência, credenciais, serviços e bloqueio TSE/AP preservados.
+
 ## Conexoes
+- [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.

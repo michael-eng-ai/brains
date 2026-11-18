@@ -8,8 +8,9 @@ atualizado: "2026-11-18"
 
 # Estado atual
 
-Último handoff: [[2026-11-17-las-vegas-security-release]].
+Último handoff: [[2026-11-18-editorial-dates-triage]].
 
+- Editorial em 18 novembro, 00:31 UTC: seis mercados ready, pesquisa com saída 0; nenhuma pauta nova aprovada após comparação dos 64 artigos. Divergências de datas oficiais registradas em [[editorial-publishing]]; sem mudança ou release do produto.
 - PR #86 integrada; main/origin d49b9daf3e8c612f30ca7d01a110bd1ce683efb7, árvore limpa. Ambos jobs PR/main, Production Ready/SHA e PT/EN/ES confirmados; recibo em [[release-status]].
 - Catálogo com 64 artigos: guia Las Vegas, quatro fontes, 18 conversões, Motorsport com quatro artigos e link para o índice. Uma pauta após seis mercados; [[editorial-publishing]].
 - Next/eslint-config-next 16.4.5 corrigem aviso que interrompeu build com Next 16.4.1. Auditoria de produção sem achados; auditoria completa com 15 achados de desenvolvimento (6 moderados e 9 altos), manutenção separada. Check com 101 testes unitários, 11 testes de importação, 37 testes Chromium e 37 testes WebKit, QA mobile/desktop e público passaram. [[validation-workflow]].
@@ -20,6 +21,7 @@ atualizado: "2026-11-18"
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio na porta 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
