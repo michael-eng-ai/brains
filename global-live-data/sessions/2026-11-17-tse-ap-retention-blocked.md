@@ -3,7 +3,7 @@ tipo: sessao
 projeto: global-live-data
 resumo: "TSE bloqueado nos recortes AP; versão publicada preservada e conferida."
 tags: [global-live-data, sessao, eleicoes, qualidade, retencao]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 data: "2026-11-17"
 ia: codex
 maquina: macos
@@ -30,6 +30,9 @@ Na próxima execução prevista, repetir uma única captura com main limpa e os 
 2. Main limpa, branch codex/, Node 24/Python 3.11+; uma única chamada --apply.
 3. Em blocked preserve publicado; em changed=false não crie release; dados novos válidos exigem diff, testes, QA, PR/CI, Ready/SHA e JSON público.
 4. Salve/sincronize resultado significativo; não altere cadências ou escopo.
+
+## Rechecagem posterior
+Em 18 novembro, 00:24 UTC, mesma falha AP, saída 1, sete JSON/datas preservados e exports 2026/2022 iguais aos canônicos. Main limpa d49b9daf3e8c612f30ca7d01a110bd1ce683efb7; sem novo release. Evidência e limites em [[brazil-election-comparison]].
 
 ## Conexoes
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.

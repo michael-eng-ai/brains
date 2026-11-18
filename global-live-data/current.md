@@ -3,7 +3,7 @@ tipo: estado
 projeto: global-live-data
 resumo: "PR #86 Las Vegas/Next 16.4.5 publicada; bloqueio AP preservado."
 tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 ---
 
 # Estado atual
@@ -14,7 +14,7 @@ atualizado: "2026-11-17"
 - Catálogo com 64 artigos: guia Las Vegas, quatro fontes, 18 conversões, Motorsport com quatro artigos e link para o índice. Uma pauta após seis mercados; [[editorial-publishing]].
 - Next/eslint-config-next 16.4.5 corrigem aviso que interrompeu build com Next 16.4.1. Auditoria de produção sem achados; auditoria completa com 15 achados de desenvolvimento (6 moderados e 9 altos), manutenção separada. Check com 101 testes unitários, 11 testes de importação, 37 testes Chromium e 37 testes WebKit, QA mobile/desktop e público passaram. [[validation-workflow]].
 - Auditoria representativa 2026-11-17T18:49:30.036Z: sete requisições, nove feeds ready, saída 0. Evidência pontual; [[release-status]].
-- TSE em 17 novembro, às 18:28 UTC: única captura saída 1, estado blocked por deputado federal/estadual AP, turno 1. Preservados 170 recortes e 1997 agregados, turnos 1/2, RO e 2022. Sete JSON/datas intactos; exports públicos 2026/2022 iguais aos canônicos depois do novo deploy. Próxima tentativa só na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- TSE rechecado em 18 novembro, às 00:24 UTC: única captura saída 1, mesmo estado blocked por deputado federal/estadual AP, turno 1. Preservados 170 recortes e 1997 agregados, turnos 1/2, RO e 2022. Sete JSON/datas intactos; exports públicos 2026/2022 novamente iguais aos canônicos às 00:24:56 UTC. Próxima tentativa só na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 - Safari nativo antes concluído em PR65/66; não repetido nesta rodada, nem carga. WebKit não prova Safari nativo. Histórico de carga não extrapola capacidade hospedada; [[validation-workflow]].
 - Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio na porta 3102 encerrado; trabalho alheio preservado.

@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -166,6 +166,12 @@ Sete JSON históricos e manifest preservaram SHA-256 e mtime, inclusive 2022 e q
 Às 2026-11-17T18:29:20.730Z, exports públicos br-2026 e br-2022 retornaram HTTP 200 e igualdade semântica com os respectivos canônicos, normalizando somente ordem de recortes/partidos. Testes offline: 11 de importação Python e três de refresh TypeScript passaram. Check/build/e2e/UI/CI/Safari/carga não repetidos: nenhum código ou dado mudou. Branch vazia removida, main/origin limpas em ee273211437890de7552d6df1f5e13aba28e7370; nenhum commit, PR ou deploy do produto.
 
 Evidências locais /tmp/gld-tse-20261117-1827-before.json, -refresh.log, -verification.json, -public.json, -tests.log e -refresh-tests.log; relatório corrente ignorado .data/tse-refresh-last.json. Nova aquisição somente na próxima rodada prevista. Mesma falha sem novidade pode ficar silenciosa; avisar recuperação material, novo impedimento ou ação necessária. Editorial, frequência e escopo intactos.
+
+## Rechecagem em 18 novembro, 00:24 UTC
+
+Uma única execução de `history:refresh:tse -- --apply`, em branch `codex/` criada de main atualizada d49b9daf3e8c612f30ca7d01a110bd1ce683efb7, repetiu exatamente o bloqueio AP anterior. Node 24.22.1/Python 3.12.4; saída 1, `status: blocked`, `checkedAt: 2026-11-18T00:24:24.128Z`. O relatório continua sem totais, identidades e hashes novos suficientes para distinguir registros ausentes de somas divergentes. Não é `changed: false` nem candidato válido desta rodada.
+
+Sete JSON canônicos preservaram bytes e mtimes; lock liberado. Às 2026-11-18T00:24:56.559Z, exports públicos 2026/2022 retornaram HTTP 200 e igualdade semântica com os canônicos. Mantidos 170 recortes e 1997 agregados em 2026, ambos turnos e RO; 2022 inalterado. Branch vazia removida, main/origin limpas no SHA acima. Nenhum commit/PR/deploy do produto. Testes e UI não repetidos porque código e dados continuam intactos; guard e agregação foram revisados sem alteração. Sem novo download nesta rodada. Evidências locais `/tmp/gld-tse-20261118-0023-*`. Falha já comunicada, sem novidade acionável: esta rechecagem permanece silenciosa.
 
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
