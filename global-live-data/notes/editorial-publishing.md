@@ -497,7 +497,18 @@ Sessões de 18/19 novembro às 19:00 GMT, quatro partidas por sessão, sem inven
 
 PDC www inicialmente serviu shell JavaScript; HTTP 200 sozinho não confirmou conteúdo. Renderização Chromium das URLs canônicas verificou os fatos. Locator exato da prévia expirou; a leitura do corpo renderizado confirmou os marcadores da agenda. TLS mantido usando o bundle de sistema. Registros temporários `/tmp/gld-darts-*`; o ledger no Git é durável. PR e deploy em [[release-status]].
 
+## Edicao de 18 novembro, 12:30 UTC: GTA VI
+
+Pesquisa única `editorial:research -- US BR GB ES JP IN` com Node 24.22.1, saída 0 e seis mercados ready/dez pautas cada. Consulta GB `gta 6 xbox series s`, observada em 2026-11-18T12:30:43.791Z, RSS 200+ e início 11:30 UTC. Relacionadas em BR/ES/IN. Comparados 65 artigos anteriores; catálogo passa a 66. Slug `gta-vi-2026-code-preload-midnight-guide`; ledger durável `docs/editorial/2026-11-18-gta-vi-preload.md` no Git. Gaming/Videogames/Videojuegos é apenas filtro e o destino é o índice.
+
+Cinco primárias Rockstar/PlayStation lidas até 2026-11-18T12:32:37Z: site oficial do jogo, plataformas/edições, suporte GTA VI da Sony, pré-compra/contador PS5 e horários regionais Rockstar. Guia distingue caixa com código sem disco, download e contador de acesso; relata anúncio de 19 novembro em PS5/Xbox Series X|S. Conta individual não foi testada. Nenhum preço, review, venda, disponibilidade PC/online/cloud, feed, imagem copiada ou workaround de região é alegado.
+
+Três conversões independentes Python zoneinfo/Node Intl coincidem: 19 novembro 00:00 UTC é Londres 00h/São Paulo 21h do dia 18; São Paulo 00h é 03h UTC do dia 19, três horas depois. Exemplo de relógios explícito, sem inventar tabela de desbloqueio de lojas. Títulos, sete parágrafos por idioma, cinco fontes e divulgação de apoio IA/ausência de revisão humana conferidos.
+
+A página de edições redirecionou de um sufixo antigo; o corpo canônico tinha data de pré-download diferente do snippet de busca. Datas de abertura da pré-carga, prazo de envio, tamanho e regras de resgate regionais foram excluídos. Não repetir snippet desatualizado como evidência. Temporários `/tmp/gld-gta-*`; fontes duráveis no ledger. PR/deploy em [[release-status]].
+
 ## Conexoes
+- [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI com evidências, testes e limites.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.

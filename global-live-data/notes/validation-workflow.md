@@ -260,7 +260,18 @@ Produção: três jornadas PT390/EN1280/ES390 e espanhol sem JavaScript aprovada
 
 Conector Vercel e combined status GitHub retornaram 403. Painel autenticado existente comprovou Ready/Production/branch/SHA; gh somente leitura forneceu URL de deploy e CI main, sem ampliar acesso. Em Chrome nativo, foco e `setValue` na barra de endereço seguido de Return funcionaram; hotkeys anteriores não haviam navegado. Não tratar tentativa sem mudança visível como navegação concluída.
 
+## Guia GTA VI, 18 novembro
+
+Node 24.22.1/Python 3.12.4. Check passou lint/tipos, 101 unidades, build/history e HTTP smoke; 11 importações Python e 37 Chromium passaram sem falha de aplicação. Git diff --check limpo; sete JSON históricos mantiveram SHA-256 e mtimeNs até depois do merge. Sem dependências, providers, permissões de CI ou automações alteradas.
+
+Seis jornadas locais PT/EN/ES em 390/1280 px concluídas em 12:38:11.803Z: filtro Gaming, sete parágrafos, cinco referências, abertura por teclado, sumário/citações, idioma, índice/Voltar, canonical/Article e divulgação. Espanhol sem JavaScript. Cinco capturas locais inspecionadas, incluindo corpo mobile e nota editorial. Sem overflow/overlay, erros de aplicação, warnings/errors de console ou requisições visitantes a Trends. Rolagem instantânea no harness permitiu capturar fontes e divulgação integralmente; sem alteração no comportamento do produto.
+
+HTTP público em 12:44:16.466627 UTC: PT/EN/ES 200 com idioma, título/Article, cinco fontes, canonical/hreflang, CSP, sitemap e deployment exato. Três jornadas públicas PT390/EN1280/ES390 e espanhol sem JavaScript passaram em 12:44:32.900Z; duas capturas públicas mobile/desktop inspecionadas, sem achados nos mesmos controles. Browser plugin indisponível; Playwright do repositório foi usado. WebKit, Safari nativo, carga e revisão humana não repetidos nesta edição de conteúdo. Servidor próprio 3102 encerrado.
+
+Vercel MCP retornou 403; painel autenticado existente confirmou Ready/Production/main e SHA completo, sem ampliar acesso. A janela Chrome ativa apontava para outra página; foi selecionada a aba do deployment existente e atualizada para o URL retornado pelo GitHub, sem editar outras abas. Recibos duráveis/CI em [[release-status]]; temporários `/tmp/gld-gta-*`.
+
 ## Conexoes
+- [[2026-11-18-gta-vi-editorial-release]] - Validação do guia GTA VI.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.

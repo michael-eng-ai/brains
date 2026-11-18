@@ -940,7 +940,21 @@ Auditoria única `ops:check` às 06:51:22.423Z saiu 0: sete requisições repres
 
 Validação local final: check/lint/tipos/101 unidades/build/HTTP, 11 importações Python, 37 Chromium, seis jornadas e espanhol sem JavaScript. Falha inicial do mapa de ícones corrigida antes da validação final. Safari nativo, WebKit, carga e revisão editorial humana não repetidos; nenhum provider, dependência, serviço, gasto, conta, chave, permissão de CI, frequência ou escopo alterado. Apuração em [[editorial-publishing]], limites em [[validation-workflow]]. [Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/87#issuecomment-6971421006); temporários `/tmp/gld-darts-*`. Servidor próprio 3102 encerrado.
 
+## GTA VI: PR #88 publicada em 18 novembro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/88 anexada e integrada. Head revisada c05ac65318e415d914d7b564a9c2caad28dc1369; squash/main local e remoto 91f7f77146c609591466798194fb75330eb9a422, árvore limpa/idêntica ao head. Ambos jobs da [PR 44305956078](https://github.com/michael-eng-ai/global-live-data/actions/runs/44305956078) e da [main 44306491002](https://github.com/michael-eng-ai/global-live-data/actions/runs/44306491002) passaram. Jobs main 134809288726/134809289146 observados success após integração.
+
+Vercel Git existente: dpl_9Ky798Ku5csW5akPv4FDWsyNGuJD, Ready/Production, main e link do SHA completo conferidos no painel autenticado por volta de 12:44 UTC. Build 1m12s, três avisos exibidos. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/9Ky798Ku5csW5akPv4FDWsyNGuJD); URL única https://global-live-data-g4fxd0hqt-michael-eng-ais-projects.vercel.app. Sem deploy duplicado ou ampliação de acesso para contornar MCP 403.
+
+HTTP anônimo em 12:44:16.466627 UTC: PT/EN/ES 200, idioma, título/Article, cinco referências, canonical/hreflang, CSP, sitemap e marcador exato do deployment. [Artigo PT](https://global-live-data.vercel.app/pt/trending/gta-vi-2026-code-preload-midnight-guide). Jornadas públicas PT390/EN1280/ES390 concluídas em 12:44:32.900Z; espanhol sem JavaScript. Duas capturas públicas inspecionadas, sem overflow/overlay, erros de aplicação/console ou requests visitantes a Trends. Evidência local e limites em [[validation-workflow]].
+
+Auditoria única ops:check às 12:44:16.612Z saiu 0: sete requisições representativas, nove feeds ready (earthquakes, weather, football, fx, hockey, chess, elections, screen e brasileirao). Evidência pontual, não garantia contínua. Sete JSON históricos preservaram bytes/mtimes; TSE não foi reexecutado, bloqueio AP anterior mantido.
+
+Nenhum provider, dependência, serviço, conta, gasto, chave, permissão de CI, frequência ou escopo alterado. Apuração em [[editorial-publishing]]. [Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/88#issuecomment-6978970951); temporários /tmp/gld-gta-*. Servidor próprio 3102 encerrado.
+
 ## Conexoes
+- [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
+
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
 
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
