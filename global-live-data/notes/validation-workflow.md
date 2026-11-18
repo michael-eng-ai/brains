@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 ---
 
 # Validacao
@@ -250,7 +250,18 @@ Pós-patch: auditoria de produção sem achados; auditoria completa com 15 achad
 
 Harness temporário de HTML público inicialmente assumiu html-lang como primeiro atributo; Vercel inseriu data-dpl-id antes. Corrigir parser para ler lang independentemente da ordem, mantendo asserção do ID exato. Não houve erro de produto. CUA Cancel em menu nativo expirou; selecionar uma janela existente pelo menu fechou-o. Abrir perfil pode criar janela em segundo plano: escolher a nova janela antes da aba de Vercel. Nunca armazenar conteúdo de abas alheias. Resposta 403 do conector não foi contornado com mudança de acesso: painel autenticado permitido por docs/DEPLOYMENT.
 
+## Guia de dardos, 18 novembro
+
+Node 24.22.1/Python 3.12.4. O primeiro check detectou ausência do ícone para o novo filtro; inclusão de `darts: CircleDot` corrigiu o contrato tipado antes da rodada final. Check final passou lint/tipos, 101 testes unitários, build/history e HTTP smoke; 11 testes Python de importação e 37 Chromium passaram. `git diff --check` limpo. Nenhuma dependência, provider, permissão de CI ou automação alterada; sete JSON históricos mantiveram bytes e mtimes até depois do merge.
+
+Seis jornadas locais EN/PT/ES em 390/1280 px concluídas em 06:42:02.711Z: filtro Darts, abertura por teclado, sete parágrafos por idioma, quatro fontes, sumário, citações, índice/Voltar, troca de idioma, canonical/Article e divulgação. Espanhol sem JavaScript legível. Três capturas locais inspecionadas; sem overflow, overlay ou erros/avisos de aplicação/console e sem requests visitantes a Trends. Locator temporário de select com label exato não casava o nome acessível; ajuste apenas no harness. Um screenshot após âncora capturou a transição suave, portanto não comprova visual do painel de fontes.
+
+Produção: três jornadas PT390/EN1280/ES390 e espanhol sem JavaScript aprovadas às 06:51:36.234Z; duas capturas públicas de leitura inspecionadas, mesmos controles/asserts sem achados. HTTP em 06:51:22.227978Z confirmou idioma, título/Article, quatro fontes, canonical/hreflang, CSP, sitemap e ID exato. Safari nativo, WebKit e carga não repetidos nesta edição de conteúdo; revisão humana não executada. Recibos duráveis/CI em [[release-status]], temporários `/tmp/gld-darts-*`. Servidor próprio 3102 encerrado.
+
+Conector Vercel e combined status GitHub retornaram 403. Painel autenticado existente comprovou Ready/Production/branch/SHA; gh somente leitura forneceu URL de deploy e CI main, sem ampliar acesso. Em Chrome nativo, foco e `setValue` na barra de endereço seguido de Return funcionaram; hotkeys anteriores não haviam navegado. Não tratar tentativa sem mudança visível como navegação concluída.
+
 ## Conexoes
+- [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-10-30-mexico-gp-editorial-release]] - Guia Mexico GP e recibos desta rodada.
 - [[2026-10-30-native-safari-fix]] - Safari nativo, correcao e recibos finais.

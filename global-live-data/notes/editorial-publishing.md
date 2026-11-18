@@ -487,7 +487,18 @@ NBA: `pistons vs spurs` (US, 00:31:22.943Z, faixa 10000+) e consultas relacionad
 
 Decisão: nenhuma pauta nova com apuração suficiente nesta rodada; não forçar frequência nem publicar alegações, resultados, rumores de falha de serviço ou calendário não reconciliado. Nenhum arquivo do produto, data editorial, branch, commit, PR ou deploy criado. Sem mudanças, testes/build/UI/CI não repetidos e produção não redeployada; isso não é nova verificação de Ready. Próxima rodada pesquisa novamente e compara os 64 artigos. Escopo, frequência, credenciais, serviços e bloqueio TSE/AP preservados.
 
+## Edicao de 18 novembro, 06:33 UTC: Grand Slam de dardos
+
+Pesquisa única `editorial:research -- US BR GB ES JP IN` com Node 24.22.1 saiu 0, seis mercados ready e dez pautas por mercado. Consulta GB `grand slam of darts last 16`, observada em 2026-11-18T06:34:06.641Z, faixa RSS 500+ e início 06:10 UTC. Comparados os 64 artigos anteriores; catálogo passa a 65. Slug `grand-slam-darts-2026-last-16-legs-guide`; ledger durável `docs/editorial/2026-11-18-darts-last16.md` no repositório. Darts/Dardos é somente filtro editorial; destino continua o índice existente.
+
+Quatro páginas primárias PDC renderizadas e lidas: sorteio/formato de 9 novembro, Rules of Darts, Stats Special de 14 novembro e prévia/agenda de 13 novembro. Checagem encerrada em 2026-11-18T06:38:04.080Z. O guia distingue 501/pontos, leg e partida, 48 participantes em 16 grupos com só o vencedor avançando, oitavas em melhor de 19/primeiro a dez e quartas em diante em melhor de 31/primeiro a 16. Exemplo 9–7 é explicitamente fictício nos três idiomas; não é resultado, previsão ou duração.
+
+Sessões de 18/19 novembro às 19:00 GMT, quatro partidas por sessão, sem inventar horários individuais. Dez conversões independentes Python zoneinfo/Node Intl coincidiram: Londres/Lisboa 19h, Madri 20h, São Paulo 16h no mesmo dia; Nova Délhi 00h30 dos dias 19/20. Títulos, sete parágrafos por idioma, referências e divulgação IA/sem revisão humana preservados. Sem imagens copiadas, apostas, placares, transmissão ou provider novo.
+
+PDC www inicialmente serviu shell JavaScript; HTTP 200 sozinho não confirmou conteúdo. Renderização Chromium das URLs canônicas verificou os fatos. Locator exato da prévia expirou; a leitura do corpo renderizado confirmou os marcadores da agenda. TLS mantido usando o bundle de sistema. Registros temporários `/tmp/gld-darts-*`; o ledger no Git é durável. PR e deploy em [[release-status]].
+
 ## Conexoes
+- [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.

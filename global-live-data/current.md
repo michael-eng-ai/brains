@@ -1,26 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR #86 Las Vegas/Next 16.4.5 publicada; bloqueio AP preservado."
+resumo: "PR #87 Grand Slam de dardos publicada; bloqueio AP preservado."
 tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
 atualizado: "2026-11-18"
 ---
 
 # Estado atual
 
-Último handoff: [[2026-11-18-editorial-dates-triage]].
+Último handoff: [[2026-11-18-darts-editorial-release]].
 
-- Editorial em 18 novembro, 00:31 UTC: seis mercados ready, pesquisa com saída 0; nenhuma pauta nova aprovada após comparação dos 64 artigos. Divergências de datas oficiais registradas em [[editorial-publishing]]; sem mudança ou release do produto.
-- PR #86 integrada; main/origin d49b9daf3e8c612f30ca7d01a110bd1ce683efb7, árvore limpa. Ambos jobs PR/main, Production Ready/SHA e PT/EN/ES confirmados; recibo em [[release-status]].
-- Catálogo com 64 artigos: guia Las Vegas, quatro fontes, 18 conversões, Motorsport com quatro artigos e link para o índice. Uma pauta após seis mercados; [[editorial-publishing]].
-- Next/eslint-config-next 16.4.5 corrigem aviso que interrompeu build com Next 16.4.1. Auditoria de produção sem achados; auditoria completa com 15 achados de desenvolvimento (6 moderados e 9 altos), manutenção separada. Check com 101 testes unitários, 11 testes de importação, 37 testes Chromium e 37 testes WebKit, QA mobile/desktop e público passaram. [[validation-workflow]].
-- Auditoria representativa 2026-11-17T18:49:30.036Z: sete requisições, nove feeds ready, saída 0. Evidência pontual; [[release-status]].
-- TSE rechecado em 18 novembro, às 06:29 UTC: única captura saída 1, mesmo estado blocked por deputado federal/estadual AP, turno 1. Preservados 170 recortes e 1997 agregados, turnos 1/2, RO e 2022. Sete JSON/datas intactos; exports públicos 2026/2022 novamente iguais aos canônicos às 06:29:19 UTC. Próxima tentativa só na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
-- Safari nativo antes concluído em PR65/66; não repetido nesta rodada, nem carga. WebKit não prova Safari nativo. Histórico de carga não extrapola capacidade hospedada; [[validation-workflow]].
+- Editorial de 18 novembro, 06:33 UTC: seis mercados ready, pesquisa saída 0; guia de dardos publicado em PT/EN/ES. Catálogo com 65 artigos; quatro primárias PDC, dez conversões e exemplo fictício explícito. [[editorial-publishing]].
+- PR #87 integrada; main/origin 3b354e5e61e1fd33e7aa6d0750006ebc8a3cd9ba, árvore limpa e igual ao head aprovado. Ambos jobs PR/main, Production Ready/SHA e páginas públicas confirmados. Recibo durável em [[release-status]].
+- Check final com 101 unidades, lint/tipos/build/HTTP; 11 importações Python e 37 Chromium passaram. Seis jornadas locais, três públicas e espanhol sem JavaScript; leitura mobile/desktop inspecionada. Safari nativo, WebKit e carga não repetidos nesta edição. [[validation-workflow]].
+- Auditoria representativa 2026-11-18T06:51:22.423Z: sete requisições, nove feeds ready, saída 0. Evidência pontual; [[release-status]].
+- TSE rechecado pela rotina anterior às 06:29 UTC: única captura saída 1, blocked por deputado federal/estadual AP, turno 1. Preservados 170 recortes e 1997 agregados, turnos 1/2, RO e 2022. Exports públicos 2026/2022 conferidos iguais aos canônicos às 06:29:19 UTC; sete JSON/datas permaneceram intactos também após esta edição. Próxima tentativa só na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- Next/eslint-config-next 16.4.5 corrigidos na PR86; auditoria de 17 novembro tinha produção sem achados e 15 achados de desenvolvimento (6 moderados/9 altos). Não houve nova auditoria ou atualização de dependência nesta edição. Manutenção separada em docs/DEPENDENCIES.md. [[validation-workflow]].
 - Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, frequência ou escopo novo. Servidor próprio na porta 3102 encerrado; trabalho alheio preservado.
+- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.

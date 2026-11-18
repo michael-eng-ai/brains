@@ -228,7 +228,11 @@ atualizado: "2026-11-18"
 
 - 2026-11-18, 00:31 UTC: seis mercados pesquisados, saída 0; pautas adiadas por apuração insuficiente, sem release. [[2026-11-18-editorial-dates-triage]].
 
+- 2026-11-18, 06:33 UTC: PR #87 publica guia de dardos PT/EN/ES; dois jobs PR/main, SHA/Ready/público e nove feeds ready verificados. [[2026-11-18-darts-editorial-release]].
+
 ## Conexoes
+- [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
+
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.

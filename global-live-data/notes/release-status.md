@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-17"
+atualizado: "2026-11-18"
 ---
 
 # Estado da entrega
@@ -928,7 +928,21 @@ Auditoria única de feeds em 2026-11-17T18:49:30.036Z: saída 0, sete requisiç�
 
 Next/eslint-config-next passaram de 16.4.1 para 16.4.5 após SecurityFatalError no build; produção auditada sem achados, 15 achados de desenvolvimento (6 moderados e 9 altos). Regressão pós-patch: check com 101 testes unitários, lint, tipos, build e HTTP, 11 testes de importação, 37 testes Chromium e 37 testes WebKit. Seis jornadas locais, espanhol sem JavaScript e três capturas inspecionadas. Safari iOS nativo e carga não repetidos. Servidor próprio na porta 3102 encerrado. Evidências temporárias /tmp/gld-vegas-*. O recibo acima é durável.
 
+## Grand Slam de dardos: PR #87 publicada em 18 novembro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/87 anexada e integrada. Head revisada fc82a1b051d93ee415279365bdfd627322410e46; squash/main local e remoto 3b354e5e61e1fd33e7aa6d0750006ebc8a3cd9ba, árvore limpa e idêntica ao head. Ambos os jobs da [PR 44253485172](https://github.com/michael-eng-ai/global-live-data/actions/runs/44253485172) e da [main 44254178324](https://github.com/michael-eng-ai/global-live-data/actions/runs/44254178324) passaram. Jobs main 134631772826/134631773169, observados concluídos com sucesso às 06:52 UTC.
+
+Vercel via integração Git existente, sem segundo deploy manual: dpl_HJYQ4DbfT1ZD2dT24XLvc7KZVKwd, Ready/Production, branch main e link do SHA completo conferidos no painel autenticado por volta de 06:51 UTC. Build 1m14s, três avisos exibidos; um aviso de depreciação eslint@9.39.5 foi observado, sem confundir aviso com falha. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/HJYQ4DbfT1ZD2dT24XLvc7KZVKwd); URL única https://global-live-data-le7yp5oyn-michael-eng-ais-projects.vercel.app. MCP 403 não levou a ampliação de acesso.
+
+HTTP anônimo em 2026-11-18T06:51:22.227978Z: páginas PT/EN/ES 200, idioma, título/Article, quatro referências, canonical/hreflang, CSP e sitemap corretos, marcador exato do deployment. [Artigo PT](https://global-live-data.vercel.app/pt/trending/grand-slam-darts-2026-last-16-legs-guide). Jornadas públicas concluídas em 06:51:36.234Z: PT390/EN1280/ES390, leitura/filtro Darts/teclado/sumário/citações/idiomas/índice/Voltar; espanhol também sem JavaScript. Duas capturas públicas inspecionadas; sem overflow, overlay ou erros/avisos de aplicação/console e sem requisições do visitante a Trends.
+
+Auditoria única `ops:check` às 06:51:22.423Z saiu 0: sete requisições representativas, nove feeds ready (earthquakes, weather, football, fx, hockey, chess, elections, screen e brasileirao). Evidência pontual, não garantia contínua. Sete JSON históricos mantiveram bytes/mtimes; nenhum refresh TSE repetido pela rodada editorial. Bloqueio AP da rotina anterior preservado.
+
+Validação local final: check/lint/tipos/101 unidades/build/HTTP, 11 importações Python, 37 Chromium, seis jornadas e espanhol sem JavaScript. Falha inicial do mapa de ícones corrigida antes da validação final. Safari nativo, WebKit, carga e revisão editorial humana não repetidos; nenhum provider, dependência, serviço, gasto, conta, chave, permissão de CI, frequência ou escopo alterado. Apuração em [[editorial-publishing]], limites em [[validation-workflow]]. [Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/87#issuecomment-6971421006); temporários `/tmp/gld-darts-*`. Servidor próprio 3102 encerrado.
+
 ## Conexoes
+- [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
+
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[2026-11-11-nascar-flags-editorial-release]] - Guia NASCAR publicado com CI e Production verificados.
 - [[2026-11-11-enso-outlook-editorial-release]] - Guia ENSO publicado, CI e Production verificados.
