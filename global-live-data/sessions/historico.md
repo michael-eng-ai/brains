@@ -230,6 +230,8 @@ atualizado: "2026-11-18"
 
 - 2026-11-18, 06:33 UTC: PR #87 publica guia de dardos PT/EN/ES; dois jobs PR/main, SHA/Ready/público e nove feeds ready verificados. [[2026-11-18-darts-editorial-release]].
 
+- 2026-11-18, 12:24 UTC: captura TSE única repetiu bloqueio AP; dados/datas intactos e exports públicos iguais aos canônicos. Sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
 

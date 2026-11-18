@@ -179,6 +179,14 @@ Rodada 06:26 UTC: uma única chamada `history:refresh:tse -- --apply` em `codex/
 
 Sete JSON preservaram SHA-256 e mtime; lock liberado. Exports públicos 2026/2022 às 2026-11-18T06:29:19.923Z: HTTP 200 e igualdade semântica com os canônicos, respectivamente 170/176 recortes. Os 1997 agregados de 2026 e toda a proveniência permanecem intactos. Branch vazia removida, main/origin limpas no mesmo SHA. Sem commit/PR/deploy do produto; testes, UI e CI não repetidos, pois código e dados não mudaram. Recibos locais `/tmp/gld-tse-20261118-0626-*`. Bloqueio já comunicado sem novidade acionável; manter silêncio e a cadência autorizada.
 
+## Rechecagem em 18 novembro, 12:24 UTC
+
+Rodada das 12:23 UTC: uma única execução `history:refresh:tse -- --apply` em `codex/tse-refresh-20261118-1223`, após main atualizada e limpa 3b354e5e61e1fd33e7aa6d0750006ebc8a3cd9ba. Node 24.22.1/Python 3.12.4. Saída 1; relatório atual `status: blocked`, `checkedAt: 2026-11-18T12:24:24.551Z`, com razão integralmente igual à anterior: recortes AP deputado federal/estadual do primeiro turno ausentes ou inconsistentes. Não é changed=false. Revisão do guard em scripts/refresh-tse.py e da agregação confirma que a mensagem não distingue ausência de registros de divergência entre somas partidárias e totais; nenhum diagnóstico de causa, novo ID ou total foi inferido. Relatório de erro não contém hashes/identidades novos; candidato persistente segue de 11 novembro, não desta tentativa.
+
+Sete JSON canônicos preservaram SHA-256 e mtimes, lock liberado e staging da execução removido; duas pastas antigas preservadas. Valores AP publicados continuam 459.680/450.731. Às 2026-11-18T12:25:04.815013Z, exports públicos 2026/2022 retornaram 200 e igualdade semântica completa com os canônicos, normalizando somente ordem de recortes/partidos: 170/176 recortes, 1997/2217 agregados. Ambos turnos, RO, proveniência e datas de captura preservados.
+
+Branch temporária vazia removida; main/origin limpas no SHA acima. Nenhum commit, PR ou deploy de produto, nem segundo download. Testes de regressão, build, UI, CI e nova verificação Ready não repetidos porque nenhum código ou dado mudou. Recibos locais `/tmp/gld-tse-20261118-1223-before.json`, `-exit.json`, `-refresh.log`, `-verification.json` e `-public.json`; resumo durável nesta nota. Mesma falha já comunicada, sem mudança acionável: manter silêncio e cadência atual; gates e rotina editorial intactos.
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
