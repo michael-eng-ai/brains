@@ -234,6 +234,8 @@ atualizado: "2026-11-18"
 
 - 2026-11-18, 12:30 UTC: PR #88 publica guia GTA VI PT/EN/ES; dois jobs PR/main, Ready/SHA/público e nove feeds ready verificados. [[2026-11-18-gta-vi-editorial-release]].
 
+- 2026-11-18, 18:28 UTC: captura TSE única repete bloqueio AP; dados/datas intactos, exports públicos iguais aos canônicos e main limpa. Sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 

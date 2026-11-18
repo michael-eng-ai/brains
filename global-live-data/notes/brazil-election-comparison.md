@@ -187,6 +187,14 @@ Sete JSON canônicos preservaram SHA-256 e mtimes, lock liberado e staging da ex
 
 Branch temporária vazia removida; main/origin limpas no SHA acima. Nenhum commit, PR ou deploy de produto, nem segundo download. Testes de regressão, build, UI, CI e nova verificação Ready não repetidos porque nenhum código ou dado mudou. Recibos locais `/tmp/gld-tse-20261118-1223-before.json`, `-exit.json`, `-refresh.log`, `-verification.json` e `-public.json`; resumo durável nesta nota. Mesma falha já comunicada, sem mudança acionável: manter silêncio e cadência atual; gates e rotina editorial intactos.
 
+## Rechecagem em 18 novembro, 18:28 UTC
+
+Rodada das 18:27 UTC: main limpa/atualizada 91f7f77146c609591466798194fb75330eb9a422, branch temporária codex/tse-refresh-20261118-1827. Uma única chamada history:refresh:tse -- --apply com Node 24.22.1/Python 3.12.4 saiu 1. Relatório corrente blocked em 2026-11-18T18:28:25.111Z repete o mesmo guard: seleções (6, AP, 1) e (7, AP, 1) previamente publicadas ausentes ou inconsistentes. Não é changed=false. A revisão do guard/agregação mantém a ambiguidade entre registros ausentes e somas divergentes; sem totais, identidades ou hashes novos no relatório de erro, nenhuma causa foi inferida. Nenhum gate alterado nem download repetido.
+
+Sete JSON canônicos e o candidato anterior preservaram hashes e mtimes. O candidato de 11 novembro não é resultado atual. Lock liberado/staging desta chamada removido, duas pastas antigas preservadas. Canonical 2026 mantém 170 recortes/1997 agregados, ambos turnos/RO, AP 459.680/450.731 e nenhuma quarentena. Às 2026-11-18T18:29:05.001751Z, exports públicos 2026/2022 retornaram HTTP 200 e igualdade semântica completa com os canônicos, normalizando somente ordem de recortes/partidos; 170/176 recortes e 1997/2217 agregados. Proveniência e datas de captura intactas.
+
+Branch vazia removida; main/origin limpas no SHA acima. Sem commit/PR/deploy do produto. Testes, build, UI, CI e Ready não repetidos porque nenhum código ou dado mudou. Recibos locais /tmp/gld-tse-20261118-1827-before.json, -exit.json, -refresh.log, -verification.json e -public.json. Mesma falha conhecida, sem nova mudança acionável; manter silêncio e cadência, preservando rotina editorial e escopo.
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
