@@ -236,7 +236,11 @@ atualizado: "2026-11-18"
 
 - 2026-11-18, 18:28 UTC: captura TSE única repete bloqueio AP; dados/datas intactos, exports públicos iguais aos canônicos e main limpa. Sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]].
 
+- 2026-11-18, 18:33 UTC: PR #89 publica guia de snooker PT/EN/ES; dois jobs PR/main, Ready/SHA/público e nove feeds ready verificados. [[2026-11-18-snooker-editorial-release]].
+
 ## Conexoes
+- [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
+
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.

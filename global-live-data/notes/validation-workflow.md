@@ -270,7 +270,19 @@ HTTP público em 12:44:16.466627 UTC: PT/EN/ES 200 com idioma, título/Article, 
 
 Vercel MCP retornou 403; painel autenticado existente confirmou Ready/Production/main e SHA completo, sem ampliar acesso. A janela Chrome ativa apontava para outra página; foi selecionada a aba do deployment existente e atualizada para o URL retornado pelo GitHub, sem editar outras abas. Recibos duráveis/CI em [[release-status]]; temporários `/tmp/gld-gta-*`.
 
+## Guia de snooker, 18 novembro
+
+Node 24.22.1/Python 3.12.4: check com lint/tipos/101 unidades/build/history/HTTP smoke, 11 importações e 37 Chromium passaram. Nenhuma falha de aplicação ou correção de código necessária. Sete JSON históricos preservaram bytes e mtimeNs após merge, sem executar TSE nesta rodada.
+
+Seis jornadas locais EN/PT/ES 390/1280 px às 18:41:27.019Z: oito parágrafos, quatro fontes, filtro Snooker, teclado, canonical/Article, idioma, índice/Voltar, sumário/citações e disclosure. Espanhol sem JavaScript. Quatro capturas (topos mobile/desktop, corpo e nota editorial mobile) inspecionadas. Sem overflow/overlay, erros de aplicação/console ou request visitante a Trends.
+
+HTTP público 2026-11-18T18:46:46.405640+00:00: três idiomas 200, ID exato do deploy, título/Article, quatro fontes, canonical/hreflang, CSP e sitemap. Três jornadas públicas e espanhol sem JavaScript passaram às 2026-11-18T18:47:05.500Z; duas capturas públicas inspecionadas. Playwright do repositório foi usado porque Browser plugin estava indisponível. WebKit, Safari nativo, carga e revisão humana não repetidos nesta edição de conteúdo. Servidor próprio 3102 encerrado.
+
+Vercel MCP 403: inspeção no painel já autenticado, sem ampliar acesso. `setValue` na barra mudou o texto mas deixou a página antiga; clicar a barra, selecionar tudo, digitar URL e Return carregou o novo deploy. Confirmar URL do conteúdo, não somente texto da barra. Recibos CI/Production em [[release-status]].
+
 ## Conexoes
+- [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
+
 - [[2026-11-18-gta-vi-editorial-release]] - Validação do guia GTA VI.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.

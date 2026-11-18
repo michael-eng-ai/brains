@@ -952,7 +952,19 @@ Auditoria única ops:check às 12:44:16.612Z saiu 0: sete requisições represen
 
 Nenhum provider, dependência, serviço, conta, gasto, chave, permissão de CI, frequência ou escopo alterado. Apuração em [[editorial-publishing]]. [Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/88#issuecomment-6978970951); temporários /tmp/gld-gta-*. Servidor próprio 3102 encerrado.
 
+## Snooker: PR #89 publicada em 18 novembro
+
+PR https://github.com/michael-eng-ai/global-live-data/pull/89 anexada e integrada. Head 7749749090f0c9928e844b2c4b3561d8104e551b; squash/main local-remoto 0bc539352a6da3c106210d8c014d9e105dc1d19c, árvore limpa/idêntica ao head. Ambos jobs passaram na [PR 44372570442](https://github.com/michael-eng-ai/global-live-data/actions/runs/44372570442) e na [main 44373089363](https://github.com/michael-eng-ai/global-live-data/actions/runs/44373089363); jobs main 135044890572/135044891156.
+
+Vercel Git existente dpl_DqamZKZZTEyfZvvAChh23oEmoFE6: Ready/Production/main e link do SHA completo observados no painel às 18:46 UTC. Build 1m10s, três avisos exibidos, não investigados nesta edição. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/DqamZKZZTEyfZvvAChh23oEmoFE6); URL única https://global-live-data-40x7mkrit-michael-eng-ais-projects.vercel.app. [Artigo PT](https://global-live-data.vercel.app/pt/trending/snooker-uk-championship-2026-frames-breaks-guide). Sem deploy duplicado ou permissões adicionais para contornar o MCP 403.
+
+HTTP e três jornadas públicas, incluindo espanhol sem JavaScript, confirmaram a edição; detalhe em [[validation-workflow]]. Auditoria única ops:check 2026-11-18T18:46:46.232Z saiu 0, sete requisições e nove feeds ready. Evidência pontual, não garantia contínua. Sete JSON históricos preservados; nenhum refresh TSE. Bloqueio AP da rodada 18:28 UTC permanece.
+
+[Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/89#issuecomment-6988256146). Apuração em [[editorial-publishing]], temporários `/tmp/gld-snooker-*`. Nenhuma conta, serviço, gasto, chave, dependência, provider, CI, frequência ou escopo alterado. Servidor próprio encerrado.
+
 ## Conexoes
+- [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
+
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.

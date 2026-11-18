@@ -507,7 +507,19 @@ Três conversões independentes Python zoneinfo/Node Intl coincidem: 19 novembro
 
 A página de edições redirecionou de um sufixo antigo; o corpo canônico tinha data de pré-download diferente do snippet de busca. Datas de abertura da pré-carga, prazo de envio, tamanho e regras de resgate regionais foram excluídos. Não repetir snippet desatualizado como evidência. Temporários `/tmp/gld-gta-*`; fontes duráveis no ledger. PR/deploy em [[release-status]].
 
+## Edicao de 18 novembro, 18:33 UTC: snooker
+
+Pesquisa única `editorial:research -- US BR GB ES JP IN`, Node 24.22.1, saída 0/seis mercados ready/dez pautas cada. GB `snooker`, observado 2026-11-18T18:33:49.358Z, 500+ e início 17:50 UTC. Comparados 66 artigos; catálogo passa a 67. Slug `snooker-uk-championship-2026-frames-breaks-guide`; ledger durável `docs/editorial/2026-11-18-snooker-frames.md`. Snooker é somente filtro editorial com destino no índice.
+
+Quatro primárias lidas até 18:37:26 UTC: WST anúncio classificatória (24 setembro), WPBSA critérios (13 outubro), WST What Is Snooker e PDF WPBSA setembro 2024, ainda vinculado na página oficial atual de regras. Calendário distingue Leicester 21-26 novembro de York 28 novembro-6 dezembro; classificatória melhor de 11/primeiro a seis, 16 classificados mais top16 após International Championship. Sem nomes classificados, resultados, horários individuais, oferta de ingressos, odds ou broadcast.
+
+Exemplos fictícios conferidos em Python e Node: alvo seis; 4-3 exige duas vitórias ao líder; 6-3 tem nove frames; 5-5 leva ao 11o. Vermelha/preta/vermelha/azul somam 14; com 20 de uma visita anterior, placar do frame 34 e break novo 14. Quatro seções/oito parágrafos equivalentes por idioma; quatro referências e divulgação IA/ausência de revisão humana.
+
+O extrator web omitiu os corpos WST. HTML primário recuperado por curl com TLS validado e parágrafos embutidos lidos; erro inicial de CA local do Python não foi contornado desabilitando TLS. Não promover snippets a corpo lido, nem chamar a edição 2024 do regulamento de edição 2026. Fontes sem cópia de texto/imagens. Temporários `/tmp/gld-snooker-*`; recibos em [[release-status]].
+
 ## Conexoes
+- [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
+
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI com evidências, testes e limites.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com evidências e limites.
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.

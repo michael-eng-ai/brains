@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR #88 GTA VI publicada; bloqueio AP preservado."
+resumo: "PR #89 snooker publicada; bloqueio AP preservado."
 tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
 atualizado: "2026-11-18"
 ---
 
 # Estado atual
 
-Último handoff: [[2026-11-18-gta-vi-editorial-release]].
+Último handoff: [[2026-11-18-snooker-editorial-release]].
 
-- Editorial de 18 novembro, 12:30 UTC: seis mercados ready; guia GTA VI publicado em PT/EN/ES. Catálogo com 66 artigos, cinco primárias e três conversões de fusos. Filtro Gaming, sem novo feed ou promessa de acesso por conta. [[editorial-publishing]].
-- PR #88 integrada; main/origin 91f7f77146c609591466798194fb75330eb9a422, árvore limpa/idêntica ao head aprovado. Ambos jobs PR/main, Production Ready/SHA e páginas públicas confirmados. [[release-status]].
-- Check com 101 unidades/lint/tipos/build/HTTP, 11 importações Python e 37 Chromium passou. Seis jornadas locais, três públicas, espanhol sem JavaScript e capturas mobile/desktop. WebKit, Safari nativo e carga não repetidos nesta edição. [[validation-workflow]].
-- Auditoria pontual 2026-11-18T12:44:16.612Z: sete requisições, nove feeds ready, saída 0; [[release-status]].
-- TSE rechecado às 18:28 UTC: única captura saída 1, mesmo blocked por deputado federal/estadual AP, turno 1. Sete JSON/datas e candidato anterior intactos, lock/staging da rodada limpos; preservados 170 recortes/1997 agregados, turnos 1/2, RO e 2022. Exports públicos 2026/2022 iguais aos canônicos às 18:29:05 UTC. Main/origin limpas no SHA da PR88, branch vazia removida e nenhum release TSE. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- Editorial de 18 novembro, 18:33 UTC: seis mercados ready; guia de snooker publicado em PT/EN/ES. Catálogo com 67 artigos, quatro primárias e exemplos fictícios conferidos. Filtro Snooker com destino no índice. [[editorial-publishing]].
+- PR #89 integrada; main/origin 0bc539352a6da3c106210d8c014d9e105dc1d19c, árvore limpa/idêntica ao head. Ambos jobs PR/main, Production Ready/SHA e páginas públicas confirmados. [[release-status]].
+- 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium e leitura local/pública passaram. Espanhol sem JavaScript; capturas mobile/desktop. WebKit, Safari nativo e carga não repetidos nesta edição. [[validation-workflow]].
+- Auditoria pontual 18:46:46.232Z: sete requisições e nove feeds ready, saída 0. [[release-status]].
+- TSE rechecado às 18:28 UTC: única captura saída 1, mesmo blocked por deputado federal/estadual AP, turno 1. Sete JSON/datas e candidato anterior intactos, lock/staging da rodada limpos; preservados 170 recortes/1997 agregados, turnos 1/2, RO e 2022. Exports públicos 2026/2022 iguais aos canônicos às 18:29:05 UTC. Naquela rodada a main/origin estava limpa no SHA da PR88; branch vazia removida e nenhum release TSE. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 - Next/eslint-config-next 16.4.5 corrigidos na PR86; auditoria de 17 novembro tinha produção sem achados e 15 achados de desenvolvimento (6 moderados/9 altos). Não houve nova auditoria ou atualização de dependência nesta edição. Manutenção separada em docs/DEPENDENCIES.md. [[validation-workflow]].
 - Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
 - [[2026-11-18-editorial-dates-triage]] - Pesquisa concluída; datas divergentes impediram nova pauta.
