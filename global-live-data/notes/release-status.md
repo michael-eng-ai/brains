@@ -988,7 +988,17 @@ Vercel Git existente dpl_idPxMAbKLJ3byRQq8PYWS7UdtoNE: Ready/Production/Current/
 
 HTTP 2026-11-19T12:52:21.528948+00:00 e leitura pública 2026-11-19T12:52:37.943Z confirmam idiomas/fontes/metadata/navegação. Auditoria pontual 2026-11-19T12:52:22.331Z: 7 requisicoes, 9 feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; bloqueio AP/TSE das 12:33 permanece, sem refresh editorial. [Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/92#issuecomment-7009682193). Temporários /tmp/gld-davis-*. Sem serviço, conta, gasto, chave, dependência, CI, frequência ou escopo novo. [[editorial-publishing]], [[validation-workflow]].
 
+## RSM Classic: PR #93 publicada em 19 novembro
+
+[PR #93](https://github.com/michael-eng-ai/global-live-data/pull/93) anexada e integrada, com recibo atualizado no corpo. Head a80feee7142e7f31cd1a5c1150d7ce514f98ac61; main/origin e2ff5e889737e38d3e652895d14406fc73d1b5fe, árvore limpa/idêntica ao head. Ambos jobs PR [44591931833](https://github.com/michael-eng-ai/global-live-data/actions/runs/44591931833) e main [44592557824](https://github.com/michael-eng-ai/global-live-data/actions/runs/44592557824) passaram.
+
+Vercel Git existente dpl_2U2wM7Xkg93whfnL97uTY4chU7Ev: Ready/Production/main e SHA completo verificados em 2026-11-19 18:55:30 UTC. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/2U2wM7Xkg93whfnL97uTY4chU7Ev); URL única https://global-live-data-5dza6z9gk-michael-eng-ais-projects.vercel.app. Três avisos de build foram visíveis durante compilação; conteúdos não inspecionados. Sem deploy duplicado. [Artigo PT](https://global-live-data.vercel.app/pt/trending/rsm-classic-2026-par-courses-cut-guide).
+
+HTTP 2026-11-19T18:55:34.331478+00:00 e leitura pública 2026-11-19T18:55:48.072Z confirmam idiomas/fontes/metadata/navegação. Auditoria pontual 2026-11-19T18:55:34.039Z: 7 requisicoes, 9 feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; bloqueio TSE/AP das 18:34 permanece, sem refresh editorial. Temporários /tmp/gld-rsm-*. Nenhum serviço, conta, gasto, chave, dependência, CI, frequência ou escopo novo; [[editorial-publishing]], [[validation-workflow]].
+
 ## Conexoes
+- [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
+
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.

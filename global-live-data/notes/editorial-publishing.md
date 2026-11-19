@@ -541,7 +541,17 @@ Quatro primárias lidas até 12:42:51.893 UTC: organização Davis Cup (formato/
 
 LTA tinha 10h GMT divergente: horário rejeitado, prevaleceram calendário e FAQ do organizador, ambos CET. LTA sustenta somente distinção de formato. Explainer exibiu 16 novembro no fetch renderizado e 17 no snippet; não publicar data editorial dessa fonte. Duas páginas Davis Cup deram 403 no primeiro leitor e HTTP200 no Firecrawl live/basic; sem conta/chave/termos novos. Nenhuma escalação, resultado, direito de transmissão ou imagem copiada. [[release-status]].
 
+## Edicao de 19 novembro, 18:38 UTC: RSM Classic
+
+Uma pesquisa Node 24.22.1 nos seis mercados, saída 0. US rsm classic observado 18:39:07.432Z, faixa 500+, início 17:40 UTC. Comparados 70 artigos; catálogo agora 71. Pauta nova de golfe: par 70/72, resultado da volta versus acumulado e empate na posição 65. Slug rsm-classic-2026-par-courses-cut-guide; ledger docs/editorial/2026-11-19-rsm-par.md. Filtro Golf/Golfe/Golf e destino índice existentes no produto editorial; nenhum provider de golfe ativado.
+
+Quatro primárias lidas até 18:45:32 UTC: PGA TOUR First Look de 16 novembro, FAQ do organizador RSM, Media Guide 2026 página 79 e R&A Regra 3. Semana 16–22 difere das voltas 19–22. Exemplos explicitamente fictícios: 68 no par 70 dá -2, no par 72 dá -4; 68+70 total138 contra par142 dá -4, segunda volta -2. 64 totais menores e três iguais dão T65 e 67 classificados. Python/Node verificaram cinco dias da semana e oito valores. Original PT/EN/ES, quatro seções/oito parágrafos; divulgação IA e ausência de revisão humana preservadas.
+
+Páginas primárias renderizadas HTTP 200 com Firecrawl live/basic após bloqueios/timeouts do leitor inicial; PDF baixado com TLS validado e página inspecionada. Python com trust store padrão falhou no certificado; curl do sistema funcionou, sem desativar verificação. USGA antigo redirecionou para página genérica, alternativa 404: rejeitados em favor da Regra 3 efetivamente lida no R&A. Não usar fontes de apostas, horário exato do corte, placar, vencedor, field size ou imagens; [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
+
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.

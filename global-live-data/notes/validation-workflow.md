@@ -304,7 +304,17 @@ HTTP público 2026-11-19T12:52:21.528948+00:00 com EN/PT/ES 200, dpl exato, Arti
 
 Conector Vercel 403; sessão pessoal já autenticada verificou Ready/Production/main e SHA completo. Uma extensão de navegador ficou disponível durante a verificação: preferir aba CUA vinculada por ID/URL para não depender da janela nativa em primeiro plano quando o usuário alterna perfis. Nenhuma credencial/permissão alterada. Servidor 3102 encerrado; [[release-status]].
 
+## Guia RSM Classic, 19 novembro
+
+Lint/tipos/101 unidades/history/build/HTTP, 11 importações e 37 Chromium passaram. Seis jornadas locais EN/PT/ES 390/1280 px em 2026-11-19T18:49:17.851Z: oito parágrafos, quatro fontes, filtro Golfe, teclado, metadata, idiomas, sumário/citações e índice/Voltar. Espanhol sem JavaScript; quatro capturas inspecionadas. Nenhum overflow, overlay, aviso/erro de console, erro de aplicação ou request Trends. Leitura sem mocks. Sete JSON históricos preservaram bytes/mtimes; sem refresh TSE editorial.
+
+HTTP público 2026-11-19T18:55:34.331478+00:00: EN/PT/ES 200, dpl exato, Article/canonical/hreflang/CSP/sitemap; três jornadas públicas e espanhol sem JS em 2026-11-19T18:55:48.072Z. Capturas públicas mobile/desktop inspecionadas. QA com Playwright do repositório. WebKit, Safari nativo, carga e revisão humana não repetidos.
+
+MCP Vercel 403; painel existente autenticado na aba vinculada verificou Ready/Production/main e SHA completo. Nenhuma credencial/permissão modificada. Servidor próprio 3102 encerrado; [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
+
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
