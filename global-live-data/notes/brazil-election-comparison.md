@@ -219,6 +219,14 @@ Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado
 
 Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, alteração de captura publicada, repetição de suites ou UI; nada mudou no código/dados. Bloqueio idêntico já conhecido, sem novidade acionável. Evidências locais /tmp/gld-tse-20261119-1231-*. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem em 19 novembro, 18:34 UTC
+
+Main limpa/atualizada adc25af6f2e7cfa0b68f7ea54b18a5565cee8951; branch temporária codex/tse-refresh-20261119-1833. Uma única chamada history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, iniciou 2026-11-19T18:34:04.094803+00:00 e terminou 2026-11-19T18:34:10.002680+00:00, saída 1. Relatório atual blocked em 2026-11-19T18:34:09.991Z: razão integral idêntica à rodada anterior, recortes (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes após agregação. Não é changed=false. Guard e agregação revisados sem alteração: o erro não distingue registros ausentes de soma partidária divergente e não registra totais, hashes ou identidades novos. Nenhuma causa atribuída, gate relaxado ou segunda captura.
+
+Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado, staging da rodada removido e duas pastas antigas preservadas. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-19T18:34:46.041032+00:00, normalizando apenas ordem de recortes/partidos, inclusive proveniência e datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos, RO e AP publicados preservados.
+
+Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, alteração de captura publicada, repetição de suites ou UI; código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável. Evidências locais /tmp/gld-tse-20261119-1833-*. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.

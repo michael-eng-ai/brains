@@ -8,13 +8,13 @@ atualizado: "2026-11-19"
 
 # Estado atual
 
-Último handoff: [[2026-11-19-davis-editorial-release]].
+Último handoff: [[2026-11-17-tse-ap-retention-blocked]] (rechecagem de 19 novembro, 18:34 UTC). Última publicação: [[2026-11-19-davis-editorial-release]].
 
 - Editorial de 19 novembro, 12:41 UTC: seis mercados ready; guia Copa Davis PT/EN/ES publicado. Catálogo 70, quatro primárias/14 pares data-fuso. Tênis e guia de placar existentes. [[editorial-publishing]].
 - PR #92 integrada; main/origin adc25af6f2e7cfa0b68f7ea54b18a5565cee8951, limpa/idêntica ao head. Ambos jobs PR/main, Production Ready/SHA e público confirmados. [[release-status]].
 - 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium e leitura local/pública passaram; espanhol sem JS e capturas mobile/desktop. WebKit/Safari/carga/revisão humana não repetidos. [[validation-workflow]].
 - Auditoria pontual 2026-11-19T12:52:22.331Z: 7 requisicoes, 9 feeds ready, saida 0. [[release-status]].
-- TSE rechecado em 19 novembro às 12:33 UTC: única captura saída 1, mesmo blocked AP federal/estadual, turno 1. Sete JSON/datas e candidato antigo preservados; lock/staging da rodada limpos. Exports públicos 2026/2022 iguais aos canônicos às 12:35:02 UTC; mantidos ambos turnos, RO e 2022. Main/origin limpas no SHA da PR91, branch vazia removida; nenhum release TSE nem novidade acionável. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- TSE rechecado em 19 novembro às 18:34 UTC: única captura saída 1, mesmo blocked AP federal/estadual, turno 1. Sete JSON/datas e candidato antigo preservados; lock/staging da rodada limpos. Exports públicos 2026/2022 iguais aos canônicos às 18:34:46 UTC; mantidos ambos turnos, RO e 2022. Main/origin limpas no SHA da PR92, branch vazia removida; nenhum release TSE nem novidade acionável. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 - Next/eslint-config-next 16.4.5 corrigidos na PR86; auditoria de 17 novembro tinha produção sem achados e 15 achados de desenvolvimento (6 moderados/9 altos). Não houve nova auditoria ou atualização de dependência nesta edição. Manutenção separada em docs/DEPENDENCIES.md. [[validation-workflow]].
 - Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
