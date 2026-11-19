@@ -246,6 +246,8 @@ atualizado: "2026-11-19"
 
 - 2026-11-19, editorial 06:37 UTC: PR #91 Thanksgiving publicada; main 9aa80f12abf473de3020d358d0b5100079648285, dois jobs PR/main, Ready/SHA e EN/PT/ES verificados. [[2026-11-19-thanksgiving-editorial-release]].
 
+- 2026-11-19, TSE 12:33 UTC: uma captura, saída 1/blocked AP idêntico. Sete JSON/datas preservados, exports 2026/2022 iguais aos canônicos às 12:35:02 UTC; main limpa 9aa80f1, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+
 ## Conexoes
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 

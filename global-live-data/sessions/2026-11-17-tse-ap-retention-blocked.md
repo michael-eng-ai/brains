@@ -44,6 +44,8 @@ Rechecagem de 19 novembro, 00:27 UTC: uma chamada, saída 1 e mesmo blocked AP. 
 
 Rechecagem de 19 novembro, 06:32 UTC: uma chamada, saída 1 e mesmo blocked AP. Sete JSON/datas e candidato antigo intactos, lock/staging da rodada limpos; exports 2026/2022 iguais aos canônicos às 06:33:49 UTC. Main/origin limpas b1cdace9dcecd70589f406942d0db498cb0dc8b7, branch vazia removida. Sem release, suites repetidas ou nova captura. Nenhum fato acionável novo; [[brazil-election-comparison]].
 
+Rechecagem de 19 novembro, 12:33 UTC: uma chamada, saída 1 e mesmo blocked AP. Sete JSON/datas e candidato antigo intactos, lock/staging da rodada limpos; exports 2026/2022 iguais aos canônicos às 12:35:02 UTC. Main/origin limpas 9aa80f12abf473de3020d358d0b5100079648285, branch vazia removida. Sem release, suites repetidas ou nova captura. Nenhuma novidade acionável; [[brazil-election-comparison]].
+
 ## Conexoes
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.
 - [[index]] - Entrada.
