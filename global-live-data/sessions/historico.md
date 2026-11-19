@@ -244,7 +244,11 @@ atualizado: "2026-11-19"
 
 - 2026-11-19, TSE 06:32 UTC: uma captura, saída 1/blocked AP idêntico. Sete JSON/datas preservados, exports 2026/2022 iguais aos canônicos às 06:33:49 UTC; main limpa b1cdace, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
+- 2026-11-19, editorial 06:37 UTC: PR #91 Thanksgiving publicada; main 9aa80f12abf473de3020d358d0b5100079648285, dois jobs PR/main, Ready/SHA e EN/PT/ES verificados. [[2026-11-19-thanksgiving-editorial-release]].
+
 ## Conexoes
+- [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
+
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.

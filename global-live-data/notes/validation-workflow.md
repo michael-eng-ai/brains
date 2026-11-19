@@ -288,7 +288,17 @@ HTTP público 2026-11-19T00:46:20.862448+00:00: EN/PT/ES 200, dpl exato, Article
 
 MCP Vercel voltou 403; inspeção do painel já autenticado, sem ampliar permissões. Chrome abriu seletor de perfis; perfil Pessoal existente tinha aba do deploy anterior. Usar URL do status do commit exato e verificar conteúdo, não só barra. Servidor próprio encerrado; [[release-status]].
 
+## Guia Thanksgiving, 19 novembro
+
+Lint/tipos/101 unidades/history/build/HTTP, 11 importações e 37 Chromium passaram. Seis jornadas locais EN/PT/ES 390/1280 px em 2026-11-19T06:45:22.645Z: oito parágrafos, quatro fontes, Economia, teclado, metadata, idioma, câmbio/Voltar e sumário/citações. Espanhol sem JavaScript. Quatro capturas inspecionadas; nenhum overflow, erro/aviso de console, overlay ou request Trends. Fixtures sintéticas somente no destino câmbio para navegação, sem afirmar validação do provedor. Sete JSON históricos preservaram bytes/mtimes; sem refresh TSE.
+
+HTTP público 2026-11-19T06:52:16.770635+00:00 com EN/PT/ES 200, dpl exato, Article/canonical/hreflang/CSP/sitemap; três jornadas públicas e espanhol sem JS em 2026-11-19T06:52:32.436Z. Capturas públicas mobile/desktop inspecionadas. Playwright do repositório porque Browser plugin não disponível. WebKit, Safari nativo, carga e revisão humana não repetidos nesta edição de conteúdo.
+
+Conector Vercel 403; painel já autenticado verificou ambiente, status e SHA completo. Sem alteração de credenciais/permissões. Servidor 3102 encerrado; [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
+
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.

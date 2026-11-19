@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR #90 Voyager publicada; bloqueio AP preservado."
+resumo: "PR #91 Thanksgiving publicada; bloqueio AP preservado."
 tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
 atualizado: "2026-11-19"
 ---
 
 # Estado atual
 
-Último handoff: [[2026-11-19-voyager-editorial-release]].
+Último handoff: [[2026-11-19-thanksgiving-editorial-release]].
 
-- Editorial de 19 novembro, 00:33 UTC: seis mercados ready; guia Voyager publicado em PT/EN/ES. Catálogo com 68 artigos, quatro primárias NASA e seis horários conferidos. Filtro Céu noturno, destino índice. [[editorial-publishing]].
-- PR #90 integrada; main/origin b1cdace9dcecd70589f406942d0db498cb0dc8b7, árvore limpa/idêntica ao head. Ambos jobs PR/main, Production Ready/SHA e páginas públicas confirmados. [[release-status]].
-- 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium e leitura local/pública passaram; espanhol sem JS e capturas mobile/desktop. WebKit, Safari nativo, carga e revisão humana não repetidos. [[validation-workflow]].
-- Auditoria pontual 2026-11-19T00:46:20.678Z: 7 requisicoes, nove feeds ready, saida 0. [[release-status]].
+- Editorial de 19 novembro, 06:37 UTC: seis mercados ready, guia Thanksgiving PT/EN/ES publicado. Catálogo com 69, quatro primárias e sete pares data/fuso conferidos. Economia/câmbio existentes. [[editorial-publishing]].
+- PR #91 integrada; main/origin 9aa80f12abf473de3020d358d0b5100079648285, limpa/idêntica ao head. Ambos jobs PR/main, Production Ready/SHA e público confirmados. [[release-status]].
+- 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium e leitura local/pública passaram; espanhol sem JS e capturas mobile/desktop. WebKit/Safari/carga/revisão humana não repetidos. [[validation-workflow]].
+- Auditoria pontual 2026-11-19T06:52:17.186Z: 7 requisicoes, nove feeds ready, saida 0. [[release-status]].
 - TSE rechecado em 19 novembro às 06:32 UTC: única captura saída 1, mesmo blocked AP federal/estadual, turno 1. Sete JSON/datas e candidato antigo preservados; lock/staging da rodada limpos. Exports públicos 2026/2022 iguais aos canônicos às 06:33:49 UTC; mantidos ambos turnos, RO e 2022. Main/origin limpas no SHA da PR90, branch vazia removida; nenhum release TSE nem novidade acionável. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 - Next/eslint-config-next 16.4.5 corrigidos na PR86; auditoria de 17 novembro tinha produção sem achados e 15 achados de desenvolvimento (6 moderados/9 altos). Não houve nova auditoria ou atualização de dependência nesta edição. Manutenção separada em docs/DEPENDENCIES.md. [[validation-workflow]].
 - Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
 
 ## Conexoes
+- [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.

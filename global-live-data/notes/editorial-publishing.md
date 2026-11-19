@@ -525,7 +525,17 @@ Quatro primárias NASA lidas até 00:38:05 UTC: posição, explicação de dia-l
 
 FAQ geral NASA mistura notas recentes com Voyager 2 ainda no futuro: não foi usado. Snippet Night Sky citava Sol; duas páginas específicas da missão dizem Terra e prevalecem. Páginas do marco ainda usam futuro após o instante anunciado; não promover isso a telemetria confirmada. Apenas distância arredondada; nenhuma imagem ou texto de fonte copiado. [[release-status]].
 
+## Edicao de 19 novembro, 06:37 UTC: Thanksgiving
+
+Uma pesquisa Node 24.22.1 nos seis mercados, saída 0, dez leads cada. GB thanksgiving 2026 observado 06:37:54.006Z, faixa 100+, início 05:40 UTC. Comparados 68 artigos; catálogo agora 69. Guia anterior Black Friday cobre varejo/preço total; esta pauta distinta explica sessão de bolsa e data de observação. Slug thanksgiving-2026-market-hours-reference-fx; ledger docs/editorial/2026-11-19-thanksgiving-hours.md. Filtro Economia e destino câmbio/histórico existentes.
+
+OPM, Nasdaq, NYSE e BCE lidos até 06:42:51 UTC. Fechamento 26 novembro; sessão regular de ações encerra 27 novembro 13h Nova York. Sete pares data/fuso conferidos por Python zoneinfo/Node Intl, incluindo Tóquio 03h sábado 28. Regra informativa BCE não é calendário NYSE; sem promessa de taxa/publicação futura nem generalização para bancos, transferências, opções ou outras sessões. Texto original, quatro seções/oito parágrafos por idioma e divulgação IA/ausência de revisão humana.
+
+Leads GTA/Black Friday/dardos/F1 já cobertos; pessoais/políticos/saúde/especulação financeira excluídos. Busca exploratória Van Gogh não estabeleceu exposição japonesa específica. Páginas antigas BCE tinham horário de concertação diferente: nenhum horário de concertação publicado. Apenas regra atual da página canônica. [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
+
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.

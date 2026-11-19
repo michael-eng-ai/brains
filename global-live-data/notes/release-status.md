@@ -972,7 +972,17 @@ HTTP 2026-11-19T00:46:20.862448+00:00 e leitura 2026-11-19T00:46:32.651Z públic
 
 [Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/90#issuecomment-6996126367). Temporários /tmp/gld-voyager-*. Nenhuma conta, serviço, gasto, chave, provider, dependência, permissão CI, frequência ou escopo alterado. [[editorial-publishing]], [[validation-workflow]].
 
+## Thanksgiving: PR #91 publicada em 19 novembro
+
+[PR #91](https://github.com/michael-eng-ai/global-live-data/pull/91) anexada e integrada. Head 29f58c9612435ffd9f9d5bf3915057737a33e406; main/origin 9aa80f12abf473de3020d358d0b5100079648285, árvore limpa/idêntica ao head. Ambos jobs PR [44474571466](https://github.com/michael-eng-ai/global-live-data/actions/runs/44474571466) e [main 44474948911](https://github.com/michael-eng-ai/global-live-data/actions/runs/44474948911) passaram.
+
+Vercel Git existente dpl_Mj2Y74sLpWjt9LpgJpbf9B1AFxGU: Ready/Production/main e SHA completo observados em 2026-11-19T06:52:13.671171+00:00. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/Mj2Y74sLpWjt9LpgJpbf9B1AFxGU); URL única https://global-live-data-p6am25zx0-michael-eng-ais-projects.vercel.app. Ready/Production/main e commit completo verificados no painel; duração e avisos do build não foram registrados.. Sem deploy duplicado ou ampliação de acesso. [Artigo PT](https://global-live-data.vercel.app/pt/trending/thanksgiving-2026-market-hours-reference-fx).
+
+HTTP 2026-11-19T06:52:16.770635+00:00 e leitura pública 2026-11-19T06:52:32.436Z confirmam idiomas, fontes, metadata e navegação. Auditoria pontual 2026-11-19T06:52:17.186Z: 7 requisicoes, nove feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; impedimento AP/TSE da rodada 06:32 permanece, sem refresh editorial. [Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/91#issuecomment-7002059197). Temporários /tmp/gld-thanksgiving-*. Sem serviço, conta, gasto, chave, dependência, CI, frequência ou escopo alterado. [[editorial-publishing]], [[validation-workflow]].
+
 ## Conexoes
+- [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
+
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
