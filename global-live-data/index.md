@@ -3,7 +3,7 @@ tipo: "moc"
 projeto: "global-live-data"
 resumo: "Mapa de conhecimento e entrada do projeto."
 tags: ["global-live-data", "moc"]
-atualizado: "2026-11-18"
+atualizado: "2026-11-19"
 ---
 
 # Global Live Data
@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.
@@ -211,6 +212,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.
 - [[2026-11-18-darts-editorial-release]] - Guia de dardos publicado com CI, Production e páginas verificados.

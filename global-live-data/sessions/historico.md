@@ -240,7 +240,11 @@ atualizado: "2026-11-19"
 
 - 2026-11-19, 00:27 UTC: TSE repetiu bloqueio AP; sete JSON/datas preservados e exports 2026/2022 iguais aos canônicos às 00:28:28. Main limpa na PR89, sem release ou mudança acionável. [[2026-11-17-tse-ap-retention-blocked]].
 
+- 2026-11-19, editorial 00:33 UTC: PR #90 Voyager publicada; main b1cdace9dcecd70589f406942d0db498cb0dc8b7, dois jobs PR/main, Ready/SHA e EN/PT/ES confirmados; cérebro salvo. [[2026-11-19-voyager-editorial-release]].
+
 ## Conexoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
+
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.

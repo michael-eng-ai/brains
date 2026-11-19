@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-18"
+atualizado: "2026-11-19"
 ---
 
 # Estado da entrega
@@ -962,7 +962,19 @@ HTTP e três jornadas públicas, incluindo espanhol sem JavaScript, confirmaram 
 
 [Recibo durável da PR](https://github.com/michael-eng-ai/global-live-data/pull/89#issuecomment-6988256146). Apuração em [[editorial-publishing]], temporários `/tmp/gld-snooker-*`. Nenhuma conta, serviço, gasto, chave, dependência, provider, CI, frequência ou escopo alterado. Servidor próprio encerrado.
 
+## Voyager: PR #90 publicada em 19 novembro
+
+[PR #90](https://github.com/michael-eng-ai/global-live-data/pull/90) anexada e integrada. Head 2114e61232c178e245eebf3acf6b91f38d9c3f76; main/origin b1cdace9dcecd70589f406942d0db498cb0dc8b7, árvore limpa/idêntica ao head aprovado. Ambos jobs PR [44430966369](https://github.com/michael-eng-ai/global-live-data/actions/runs/44430966369) e [main 44431419848](https://github.com/michael-eng-ai/global-live-data/actions/runs/44431419848) passaram.
+
+Vercel Git existente dpl_5yrh5MRUWaBT2De51Cx7aDaJvGBY: Ready/Production/main e SHA completo observados às 19 novembro, 00:45 UTC. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/5yrh5MRUWaBT2De51Cx7aDaJvGBY); URL única https://global-live-data-nq01837zl-michael-eng-ais-projects.vercel.app. Build 1m21s; painel exibiu tres avisos, nao investigados nesta edicao. Nenhum deploy duplicado ou nova autorização para contornar MCP 403. [Artigo PT](https://global-live-data.vercel.app/pt/trending/voyager-1-light-day-2026-signal-delay-guide).
+
+HTTP 2026-11-19T00:46:20.862448+00:00 e leitura 2026-11-19T00:46:32.651Z públicos confirmam três idiomas, fontes, metadata, navegação, espanhol sem JS e nenhum erro/overflow/Trends. Auditoria pontual 2026-11-19T00:46:20.678Z: 7 requisicoes, nove feeds ready, saida 0; observação limitada, sem garantia contínua. Sete JSON preservados; AP/TSE da rodada 00:27 UTC continua bloqueado, sem refresh nesta edição.
+
+[Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/90#issuecomment-6996126367). Temporários /tmp/gld-voyager-*. Nenhuma conta, serviço, gasto, chave, provider, dependência, permissão CI, frequência ou escopo alterado. [[editorial-publishing]], [[validation-workflow]].
+
 ## Conexoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
+
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI publicado com CI, Production e páginas verificados.

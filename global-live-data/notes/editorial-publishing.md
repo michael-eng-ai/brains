@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-18"
+atualizado: "2026-11-19"
 ---
 
 # Publicacao editorial
@@ -517,7 +517,17 @@ Exemplos fictícios conferidos em Python e Node: alvo seis; 4-3 exige duas vitó
 
 O extrator web omitiu os corpos WST. HTML primário recuperado por curl com TLS validado e parágrafos embutidos lidos; erro inicial de CA local do Python não foi contornado desabilitando TLS. Não promover snippets a corpo lido, nem chamar a edição 2024 do regulamento de edição 2026. Fontes sem cópia de texto/imagens. Temporários `/tmp/gld-snooker-*`; recibos em [[release-status]].
 
+## Edicao de 19 novembro, 00:33 UTC: Voyager 1
+
+Pesquisa única Node 24.22.1, seis mercados ready/saída 0. Selecionada BR voyager 1, observado 00:33:57.287Z, 200+; GB nasa voyager 1 também observado. Comparados 67 artigos; catálogo passa a 68. Slug voyager-1-light-day-2026-signal-delay-guide; ledger docs/editorial/2026-11-19-voyager-light-day.md. Filtro Céu noturno existente, destino índice.
+
+Quatro primárias NASA lidas até 00:38:05 UTC: posição, explicação de dia-luz, comunicado atualizado 13 novembro e nuvem de Oort. Texto separa horário anunciado de confirmação por telemetria, distância da Terra de distância do Sol, dia-luz de duração de viagem, ida/volta de sinais e heliosfera de Sistema Solar. Conversa pública anunciada para 19 novembro 12h EST. Seis conversões Python/Node iguais; exemplo fixo/imediato 24+24=48h explicitamente simplificado. Quatro seções/oito parágrafos por idioma, fontes e divulgação IA/ausência de revisão humana.
+
+FAQ geral NASA mistura notas recentes com Voyager 2 ainda no futuro: não foi usado. Snippet Night Sky citava Sol; duas páginas específicas da missão dizem Terra e prevalecem. Páginas do marco ainda usam futuro após o instante anunciado; não promover isso a telemetria confirmada. Apenas distância arredondada; nenhuma imagem ou texto de fonte copiado. [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
+
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 
 - [[2026-11-18-gta-vi-editorial-release]] - Guia GTA VI com evidências, testes e limites.

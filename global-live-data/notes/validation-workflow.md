@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-18"
+atualizado: "2026-11-19"
 ---
 
 # Validacao
@@ -280,7 +280,17 @@ HTTP público 2026-11-18T18:46:46.405640+00:00: três idiomas 200, ID exato do d
 
 Vercel MCP 403: inspeção no painel já autenticado, sem ampliar acesso. `setValue` na barra mudou o texto mas deixou a página antiga; clicar a barra, selecionar tudo, digitar URL e Return carregou o novo deploy. Confirmar URL do conteúdo, não somente texto da barra. Recibos CI/Production em [[release-status]].
 
+## Guia Voyager, 19 novembro
+
+Check com lint/tipos/101 unidades/history/build/HTTP, 11 importações e 37 Chromium passaram. Seis jornadas locais EN/PT/ES 390/1280 px às 00:40:21.398Z: oito parágrafos, quatro fontes, filtro Céu noturno, teclado, metadata, idioma, índice/Voltar e sumário/citações. Espanhol sem JavaScript. Quatro capturas inspecionadas, sem overflow, overlay, erros/avisos de console ou request visitante Trends. Sete JSON históricos preservaram bytes/mtimes; nenhum refresh TSE editorial.
+
+HTTP público 2026-11-19T00:46:20.862448+00:00: EN/PT/ES 200, dpl exato, Article/canonical/hreflang/CSP/sitemap. Três jornadas públicas e espanhol sem JavaScript às 2026-11-19T00:46:32.651Z, duas capturas inspecionadas. Browser plugin ausente: Playwright do repositório. WebKit, Safari nativo, carga e revisão humana não repetidos nesta edição de conteúdo.
+
+MCP Vercel voltou 403; inspeção do painel já autenticado, sem ampliar permissões. Chrome abriu seletor de perfis; perfil Pessoal existente tinha aba do deploy anterior. Usar URL do status do commit exato e verificar conteúdo, não só barra. Servidor próprio encerrado; [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
+
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
 
 - [[2026-11-18-gta-vi-editorial-release]] - Validação do guia GTA VI.
