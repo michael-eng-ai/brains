@@ -203,6 +203,14 @@ Sete JSON canônicos e candidato de 11 novembro mantiveram bytes/mtimes; lock li
 
 Branch vazia removida; main/origin limpas no SHA acima. Sem commit/PR/deploy do produto ou segundo download. Testes, build, UI, CI e Ready não repetidos: código/dados não mudaram. Recibos locais /tmp/gld-tse-20261119-0026-before.json, -exit.json, -refresh.log, -verification.json e -public.json. Mesmo bloqueio conhecido sem mudança acionável; preservar silêncio, cadência, editorial e escopo.
 
+## Rechecagem em 19 novembro, 06:32 UTC
+
+Main limpa/atualizada b1cdace9dcecd70589f406942d0db498cb0dc8b7; branch temporária codex/tse-refresh-20261119-0632. Uma única chamada history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, iniciou 2026-11-19T06:32:51.594492+00:00 e terminou 2026-11-19T06:32:56.715677+00:00, saída 1. Relatório atual blocked em 2026-11-19T06:32:56.705Z: mesmos recortes (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes após agregação. Não é changed=false. Guard e agregação conferidos sem mudanças: a mensagem não distingue registros ausentes de soma partidária divergente. Sem totais, hashes ou identidades novos no erro; nenhuma causa atribuída, gate relaxado ou segunda captura.
+
+Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado, staging da rodada removido e duas pastas antigas preservadas. 2026 mantém 170 recortes/1997 agregados, ambos turnos/RO e AP 459.680/450.731. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-19T06:33:49.218013+00:00, normalizando apenas ordem de recortes/partidos, inclusive proveniência: 170/176 recortes e 1997/2217 agregados.
+
+Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, atualização de captura publicada, repetição de suites ou UI; nada mudou no código/dados. Bloqueio idêntico já conhecido, sem novidade acionável. Evidências locais /tmp/gld-tse-20261119-0632-*. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.

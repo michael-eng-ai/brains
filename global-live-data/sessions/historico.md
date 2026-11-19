@@ -242,6 +242,8 @@ atualizado: "2026-11-19"
 
 - 2026-11-19, editorial 00:33 UTC: PR #90 Voyager publicada; main b1cdace9dcecd70589f406942d0db498cb0dc8b7, dois jobs PR/main, Ready/SHA e EN/PT/ES confirmados; cérebro salvo. [[2026-11-19-voyager-editorial-release]].
 
+- 2026-11-19, TSE 06:32 UTC: uma captura, saída 1/blocked AP idêntico. Sete JSON/datas preservados, exports 2026/2022 iguais aos canônicos às 06:33:49 UTC; main limpa b1cdace, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+
 ## Conexoes
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 

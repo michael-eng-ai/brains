@@ -3,7 +3,7 @@ tipo: catalogo
 projeto: global-live-data
 resumo: Catalogo gerado por graph.sh. Uma linha por nota. Nao editar a mao.
 tags: [global-live-data, catalogo]
-atualizado: 2026-11-18
+atualizado: 2026-11-19
 ---
 
 # Catalogo: global-live-data
@@ -40,7 +40,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[api-data-adequacy]] (notes/api-data-adequacy.md) | conceito | "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas." | [global-live-data, dados, qualidade, produto] | 13 | 13 |
 | [[brand-name-testing]] (notes/brand-name-testing.md) | conceito | "Teste local PT/EN/ES preparado para dois nomes; sem participantes ou contratacao." | [global-live-data, conceito, pesquisa, lancamento] | 5 | 5 |
 | [[brasileirao-nba-feeds]] (notes/brasileirao-nba-feeds.md) | conceito | "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave." | [global-live-data, esportes, fornecedores] | 10 | 10 |
-| [[brazil-election-comparison]] (notes/brazil-election-comparison.md) | conceito | "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE." | [global-live-data, eleicoes, historico, qualidade] | 24 | 24 |
+| [[brazil-election-comparison]] (notes/brazil-election-comparison.md) | conceito | "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE." | [global-live-data, eleicoes, historico, qualidade] | 25 | 24 |
 | [[category-research]] (notes/category-research.md) | "conceito" | "Pesquisa inicial de categorias e ponte para os feeds posteriormente publicados." | ["global-live-data", "conceito"] | 11 | 11 |
 | [[consolidation-audit]] (notes/consolidation-audit.md) | conceito | "Auditoria de consolidacao: contador 24h, documentacao, operacao e custos medidos." | [global-live-data, auditoria, operacao] | 13 | 13 |
 | [[curated-geography]] (notes/curated-geography.md) | "conceito" | "Catalogo limitado de 42 cidades e geometria do mapa." | ["global-live-data", "conceito"] | 3 | 3 |
@@ -174,7 +174,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-11-18-gta-vi-editorial-release]] (sessions/2026-11-18-gta-vi-editorial-release.md) | sessao | "PR #88: guia GTA VI PT/EN/ES publicado e verificado." | [global-live-data, sessao, editorial, gaming, release] | 6 | 6 |
 | [[2026-11-18-snooker-editorial-release]] (sessions/2026-11-18-snooker-editorial-release.md) | sessao | "PR #89: guia de snooker PT/EN/ES publicado e verificado." | [global-live-data, sessao, editorial, snooker, release] | 6 | 6 |
 | [[2026-11-19-voyager-editorial-release]] (sessions/2026-11-19-voyager-editorial-release.md) | sessao | "PR #90: guia Voyager PT/EN/ES publicado e verificado." | [global-live-data, sessao, editorial, astronomia, release] | 6 | 6 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 111 | 111 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 111 | 112 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |
