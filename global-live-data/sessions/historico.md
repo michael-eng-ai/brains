@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-18"
+atualizado: "2026-11-19"
 ---
 
 # Historico
@@ -237,6 +237,8 @@ atualizado: "2026-11-18"
 - 2026-11-18, 18:28 UTC: captura TSE única repete bloqueio AP; dados/datas intactos, exports públicos iguais aos canônicos e main limpa. Sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]].
 
 - 2026-11-18, 18:33 UTC: PR #89 publica guia de snooker PT/EN/ES; dois jobs PR/main, Ready/SHA/público e nove feeds ready verificados. [[2026-11-18-snooker-editorial-release]].
+
+- 2026-11-19, 00:27 UTC: TSE repetiu bloqueio AP; sete JSON/datas preservados e exports 2026/2022 iguais aos canônicos às 00:28:28. Main limpa na PR89, sem release ou mudança acionável. [[2026-11-17-tse-ap-retention-blocked]].
 
 ## Conexoes
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
