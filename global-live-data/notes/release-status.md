@@ -980,7 +980,17 @@ Vercel Git existente dpl_Mj2Y74sLpWjt9LpgJpbf9B1AFxGU: Ready/Production/main e S
 
 HTTP 2026-11-19T06:52:16.770635+00:00 e leitura pública 2026-11-19T06:52:32.436Z confirmam idiomas, fontes, metadata e navegação. Auditoria pontual 2026-11-19T06:52:17.186Z: 7 requisicoes, nove feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; impedimento AP/TSE da rodada 06:32 permanece, sem refresh editorial. [Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/91#issuecomment-7002059197). Temporários /tmp/gld-thanksgiving-*. Sem serviço, conta, gasto, chave, dependência, CI, frequência ou escopo alterado. [[editorial-publishing]], [[validation-workflow]].
 
+## Copa Davis: PR #92 publicada em 19 novembro
+
+[PR #92](https://github.com/michael-eng-ai/global-live-data/pull/92) anexada e integrada. Head 0dc728832634f318f54cf11b4607c2787fcf6883; main/origin adc25af6f2e7cfa0b68f7ea54b18a5565cee8951, árvore limpa/idêntica ao head. Ambos jobs PR [44527157544](https://github.com/michael-eng-ai/global-live-data/actions/runs/44527157544) e main [44527558704](https://github.com/michael-eng-ai/global-live-data/actions/runs/44527558704) passaram.
+
+Vercel Git existente dpl_idPxMAbKLJ3byRQq8PYWS7UdtoNE: Ready/Production/Current/main e SHA completo verificados, recibo registrado 2026-11-19T12:52:19.967238+00:00. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/idPxMAbKLJ3byRQq8PYWS7UdtoNE); URL única https://global-live-data-8f4zg0ege-michael-eng-ais-projects.vercel.app. Três avisos de build visíveis durante compilação; conteúdos não inspecionados. Sem deploy duplicado. [Artigo PT](https://global-live-data.vercel.app/pt/trending/davis-cup-2026-final8-ties-times-guide).
+
+HTTP 2026-11-19T12:52:21.528948+00:00 e leitura pública 2026-11-19T12:52:37.943Z confirmam idiomas/fontes/metadata/navegação. Auditoria pontual 2026-11-19T12:52:22.331Z: 7 requisicoes, 9 feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; bloqueio AP/TSE das 12:33 permanece, sem refresh editorial. [Recibo durável](https://github.com/michael-eng-ai/global-live-data/pull/92#issuecomment-7009682193). Temporários /tmp/gld-davis-*. Sem serviço, conta, gasto, chave, dependência, CI, frequência ou escopo novo. [[editorial-publishing]], [[validation-workflow]].
+
 ## Conexoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
+
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.

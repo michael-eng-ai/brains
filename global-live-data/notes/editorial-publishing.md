@@ -533,7 +533,17 @@ OPM, Nasdaq, NYSE e BCE lidos até 06:42:51 UTC. Fechamento 26 novembro; sessão
 
 Leads GTA/Black Friday/dardos/F1 já cobertos; pessoais/políticos/saúde/especulação financeira excluídos. Busca exploratória Van Gogh não estabeleceu exposição japonesa específica. Páginas antigas BCE tinham horário de concertação diferente: nenhum horário de concertação publicado. Apenas regra atual da página canônica. [[release-status]].
 
+## Edicao de 19 novembro, 12:41 UTC: Copa Davis
+
+Uma pesquisa Node 24.22.1 nos seis mercados, saída 0. GB tennis observado 12:41:40.398Z, faixa 5000+, início 11:40 UTC. Comparados 69 artigos; catálogo agora 70. Pauta distinta de ATP Finals/grupos, placar, Basel e rótulos da chave: confronto entre seleções na Final 8. Slug davis-cup-2026-final8-ties-times-guide; ledger docs/editorial/2026-11-19-davis-final8.md. Filtro Tênis e destino guia de placar existentes.
+
+Quatro primárias lidas até 12:42:51.893 UTC: organização Davis Cup (formato/calendário), FAQ italiano e LTA. Final 8 24–29 novembro, duas simples e duplas apenas se 1–1; exemplo explicitamente fictício. Em 26 novembro, Grã-Bretanha/Alemanha 10h CET e Áustria/Espanha não antes de 17h CET. Python zoneinfo/Node Intl conferiram 14 pares data/fuso, preservando limite mínimo e Tóquio 01h de sexta 27. Texto original PT/EN/ES, quatro seções/oito parágrafos, divulgação IA e ausência de revisão humana.
+
+LTA tinha 10h GMT divergente: horário rejeitado, prevaleceram calendário e FAQ do organizador, ambos CET. LTA sustenta somente distinção de formato. Explainer exibiu 16 novembro no fetch renderizado e 17 no snippet; não publicar data editorial dessa fonte. Duas páginas Davis Cup deram 403 no primeiro leitor e HTTP200 no Firecrawl live/basic; sem conta/chave/termos novos. Nenhuma escalação, resultado, direito de transmissão ou imagem copiada. [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
+
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.

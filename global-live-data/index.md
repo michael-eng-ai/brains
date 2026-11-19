@@ -91,6 +91,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 - [[harvest-inventory]] - Fontes lidas, evidencias e lacunas da inicializacao.
 
 ## Sessoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.
@@ -213,6 +214,7 @@ Comece pelo estado atual e pela sessao mais recente. Fatos de produto ficam nas 
 Catalogo gerado: [[catalog]]. Guias de pasta README.md sao templates de escrita, nao notas do grafo.
 
 ## Conexoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
 - [[2026-11-18-snooker-editorial-release]] - Guia de snooker publicado com evidências e limites.

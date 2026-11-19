@@ -296,7 +296,17 @@ HTTP público 2026-11-19T06:52:16.770635+00:00 com EN/PT/ES 200, dpl exato, Arti
 
 Conector Vercel 403; painel já autenticado verificou ambiente, status e SHA completo. Sem alteração de credenciais/permissões. Servidor 3102 encerrado; [[release-status]].
 
+## Guia Copa Davis, 19 novembro
+
+Lint/tipos/101 unidades/history/build/HTTP, 11 importações e 37 Chromium passaram. Seis jornadas locais EN/PT/ES 390/1280 px em 2026-11-19T12:46:32.156Z: oito parágrafos, quatro fontes, filtro Tênis, teclado, metadata, idiomas, sumário/citações e guia de placar/Voltar. Espanhol sem JavaScript. Quatro capturas inspecionadas; nenhum overflow, overlay, aviso/erro de console ou request Trends. Jornadas adicionais não precisaram de mocks. Sete JSON históricos preservaram bytes/mtimes; sem refresh TSE.
+
+HTTP público 2026-11-19T12:52:21.528948+00:00 com EN/PT/ES 200, dpl exato, Article/canonical/hreflang/CSP/sitemap; três jornadas públicas e espanhol sem JS em 2026-11-19T12:52:37.943Z. Capturas públicas mobile/desktop inspecionadas. Playwright do repositório porque Browser plugin não estava listado para QA. WebKit, Safari nativo, carga e revisão humana não repetidos.
+
+Conector Vercel 403; sessão pessoal já autenticada verificou Ready/Production/main e SHA completo. Uma extensão de navegador ficou disponível durante a verificação: preferir aba CUA vinculada por ID/URL para não depender da janela nativa em primeiro plano quando o usuário alterna perfis. Nenhuma credencial/permissão alterada. Servidor 3102 encerrado; [[release-status]].
+
 ## Conexoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
+
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.

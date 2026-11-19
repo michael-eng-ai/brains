@@ -248,7 +248,11 @@ atualizado: "2026-11-19"
 
 - 2026-11-19, TSE 12:33 UTC: uma captura, saída 1/blocked AP idêntico. Sete JSON/datas preservados, exports 2026/2022 iguais aos canônicos às 12:35:02 UTC; main limpa 9aa80f1, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
+- 2026-11-19, editorial 12:41 UTC: PR #92 Copa Davis publicada; main adc25af6f2e7cfa0b68f7ea54b18a5565cee8951, dois jobs PR/main, Ready/SHA e EN/PT/ES confirmados. [[2026-11-19-davis-editorial-release]].
+
 ## Conexoes
+- [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
+
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.
 
 - [[2026-11-19-voyager-editorial-release]] - Guia Voyager publicado com fontes, testes e limites.
