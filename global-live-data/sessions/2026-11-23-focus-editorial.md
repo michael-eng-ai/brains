@@ -1,0 +1,41 @@
+---
+tipo: sessao
+projeto: global-live-data
+resumo: "Focus PT/EN/ES acessível; PR94 integrada e Ready pendente por 403."
+tags: [global-live-data, sessao, editorial, release]
+atualizado: "2026-11-23"
+data: "2026-11-23"
+ia: codex
+maquina: macos
+---
+
+# Focus: leitura validada e confirmação de entrega pendente
+
+## Objetivo e estado
+Rodada editorial 12:30 UTC. PR94 integrada; main/origin limpas 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. Ambos jobs PR/main e EN/PT/ES públicos passaram. Detalhe direto Production Ready/SHA ainda bloqueado por Vercel 403; [[release-status]].
+
+## Decisoes e limites
+Uma pesquisa de seis mercados, 72 artigos após inclusão, quatro fontes BCB e aritmética fictícia independente. Guia distingue datas, mediana, respondentes e decisão Copom, sem aconselhamento ou números de previsão atual. [[editorial-publishing]].
+
+## Validacao
+101 unidades/lint/tipos/history/build/HTTP, 11 importações, 37 Chromium, seis jornadas locais/três públicas e espanhol sem JS passaram. Capturas mobile/desktop revisadas. WebKit/Safari/carga/revisão humana não repetidos. Sete JSON/datas e bloqueio AP preservados. [[validation-workflow]].
+
+## Pendencia concreta
+Após resposta à solicitação de acesso já enviada, consultar dpl_9iy9ofzrba7ura2YCidbiXq2jRHq no time existente; conferir Production, Ready, main e SHA acima. GitHub success e alias com mesmo deployment ID são evidências complementares, não a confirmação direta faltante. Não iniciar outra pauta antes de fechar a entrega. Não adicionar credencial ou deploy duplicado.
+
+## O que evitar
+MCP list/get 403; CLI sem credencial iniciou login e foi encerrada. Browser indisponível. Não repetir tentativas idênticas sem mudança de acesso. Se o link de consentimento expirar, gerar outro apenas para o mesmo time. Roteiro QA corrigido para link sem ambiguidade e mocks FX/depth válidos; Python HTTP usa certifi com TLS validado.
+
+## Proximo passo e prompt inicial
+1. Sincronize cérebro e confira main, PR94 e Git real sem reescrever trabalho.
+2. Resolva somente a pendência de acesso à Vercel e observe o deployment exato.
+3. Se Ready/Production/SHA corresponderem, registre o recibo na PR/cérebro e confirme a entrega; investigue divergências.
+4. Preserve TSE/cadência/escopo, sincronize o cérebro e só depois retome pesquisa normal comparando 72 artigos.
+
+## Conexoes
+- [[index]] - Mapa.
+- [[current]] - Estado.
+- [[historico]] - Cronologia.
+- [[editorial-publishing]] - Apuração.
+- [[release-status]] - Recibo e bloqueio.
+- [[validation-workflow]] - Testes e limites.

@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 ---
 
 # Publicacao editorial
@@ -549,7 +549,15 @@ Quatro primárias lidas até 18:45:32 UTC: PGA TOUR First Look de 16 novembro, F
 
 Páginas primárias renderizadas HTTP 200 com Firecrawl live/basic após bloqueios/timeouts do leitor inicial; PDF baixado com TLS validado e página inspecionada. Python com trust store padrão falhou no certificado; curl do sistema funcionou, sem desativar verificação. USGA antigo redirecionou para página genérica, alternativa 404: rejeitados em favor da Regra 3 efetivamente lida no R&A. Não usar fontes de apostas, horário exato do corte, placar, vencedor, field size ou imagens; [[release-status]].
 
+## Focus: edição de 23 novembro, 12:30 UTC
+
+Pesquisa única Node 24 nos seis mercados, todos ready; BR boletim focus observado 12:31:30.088Z. Comparados 71 artigos; catálogo passa a 72 com brazil-focus-median-reference-date-guide, PT/EN/ES, filtro Economy e destino câmbio existentes. Quatro referências oficiais BCB lidas: publicação, PDF de 19 novembro, metodologia e Copom. Verificação factual até 12:34:31 UTC; ledger docs/editorial/2026-11-23-focus-median.md.
+
+Distingue publicação de 23 novembro e referência de 19, mediana/média, janela de respondentes e decisão do Copom. Exemplo fictício e dias verificados independentemente em Python/Node. Sem números atuais de previsão, conselho de investimento, causalidade cambial ou provider novo. FAQ sem respostas não fundamentou o texto; nenhuma hora de widget foi utilizada. Recibo e pendência de Ready em [[release-status]].
+
 ## Conexoes
+- [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
+
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
 
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.

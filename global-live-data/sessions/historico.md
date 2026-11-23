@@ -256,7 +256,11 @@ atualizado: "2026-11-23"
 
 - 2026-11-23, 12:26 UTC: única captura TSE saída 1/motivo AP idêntico; sete JSON/datas e candidato antigo preservados, lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 12:27:26 UTC. Main/origin limpas e2ff5e889737e38d3e652895d14406fc73d1b5fe; branch vazia removida, sem commit/PR/deploy ou repetição de testes. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
+- 2026-11-23, editorial 12:30 UTC: PR94 Focus integrada, CI PR/main e público EN/PT/ES aprovados; confirmação direta Ready pendente por 403. [[2026-11-23-focus-editorial]].
+
 ## Conexoes
+- [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
+
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
 
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.

@@ -1,25 +1,26 @@
 ---
 tipo: estado
 projeto: global-live-data
-resumo: "PR #93 RSM Classic publicada; bloqueio AP preservado."
-tags: [global-live-data, estado, eleicoes, release, editorial, dependencias]
+resumo: "PR94 integrada e artigo público; confirmação direta Ready pendente."
+tags: [global-live-data, estado, eleicoes, release, editorial]
 atualizado: "2026-11-23"
 ---
 
 # Estado atual
 
-Último handoff: [[2026-11-17-tse-ap-retention-blocked]] (rechecagem de 23 novembro). Última publicação: [[2026-11-19-rsm-editorial-release]].
+Último handoff: [[2026-11-23-focus-editorial]].
 
-- Editorial de 19 novembro, 18:38 UTC: seis mercados ready; RSM Classic PT/EN/ES publicado. Catálogo 71, quatro primárias, cinco dias/oito valores verificados. Golfe e índice interno. [[editorial-publishing]].
-- PR #93 integrada; main/origin e2ff5e889737e38d3e652895d14406fc73d1b5fe, limpa/idêntica ao head. Ambos jobs PR/main, Production Ready/SHA e público confirmados. [[release-status]].
-- 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium e leitura local/pública passaram; espanhol sem JS e capturas mobile/desktop. WebKit/Safari/carga/revisão humana não repetidos. [[validation-workflow]].
-- Auditoria pontual 2026-11-19T18:55:34.039Z: 7 requisicoes, 9 feeds ready, saida 0. [[release-status]].
-- TSE rechecado em 23 novembro às 12:26 UTC: única captura saída 1, mesmo blocked AP federal/estadual, turno 1. Sete JSON/datas e candidato antigo preservados; lock/staging da rodada limpos. Exports públicos 2026/2022 iguais aos canônicos às 12:27:26 UTC; ambos turnos, RO e 2022 mantidos. Main/origin limpas e2ff5e889737e38d3e652895d14406fc73d1b5fe, branch vazia removida; nenhum release, suite repetida ou novidade acionável. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
-- Next/eslint-config-next 16.4.5 corrigidos na PR86; auditoria de 17 novembro tinha produção sem achados e 15 achados de desenvolvimento (6 moderados/9 altos). Não houve nova auditoria ou atualização de dependência nesta edição. Manutenção separada em docs/DEPENDENCIES.md. [[validation-workflow]].
-- Domínio/Google, piloto gratuito Global Live Data/Datasanti World e NBA real seguem nas frentes existentes. NBA preparada/desativada; [[brand-name-testing]], [[launch-readiness]], [[brasileirao-nba-feeds]].
-- Nenhum serviço, conta, gasto, chave, DNS, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado; trabalho alheio preservado.
+- Focus PT/EN/ES é o artigo 72; quatro referências BCB, exemplo fictício validado, Economy/câmbio existentes. [[editorial-publishing]].
+- PR94 integrada; main/origin 6a7a03d60717f3cb2b1db7226851aba6de5c70e3 limpas e árvore igual ao head. Ambos jobs PR/main passaram. Páginas públicas e data-dpl-id conferidos; falta confirmar diretamente Production/Ready/source SHA por acesso Vercel 403. Consentimento solicitado no chat; não criar outro artigo até resolver esta pendência de entrega. [[release-status]].
+- 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium, seis leituras locais/três públicas e espanhol sem JS passaram. WebKit/Safari/carga/revisão humana não repetidos. [[validation-workflow]].
+- ops:check pontual 12:49:51 UTC: sete requests, nove feeds ready, saída 0. Não é garantia contínua. [[release-status]].
+- TSE rechecado em 23 novembro às 12:26 UTC: única captura saída 1, mesmo blocked AP federal/estadual, turno 1. Sete JSON/datas e candidato antigo preservados; lock/staging da rodada limpos. Exports públicos 2026/2022 iguais aos canônicos às 12:27:26 UTC; ambos turnos, RO e 2022 mantidos. Naquela rodada, main/origin limpas e2ff5e889737e38d3e652895d14406fc73d1b5fe e branch vazia removida; nenhum release, suite repetida ou novidade acionável. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+- Next/eslint-config-next 16.4.5 da PR86 preservados; auditoria/dependências não repetidas ou alteradas nesta edição. Domínio, piloto de nomes e NBA preparada/desativada seguem separados. [[launch-readiness]], [[brand-name-testing]], [[brasileirao-nba-feeds]].
+- Nenhum serviço, conta, gasto, chave, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado.
 
 ## Conexoes
+- [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
+
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
 - [[2026-11-19-thanksgiving-editorial-release]] - Thanksgiving: horários de bolsas e câmbio publicados e verificados.

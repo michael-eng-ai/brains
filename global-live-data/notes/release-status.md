@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 ---
 
 # Estado da entrega
@@ -996,7 +996,19 @@ Vercel Git existente dpl_2U2wM7Xkg93whfnL97uTY4chU7Ev: Ready/Production/main e S
 
 HTTP 2026-11-19T18:55:34.331478+00:00 e leitura pública 2026-11-19T18:55:48.072Z confirmam idiomas/fontes/metadata/navegação. Auditoria pontual 2026-11-19T18:55:34.039Z: 7 requisicoes, 9 feeds ready, saida 0; sem garantia contínua. Sete JSON preservados; bloqueio TSE/AP das 18:34 permanece, sem refresh editorial. Temporários /tmp/gld-rsm-*. Nenhum serviço, conta, gasto, chave, dependência, CI, frequência ou escopo novo; [[editorial-publishing]], [[validation-workflow]].
 
+## Focus: PR #94 integrada; confirmação Ready pendente em 23 novembro
+
+[PR94](https://github.com/michael-eng-ai/global-live-data/pull/94) criada/anexada e integrada após ambos jobs no head cac1fcebe836dd48fca52119dfd6a9e6c0d78eaf. Main/origin 6a7a03d60717f3cb2b1db7226851aba6de5c70e3 limpas e árvore igual ao head. Ambos jobs passaram na [CI PR](https://github.com/michael-eng-ai/global-live-data/actions/runs/45177152979) e [CI main](https://github.com/michael-eng-ai/global-live-data/actions/runs/45177723359).
+
+GitHub registra Vercel success/Deployment has completed para o SHA main, apontando dpl_9iy9ofzrba7ura2YCidbiXq2jRHq. [Painel](https://vercel.com/michael-eng-ais-projects/global-live-data/9iy9ofzrba7ura2YCidbiXq2jRHq). HTTP anônimo de 12:50:00.619Z retornou EN/PT/ES 200, idioma/título/canonical/CSP e esse mesmo data-dpl-id. Três jornadas públicas e espanhol sem JS passaram até 12:50:14.660Z. [Artigo PT](https://global-live-data.vercel.app/pt/trending/brazil-focus-median-reference-date-guide).
+
+Limite obrigatório: Production/Ready/source SHA ainda não observados diretamente na Vercel; não declarar a verificação completa. MCP list/get retornaram 403 no time existente; solicitação de consentimento enviada no chat, sem resposta até o registro. CLI sem credencial iniciou login e foi interrompida, sem configurar chave. Skill/controle Browser ausentes nesta sessão; nenhuma configuração/acesso foi ampliado para contornar o bloqueio. O link de consentimento é temporário e não deve ser guardado no cérebro. Após aprovação, consultar o deployment acima e comparar branch main/SHA/Production/Ready; se divergirem, investigar antes de concluir.
+
+ops:check único de 12:49:51.120Z saiu 0: sete requests, nove feeds ready. É observação pontual, não cobertura de todas as chaves. Sete canônicos históricos/datas preservados; bloqueio AP permanece. Servidor próprio 3102 encerrado. Sem novo deploy manual, serviço, gasto, variável, conta, CI com escrita ou alteração de cadência.
+
 ## Conexoes
+- [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
+
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
 
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.

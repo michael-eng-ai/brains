@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Checks locais e CI sem confundir fixtures com dados reais."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 ---
 
 # Validacao
@@ -312,7 +312,15 @@ HTTP público 2026-11-19T18:55:34.331478+00:00: EN/PT/ES 200, dpl exato, Article
 
 MCP Vercel 403; painel existente autenticado na aba vinculada verificou Ready/Production/main e SHA completo. Nenhuma credencial/permissão modificada. Servidor próprio 3102 encerrado; [[release-status]].
 
+## Focus: validação de 23 novembro
+
+Head cac1fcebe836dd48fca52119dfd6a9e6c0d78eaf: check passou lint/tipos/101 unidades/history/build/HTTP; 11 importações e 37 Chromium passaram. Seis leituras EN/PT/ES em 390/1280 px e espanhol sem JavaScript verificaram oito parágrafos, quatro fontes, metadata, Economy/busca, teclado, índice/citações, idioma e câmbio/Back. Quatro capturas inspecionadas legíveis. Testes usam fixtures apenas no destino FX/depth, não como prova de fornecedor.
+
+Roteiro temporário inicialmente falhou por seletor com dois links e 503 criado pelo próprio mock; corrigido sem alteração do produto. Rodadas finais local/pública sem erros de aplicação/console/overflow/overlays/Trends. Leitura pública terminou 12:50:14.660Z. HTTP direto usou certifi já instalado após erro de CA local do Python, mantendo TLS validado. Browser plugin indisponível; Playwright do repositório utilizado. WebKit/Safari/carga/revisão humana não repetidos nesta edição. Sete JSON históricos retêm hashes e mtimes. Recibos remotos e limite Ready em [[release-status]].
+
 ## Conexoes
+- [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
+
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
 
 - [[2026-11-19-davis-editorial-release]] - Copa Davis: confrontos, duplas e horários publicados e verificados.
