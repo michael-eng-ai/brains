@@ -3,7 +3,7 @@ tipo: sessao
 projeto: global-live-data
 resumo: "TSE bloqueado nos recortes AP; versão publicada preservada e conferida."
 tags: [global-live-data, sessao, eleicoes, qualidade, retencao]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 data: "2026-11-17"
 ia: codex
 maquina: macos
@@ -47,6 +47,8 @@ Rechecagem de 19 novembro, 06:32 UTC: uma chamada, saída 1 e mesmo blocked AP. 
 Rechecagem de 19 novembro, 12:33 UTC: uma chamada, saída 1 e mesmo blocked AP. Sete JSON/datas e candidato antigo intactos, lock/staging da rodada limpos; exports 2026/2022 iguais aos canônicos às 12:35:02 UTC. Main/origin limpas 9aa80f12abf473de3020d358d0b5100079648285, branch vazia removida. Sem release, suites repetidas ou nova captura. Nenhuma novidade acionável; [[brazil-election-comparison]].
 
 Rechecagem de 19 novembro, 18:34 UTC: uma chamada, saída 1 e mesmo blocked AP. Sete JSON/datas e candidato antigo intactos, lock/staging da rodada limpos; exports 2026/2022 iguais aos canônicos às 18:34:46 UTC. Main/origin limpas adc25af6f2e7cfa0b68f7ea54b18a5565cee8951, branch vazia removida. Sem release, suites repetidas ou nova captura; nenhuma novidade acionável. [[brazil-election-comparison]].
+
+Rechecagem de 23 novembro, 12:26 UTC: uma chamada, saída 1 e mesmo blocked AP. Sete JSON/datas e candidato antigo intactos, lock/staging da rodada limpos; exports 2026/2022 iguais aos canônicos às 12:27:26 UTC. Main/origin limpas e2ff5e889737e38d3e652895d14406fc73d1b5fe, branch vazia removida. Sem release, suites repetidas ou nova captura; nenhuma novidade acionável. [[brazil-election-comparison]].
 
 ## Conexoes
 - [[2026-11-17-las-vegas-security-release]] - Guia Las Vegas e patch Next publicados com CI e Production verificados.

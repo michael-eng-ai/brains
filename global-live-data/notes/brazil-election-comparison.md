@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -226,6 +226,14 @@ Main limpa/atualizada adc25af6f2e7cfa0b68f7ea54b18a5565cee8951; branch temporár
 Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado, staging da rodada removido e duas pastas antigas preservadas. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-19T18:34:46.041032+00:00, normalizando apenas ordem de recortes/partidos, inclusive proveniência e datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos, RO e AP publicados preservados.
 
 Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, alteração de captura publicada, repetição de suites ou UI; código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável. Evidências locais /tmp/gld-tse-20261119-1833-*. Próxima tentativa somente na cadência existente. [[2026-11-17-tse-ap-retention-blocked]].
+
+## Rechecagem em 23 novembro, 12:26 UTC
+
+Main limpa/atualizada e2ff5e889737e38d3e652895d14406fc73d1b5fe; branch temporária codex/tse-refresh-20261123-1223. Uma única chamada history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, iniciou 2026-11-23T12:26:44.604324+00:00 e terminou 2026-11-23T12:26:55.257815+00:00, saída 1. Relatório blocked em 2026-11-23T12:26:55.230Z: razão integral idêntica à rodada anterior, recortes (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes após agregação. Não é changed=false. Guard/agregação revisados sem alteração; erro não distingue ausência de registros de divergência da soma partidária nem fornece totais, hashes ou identidades novos. Nenhum gate relaxado ou segunda captura.
+
+Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado, staging da rodada limpo e duas pastas antigas preservadas. Exports 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-23T12:27:26.264122+00:00, normalizando apenas ordem de recortes/partidos, inclusive proveniência/datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos, RO e AP publicados preservados.
+
+Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI, pois código/dados não mudaram. Mesmo bloqueio conhecido, sem novidade acionável. Evidências locais /tmp/gld-tse-20261123-1223-before.json, -exit.json, -refresh.log, -verification.json e -public.json. Próxima tentativa na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
 
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.

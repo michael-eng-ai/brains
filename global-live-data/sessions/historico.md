@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-19"
+atualizado: "2026-11-23"
 ---
 
 # Historico
@@ -253,6 +253,8 @@ atualizado: "2026-11-19"
 - 2026-11-19, TSE 18:34 UTC: uma captura, saída 1/blocked AP idêntico. Sete JSON/datas preservados, exports 2026/2022 iguais aos canônicos às 18:34:46 UTC; main limpa adc25af, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
 - 2026-11-19, editorial 18:38 UTC: PR #93 RSM Classic publicada; main e2ff5e889737e38d3e652895d14406fc73d1b5fe, dois jobs PR/main, Ready/SHA e EN/PT/ES verificados. [[2026-11-19-rsm-editorial-release]].
+
+- 2026-11-23, 12:26 UTC: única captura TSE saída 1/motivo AP idêntico; sete JSON/datas e candidato antigo preservados, lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 12:27:26 UTC. Main/origin limpas e2ff5e889737e38d3e652895d14406fc73d1b5fe; branch vazia removida, sem commit/PR/deploy ou repetição de testes. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
 ## Conexoes
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.
