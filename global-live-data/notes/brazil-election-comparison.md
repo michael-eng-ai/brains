@@ -235,6 +235,14 @@ Sete JSON canônicos e candidato antigo preservaram hashes/mtimes. Lock liberado
 
 Main/origin limpas no SHA acima; branch vazia removida. Nenhum commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI, pois código/dados não mudaram. Mesmo bloqueio conhecido, sem novidade acionável. Evidências locais /tmp/gld-tse-20261123-1223-before.json, -exit.json, -refresh.log, -verification.json e -public.json. Próxima tentativa na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem em 23 novembro, 18:20 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch temporária codex/tse-refresh-20261123-1819. Uma única chamada history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, iniciou 2026-11-23T18:20:42.414621+00:00 e terminou 2026-11-23T18:20:48.037198+00:00, saída 1. Relatório blocked em 2026-11-23T18:20:48.014Z: razão integral idêntica à rodada anterior, recortes (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes. Não é changed=false. Guard/agregação conferidos: o erro não distingue ausência de registros de divergência partidária nem registra novos totais, identidades ou hashes. Nenhuma causa atribuída, gate relaxado ou nova captura nesta rodada.
+
+Sete JSON canônicos e candidato antigo preservaram hashes/mtimes; lock liberado, staging próprio removido e duas pastas antigas preservadas. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-23T18:21:21.941026+00:00, normalizando somente ordem de recortes/partidos, inclusive proveniência/datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos e RO preservados; AP mantém 459.680/450.731 votos válidos publicados.
+
+Main/origin limpas no SHA acima; branch vazia removida. Sem commit/PR/deploy do produto ou repetição de testes/UI, pois código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável; pendência editorial da PR94 permanece separada. Recibos locais /tmp/gld-tse-20261123-1819-before.json, -run.json, -refresh.log e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.

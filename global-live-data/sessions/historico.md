@@ -258,6 +258,8 @@ atualizado: "2026-11-23"
 
 - 2026-11-23, editorial 12:30 UTC: PR94 Focus integrada, CI PR/main e público EN/PT/ES aprovados; confirmação direta Ready pendente por 403. [[2026-11-23-focus-editorial]].
 
+- 2026-11-23, TSE 18:20 UTC: uma chamada, saída 1/blocked AP idêntico; sete JSON/datas e candidato antigo preservados, lock/staging próprios limpos, exports 2026/2022 iguais aos canônicos às 18:21:21 UTC. Main/origin limpas 6a7a03d, sem release ou novidade acionável. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
