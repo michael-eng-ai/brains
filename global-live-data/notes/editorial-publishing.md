@@ -555,6 +555,12 @@ Pesquisa única Node 24 nos seis mercados, todos ready; BR boletim focus observa
 
 Distingue publicação de 23 novembro e referência de 19, mediana/média, janela de respondentes e decisão do Copom. Exemplo fictício e dias verificados independentemente em Python/Node. Sem números atuais de previsão, conselho de investimento, causalidade cambial ou provider novo. FAQ sem respostas não fundamentou o texto; nenhuma hora de widget foi utilizada. Recibo e pendência de Ready em [[release-status]].
 
+## Rechecagem de 23 novembro, 18:31 UTC: entrega anterior pendente
+
+Uma execução de editorial:research com Node 24 e US/BR/GB/ES/JP/IN; seis snapshots ready, dez consultas cada, observados entre 18:33:45.860Z e 18:33:48.877Z. Comparados 72 artigos. US ap top 25 basketball e IN nasa voyager 1 retomam temas já cobertos pelos guias NCAA e Voyager; IN inter miami football tem sobreposição potencial com MLS e exigiria ângulo novo. GB weather warning e JP 地震速報 熊本 são somente consultas, sem comprovação de alerta/evento nesta rodada. Não inferir fatos, causa ou gravidade a partir do Trends.
+
+Nenhuma nova pauta selecionada: prioridade é concluir a confirmação direta da entrega Focus, ainda bloqueada por acesso Vercel 403. Nenhuma nova apuração primária ou texto preparado nesta rodada, nem mudança de datas editoriais. Pesquisa em /tmp/gld-editorial-20261123-1831-research.json e .log; rechecagem pública e limite em [[release-status]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 

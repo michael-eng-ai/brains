@@ -32,6 +32,9 @@ MCP list/get 403; CLI sem credencial iniciou login e foi encerrada. Browser indi
 3. Se Ready/Production/SHA corresponderem, registre o recibo na PR/cérebro e confirme a entrega; investigue divergências.
 4. Preserve TSE/cadência/escopo, sincronize o cérebro e só depois retome pesquisa normal comparando 72 artigos.
 
+## Rechecagem 18:31 UTC
+Pesquisa única nos seis mercados ready; 72 artigos comparados, sem nova pauta enquanto esta entrega está pendente. Get Vercel ainda 403; inventário browser ausente e fallback nativo sem direcionamento confiável ao painel, interrompido. Público PT/EN/ES 200 com mesmo deployment ID/CSP às 18:36:20 UTC; [[release-status]]. Main/origin limpas no mesmo SHA; sem código/PR/deploy, suites ou ops repetidos. Não repetir controle nativo sem alvo confiável; não guardar conteúdo de janelas alheias no projeto.
+
 ## Conexoes
 - [[index]] - Mapa.
 - [[current]] - Estado.

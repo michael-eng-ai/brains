@@ -1006,6 +1006,12 @@ Limite obrigatório: Production/Ready/source SHA ainda não observados diretamen
 
 ops:check único de 12:49:51.120Z saiu 0: sete requests, nove feeds ready. É observação pontual, não cobertura de todas as chaves. Sete canônicos históricos/datas preservados; bloqueio AP permanece. Servidor próprio 3102 encerrado. Sem novo deploy manual, serviço, gasto, variável, conta, CI com escrita ou alteração de cadência.
 
+### Rechecagem da rodada editorial de 23 novembro, 18:31 UTC
+
+Main/origin continuam limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; PR94 permanece integrada. Get do deployment exato pelo conector continua 403. Inventário de browsers/tabs indisponível; fallback nativo devolveu outra janela ativa e não permitiu direcionamento confiável ao projeto. Tentativa interrompida sem evidência do painel; não considerar isso verificação Ready. Nenhuma nova credencial, configuração de conta ou solicitação repetida de consentimento.
+
+HTTP anônimo 2026-11-23T18:36:20.434195+00:00 confirmou três páginas 200, títulos/H1 nos respectivos idiomas, CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq. Recibo /tmp/gld-editorial-20261123-1831-public.json. Esta conferência complementar não substitui Production/Ready/source SHA. Sem mudança de código, nova PR, deploy ou repetição de suites/ops:check. Pendência já comunicada permanece igual; [[2026-11-23-focus-editorial]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
