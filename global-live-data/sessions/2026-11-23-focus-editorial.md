@@ -3,7 +3,7 @@ tipo: sessao
 projeto: global-live-data
 resumo: "Focus PT/EN/ES acessível; PR94 integrada e Ready pendente por 403."
 tags: [global-live-data, sessao, editorial, release]
-atualizado: "2026-11-23"
+atualizado: "2026-11-24"
 data: "2026-11-23"
 ia: codex
 maquina: macos
@@ -34,6 +34,9 @@ MCP list/get 403; CLI sem credencial iniciou login e foi encerrada. Browser indi
 
 ## Rechecagem 18:31 UTC
 Pesquisa única nos seis mercados ready; 72 artigos comparados, sem nova pauta enquanto esta entrega está pendente. Get Vercel ainda 403; inventário browser ausente e fallback nativo sem direcionamento confiável ao painel, interrompido. Público PT/EN/ES 200 com mesmo deployment ID/CSP às 18:36:20 UTC; [[release-status]]. Main/origin limpas no mesmo SHA; sem código/PR/deploy, suites ou ops repetidos. Não repetir controle nativo sem alvo confiável; não guardar conteúdo de janelas alheias no projeto.
+
+## Rechecagem de 24 novembro, 05:01 UTC
+Pesquisa única saiu 0, seis mercados ready, 72 artigos; nenhuma nova pauta. PR94 e main limpas confirmadas no mesmo SHA. Sem resposta nova de acesso, não repetidos conector/CLI/fallback nativo. Após timeout Python, curl confirmou PT/EN/ES 200, idiomas/canonicals/CSP e mesmo deployment ID às 05:47:37 UTC; correção apenas do parser de atributos do roteiro. Sete históricos/datas intactos; sem release ou suites novas. Recibos e limites em [[release-status]].
 
 ## Conexoes
 - [[index]] - Mapa.

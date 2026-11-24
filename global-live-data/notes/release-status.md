@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-23"
+atualizado: "2026-11-24"
 ---
 
 # Estado da entrega
@@ -1011,6 +1011,14 @@ ops:check único de 12:49:51.120Z saiu 0: sete requests, nove feeds ready. É ob
 Main/origin continuam limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; PR94 permanece integrada. Get do deployment exato pelo conector continua 403. Inventário de browsers/tabs indisponível; fallback nativo devolveu outra janela ativa e não permitiu direcionamento confiável ao projeto. Tentativa interrompida sem evidência do painel; não considerar isso verificação Ready. Nenhuma nova credencial, configuração de conta ou solicitação repetida de consentimento.
 
 HTTP anônimo 2026-11-23T18:36:20.434195+00:00 confirmou três páginas 200, títulos/H1 nos respectivos idiomas, CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq. Recibo /tmp/gld-editorial-20261123-1831-public.json. Esta conferência complementar não substitui Production/Ready/source SHA. Sem mudança de código, nova PR, deploy ou repetição de suites/ops:check. Pendência já comunicada permanece igual; [[2026-11-23-focus-editorial]].
+
+### Rechecagem editorial em 24 novembro, rodada 05:01 UTC
+
+Main/origin limpas no mesmo 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; consulta GitHub confirmou PR94 integrada e corpo ainda com confirmação direta Ready pendente. Não houve resposta nova à solicitação de acesso. O 403 é evidência da rodada anterior: MCP/CLI/fallback nativo não foram repetidos sem sinal de mudança. Nenhum novo consentimento, credencial, configuração ou deploy.
+
+Probe Python encontrou timeout de leitura e não produziu recibo completo. Uma rechecagem limitada com curl, mantendo TLS, retornou PT/EN/ES 200 em 2026-11-24T05:47:37.778993+00:00, títulos/H1, idiomas, canonicals, CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq correspondentes. Checagem de lang inicialmente assumia ordem dos atributos; corrigida no roteiro para usar HTMLParser e reavaliar os corpos já obtidos, sem nova requisição nem alteração do produto. Não há evidência de falha pública persistente. Recibo /tmp/gld-editorial-20261124-0501-public.json.
+
+Sete JSON históricos preservaram hashes/mtimes. Nenhuma edição nova, branch, commit/PR/deploy do produto ou repetição de suites/UI/ops:check. A checagem pública não substitui o gate direto ainda pendente. Registro de pesquisa em [[editorial-publishing]]; [[2026-11-23-focus-editorial]].
 
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.

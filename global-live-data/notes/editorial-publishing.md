@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-23"
+atualizado: "2026-11-24"
 ---
 
 # Publicacao editorial
@@ -560,6 +560,12 @@ Distingue publicação de 23 novembro e referência de 19, mediana/média, janel
 Uma execução de editorial:research com Node 24 e US/BR/GB/ES/JP/IN; seis snapshots ready, dez consultas cada, observados entre 18:33:45.860Z e 18:33:48.877Z. Comparados 72 artigos. US ap top 25 basketball e IN nasa voyager 1 retomam temas já cobertos pelos guias NCAA e Voyager; IN inter miami football tem sobreposição potencial com MLS e exigiria ângulo novo. GB weather warning e JP 地震速報 熊本 são somente consultas, sem comprovação de alerta/evento nesta rodada. Não inferir fatos, causa ou gravidade a partir do Trends.
 
 Nenhuma nova pauta selecionada: prioridade é concluir a confirmação direta da entrega Focus, ainda bloqueada por acesso Vercel 403. Nenhuma nova apuração primária ou texto preparado nesta rodada, nem mudança de datas editoriais. Pesquisa em /tmp/gld-editorial-20261123-1831-research.json e .log; rechecagem pública e limite em [[release-status]].
+
+## Rodada de 24 novembro, 05:01 UTC: confirmação anterior ainda pendente
+
+Uma execução de editorial:research em Node 24.22.1 saiu 0 entre 05:13:40.814374 e 05:13:45.064195 UTC. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 05:13:42.332Z a 05:13:45.040Z. Comparados os 72 artigos existentes. GB rockstar games gta vi e BR liga dos campeões/GB champions league têm guias existentes; partidas NBA também exigiriam ângulo novo diante dos artigos de súmula e disponibilidade. GB volcanic eruption e IN nepal earthquake today são apenas consultas, sem confirmação de ocorrência ou gravidade nesta rodada.
+
+Nenhuma pauta selecionada ou texto preparado: permanece a entrega Focus sem observação direta Production/Ready/source SHA. Sem apuração primária nova nem mudança das datas editoriais. Não repetir tentativas de acesso idênticas ou publicar outra edição antes de concluir essa entrega. Recibos /tmp/gld-editorial-20261124-0501-research.json, -research.log e -receipt.json; verificação pública em [[release-status]].
 
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
