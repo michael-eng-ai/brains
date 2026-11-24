@@ -251,6 +251,14 @@ Sete JSON canônicos e candidato antigo mantiveram hashes/mtimes. Lock liberado;
 
 Branch vazia removida; main/origin limpas no SHA acima. Sem commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI/CI/Ready, pois código/dados não mudaram. Mesma falha conhecida sem novidade acionável. PR94 editorial e sua confirmação Ready pendente permanecem separadas. Recibos locais /tmp/gld-tse-20261124-0040-before.json, -run.json, -refresh.log, -verification.json e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem em 24 novembro, 06:46 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch temporária codex/tse-refresh-20261124-0645. Uma execução history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, de 2026-11-24T06:46:42.281165+00:00 a 2026-11-24T06:46:47.210583+00:00, saída 1. Relatório blocked em 2026-11-24T06:46:47.200Z; razão integral idêntica à captura anterior: (6, AP, 1) e (7, AP, 1) previamente publicados ausentes ou inconsistentes após agregação. Não é changed=false. O relatório não fornece novos totais/identidades/hashes nem distingue ausência de registros de soma partidária divergente; causa continua não estabelecida, sem relaxar gates ou repetir download.
+
+Sete JSON canônicos e candidato antigo mantiveram hashes/mtimes; lock liberado, staging próprio removido e duas pastas antigas preservadas. Exports públicos via curl com TLS válido retornaram HTTP200 e igualdade semântica com os canônicos em 2026-11-24T06:47:17.055802+00:00, ordenando somente recortes/partidos e incluindo toda a proveniência/datas. 2026/2022 mantêm 170/176 recortes e 1997/2217 agregados, ambos turnos, RO e AP publicados. AP conserva 459.680/450.731 votos válidos e RO 932.939/942.021.
+
+Branch vazia removida; main/origin limpas no mesmo SHA. Sem commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI/CI/Ready porque código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável; editorial/PR94 permanecem separados. Recibos /tmp/gld-tse-20261124-0645-before.json, -run.json, -refresh.log, -verification.json e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
