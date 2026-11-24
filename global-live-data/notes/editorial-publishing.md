@@ -573,6 +573,12 @@ Uma execução de editorial:research com Node 24.22.1, de 2026-11-24T12:01:30.64
 
 Nenhuma nova pauta selecionada ou apuração primária iniciada enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem novo texto, mudança de datas editoriais ou criação de branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-1102-research.json, -research.log e -receipt.json. Verificação pública em [[release-status]].
 
+## Rodada de 24 novembro, 16:58 UTC: entrega anterior pendente
+
+Uma execução de editorial:research em Node 24.22.1, de 2026-11-24T16:59:37.041264+00:00 a 16:59:42.130989+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada; observações de 16:59:39.010Z a 16:59:42.109Z. Comparados 72 artigos. BR/ES Champions League e GB Davis Cup retomam assuntos com guias existentes; novas partidas ou resultados exigiriam apuração distinta. A consulta genérica mundial sub 17 não identifica por si só a competição e não foi confundida com o guia feminino existente. US playstation plus é apenas uma possibilidade não apurada; Trends não prova anúncios, incidentes ou alegações sobre pessoas.
+
+Nenhuma pauta selecionada nem apuração primária iniciada: a entrega Focus ainda aguarda confirmação direta Production/Ready/source SHA. Sem texto novo, alteração de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-1658-research.json, -research.log e -receipt.json. Conferência pública em [[release-status]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 

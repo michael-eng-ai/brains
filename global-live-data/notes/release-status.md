@@ -1026,6 +1026,12 @@ Main/origin atualizadas e limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. A 
 
 Em 2026-11-24T12:01:31.520756+00:00, curl com TLS válido confirmou PT/EN/ES HTTP200, títulos/H1, idiomas, canonicals, CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq correspondentes. Sete JSON históricos mantiveram bytes/mtimes; árvore do produto limpa. Recibo /tmp/gld-editorial-20261124-1102-public.json. Nenhum erro nessa conferência, nova publicação ou repetição de suites/UI/ops:check. A confirmação pública não substitui o gate direto pendente; [[2026-11-23-focus-editorial]], [[editorial-publishing]].
 
+### Rechecagem editorial em 24 novembro, rodada 16:58 UTC
+
+Main/origin limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. Confirmação direta Production/Ready/source SHA da PR94 segue pendente conforme o último recibo, sem resposta nova à solicitação de acesso. Não repetidos MCP/CLI/fallback nativo, nem criada nova credencial, solicitação ou publicação. O 403 não foi consultado novamente nesta rodada.
+
+Curl com TLS válido confirmou PT/EN/ES HTTP200 em 2026-11-24T17:00:10.334485+00:00, H1 e idiomas correspondentes, títulos presentes, canonicals/CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq iguais ao recibo anterior. Sete JSON históricos mantiveram hashes/mtimes; árvore do produto limpa. Recibo /tmp/gld-editorial-20261124-1658-public.json. Sem repetição de suites/UI/ops:check; HTTP público não substitui o gate direto pendente. [[2026-11-23-focus-editorial]], [[editorial-publishing]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
