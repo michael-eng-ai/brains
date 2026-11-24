@@ -579,6 +579,12 @@ Uma execução de editorial:research em Node 24.22.1, de 2026-11-24T16:59:37.041
 
 Nenhuma pauta selecionada nem apuração primária iniciada: a entrega Focus ainda aguarda confirmação direta Production/Ready/source SHA. Sem texto novo, alteração de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-1658-research.json, -research.log e -receipt.json. Conferência pública em [[release-status]].
 
+## Rodada de 24 novembro, 23:17 UTC: entrega anterior pendente
+
+Uma execução de editorial:research, Node v24.22.1, de 2026-11-24T23:18:41.020544+00:00 a 2026-11-24T23:18:46.232084+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 23:18:43.028Z a 23:18:46.206Z; 72 artigos comparados. Consultas US de partidas de basquete têm sobreposição potencial com os guias de súmula NBA/rankings NCAA, sem comprovar resultados. GB zimbabwe é ambígua e não foi associada automaticamente aos guias de críquete existentes. BR corrente de retorno e JP lidar poderiam exigir ângulos próprios e fontes primárias, não apuradas nesta rodada. Consultas políticas, policiais e de saúde não viraram alegações factuais.
+
+Nenhuma pauta selecionada ou texto preparado enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem apuração primária nova, mudanças de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-2317-research.json, -research.log e -receipt.json; conferência pública em [[release-status]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
