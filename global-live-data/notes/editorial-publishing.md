@@ -567,6 +567,12 @@ Uma execução de editorial:research em Node 24.22.1 saiu 0 entre 05:13:40.81437
 
 Nenhuma pauta selecionada ou texto preparado: permanece a entrega Focus sem observação direta Production/Ready/source SHA. Sem apuração primária nova nem mudança das datas editoriais. Não repetir tentativas de acesso idênticas ou publicar outra edição antes de concluir essa entrega. Recibos /tmp/gld-editorial-20261124-0501-research.json, -research.log e -receipt.json; verificação pública em [[release-status]].
 
+## Rodada de 24 novembro, 11:02 UTC: entrega anterior pendente
+
+Uma execução de editorial:research com Node 24.22.1, de 2026-11-24T12:01:30.643843+00:00 a 12:01:34.681771+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada; observações de 12:01:32.468Z a 12:01:34.666Z. Comparados 72 artigos. US storm watch e GB champions league fixtures já têm guias; home depot black friday teria sobreposição potencial com a leitura existente sobre ofertas e exigiria ângulo/apuração novos. Consultas sobre saúde, leis e rumores não foram transformadas em alegações nem pautas automáticas.
+
+Nenhuma nova pauta selecionada ou apuração primária iniciada enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem novo texto, mudança de datas editoriais ou criação de branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-1102-research.json, -research.log e -receipt.json. Verificação pública em [[release-status]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 

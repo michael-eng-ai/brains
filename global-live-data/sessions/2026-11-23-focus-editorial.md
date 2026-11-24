@@ -38,6 +38,9 @@ Pesquisa única nos seis mercados ready; 72 artigos comparados, sem nova pauta e
 ## Rechecagem de 24 novembro, 05:01 UTC
 Pesquisa única saiu 0, seis mercados ready, 72 artigos; nenhuma nova pauta. PR94 e main limpas confirmadas no mesmo SHA. Sem resposta nova de acesso, não repetidos conector/CLI/fallback nativo. Após timeout Python, curl confirmou PT/EN/ES 200, idiomas/canonicals/CSP e mesmo deployment ID às 05:47:37 UTC; correção apenas do parser de atributos do roteiro. Sete históricos/datas intactos; sem release ou suites novas. Recibos e limites em [[release-status]].
 
+## Rodada de 24 novembro, 11:02 UTC
+Pesquisa única executada 12:01 UTC: saída 0, seis mercados ready, 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem novo sinal de acesso, não repetidos MCP/CLI/fallback. PT/EN/ES 200, idiomas/canonicals/CSP e mesmo deployment ID às 12:01:31 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; [[release-status]].
+
 ## Conexoes
 - [[index]] - Mapa.
 - [[current]] - Estado.

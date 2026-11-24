@@ -1020,6 +1020,12 @@ Probe Python encontrou timeout de leitura e não produziu recibo completo. Uma r
 
 Sete JSON históricos preservaram hashes/mtimes. Nenhuma edição nova, branch, commit/PR/deploy do produto ou repetição de suites/UI/ops:check. A checagem pública não substitui o gate direto ainda pendente. Registro de pesquisa em [[editorial-publishing]]; [[2026-11-23-focus-editorial]].
 
+### Rechecagem editorial em 24 novembro, rodada 11:02 UTC
+
+Main/origin atualizadas e limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. A confirmação direta Production/Ready/source SHA da PR94 continua pendente conforme o último recibo; sem resposta nova à solicitação de acesso. MCP/CLI/fallback nativo não foram repetidos sem mudança conhecida. Não interpretar essa ausência de nova tentativa como novo resultado 403.
+
+Em 2026-11-24T12:01:31.520756+00:00, curl com TLS válido confirmou PT/EN/ES HTTP200, títulos/H1, idiomas, canonicals, CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq correspondentes. Sete JSON históricos mantiveram bytes/mtimes; árvore do produto limpa. Recibo /tmp/gld-editorial-20261124-1102-public.json. Nenhum erro nessa conferência, nova publicação ou repetição de suites/UI/ops:check. A confirmação pública não substitui o gate direto pendente; [[2026-11-23-focus-editorial]], [[editorial-publishing]].
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
