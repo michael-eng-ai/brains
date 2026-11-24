@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-11-23"
+atualizado: "2026-11-24"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -242,6 +242,14 @@ Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch temporár
 Sete JSON canônicos e candidato antigo preservaram hashes/mtimes; lock liberado, staging próprio removido e duas pastas antigas preservadas. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-23T18:21:21.941026+00:00, normalizando somente ordem de recortes/partidos, inclusive proveniência/datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos e RO preservados; AP mantém 459.680/450.731 votos válidos publicados.
 
 Main/origin limpas no SHA acima; branch vazia removida. Sem commit/PR/deploy do produto ou repetição de testes/UI, pois código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável; pendência editorial da PR94 permanece separada. Recibos locais /tmp/gld-tse-20261123-1819-before.json, -run.json, -refresh.log e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
+
+## Rechecagem em 24 novembro, 00:43 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch temporária codex/tse-refresh-20261124-0040. Uma única execução history:refresh:tse -- --apply, Node 24.22.1/Python 3.12.4, de 2026-11-24T00:43:06.318261+00:00 a 2026-11-24T00:43:12.032985+00:00, saída 1. Relatório blocked em 2026-11-24T00:43:12.022Z com razão integral idêntica à rodada anterior: (6, AP, 1) e (7, AP, 1) previamente publicados ausentes ou inconsistentes após agregação. Não é changed=false. Guard e construção do candidato conferidos; falha anterior à gravação não expõe novos totais, identidades ou hashes e não distingue ausência de registros de soma partidária divergente. Nenhuma causa inferida, gate relaxado ou nova captura.
+
+Sete JSON canônicos e candidato antigo mantiveram hashes/mtimes. Lock liberado; staging próprio removido e duas pastas antigas preservadas. Exports públicos 2026/2022 HTTP 200 e semanticamente iguais aos canônicos em 2026-11-24T00:44:36.806335+00:00, normalizando apenas a ordem de recortes/partidos, inclusive proveniência/datas: 170/176 recortes e 1997/2217 agregados. Ambos turnos e RO mantidos; AP conserva 459.680/450.731 votos válidos publicados e RO 932.939/942.021.
+
+Branch vazia removida; main/origin limpas no SHA acima. Sem commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI/CI/Ready, pois código/dados não mudaram. Mesma falha conhecida sem novidade acionável. PR94 editorial e sua confirmação Ready pendente permanecem separadas. Recibos locais /tmp/gld-tse-20261124-0040-before.json, -run.json, -refresh.log, -verification.json e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
 
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
