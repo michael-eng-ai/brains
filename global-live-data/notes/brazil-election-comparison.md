@@ -259,6 +259,12 @@ Sete JSON canônicos e candidato antigo mantiveram hashes/mtimes; lock liberado,
 
 Branch vazia removida; main/origin limpas no mesmo SHA. Sem commit/PR/deploy do produto, alteração de captura publicada ou repetição de suites/UI/CI/Ready porque código/dados não mudaram. Mesmo bloqueio conhecido sem novidade acionável; editorial/PR94 permanecem separados. Recibos /tmp/gld-tse-20261124-0645-before.json, -run.json, -refresh.log, -verification.json e -public.json. Próxima captura apenas na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem em 24 novembro, 12:42 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse-refresh-20261124-1241. Uma execução history:refresh:tse -- --apply em Node 24.22.1/Python 3.12.4, de 2026-11-24T12:42:23.331689+00:00 a 12:42:33.485422+00:00, saiu 1. Relatório blocked às 12:42:33.475Z com razão integral idêntica à captura anterior: (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes após agregação. Não é changed=false. Sem novos totais/identidades/hashes no erro; não inferir causa, distinguir ausência de divergência sem evidência, repetir aquisição ou flexibilizar gates.
+
+Sete JSON canônicos e candidato antigo mantiveram hashes/mtimes; lock liberado, staging próprio removido e duas pastas antigas preservadas. Curl com TLS válido confirmou exports 2026/2022 HTTP200 e semanticamente iguais aos canônicos, incluindo proveniência/datas e normalizando somente ordem dos recortes/partidos, em 2026-11-24T12:42:54.129581+00:00. Permanecem 170/176 recortes e 1997/2217 agregados, ambos turnos, RO e AP publicados. Branch vazia removida; main/origin limpas. Sem commit/PR/deploy do produto, mudança de captura publicada ou repetição de suites/UI/CI/Ready. Mesmo bloqueio conhecido sem novidade acionável; PR94 editorial separada. Recibos /tmp/gld-tse-20261124-1241-before.json, -run.json, -refresh.log, -verification.json e -public.json. Próxima captura na cadência existente; [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
