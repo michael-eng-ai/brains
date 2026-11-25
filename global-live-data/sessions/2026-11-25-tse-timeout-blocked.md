@@ -29,6 +29,9 @@ Recibos /tmp/gld-tse-20261125-0101-before.json, -run.json, -refresh.log, -verifi
 3. Preserve publicado em falha; não confunda candidato antigo com captura nova. Mudanças válidas exigem todos os testes, PR/CI e publicação verificada.
 4. Atualize o cérebro; mantenha frequência, gates e editorial separados.
 
+## Rechecagem posterior, 25 novembro 07:53 UTC
+A próxima captura autorizada chegou ao guard_candidate e terminou às 08:09 UTC com o bloqueio AP conhecido; ETIMEDOUT não se repetiu no relatório. Isso não estabelece a causa do timeout nem valida uma atualização. Versão publicada preservada e conferida às 08:32:02 UTC; detalhes em [[brazil-election-comparison]].
+
 ## Conexoes
 - [[index]] - Mapa.
 - [[current]] - Estado atual.

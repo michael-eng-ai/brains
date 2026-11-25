@@ -277,6 +277,12 @@ Branch codex/tse-refresh-20261125-0101 a partir de main 6a7a03d60717f3cb2b1db722
 
 Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas intactas. Sem processo de captura restante ou novo gld-tse no temporário consultado. Exports 2026/2022 HTTP200 e iguais aos canônicos, incluindo proveniência/datas, em 2026-11-25T02:47:41.806209+00:00; normalizada apenas a ordem dos recortes/partidos. 170/176 recortes e 1997/2217 agregados, ambos turnos, RO e AP publicados mantidos. Main/origin limpas, branch vazia removida; sem release ou suites/UI/CI/Ready repetidos. Recibos /tmp/gld-tse-20261125-0101-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-25-tse-timeout-blocked]].
 
+## Rechecagem de 25 novembro, 07:53 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3, branch codex/tse-refresh-20261125-0753. Uma execução history:refresh:tse -- --apply, Node v24.22.1/Python 3.12.4, de 2026-11-25T07:54:07.477663+00:00 a 2026-11-25T08:09:38.760470+00:00, saída 1. Relatório blocked às 2026-11-25T08:09:38.749Z chegou ao guard_candidate de retenção: (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes após agregação. Motivo integral idêntico ao recibo de 24 novembro 18:50; diferente do ETIMEDOUT da captura anterior. Não significa sucesso/changed=false ou causa determinada da inconsistência; sem nova identidade, hash ou total no relatório de erro.
+
+Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas preservadas. Curl com TLS válido confirmou exports 2026/2022 HTTP200 e igualdade semântica incluindo proveniência/datas em 2026-11-25T08:32:02.912919+00:00; normalizada apenas ordem dos recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Branch vazia removida, main/origin limpas; nenhum commit/PR/deploy do produto ou suite/UI/CI/Ready repetido. Sem nova ação necessária; não repetir aquisição nem alterar gates/timeouts. Recibos /tmp/gld-tse-20261125-0753-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]], [[2026-11-25-tse-timeout-blocked]].
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
 
