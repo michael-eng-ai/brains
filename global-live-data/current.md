@@ -8,13 +8,13 @@ atualizado: "2026-11-25"
 
 # Estado atual
 
-Último handoff: [[2026-11-17-tse-ap-retention-blocked]], captura de 25 novembro 13:58 UTC e público conferido às 13:59:13 UTC.
+Último handoff: [[2026-11-23-focus-editorial]], rodada de 25 novembro 18:31 UTC, conferida às 18:33:07 UTC.
 
 - Focus PT/EN/ES é o artigo 72; quatro referências BCB, exemplo fictício validado, Economy/câmbio existentes. [[editorial-publishing]].
 - PR94 integrada; main/origin 6a7a03d60717f3cb2b1db7226851aba6de5c70e3 limpas e árvore igual ao head. Ambos jobs PR/main passaram. Páginas públicas e data-dpl-id conferidos; falta confirmar diretamente Production/Ready/source SHA por acesso Vercel 403. Consentimento solicitado no chat; não criar outro artigo até resolver esta pendência de entrega. [[release-status]].
 - 101 unidades/lint/tipos/build/HTTP, 11 importações, 37 Chromium, seis leituras locais/três públicas e espanhol sem JS passaram. WebKit/Safari/carga/revisão humana não repetidos. [[validation-workflow]].
 - ops:check pontual 12:49:51 UTC: sete requests, nove feeds ready, saída 0. Não é garantia contínua. [[release-status]].
-- Editorial da rodada 25 novembro 12:32 UTC: pesquisa única às 12:34 UTC, saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; Ready direto da PR94 ainda pendente, sem resposta nova de acesso. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 12:34:57 UTC; sete históricos/datas intactos. Nenhuma pauta nova, código/PR/deploy ou suites repetidos; acessos bloqueados não repetidos. [[2026-11-23-focus-editorial]], [[release-status]].
+- Editorial da rodada 25 novembro 18:31 UTC: pesquisa única às 18:32 UTC, saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; Ready direto da PR94 ainda pendente, sem resposta nova de acesso. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 18:33:07 UTC; sete históricos/datas intactos. Nenhuma pauta nova, código/PR/deploy ou suites repetidos; acessos bloqueados não repetidos. [[2026-11-23-focus-editorial]], [[release-status]].
 - TSE em 25 novembro: captura única 13:58 UTC, saída 1/blocked pelo mesmo motivo AP federal/estadual, turno 1, da rodada anterior. Não é atualização válida nem changed=false. Sete JSON/datas e candidato antigo intactos; lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 13:59:13 UTC; ambos turnos, RO e 2022 mantidos. Main/origin limpas 6a7a03d60717f3cb2b1db7226851aba6de5c70e3, branch vazia removida; sem release/testes repetidos ou nova ação necessária. Próxima captura apenas na cadência existente. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 - Next/eslint-config-next 16.4.5 da PR86 preservados; auditoria/dependências não repetidas ou alteradas nesta edição. Domínio, piloto de nomes e NBA preparada/desativada seguem separados. [[launch-readiness]], [[brand-name-testing]], [[brasileirao-nba-feeds]].
 - Nenhum serviço, conta, gasto, chave, anúncio, analytics, permissão de CI, frequência ou escopo novo. Servidor próprio 3102 encerrado.

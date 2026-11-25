@@ -47,8 +47,8 @@ Pesquisa única às 16:59 UTC: saída 0, seis mercados ready e 72 artigos compar
 ## Rodada de 24 novembro, 23:17 UTC
 Pesquisa única às 23:18 UTC: saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem resposta nova de acesso, MCP/CLI/fallback não repetidos. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 23:19:01 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; recibos em [[release-status]] e triagem em [[editorial-publishing]].
 
-## Rodada mais recente, 25 novembro 12:32 UTC
-Pesquisa única às 12:34 UTC: saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem resposta nova de acesso, MCP/CLI/fallback não repetidos. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 12:34:57 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; recibos em [[release-status]] e triagem em [[editorial-publishing]].
+## Rodada mais recente, 25 novembro 18:31 UTC
+Pesquisa única às 18:32 UTC: saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem resposta nova de acesso, MCP/CLI/fallback não repetidos. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 18:33:07 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; recibos em [[release-status]] e triagem em [[editorial-publishing]].
 
 ## Conexoes
 - [[index]] - Mapa.
