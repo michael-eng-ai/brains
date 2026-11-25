@@ -280,6 +280,8 @@ atualizado: "2026-11-25"
 
 - 2026-11-25, TSE 01:03–01:18 UTC: captura única saiu 1/blocked por ETIMEDOUT, distinto do bloqueio AP anterior. Sete JSON/datas e candidato antigo preservados; lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 02:47:41 UTC; main/origin limpas 6a7a03d, sem release. [[2026-11-25-tse-timeout-blocked]].
 
+- 2026-11-25, editorial 06:28 UTC: pesquisa única às 06:31 UTC, saída 0, seis mercados ready e 72 artigos comparados. Nenhuma pauta nova enquanto Focus aguarda Ready direto; acessos inalterados não repetidos. PT/EN/ES 200 e mesmo deployment ID às 06:32:06 UTC; main limpa 6a7a03d, históricos/datas intactos. Sem nova publicação ou mudança acionável. [[2026-11-23-focus-editorial]].
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Captura expirada e preservação verificada.
 

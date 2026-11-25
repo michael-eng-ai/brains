@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-24"
+atualizado: "2026-11-25"
 ---
 
 # Publicacao editorial
@@ -584,6 +584,12 @@ Nenhuma pauta selecionada nem apuração primária iniciada: a entrega Focus ain
 Uma execução de editorial:research, Node v24.22.1, de 2026-11-24T23:18:41.020544+00:00 a 2026-11-24T23:18:46.232084+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 23:18:43.028Z a 23:18:46.206Z; 72 artigos comparados. Consultas US de partidas de basquete têm sobreposição potencial com os guias de súmula NBA/rankings NCAA, sem comprovar resultados. GB zimbabwe é ambígua e não foi associada automaticamente aos guias de críquete existentes. BR corrente de retorno e JP lidar poderiam exigir ângulos próprios e fontes primárias, não apuradas nesta rodada. Consultas políticas, policiais e de saúde não viraram alegações factuais.
 
 Nenhuma pauta selecionada ou texto preparado enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem apuração primária nova, mudanças de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261124-2317-research.json, -research.log e -receipt.json; conferência pública em [[release-status]].
+
+## Rodada de 25 novembro, 06:28 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-25T06:31:30.406538+00:00 a 2026-11-25T06:31:34.561031+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 06:31:32.164Z a 06:31:34.534Z; comparados 72 artigos. US/GB Thanksgiving já tem guia de horários/câmbio. GTA VI e partidas de basquete exigiriam ângulo próprio diante dos guias de preload, súmula NBA e rankings NCAA; consultas não comprovam missões, lançamentos ou resultados. Buscas sobre reféns, política, saúde e preços não foram convertidas em fatos ou recomendações.
+
+Nenhuma pauta selecionada ou apuração primária iniciada enquanto falta confirmar diretamente Production/Ready/source SHA da entrega Focus. Nenhum texto novo, mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261125-0628-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. Timeout TSE permanece na rotina separada.
 
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.

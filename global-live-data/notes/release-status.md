@@ -3,7 +3,7 @@ tipo: "conceito"
 projeto: "global-live-data"
 resumo: "Evidencias de merge, CI e publicacao Vercel."
 tags: ["global-live-data", "conceito"]
-atualizado: "2026-11-24"
+atualizado: "2026-11-25"
 ---
 
 # Estado da entrega
@@ -1037,6 +1037,12 @@ Curl com TLS válido confirmou PT/EN/ES HTTP200 em 2026-11-24T17:00:10.334485+00
 Main/origin atualizadas e limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. Sem resposta nova à solicitação de acesso, continua pendente o recibo direto Production/Ready/source SHA da PR94. Não repetidos MCP/CLI/fallback nativo; nenhum novo resultado 403, consentimento, credencial ou deploy.
 
 Curl com TLS válido confirmou PT/EN/ES HTTP200 em 2026-11-24T23:19:01.564684+00:00, H1/idiomas correspondentes, títulos presentes, canonicals/CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq iguais ao recibo anterior. Sete JSON históricos mantiveram hashes/mtimes; árvore do produto limpa. Recibo /tmp/gld-editorial-20261124-2317-public.json. Não repetidos suites/UI/ops:check; a resposta pública não substitui a confirmação direta pendente. [[2026-11-23-focus-editorial]], [[editorial-publishing]].
+
+### Rechecagem editorial em 25 novembro, rodada 06:28 UTC
+
+Main/origin atualizadas e limpas em 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. Sem resposta nova à solicitação de acesso, confirmação direta Production/Ready/source SHA da PR94 continua pendente. MCP/CLI/fallback nativo não repetidos; nenhum novo 403, consentimento, credencial ou deploy.
+
+Curl com TLS válido confirmou PT/EN/ES HTTP200 em 2026-11-25T06:32:06.126006+00:00, H1/idiomas correspondentes, títulos presentes, canonicals/CSP e dpl_9iy9ofzrba7ura2YCidbiXq2jRHq iguais ao recibo anterior. Sete JSON históricos mantiveram hashes/mtimes; árvore do produto limpa. Recibo /tmp/gld-editorial-20261125-0628-public.json. Suites/UI/ops:check não repetidos; resposta pública não substitui confirmação direta. [[2026-11-23-focus-editorial]], [[editorial-publishing]].
 
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.

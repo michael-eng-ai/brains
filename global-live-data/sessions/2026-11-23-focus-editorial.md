@@ -3,7 +3,7 @@ tipo: sessao
 projeto: global-live-data
 resumo: "Focus PT/EN/ES acessível; PR94 integrada e Ready pendente por 403."
 tags: [global-live-data, sessao, editorial, release]
-atualizado: "2026-11-24"
+atualizado: "2026-11-25"
 data: "2026-11-23"
 ia: codex
 maquina: macos
@@ -46,6 +46,9 @@ Pesquisa única às 16:59 UTC: saída 0, seis mercados ready e 72 artigos compar
 
 ## Rodada de 24 novembro, 23:17 UTC
 Pesquisa única às 23:18 UTC: saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem resposta nova de acesso, MCP/CLI/fallback não repetidos. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 23:19:01 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; recibos em [[release-status]] e triagem em [[editorial-publishing]].
+
+## Rodada de 25 novembro, 06:28 UTC
+Pesquisa única às 06:31 UTC: saída 0, seis mercados ready e 72 artigos comparados. Main/origin limpas no mesmo SHA; nenhuma pauta nova enquanto Ready direto está pendente. Sem resposta nova de acesso, MCP/CLI/fallback não repetidos. PT/EN/ES 200, idiomas/H1/canonicals/CSP e mesmo deployment ID às 06:32:06 UTC; sete históricos/datas intactos. Sem código/PR/deploy/suites novos; recibos em [[release-status]] e triagem em [[editorial-publishing]].
 
 ## Conexoes
 - [[index]] - Mapa.
