@@ -284,6 +284,8 @@ atualizado: "2026-11-25"
 
 - 2026-11-25, TSE 07:54–08:09 UTC: captura única, saída 1/blocked pelo motivo AP conhecido, sem ETIMEDOUT no relatório. Sete JSON/datas e candidato antigo intactos, lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 08:32:02 UTC; main/origin limpas 6a7a03d, branch vazia removida. Sem release, suites repetidas ou nova ação necessária. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
 
+- 2026-11-25, editorial 12:32 UTC: pesquisa única às 12:34 UTC, saída 0, seis mercados ready e 72 artigos comparados. Nenhuma pauta nova enquanto Focus aguarda Ready direto; acessos inalterados não repetidos. PT/EN/ES 200 e mesmo deployment ID às 12:34:57 UTC; main limpa 6a7a03d, históricos/datas intactos. Sem nova publicação ou mudança acionável. [[2026-11-23-focus-editorial]].
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Captura expirada e preservação verificada.
 

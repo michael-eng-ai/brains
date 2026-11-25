@@ -591,6 +591,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-25T06:31:30.406538+
 
 Nenhuma pauta selecionada ou apuração primária iniciada enquanto falta confirmar diretamente Production/Ready/source SHA da entrega Focus. Nenhum texto novo, mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261125-0628-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. Timeout TSE permanece na rotina separada.
 
+## Rodada de 25 novembro, 12:32 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-25T12:34:26.170907+00:00 a 2026-11-25T12:34:30.376176+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 12:34:27.806Z a 12:34:30.354Z; comparados 72 artigos. BR thanksgiving e elnino retomam guias existentes. US bangladesh vs south africa e football games today exigiriam ângulo próprio e apuração, sem inferir resultados das buscas. US pce report é somente possibilidade não apurada. Consultas de alertas, política, justiça e hipotecas não foram convertidas em fatos ou recomendações.
+
+Nenhuma nova pauta selecionada, apuração primária ou texto preparado enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem alterações de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261125-1232-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece na rotina separada.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
