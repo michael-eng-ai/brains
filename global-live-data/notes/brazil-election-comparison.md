@@ -289,6 +289,12 @@ Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse
 
 Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas intactas. Exports 2026/2022 HTTP200 e iguais aos canônicos, incluindo proveniência/datas, em 2026-11-25T13:59:13.860338+00:00; normalizada somente ordem de recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos, RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem nova aquisição nesta rodada. Recibos /tmp/gld-tse-20261125-1357-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem de 25 novembro, 19:58 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse-refresh-20261125-1958. Uma execução history:refresh:tse -- --apply com Node v24.22.1/Python 3.12.4, de 2026-11-25T19:59:42.057525+00:00 a 2026-11-25T19:59:52.431557+00:00, saída 1. Relatório blocked às 2026-11-25T19:59:52.420Z: motivo integralmente idêntico ao anterior, (6, AP, 1) e (7, AP, 1) ausentes ou inconsistentes no guard_candidate. Mesmo limite diagnóstico já revisto: erro não distingue ausência de remoção por soma divergente. Sem novos totais, hashes, identidade ou causa estabelecidos; não é changed=false.
+
+Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas intactas. Exports 2026/2022 HTTP200 e iguais aos canônicos, incluindo proveniência/datas, em 2026-11-25T20:00:22.482939+00:00; normalizada somente ordem de recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem nova aquisição nesta rodada. Recibos /tmp/gld-tse-20261125-1958-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
 
