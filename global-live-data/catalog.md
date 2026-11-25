@@ -3,7 +3,7 @@ tipo: catalogo
 projeto: global-live-data
 resumo: Catalogo gerado por graph.sh. Uma linha por nota. Nao editar a mao.
 tags: [global-live-data, catalogo]
-atualizado: 2026-11-24
+atualizado: 2026-11-25
 ---
 
 # Catalogo: global-live-data
@@ -14,7 +14,7 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | --- | --- | --- | --- | --- | --- |
 | [[AGENTS]] (AGENTS.md) | "regras" | "Regras de retomada e limites que precisam sobreviver entre sessoes." | ["global-live-data", "regras"] | 9 | 10 |
 | [[architecture]] (architecture.md) | "arquitetura" | "Mapa dos componentes e fronteiras do servidor." | ["global-live-data", "arquitetura"] | 10 | 10 |
-| [[current]] (current.md) | estado | "TSE mantém bloqueio AP; dados preservados. Focus aguarda Ready direto." | [global-live-data, estado, eleicoes, release, editorial] | 151 | 153 |
+| [[current]] (current.md) | estado | "Captura TSE expirou sem alterar dados; Focus aguarda Ready direto." | [global-live-data, estado, eleicoes, release, editorial] | 152 | 154 |
 | [[2026-10-15-authorize-publication]] (decisions/2026-10-15-authorize-publication.md) | "decisao" | "Autorizacao explicita de integrar PR #3, publicar e atualizar o cerebro." | ["global-live-data", "decisao"] | 6 | 6 |
 | [[2026-10-15-defer-publication]] (decisions/2026-10-15-defer-publication.md) | "decisao" | "Escolha historica de nao publicar; merge posterior observado nao autoriza deploy." | ["global-live-data", "decisao"] | 5 | 5 |
 | [[2026-10-15-football-fx-first]] (decisions/2026-10-15-football-fx-first.md) | "decisao" | "Futebol e cambio diario aprovados para testar fontes reais na previa local." | ["global-live-data", "decisao"] | 7 | 7 |
@@ -36,11 +36,11 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-10-19-repair-usgs-refresh]] (decisions/2026-10-19-repair-usgs-refresh.md) | decisao | "Corrigir o frescor USGS, testar, integrar e publicar por autorizacao explicita." | [global-live-data, decisao, usgs, cache] | 5 | 5 |
 | [[2026-10-20-publish-brasileirao-prepare-nba]] (decisions/2026-10-20-publish-brasileirao-prepare-nba.md) | decisao | "Publicar Brasileirao e deixar NBA preparada sem chave, conforme escolha explicita." | [global-live-data, produto, autorizacao] | 4 | 3 |
 | [[environment]] (environment.md) | "ambiente" | "Configuracao por nomes e comandos verificados, sem valores privados." | ["global-live-data", "ambiente"] | 12 | 12 |
-| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 180 | 181 |
+| [[index]] (index.md) | "moc" | "Mapa de conhecimento e entrada do projeto." | ["global-live-data", "moc"] | 181 | 182 |
 | [[api-data-adequacy]] (notes/api-data-adequacy.md) | conceito | "Adequacao dos dados: fontes atuais subaproveitadas, limites e prioridades propostas." | [global-live-data, dados, qualidade, produto] | 13 | 13 |
 | [[brand-name-testing]] (notes/brand-name-testing.md) | conceito | "Teste local PT/EN/ES preparado para dois nomes; sem participantes ou contratacao." | [global-live-data, conceito, pesquisa, lancamento] | 5 | 5 |
 | [[brasileirao-nba-feeds]] (notes/brasileirao-nba-feeds.md) | conceito | "Brasileirao publicado com SportScore; NBA preparada e desativada sem chave." | [global-live-data, esportes, fornecedores] | 10 | 10 |
-| [[brazil-election-comparison]] (notes/brazil-election-comparison.md) | conceito | "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE." | [global-live-data, eleicoes, historico, qualidade] | 25 | 24 |
+| [[brazil-election-comparison]] (notes/brazil-election-comparison.md) | conceito | "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE." | [global-live-data, eleicoes, historico, qualidade] | 26 | 25 |
 | [[category-research]] (notes/category-research.md) | "conceito" | "Pesquisa inicial de categorias e ponte para os feeds posteriormente publicados." | ["global-live-data", "conceito"] | 11 | 11 |
 | [[consolidation-audit]] (notes/consolidation-audit.md) | conceito | "Auditoria de consolidacao: contador 24h, documentacao, operacao e custos medidos." | [global-live-data, auditoria, operacao] | 13 | 13 |
 | [[curated-geography]] (notes/curated-geography.md) | "conceito" | "Catalogo limitado de 42 cidades e geometria do mapa." | ["global-live-data", "conceito"] | 3 | 3 |
@@ -178,7 +178,8 @@ Gerado por `graph.sh global-live-data catalog`. Use para decidir o que ler; abra
 | [[2026-11-19-thanksgiving-editorial-release]] (sessions/2026-11-19-thanksgiving-editorial-release.md) | sessao | "PR #91: Thanksgiving e câmbio PT/EN/ES publicados e verificados." | [global-live-data, sessao, editorial, economia, release] | 6 | 6 |
 | [[2026-11-19-voyager-editorial-release]] (sessions/2026-11-19-voyager-editorial-release.md) | sessao | "PR #90: guia Voyager PT/EN/ES publicado e verificado." | [global-live-data, sessao, editorial, astronomia, release] | 6 | 6 |
 | [[2026-11-23-focus-editorial]] (sessions/2026-11-23-focus-editorial.md) | sessao | "Focus PT/EN/ES acessível; PR94 integrada e Ready pendente por 403." | [global-live-data, sessao, editorial, release] | 6 | 6 |
-| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 115 | 116 |
+| [[2026-11-25-tse-timeout-blocked]] (sessions/2026-11-25-tse-timeout-blocked.md) | sessao | "Captura TSE expirou; 2026/2022 publicados preservados e conferidos." | [global-live-data, sessao, eleicoes, qualidade, operacao] | 4 | 4 |
+| [[historico]] (sessions/historico.md) | "historico" | "Linha do tempo com evidencias e limites das sessoes." | ["global-live-data", "historico"] | 116 | 117 |
 | [[harvest-inventory]] (sources/harvest-inventory.md) | "fonte" | "Fontes lidas, evidencias e lacunas da inicializacao." | ["global-live-data", "fonte"] | 3 | 3 |
 | [[repo-agents-original]] (sources/repo-agents-original.md) | "fonte" | "Copia da fonte AGENTS.md." | ["global-live-data", "fonte"] | 2 | 2 |
 | [[repo-architecture-original]] (sources/repo-architecture-original.md) | "fonte" | "Copia da fonte docs/ARCHITECTURE.md." | ["global-live-data", "fonte"] | 2 | 2 |

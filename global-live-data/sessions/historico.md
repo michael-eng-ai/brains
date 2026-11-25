@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-24"
+atualizado: "2026-11-25"
 ---
 
 # Historico
@@ -278,7 +278,11 @@ atualizado: "2026-11-24"
 
 - 2026-11-24, editorial 23:17 UTC: pesquisa única às 23:18 UTC, saída 0, seis mercados ready e 72 artigos comparados. Nenhuma pauta nova enquanto Focus aguarda Ready direto; acessos inalterados não repetidos. PT/EN/ES 200 e mesmo deployment ID às 23:19:01 UTC; main limpa 6a7a03d, históricos/datas intactos. Sem nova publicação ou mudança acionável. [[2026-11-23-focus-editorial]].
 
+- 2026-11-25, TSE 01:03–01:18 UTC: captura única saiu 1/blocked por ETIMEDOUT, distinto do bloqueio AP anterior. Sete JSON/datas e candidato antigo preservados; lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 02:47:41 UTC; main/origin limpas 6a7a03d, sem release. [[2026-11-25-tse-timeout-blocked]].
+
 ## Conexoes
+- [[2026-11-25-tse-timeout-blocked]] - Captura expirada e preservação verificada.
+
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
 - [[2026-11-19-rsm-editorial-release]] - RSM Classic: par, total acumulado e empates no corte publicados e verificados.

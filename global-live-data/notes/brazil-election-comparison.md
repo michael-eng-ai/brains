@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-11-24"
+atualizado: "2026-11-25"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -271,7 +271,15 @@ Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse
 
 Sete JSON/datas e candidato antigo mantiveram hashes/mtimes; lock e staging próprios removidos, duas pastas antigas preservadas. Em 2026-11-24T18:50:25.096917+00:00, curl com TLS válido confirmou exports 2026/2022 HTTP200 e igualdade semântica incluindo proveniência/datas, normalizando apenas ordem dos recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Branch vazia removida; main/origin limpas. Sem commit/PR/deploy do produto ou repetição de suites/UI/CI/Ready, porque código/dados não mudaram. Recibos /tmp/gld-tse-20261124-1849-before.json, -run.json, -refresh.log, -verification.json e -public.json. Mesmo bloqueio conhecido sem novidade acionável; próxima captura só na cadência existente, PR94 editorial separada. [[2026-11-17-tse-ap-retention-blocked]].
 
+## Captura de 25 novembro: timeout
+
+Branch codex/tse-refresh-20261125-0101 a partir de main 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; única execução --apply em Node v24.22.1/Python 3.12.4, 2026-11-25T01:03:11.229579+00:00 a 2026-11-25T01:18:43.148284+00:00, saída 1. Relatório blocked às 2026-11-25T01:18:43.135Z: spawnSync python3 ETIMEDOUT. Diferente da falha AP anterior: não há evidência nova de identidade/cobertura/reconciliação nem de recuperação de AP. Wrapper configura 480000 ms e rejeita erro antes de aplicar; causa e etapa do atraso não determinadas. Nenhuma segunda aquisição ou alteração de timeout/gates.
+
+Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas intactas. Sem processo de captura restante ou novo gld-tse no temporário consultado. Exports 2026/2022 HTTP200 e iguais aos canônicos, incluindo proveniência/datas, em 2026-11-25T02:47:41.806209+00:00; normalizada apenas a ordem dos recortes/partidos. 170/176 recortes e 1997/2217 agregados, ambos turnos, RO e AP publicados mantidos. Main/origin limpas, branch vazia removida; sem release ou suites/UI/CI/Ready repetidos. Recibos /tmp/gld-tse-20261125-0101-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-25-tse-timeout-blocked]].
+
 ## Conexoes
+- [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
+
 - [[2026-11-17-tse-ap-retention-blocked]] - Retenção AP bloqueou a captura; dados publicados preservados.
 - [[index]] - Entrada e catalogo.
 - [[current]] - Estado operacional.
