@@ -301,6 +301,16 @@ Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse
 
 Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock/staging próprios limpos, duas pastas antigas intactas. Exports 2026/2022 HTTP200 e iguais aos canônicos, incluindo proveniência/datas, em 2026-11-26T02:01:23.141052+00:00; normalizada somente ordem de recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem nova aquisição nesta rodada. Recibos /tmp/gld-tse-20261126-0200-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
 
+## Rechecagem de 26 novembro, 08:01 UTC
+
+Árvore limpa e main/origin conferidas no SHA 6a7a03d60717f3cb2b1db7226851aba6de5c70e3. Uma execução de `npm run history:refresh:tse -- --apply` na branch `codex/tse-refresh-20261126-0801`, Node v24.22.1/Python 3.12.4, de 2026-11-26T08:04:04.294018+00:00 a 2026-11-26T08:04:09.200460+00:00. Saída 1; relatório atual `blocked` em 2026-11-26T08:04:09.190Z, com motivo integralmente idêntico à rodada anterior: `Previously published selections lost or inconsistent: [(6, 'AP', 1), (7, 'AP', 1)]`. Não equivale a `changed: false`.
+
+A leitura do guard confirmou retenção bloqueada antes de criar/aplicar candidato: os recortes AP federal/estadual do turno 1 estão ausentes dos agregados reconciliados desta captura. O relatório não distingue ausência original de exclusão por divergência de soma nem registra novos hashes/identidades/totais; a causa externa não foi estabelecida. Nenhum download adicional após a falha, alteração de gate ou reaproveitamento do candidato antigo como resultado atual.
+
+Os sete JSON canônicos (incluindo manifesto) e o candidato ignorado anterior mantiveram SHA-256 e mtime. Lock próprio ausente; staging igual ao anterior, preservando diretórios preexistentes. Exports públicos 2026/2022 HTTP 200, comparados integralmente aos canônicos incluindo datas/proveniência às 2026-11-26T08:04:52.318953+00:00; somente ordem de arrays normalizada. Mantidos 170/1.997 e 176/2.217 recortes/linhas partidárias, respectivamente, ambos turnos. Em 2026, AP federal/estadual preservados em 459.680/450.731 válidos; RO em 932.939/942.021.
+
+Branch própria vazia removida, retorno à main limpa. Nenhum commit/PR/deploy de produto; importação/check/e2e/UI/CI/Ready não repetidos sem diff aplicável. PR94 editorial e sua pendência de acesso permanecem separadas. Sem nova ação necessária; próxima tentativa apenas na cadência existente. Recibos locais: `/tmp/gld-tse-20261126-0801-before.json`, `-run.json`, `-refresh.log`, `-verification.json` e `-public.json`.
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
 
