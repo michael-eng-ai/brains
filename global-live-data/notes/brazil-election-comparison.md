@@ -311,6 +311,12 @@ Os sete JSON canônicos (incluindo manifesto) e o candidato ignorado anterior ma
 
 Branch própria vazia removida, retorno à main limpa. Nenhum commit/PR/deploy de produto; importação/check/e2e/UI/CI/Ready não repetidos sem diff aplicável. PR94 editorial e sua pendência de acesso permanecem separadas. Sem nova ação necessária; próxima tentativa apenas na cadência existente. Recibos locais: `/tmp/gld-tse-20261126-0801-before.json`, `-run.json`, `-refresh.log`, `-verification.json` e `-public.json`.
 
+## Rechecagem de 26 novembro, 14:03 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse-refresh-20261126-1403. Uma execução `npm run history:refresh:tse -- --apply`, Node v24.22.1/Python 3.12.4, de 2026-11-26T14:04:37.087750+00:00 a 2026-11-26T14:04:45.582852+00:00. Saída 1; relatório atual `blocked` em 2026-11-26T14:04:45.572Z, com motivo integralmente idêntico ao anterior: `Previously published selections lost or inconsistent: [(6, 'AP', 1), (7, 'AP', 1)]`. Não equivale a changed=false. Scripts/gates sem diff; o guard bloqueia antes da aplicação e o relatório não distingue ausência original de exclusão por divergência de soma. Causa externa não estabelecida, sem novos hashes/identidades/totais no relatório; candidato antigo não é resultado desta captura.
+
+Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock ausente, staging igual ao anterior e diretórios preexistentes preservados. Exports 2026/2022 HTTP200 e integralmente iguais aos canônicos, incluindo proveniência/datas, em 2026-11-26T14:05:06.219786+00:00; normalizada somente a ordem dos recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem download adicional após a falha. Recibos /tmp/gld-tse-20261126-1403-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
+
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
 
