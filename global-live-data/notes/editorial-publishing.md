@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Artigos originais por tendencias e rotina editorial a cada seis horas."
 tags: [global-live-data, conceito, editorial]
-atualizado: "2026-11-25"
+atualizado: "2026-11-26"
 ---
 
 # Publicacao editorial
@@ -602,6 +602,12 @@ Nenhuma nova pauta selecionada, apuração primária ou texto preparado enquanto
 Uma execução editorial:research, Node v24.22.1, de 2026-11-25T18:32:46.233509+00:00 a 2026-11-25T18:32:51.418521+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 18:32:48.028Z a 18:32:51.402Z; comparados 72 artigos. Consultas de Barcelona/Villarreal e basquete exigiriam ângulo próprio diante dos guias de tabela Champions, tempo de jogo, súmula NBA e rankings NCAA. Não inferir competição, confronto, resultado, escalação ou transmissão só pela busca. BR max/hbo max e ES movistar plus são leads de serviço ainda não apurados; não aplicar a outro serviço as regras do guia Apple TV. Consultas políticas e sobre pessoas não viraram alegações.
 
 Nenhuma pauta selecionada nem apuração primária ou texto preparado enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261125-1831-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece separado.
+
+## Rodada de 26 novembro, 00:35 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-26T00:36:40.404127+00:00 a 2026-11-26T00:36:45.532451+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 00:36:42.284Z a 00:36:45.509Z; comparados 72 artigos. Partidas de basquete e hóquei têm sobreposição potencial com guias NBA/NCAA/NHL; ES grand theft auto vi retoma tema com guia de preload existente. GB night sky é consulta genérica, sem estabelecer evento astronômico ou motivo da procura. Não inferir resultados, lesões, lançamentos ou transmissão. Consultas políticas, policiais, de saúde e sobre pessoas não foram transformadas em alegações.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-0035-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece separado.
 
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
