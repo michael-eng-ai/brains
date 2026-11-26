@@ -621,6 +621,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-26T12:39:10.480547+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-1238-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 26 novembro, 18:36 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-26T18:37:15.185919+00:00 a 2026-11-26T18:37:20.368723+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 2026-11-26T18:37:16.987Z a 2026-11-26T18:37:20.351Z; 72 artigos existentes. US detroit lions schedule/quarterbacks e jogos universitários têm sobreposição potencial com guias de calendário NFL, pontuação e ranking NCAA. BR grand theft auto retoma guia de preload existente; JP/IN acc emerging teams asia cup exigiria ângulo próprio diante dos guias de críquete. Partidas europeias, ingressos e streaming permanecem pistas sem apuração: não inferir resultado, lesão, escalação, disponibilidade, preço ou anúncio. Consultas políticas, financeiras e sobre pessoas não foram transformadas em alegações ou recomendações.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-1836-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
