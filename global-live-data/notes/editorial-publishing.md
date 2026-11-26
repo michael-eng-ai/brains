@@ -615,6 +615,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-26T06:40:44.551942+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-0640-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 26 novembro, 12:38 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-26T12:39:10.480547+00:00 a 2026-11-26T12:39:13.848181+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 2026-11-26T12:39:11.593Z a 2026-11-26T12:39:13.830Z; 72 artigos existentes. Thanksgiving, clima/inverno e placares/classificações de críquete têm sobreposição potencial com os guias existentes; horários de lojas são locais e não foram generalizados. PlayStation Plus/Paramount/USJ são pistas não apuradas, sem inferir jogos, preços, remoção de catálogo, disponibilidade ou ingressos. Consultas políticas, jurídicas, financeiras, acidentes e pessoas não viraram alegações ou recomendações.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-1238-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
