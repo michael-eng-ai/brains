@@ -609,6 +609,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-26T00:36:40.404127+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-0035-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 26 novembro, 06:40 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-26T06:40:44.551942+00:00 a 2026-11-26T06:40:48.860963+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 06:40:46.254Z a 06:40:48.841Z; comparados 72 artigos. US/BR exibiram vários termos genéricos como moon, mirror, duck e ticket, insuficientes para identificar acontecimentos ou motivo da procura. ES dimorphos é possibilidade não apurada; consultas NBA e GB uk weather patterns changing met office exigiriam ângulo próprio diante de guias existentes. Não inferir anúncio, risco astronômico, resultado ou alteração climática a partir das buscas. Consultas políticas, militares, jurídicas, financeiras e de saúde não viraram alegações ou recomendações.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261126-0640-research.json, -research.log e -receipt.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
