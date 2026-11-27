@@ -3,7 +3,7 @@ tipo: conceito
 projeto: global-live-data
 resumo: "Comparacao oficial Brasil 2026/2022, Senado e quarentena de divergencias TSE."
 tags: [global-live-data, eleicoes, historico, qualidade]
-atualizado: "2026-11-26"
+atualizado: "2026-11-27"
 ---
 
 # Comparacao de eleicoes brasileiras
@@ -322,6 +322,12 @@ Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock ausente, 
 Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse-refresh-20261126-2002. Uma execução `npm run history:refresh:tse -- --apply`, Node v24.22.1/Python 3.12.4, de 2026-11-26T20:03:37.178783+00:00 a 2026-11-26T20:03:45.168259+00:00. Saída 1; relatório atual `blocked` em 2026-11-26T20:03:45.157Z, com motivo integralmente idêntico ao anterior: `Previously published selections lost or inconsistent: [(6, 'AP', 1), (7, 'AP', 1)]`. Não equivale a changed=false. Scripts/gates sem diff; o guard bloqueia antes da aplicação e o relatório não distingue ausência original de exclusão por divergência de soma. Causa externa não estabelecida, sem novos hashes/identidades/totais no relatório; candidato antigo não é resultado desta captura.
 
 Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock ausente, staging igual ao anterior e diretórios preexistentes preservados. Exports 2026/2022 HTTP200 e integralmente iguais aos canônicos, incluindo proveniência/datas, em 2026-11-26T20:04:06.061180+00:00; normalizada somente a ordem dos recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem download adicional após a falha. Recibos /tmp/gld-tse-20261126-2002-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
+
+## Rechecagem de 27 novembro, 02:08 UTC
+
+Main limpa/atualizada 6a7a03d60717f3cb2b1db7226851aba6de5c70e3; branch codex/tse-refresh-20261127-0208. Uma execução `npm run history:refresh:tse -- --apply`, Node v24.22.1/Python 3.12.4, de 2026-11-27T02:09:45.795911+00:00 a 2026-11-27T02:09:50.976367+00:00. Saída 1; relatório atual `blocked` em 2026-11-27T02:09:50.965Z, com motivo integralmente idêntico ao anterior: `Previously published selections lost or inconsistent: [(6, 'AP', 1), (7, 'AP', 1)]`. Não equivale a changed=false. Scripts/gates sem diff; o guard bloqueia antes da aplicação e o relatório não distingue ausência original de exclusão por divergência de soma. Causa externa não estabelecida, sem novos hashes/identidades/totais no relatório; candidato antigo não é resultado desta captura.
+
+Sete JSON/datas e candidato antigo preservados por hashes/mtimes; lock ausente, staging igual ao anterior e diretórios preexistentes preservados. Exports 2026/2022 HTTP200 e integralmente iguais aos canônicos, incluindo proveniência/datas, em 2026-11-27T02:10:30.906527+00:00; normalizada somente a ordem dos recortes/partidos. Mantidos 170/176 recortes, 1997/2217 agregados, ambos turnos e RO/AP publicados. Main/origin limpas, branch vazia removida; sem commit/PR/deploy do produto ou suites/UI/CI/Ready repetidos. Nenhuma nova ação necessária; gates/timeouts/cadência intactos, sem download adicional após a falha. Recibos /tmp/gld-tse-20261127-0208-before.json, -run.json, -refresh.log, -verification.json e -public.json. [[2026-11-17-tse-ap-retention-blocked]].
 
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Timeout sem perda dos dados publicados.
