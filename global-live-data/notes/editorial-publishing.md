@@ -645,6 +645,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-27T12:49:00.123764+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261127-1247-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 27 novembro, 18:54 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-27T18:55:07.796651+00:00 a 2026-11-27T18:55:12.797359+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 2026-11-27T18:55:09.505Z a 2026-11-27T18:55:12.775Z; 72 artigos existentes. NHL, basquete universitário e GTA têm guias existentes. US storm não identifica por si um fenômeno/local; há conteúdo sobre alertas e previsão. GB rugby nations championship e mosconi cup 2026 permanecem pistas não apuradas; não confundir o primeiro com o guia existente de rugby league nem a segunda com snooker. Buscas de ingressos, exames e streaming exigiriam fontes atuais de acesso/data/território. Consultas sobre saúde, conflitos, política, Justiça, finanças e pessoas não viraram alegações, resultados ou recomendações; nenhuma escalação, placar ou cotação foi inferida.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261127-1854-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
