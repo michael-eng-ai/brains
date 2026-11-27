@@ -633,6 +633,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-27T00:44:33.052113+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261127-0042-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 27 novembro, 06:51 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-27T07:47:17.772659+00:00 a 2026-11-27T07:47:21.917759+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 2026-11-27T07:47:19.289Z a 2026-11-27T07:47:21.893Z; 72 artigos existentes. GTA, NFL e críquete têm sobreposição potencial com guias existentes; não inferir port PC, veículo, atriz, resultado ou escalação. BR trouxe vários termos genéricos (storm, ticket, dog, snow, sun, radio, rocket, thunder, basket), insuficientes para identificar eventos. ES servicio geológico colombiano e IN ai quantum gravity são pistas não apuradas, sem inferir terremoto, alerta ou descoberta científica. Consultas de saúde, conflitos, política, finanças e sobre pessoas não viraram alegações ou recomendações; horários de transporte e ofertas exigiriam verificação territorial própria.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Horários acima são da execução observada, distintos do disparo 06:51 UTC; não foi inferida a causa desse intervalo. Recibos /tmp/gld-editorial-20261127-0651-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
