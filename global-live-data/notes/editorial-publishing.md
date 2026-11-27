@@ -639,6 +639,12 @@ Uma execução editorial:research, Node v24.22.1, de 2026-11-27T07:47:17.772659+
 
 Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Horários acima são da execução observada, distintos do disparo 06:51 UTC; não foi inferida a causa desse intervalo. Recibos /tmp/gld-editorial-20261127-0651-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
 
+## Rodada de 27 novembro, 12:47 UTC: entrega anterior pendente
+
+Uma execução editorial:research, Node v24.22.1, de 2026-11-27T12:49:00.123764+00:00 a 2026-11-27T12:49:04.625078+00:00, saída 0. US/BR/GB/ES/JP/IN ready, dez consultas cada, observações de 2026-11-27T12:49:01.788Z a 2026-11-27T12:49:04.605Z; 72 artigos existentes. Black Friday, Apple TV, GTA e críquete têm sobreposição potencial com guias existentes. US us air force cloud one breach e GB lloyds app not working são somente consultas, sem confirmação de incidente ou indisponibilidade. Ofertas de voos, iPhone, PlayStation e Natura exigiriam apuração de preço/estoque/território; nenhuma oferta foi afirmada. Consultas financeiras, políticas, jurídicas, loterias e sobre pessoas não viraram alegações, resultados ou recomendações; esportes permanecem sem inferência de escalação ou placar. Catálogos de streaming exigiriam verificação territorial.
+
+Nenhuma pauta selecionada ou apuração primária/texto preparados enquanto a entrega Focus aguarda confirmação direta Production/Ready/source SHA. Sem mudança de datas editoriais ou branch/PR/deploy. Recibos /tmp/gld-editorial-20261127-1247-research.json, -research.log e -run.json; conferência pública em [[release-status]]. TSE permanece separado.
+
 ## Conexoes
 - [[2026-11-23-focus-editorial]] - Focus: PR94 integrada, público validado e confirmação Ready pendente.
 
