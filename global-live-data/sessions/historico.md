@@ -3,7 +3,7 @@ tipo: "historico"
 projeto: "global-live-data"
 resumo: "Linha do tempo com evidencias e limites das sessoes."
 tags: ["global-live-data", "historico"]
-atualizado: "2026-11-26"
+atualizado: "2026-11-27"
 ---
 
 # Historico
@@ -307,6 +307,8 @@ atualizado: "2026-11-26"
 - 2026-11-26, editorial 18:36 UTC: pesquisa única às 18:37 UTC, saída 0, seis mercados ready e 72 artigos existentes. Nenhuma pauta nova enquanto Focus aguarda Ready direto; acessos inalterados não repetidos. PT/EN/ES 200 e mesmo deployment ID às 18:37:46 UTC; main limpa 6a7a03d, históricos/datas intactos. Sem nova publicação ou mudança acionável. [[2026-11-23-focus-editorial]].
 
 - 2026-11-26, TSE 20:03 UTC: captura única, saída 1/blocked AP idêntico ao anterior. Sete JSON/datas e candidato antigo intactos, lock/staging próprios limpos. Exports 2026/2022 iguais aos canônicos às 20:04:06 UTC; main/origin limpas 6a7a03d, branch vazia removida. Sem release, suites repetidas ou nova ação necessária. [[2026-11-17-tse-ap-retention-blocked]], [[brazil-election-comparison]].
+
+- 2026-11-27, editorial 00:42 UTC: pesquisa única às 00:44 UTC, saída 0, seis mercados ready e 72 artigos existentes. Nenhuma pauta nova enquanto Focus aguarda Ready direto; acessos inalterados não repetidos. PT/EN/ES 200 e mesmo deployment ID às 00:45:14 UTC; main limpa 6a7a03d, históricos/datas intactos. Sem nova publicação ou mudança acionável. [[2026-11-23-focus-editorial]].
 
 ## Conexoes
 - [[2026-11-25-tse-timeout-blocked]] - Captura expirada e preservação verificada.
